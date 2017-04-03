@@ -177,7 +177,7 @@ for result in results.keys():
 		subOc[str(pS)]["SLink Case"] = subOc[str(pS)]["SLink Case"] + 1
 
 	#get most n popular subject
-	n = 2
+	n = 3
 	p = getNPopularSubject(g,n)
 	#check if rlink is related to the n popular subject
 	pred = hasLinktoPSubject(g,p,result)

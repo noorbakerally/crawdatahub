@@ -4,8 +4,8 @@ from texttable import Texttable
 import math
 
 def printStable(sArray):
-	print "Triple Category"
-	print "==============="
+	#print "Triple Category"
+	#print "==============="
 	t = Texttable()
 	t.add_rows([['Rep', 'ST','OT',"Cases","% Cases"]])	
 	for rep in sArray.keys():
@@ -13,7 +13,7 @@ def printStable(sArray):
 		pNumCase = (float(crep["NumCase"])/totalCases)*100
 		t.add_row([rep,crep["ST"],crep["OT"],crep["NumCase"],pNumCase])	
 	t.add_row(['','','Total',totalCases,''])
-	print t.draw()
+	return t.draw()
 
 
 def getSocRowArray(label,i,sArray):
@@ -23,8 +23,8 @@ def getSocRowArray(label,i,sArray):
 	pSLinkCase = sArray[str(i)]["PSLink Case"]
 	return [label,cases,pCases,sLinkCase,pSLinkCase]
 def printSocTable(sArray):
-	print "Subject Occurence Table"
-	print "========================"
+	#print "Subject Occurence Table"
+	#print "========================"
 
 	i=0;
 	t = Texttable()
@@ -36,7 +36,7 @@ def printSocTable(sArray):
 		StriplePLabel = StriplePLabel.replace("00","0")
 		t.add_row(getSocRowArray(StriplePLabel,i,sArray))
 	t.add_row(getSocRowArray(">= 90",10,sArray))
-	print t.draw()
+	return t.draw()
 		
 
 def getNPopularSubject(g,n):
@@ -117,12 +117,18 @@ subOc = {
 
 stemplate = {"Cases":0,"% Cases":0,"SLink":0,"PSLink":0}
 
+fileProcessed = 0
+popularPredicates = ""
 for result in results.keys():
+	
+	fileProcessed = fileProcessed + 1
+	print fileProcessed
+
 	index = links["links"][result]
         rformat = rlinkstatus[result]
 
-	if (result != "http://www.semanlink.net/tag/mp3.rdf"):	
-		continue
+	#if (result != "http://www.semanlink.net/tag/mp3.rdf"):	
+		#continue
 
 	cresult = results[result]
 	if cresult["ATriples"] == "0":
@@ -132,8 +138,6 @@ for result in results.keys():
 	totalCases = totalCases + 1
 	index = links["links"][result]		
 	rformat = rlinkstatus[result]
-	#g = Graph()
-	#g = g.parse(filesDirectory+str(index),format=rformat)
 
 	if cresult["STriples"] == "0" and cresult["OTriples"] == "0":
 		sCases["GT"]["NumCase"] = sCases["GT"]["NumCase"] + 1			
@@ -168,17 +172,24 @@ for result in results.keys():
 		subOc[str(pS)]["SLink Case"] = subOc[str(pS)]["SLink Case"] + 1
 
 	#get most n popular subject
-	n = 2
+	n = 1
 	p = getNPopularSubject(g,n)
 	#check if rlink is related to the n popular subject
 	pred = hasLinktoPSubject(g,p,result)
 	if (len(pred) > 0):
                 subOc[str(pS)]["PSLink Case"] = subOc[str(pS)]["PSLink Case"] + 1
+		for p in pred:
+			popularPredicates = popularPredicates + "\n" + p
 
 
-#printStable(sCases)	
+rs = printStable(sCases)	
 #print subOc
-printSocTable(subOc)
+rs = rs + "\n" + printSocTable(subOc) + "\n\n"
+
+f = open("analysis_result","w")
+f.write(rs)
+f.write("Popular Predicates:"+popularPredicates)
+f.close()
 
 
 

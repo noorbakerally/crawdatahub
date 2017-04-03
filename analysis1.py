@@ -3,6 +3,10 @@ from rdflib import Graph
 from texttable import Texttable
 import math
 
+import sys  
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 def printStable(sArray):
 	#print "Triple Category"
 	#print "==============="
@@ -127,7 +131,8 @@ for result in results.keys():
 	index = links["links"][result]
         rformat = rlinkstatus[result]
 
-	#if (result != "http://www.semanlink.net/tag/mp3.rdf"):	
+	#if (result != "le"):	
+	#if ("-sady/65186030%3E&default-graph-" in result):
 		#continue
 
 	cresult = results[result]

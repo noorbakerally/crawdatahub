@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:OrEd="http://portal.organic-edunet.eu:8080/linkeddata/resource/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:dbPed="http://dbpedia.org/resource#"
+    xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:lomvoc="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#"
+    xmlns:vocab="http://portal.organic-edunet.eu:8080/linkeddata/vocab/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:lre="http://organic-edunet.eu/LOM/rdf/voc#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:map="file:/home/flag/D2RQ/lom.n3#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:db="http://data.organic-edunet.eu/resource/">
+  <rdf:Description rdf:about="http://data.organic-edunet.eu/data/identifier/1454?output=rdfxml">
+    <foaf:primaryTopic>
+      <OrEd:identifier rdf:about="http://data.organic-edunet.eu/resource/identifier/1454">
+        <dcterms:rights>
+          <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-nd%2F3.0%2F%3E"/>
+          </rdf:Description>
+        </dcterms:rights>
+        <lom:contributionDate>2010-10-20T00:00:00.00Z</lom:contributionDate>
+        <lom:intendedEndUserRole>
+          <rdf:Description rdf:about="http://organic-edunet.eu/LOM/rdf/voc#Role-LOMv1.0">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23Role-LOMv1.0%3E"/>
+          </rdf:Description>
+        </lom:intendedEndUserRole>
+        <dcterms:language>de</dcterms:language>
+        <dcterms:coverage>
+          <rdf:Description rdf:about="http://dbpedia.org/resource#Austria">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%23Austria%3E"/>
+          </rdf:Description>
+        </dcterms:coverage>
+        <lom:metametadataEntry>
+          <rdf:Description rdf:about="http://confolio.virtuelleschule.bmukk.gv.at/scam/1/entry/1282">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fconfolio.virtuelleschule.bmukk.gv.at%2Fscam%2F1%2Fentry%2F1282%3E"/>
+          </rdf:Description>
+        </lom:metametadataEntry>
+        <dcterms:identifier>
+          <rdf:Description rdf:about="http://www.agrarhochschule.at/cm2/index.php/14-paedagoginnen-vs-asohs-pts-bs-hak-ahs-hum-htl-bbs/seminare-2011/493-d06-humus-die-vergessene-chance-fuer-das-weltklima">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.agrarhochschule.at%2Fcm2%2Findex.php%2F14-paedagoginnen-vs-asohs-pts-bs-hak-ahs-hum-htl-bbs%2Fseminare-2011%2F493-d06-humus-die-vergessene-chance-fuer-das-weltklima%3E"/>
+          </rdf:Description>
+        </dcterms:identifier>
+        <lom:context>
+          <rdf:Description rdf:about="http://organic-edunet.eu/LOM/rdf/voc#LREv3.0">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23LREv3.0%3E"/>
+          </rdf:Description>
+        </lom:context>
+        <dcterms:title>Möglichkeiten und Grenzen der nachhaltigen Bodennutzung im CO2 Zertifikatehandel @de</dcterms:title>
+        <dcterms:title>Carbon Credits from Sustainable Landuse Systems (CaLas) @en</dcterms:title>
+        <lom:technicalSize>0</lom:technicalSize>
+        <lom:context>
+          <rdf:Description rdf:about="http://organic-edunet.eu/LOM/rdf/voc#LOMv1.0">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23LOMv1.0%3E"/>
+          </rdf:Description>
+        </lom:context>
+        <lom:metametadataContributionRole>
+          <rdf:Description rdf:about="http://organic-edunet.eu/LOM/rdf/voc#Role-validator">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23Role-validator%3E"/>
+          </rdf:Description>
+        </lom:metametadataContributionRole>
+        <lom:keyword rdf:resource="http://data.organic-edunet.eu/resource/1454-4319"/>
+        <lom:typicalAgeRange rdf:resource="http://data.organic-edunet.eu/resource/1454-1454"/>
+        <lom:metadataSchema>LREv3.0</lom:metadataSchema>
+        <lom:metametadataContributionDate>2011-02-14T09:29:16.67Z</lom:metametadataContributionDate>
+        <lom:catalog>URI</lom:catalog>
+        <lom:metametadataContributionEntity>BEGIN:VCARDFN:Christiane Wagner-AltEMAIL;TYPE=INTERNET:christiane.wagner-alt@lebensministerium.atN:Wagner-Alt;ChristianeVERSION:3.0END:VCARD</lom:metametadataContributionEntity>
+        <dcterms:format>video/mpeg</dcterms:format>
+        <lom:contributionRole>
+          <rdf:Description rdf:about="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#Role-initiator">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fltsc.ieee.org%2Frdf%2Flomv1p0%2Fvocabulary%23Role-initiator%3E"/>
+          </rdf:Description>
+        </lom:contributionRole>
+        <lom:metametadataContributionEntity>BEGIN:VCARDFN:Christiane Wagner-AltEMAIL;TYPE=INTERNET:christiane.wagner-alt@lebensministerium.atORG:Lebensministerium (BMLFUW)N:Wagner-Alt;ChristianeVERSION:3.0END:VCARD</lom:metametadataContributionEntity>
+        <lom:metametadataContributionRole>
+          <rdf:Description rdf:about="http://organic-edunet.eu/LOM/rdf/voc#Role-enricher">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23Role-enricher%3E"/>
+          </rdf:Description>
+        </lom:metametadataContributionRole>
+        <lom:location rdf:resource="http://www.agrarhochschule.at/cm2/index.php/14-paedagoginnen-vs-asohs-pts-bs-hak-ahs-hum-htl-bbs/seminare-2011/493-d06-humus-die-vergessene-chance-fuer-das-weltklima"/>
+        <lom:structure>
+          <rdf:Description rdf:about="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#LOMv1.0">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fltsc.ieee.org%2Frdf%2Flomv1p0%2Fvocabulary%23LOMv1.0%3E"/>
+          </rdf:Description>
+        </lom:structure>
+        <lom:contributionEntity>BEGIN:VCARDFN:Christiane Wagner-AltEMAIL;TYPE=INTERNET:christiane.wagner-alt@lebensministerium.atORG:LebensministeriumN:Wagner-Alt;ChristianeVERSION:3.0END:VCARD</lom:contributionEntity>
+        <lom:annotationEntity>BEGIN:VCARDFN:Christiane Wagner-AltEMAIL;TYPE=INTERNET:christiane.wagner-alt@lebensministerium.atORG:Lebensministerium (BMLFUW)N:Wagner-Alt;ChristianeVERSION:3.0END:VCARD</lom:annotationEntity>
+        <dcterms:type>
+          <rdf:Description rdf:about="http://organic-edunet.eu/LOM/rdf/voc#LearningResourceType-LREv3.0">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23LearningResourceType-LREv3.0%3E"/>
+          </rdf:Description>
+        </dcterms:type>
+        <lom:metadataSchema>LOMv1.0</lom:metadataSchema>
+        <lom:description rdf:resource="http://data.organic-edunet.eu/resource/1454-2498"/>
+        <lom:copyrightandOtherRestrictions>yes</lom:copyrightandOtherRestrictions>
+        <lom:metametadataContributionRole>
+          <rdf:Description rdf:about="http://organic-edunet.eu/LOM/rdf/voc#Role-creator">
+            <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23Role-creator%3E"/>
+          </rdf:Description>
+        </lom:metametadataContributionRole>
+        <lom:cost>no</lom:cost>
+      </OrEd:identifier>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://portal.organic-edunet.eu:8080/linkeddata/resource/identifier">
+    <rdfs:seeAlso rdf:resource="http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fportal.organic-edunet.eu%3A8080%2Flinkeddata%2Fresource%2Fidentifier%3E"/>
+  </rdf:Description>
+</rdf:RDF>

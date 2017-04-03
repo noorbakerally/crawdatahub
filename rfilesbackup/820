@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:hr-xml="http://gnoss.com/Ontologia/Curriculum.owl#" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/mpv-7-making-of/7aab87b4-5c7d-4f31-bfb1-3cacc19298e1" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/planes-para-la-tercera-evaluacion-ies-icaro/66b818a4-1364-4888-be4c-ebd5f8c56172" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/como-gestionar-un-surtido-con-el-criterio/28cc7aba-6d59-426c-8f49-b80462c771f4" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/escaparate-ici/58038eae-0972-499e-bbe6-e9c09bfab23a" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/carta-presentacion-fernando/093b1b9d-12a9-483c-9d0b-9964dc62147b" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/postal-navidea/f43825da-bcb6-4197-8647-812ca34e6e98" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/proyecto-sobre-el-marketing/19455a0b-7d73-4d06-a182-8a8fe62c3515" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/la-trastienda/f66bfbd0-7549-4b45-a6ee-b540e1738844" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/wiki-de-la-trastienda/4162c27e-7776-4b2d-8dff-a456d5048f05" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/presentacion-de-fernando/62d035ae-8dde-4641-b11b-ea4a563e24db" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/mpv-7-making-of/7aab87b4-5c7d-4f31-bfb1-3cacc19298e1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Mpv 7 Making of]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Bueno este es el v&iacute;deo que hemos realizado para la nueva actividad de Marketing y del proyecto Apadrina. Espero que os guste.</p>
+<p>
+	En &eacute;l hablamos sobre los cuestionarios que hemos realizado al jefe de nuestro establecimiento y a sus clientes</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-20T13:04:50+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Mpv 7 Making of]]></dcterms:title>
+    <dcterms:source rdf:resource="http://javirg.wikispaces.com/Actividad+7" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/javier-ruiz-garcía/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/video" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/actividad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/bueno" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/mpv" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/espero" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/making%20of" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/proyecto%20apadrina" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/javier-ruiz-garcía/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Javier ruiz garcía  · IES ICARO 1GCM 2011-12]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Javier]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[ruiz garcía ]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Javier ruiz garcía ]]></foaf:name>
+  </foaf:Person>
+  <foaf:Group rdf:about="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[IES ICARO 1GCM 2011-12]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[IES ICARO 1GCM 2011-12]]></foaf:name>
+    <foaf:member rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/javier-ruiz-garcía/" />
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/video">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[video]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/actividad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[actividad]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/bueno">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bueno]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/mpv">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[mpv]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/espero">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[espero]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/making%20of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[making of]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/proyecto%20apadrina">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[proyecto apadrina]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/planes-para-la-tercera-evaluacion-ies-icaro/66b818a4-1364-4888-be4c-ebd5f8c56172">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[PLANES PARA LA TERCERA EVALUACIÓN (IES ICARO)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p style="text-align: justify; ">
+	&iexcl;Hola a todos!</p>
+<p style="text-align: justify; ">
+	El Proyecto est&aacute; en marcha y estoy MUY satisfecha con vuestros trabajos. Esta &uacute;ltima evaluaci&oacute;n va a traer mucho trabajo pero MUY INTERESANTE.</p>
+<p style="text-align: justify; ">
+	Necesito vuestra ayuda. Recordad que siempre ser&aacute; recompensada.</p>
+<p style="text-align: justify; ">
+	En mi planes hay varias actividades:</p>
+<p style="text-align: justify; ">
+	1.- Creaci&oacute;n de una <strong>p&aacute;gina en facebook </strong>que usaremos para publicar nuestros art&iacute;culos de Blog (marketing de contenidos), nuestros progresos en los wikis y nos ofreceremos como CONSULTORIO ONLINE (abierto de octubre a junio). Cualquier PYME podr&iacute;a consultarnos dudas concretas (al estilo de las revistas que los lectores piden consejos) y nos ofrecer&iacute;amos a responder en el muro. Donde se podr&iacute;an plantear debates e incluso propuestas por parte de otros seguidores entre s&iacute;.</p>
+<p style="text-align: justify; ">
+	<strong>NECESITO DOS COMMUNITY MANAGERS </strong>PARA LA P&Aacute;GINA EN FACEBOOK, que coordinen el trabajo y la creaci&oacute;n de &eacute;sta. Por supuesto la resoluci&oacute;n de las consultas se realizar&iacute;a durante las clases y entre todos (brainstoirming) y cada vez un miembro de la clase (designado por los community managers) tendr&iacute;a que transcribir la soluci&oacute;n o respuesta decidida entre todos.</p>
+<p style="text-align: justify; ">
+	Estos Comunnity Managers tambi&eacute;n controlar&aacute;n la cuenta de Twitter.</p>
+<p style="text-align: justify; ">
+	2.-<strong> SE REQUIERE,</strong> una estructura para la <strong>COORDINACI&Oacute;N DEL PROYECTO APADRINA Y SU EVENTO FINAL DE CURSO.</strong></p>
+<p style="text-align: justify; ">
+	<span style="color:#ff8c00;"><strong><span style="background-color:#000000;">LOURDES Y ALBA C. </span></strong></span><span style="color:#a52a2a;"><strong>&nbsp;DIRECTORAS DE PROYECTO, </strong></span>que coordinen los siguientes trabajos:</p>
+<p style="margin-left: 80px; ">
+	<strong><span style="color:#ff8c00;"><span style="background-color:#000000;">ESTEFAN&Iacute;A Y EVA&nbsp;</span></span>COORDINADORAS DE EVENTO</strong> (Planificaci&oacute;n del evento, reparto de temas entre los grupos y control del trabajo de los equipos)</p>
+<p style="margin-left: 80px; ">
+	<strong><span style="color:#ff8c00;"><span style="background-color:#000000;">CARLOS Y ADELINA </span></span>COORDINADORES DE DECORACI&Oacute;N</strong> del escenario</p>
+<p style="margin-left: 80px; ">
+	<strong><span style="color:#ff8c00;"><span style="background-color:#000000;">EVA Y MARTA &nbsp;</span></span>COORDINADORES DE PUBLICIDAD </strong>(V&iacute;deo, invitaciones al evento, redes sociales, community manager (facebook) /twitter)</p>
+<p style="margin-left: 80px; ">
+	<strong><span style="color:#ff8c00;"><span style="background-color:#000000;">JAVI Y ESTEFAN&Iacute;A&nbsp;</span></span>COORDINADORES DE IMAGEN, SONIDO Y LUCES </strong>(posible retransmisi&oacute;n en streaming)</p>
+<p style="margin-left: 80px; ">
+	<strong><span style="color:#ff8c00;"><span style="background-color:#000000;">LOURDES Y ALBA C.&nbsp;</span></span>2 COORDINADORES DE BLOG, WIKIS Y CANAL YOUTUBE. &nbsp;</strong>(Control del trabajo realizado por cada equipo, publicaci&oacute;n de los mejores v&iacute;deos en Youtube, supervisi&oacute;n de los publicado en Gnoss)</p>
+<p style="text-align: justify; ">
+	&nbsp;</p>
+<p style="text-align: justify; ">
+	Cualquier sugerencia por vuestra parte ser&aacute; bienvenida, esta es una primera aproximaci&oacute;n al trabajo que realizaremos.</p>
+<p style="text-align: justify; ">
+	<span style="color:#a52a2a;"><strong>NOTA</strong></span>: los DIRECTORES DE PROYECTO pueden asumir, solapadamente, el cargo de Coordinador o Community Manager.</p>
+<p style="text-align: justify; ">
+	Cualquier comentario, por favor, en este hilo.</p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[profesora · carolina cristanchi polo]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-03-30T01:25:33+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[PLANES PARA LA TERCERA EVALUACIÓN (IES ICARO)]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Nota]]></dcterms:source>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesora-laclasedelaura/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/gnoss" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/blog" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/video" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/evaluaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/twitter" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/planificaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/pyme" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/trabajo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/control" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ies" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinador" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/nota" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/creaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/muy%20interesante" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/planes" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/icaro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordina" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/consultorio%20online" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/necesito%20dos%20community%20managers%20para%20la%20p%c3%a1gina%20en%20facebook" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/dos%20cordinadores%20de%20blog%20y%20wiki" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinaci%c3%b3n%20del%20proyecto%20apadrina%20y%20su%20evento%20final%20de%20curso" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20evento" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/organizaci%c3%b3n%20de%20contenidos%20y%20reparto%20de%20temas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20decoraci%c3%b3n%20y%20publicidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20imagen" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/sonido%20y%20luces" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20blog" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/wikis%20y%20canal%20youtube" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20decoraci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/y%20publicidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/comunnity%20managers" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/directores%20de%20proyecto" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/profile/profesora-laclasedelaura/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/profesora-laclasedelaura/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Profesora · Laura colorado ortiz]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Laura]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[colorado ortiz]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/gnoss">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gnoss]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/blog">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[blog]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/evaluaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[evaluación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/twitter">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[twitter]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/planificaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[planificación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/pyme">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pyme]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/trabajo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[trabajo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/control">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[control]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ies">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ies]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinador">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[coordinador]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/nota">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[nota]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/creaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[creación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/muy%20interesante">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[muy interesante]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/planes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[planes]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/icaro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[icaro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordina">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[coordina]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/consultorio%20online">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[consultorio online]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/necesito%20dos%20community%20managers%20para%20la%20p%c3%a1gina%20en%20facebook">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[necesito dos community managers para la página en facebook]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/dos%20cordinadores%20de%20blog%20y%20wiki">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[dos cordinadores de blog y wiki]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinaci%c3%b3n%20del%20proyecto%20apadrina%20y%20su%20evento%20final%20de%20curso">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[coordinación del proyecto apadrina y su evento final de curso]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20evento">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[coordinadores de evento]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/organizaci%c3%b3n%20de%20contenidos%20y%20reparto%20de%20temas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[organización de contenidos y reparto de temas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20decoraci%c3%b3n%20y%20publicidad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[coordinadores de decoración y publicidad]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20imagen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[coordinadores de imagen]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/sonido%20y%20luces">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sonido y luces]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20blog">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[coordinadores de blog]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/wikis%20y%20canal%20youtube">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[wikis y canal youtube]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/coordinadores%20de%20decoraci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[coordinadores de decoración]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/y%20publicidad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[y publicidad]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/comunnity%20managers">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[comunnity managers]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/directores%20de%20proyecto">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[directores de proyecto]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/como-gestionar-un-surtido-con-el-criterio/28cc7aba-6d59-426c-8f49-b80462c771f4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Cómo gestionar un surtido con el criterio CUANTITATIVO Pareto (80/20) Alvaro Marchese]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Me ha parecido un tema interesante y &uacute;til sobre todo porque la regla 20/80 es capaz de aplicarsela para uno mismo. La informaci&oacute;n requerida me ha costado buscarla porque la Ley de Pareto es muy amplia y se puede aplicar a muchas cosas adem&aacute;s del marketing. Cuando se ha publicado se ha hecho de forma distinta de como lo tenia, se han cambiado los parrafos y algunas cosas.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-02-26T23:59:42+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Cómo gestionar un surtido con el criterio CUANTITATIVO Pareto (80/20) Alvaro Marchese]]></dcterms:title>
+    <dcterms:source rdf:resource="http://proyectogcm2011.blogspot.com/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-Trueba-1GS-MPV-2011-12/profile/ALVARO-MARCHESE/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/%c3%batil" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/alvaromarchese%20pareto(20%2f80)" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ley%20de%20pareto" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/class/IES-Trueba-1GS-MPV-2011-12/profile/ALVARO-MARCHESE/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/class/IES-Trueba-1GS-MPV-2011-12/profile/ALVARO-MARCHESE/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ALVARO MARCHESE · IES Trueba 1GS MPV 2011-12]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[ALVARO]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[MARCHESE]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[ALVARO MARCHESE]]></foaf:name>
+  </foaf:Person>
+  <foaf:Group rdf:about="http://my.gnoss.com/en/class/IES-Trueba-1GS-MPV-2011-12/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[IES Trueba 1GS Marketing en el Punto de Venta 2011-12]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[IES Trueba 1GS Marketing en el Punto de Venta 2011-12]]></foaf:name>
+    <foaf:member rdf:resource="http://my.gnoss.com/en/class/IES-Trueba-1GS-MPV-2011-12/profile/ALVARO-MARCHESE/" />
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/%c3%batil">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[útil]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/alvaromarchese%20pareto(20%2f80)">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[alvaromarchese pareto(20/80)]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ley%20de%20pareto">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ley de pareto]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/escaparate-ici/58038eae-0972-499e-bbe6-e9c09bfab23a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escaparate ICI]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Esta es nuestra propuesta. Hemos pensado que podiamos colocar dos maniquies con las camisetas de ICI, uno de ellos sentado trabajando con un ordenador y el otro como si estuviese colocando una estanteria, para que se viese un poco a lo que nos dedicamos. En la mesa se podria poner palabras tipo din&aacute;mico, juventud,... ya que es lo que representa nuestra empresa. El fondo podr&iacute;a ser negro con el logo de ICI en naranja ya que son los colores que hemos utilizado para las camisetas, tarjetas...</p>
+<p>
+	En la otra parte del escaparate hemos pensado que se podia poner &nbsp;el logo de ICI y abajo Icaro Comercial Innovation Consultores de marketing, nuestro e-mail, twitter...(todo esto con letras naranjas sobre un fondo negro, porque como ya he comentado antes, estos son los colores que van ligados a nuestra empresa) ya que con esto y con la otra parte del escaparate la gente que lo viese podria saber &nbsp;a que nos dedicamos y como poder contactar con nosotros por internet, tel&eacute;fono..</p>
+<p>
+	. No es un escaparate muy recargado ya que pienso que aun siendo simple se capta perfectamente la idea de nuestra empresa.</p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[alberto]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[daniel]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[jesus]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-03-20T19:07:18+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[escaparate ICI]]></dcterms:title>
+    <dcterms:source rdf:resource="http://content.gnoss.com/imagenes/Documentos/58/5803/58038eae-0972-499e-bbe6-e9c09bfab23a/58038eae-0972-499e-bbe6-e9c09bfab23a.jpg" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/alberto-martinez-moreno1/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/trabajo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/propuesta" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/icaro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici%20icaro%20comercial%20innovation%20consultores" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Image" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/alberto-martinez-moreno1/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Alberto martinez moreno · IES ICARO 1GCM 2011-12]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Alberto]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[martinez moreno]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Alberto martinez moreno]]></foaf:name>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/propuesta">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[propuesta]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ici]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici%20icaro%20comercial%20innovation%20consultores">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ici icaro comercial innovation consultores]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/carta-presentacion-fernando/093b1b9d-12a9-483c-9d0b-9964dc62147b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[CARTA PRESENTACION FERNANDO]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&iexcl;Hola compa&ntilde;eros!</p>
+<p>
+	Esta es mi propuesta como presentaci&oacute;n. Mi grupo esta compuesto por: Marta Caballero, Alba Lozano y yo m&iacute;smo. Aunque somos tres, cada uno a presentado su presentaci&oacute;n de su propia cosecha.</p>
+<p>
+	Mi intenci&oacute;n ha sido la de sintetizar toda informaci&oacute;n de la manera que se entienda perfectamente, as&iacute; como focalizar cada tema, no de una manera especifica, pero si de una manera comprensible.</p>
+<p>
+	&iexcl;Espero que os guste!</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-01-19T18:15:26+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CARTA PRESENTACION FERNANDO]]></dcterms:title>
+    <dcterms:source rdf:resource="http://red.gnoss.com/VisualizarDocumento.aspx?tipo=BaseRecursos&amp;doc=093b1b9d-12a9-483c-9d0b-9964dc62147b&amp;nombre=CARTA+PRESENTACION+FERNANDO.pdf&amp;ext=.pdf&amp;org=11111111-1111-1111-1111-111111111111&amp;proy=aa29f8e5-04c0-416b-9dcb-e60f1fbfe546&amp;dscr=true" />
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Fernando-Puente-Babiano/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/presentaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/venta" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/carta" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/punto" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/fernando" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/caballero" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/icaro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/alba%20lozano" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/presentacion%20fernando" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Fernando-Puente-Babiano/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Fernando-Puente-Babiano/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Fernando Puente Babiano · IES ICARO 1GCM 2011-12]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernando]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Puente Babiano]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernando Puente Babiano]]></foaf:name>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/presentaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[presentación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/venta">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[venta]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/carta">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[carta]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/punto">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[punto]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/fernando">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[fernando]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/caballero">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[caballero]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/alba%20lozano">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[alba lozano]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/presentacion%20fernando">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[presentacion fernando]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/postal-navidea/f43825da-bcb6-4197-8647-812ca34e6e98">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[POSTAL NAVIDEÑA]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&iexcl;Felices fiestas a todos!</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-23T00:06:09+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[POSTAL NAVIDEÑA]]></dcterms:title>
+    <dcterms:source rdf:resource="http://content.gnoss.com/imagenes/Documentos/f4/f438/f43825da-bcb6-4197-8647-812ca34e6e98/f43825da-bcb6-4197-8647-812ca34e6e98.jpg" />
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Fernando-Puente-Babiano/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/fernando" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/navidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/icaro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Image" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Fernando-Puente-Babiano/" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/navidad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[navidad]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/proyecto-sobre-el-marketing/19455a0b-7d73-4d06-a182-8a8fe62c3515">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Proyecto sobre el marketing]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	En este proyecto hemos simulado una compra de un producto y la reaccion de los consumidores a las ofertas que habia.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-13T22:36:49+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Proyecto sobre el marketing]]></dcterms:title>
+    <dcterms:source rdf:resource="http://perezosocarlos.wikispaces.com/Resultados+del+proyecto+de+marketing" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Carlos--Perez-Gutierrez/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/videos" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Carlos--Perez-Gutierrez/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Carlos--Perez-Gutierrez/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Carlos  Perez Gutierrez · IES ICARO 1GCM 2011-12]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Carlos ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Perez Gutierrez]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Carlos  Perez Gutierrez]]></foaf:name>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/videos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[videos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/la-trastienda/f66bfbd0-7549-4b45-a6ee-b540e1738844">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[La Trastienda]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Blog de comercio y marketing de Carolina Cristanchi Polo</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-11-07T11:28:29+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[La Trastienda]]></dcterms:title>
+    <dcterms:source rdf:resource="http://latrastiendadecomercio.blogspot.com" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/Carolina-Cristanchi-Polo/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/formaci%c3%b3n%20profesional" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/blog" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/formaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/comercio" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/profesional" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/clase" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/creative%20commons" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing%20punto%20de%20venta" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/escaparatismo" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/profile/Carolina-Cristanchi-Polo/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/Carolina-Cristanchi-Polo/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Carolina Cristanchi Polo]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Carolina]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Cristanchi Polo]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/formaci%c3%b3n%20profesional">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[formación profesional]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/formaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[formación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/comercio">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[comercio]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/profesional">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[profesional]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/clase">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[clase]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/creative%20commons">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[creative commons]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing%20punto%20de%20venta">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[marketing punto de venta]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/escaparatismo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escaparatismo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/wiki-de-la-trastienda/4162c27e-7776-4b2d-8dff-a456d5048f05">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Wiki de la Trastienda]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Wiki de clase de Carolina Cristanchi Polo, profesora técnica de Formación Profesional de Comercio y Marketing</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-11-04T00:23:25+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Wiki de la Trastienda]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://latrastienda.wikispaces.com/]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/Carolina-Cristanchi-Polo/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/wiki" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/formaci%c3%b3n%20profesional" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/comercio" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/merchandising" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/clase" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/profile/Carolina-Cristanchi-Polo/" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/wiki">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[wiki]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/merchandising">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[merchandising]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/presentacion-de-fernando/62d035ae-8dde-4641-b11b-ea4a563e24db">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[PRESENTACION DE FERNANDO]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>El video ha sido grabado en un mañana. Fueron necesarias varias tomas porque no me sentia preparado a la hora de grabar, ya que, nunca he mirado directamente a la cámara en cualquier tipo de grabacion o toma fotográfica.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-10-27T18:18:40+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[PRESENTACION DE FERNANDO]]></dcterms:title>
+    <dcterms:source rdf:resource="http://nanobabiano.wikispaces.com/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Fernando-Puente-Babiano/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/wiki" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/presentaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/marketing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/fernando" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Fernando-Puente-Babiano/" />
+  </sioc:Item>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" /> 
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+  </cc:License>
+</rdf:RDF>

@@ -1,0 +1,47 @@
+<rdf:RDF
+    xmlns:api="http://purl.org/linked-data/api/vocab#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:school="http://education.data.gov.uk/def/school/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <api:ItemEndpoint rdf:about="http://education.data.gov.uk/doc/school/110158.rdf">
+    <foaf:primaryTopic>
+      <rdf:Description rdf:about="http://education.data.gov.uk/id/school/110158">
+        <school:schoolCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >1316</school:schoolCapacity>
+        <school:gender>
+          <rdf:Description rdf:about="http://education.data.gov.uk/def/school/Gender_Boys">
+            <rdfs:label>Boys</rdfs:label>
+          </rdf:Description>
+        </school:gender>
+        <school:address>
+          <rdf:Description rdf:about="http://api.talis.com/stores/govuk-education/items/1257325054702#self">
+            <school:region>Berkshire</school:region>
+            <school:town>Windsor</school:town>
+            <school:postcode>SL4 6DW</school:postcode>
+          </rdf:Description>
+        </school:address>
+        <school:uniqueReferenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >110158</school:uniqueReferenceNumber>
+        <school:notes>ISI 6yr review date Feb '10</school:notes>
+        <school:typeOfEstablishment>
+          <rdf:Description rdf:about="http://education.data.gov.uk/def/school/TypeOfEstablishment_TERM_Other_Independent_School">
+            <rdfs:label>Other Independent School</rdfs:label>
+          </rdf:Description>
+        </school:typeOfEstablishment>
+        <rdfs:label>Eton College</rdfs:label>
+        <school:establishmentNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >6016</school:establishmentNumber>
+        <school:PFI rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</school:PFI>
+        <school:openDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1936-01-01</school:openDate>
+        <school:SCUpreferredemail>registrar@etoncollege.org.uk</school:SCUpreferredemail>
+      </rdf:Description>
+    </foaf:primaryTopic>
+    <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+    <api:extendedMetadataVersion rdf:resource="http://education.data.gov.uk/doc/school/110158.rdf?_metadata=all"/>
+    <api:definition rdf:resource="http://education.data.gov.uk/meta/doc/school/_number.rdf"/>
+  </api:ItemEndpoint>
+</rdf:RDF>

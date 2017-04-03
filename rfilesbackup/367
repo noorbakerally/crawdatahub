@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/VocabV2/nvs.xsl" type="text/xsl" media="screen"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:void="http://rdfs.org/ns/void#">
+<skos:ConceptScheme rdf:about="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/">
+<skos:prefLabel>INSPIRE themes</skos:prefLabel>
+<dc:title>INSPIRE themes</dc:title>
+<skos:altLabel>INSPIRE themes</skos:altLabel>
+<dc:alternative>INSPIRE themes</dc:alternative>
+<dc:description>Groupings of spatial data according to Annex I, II and III of the INSPIRE Directive [DS-D2.5] presented as a SKOS Concept Scheme to support the NETMAR semantic search client.</dc:description>
+<dc:creator>European Commission</dc:creator>
+<dc:publisher>Natural Environment Research Council</dc:publisher>
+<dc:date>2012-11-06 02:00:10.0</dc:date>
+<owl:versionInfo>2</owl:versionInfo>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/1/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/10/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/11/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/12/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/13/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/14/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/15/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/156/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/158/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/159/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/16/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/160/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/161/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/162/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/163/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/17/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/18/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/19/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/2/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/20/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/21/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/22/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/23/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/24/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/25/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/26/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/27/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/28/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/29/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/30/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/31/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/32/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/33/"/>
+<skos:hasTopConcept rdf:resource="http://vocab.nerc.ac.uk/collection/P22/current/34/"/>
+</skos:ConceptScheme>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/1/">
+<dc:identifier>SDN:P22::1</dc:identifier>
+<skos:notation>SDN:P22::1</skos:notation>
+<skos:prefLabel xml:lang="en">Coordinate reference systems</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Systems for uniquely referencing spatial information in space as a set of coordinates (x, y, z) and/or latitude and longitude and height, based on a geodetic horizontal and vertical datum.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="pt">Sistemas de referencia</skos:prefLabel>
+<skos:definition xml:lang="pt">Sistemas para referenciar de forma única a informação geográfica no espaço sob a forma de um conjunto de coordenadas (x, y, z) e/ou latitude e longitude e altitude, com base num datum geodésico horizontal e vertical.</skos:definition>
+<skos:prefLabel xml:lang="fr">Référentiels de coordonnées</skos:prefLabel>
+<skos:definition xml:lang="fr">Systèmes de référencement unique des informations géographiques dans l''espace sous forme d''une série de coordonnées (x, y, z) et/ou la latitude et la longitude et l''altitude, en se fondant sur un point géodésique horizontal et vertical.</skos:definition>
+<skos:prefLabel xml:lang="es">Sistemas de coordenadas de referencia</skos:prefLabel>
+<skos:definition xml:lang="es">Sistemas para referenciar de forma unívoca la información espacial en el espacio como una serie de coordenadas (x, y, z) y/o latitud y longitud y altura, basándose en un punto de referencia geodésico horizontal y vertical.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AHGT/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/10/">
+<dc:identifier>SDN:P22::10</dc:identifier>
+<skos:notation>SDN:P22::10</skos:notation>
+<skos:prefLabel xml:lang="en">Elevation</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Digital elevation models for land, ice and ocean surface. Includes terrestrial elevation, bathymetry and shoreline.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Elevaciones</skos:prefLabel>
+<skos:definition xml:lang="es">Modelos digitales de elevaciones para las superficies de tierra, hielo y mar. Se incluirán la altimetría, la batimetría y la línea de costa.</skos:definition>
+<skos:prefLabel xml:lang="pt">Altitude</skos:prefLabel>
+<skos:definition xml:lang="pt">Modelos digitais de terreno aplicáveis às superfícies terrestre, gelada e oceânica. Inclui a elevação terrestre, a batimetria e a linha costeira.</skos:definition>
+<skos:prefLabel xml:lang="fr">Altitude</skos:prefLabel>
+<skos:definition xml:lang="fr">Modèles numériques pour l''altitude des surfaces terrestres, glaciaires et océaniques. Comprend l''altitude terrestre, la bathymétrie et la ligne de rivage.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Bathymetry/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MBAN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CRYS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ASLV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AHGT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PREX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/COGE/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/11/">
+<dc:identifier>SDN:P22::11</dc:identifier>
+<skos:notation>SDN:P22::11</skos:notation>
+<skos:prefLabel xml:lang="en">Land cover</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Physical and biological cover of the earth's surface including artificial surfaces, agricultural areas, forests, (semi-)natural areas, wetlands, water bodies.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Cubierta terrestre</skos:prefLabel>
+<skos:definition xml:lang="es">Cubierta física y biológica de la superficie de la tierra, incluidas las superficies artificiales, las zonas agrarias, los bosques, las zonas naturales o seminaturales, los humedales, las láminas de agua.</skos:definition>
+<skos:prefLabel xml:lang="pt">Ocupação do solo</skos:prefLabel>
+<skos:definition xml:lang="pt">Cobertura física e biológica da superfície terrestre, incluindo superfícies artificiais, zonas agrícolas, florestas, zonas naturais ou semi-naturais, zonas húmidas, massas de água.</skos:definition>
+<skos:prefLabel xml:lang="fr">Occupation des terres</skos:prefLabel>
+<skos:definition xml:lang="fr">Couverture physique et biologique de la surface terrestre, y compris les surfaces artificielles, les zones agricoles, les forêts, les zones (semi-)naturelles, les zones humides et les masses d''eau.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SSCN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CRYS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LVEG/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SBPH/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/12/">
+<dc:identifier>SDN:P22::12</dc:identifier>
+<skos:notation>SDN:P22::12</skos:notation>
+<skos:prefLabel xml:lang="en">Orthoimagery</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Geo-referenced image data of the Earth's surface, from either satellite or airborne sensors.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Ortoimágenes</skos:prefLabel>
+<skos:definition xml:lang="es">Imágenes georreferenciadas de la superficie de la tierra, obtenidas por satélite o por sensores aerotransportados.</skos:definition>
+<skos:prefLabel xml:lang="pt">Ortoimagens</skos:prefLabel>
+<skos:definition xml:lang="pt">Imagens georeferenciadas da superfície terrestre recolhidas por satélite ou sensores aéreos.</skos:definition>
+<skos:prefLabel xml:lang="fr">Ortho-imagerie</skos:prefLabel>
+<skos:definition xml:lang="fr">Images géoréférencées de la surface terrestre, provenant de satellites ou de capteurs aéroportés.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/SatelliteImagery/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/AerialImages/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/R410/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/COAS/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Imagery/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/13/">
+<dc:identifier>SDN:P22::13</dc:identifier>
+<skos:notation>SDN:P22::13</skos:notation>
+<skos:prefLabel xml:lang="en">Geology</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Geology characterised according to composition and structure. Includes bedrock, aquifers and geomorphology.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Geología</skos:prefLabel>
+<skos:definition xml:lang="es">Características geológicas según la composición y la estructura. Se incluirán la plataforma de roca firme, los acuíferos y la geomorfología.</skos:definition>
+<skos:prefLabel xml:lang="pt">Geologia</skos:prefLabel>
+<skos:definition xml:lang="pt">Geologia caracterizada de acordo com a composição e a estrutura. Inclui a base rochosa, os aquíferos e a geomorfologia.</skos:definition>
+<skos:prefLabel xml:lang="fr">Géologie</skos:prefLabel>
+<skos:definition xml:lang="fr">Géologie caractérisée en fonction de la composition et de la structure. Englobe le substratum rocheux, les aquifères et la géomorphologie.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Geology/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SDNA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SDAC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SCOC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SCDO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SCAH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SAMO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SALK/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SAGE/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RTMP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RTCO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RSIS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RPOT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RPER/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ROGS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RMIN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RMAJ/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/REFF/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RALT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RAGE/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RACC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PXSD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHSE/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHSD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PCLM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PASR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OMPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OGPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OCPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTSD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MNGS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MMAN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MINC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MDPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LITH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LIFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IS4R/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IRSP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HFLW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HAAC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GWCH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GWAM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GTCH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GRAV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GHDX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GERA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DPEV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DGPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DBDX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CPSD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CPCN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/COGE/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CLCN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CLAY/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CD10/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CCPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CBSD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CASD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CARS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CA11/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ACSR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AASD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/XRFC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/XMGS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WCWT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TRIS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TADN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/STOM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/STMP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/STCO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SSTR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SSTB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SSCN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SRFR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SRFL/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SRAD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SR3D/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SR2D/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SPRO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SPOL/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SPCB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SPAG/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SIPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SICO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SICN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SHTA/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Geology/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/14/">
+<dc:identifier>SDN:P22::14</dc:identifier>
+<skos:notation>SDN:P22::14</skos:notation>
+<skos:prefLabel xml:lang="en">Statistical units</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Units for dissemination or use of statistical information.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Unidades estadísticas</skos:prefLabel>
+<skos:definition xml:lang="es">Unidades para la difusión o el uso de información estadística.</skos:definition>
+<skos:prefLabel xml:lang="pt">Unidades estatísticas</skos:prefLabel>
+<skos:definition xml:lang="pt">Unidades para fins de divulgação ou utilização da informação estatística.</skos:definition>
+<skos:prefLabel xml:lang="fr">Unités statistiques</skos:prefLabel>
+<skos:definition xml:lang="fr">Unités de diffusion ou d''utilisation d''autres informations statistiques.</skos:definition>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/15/">
+<dc:identifier>SDN:P22::15</dc:identifier>
+<skos:notation>SDN:P22::15</skos:notation>
+<skos:prefLabel xml:lang="en">Buildings</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Geographical location of buildings.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Edificios</skos:prefLabel>
+<skos:definition xml:lang="es">Localización geográfica de los edificios.</skos:definition>
+<skos:prefLabel xml:lang="pt">Edifícios</skos:prefLabel>
+<skos:definition xml:lang="pt">Localização geográfica dos edifícios.</skos:definition>
+<skos:prefLabel xml:lang="fr">Bâtiments</skos:prefLabel>
+<skos:definition xml:lang="fr">Situation géographique des bâtiments.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MMST/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/156/">
+<dc:identifier>SDN:P22::156</dc:identifier>
+<skos:notation>SDN:P22::156</skos:notation>
+<skos:prefLabel xml:lang="en">Administrative units</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Units of administration, dividing areas where Member States have and/or exercise jurisdictional rights, for local, regional and national governance, separated by administrative boundaries.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Unidades administrativas</skos:prefLabel>
+<skos:definition xml:lang="es">Unidades administrativas en que se dividan las áreas en las que los Estados miembros tienen y/o ejercen derechos jurisdiccionales, a efectos de administración local, regional y nacional, separadas por límites administrativos.</skos:definition>
+<skos:prefLabel xml:lang="pt">Unidades administrativas</skos:prefLabel>
+<skos:definition xml:lang="pt">Unidades administrativas, zonas de divisão sobre as quais os Estados-Membros possuam e/ou exerçam direitos jurisdicionais, para efeitos de governação local, regional e nacional, separadas por fronteiras administrativas.</skos:definition>
+<skos:prefLabel xml:lang="fr">Unités administratives</skos:prefLabel>
+<skos:definition xml:lang="fr">Unités d''administration séparées par des limites administratives et délimitant les zones dans lesquelles les États membres détiennent et/ou exercent leurs compétences, aux fins de l''administration locale, régionale et nationale.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/AdministrativeBoundaries/"/>
+<owl:sameAs rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ADUN/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/158/">
+<dc:identifier>SDN:P22::158</dc:identifier>
+<skos:notation>SDN:P22::158</skos:notation>
+<skos:prefLabel xml:lang="en">Protected sites</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Area designated or managed within a framework of international, Community and Member States' legislation to achieve specific conservation objectives.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Lugares protegidos</skos:prefLabel>
+<skos:definition xml:lang="es">Zonas designadas o gestionadas dentro de un marco legislativo internacional, comunitario o propio de los Estados miembros, para la consecución de unos objetivos de conservación específicos.</skos:definition>
+<skos:prefLabel xml:lang="pt">Sítios protegidos</skos:prefLabel>
+<skos:definition xml:lang="pt">Zonas designadas ou geridas no âmbito de legislação internacional, comunitária ou dos Estados-Membros para a prossecução de objectivos específicos de conservação.</skos:definition>
+<skos:prefLabel xml:lang="fr">Sites protégés</skos:prefLabel>
+<skos:definition xml:lang="fr">Zone désignée ou gérée dans un cadre législatif international, communautaire ou national en vue d''atteindre des objectifs spécifiques de conservation.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/ProtectedAreas/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MARC/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/ProtectedAreas/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/159/">
+<dc:identifier>SDN:P22::159</dc:identifier>
+<skos:notation>SDN:P22::159</skos:notation>
+<skos:prefLabel xml:lang="en">Geographical names</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Names of areas, regions, localities, cities, suburbs, towns or settlements, or any geographical or topographical feature of public or historical interest.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Nombres geográficos</skos:prefLabel>
+<skos:definition xml:lang="es">Nombres de zonas, regiones, localidades, ciudades, periferias, poblaciones o asentamientos, o cualquier rasgo geográfico o topográfico de interés público o histórico.</skos:definition>
+<skos:prefLabel xml:lang="pt">Toponímia</skos:prefLabel>
+<skos:definition xml:lang="pt">Denominações das zonas, regiões, localidades, cidades, subúrbios, pequenas cidades ou povoações, ou de qualquer entidade geográfica ou topográfica de interesse público ou histórico.</skos:definition>
+<skos:prefLabel xml:lang="fr">Dénominations géographiques</skos:prefLabel>
+<skos:definition xml:lang="fr">Noms de zones, de régions, de localités, de grandes villes, de banlieues, de villes moyennes ou d''implantations, ou tout autre élément géographique ou topographique d''intérêt public ou historique.</skos:definition>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/16/">
+<dc:identifier>SDN:P22::16</dc:identifier>
+<skos:notation>SDN:P22::16</skos:notation>
+<skos:prefLabel xml:lang="en">Soil</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Soils and subsoil characterised according to depth, texture, structure and content of particles and organic material, stoniness, erosion, where appropriate mean slope and anticipated water storage capacity.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Suelo</skos:prefLabel>
+<skos:definition xml:lang="es">Suelo y subsuelo, caracterizados según su profundidad, textura, estructura y contenido de partículas y material orgánico, pedregosidad, erosión y, cuando proceda, pendiente media y capacidad estimada de almacenamiento de agua.</skos:definition>
+<skos:prefLabel xml:lang="pt">Solo</skos:prefLabel>
+<skos:definition xml:lang="pt">Solo e subsolo caracterizado de acordo com a profundidade, textura, estrutura e conteúdo das partículas e material orgânico, carácter pedregoso, erosão, eventualmente declive médio e capacidade estimada de armazenamento de água.</skos:definition>
+<skos:prefLabel xml:lang="fr">Sols</skos:prefLabel>
+<skos:definition xml:lang="fr">Sols et sous-sol caractérisés selon leur profondeur, texture, structure et teneur en particules et en matières organiques, pierrosité, érosion, le cas échéant pente moyenne et capacité anticipée de stockage de l''eau.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Soils/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WCWT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GWAM/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Soils/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/160/">
+<dc:identifier>SDN:P22::160</dc:identifier>
+<skos:notation>SDN:P22::160</skos:notation>
+<skos:prefLabel xml:lang="en">Addresses</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Location of properties based on address identifiers, usually by road name, house number, postal code.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Direcciones</skos:prefLabel>
+<skos:definition xml:lang="es">Localización de las propiedades, basada en identificadores de direcciones, por ejemplo, el nombre de la vía pública, el número de la finca, el código postal.</skos:definition>
+<skos:prefLabel xml:lang="pt">Endereços</skos:prefLabel>
+<skos:definition xml:lang="pt">Localização de propriedades com base em identificadores de endereço, em regra, o nome da rua, o número da porta e o código postal.</skos:definition>
+<skos:prefLabel xml:lang="fr">Adresses</skos:prefLabel>
+<skos:definition xml:lang="fr">Localisation des propriétés fondée sur les identifiants des adresses, habituellement le nom de la rue, le numéro de la maison et le code postal.</skos:definition>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/161/">
+<dc:identifier>SDN:P22::161</dc:identifier>
+<skos:notation>SDN:P22::161</skos:notation>
+<skos:prefLabel xml:lang="en">Cadastral parcels</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">areas defined by cadastral registers or equivalent.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Parcelas catastrales</skos:prefLabel>
+<skos:definition xml:lang="es">Áreas determinadas por registros catastrales o equivalentes.</skos:definition>
+<skos:prefLabel xml:lang="pt">Parcelas cadastrais</skos:prefLabel>
+<skos:definition xml:lang="pt">Áreas definidas por registos cadastrais ou equivalentes.</skos:definition>
+<skos:prefLabel xml:lang="fr">Parcelles cadastrales</skos:prefLabel>
+<skos:definition xml:lang="fr">Zones définies par les registres cadastraux ou équivalents.</skos:definition>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/162/">
+<dc:identifier>SDN:P22::162</dc:identifier>
+<skos:notation>SDN:P22::162</skos:notation>
+<skos:prefLabel xml:lang="en">Transport networks</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Road, rail, air and water transport networks and related infrastructure. Includes links between different networks. Also includes the trans-European transport network as defined in Decision No 1692/96/EC of the European Parliament and of the Council of 23 July 1996 on Community Guidelines for the development of the trans-European transport network (1) and future revisions of that Decision.  (1) OJ L 228, 9.9.1996, p. 1. Decision as last amended by Council Regulation (EC) No 1791/2006 (OJ L 363, 20.12.2006, p. 1).</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="pt">Redes de transporte</skos:prefLabel>
+<skos:definition xml:lang="pt">Redes de transporte rodoviário, ferroviário, aéreo e por via navegável, e respectivas infra-estruturas. Inclui as ligações entre as diferentes redes. Inclui também a rede transeuropeia de transportes definida na Decisão n.o 1692/96/CE do Parlamento Europeu e do Conselho, de 23 de Julho de 1996, sobre as orientações comunitárias para o desenvolvimento da rede transeuropeia de transportes (1), e as futuras revisões dessa decisão.</skos:definition>
+<skos:prefLabel xml:lang="fr">Réseaux de transport</skos:prefLabel>
+<skos:definition xml:lang="fr">Réseaux routier, ferroviaire, aérien et navigable ainsi que les infrastructures associées. Sont également incluses les correspondances entre les différents réseaux, ainsi que le réseau transeuropéen de transport tel que défini dans la décision no 1692/96/CE du Parlement européen et du Conseil du 23 juillet 1996 sur les orientations communautaires pour le développement du réseau transeuropéen de transport (1) et les révisions futures de cette décision.</skos:definition>
+<skos:prefLabel xml:lang="es">Redes de transporte</skos:prefLabel>
+<skos:definition xml:lang="es">Redes de carreteras, ferrocarril, transporte aéreo y vías navegables, con sus correspondientes infraestructuras. Se incluirán las conexiones entre redes diferentes. Se incluirá también la red transeuropea de transporte, según la definición de la Decisión no 1692/96/CE del Parlamento Europeo y del Consejo, de 23 de julio de 1996, sobre las orientaciones comunitarias para el desarrollo de la red transeuropea de transporte (1), y de las futuras revisiones de dicha Decisión.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Shipping/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Access/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/LandTransport/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/MarineTransport/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TRAN/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/163/">
+<dc:identifier>SDN:P22::163</dc:identifier>
+<skos:notation>SDN:P22::163</skos:notation>
+<skos:prefLabel xml:lang="en">Hydrography</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Hydrographic elements, including marine areas and all other water bodies and items related to them, including river basins and sub-basins. Where appropriate, according to the definitions set out in Directive 2000/60/EC of the European Parliament and of the Council of 23 October 2000 establishing a framework for Community action in the field of water policy, and in the form of networks.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Hidrografía</skos:prefLabel>
+<skos:definition xml:lang="es">Elementos hidrográficos, incluidas las zonas marinas y todas las otras masas de agua y elementos relacionados con ellas, así como las cuencas y subcuencas hidrográficas. Cuando proceda, según lo definido en la Directiva 2000/60/CE del Parlamento Europeo y del Consejo, de 23 de octubre de 2000, por la que se establece un marco comunitario de actuación en el ámbito de la política de aguas (2), y en forma de redes.</skos:definition>
+<skos:prefLabel xml:lang="pt">Hidrografia</skos:prefLabel>
+<skos:definition xml:lang="pt">Elementos hidrográficos, incluindo zonas marinhas e todas as outras massas de água e elementos com eles relacionados, incluindo bacias e sub-bacias hidrográficas. Quando adequado, de acordo com as definições da Directiva 2000/60/CE do Parlamento Europeu e do Conselho, de 23 de Outubro de 2000, que estabelece um quadro de acção comunitária no domínio da política da água (2), e sob a forma de redes.</skos:definition>
+<skos:prefLabel xml:lang="fr">Hydrographie</skos:prefLabel>
+<skos:definition xml:lang="fr">Éléments hydrographiques, y compris les zones maritimes ainsi que toutes les autres masses d''eau et les éléments qui y sont liés, y compris les bassins et sous-bassins hydrographiques. Conformes, le cas échéant, aux définitions établies par la directive 2000/60/CE du Parlement européen et du Conseil du 23 octobre 2000 établissant un cadre pour une politique communautaire dans le domaine de l''eau (2) et sous forme de réseaux.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Hydrology/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP001/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GWAM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GWCH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HLIC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/INVD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ICEM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IAGE/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IRIC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ISIC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LWET/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MBAN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTIC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTSP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OSIC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RVDS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SICO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WQBI/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WVSP/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Hydrology/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/17/">
+<dc:identifier>SDN:P22::17</dc:identifier>
+<skos:notation>SDN:P22::17</skos:notation>
+<skos:prefLabel xml:lang="en">Land use</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Territory characterised according to its current and future planned functional dimension or socio-economic purpose (e.g. residential, industrial, commercial, agricultural, forestry, recreational).</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Uso del suelo</skos:prefLabel>
+<skos:definition xml:lang="es">Caracterización del territorio, de acuerdo con su dimensión funcional o su dedicación socioeconómica actual o futura planificadas (por ejemplo, residencial, industrial, comercial, agrario, forestal, recreativo).</skos:definition>
+<skos:prefLabel xml:lang="pt">Uso do solo</skos:prefLabel>
+<skos:definition xml:lang="pt">Caracterização do território de acordo com a dimensão funcional ou finalidade socioeconómica planeada, presente e futura (por exemplo, residencial, industrial, comercial, agrícola, silvícola, recreativa).</skos:definition>
+<skos:prefLabel xml:lang="fr">Usage des sols</skos:prefLabel>
+<skos:definition xml:lang="fr">Territoire caractérisé selon sa dimension fonctionnelle prévue ou son objet socioéconomique actuel et futur (par exemple, résidentiel, industriel, commercial, agricole, forestier, récréatif).</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/LandUse/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MLES/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IACT/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ADUN/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/LandUse/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/18/">
+<dc:identifier>SDN:P22::18</dc:identifier>
+<skos:notation>SDN:P22::18</skos:notation>
+<skos:prefLabel xml:lang="en">Human health and safety</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Geographical distribution of dominance of pathologies (allergies, cancers, respiratory diseases, etc.), information indicating the effect on health (biomarkers, decline of fertility, epidemics) or well-being of humans (fatigue, stress, etc.) linked directly (air pollution, chemicals, depletion of the ozone layer, noise, etc.) or indirectly (food, genetically modified organisms, etc.) to the quality of the environment.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Salud y seguridad humanas</skos:prefLabel>
+<skos:definition xml:lang="es">Distribución geográfica de la dominancia de patologías (alergias, cáncer, enfermedades respiratorias, etc.), la información que indique el efecto sobre la salud (marcadores biológicos, declive de la fertilidad, epidemias) o el bienestar humanos (cansancio, estrés, etc.) directamente vinculada con la calidad del medio ambiente (contaminación del aire, productos químicos, enrarecimiento de la capa de ozono, ruido, etc.) o indirectamente vinculada con dicha calidad (alimentos, organismos modificados genéticamente, etc.).</skos:definition>
+<skos:prefLabel xml:lang="pt">Saúde humana e segurança</skos:prefLabel>
+<skos:definition xml:lang="pt">Distribuição geográfica da dominância de patologias (alergias, cancros, doenças respiratórias, etc.), informações que indiquem o efeito da qualidade do ambiente sobre a saúde (biomarcadores, declínio da fertilidade, epidemias) ou sobre o bem-estar dos seres humanos (fadiga, tensão, stress, etc.) de forma directa (poluição do ar, produtos químicos, empobrecimento da camada de ozono, ruído, etc.) ou indirecta (alimentação, organismos geneticamente modificados, etc.).</skos:definition>
+<skos:prefLabel xml:lang="fr">Santé et sécurité des personnes</skos:prefLabel>
+<skos:definition xml:lang="fr">Répartition géographique des pathologies dominantes (allergies, cancers, maladies respiratoires, etc.) liées directement (pollution de l''air, produits chimiques, appauvrissement de la couche d''ozone, bruit, etc.) ou indirectement (alimentation, organismes génétiquement modifiés, etc.) à la qualité de l''environnement, et ensemble des informations relatif à l''effet de celle-ci sur la santé des hommes (marqueurs biologiques, déclin de la fertilité, épidémies) ou leur bienêtre (fatigue, stress, etc.).</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/CoastalDefenceStructures/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/CoastalErosion/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Flooding/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/WaterQuality/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BCMT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BCAH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BABI/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHWB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PPCB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PPWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PTOX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SPCB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BCOC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BCPB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BRAD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP001/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP010/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHSE/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP050/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP048/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHBI/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PEWB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HZNV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IDIS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LITT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MDBO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OMBI/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OMPW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OMWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PEBI/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PESD/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/19/">
+<dc:identifier>SDN:P22::19</dc:identifier>
+<skos:notation>SDN:P22::19</skos:notation>
+<skos:prefLabel xml:lang="en">Utility and government services</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Includes utility facilities such as sewage, waste management, energy supply and water supply, administrative and social governmental services such as public administrations, civil protection sites, schools and hospitals.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Servicios de utilidad pública y estatales</skos:prefLabel>
+<skos:definition xml:lang="es">Incluye instalaciones de utilidad pública de alcantarillado, gestión de residuos, suministro de energía y suministro de agua, así como servicios estatales administrativos y sociales tales como administraciones públicas, sitios de protección civil, escuelas y hospitales.</skos:definition>
+<skos:prefLabel xml:lang="pt">Serviços de utilidade pública e do Estado</skos:prefLabel>
+<skos:definition xml:lang="pt">Inclui instalações e serviços de utilidade pública, como redes de esgotos, gestão de resíduos, fornecimento de energia, abastecimento de água, serviços administrativos e sociais do Estado tais como administrações públicas, instalações da protecção civil, escolas e hospitais.</skos:definition>
+<skos:prefLabel xml:lang="fr">Services d''utilité publique et services publics</skos:prefLabel>
+<skos:definition xml:lang="fr">Comprend les installations d''utilité publique, tels que les égouts ou les réseaux et installations liés à la gestion des déchets, à l''approvisionnement énergétique, à l''approvisionnement en eau, ainsi que les services administratifs et sociaux publics, tels que les administrations publiques, les sites de la protection civile, les écoles et les hôpitaux.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Infrastructure/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/QDMD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP001/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/2/">
+<dc:identifier>SDN:P22::2</dc:identifier>
+<skos:notation>SDN:P22::2</skos:notation>
+<skos:prefLabel xml:lang="en">Geographical grid systems</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Harmonised multi-resolution grid with a common point of origin and standardised location and size of grid cells.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Sistema de cuadrículas geográficas</skos:prefLabel>
+<skos:definition xml:lang="es">Cuadrículas armonizadas multirresolución con un punto de origen común y con ubicación y tamaños de cuadrícula normalizados.</skos:definition>
+<skos:prefLabel xml:lang="pt">Sistemas de quadrículas geográficas</skos:prefLabel>
+<skos:definition xml:lang="pt">Quadrícula harmonizada multi-resolução com um ponto de origem comum e localização e dimensão normalizadas das células.</skos:definition>
+<skos:prefLabel xml:lang="fr">Systèmes de maillage géographique</skos:prefLabel>
+<skos:definition xml:lang="fr">Grille multi-résolution harmonisée avec un point d''origine commun et une localisation ainsi qu''une taille des cellules harmonisées.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ALAT/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/20/">
+<dc:identifier>SDN:P22::20</dc:identifier>
+<skos:notation>SDN:P22::20</skos:notation>
+<skos:prefLabel xml:lang="en">Environmental monitoring facilities</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Location and operation of environmental monitoring facilities includes observation and measurement of emissions, of the state of environmental media and of other ecosystem parameters (biodiversity, ecological conditions of vegetation, etc.) by or on behalf of public authorities.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Instalaciones de observación del medio ambiente</skos:prefLabel>
+<skos:definition xml:lang="es">La ubicación y funcionamiento de instalaciones de observación del medio ambiente, encargadas de observar y medir emisiones, el estado del medio ambiente y otros parámetros del ecosistema (biodiversidad, condiciones ecológicas de la vegetación, etc.), por parte de las autoridades públicas o en nombre de ellas.</skos:definition>
+<skos:prefLabel xml:lang="pt">Instalações de monitorização do ambiente</skos:prefLabel>
+<skos:definition xml:lang="pt">A localização e funcionamento de instalações de monitorização do ambiente inclui a observação e medição de emissões, do estado das diferentes componentes ambientais e de outros parâmetros dos ecossistemas (biodiversidade, condições ecológicas da vegetação, etc.) pelas autoridades públicas ou por conta destas.</skos:definition>
+<skos:prefLabel xml:lang="fr">Installations de suivi environnemental</skos:prefLabel>
+<skos:definition xml:lang="fr">La situation et le fonctionnement des installations de suivi environnemental comprennent l''observation et la mesure des émissions, de l''état du milieu environnemental et d''autres paramètres de l''écosystème (biodiversité, conditions écologiques de la végétation, etc.) par les autorités publiques ou pour leur compte.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/CoastalMonitoring/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/NutrientSampleSites/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CFTM/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/21/">
+<dc:identifier>SDN:P22::21</dc:identifier>
+<skos:notation>SDN:P22::21</skos:notation>
+<skos:prefLabel xml:lang="en">Production and industrial facilities</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Industrial production sites, including installations covered by Council Directive 96/61/EC of 24 September 1996 concerning integrated pollution prevention and control (1) and water abstraction facilities, mining, storage sites.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Instalaciones de producción e industriales</skos:prefLabel>
+<skos:definition xml:lang="es">Centros de producción industrial, incluidas las instalaciones contempladas en la Directiva 96/61/CE del Consejo, de 24 de septiembre de 1996, sobre la prevención y el control integrado de la contaminación (1), e instalaciones de extracción de agua, instalaciones mineras, centros de almacenamiento.</skos:definition>
+<skos:prefLabel xml:lang="pt">Instalações industriais e de produção</skos:prefLabel>
+<skos:definition xml:lang="pt">Locais de produção industrial, incluindo instalações abrangidas pela Directiva 96/61/CE do Conselho, de 24 de Setembro de 1996, relativa à prevenção e controlo integrados da poluição (1), e instalações de captação de água, minas, locais de armazenagem.</skos:definition>
+<skos:prefLabel xml:lang="fr">Lieux de production et sites industriels</skos:prefLabel>
+<skos:definition xml:lang="fr">Sites de production industrielle, y compris les installations couvertes par la directive 96/61/CE du Conseil du 24 septembre 1996 relative à la prévention et à la réduction intégrées de la pollution (1) et les installations de captage d''eau, d''extraction minière et de stockage.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/ShippingPorts/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/22/">
+<dc:identifier>SDN:P22::22</dc:identifier>
+<skos:notation>SDN:P22::22</skos:notation>
+<skos:prefLabel xml:lang="en">Agriculture and aquaculture facilities</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Farming equipment and production facilities (including irrigation systems, greenhouses and stables).</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Instalaciones agrícolas y de acuicultura</skos:prefLabel>
+<skos:definition xml:lang="es">Equipamiento e instalaciones de producción agraria (incluidos sistemas de regadío, invernaderos y establos).</skos:definition>
+<skos:prefLabel xml:lang="pt">Instalações agrícolas e aquícolas</skos:prefLabel>
+<skos:definition xml:lang="pt">Equipamento e instalações de explorações agrícolas e aquícolas (incluindo sistemas de irrigação, estufas e viveiros, e estábulos).</skos:definition>
+<skos:prefLabel xml:lang="fr">Installations agricoles et aquacoles</skos:prefLabel>
+<skos:definition xml:lang="fr">Équipement et installations de production agricoles (y compris les systèmes d''irrigation, les serres et les étables).</skos:definition>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Agriculture/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/23/">
+<dc:identifier>SDN:P22::23</dc:identifier>
+<skos:notation>SDN:P22::23</skos:notation>
+<skos:prefLabel xml:lang="en">Population distribution - demography</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Geographical distribution of people, including population characteristics and activity levels, aggregated by grid, region, administrative unit or other analytical unit.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Distribución de la población — demografía</skos:prefLabel>
+<skos:definition xml:lang="es">Distribución geográfica de la población referidas a una cuadrícula, región, unidad administrativa u otro tipo de unidad analítica, incluyendo las características de la población y sus niveles de actividad.</skos:definition>
+<skos:prefLabel xml:lang="pt">Distribuição da população — demografia</skos:prefLabel>
+<skos:definition xml:lang="pt">Distribuição geográfica da população, incluindo características demográficas e níveis de actividade, agregada por quadrícula, região, unidade administrativa ou outra unidade analítica.</skos:definition>
+<skos:prefLabel xml:lang="fr">Répartition de la population — démographie</skos:prefLabel>
+<skos:definition xml:lang="fr">Répartition géographique des personnes, avec les caractéristiques de population et les niveaux d''activité, regroupées par grille, région, unité administrative ou autre unité analytique.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Population/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Population/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/24/">
+<dc:identifier>SDN:P22::24</dc:identifier>
+<skos:notation>SDN:P22::24</skos:notation>
+<skos:prefLabel xml:lang="en">Area management/restriction/regulation zones and reporting units</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Areas managed, regulated or used for reporting at international, European, national, regional and local levels. Includes dumping sites, restricted areas around drinking water sources, nitrate-vulnerable zones, regulated fairways at sea or large inland waters, areas for the dumping of waste, noise restriction zones, prospecting and mining permit areas, river basin districts, relevant reporting units and coastal zone management areas.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Zonas sujetas a ordenación, a restricciones o reglamentaciones y unidades de notificación</skos:prefLabel>
+<skos:definition xml:lang="es">Zonas gestionadas, reglamentadas o utilizadas para la elaboración de informes para organismos internacionales, europeos, nacionales, regionales y locales. Se incluirán vertederos, zonas restringidas alrededor de lugares de extracción de agua potable, zonas sensibles a los nitratos, rutas marítimas o por grandes vías navegables reglamentadas, zonas de vertido, zonas de restricción de ruidos, zonas de prospección o extracción minera, demarcaciones hidrográficas, las correspondientes unidades de notificación y planes de ordenación de zonas costeras.</skos:definition>
+<skos:prefLabel xml:lang="pt">Zonas de gestão/restrição/regulamentação e unidades de referência</skos:prefLabel>
+<skos:definition xml:lang="pt">Zonas geridas, regulamentadas ou utilizadas para a comunicação de dados a nível internacional, europeu, nacional, regional e local. Compreende aterros, zonas de acesso restrito em torno de nascentes de água potável, zonas sensíveis aos nitratos, vias navegáveis regulamentadas no mar ou em águas interiores de grandes dimensões, zonas de descarga de resíduos, zonas de ruído condicionado, zonas autorizadas para efeitos de prospecção e extracção mineira, bacias hidrográficas, unidades de referência pertinentes e zonas abrangidas pela gestão das zonas costeiras.</skos:definition>
+<skos:prefLabel xml:lang="fr">Zones de gestion, de restriction ou de réglementation et unités de déclaration</skos:prefLabel>
+<skos:definition xml:lang="fr">Zones gérées, réglementées ou utilisées pour les rapports aux niveaux international, européen, national, régional et local. Sont inclus les décharges, les zones restreintes aux alentours des sources d''eau potable, les zones vulnérables aux nitrates, les chenaux réglementés en mer ou les eaux intérieures importantes, les zones destinées à la décharge de déchets, les zones soumises à limitation du bruit, les zones faisant l''objet de permis d''exploration et d''extraction minière, les districts hydrographiques, les unités correspondantes utilisées pour les rapports et les zones de gestion du littoral.</skos:definition>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/25/">
+<dc:identifier>SDN:P22::25</dc:identifier>
+<skos:notation>SDN:P22::25</skos:notation>
+<skos:prefLabel xml:lang="en">Natural risk zones</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Vulnerable areas characterised according to natural hazards (all atmospheric, hydrologic, seismic, volcanic and wildfire phenomena that, because of their location, severity, and frequency, have the potential to seriously affect society), e.g. floods, landslides and subsidence, avalanches, forest fires, earthquakes, volcanic eruptions.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Zonas de riesgos naturales</skos:prefLabel>
+<skos:definition xml:lang="es">Zonas vulnerables caracterizadas por la existencia de riesgos de carácter natural (cualquier fenómeno atmosférico, hidrológico, sísmico, volcánico o incendio natural que, debido a su localización, gravedad o frecuencia, pueda afectar negativamente a la población), p. ej., inundaciones, corrimientos de tierra y hundimientos, aludes, incendios forestales, terremotos, erupciones volcánicas.</skos:definition>
+<skos:prefLabel xml:lang="pt">Zonas de risco natural</skos:prefLabel>
+<skos:definition xml:lang="pt">Zonas sensíveis, caracterizadas de acordo com os riscos naturais (todos os fenómenos atmosféricos, hidrológicos, sísmicos, vulcânicos e os incêndios que, pela sua localização, gravidade e frequência, possam afectar gravemente a sociedade), como sejam inundações, deslizamentos de terras e subsidências, avalanches, incêndios florestais, sismos, erupções vulcânicas.</skos:definition>
+<skos:prefLabel xml:lang="fr">Zones à risque naturel</skos:prefLabel>
+<skos:definition xml:lang="fr">Zones sensibles caractérisées en fonction des risques naturels (tous les phénomènes atmosphériques, hydrologiques, sismiques, volcaniques, ainsi que les feux de friche qui peuvent, en raison de leur situation, de leur gravité et de leur fréquence, nuire gravement à la société), tels qu''inondations, glissements et affaissements de terrain, avalanches, incendies de forêts, tremblements de terre et éruptions volcaniques.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PASR/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/26/">
+<dc:identifier>SDN:P22::26</dc:identifier>
+<skos:notation>SDN:P22::26</skos:notation>
+<skos:prefLabel xml:lang="en">Atmospheric conditions</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Physical conditions in the atmosphere. Includes spatial data based on measurements, on models or on a combination thereof and includes measurement locations.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Condiciones atmosféricas</skos:prefLabel>
+<skos:definition xml:lang="es">Condiciones físicas de la atmósfera. Se incluirán datos espaciales basados en mediciones, modelos o en una combinación de ambos, así como los lugares de medición.</skos:definition>
+<skos:prefLabel xml:lang="pt">Condições atmosféricas</skos:prefLabel>
+<skos:definition xml:lang="pt">Condições físicas da atmosfera. Inclui dados geográficos baseados em medições, em modelos ou numa combinação de ambos, bem como os sítios de medição.</skos:definition>
+<skos:prefLabel xml:lang="fr">Conditions atmosphériques</skos:prefLabel>
+<skos:definition xml:lang="fr">Conditions physiques dans l''atmosphère. Comprend les données géographiques fondées sur des mesures, sur des modèles ou sur une combinaison des deux, ainsi que les lieux de mesure.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OPBS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OHAT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OCAA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTAT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LWRD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ISAT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HLAT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HFLX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP050/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP048/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FDMS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OZON/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHAT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RBSC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SIAT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SUAT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/UVRD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/VSRA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CXAA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AALK/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AAMN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ACO2/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AEYN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AORG/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ATDP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ATEM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ATPC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ATVS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CAPH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CDTA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CSLR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CHUM/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/27/">
+<dc:identifier>SDN:P22::27</dc:identifier>
+<skos:notation>SDN:P22::27</skos:notation>
+<skos:prefLabel xml:lang="en">Meteorological geographical features</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Weather conditions and their measurements; precipitation, temperature, evapotranspiration, wind speed and direction.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Aspectos geográficos de carácter meteorológico</skos:prefLabel>
+<skos:definition xml:lang="es">Condiciones meteorológicas y sus mediciones; precipitaciones, temperaturas, evapotranspiración, velocidad y dirección del viento.</skos:definition>
+<skos:prefLabel xml:lang="pt">Características geometeorológicas</skos:prefLabel>
+<skos:definition xml:lang="pt">Condições atmosféricas e sua medição; precipitação, temperatura, evapotranspiração, velocidade e direcção do vento.</skos:definition>
+<skos:prefLabel xml:lang="fr">Caractéristiques géographiques météorologiques</skos:prefLabel>
+<skos:definition xml:lang="fr">Conditions météorologiques et leur mesure: précipitations, température, évapotranspiration, vitesse et direction du vent.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Climate/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CLTY/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CPRP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/EWSB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CHEX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LSST/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WSTR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RWCH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OMET/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IPHY/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ICHM/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/28/">
+<dc:identifier>SDN:P22::28</dc:identifier>
+<skos:notation>SDN:P22::28</skos:notation>
+<skos:prefLabel xml:lang="en">Oceanographic geographical features</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Physical conditions of oceans (currents, salinity, wave heights, etc.).</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Rasgos geográficos oceanográficos</skos:prefLabel>
+<skos:definition xml:lang="es">Condiciones físicas de los océanos (corrientes, salinidad, altura del oleaje, etc.).</skos:definition>
+<skos:prefLabel xml:lang="pt">Características oceanográficas</skos:prefLabel>
+<skos:definition xml:lang="pt">Condições físicas dos oceanos (correntes, salinidade, altura das ondas, etc.).</skos:definition>
+<skos:prefLabel xml:lang="fr">Caractéristiques géographiques océanographiques</skos:prefLabel>
+<skos:definition xml:lang="fr">Conditions physiques des océans (courants, salinité, hauteur des vagues, etc.).</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/SeaLevelPosition/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/WavesAndTides/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/OceanCharacteristics/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZNLG/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WVST/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WVSP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WSTB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WRAD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WPRO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WDNA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WCTR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WCPH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WCOC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WBRX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/VSRW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/VDFC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/UVRD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/UREA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/UPTH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TVLT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TSED/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TPHS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TOCH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TNRP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TFAA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TEMP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TDPX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TDNT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TDIN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TD00/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TCO2/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TCNT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TCFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SXCN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SVEL/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SPWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SPHT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SPGS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SLCA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SIXX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SIGT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SECC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SCOX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SCDO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SAMO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SACT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RFVL/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/R410/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PXSP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PTDZ/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PSST/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PSAL/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PPWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PPRD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PPCB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PPAB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PNFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHYC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHWB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHUP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHOS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PCOC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PCO2/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PCHW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PCAH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OXYC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OPWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OPFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OPCN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OPBS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OMWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/OHWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NUTV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTUP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTSP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTRI/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTRA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTOT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NOYS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MXLM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTWT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTWP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTWD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MSFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MLFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MDWP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MDWD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MDSV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LVLT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LRZA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LGCR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LERR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/KRTS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IPRX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HMSB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HLWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HLDE/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HFLX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HEXC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HEAV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GWDR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GPIG/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GOXP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FVLT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FR11/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FPRT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FPFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FDMS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/F001/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/EXUV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/EXCR/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/EXCO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/EPSI/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DSCO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DOXY/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DOCU/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DOCC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DMST/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DENS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DCMX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DALK/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DAAW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CSDE/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CPWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CORG/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/COCC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CNDC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CMFL/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CLXX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CING/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CDRU/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CBSP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CBFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CARO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CAKN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BLUM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BEST/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AXFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ATTN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ATPX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ATDP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ASAM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AQYN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AMUP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AMOX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AMON/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ALKY/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ABAG/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AAWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AAFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/A01X/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/A04/current/Oceanography/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/29/">
+<dc:identifier>SDN:P22::29</dc:identifier>
+<skos:notation>SDN:P22::29</skos:notation>
+<skos:prefLabel xml:lang="en">Sea regions</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Physical conditions of seas and saline water bodies divided into regions and sub-regions with common characteristics.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Regiones marinas</skos:prefLabel>
+<skos:definition xml:lang="es">Condiciones físicas de los mares y masas de aguas salinas, por regiones y subregiones con características comunes.</skos:definition>
+<skos:prefLabel xml:lang="pt">Regiões marinhas</skos:prefLabel>
+<skos:definition xml:lang="pt">Condições físicas dos mares e massas de água salinas divididas em regiões e sub-regiões com características comuns.</skos:definition>
+<skos:prefLabel xml:lang="fr">Régions maritimes</skos:prefLabel>
+<skos:definition xml:lang="fr">Conditions physiques des mers et des masses d''eau salée divisées en régions et en sous-régions à caractéristiques communes.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP087/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/WCTR/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/30/">
+<dc:identifier>SDN:P22::30</dc:identifier>
+<skos:notation>SDN:P22::30</skos:notation>
+<skos:prefLabel xml:lang="en">Bio-geographical regions</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Areas of relatively homogeneous ecological conditions with common characteristics.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Regiones biogeográficas</skos:prefLabel>
+<skos:definition xml:lang="es">Zonas dotadas de condiciones ecológicas relativamente homogéneas con unas características comunes.</skos:definition>
+<skos:prefLabel xml:lang="pt">Regiões biogeográficas</skos:prefLabel>
+<skos:definition xml:lang="pt">Zonas de condições ecológicas relativamente homogéneas com características comuns.</skos:definition>
+<skos:prefLabel xml:lang="fr">Régions biogéographiques</skos:prefLabel>
+<skos:definition xml:lang="fr">Zones présentant des conditions écologiques relativement homogènes avec des caractéristiques communes.</skos:definition>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/31/">
+<dc:identifier>SDN:P22::31</dc:identifier>
+<skos:notation>SDN:P22::31</skos:notation>
+<skos:prefLabel xml:lang="en">Habitats and biotopes</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Geographical areas characterised by specific ecological conditions, processes, structure, and (life support) functions that physically support the organisms that live there. Includes terrestrial and aquatic areas distinguished by geographical, abiotic and biotic features, whether entirely natural or semi-natural.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Hábitats y biotopos</skos:prefLabel>
+<skos:definition xml:lang="es">Zonas geográficas caracterizadas por unas condiciones ecológicas específicas, procesos, estructuras y funciones de apoyo vital que sean soporte físico de los organismos que viven en ellas. Se incluirán zonas terrestres y acuáticas diferenciadas por sus características geográficas, abióticas y bióticas, tanto si son enteramente naturales como seminaturales.</skos:definition>
+<skos:prefLabel xml:lang="pt">Habitats e biótopos</skos:prefLabel>
+<skos:definition xml:lang="pt">Zonas geográficas caracterizadas por condições ecológicas, processos, estrutura e funções (de apoio às necessidades básicas) específicos que constituem o suporte físico dos organismos que nelas vivem. Inclui zonas terrestres e aquáticas, naturais ou semi-naturais, diferenciadas pelas suas características geográficas, abióticas e bióticas.</skos:definition>
+<skos:prefLabel xml:lang="fr">Habitats et biotopes</skos:prefLabel>
+<skos:definition xml:lang="fr">Zones géographiques ayant des caractéristiques écologiques particulières — conditions, processus, structures et fonctions (de maintien de la vie) — favorables aux organismes qui y vivent. Sont incluses les zones terrestres et aquatiques qui se distinguent par leurs caractéristiques géographiques, abiotiques ou biotiques, qu''elles soient naturelles ou semi-naturelles.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTIC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BEPP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HBCH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FEFF/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/EXSV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BPRP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/NTRZ/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/STGC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/HBEX/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/32/">
+<dc:identifier>SDN:P22::32</dc:identifier>
+<skos:notation>SDN:P22::32</skos:notation>
+<skos:prefLabel xml:lang="en">Species distribution</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Geographical distribution of occurrence of animal and plant species aggregated by grid, region, administrative unit or other analytical unit.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Distribución de las especies</skos:prefLabel>
+<skos:definition xml:lang="es">Distribución geográfica de las especies animales y vegetales referidas a una cuadrícula, región, unidad administrativa u otro tipo de unidad analítica.</skos:definition>
+<skos:prefLabel xml:lang="pt">Distribuição das espécies</skos:prefLabel>
+<skos:definition xml:lang="pt">Distribuição geográfica da ocorrência de espécies animais e vegetais agregadas por quadrícula, região, unidade administrativa ou outra unidade analítica.</skos:definition>
+<skos:prefLabel xml:lang="fr">Répartition des espèces</skos:prefLabel>
+<skos:definition xml:lang="fr">Répartition géographique de l''occurrence des espèces animales et végétales regroupées par grille, région, unité administrative ou autre unité analytique.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GRZO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GREF/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP088/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP085/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP080/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP079/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP069/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP068/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP067/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP025/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP018/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP012/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP005/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/GP004/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FOCA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FNTX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FNTM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FIBM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FCST/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FCRT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FCNT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FBAF/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FBAB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FATM/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FABD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/DVLP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/D000/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CYEU/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CNTX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CETA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CEMP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CEMO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CEBH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CBCC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BRDD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BRDA/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BPBP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BNUC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BNTX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BNTC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BLEN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BDWC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BDRV/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BCOS/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BAUC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BATT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/BATC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ACNT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/AATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/A999/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZWTX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZV00/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZOOB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZNTX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZNTP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZNTC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZFIT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZCTN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZCTC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZCMP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZATP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/ZADX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/VIRU/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/VATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/V999/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TBGZ/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SEMP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SEMO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SEBH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SABB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RBHY/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PYTT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PU02/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PNTX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PNFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PHYG/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PCFX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/PATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MZCT/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MZBN/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MZBC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MSIC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MSEP/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MSBO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MSBD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MFWW/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MFLZ/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MFAZ/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MFAB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MEPH/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MATC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/LIBI/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IWDX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IWAB/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IRBO/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/INLZ/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IATX/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IATC/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/IALZ/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SREP/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/SATM/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/FREP/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/33/">
+<dc:identifier>SDN:P22::33</dc:identifier>
+<skos:notation>SDN:P22::33</skos:notation>
+<skos:prefLabel xml:lang="en">Energy resources</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Energy resources including hydrocarbons, hydropower, bio-energy, solar, wind, etc., where relevant including depth/height information on the extent of the resource.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Recursos energéticos</skos:prefLabel>
+<skos:definition xml:lang="es">Recursos energéticos: hidrocarburos, energía hidroeléctrica, bioenergía, energía solar y eólica, etc., incluyendo, cuando proceda, la información de profundidad y altura del volumen de los recursos.</skos:definition>
+<skos:prefLabel xml:lang="pt">Recursos energéticos</skos:prefLabel>
+<skos:definition xml:lang="pt">Recursos energéticos, incluindo os de hidrocarbonetos, hidroeléctricos, de bio-energias, de energia solar, eólica, etc., incluindo, quando pertinente, informação sobre as cotas de profundidade/altura do recurso.</skos:definition>
+<skos:prefLabel xml:lang="fr">Sources d''énergie</skos:prefLabel>
+<skos:definition xml:lang="fr">Sources d''énergie comprenant les hydrocarbures, l''énergie hydraulique, la bioénergie, l''énergie solaire, l''énergie éolienne, etc., le cas échéant accompagnées d''informations relatives à la profondeur/la hauteur de la source.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/CSLR/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P22/current/34/">
+<dc:identifier>SDN:P22::34</dc:identifier>
+<skos:notation>SDN:P22::34</skos:notation>
+<skos:prefLabel xml:lang="en">Mineral resources</skos:prefLabel>
+<skos:topConceptOf rdf:resource="http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/current/"/>
+<skos:altLabel/>
+<skos:definition xml:lang="en">Mineral resources including metal ores, industrial minerals, etc., where relevant including depth/height information on the extent of the resource.</skos:definition>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2009-07-30 13:25:19.0</dc:date>
+<skos:prefLabel xml:lang="es">Recursos minerales</skos:prefLabel>
+<skos:definition xml:lang="es">Recursos minerales: minerales metalíferos, minerales industriales, etc., incluyendo, cuando proceda, la información de profundidad y altura del volumen de los recursos.</skos:definition>
+<skos:prefLabel xml:lang="pt">Recursos minerais</skos:prefLabel>
+<skos:definition xml:lang="pt">Recursos minerais, incluindo minérios metálicos, minerais industriais, etc., incluindo, quando pertinente, informação sobre as cotas de profundidade/altura do recurso.</skos:definition>
+<skos:prefLabel xml:lang="fr">Ressources minérales</skos:prefLabel>
+<skos:definition xml:lang="fr">Ressources minérales comprenant les minerais métalliques, les minéraux industriels, etc., le cas échéant accompagnées d''informations relatives à la profondeur/la hauteur de la ressource.</skos:definition>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MDSD/"/>
+<skos:narrower rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/MTSD/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/RMIN/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+</rdf:RDF>

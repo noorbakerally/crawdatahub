@@ -1,0 +1,446 @@
+<rdf:RDF xmlns:wf="http://intelleo.eu/ontologies/workflow/ns#" xmlns:eea="http://www.eea.europa.eu/ontologies.rdf#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:data="http://www.eea.europa.eu/portal_types/Data#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:schema="http://schema.org/">
+  <data:Data rdf:about="http://www.eea.europa.eu/data-and-maps/data/natura-1">
+    <data:eeaManagementPlan xml:lang="en">2011 1.2.2</data:eeaManagementPlan>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-11T10:49:40Z</dcterms:modified>
+    <data:dataSource xml:lang="en">&lt;a href="http://ec.europa.eu/environment/nature/index_en.htm"&gt;Unit Nature &amp;amp; Biodiversity, DG Environment, European Commission&lt;/a&gt;</data:dataSource>
+    <schema:productID>DAT-68-en</schema:productID>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-22T13:30:32Z</dcterms:created>
+    <data:tocdepth>4</data:tocdepth>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag1">
+        <dcterms:title>Bulgaria</dcterms:title>
+        <rdfs:label>Bulgaria</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</geo:lat>
+        <rdfs:comment>Bulgaria</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag14">
+        <dcterms:title>Lithuania</dcterms:title>
+        <rdfs:label>Lithuania</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</geo:lat>
+        <rdfs:comment>Lithuania</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag22">
+        <dcterms:title>Slovenia</dcterms:title>
+        <rdfs:label>Slovenia</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.1666667</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.25</geo:lat>
+        <rdfs:comment>Slovenia</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag12">
+        <dcterms:title>Italy</dcterms:title>
+        <rdfs:label>Italy</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.8333333</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.8333333</geo:lat>
+        <rdfs:comment>Italy</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag19">
+        <dcterms:title>Portugal</dcterms:title>
+        <rdfs:label>Portugal</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-8.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.5</geo:lat>
+        <rdfs:comment>Portugal</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag23">
+        <dcterms:title>Spain</dcterms:title>
+        <rdfs:label>Spain</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</geo:lat>
+        <rdfs:comment>Spain</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag3">
+        <dcterms:title>Czech Republic</dcterms:title>
+        <rdfs:label>Czech Republic</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.75</geo:lat>
+        <rdfs:comment>Czech Republic</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag17">
+        <dcterms:title>Netherlands</dcterms:title>
+        <rdfs:label>Netherlands</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.75</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.5</geo:lat>
+        <rdfs:comment>Netherlands</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag5">
+        <dcterms:title>Estonia</dcterms:title>
+        <rdfs:label>Estonia</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.0</geo:lat>
+        <rdfs:comment>Estonia</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag13">
+        <dcterms:title>Latvia</dcterms:title>
+        <rdfs:label>Latvia</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.0</geo:lat>
+        <rdfs:comment>Latvia</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag8">
+        <dcterms:title>Germany</dcterms:title>
+        <rdfs:label>Germany</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.5</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.5</geo:lat>
+        <rdfs:comment>Germany</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag15">
+        <dcterms:title>Luxembourg</dcterms:title>
+        <rdfs:label>Luxembourg</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1666667</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.75</geo:lat>
+        <rdfs:comment>Luxembourg</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag24">
+        <dcterms:title>Sweden</dcterms:title>
+        <rdfs:label>Sweden</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.0</geo:lat>
+        <rdfs:comment>Sweden</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag25">
+        <dcterms:title>United Kingdom</dcterms:title>
+        <rdfs:label>United Kingdom</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-2.69531160593</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.7584442358</geo:lat>
+        <rdfs:comment>United Kingdom</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag7">
+        <dcterms:title>France</dcterms:title>
+        <rdfs:label>France</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.0</geo:lat>
+        <rdfs:comment>France</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag18">
+        <dcterms:title>Poland</dcterms:title>
+        <rdfs:label>Poland</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</geo:lat>
+        <rdfs:comment>Poland</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag16">
+        <dcterms:title>Malta</dcterms:title>
+        <rdfs:label>Malta</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.433333</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.916667</geo:lat>
+        <rdfs:comment>Malta</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag10">
+        <dcterms:title>Hungary</dcterms:title>
+        <rdfs:label>Hungary</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.0</geo:lat>
+        <rdfs:comment>Hungary</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag4">
+        <dcterms:title>Denmark</dcterms:title>
+        <rdfs:label>Denmark</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</geo:lat>
+        <rdfs:comment>Denmark</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag6">
+        <dcterms:title>Finland</dcterms:title>
+        <rdfs:label>Finland</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.0</geo:lat>
+        <rdfs:comment>Finland</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag20">
+        <dcterms:title>Romania</dcterms:title>
+        <rdfs:label>Romania</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.0</geo:lat>
+        <rdfs:comment>Romania</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag2">
+        <dcterms:title>Cyprus</dcterms:title>
+        <rdfs:label>Cyprus</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</geo:lat>
+        <rdfs:comment>Cyprus</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag0">
+        <dcterms:title>Belgium</dcterms:title>
+        <rdfs:label>Belgium</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.8333333</geo:lat>
+        <rdfs:comment>Belgium</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag9">
+        <dcterms:title>Greece</dcterms:title>
+        <rdfs:label>Greece</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.0</geo:lat>
+        <rdfs:comment>Greece</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag11">
+        <dcterms:title>Ireland</dcterms:title>
+        <rdfs:label>Ireland</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-8.0</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</geo:lat>
+        <rdfs:comment>Ireland</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <dcterms:spatial>
+      <geo:SpatialThing rdf:about="#geotag21">
+        <dcterms:title>Slovakia</dcterms:title>
+        <rdfs:label>Slovakia</rdfs:label>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.5</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.6666667</geo:lat>
+        <rdfs:comment>Slovakia</rdfs:comment>
+        <dcterms:type>independent political entity</dcterms:type>
+      </geo:SpatialThing>
+    </dcterms:spatial>
+    <data:id xml:lang="en">natura-1</data:id>
+    <data:themes>biodiversity</data:themes>
+    <data:themes>landuse</data:themes>
+    <data:contact xml:lang="en">Outside contact: Danny CHARBONNEAU, Danny.CHARBONNEAU@ec.europa.eu
+In-house contact: Rania Spyropoulou, Rania.Spyropoulou@eea.europa.eu
+Operator: Marek Staron, Marek.Staron@eea.europa.eu</data:contact>
+    <dcterms:description xml:lang="en">Natura 2000 is the key instrument to protect biodiversity in the European Union. It is an ecological network of protected areas, set up to ensure the survival of Europe's most valuable species and habitats. Natura 2000 is based on the 1979 Birds Directive and the 1992 Habitats Directive. The green infrastructure it provides safeguards numerous ecosystem services and ensures that Europe's natural systems remain healthy and resilient.</dcterms:description>
+    <dcterms:abstract>natura-1  Natura 2000 data - the European network of protected sites  Natura 2000 is the key instrument to protect biodiversity in the European Union. It is an ecological network of protected areas, set up to ensure the survival of Europe's most valuable species and habitats. Natura 2000 is based on the 1979 Birds Directive and the 1992 Habitats Directive. The green infrastructure it provides safeguards numerous ecosystem services and ensures that Europe's natural systems remain healthy and resilient.  vector data geospatial data Natura 2000    
+  About this data   
+ Natura 2000 is an ecological network composed of sites designated under the  Birds Directive (Special Protection Areas, SPAs)  and the  Habitats Directive (Sites of Community Importance, SCIs, and Special Areas of Conservation, SACs) . 
+ For each Natura 2000 site, national authorities have submitted a  standard data form (SDF)  that contains an extensive description of the site and its ecology. The European Topic Centre for Biological Diversity (ETC/BD), based in Paris, is responsible for validating this data and creating an EU wide descriptive database. 
+ The European database on Natura 2000 sites consists of data submitted by Member States to the European Commission. This data is subject to a regular validation and updating process. After validation a new EU-wide Natura 2000 database is released. The date of release of a new EU-wide database does not guarantee that the data has been regularly and uniformly updated by Member States. 
+ The spatial data (borders of sites) submitted by each Member State is validated by the European Environment Agency (EEA) and linked to the descriptive data. Any problems identified during this process are brought to the attention of the concerned Member States. The spatial data is then generalized to a scale of 1/100000 and is integrated into the database. Please note therefore that the displayed sites may be less precise than the ones sent to the European Commission. In certain cases this may result, when zooming in closely, in a certain shift with regard to the underlying map. Re-projection from the data's original projection may also accentuate this shift. 
+ There are specific terms and conditions relating to the use of downloaded boundary data within the United Kingdom. &#160;If you intend to use the UK data you must first agree to the end user licence  http://www.jncc.gov.uk/page-5232 . 
+ Natura 2000 sites from Austria have been left out of the present database as Austria has disagreed so far with the way of sharing the data. 
+ Please note that some Member States have submitted sensitive information that has been filtered out of this database. The following Member States have submitted sensitive information: Bulgaria, Cyprus, Czech Republic, Finland, Germany, Ireland, Latvia, Luxembourg, Malta, Slovakia, Sweden and United Kingdom. This concerns mainly species associated to specific sites. All reference to these species has been removed from the related sites. Certain descriptive fields, possibly mentioning the presence of these species, have also been removed. If this sensitive information is necessary to your field of research, please contact the Member States' administrations individually. You can find a compiled list of national or regional Natura 2000 websites at the following address:   http://ec.europa.eu/environment/nature/natura2000/db_gis/index_en.htm#sites  
+ For more information on this Natura 2000 database please contact: 
+   Rene.Deprez@ec.europa.eu   
+  Disclaimer   
+ This data is provided for general information purposes only. Only the data possessed by the competent authorities of the Member States is authentic. Therefore, no rights or legal claims can be derived from the data displayed on this site. 
+ </dcterms:abstract>
+    <data:geographicCoverage>pl</data:geographicCoverage>
+    <data:geographicCoverage>ee</data:geographicCoverage>
+    <data:geographicCoverage>dk</data:geographicCoverage>
+    <data:geographicCoverage>ie</data:geographicCoverage>
+    <data:geographicCoverage>si</data:geographicCoverage>
+    <data:geographicCoverage>ro</data:geographicCoverage>
+    <data:geographicCoverage>mt</data:geographicCoverage>
+    <data:geographicCoverage>nl</data:geographicCoverage>
+    <data:geographicCoverage>cz</data:geographicCoverage>
+    <data:geographicCoverage>se</data:geographicCoverage>
+    <data:geographicCoverage>fr</data:geographicCoverage>
+    <data:geographicCoverage>de</data:geographicCoverage>
+    <data:geographicCoverage>pt</data:geographicCoverage>
+    <data:geographicCoverage>sk</data:geographicCoverage>
+    <data:geographicCoverage>fi</data:geographicCoverage>
+    <data:geographicCoverage>es</data:geographicCoverage>
+    <data:geographicCoverage>cy</data:geographicCoverage>
+    <data:geographicCoverage>gr</data:geographicCoverage>
+    <data:geographicCoverage>lt</data:geographicCoverage>
+    <data:geographicCoverage>gb</data:geographicCoverage>
+    <data:geographicCoverage>lv</data:geographicCoverage>
+    <data:geographicCoverage>hu</data:geographicCoverage>
+    <data:geographicCoverage>lu</data:geographicCoverage>
+    <data:geographicCoverage>bg</data:geographicCoverage>
+    <data:geographicCoverage>it</data:geographicCoverage>
+    <data:geographicCoverage>be</data:geographicCoverage>
+    <data:disableProgressTrailViewlet>False</data:disableProgressTrailViewlet>
+    <dcterms:rights xml:lang="en">EEA standard re-use policy: unless otherwise indicated, re-use of content on the EEA website for commercial or non-commercial purposes is permitted free of charge, provided that the source is acknowledged (http://www.eea.europa.eu/legal/copyright). Copyright holder: Directorate-General for Environment (DG ENV).</dcterms:rights>
+    <dcterms:expires rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-20T08:02:48Z</dcterms:expires>
+    <dcterms:title xml:lang="en">Natura 2000 data - the European network of protected sites</dcterms:title>
+    <dcterms:subject>geospatial data</dcterms:subject>
+    <dcterms:subject>vector data</dcterms:subject>
+    <dcterms:subject>Natura 2000</dcterms:subject>
+    <data:referenceSystem xml:lang="en">3035</data:referenceSystem>
+    <data:scale>100000</data:scale>
+    <eea:hasWorkflowState rdf:resource="http://www.eea.europa.eu/portal_workflow/eea_data_workflow/states/published"/>
+    <dcterms:replaces rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-2000-eunis-database"/>
+    <dcterms:replaces rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura"/>
+    <dcterms:replaces rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-2000"/>
+    <dcterms:isReplacedBy rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-7"/>
+    <dcterms:isReplacedBy rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-3"/>
+    <dcterms:isReplacedBy rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-2"/>
+    <dcterms:isReplacedBy rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-5"/>
+    <dcterms:isReplacedBy rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-8"/>
+    <dcterms:isReplacedBy rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-4"/>
+    <dcterms:isReplacedBy rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-6"/>
+    <data:temporalCoverage>2010</data:temporalCoverage>
+    <eea:objectProvides>eea.dataservice.templates.interfaces.IProvideTemplates</eea:objectProvides>
+    <eea:objectProvides>eea.pdf.subtypes.interfaces.IPDFAware</eea:objectProvides>
+    <eea:objectProvides>eea.epub.subtypes.interfaces.IEPUBAware</eea:objectProvides>
+    <eea:objectProvides>zope.annotation.interfaces.IAttributeAnnotatable</eea:objectProvides>
+    <eea:objectProvides>AccessControl.interfaces.IOwned</eea:objectProvides>
+    <eea:objectProvides>eea.relations.content.interfaces.IBaseObject</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.base.IBaseObject</eea:objectProvides>
+    <eea:objectProvides>eea.workflow.interfaces.IObjectArchived</eea:objectProvides>
+    <eea:objectProvides>App.interfaces.IUndoSupport</eea:objectProvides>
+    <eea:objectProvides>AccessControl.interfaces.IPermissionMappingSupport</eea:objectProvides>
+    <eea:objectProvides>webdav.interfaces.IWriteLock</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.ICopyContainer</eea:objectProvides>
+    <eea:objectProvides>plone.app.iterate.interfaces.IIterateAware</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.ICatalogAware</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IOrderedContainer</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IContentish</eea:objectProvides>
+    <eea:objectProvides>eea.facetednavigation.subtypes.interfaces.IPossibleFacetedNavigable</eea:objectProvides>
+    <eea:objectProvides>eea.workflow.interfaces.IHasMandatoryWorkflowFields</eea:objectProvides>
+    <eea:objectProvides>Products.CMFPlone.interfaces.constrains.ISelectableConstrainTypes</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.base.IBaseContent</eea:objectProvides>
+    <eea:objectProvides>Products.ATContentTypes.interfaces.interfaces.IATContentType</eea:objectProvides>
+    <eea:objectProvides>App.interfaces.INavigation</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IPropertyManager</eea:objectProvides>
+    <eea:objectProvides>Products.ATContentTypes.interfaces.folder.IATBTreeFolder</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IOpaqueItemManager</eea:objectProvides>
+    <eea:objectProvides>collective.quickupload.interfaces.IQuickUploadCapable</eea:objectProvides>
+    <eea:objectProvides>plone.folder.interfaces.IOrderableFolder</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.ISimpleItem</eea:objectProvides>
+    <eea:objectProvides>eea.promotion.interfaces.IPromotable</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IFolderish</eea:objectProvides>
+    <eea:objectProvides>Acquisition.interfaces.IAcquirer</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.ICopySource</eea:objectProvides>
+    <eea:objectProvides>eea.progressbar.interfaces.IBaseObject</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IFolder</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.referenceable.IReferenceable</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IItem</eea:objectProvides>
+    <eea:objectProvides>eea.geotags.storage.interfaces.IGeoTaggable</eea:objectProvides>
+    <eea:objectProvides>eea.dataservice.interfaces.IDataset</eea:objectProvides>
+    <eea:objectProvides>eea.pdf.subtypes.interfaces.ICollectionPDFAware</eea:objectProvides>
+    <eea:objectProvides>archetypes.schemaextender.interfaces.IExtensible</eea:objectProvides>
+    <eea:objectProvides>eea.uberlisting.browser.app.interfaces.IPossibleUberlistingView</eea:objectProvides>
+    <eea:objectProvides>Products.EEAContentTypes.interfaces.IEEAContent</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IDynamicType</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IFindSupport</eea:objectProvides>
+    <eea:objectProvides>eea.annotator.subtypes.interfaces.IAnnotatorAware</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.ITraversable</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.metadata.IExtensibleMetadata</eea:objectProvides>
+    <eea:objectProvides>Products.LinguaPlone.interfaces.ITranslatable</eea:objectProvides>
+    <eea:objectProvides>App.interfaces.IPersistentExtra</eea:objectProvides>
+    <eea:objectProvides>persistent.interfaces.IPersistent</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IMutableMinimalDublinCore</eea:objectProvides>
+    <eea:objectProvides>webdav.EtagSupport.EtagBaseInterface</eea:objectProvides>
+    <eea:objectProvides>eea.themecentre.interfaces.IThemeTaggable</eea:objectProvides>
+    <eea:objectProvides>plone.app.imaging.interfaces.IBaseObject</eea:objectProvides>
+    <eea:objectProvides>eea.versions.interfaces.IVersionEnhanced</eea:objectProvides>
+    <eea:objectProvides>eea.alchemy.interfaces.IAlchemyDiscoverable</eea:objectProvides>
+    <eea:objectProvides>plone.portlets.interfaces.ILocalPortletAssignable</eea:objectProvides>
+    <eea:objectProvides>z3c.relationfield.interfaces.IHasIncomingRelations</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.base.IBaseFolder</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IWorkflowAware</eea:objectProvides>
+    <eea:objectProvides>eea.geotags.storage.interfaces.IGeoTagged</eea:objectProvides>
+    <eea:objectProvides>Products.EEAContentTypes.interfaces.IEEAPossibleContent</eea:objectProvides>
+    <eea:objectProvides>eea.cache.subtypes.interfaces.ICacheAware</eea:objectProvides>
+    <eea:objectProvides>plone.locking.interfaces.ITTWLockable</eea:objectProvides>
+    <eea:objectProvides>AccessControl.interfaces.IRoleManager</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IObjectManager</eea:objectProvides>
+    <eea:objectProvides>eea.reports.interfaces.IPossibleReportContainer</eea:objectProvides>
+    <eea:objectProvides>Products.CMFDynamicViewFTI.interfaces.ISelectableBrowserDefault</eea:objectProvides>
+    <eea:objectProvides>plone.app.folder.folder.IATUnifiedFolder</eea:objectProvides>
+    <eea:objectProvides>webdav.interfaces.IDAVCollection</eea:objectProvides>
+    <eea:objectProvides>eea.faceted.inheritance.subtypes.interfaces.IPossibleFacetedHeritor</eea:objectProvides>
+    <eea:objectProvides>Products.NavigationManager.sections.interfaces.INavigationSectionPositionable</eea:objectProvides>
+    <eea:objectProvides>plone.uuid.interfaces.IUUIDAware</eea:objectProvides>
+    <eea:objectProvides>eea.themecentre.interfaces.IPossibleThemeCentre</eea:objectProvides>
+    <eea:objectProvides>plone.contentrules.engine.interfaces.IRuleAssignable</eea:objectProvides>
+    <eea:objectProvides>webdav.interfaces.IDAVResource</eea:objectProvides>
+    <data:moreInfo xml:lang="en">&lt;p&gt;&lt;a href="http://natura2000.eea.europa.eu/html/About.html"&gt;&lt;strong&gt;About this data&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Natura 2000 is an ecological network composed of sites designated under the &lt;a href="http://ec.europa.eu/environment/nature/legislation/birdsdirective/index_en.htm"&gt;Birds Directive (Special Protection Areas, SPAs)&lt;/a&gt; and the &lt;a href="http://ec.europa.eu/environment/nature/legislation/habitatsdirective/index_en.htm"&gt;Habitats Directive (Sites of Community Importance, SCIs, and Special Areas of Conservation, SACs)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For each Natura 2000 site, national authorities have submitted a &lt;a href="http://ec.europa.eu/environment/nature/legislation/habitatsdirective/index_en.htm#sdf"&gt;standard data form (SDF)&lt;/a&gt; that contains an extensive description of the site and its ecology. The European Topic Centre for Biological Diversity (ETC/BD), based in Paris, is responsible for validating this data and creating an EU wide &lt;strong&gt;descriptive database&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The European database on Natura 2000 sites consists of data submitted by Member States to the European Commission. This data is subject to a regular validation and updating process. After validation a new EU-wide Natura 2000 database is released. The date of release of a new EU-wide database does not guarantee that the data has been regularly and uniformly updated by Member States.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;spatial data&lt;/strong&gt; (borders of sites) submitted by each Member State is validated by the European Environment Agency (EEA) and linked to the descriptive data. Any problems identified during this process are brought to the attention of the concerned Member States. The spatial data is then generalized to a scale of 1/100000 and is integrated into the database. Please note therefore that the displayed sites may be less precise than the ones sent to the European Commission. In certain cases this may result, when zooming in closely, in a certain shift with regard to the underlying map. Re-projection from the data's original projection may also accentuate this shift.&lt;/p&gt;
+&lt;p&gt;There are specific terms and conditions relating to the use of downloaded boundary data within the United Kingdom. &amp;nbsp;If you intend to use the UK data you must first agree to the end user licence &lt;a href="http://www.jncc.gov.uk/page-5232"&gt;http://www.jncc.gov.uk/page-5232&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Natura 2000 sites from Austria have been left out of the present database as Austria has disagreed so far with the way of sharing the data.&lt;/p&gt;
+&lt;p&gt;Please note that some Member States have submitted sensitive information that has been filtered out of this database. The following Member States have submitted sensitive information: Bulgaria, Cyprus, Czech Republic, Finland, Germany, Ireland, Latvia, Luxembourg, Malta, Slovakia, Sweden and United Kingdom. This concerns mainly species associated to specific sites. All reference to these species has been removed from the related sites. Certain descriptive fields, possibly mentioning the presence of these species, have also been removed. If this sensitive information is necessary to your field of research, please contact the Member States' administrations individually. You can find a compiled list of national or regional Natura 2000 websites at the following address: &lt;br /&gt;&lt;a href="http://ec.europa.eu/environment/nature/natura2000/db_gis/index_en.htm#sites"&gt;http://ec.europa.eu/environment/nature/natura2000/db_gis/index_en.htm#sites&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For more information on this Natura 2000 database please contact:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="mailto:Rene.Deprez@ec.europa.eu"&gt;Rene.Deprez@ec.europa.eu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://natura2000.eea.europa.eu/html/Disclaimer.html"&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This data is provided for general information purposes only. Only the data possessed by the competent authorities of the Member States is authentic. Therefore, no rights or legal claims can be derived from the data displayed on this site.&lt;/p&gt;</data:moreInfo>
+    <dcterms:isPartOf rdf:resource="http://www.eea.europa.eu/data-and-maps/data"/>
+    <wf:currentStatus>
+      <wf:DetailedProgressStatus rdf:about="#workflow_state_progress">
+        <wf:progressLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</wf:progressLevel>
+      </wf:DetailedProgressStatus>
+    </wf:currentStatus>
+    <dcterms:creator>alec</dcterms:creator>
+    <dcterms:creator>staromar</dcterms:creator>
+    <dcterms:creator>EEA</dcterms:creator>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-22T14:30:00Z</dcterms:issued>
+    <data:dataOwner>http://ec.europa.eu/dgs/environment/index_en.htm</data:dataOwner>
+    <data:forcedisableautolinks>False</data:forcedisableautolinks>
+    <dcterms:hasPart rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-1/database-relational-structure-diagram"/>
+    <dcterms:hasPart rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-1/natura-2000-public-spatial-data"/>
+    <dcterms:hasPart rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-1/natura-2000-public-microsoft-access-database-10-tables"/>
+    <dcterms:hasPart rdf:resource="http://www.eea.europa.eu/data-and-maps/data/natura-1/inspire-compliant-metadata-set"/>
+    <data:lastUpload rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-21T23:00:00Z</data:lastUpload>
+    <data:shortId xml:lang="en">1112</data:shortId>
+    <data:reportingObligations>274</data:reportingObligations>
+    <data:reportingObligations>616</data:reportingObligations>
+  </data:Data>
+</rdf:RDF>

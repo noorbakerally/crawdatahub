@@ -1,0 +1,2612 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	 xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ 	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+     xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#"
+     xmlns:lomvoc="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#"
+     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rss="http://purl.org/rss/1.0/"
+     xmlns:skos="http://www.w3.org/2008/05/skos#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#" 
+     xmlns:yo="http://www.yovisto.com/ontology/0.9/"
+     xmlns:y="http://www.yovisto.com/resource/" 
+     xmlns:addthis="http://www.addthis.com/help/api-spec">
+<head  profile="http://ns.inria.fr/grddl/rdfa/">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+		<script type="text/javascript" src="/js/prototype.js"></script>   
+		  
+		<script type="text/javascript" src="/js/MD5.js"></script>
+		
+		<script type="text/javascript" src="/js/UserAdministration.js"></script>
+        <script type="text/javascript" src="/js/MyYovisto.js"></script> 
+        <script type="text/javascript" src="/js/yovisto.js"></script>
+     
+        <script type="text/javascript" src="/js/IndexPage.js"></script>
+        <script type="text/javascript" src="/js/Bookmarks.js"></script>
+    	<script type="text/javascript" src="/js/Profile.js"></script>
+    	  	
+    	<script type="text/javascript" src="/js/VideoInfo.js"></script> 
+    	<script type="text/javascript" src="/js/auto-complete.js"></script> 
+    	<script type="text/javascript" src="/js/OrganisationAutoSuggest.js"></script>   
+        <script type="text/javascript" src="/js/ResultPage.js"></script> 
+
+        <script type="text/javascript" src="/js/Wiki.js"></script>
+        <script type="text/javascript" src="/js/Upload.js"></script> 
+        
+        <script type="text/javascript" src="/js/comments.js"></script> 
+   		
+  		
+<link rel="transformation" href="http://ns.inria.fr/grddl/rdfa/2008/09/03/RDFa2RDFXML.xsl"/>
+
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+<link  href="/favicon.ico" />
+<script type="text/javascript">   
+   
+         var jsid = '9EABA386B9DAA5624430083592CC8667.jvm1';    
+         var csid = '<!--%= nl.captcha.servlet.Constants.SIMPLE_CAPCHA_SESSION_KEY %-->';
+        </script>
+    <!-- script type='text/javascript' 
+        src='http://getfirebug.com/releases/lite/1.2/firebug-lite-compressed.js'></script -->
+
+
+
+<script language="javascript" type="text/javascript" src="/js/fckeditor/fckeditor.js"></script>
+
+
+
+
+
+
+
+
+
+<title>Harald Sack</title>
+</head>
+
+<body id="body" onload="
+	">
+
+
+<div style="display:none;">Harald Sack. (01) Der Computer als universales Kommunikationsmedium (02) Der Computer als universales Kommunikationsmedium (Teil 2) (04) Datenrepräsentation im Computer (Teil 2) (05) Datenrepräsentation im Computer (Teil 3) (06) Grafikkodierung und -komprimierung (07) Grafikkodierung und -komprimierung (Teil 2) (08) Audiokodierung und -komprimierung (09) Videokodierung und -komprimierung (10) Videokodierung und -komprimierung (Teil 2) (11) Netzwerk Grundlagen (13) Internetworking (14) Internetworking (Teil 2) (15) Internetanwendungen (16) Internetanwendungen (Teil 2) (17) World Wide Web (18) World Wide Web (Teil 2) (19) Sicherheit (20) Sicherheit (Teil 2) (21) WWW-Groupware (22) WWW-Suchmaschinen Keynote: Wie Sie schon immer finden wollten, was Sie noch nie gesucht haben. Linked Open Data Universe Meinel, Sack: Digitale Kommunikation Semantic Web - eine besonders kurze Einführung Semantische Suche Technische Grundlagen des Internet  (04) - Information und Kodierung Technische Grundlagen des Internet (01) - Einführung (Teil 1) Technische Grundlagen des Internet (02) - Einführung, Teil 2 Technische Grundlagen des Internet (05) - Grafikkodierung und -komprimierung Technische Grundlagen des Internet (06) - Audiokodierung und -komprimierung Technische Grundlagen des Internet (07) - Videokodierung und -komprimierung Technische Grundlagen des Internet (12) - Internetworking (Teil 1) Technische Grundlagen des Internet (13) - Internetworking (Teil 2) Technische Grundlagen des Internet (16) - Internetanwendungen (Teil 1) Technische Grundlagen des Internet (17) - Internetanwendungen (Teil 2) Technische Grundlagen des Internet (23) - Webprogrammierung und WebServices Technische Grundlagen des Internet (24) Webprogrammierung (Teil 2) Technische Grundlagen des Internet (25) - Suchmaschinen im WWW Technische Grundlagen des Internet (26) - P2P Netzwerke und Semantic Web (Teil 1) 01 Einführung, Kommunikationsmedium Internet 02 Kurze Geschichte des Internets / Information und  Kodierung (Teil 1) 03 Grundlagen der Digitalisierung 04 JPEG, Audio- und Videokodierung 05 MPEG Video, Einführung Netzwerke 06 Grundlagen Rechnervernetzung 07 Physikalische Rechnervernetzung / Lokale Netze 08 Lokale Netze, Ethernet, Token Ring, WLAN 09 WLAN, WAN, Internetworking, Routing 10 Routing, IPv4, IPv6 11 Protokolle der Netzwerkschicht / Datentransportschicht 12 Transportschicht, Anwendungsschicht, Internetanwendungen 13 Anwendungsschicht (Teil 2) (01) Die Grenzen des WWW / Die Vision des Semantic Web (02) Wie das Semantic Web die Welt verändert / XML  (04) Resource Description Framework - RDF (05) RDFS und Abfragesprache SPARQL (06) Ontologien - Wissensrepräsentationen  (07) Aussagenlogik und Prädikatenlogik (08) Semantik von RDF(S) (09) Web Ontology Language OWL (10) OWL - Semantik (11) Regeln mit SWRL / RIF (12) Methoden des Ontologie-Entwurfs (13) Web of Trust Metadaten - eine (schnelle) Einführung YOVISTO - academic video search Interview mit Harald Sack International IPv6 Application Contest 2009 01 Einführung (Teil 1) 02 Einführung (Teil 2) / Vom WWW zum Semantic Web 03 XML und XML-Schema (Teil 1) 04 RDFS, RDFa, SPARQL und Triple Stores 04 XML und XML-Schema (Teil 2) 05 Resource Description Framework - RDF 06 Ontologie(n) in Philosophie und Informatik 07 Aussagenlogik und Prädikatenlogik 08 RDF(S) Semantik 09 Beschreibungslogiken 10 OWL und OWL-Semantik 11 OWL 2 12 SWRL/RIF 13 Ontology Engineering 01 Einführung in Semantic Web Technologien 02 Semantic Web Basis Architekturen 03 Resource Description Format - RDF 04 RDFS, RDFa und SPARQL 05 Ontologien 06 Aussagenlogik und Prädikatenlogik 07 RDF(S) Semantik 08 Beschreibungslogiken 09 OWL und OWL-Semantik 10 OWL 2 11 Regeln mit SWRL/RIF 12 Ontology Engineering 13 Linked Data Applications Mediaglobe Abschlussveranstaltung 01 Semantic Web Technologien - Einführung 02 Semantic Web Technologien - URI und RDF 03 Semantic Web Technologien - RDFS, RDFa und SPARQL 04 Semantic Web Technologien - Ontologie in der Philosophie und der Informatik 05 Semantic Web Technologien - Aussagenlogik und Prädikatenlogik 06 Semantic Web Technologien - Beschreibungslogiken 07 Semantic Web Technologien - RDF(S) Semantik 08 Semantic Web Technologien - OWL und OWL Semantik 09 Semantic Web Technologien - OWL 2 10 Semantic Web Technologien - Regeln mit SWRL und RIF 11 Semantic Web Technologien - Ontological Engineering 12 Semantic Web Technologien - Linked Data Engineering 13 Semantic Web Technologien - Semantic Search 01 Semantic Web Technologien - From Internet to Web 2.0 02 Semantic Web Technologien - URI and RDF 03 Semantic Web Technologien - RDFS and RDFa 05 Semantic Web Technologien - Ontologies Context-driven semantic multimedia search 1.1 The Web and how we got there 1.2 The Limits of the Web 1.3 The Importance of Meaning 1.4 The Limits of the Web (continued) 1.5 The Vision of the Semantic Web 1.6 The Vision of the Semantic Web (continued) 1.7 Applications in the Web of Data 2.1 How to identify Things? - URIs 2.2 How to represent Facts? RDF (1) 2.3 How to represent Facts? RDF (2) 2.4 How to represent Facts? RDF (3) 2.5 How to represent Facts? RDF (4) 2.6 How to model Classes and Relations? - RDFS 2.7 How much Semantics is there in RDF(S) 3. Excursus - Semantic Meta Data and the Web 3.1 How to query RDF(S)? - SPARQL 3.2 How to query RDF(S)? - SPARQL (2) 3.3 How to query RDF(S)? - SPARQL (3) 3.4 How to query RDF(S)? - SPARQL (4) 3.5 How to story RDF(S) Data? - Triple Stores 3.6 The Limits of RDF(S) 4.1 Ontology as Central Concept in Philosophy 4.2 Ontology in Computer Science 4.3 How do I define a formal model of an Ontology? 4.4 Ontology Types 4.5 Foundations of Logic 4.6 Canonical Forms 4.7 Resolution (PL) 4.8 Resolution (FOL) 4.9 Tableaux Algorithm 5.1 Description Logics -  ALC 5.2 DL Inference and Reasoning 5.3 Tableaux Algorithm for ALC 5.4 Web Ontology Language - OWL 5.5 Web Ontology Language - OWL (2) 5.6 Web Ontology Language - OWL (3) 5.7 Web Ontology Language - OWL (4) 5.8 Web Ontology Language - OWL (5) 5.9 Rules and the Semantic Web 6.1 Ontological Engineering 6.3 Ontology Design 101 6.4 Linked Data Engineering 6.5 Linked Data Engineering (2) 6.6 Named Entity Recognition 6.7 Semantic Search 6.8 Exploratory Semantic Search Introduction Context-driven semantic multimedia search </div>   
+  
+<div id="Header_Pane">
+
+	<div class="Centerer">
+	<div id="Header_Logo">
+		<a href="/index.jsp"><img alt="" src="/img/clear.gif" width="1" height="1" id="Header_Logo_Image"/></a>
+	</div>
+	
+	<div id="Navbar">
+	<ul>
+		
+		<li id="Navbar_MyDummy" style="display:none;">&nbsp;</li>				
+		<!--  li id="Navbar_MyContent"><a href="/whyregister.jsp" >Why Register?</a></li-->
+		<li id="Navbar_MyAccount"><a href="/register.jsp" >Sign Up!</a></li>
+		
+	</ul>
+	</div>
+	
+	
+	<div id="Login_Pane" >
+	
+	 <div class="bottom">
+	
+	  <ul>
+			
+		
+		
+		<li  id="Login_Input_Username" class="login_">Username: <input class="Login_Input" name="loginUsername"  type="text" id="LoginUsername" onkeypress="_checkKeyLoginUsername(event)" onfocus="javascript:this.style.background='#ffffff'" size='12' maxlength="126" /></li>
+		<li  id="Login_Input_Password" class="login_">Password: <input class="Login_Input" name="loginPassword"  type="password" id="LoginPassword" onkeypress="_checkKeyLoginPassword(event)" onfocus="javascript:this.style.background='#ffffff'" size='12' maxlength="126" /></li>
+		<li  id="Login_Input_Remember" class="login_"><input  style="border: 0px;" id="LoginCheckbox" name="LoginCheckbox" type="checkbox" checked="checked" /> Remember me. &nbsp;&nbsp;
+		<input type="submit" id="login" name="login" value="login" onclick="javascript:loginUser(0)" /></li>
+        <li class="login_" ><a href="/login.jsp">Forgot your login?</a><br /><a href="/register.jsp" >Sign up a new account!</a></li>
+
+		
+		
+	  </ul>
+	  <div id="LoginMsg"></div>
+	    
+	 </div>
+
+	</div>
+</div> 
+	
+</div>
+<div id="Navigation_Pane">
+	 
+	 
+	 
+	 
+	 	 
+	 
+	 
+	 
+	 	 
+	  
+	 
+	 	<div class="menu_wrapper_active">
+<ul id='menu' class="active">
+<li class='sm first'><a href='/' title='Home'  >Home</a></li>
+<li class='al alfirst'><a href='/standard.jsp' title='Search'>Search</a></li>
+<li class='al '><a href='/myyovisto.jsp'  title='MyYovisto'>MyYovisto</a></li>
+<li class='al '><a href='/organisations.jsp' title='Universities'>Universities</a></li>
+<li class='al'><a href='/popcollections.jsp' title='Lectures'>Lectures</a></li>
+<li class='al'><a href='/popularvideos.jsp' title='Videos'>Videos</a></li>
+<li class='al acurrent'><a href='/speakers.jsp' class='current'  title='Speaker'>Speakers</a></li>
+<li class='al alcurrentlast'><a href='/upload.jsp' title='Upload'>Upload</a></li>
+<!-- li class='sm'><a href='/company.jsp' title='Company'>Company</a></li --> 
+<li class='sm'><a href='/help.jsp' title='Help'>FAQ</a></li>
+<li class='sm'><a href='/imprint.jsp' title='Imprint'>Imprint</a></li>
+<li class='sm'><a  target="blank" href='http://blog.yovisto.com' title='Blog'>Blog</a></li>
+<li class='sm'><a href='/feedback.jsp' title='Feedback'>Feedback</a></li>
+</ul>
+<div class="submenu_wrapper_active">
+<div id='submenu' class="submenu_active"> 
+<div style=" padding-top:3px"><a href="/speakers.jsp">alphabetical order</a> | <a href="/popspeakers.jsp">most popular</a> | <a href="/mvspeakers.jsp">most videos</a></div> 
+
+</div></div></div>
+ 
+	 
+	 
+	  
+</div>
+<div id="Wrapper" class="Wrapper">
+	<div id="Centerer" class="Centerer">
+
+<div id="Main_Pane2">
+	<div id="Content_Pane2" class="Column">
+	<div  class="item" typeof="yo:Speaker" about="/resource/speaker/470">
+	
+		<h3> 
+		
+		
+			<span property="foaf:title">Dr. </span>
+		
+		<span property="foaf:given_name foaf:firstName">Harald </span>
+				
+		<span property="foaf:surname foaf:familyname">Sack</span>
+		
+		
+		<span rel="rdfs:sameAs" href="http://data.semanticweb.org/person/harald-sack"></span>
+		
+		
+		
+		
+		</h3> 
+		
+		<div id="editSpeakerPane" style="display:none">
+			<select name="speaker_title" id="speaker_title" style="width:70px">
+	            <option> </option>
+	            <option selected>Dr.</option>
+	            <option >Prof. Dr.</option>
+	             
+		    </select>
+           <input id="given_name" name="given_name" size="10" maxlength="255" type="text" value="Harald">
+           <input id="family_name" name="family_name" size="15" maxlength="255" type="text" value="Sack">
+           <input id="speaker_id" name="speaker_id" type="hidden" value="470" />                                       
+			
+			<br><br>
+				<div class="alignmiddle manage " style="width:200px; height:20px; text-align: center; vertical-align: middle;">
+				    <div id='msgSaveSpeaker' ></div>
+					<a href="javascript:saveSpeaker()">save</a> | <a
+		   	  			 href="javascript:editSpeakerCancel()">cancel</a> 
+			  	</div>
+			<br><br>
+			<br><br>
+
+		</div>
+
+		
+		<div id="wikiPage"></div>
+		
+	</div>
+	
+	<div class="item_last">
+	
+			<h3>162 video(s) at yovisto</h3><ul class='Standard_List'>					
+						<li><a href="/video/1133">
+							<span typeof="yo:Video" about="/resource/video/1133">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (01) Der Computer als universales Kommunikationsmedium </span> 
+							 	<span property="dc:identifier" content="video/1133"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/121">
+							<span typeof="yo:Video" about="/resource/video/121">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (02) Der Computer als universales Kommunikationsmedium (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/121"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6322">
+							<span typeof="yo:Video" about="/resource/video/6322">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (04) Datenrepräsentation im Computer (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/6322"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/376">
+							<span typeof="yo:Video" about="/resource/video/376">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (05) Datenrepräsentation im Computer (Teil 3) </span> 
+							 	<span property="dc:identifier" content="video/376"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6324">
+							<span typeof="yo:Video" about="/resource/video/6324">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (06) Grafikkodierung und -komprimierung </span> 
+							 	<span property="dc:identifier" content="video/6324"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/1528">
+							<span typeof="yo:Video" about="/resource/video/1528">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (07) Grafikkodierung und -komprimierung (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/1528"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6359">
+							<span typeof="yo:Video" about="/resource/video/6359">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (08) Audiokodierung und -komprimierung </span> 
+							 	<span property="dc:identifier" content="video/6359"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5">
+							<span typeof="yo:Video" about="/resource/video/5">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (09) Videokodierung und -komprimierung </span> 
+							 	<span property="dc:identifier" content="video/5"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6319">
+							<span typeof="yo:Video" about="/resource/video/6319">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (10) Videokodierung und -komprimierung (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/6319"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/1137">
+							<span typeof="yo:Video" about="/resource/video/1137">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (11) Netzwerk Grundlagen </span> 
+							 	<span property="dc:identifier" content="video/1137"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/29">
+							<span typeof="yo:Video" about="/resource/video/29">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (13) Internetworking </span> 
+							 	<span property="dc:identifier" content="video/29"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/1004">
+							<span typeof="yo:Video" about="/resource/video/1004">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (14) Internetworking (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/1004"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/1598">
+							<span typeof="yo:Video" about="/resource/video/1598">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (15) Internetanwendungen </span> 
+							 	<span property="dc:identifier" content="video/1598"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/1409">
+							<span typeof="yo:Video" about="/resource/video/1409">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (16) Internetanwendungen (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/1409"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/181">
+							<span typeof="yo:Video" about="/resource/video/181">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (17) World Wide Web </span> 
+							 	<span property="dc:identifier" content="video/181"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/625">
+							<span typeof="yo:Video" about="/resource/video/625">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (18) World Wide Web (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/625"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/237">
+							<span typeof="yo:Video" about="/resource/video/237">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (19) Sicherheit </span> 
+							 	<span property="dc:identifier" content="video/237"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/17">
+							<span typeof="yo:Video" about="/resource/video/17">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (20) Sicherheit (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/17"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6377">
+							<span typeof="yo:Video" about="/resource/video/6377">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (21) WWW-Groupware </span> 
+							 	<span property="dc:identifier" content="video/6377"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/1321">
+							<span typeof="yo:Video" about="/resource/video/1321">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (22) WWW-Suchmaschinen </span> 
+							 	<span property="dc:identifier" content="video/1321"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/12308">
+							<span typeof="yo:Video" about="/resource/video/12308">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Keynote: Wie Sie schon immer finden wollten, was Sie noch nie gesucht haben. </span> 
+							 	<span property="dc:identifier" content="video/12308"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/17842">
+							<span typeof="yo:Video" about="/resource/video/17842">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Linked Open Data Universe </span> 
+							 	<span property="dc:identifier" content="video/17842"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/14794">
+							<span typeof="yo:Video" about="/resource/video/14794">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Meinel, Sack: Digitale Kommunikation </span> 
+							 	<span property="dc:identifier" content="video/14794"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15624">
+							<span typeof="yo:Video" about="/resource/video/15624">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Semantic Web - eine besonders kurze Einführung </span> 
+							 	<span property="dc:identifier" content="video/15624"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/11001">
+							<span typeof="yo:Video" about="/resource/video/11001">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Semantische Suche </span> 
+							 	<span property="dc:identifier" content="video/11001"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5627">
+							<span typeof="yo:Video" about="/resource/video/5627">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet  (04) - Information und Kodierung </span> 
+							 	<span property="dc:identifier" content="video/5627"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5625">
+							<span typeof="yo:Video" about="/resource/video/5625">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (01) - Einführung (Teil 1) </span> 
+							 	<span property="dc:identifier" content="video/5625"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5626">
+							<span typeof="yo:Video" about="/resource/video/5626">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (02) - Einführung, Teil 2 </span> 
+							 	<span property="dc:identifier" content="video/5626"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5628">
+							<span typeof="yo:Video" about="/resource/video/5628">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (05) - Grafikkodierung und -komprimierung </span> 
+							 	<span property="dc:identifier" content="video/5628"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5629">
+							<span typeof="yo:Video" about="/resource/video/5629">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (06) - Audiokodierung und -komprimierung </span> 
+							 	<span property="dc:identifier" content="video/5629"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5630">
+							<span typeof="yo:Video" about="/resource/video/5630">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (07) - Videokodierung und -komprimierung </span> 
+							 	<span property="dc:identifier" content="video/5630"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5631">
+							<span typeof="yo:Video" about="/resource/video/5631">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (12) - Internetworking (Teil 1) </span> 
+							 	<span property="dc:identifier" content="video/5631"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5632">
+							<span typeof="yo:Video" about="/resource/video/5632">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (13) - Internetworking (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/5632"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5633">
+							<span typeof="yo:Video" about="/resource/video/5633">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (16) - Internetanwendungen (Teil 1) </span> 
+							 	<span property="dc:identifier" content="video/5633"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5634">
+							<span typeof="yo:Video" about="/resource/video/5634">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (17) - Internetanwendungen (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/5634"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5635">
+							<span typeof="yo:Video" about="/resource/video/5635">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (23) - Webprogrammierung und WebServices </span> 
+							 	<span property="dc:identifier" content="video/5635"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5636">
+							<span typeof="yo:Video" about="/resource/video/5636">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (24) Webprogrammierung (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/5636"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5637">
+							<span typeof="yo:Video" about="/resource/video/5637">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (25) - Suchmaschinen im WWW </span> 
+							 	<span property="dc:identifier" content="video/5637"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/5638">
+							<span typeof="yo:Video" about="/resource/video/5638">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Technische Grundlagen des Internet (26) - P2P Netzwerke und Semantic Web (Teil 1) </span> 
+							 	<span property="dc:identifier" content="video/5638"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6381">
+							<span typeof="yo:Video" about="/resource/video/6381">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 01 Einführung, Kommunikationsmedium Internet </span> 
+							 	<span property="dc:identifier" content="video/6381"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6388">
+							<span typeof="yo:Video" about="/resource/video/6388">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 02 Kurze Geschichte des Internets / Information und  Kodierung (Teil 1) </span> 
+							 	<span property="dc:identifier" content="video/6388"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6391">
+							<span typeof="yo:Video" about="/resource/video/6391">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 03 Grundlagen der Digitalisierung </span> 
+							 	<span property="dc:identifier" content="video/6391"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/6392">
+							<span typeof="yo:Video" about="/resource/video/6392">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 04 JPEG, Audio- und Videokodierung </span> 
+							 	<span property="dc:identifier" content="video/6392"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/8241">
+							<span typeof="yo:Video" about="/resource/video/8241">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 05 MPEG Video, Einführung Netzwerke </span> 
+							 	<span property="dc:identifier" content="video/8241"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/8670">
+							<span typeof="yo:Video" about="/resource/video/8670">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 06 Grundlagen Rechnervernetzung </span> 
+							 	<span property="dc:identifier" content="video/8670"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/8671">
+							<span typeof="yo:Video" about="/resource/video/8671">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 07 Physikalische Rechnervernetzung / Lokale Netze </span> 
+							 	<span property="dc:identifier" content="video/8671"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/8673">
+							<span typeof="yo:Video" about="/resource/video/8673">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 08 Lokale Netze, Ethernet, Token Ring, WLAN </span> 
+							 	<span property="dc:identifier" content="video/8673"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/8677">
+							<span typeof="yo:Video" about="/resource/video/8677">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 09 WLAN, WAN, Internetworking, Routing </span> 
+							 	<span property="dc:identifier" content="video/8677"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/8680">
+							<span typeof="yo:Video" about="/resource/video/8680">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 10 Routing, IPv4, IPv6 </span> 
+							 	<span property="dc:identifier" content="video/8680"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/8695">
+							<span typeof="yo:Video" about="/resource/video/8695">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 11 Protokolle der Netzwerkschicht / Datentransportschicht </span> 
+							 	<span property="dc:identifier" content="video/8695"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/8704">
+							<span typeof="yo:Video" about="/resource/video/8704">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 12 Transportschicht, Anwendungsschicht, Internetanwendungen </span> 
+							 	<span property="dc:identifier" content="video/8704"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/9932">
+							<span typeof="yo:Video" about="/resource/video/9932">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 13 Anwendungsschicht (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/9932"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10502">
+							<span typeof="yo:Video" about="/resource/video/10502">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (01) Die Grenzen des WWW / Die Vision des Semantic Web </span> 
+							 	<span property="dc:identifier" content="video/10502"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10461">
+							<span typeof="yo:Video" about="/resource/video/10461">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (02) Wie das Semantic Web die Welt verändert / XML  </span> 
+							 	<span property="dc:identifier" content="video/10461"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10501">
+							<span typeof="yo:Video" about="/resource/video/10501">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (04) Resource Description Framework - RDF </span> 
+							 	<span property="dc:identifier" content="video/10501"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10684">
+							<span typeof="yo:Video" about="/resource/video/10684">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (05) RDFS und Abfragesprache SPARQL </span> 
+							 	<span property="dc:identifier" content="video/10684"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10685">
+							<span typeof="yo:Video" about="/resource/video/10685">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (06) Ontologien - Wissensrepräsentationen  </span> 
+							 	<span property="dc:identifier" content="video/10685"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10686">
+							<span typeof="yo:Video" about="/resource/video/10686">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (07) Aussagenlogik und Prädikatenlogik </span> 
+							 	<span property="dc:identifier" content="video/10686"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10687">
+							<span typeof="yo:Video" about="/resource/video/10687">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (08) Semantik von RDF(S) </span> 
+							 	<span property="dc:identifier" content="video/10687"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10781">
+							<span typeof="yo:Video" about="/resource/video/10781">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (09) Web Ontology Language OWL </span> 
+							 	<span property="dc:identifier" content="video/10781"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10783">
+							<span typeof="yo:Video" about="/resource/video/10783">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (10) OWL - Semantik </span> 
+							 	<span property="dc:identifier" content="video/10783"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10784">
+							<span typeof="yo:Video" about="/resource/video/10784">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (11) Regeln mit SWRL / RIF </span> 
+							 	<span property="dc:identifier" content="video/10784"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10785">
+							<span typeof="yo:Video" about="/resource/video/10785">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (12) Methoden des Ontologie-Entwurfs </span> 
+							 	<span property="dc:identifier" content="video/10785"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10786">
+							<span typeof="yo:Video" about="/resource/video/10786">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> (13) Web of Trust </span> 
+							 	<span property="dc:identifier" content="video/10786"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10898">
+							<span typeof="yo:Video" about="/resource/video/10898">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Metadaten - eine (schnelle) Einführung </span> 
+							 	<span property="dc:identifier" content="video/10898"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10907">
+							<span typeof="yo:Video" about="/resource/video/10907">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> YOVISTO - academic video search </span> 
+							 	<span property="dc:identifier" content="video/10907"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10882">
+							<span typeof="yo:Video" about="/resource/video/10882">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Interview mit Harald Sack </span> 
+							 	<span property="dc:identifier" content="video/10882"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/10984">
+							<span typeof="yo:Video" about="/resource/video/10984">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> International IPv6 Application Contest 2009 </span> 
+							 	<span property="dc:identifier" content="video/10984"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/14424">
+							<span typeof="yo:Video" about="/resource/video/14424">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 01 Einführung (Teil 1) </span> 
+							 	<span property="dc:identifier" content="video/14424"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/14423">
+							<span typeof="yo:Video" about="/resource/video/14423">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 02 Einführung (Teil 2) / Vom WWW zum Semantic Web </span> 
+							 	<span property="dc:identifier" content="video/14423"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/14768">
+							<span typeof="yo:Video" about="/resource/video/14768">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 03 XML und XML-Schema (Teil 1) </span> 
+							 	<span property="dc:identifier" content="video/14768"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15192">
+							<span typeof="yo:Video" about="/resource/video/15192">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 04 RDFS, RDFa, SPARQL und Triple Stores </span> 
+							 	<span property="dc:identifier" content="video/15192"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/14769">
+							<span typeof="yo:Video" about="/resource/video/14769">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 04 XML und XML-Schema (Teil 2) </span> 
+							 	<span property="dc:identifier" content="video/14769"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/14770">
+							<span typeof="yo:Video" about="/resource/video/14770">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 05 Resource Description Framework - RDF </span> 
+							 	<span property="dc:identifier" content="video/14770"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15202">
+							<span typeof="yo:Video" about="/resource/video/15202">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 06 Ontologie(n) in Philosophie und Informatik </span> 
+							 	<span property="dc:identifier" content="video/15202"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15206">
+							<span typeof="yo:Video" about="/resource/video/15206">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 07 Aussagenlogik und Prädikatenlogik </span> 
+							 	<span property="dc:identifier" content="video/15206"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15207">
+							<span typeof="yo:Video" about="/resource/video/15207">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 08 RDF(S) Semantik </span> 
+							 	<span property="dc:identifier" content="video/15207"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15670">
+							<span typeof="yo:Video" about="/resource/video/15670">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 09 Beschreibungslogiken </span> 
+							 	<span property="dc:identifier" content="video/15670"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15740">
+							<span typeof="yo:Video" about="/resource/video/15740">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 10 OWL und OWL-Semantik </span> 
+							 	<span property="dc:identifier" content="video/15740"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15765">
+							<span typeof="yo:Video" about="/resource/video/15765">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 11 OWL 2 </span> 
+							 	<span property="dc:identifier" content="video/15765"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15769">
+							<span typeof="yo:Video" about="/resource/video/15769">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 12 SWRL/RIF </span> 
+							 	<span property="dc:identifier" content="video/15769"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/15882">
+							<span typeof="yo:Video" about="/resource/video/15882">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 13 Ontology Engineering </span> 
+							 	<span property="dc:identifier" content="video/15882"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/17949">
+							<span typeof="yo:Video" about="/resource/video/17949">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 01 Einführung in Semantic Web Technologien </span> 
+							 	<span property="dc:identifier" content="video/17949"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/17985">
+							<span typeof="yo:Video" about="/resource/video/17985">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 02 Semantic Web Basis Architekturen </span> 
+							 	<span property="dc:identifier" content="video/17985"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/17998">
+							<span typeof="yo:Video" about="/resource/video/17998">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 03 Resource Description Format - RDF </span> 
+							 	<span property="dc:identifier" content="video/17998"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/17999">
+							<span typeof="yo:Video" about="/resource/video/17999">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 04 RDFS, RDFa und SPARQL </span> 
+							 	<span property="dc:identifier" content="video/17999"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18001">
+							<span typeof="yo:Video" about="/resource/video/18001">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 05 Ontologien </span> 
+							 	<span property="dc:identifier" content="video/18001"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18002">
+							<span typeof="yo:Video" about="/resource/video/18002">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 06 Aussagenlogik und Prädikatenlogik </span> 
+							 	<span property="dc:identifier" content="video/18002"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18078">
+							<span typeof="yo:Video" about="/resource/video/18078">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 07 RDF(S) Semantik </span> 
+							 	<span property="dc:identifier" content="video/18078"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18084">
+							<span typeof="yo:Video" about="/resource/video/18084">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 08 Beschreibungslogiken </span> 
+							 	<span property="dc:identifier" content="video/18084"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18218">
+							<span typeof="yo:Video" about="/resource/video/18218">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 09 OWL und OWL-Semantik </span> 
+							 	<span property="dc:identifier" content="video/18218"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18219">
+							<span typeof="yo:Video" about="/resource/video/18219">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 10 OWL 2 </span> 
+							 	<span property="dc:identifier" content="video/18219"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18227">
+							<span typeof="yo:Video" about="/resource/video/18227">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 11 Regeln mit SWRL/RIF </span> 
+							 	<span property="dc:identifier" content="video/18227"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18415">
+							<span typeof="yo:Video" about="/resource/video/18415">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 12 Ontology Engineering </span> 
+							 	<span property="dc:identifier" content="video/18415"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/18416">
+							<span typeof="yo:Video" about="/resource/video/18416">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 13 Linked Data Applications </span> 
+							 	<span property="dc:identifier" content="video/18416"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/20462">
+							<span typeof="yo:Video" about="/resource/video/20462">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Mediaglobe Abschlussveranstaltung </span> 
+							 	<span property="dc:identifier" content="video/20462"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19447">
+							<span typeof="yo:Video" about="/resource/video/19447">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 01 Semantic Web Technologien - Einführung </span> 
+							 	<span property="dc:identifier" content="video/19447"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19454">
+							<span typeof="yo:Video" about="/resource/video/19454">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 02 Semantic Web Technologien - URI und RDF </span> 
+							 	<span property="dc:identifier" content="video/19454"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19457">
+							<span typeof="yo:Video" about="/resource/video/19457">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 03 Semantic Web Technologien - RDFS, RDFa und SPARQL </span> 
+							 	<span property="dc:identifier" content="video/19457"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19458">
+							<span typeof="yo:Video" about="/resource/video/19458">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 04 Semantic Web Technologien - Ontologie in der Philosophie und der Informatik </span> 
+							 	<span property="dc:identifier" content="video/19458"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19462">
+							<span typeof="yo:Video" about="/resource/video/19462">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 05 Semantic Web Technologien - Aussagenlogik und Prädikatenlogik </span> 
+							 	<span property="dc:identifier" content="video/19462"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19475">
+							<span typeof="yo:Video" about="/resource/video/19475">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 06 Semantic Web Technologien - Beschreibungslogiken </span> 
+							 	<span property="dc:identifier" content="video/19475"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19493">
+							<span typeof="yo:Video" about="/resource/video/19493">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 07 Semantic Web Technologien - RDF(S) Semantik </span> 
+							 	<span property="dc:identifier" content="video/19493"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19495">
+							<span typeof="yo:Video" about="/resource/video/19495">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 08 Semantic Web Technologien - OWL und OWL Semantik </span> 
+							 	<span property="dc:identifier" content="video/19495"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19492">
+							<span typeof="yo:Video" about="/resource/video/19492">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 09 Semantic Web Technologien - OWL 2 </span> 
+							 	<span property="dc:identifier" content="video/19492"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19496">
+							<span typeof="yo:Video" about="/resource/video/19496">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 10 Semantic Web Technologien - Regeln mit SWRL und RIF </span> 
+							 	<span property="dc:identifier" content="video/19496"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19498">
+							<span typeof="yo:Video" about="/resource/video/19498">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 11 Semantic Web Technologien - Ontological Engineering </span> 
+							 	<span property="dc:identifier" content="video/19498"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19500">
+							<span typeof="yo:Video" about="/resource/video/19500">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 12 Semantic Web Technologien - Linked Data Engineering </span> 
+							 	<span property="dc:identifier" content="video/19500"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/19502">
+							<span typeof="yo:Video" about="/resource/video/19502">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 13 Semantic Web Technologien - Semantic Search </span> 
+							 	<span property="dc:identifier" content="video/19502"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/20656">
+							<span typeof="yo:Video" about="/resource/video/20656">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 01 Semantic Web Technologien - From Internet to Web 2.0 </span> 
+							 	<span property="dc:identifier" content="video/20656"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/20665">
+							<span typeof="yo:Video" about="/resource/video/20665">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 02 Semantic Web Technologien - URI and RDF </span> 
+							 	<span property="dc:identifier" content="video/20665"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/20675">
+							<span typeof="yo:Video" about="/resource/video/20675">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 03 Semantic Web Technologien - RDFS and RDFa </span> 
+							 	<span property="dc:identifier" content="video/20675"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/20794">
+							<span typeof="yo:Video" about="/resource/video/20794">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 05 Semantic Web Technologien - Ontologies </span> 
+							 	<span property="dc:identifier" content="video/20794"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21311">
+							<span typeof="yo:Video" about="/resource/video/21311">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Context-driven semantic multimedia search </span> 
+							 	<span property="dc:identifier" content="video/21311"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21375">
+							<span typeof="yo:Video" about="/resource/video/21375">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 1.1 The Web and how we got there </span> 
+							 	<span property="dc:identifier" content="video/21375"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21376">
+							<span typeof="yo:Video" about="/resource/video/21376">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 1.2 The Limits of the Web </span> 
+							 	<span property="dc:identifier" content="video/21376"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21377">
+							<span typeof="yo:Video" about="/resource/video/21377">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 1.3 The Importance of Meaning </span> 
+							 	<span property="dc:identifier" content="video/21377"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21378">
+							<span typeof="yo:Video" about="/resource/video/21378">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 1.4 The Limits of the Web (continued) </span> 
+							 	<span property="dc:identifier" content="video/21378"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21379">
+							<span typeof="yo:Video" about="/resource/video/21379">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 1.5 The Vision of the Semantic Web </span> 
+							 	<span property="dc:identifier" content="video/21379"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21380">
+							<span typeof="yo:Video" about="/resource/video/21380">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 1.6 The Vision of the Semantic Web (continued) </span> 
+							 	<span property="dc:identifier" content="video/21380"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21381">
+							<span typeof="yo:Video" about="/resource/video/21381">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 1.7 Applications in the Web of Data </span> 
+							 	<span property="dc:identifier" content="video/21381"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21382">
+							<span typeof="yo:Video" about="/resource/video/21382">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 2.1 How to identify Things? - URIs </span> 
+							 	<span property="dc:identifier" content="video/21382"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21383">
+							<span typeof="yo:Video" about="/resource/video/21383">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 2.2 How to represent Facts? RDF (1) </span> 
+							 	<span property="dc:identifier" content="video/21383"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21384">
+							<span typeof="yo:Video" about="/resource/video/21384">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 2.3 How to represent Facts? RDF (2) </span> 
+							 	<span property="dc:identifier" content="video/21384"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21385">
+							<span typeof="yo:Video" about="/resource/video/21385">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 2.4 How to represent Facts? RDF (3) </span> 
+							 	<span property="dc:identifier" content="video/21385"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21386">
+							<span typeof="yo:Video" about="/resource/video/21386">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 2.5 How to represent Facts? RDF (4) </span> 
+							 	<span property="dc:identifier" content="video/21386"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21387">
+							<span typeof="yo:Video" about="/resource/video/21387">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 2.6 How to model Classes and Relations? - RDFS </span> 
+							 	<span property="dc:identifier" content="video/21387"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21388">
+							<span typeof="yo:Video" about="/resource/video/21388">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 2.7 How much Semantics is there in RDF(S) </span> 
+							 	<span property="dc:identifier" content="video/21388"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21395">
+							<span typeof="yo:Video" about="/resource/video/21395">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 3. Excursus - Semantic Meta Data and the Web </span> 
+							 	<span property="dc:identifier" content="video/21395"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21389">
+							<span typeof="yo:Video" about="/resource/video/21389">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 3.1 How to query RDF(S)? - SPARQL </span> 
+							 	<span property="dc:identifier" content="video/21389"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21390">
+							<span typeof="yo:Video" about="/resource/video/21390">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 3.2 How to query RDF(S)? - SPARQL (2) </span> 
+							 	<span property="dc:identifier" content="video/21390"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21391">
+							<span typeof="yo:Video" about="/resource/video/21391">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 3.3 How to query RDF(S)? - SPARQL (3) </span> 
+							 	<span property="dc:identifier" content="video/21391"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21392">
+							<span typeof="yo:Video" about="/resource/video/21392">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 3.4 How to query RDF(S)? - SPARQL (4) </span> 
+							 	<span property="dc:identifier" content="video/21392"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21393">
+							<span typeof="yo:Video" about="/resource/video/21393">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 3.5 How to story RDF(S) Data? - Triple Stores </span> 
+							 	<span property="dc:identifier" content="video/21393"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21394">
+							<span typeof="yo:Video" about="/resource/video/21394">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 3.6 The Limits of RDF(S) </span> 
+							 	<span property="dc:identifier" content="video/21394"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21396">
+							<span typeof="yo:Video" about="/resource/video/21396">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.1 Ontology as Central Concept in Philosophy </span> 
+							 	<span property="dc:identifier" content="video/21396"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21397">
+							<span typeof="yo:Video" about="/resource/video/21397">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.2 Ontology in Computer Science </span> 
+							 	<span property="dc:identifier" content="video/21397"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21398">
+							<span typeof="yo:Video" about="/resource/video/21398">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.3 How do I define a formal model of an Ontology? </span> 
+							 	<span property="dc:identifier" content="video/21398"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21399">
+							<span typeof="yo:Video" about="/resource/video/21399">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.4 Ontology Types </span> 
+							 	<span property="dc:identifier" content="video/21399"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21400">
+							<span typeof="yo:Video" about="/resource/video/21400">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.5 Foundations of Logic </span> 
+							 	<span property="dc:identifier" content="video/21400"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21371">
+							<span typeof="yo:Video" about="/resource/video/21371">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.6 Canonical Forms </span> 
+							 	<span property="dc:identifier" content="video/21371"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21401">
+							<span typeof="yo:Video" about="/resource/video/21401">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.7 Resolution (PL) </span> 
+							 	<span property="dc:identifier" content="video/21401"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21402">
+							<span typeof="yo:Video" about="/resource/video/21402">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.8 Resolution (FOL) </span> 
+							 	<span property="dc:identifier" content="video/21402"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21403">
+							<span typeof="yo:Video" about="/resource/video/21403">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 4.9 Tableaux Algorithm </span> 
+							 	<span property="dc:identifier" content="video/21403"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21404">
+							<span typeof="yo:Video" about="/resource/video/21404">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.1 Description Logics -  ALC </span> 
+							 	<span property="dc:identifier" content="video/21404"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21405">
+							<span typeof="yo:Video" about="/resource/video/21405">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.2 DL Inference and Reasoning </span> 
+							 	<span property="dc:identifier" content="video/21405"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21406">
+							<span typeof="yo:Video" about="/resource/video/21406">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.3 Tableaux Algorithm for ALC </span> 
+							 	<span property="dc:identifier" content="video/21406"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21407">
+							<span typeof="yo:Video" about="/resource/video/21407">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.4 Web Ontology Language - OWL </span> 
+							 	<span property="dc:identifier" content="video/21407"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21408">
+							<span typeof="yo:Video" about="/resource/video/21408">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.5 Web Ontology Language - OWL (2) </span> 
+							 	<span property="dc:identifier" content="video/21408"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21409">
+							<span typeof="yo:Video" about="/resource/video/21409">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.6 Web Ontology Language - OWL (3) </span> 
+							 	<span property="dc:identifier" content="video/21409"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21410">
+							<span typeof="yo:Video" about="/resource/video/21410">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.7 Web Ontology Language - OWL (4) </span> 
+							 	<span property="dc:identifier" content="video/21410"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21411">
+							<span typeof="yo:Video" about="/resource/video/21411">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.8 Web Ontology Language - OWL (5) </span> 
+							 	<span property="dc:identifier" content="video/21411"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21412">
+							<span typeof="yo:Video" about="/resource/video/21412">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 5.9 Rules and the Semantic Web </span> 
+							 	<span property="dc:identifier" content="video/21412"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21413">
+							<span typeof="yo:Video" about="/resource/video/21413">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 6.1 Ontological Engineering </span> 
+							 	<span property="dc:identifier" content="video/21413"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21414">
+							<span typeof="yo:Video" about="/resource/video/21414">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 6.3 Ontology Design 101 </span> 
+							 	<span property="dc:identifier" content="video/21414"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21415">
+							<span typeof="yo:Video" about="/resource/video/21415">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 6.4 Linked Data Engineering </span> 
+							 	<span property="dc:identifier" content="video/21415"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21416">
+							<span typeof="yo:Video" about="/resource/video/21416">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 6.5 Linked Data Engineering (2) </span> 
+							 	<span property="dc:identifier" content="video/21416"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21417">
+							<span typeof="yo:Video" about="/resource/video/21417">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 6.6 Named Entity Recognition </span> 
+							 	<span property="dc:identifier" content="video/21417"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21418">
+							<span typeof="yo:Video" about="/resource/video/21418">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 6.7 Semantic Search </span> 
+							 	<span property="dc:identifier" content="video/21418"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21419">
+							<span typeof="yo:Video" about="/resource/video/21419">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> 6.8 Exploratory Semantic Search </span> 
+							 	<span property="dc:identifier" content="video/21419"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/21420">
+							<span typeof="yo:Video" about="/resource/video/21420">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Introduction </span> 
+							 	<span property="dc:identifier" content="video/21420"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+								
+						<li><a href="/video/22399">
+							<span typeof="yo:Video" about="/resource/video/22399">
+								<span rel="dc:contributor" href="/resource/speaker/470"></span>
+							 	<span property="dc:title dcterms:title"> Context-driven semantic multimedia search </span> 
+							 	<span property="dc:identifier" content="video/22399"> </span> 
+							 </span>
+							</a>
+						
+						
+							(Sack)
+						
+						</li>
+
+			
+			</ul>
+	
+	</div>
+
+	
+
+
+</div>
+	<div id="Side_Pane" class="Column">
+	
+
+
+  
+	
+	
+
+	 
+			<!-- div class="item">
+				<h3>Jobs</h3>
+				<div>
+				<a href="http://www.hpi.uni-potsdam.de/uploads/media/MEDIAGLOBE-jobofferv01-3.pdf">HPI in Postdam is offering jobs in a yovisto related project.</a> 
+                                </div>
+                                <h3>Meet us: </h3>
+                                <div>
+                                <a href="http://www.ieee-icsc.org/" target="new"><img src="http://www.ieee-icsc.org/Logo1.png" /></a><br>
+                                <a href="http://www.openvideoconference.org/" target="new"><img src="http://openvideoconference.org/i/mini1.png" /></a>
+                                </div>
+                        </div -->
+
+    		<div class="item"> 
+			    <h3>Share:</h3>
+			    
+						<!-- AddThis Button BEGIN -->
+						<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=yovisto"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a>
+						<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+						<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=yovisto"></script>
+						<!-- AddThis Button END -->	
+						<br />
+						<a href="http://flattr.com/thing/125869/yovisto-com" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" style="padding-top:4px;" alt="Flattr this" title="Flattr this" border="0" /></a>
+			</div>
+
+			
+			<div class="item">
+				<div id="twitter_div">
+					<h3>Twitter Updates</h3>
+<a class="twitter-timeline"  href="https://twitter.com/yovisto" data-widget-id="276596062163181568">Tweets by @yovisto</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div>		
+
+       		<div id="New_Tags" class="item">
+				<h3>New Tags:</h3>
+				<p class="Content_Item">
+ 				<a class="black_link" href='/play/22403/10933'> mit</a> <a class="black_link" href='/play/22344/208204'> wohltemperiertes</a> <a class="black_link" href='/play/22373/298509'> plane</a> <a class="black_link" href='/play/22284/2918590'> dostojewsky</a> <a class="black_link" href='/play/10216/91164'> PUNISHMENT</a> <a class="black_link" href='/play/22344/1123858'> counterpoint</a> <a class="black_link" href='/play/22373/186417'> Flying</a> <a class="black_link" href='/play/2351/1275591'> Tod</a> <a class="black_link" href='/play/22447/320732'> customer</a> <a class="black_link" href='/play/22344/218022'> prelude</a> <a class="black_link" href='/play/2504/0'> algorithms</a> <a class="black_link" href='/play/22284/2920787'> tolstoi</a> <a class="black_link" href='/play/22373/298509'> spindle</a> <a class="black_link" href='/play/22373/186417'> Barrel</a> 
+
+ 				</p>
+ 			</div>
+			<div class="item_last">
+
+    		    <h3>Supporting</h3>
+				<ul class="list">
+					<li><a href="/opensearch.xml"><img alt="opensearch" src="/img/opensearch_logo.png" /></a></li>
+					<li><a href="/ontology/"><img alt="rdf" src="/img/semyo.png" /></a></li>
+				</ul>
+			</div>
+
+		 	
+
+	
+<script language="JavaScript" type="text/javascript">                
+		 wikiAjaxLoadWiki(470,"article", "agent");
+</script>			
+</div>
+</div>
+
+<div id="Footer_Pane">
+  <div id="Footer">
+  <ul>
+    	<li>Copyright &copy; 2006-2014 by <a href="http://www.yovisto.com">yovisto.com</a> - All rights reserved.</li>
+    	<li><a href="/help.jsp">Help</a></li>
+    	<li><a href="/imprint.jsp">Imprint</a></li>
+    	<li><a href="http://yovisto.blogspot.com/">Blog</a></li>
+    	<li><a href="javascript:popUp('privacy.html')">Privacy Policy</a></li>
+    	<li><a href="javascript:popUp('terms.html')">Terms of Service</a></li>     
+    </ul>
+   </div>
+    <!-- BEGIN Google Analytics -->
+    <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3825188-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- END Google Analytics --> 
+</div>
+  	
+</div></div>
+
+<!-- script  type="text/javascript" src="/glossy.js"></script -->
+</body>
+</html>
+
+
+
+
+    

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://my-status.tk/user/2"></maker>
+  <primaryTopic rdf:resource="http://my-status.tk/user/2"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://my-status.tk/user/2">
+  <name>Hauke</name>
+  <homepage rdf:resource="http://my-status.tk/"></homepage>
+  <weblog rdf:resource="http://my-status.tk/hauke"></weblog>
+  <bio:olb>Being together with my wife and friends, playing with Linux, watching ice hockey matches.&#13;
+&#13;
+Contact me on telegram: Hauke68</bio:olb>
+  <based_near>
+   <geo:SpatialThing rdf:about="http://sws.geonames.org/2846894/">
+    <name>Riesenbeck, Nordrhein-Westfalen, Deutschland</name>
+    <geo:lat>52.26076</geo:lat>
+    <geo:long>7.627</geo:long>
+    <page rdf:resource="http://www.geonames.org/2846894"></page>
+   </geo:SpatialThing>
+  </based_near>
+  <account>
+   <OnlineAccount rdf:about="http://my-status.tk/user/2#acct">
+    <accountServiceHomepage rdf:resource="https://my-status.tk/"></accountServiceHomepage>
+    <accountName>hauke</accountName>
+    <accountProfilePage rdf:resource="http://my-status.tk/hauke"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://my-status.tk/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="http://quitter.se/user/113454#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/114798#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://f.diekershoff.de/profile/tobias#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/118124#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/1147#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/3#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/1803#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/127511#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/115477#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/137769#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.stopwatchingus-heidelberg.de/user/18330#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/94640#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/121965#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/213844#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/542#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://somsants.net/user/1876#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://spnbabble.sitepronews.com/user/232690#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <knows rdf:resource="http://quitter.se/user/113454"></knows>
+  <knows rdf:resource="http://quitter.se/user/114798"></knows>
+  <knows rdf:resource="https://f.diekershoff.de/profile/tobias"></knows>
+  <knows rdf:resource="http://oracle.skilledtests.com/user/1"></knows>
+  <knows rdf:resource="http://quitter.se/user/127511"></knows>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/113454">
+  <knows rdf:resource="http://my-status.tk/user/2"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/113454#acct">
+    <accountName>mcscx</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/mcscx"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/113454"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/114798">
+  <knows rdf:resource="http://my-status.tk/user/2"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/114798#acct">
+    <accountName>grmpyoldman</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/grmpyoldman"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/114798"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://f.diekershoff.de/profile/tobias">
+  <knows rdf:resource="http://my-status.tk/user/2"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://f.diekershoff.de/profile/tobias#acct">
+    <accountName>tobias</accountName>
+    <accountProfilePage rdf:resource="https://f.diekershoff.de/profile/tobias"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://f.diekershoff.de/profile/tobias"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/118124">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/118124#acct">
+    <accountName>escpaderborn</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/escpaderborn"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/118124"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/1147">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/1147#acct">
+    <accountName>spiegel</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/spiegel"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/1147"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/3">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/3#acct">
+    <accountName>vinzv</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/vinzv"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/3"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/1803">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/1803#acct">
+    <accountName>bestofpispers</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/bestofpispers"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/1803"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://oracle.skilledtests.com/user/1">
+  <knows rdf:resource="http://my-status.tk/user/2"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://oracle.skilledtests.com/user/1#acct">
+    <accountName>erkanyilmaz</accountName>
+    <accountProfilePage rdf:resource="http://oracle.skilledtests.com/erkanyilmaz"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://oracle.skilledtests.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/127511">
+  <knows rdf:resource="http://my-status.tk/user/2"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/127511#acct">
+    <accountName>tilobyte</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/tilobyte"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/127511"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/115477">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/115477#acct">
+    <accountName>heiseopen</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/heiseopen"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/115477"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/137769">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/137769#acct">
+    <accountName>coyo</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/coyo"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/137769"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.stopwatchingus-heidelberg.de/user/18330">
+  <account>
+   <OnlineAccount rdf:about="https://social.stopwatchingus-heidelberg.de/user/18330#acct">
+    <accountName>atarifrosch</accountName>
+    <accountProfilePage rdf:resource="https://social.stopwatchingus-heidelberg.de/atarifrosch"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.stopwatchingus-heidelberg.de/user/18330"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/94640">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/94640#acct">
+    <accountName>gullinews</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/gullinews"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/94640"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/121965">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/121965#acct">
+    <accountName>pocahontas12</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/pocahontas12"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/121965"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/213844">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/213844#acct">
+    <accountName>taz</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/taz"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/213844"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/542">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/542#acct">
+    <accountName>tagesschau</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/tagesschau"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/542"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://somsants.net/user/1876">
+  <account>
+   <OnlineAccount rdf:about="http://somsants.net/user/1876#acct">
+    <accountName>quitter</accountName>
+    <accountProfilePage rdf:resource="http://somsants.net/quitter"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://somsants.net/user/1876"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://spnbabble.sitepronews.com/user/232690">
+  <account>
+   <OnlineAccount rdf:about="http://spnbabble.sitepronews.com/user/232690#acct">
+    <accountName>yeppmode</accountName>
+    <accountProfilePage rdf:resource="http://spnbabble.sitepronews.com/yeppmode"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://spnbabble.sitepronews.com/user/232690"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://best-friends.tk/profile/hauke">
+  <account>
+   <OnlineAccount rdf:about="http://best-friends.tk/profile/hauke#acct">
+    <accountName>hauke</accountName>
+    <accountProfilePage rdf:resource="http://best-friends.tk/profile/hauke"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://best-friends.tk/profile/hauke"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://friendika.skilledtests.com/profile/erkan_yilmaz">
+  <account>
+   <OnlineAccount rdf:about="http://friendika.skilledtests.com/profile/erkan_yilmaz#acct">
+    <accountName>erkan_yilmaz</accountName>
+    <accountProfilePage rdf:resource="http://friendika.skilledtests.com/profile/erkan_yilmaz"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://friendika.skilledtests.com/profile/erkan_yilmaz"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="">
+  <account>
+   <OnlineAccount>
+    <accountName>sofias</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/sofias"></accountProfilePage>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://parlementum.net/user/4006">
+  <account>
+   <OnlineAccount rdf:about="http://parlementum.net/user/4006#acct">
+    <accountName>coyo</accountName>
+    <accountProfilePage rdf:resource="http://parlementum.net/coyo"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://parlementum.net/user/4006"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://sn.gegenmenschen.de/user/2">
+  <account>
+   <OnlineAccount rdf:about="http://sn.gegenmenschen.de/user/2#acct">
+    <accountName>panique</accountName>
+    <accountProfilePage rdf:resource="http://sn.gegenmenschen.de/panique"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://sn.gegenmenschen.de/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://loadaverage.org/user/248">
+  <account>
+   <OnlineAccount rdf:about="https://loadaverage.org/user/248#acct">
+    <accountName>whistlewright</accountName>
+    <accountProfilePage rdf:resource="https://loadaverage.org/whistlewright"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://loadaverage.org/user/248"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://gnusocial.de/index.php/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://gnusocial.de/index.php/user/1#acct">
+    <accountName>vinzv</accountName>
+    <accountProfilePage rdf:resource="http://gnusocial.de/vinzv"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://gnusocial.de/index.php/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/116698">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/116698#acct">
+    <accountName>nagus</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/nagus"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/116698"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://fediverse.com/user/1">
+  <account>
+   <OnlineAccount rdf:about="https://fediverse.com/user/1#acct">
+    <accountName>erkan</accountName>
+    <accountProfilePage rdf:resource="https://fediverse.com/erkan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://fediverse.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://pags.to/user/38">
+  <account>
+   <OnlineAccount rdf:about="https://pags.to/user/38#acct">
+    <accountName>pagsconnector</accountName>
+    <accountProfilePage rdf:resource="https://pags.to/pagsconnector"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://pags.to/user/38"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://gnusocial.blogrobatik.de/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://gnusocial.blogrobatik.de/user/1#acct">
+    <accountName>blogrobatik</accountName>
+    <accountProfilePage rdf:resource="http://gnusocial.blogrobatik.de/blogrobatik"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://gnusocial.blogrobatik.de/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://status.vinilox.eu/user/110970">
+  <account>
+   <OnlineAccount rdf:about="https://status.vinilox.eu/user/110970#acct">
+    <accountName>mcscx2old</accountName>
+    <accountProfilePage rdf:resource="https://status.vinilox.eu/mcscx2old"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.vinilox.eu/user/110970"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://status.pirati.ca/user/15">
+  <account>
+   <OnlineAccount rdf:about="http://status.pirati.ca/user/15#acct">
+    <accountName>morgenland</accountName>
+    <accountProfilePage rdf:resource="https://status.pirati.ca/morgenland"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.pirati.ca/user/15"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://status.pirati.ca/user/131">
+  <account>
+   <OnlineAccount rdf:about="http://status.pirati.ca/user/131#acct">
+    <accountName>miradlo</accountName>
+    <accountProfilePage rdf:resource="https://status.pirati.ca/miradlo"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.pirati.ca/user/131"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.hfrc.de/user/1622">
+  <account>
+   <OnlineAccount rdf:about="https://social.hfrc.de/user/1622#acct">
+    <accountName>holger</accountName>
+    <accountProfilePage rdf:resource="https://social.hfrc.de/holger"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.hfrc.de/user/1622"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.bitcast.info/user/360">
+  <account>
+   <OnlineAccount rdf:about="https://social.bitcast.info/user/360#acct">
+    <accountName>hikerus</accountName>
+    <accountProfilePage rdf:resource="https://social.bitcast.info/hikerus"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.bitcast.info/user/360"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/115881">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/115881#acct">
+    <accountName>onetimepad</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/onetimepad"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/115881"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/121764">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/121764#acct">
+    <accountName>falky</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/falky"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/121764"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://s.libreden.net/user/3">
+  <account>
+   <OnlineAccount rdf:about="https://s.libreden.net/user/3#acct">
+    <accountName>collector</accountName>
+    <accountProfilePage rdf:resource="https://s.libreden.net/collector"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://s.libreden.net/user/3"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://bobinas.pandilla4gatos.tk/user/1399">
+  <account>
+   <OnlineAccount rdf:about="https://bobinas.pandilla4gatos.tk/user/1399#acct">
+    <accountName>coloco</accountName>
+    <accountProfilePage rdf:resource="https://bobinas.pandilla4gatos.tk/coloco"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://bobinas.pandilla4gatos.tk/user/1399"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://netzkombinat.su/user/5">
+  <account>
+   <OnlineAccount rdf:about="https://netzkombinat.su/user/5#acct">
+    <accountName>w</accountName>
+    <accountProfilePage rdf:resource="https://netzkombinat.su/w"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://netzkombinat.su/user/5"></sioc:account_of>
+    <sioc:follows rdf:resource="http://my-status.tk/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

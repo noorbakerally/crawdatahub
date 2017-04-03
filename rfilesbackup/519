@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:_3="http://ontologycentral.com/2009/05/currency/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SYP">
+    <rdfs:label>Syrian pound</rdfs:label>
+    <_3:location>Syria</_3:location>
+    <_3:code>SYP</_3:code>
+    <_3:num>760</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SBD">
+    <rdfs:label>Solomon Islands dollar</rdfs:label>
+    <_3:location>Solomon Islands</_3:location>
+    <_3:code>SBD</_3:code>
+    <_3:num>090</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#LYD">
+    <rdfs:label>Libyan dinar</rdfs:label>
+    <_3:location>Libya</_3:location>
+    <_3:code>LYD</_3:code>
+    <_3:num>434</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#PKR">
+    <rdfs:label>Pakistan rupee</rdfs:label>
+    <_3:location>Pakistan</_3:location>
+    <_3:code>PKR</_3:code>
+    <_3:num>586</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#NPR">
+    <rdfs:label>Nepalese rupee</rdfs:label>
+    <_3:location>Nepal</_3:location>
+    <_3:code>NPR</_3:code>
+    <_3:num>524</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#THB">
+    <rdfs:label>Baht</rdfs:label>
+    <_3:location>Thailand</_3:location>
+    <_3:code>THB</_3:code>
+    <_3:num>764</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KES">
+    <rdfs:label>Kenyan shilling</rdfs:label>
+    <_3:location>Kenya</_3:location>
+    <_3:code>KES</_3:code>
+    <_3:num>404</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#USD">
+    <rdfs:label>US dollar</rdfs:label>
+    <_3:location>American Samoa, British Indian Ocean Territory, Ecuador, El Salvador, Guam, Haiti, Marshall Islands, Micronesia, Northern Mariana Islands, Palau, Panama, Puerto Rico, Timor-Leste, Turks and Caicos Islands, United States, Virgin Islands, Bermuda(as well as Bermudian Dollar)</_3:location>
+    <_3:code>USD</_3:code>
+    <_3:num>840</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#DJF">
+    <rdfs:label>Djibouti franc</rdfs:label>
+    <_3:location>Djibouti</_3:location>
+    <_3:code>DJF</_3:code>
+    <_3:num>262</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ZMK">
+    <rdfs:label>Kwacha</rdfs:label>
+    <_3:location>Zambia</_3:location>
+    <_3:code>ZMK</_3:code>
+    <_3:num>894</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CHE">
+    <rdfs:label>WIR euro (complementary currency)</rdfs:label>
+    <_3:location>Switzerland</_3:location>
+    <_3:code>CHE</_3:code>
+    <_3:num>947</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#EEK">
+    <rdfs:label>Kroon</rdfs:label>
+    <_3:location>Estonia</_3:location>
+    <_3:code>EEK</_3:code>
+    <_3:num>233</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#USN">
+    <rdfs:label>United States dollar (next day) (funds code)</rdfs:label>
+    <_3:location>United States</_3:location>
+    <_3:code>USN</_3:code>
+    <_3:num>997</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#AOA">
+    <rdfs:label>Kwanza</rdfs:label>
+    <_3:location>Angola</_3:location>
+    <_3:code>AOA</_3:code>
+    <_3:num>973</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ISK">
+    <rdfs:label>Iceland krona</rdfs:label>
+    <_3:location>Iceland</_3:location>
+    <_3:code>ISK</_3:code>
+    <_3:num>352</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MGA">
+    <rdfs:label>Malagasy ariary</rdfs:label>
+    <_3:location>Madagascar</_3:location>
+    <_3:code>MGA</_3:code>
+    <_3:num>969</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XAF">
+    <rdfs:label>CFA franc BEAC</rdfs:label>
+    <_3:location>Cameroon, Central African Republic, Congo, Chad, Equatorial Guinea, Gabon</_3:location>
+    <_3:code>XAF</_3:code>
+    <_3:num>950</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XAG">
+    <rdfs:label>Silver (one troy ounce)</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XAG</_3:code>
+    <_3:num>961</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#PYG">
+    <rdfs:label>Guarani</rdfs:label>
+    <_3:location>Paraguay</_3:location>
+    <_3:code>PYG</_3:code>
+    <_3:num>600</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XAU">
+    <rdfs:label>Gold (one troy ounce)</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XAU</_3:code>
+    <_3:num>959</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SZL">
+    <rdfs:label>Lilangeni</rdfs:label>
+    <_3:location>Swaziland</_3:location>
+    <_3:code>SZL</_3:code>
+    <_3:num>748</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#AMD">
+    <rdfs:label>Armenian dram</rdfs:label>
+    <_3:location>Armenia</_3:location>
+    <_3:code>AMD</_3:code>
+    <_3:num>051</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#NIO">
+    <rdfs:label>Cordoba oro</rdfs:label>
+    <_3:location>Nicaragua</_3:location>
+    <_3:code>NIO</_3:code>
+    <_3:num>558</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#GTQ">
+    <rdfs:label>Quetzal</rdfs:label>
+    <_3:location>Guatemala</_3:location>
+    <_3:code>GTQ</_3:code>
+    <_3:num>320</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SEK">
+    <rdfs:label>Swedish krona/kronor</rdfs:label>
+    <_3:location>Sweden</_3:location>
+    <_3:code>SEK</_3:code>
+    <_3:num>752</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#PGK">
+    <rdfs:label>Kina</rdfs:label>
+    <_3:location>Papua New Guinea</_3:location>
+    <_3:code>PGK</_3:code>
+    <_3:num>598</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BZD">
+    <rdfs:label>Belize dollar</rdfs:label>
+    <_3:location>Belize</_3:location>
+    <_3:code>BZD</_3:code>
+    <_3:num>084</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XPF">
+    <rdfs:label>CFP franc</rdfs:label>
+    <_3:location>French Polynesia, New Caledonia, Wallis and Futuna</_3:location>
+    <_3:code>XPF</_3:code>
+    <_3:num>953</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MOP">
+    <rdfs:label>Pataca</rdfs:label>
+    <_3:location>Macau Special Administrative Region</_3:location>
+    <_3:code>MOP</_3:code>
+    <_3:num>446</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#HTG">
+    <rdfs:label>Haiti gourde</rdfs:label>
+    <_3:location>Haiti</_3:location>
+    <_3:code>HTG</_3:code>
+    <_3:num>332</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CUC">
+    <rdfs:label>Cuban convertible peso</rdfs:label>
+    <_3:location>Cuba</_3:location>
+    <_3:code>CUC</_3:code>
+    <_3:num>931</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#TMT">
+    <rdfs:label>Manat</rdfs:label>
+    <_3:location>Turkmenistan</_3:location>
+    <_3:code>TMT</_3:code>
+    <_3:num>934</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#JPY">
+    <rdfs:label>Japanese yen</rdfs:label>
+    <_3:location>Japan</_3:location>
+    <_3:code>JPY</_3:code>
+    <_3:num>392</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#COP">
+    <rdfs:label>Colombian peso</rdfs:label>
+    <_3:location>Colombia</_3:location>
+    <_3:code>COP</_3:code>
+    <_3:num>170</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BDT">
+    <rdfs:label>Bangladeshi taka</rdfs:label>
+    <_3:location>Bangladesh</_3:location>
+    <_3:code>BDT</_3:code>
+    <_3:num>050</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SLL">
+    <rdfs:label>Leone</rdfs:label>
+    <_3:location>Sierra Leone</_3:location>
+    <_3:code>SLL</_3:code>
+    <_3:num>694</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#HNL">
+    <rdfs:label>Lempira</rdfs:label>
+    <_3:location>Honduras</_3:location>
+    <_3:code>HNL</_3:code>
+    <_3:num>340</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XTS">
+    <rdfs:label>Code reserved for testing purposes</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XTS</_3:code>
+    <_3:num>963</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#LKR">
+    <rdfs:label>Sri Lanka rupee</rdfs:label>
+    <_3:location>Sri Lanka</_3:location>
+    <_3:code>LKR</_3:code>
+    <_3:num>144</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ZAR">
+    <rdfs:label>South African rand</rdfs:label>
+    <_3:location>South Africa</_3:location>
+    <_3:code>ZAR</_3:code>
+    <_3:num>710</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#INR">
+    <rdfs:label>Indian rupee</rdfs:label>
+    <_3:location>Bhutan, India</_3:location>
+    <_3:code>INR</_3:code>
+    <_3:num>356</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#IDR">
+    <rdfs:label>Rupiah</rdfs:label>
+    <_3:location>Indonesia</_3:location>
+    <_3:code>IDR</_3:code>
+    <_3:num>360</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CHF">
+    <rdfs:label>Swiss franc</rdfs:label>
+    <_3:location>Switzerland, Liechtenstein</_3:location>
+    <_3:code>CHF</_3:code>
+    <_3:num>756</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MXN">
+    <rdfs:label>Mexican peso</rdfs:label>
+    <_3:location>Mexico</_3:location>
+    <_3:code>MXN</_3:code>
+    <_3:num>484</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XCD">
+    <rdfs:label>East Caribbean dollar</rdfs:label>
+    <_3:location>Anguilla, Antigua and Barbuda, Dominica, Grenada, Montserrat, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines</_3:location>
+    <_3:code>XCD</_3:code>
+    <_3:num>951</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#HRK">
+    <rdfs:label>Croatian kuna</rdfs:label>
+    <_3:location>Croatia</_3:location>
+    <_3:code>HRK</_3:code>
+    <_3:num>191</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CUP">
+    <rdfs:label>Cuban peso</rdfs:label>
+    <_3:location>Cuba</_3:location>
+    <_3:code>CUP</_3:code>
+    <_3:num>192</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CVE">
+    <rdfs:label>Cape Verde escudo</rdfs:label>
+    <_3:location>Cape Verde</_3:location>
+    <_3:code>CVE</_3:code>
+    <_3:num>132</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BWP">
+    <rdfs:label>Pula</rdfs:label>
+    <_3:location>Botswana</_3:location>
+    <_3:code>BWP</_3:code>
+    <_3:num>072</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KYD">
+    <rdfs:label>Cayman Islands dollar</rdfs:label>
+    <_3:location>Cayman Islands</_3:location>
+    <_3:code>KYD</_3:code>
+    <_3:num>136</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#TND">
+    <rdfs:label>Tunisian dinar</rdfs:label>
+    <_3:location>Tunisia</_3:location>
+    <_3:code>TND</_3:code>
+    <_3:num>788</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#GBP">
+    <rdfs:label>Pound sterling</rdfs:label>
+    <_3:location>United Kingdom, Crown Dependencies (the Isle of Man and the Channel Islands), certain British Overseas Territories (South Georgia and the South Sandwich Islands, British Antarctic Territory and British Indian Ocean Territory)</_3:location>
+    <_3:code>GBP</_3:code>
+    <_3:num>826</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MZN">
+    <rdfs:label>Metical</rdfs:label>
+    <_3:location>Mozambique</_3:location>
+    <_3:code>MZN</_3:code>
+    <_3:num>943</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#TJS">
+    <rdfs:label>Somoni</rdfs:label>
+    <_3:location>Tajikistan</_3:location>
+    <_3:code>TJS</_3:code>
+    <_3:num>972</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MNT">
+    <rdfs:label>Tugrik</rdfs:label>
+    <_3:location>Mongolia</_3:location>
+    <_3:code>MNT</_3:code>
+    <_3:num>496</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#TRY">
+    <rdfs:label>Turkish lira</rdfs:label>
+    <_3:location>Turkey, Northern Cyprus</_3:location>
+    <_3:code>TRY</_3:code>
+    <_3:num>949</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#EGP">
+    <rdfs:label>Egyptian pound</rdfs:label>
+    <_3:location>Egypt</_3:location>
+    <_3:code>EGP</_3:code>
+    <_3:num>818</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#PAB">
+    <rdfs:label>Balboa</rdfs:label>
+    <_3:location>Panama</_3:location>
+    <_3:code>PAB</_3:code>
+    <_3:num>590</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MYR">
+    <rdfs:label>Malaysian ringgit</rdfs:label>
+    <_3:location>Malaysia</_3:location>
+    <_3:code>MYR</_3:code>
+    <_3:num>458</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KRW">
+    <rdfs:label>South Korean won</rdfs:label>
+    <_3:location>South Korea</_3:location>
+    <_3:code>KRW</_3:code>
+    <_3:num>410</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BMD">
+    <rdfs:label>Bermudian dollar (customarily known as Bermuda dollar)</rdfs:label>
+    <_3:location>Bermuda</_3:location>
+    <_3:code>BMD</_3:code>
+    <_3:num>060</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SGD">
+    <rdfs:label>Singapore dollar</rdfs:label>
+    <_3:location>Singapore, Brunei</_3:location>
+    <_3:code>SGD</_3:code>
+    <_3:num>702</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MAD">
+    <rdfs:label>Moroccan dirham</rdfs:label>
+    <_3:location>Morocco, Western Sahara</_3:location>
+    <_3:code>MAD</_3:code>
+    <_3:num>504</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#UYU">
+    <rdfs:label>Peso Uruguayo</rdfs:label>
+    <_3:location>Uruguay</_3:location>
+    <_3:code>UYU</_3:code>
+    <_3:num>858</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#OMR">
+    <rdfs:label>Rial Omani</rdfs:label>
+    <_3:location>Oman</_3:location>
+    <_3:code>OMR</_3:code>
+    <_3:num>512</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#JOD">
+    <rdfs:label>Jordanian dinar</rdfs:label>
+    <_3:location>Jordan</_3:location>
+    <_3:code>JOD</_3:code>
+    <_3:num>400</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ANG">
+    <rdfs:label>Netherlands Antillean guilder</rdfs:label>
+    <_3:location>Netherlands Antilles</_3:location>
+    <_3:code>ANG</_3:code>
+    <_3:num>532</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MKD">
+    <rdfs:label>Denar</rdfs:label>
+    <_3:location>Macedonia</_3:location>
+    <_3:code>MKD</_3:code>
+    <_3:num>807</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CLF">
+    <rdfs:label>Unidad de Fomento (funds code)</rdfs:label>
+    <_3:location>Chile</_3:location>
+    <_3:code>CLF</_3:code>
+    <_3:num>990</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BGN">
+    <rdfs:label>Bulgarian lev</rdfs:label>
+    <_3:location>Bulgaria</_3:location>
+    <_3:code>BGN</_3:code>
+    <_3:num>975</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BND">
+    <rdfs:label>Brunei dollar</rdfs:label>
+    <_3:location>Brunei, Singapore</_3:location>
+    <_3:code>BND</_3:code>
+    <_3:num>096</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#STD">
+    <rdfs:label>Dobra</rdfs:label>
+    <_3:location>São Tomé and Príncipe</_3:location>
+    <_3:code>STD</_3:code>
+    <_3:num>678</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#FKP">
+    <rdfs:label>Falkland Islands pound</rdfs:label>
+    <_3:location>Falkland Islands</_3:location>
+    <_3:code>FKP</_3:code>
+    <_3:num>238</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#AFN">
+    <rdfs:label>Afghani</rdfs:label>
+    <_3:location>Afghanistan</_3:location>
+    <_3:code>AFN</_3:code>
+    <_3:num>971</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BAM">
+    <rdfs:label>Convertible marks</rdfs:label>
+    <_3:location>Bosnia and Herzegovina</_3:location>
+    <_3:code>BAM</_3:code>
+    <_3:num>977</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#LTL">
+    <rdfs:label>Lithuanian litas</rdfs:label>
+    <_3:location>Lithuania</_3:location>
+    <_3:code>LTL</_3:code>
+    <_3:num>440</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MUR">
+    <rdfs:label>Mauritius rupee</rdfs:label>
+    <_3:location>Mauritius</_3:location>
+    <_3:code>MUR</_3:code>
+    <_3:num>480</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XBB">
+    <rdfs:label>European Monetary Unit (E.M.U.-6) (bond market unit)</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XBB</_3:code>
+    <_3:num>956</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#NAD">
+    <rdfs:label>Namibian dollar</rdfs:label>
+    <_3:location>Namibia</_3:location>
+    <_3:code>NAD</_3:code>
+    <_3:num>516</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XDR">
+    <rdfs:label>Special Drawing Rights</rdfs:label>
+    <_3:location>International Monetary Fund</_3:location>
+    <_3:code>XDR</_3:code>
+    <_3:num>960</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#HUF">
+    <rdfs:label>Forint</rdfs:label>
+    <_3:location>Hungary</_3:location>
+    <_3:code>HUF</_3:code>
+    <_3:num>348</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#JMD">
+    <rdfs:label>Jamaican dollar</rdfs:label>
+    <_3:location>Jamaica</_3:location>
+    <_3:code>JMD</_3:code>
+    <_3:num>388</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#LBP">
+    <rdfs:label>Lebanese pound</rdfs:label>
+    <_3:location>Lebanon</_3:location>
+    <_3:code>LBP</_3:code>
+    <_3:num>422</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#QAR">
+    <rdfs:label>Qatari rial</rdfs:label>
+    <_3:location>Qatar</_3:location>
+    <_3:code>QAR</_3:code>
+    <_3:num>634</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MRO">
+    <rdfs:label>Ouguiya</rdfs:label>
+    <_3:location>Mauritania</_3:location>
+    <_3:code>MRO</_3:code>
+    <_3:num>478</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#FJD">
+    <rdfs:label>Fiji dollar</rdfs:label>
+    <_3:location>Fiji</_3:location>
+    <_3:code>FJD</_3:code>
+    <_3:num>242</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#NZD">
+    <rdfs:label>New Zealand dollar</rdfs:label>
+    <_3:location>Cook Islands, New Zealand, Niue, Pitcairn, Tokelau</_3:location>
+    <_3:code>NZD</_3:code>
+    <_3:num>554</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SOS">
+    <rdfs:label>Somali shilling</rdfs:label>
+    <_3:location>Somalia</_3:location>
+    <_3:code>SOS</_3:code>
+    <_3:num>706</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#AUD">
+    <rdfs:label>Australian dollar</rdfs:label>
+    <_3:location>Australia, Australian Antarctic Territory, Christmas Island, Cocos (Keeling) Islands, Heard and McDonald Islands, Kiribati, Nauru, Norfolk Island, Tuvalu</_3:location>
+    <_3:code>AUD</_3:code>
+    <_3:num>036</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KHR">
+    <rdfs:label>Riel</rdfs:label>
+    <_3:location>Cambodia</_3:location>
+    <_3:code>KHR</_3:code>
+    <_3:num>116</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BOV">
+    <rdfs:label>Bolivian Mvdol (funds code)</rdfs:label>
+    <_3:location>Bolivia</_3:location>
+    <_3:code>BOV</_3:code>
+    <_3:num>984</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#GHS">
+    <rdfs:label>Cedi</rdfs:label>
+    <_3:location>Ghana</_3:location>
+    <_3:code>GHS</_3:code>
+    <_3:num>936</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ERN">
+    <rdfs:label>Nakfa</rdfs:label>
+    <_3:location>Eritrea</_3:location>
+    <_3:code>ERN</_3:code>
+    <_3:num>232</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ALL">
+    <rdfs:label>Lek</rdfs:label>
+    <_3:location>Albania</_3:location>
+    <_3:code>ALL</_3:code>
+    <_3:num>008</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BOB">
+    <rdfs:label>Boliviano</rdfs:label>
+    <_3:location>Bolivia</_3:location>
+    <_3:code>BOB</_3:code>
+    <_3:num>068</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#GYD">
+    <rdfs:label>Guyana dollar</rdfs:label>
+    <_3:location>Guyana</_3:location>
+    <_3:code>GYD</_3:code>
+    <_3:num>328</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MMK">
+    <rdfs:label>Kyat</rdfs:label>
+    <_3:location>Myanmar</_3:location>
+    <_3:code>MMK</_3:code>
+    <_3:num>104</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KWD">
+    <rdfs:label>Kuwaiti dinar</rdfs:label>
+    <_3:location>Kuwait</_3:location>
+    <_3:code>KWD</_3:code>
+    <_3:num>414</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#TZS">
+    <rdfs:label>Tanzanian shilling</rdfs:label>
+    <_3:location>Tanzania</_3:location>
+    <_3:code>TZS</_3:code>
+    <_3:num>834</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#LRD">
+    <rdfs:label>Liberian dollar</rdfs:label>
+    <_3:location>Liberia</_3:location>
+    <_3:code>LRD</_3:code>
+    <_3:num>430</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#USS">
+    <rdfs:label>United States dollar (same day) (funds code) (one source claims it is no longer used, but it is still on the ISO 4217-MA list)</rdfs:label>
+    <_3:location>United States</_3:location>
+    <_3:code>USS</_3:code>
+    <_3:num>998</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BYR">
+    <rdfs:label>Belarussian ruble</rdfs:label>
+    <_3:location>Belarus</_3:location>
+    <_3:code>BYR</_3:code>
+    <_3:num>974</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#RON">
+    <rdfs:label>Romanian new leu</rdfs:label>
+    <_3:location>Romania</_3:location>
+    <_3:code>RON</_3:code>
+    <_3:num>946</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CZK">
+    <rdfs:label>Czech Koruna</rdfs:label>
+    <_3:location>Czech Republic</_3:location>
+    <_3:code>CZK</_3:code>
+    <_3:num>203</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MXV">
+    <rdfs:label>Mexican Unidad de Inversion (UDI) (funds code)</rdfs:label>
+    <_3:location>Mexico</_3:location>
+    <_3:code>MXV</_3:code>
+    <_3:num>979</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#VUV">
+    <rdfs:label>Vatu</rdfs:label>
+    <_3:location>Vanuatu</_3:location>
+    <_3:code>VUV</_3:code>
+    <_3:num>548</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BHD">
+    <rdfs:label>Bahraini dinar</rdfs:label>
+    <_3:location>Bahrain</_3:location>
+    <_3:code>BHD</_3:code>
+    <_3:num>048</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#COU">
+    <rdfs:label>Unidad de Valor Real</rdfs:label>
+    <_3:location>Colombia</_3:location>
+    <_3:code>COU</_3:code>
+    <_3:num>970</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#GEL">
+    <rdfs:label>Lari</rdfs:label>
+    <_3:location>Georgia</_3:location>
+    <_3:code>GEL</_3:code>
+    <_3:num>981</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BRL">
+    <rdfs:label>Brazilian real</rdfs:label>
+    <_3:location>Brazil</_3:location>
+    <_3:code>BRL</_3:code>
+    <_3:num>986</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ILS">
+    <rdfs:label>Israeli new sheqel</rdfs:label>
+    <_3:location>Israel</_3:location>
+    <_3:code>ILS</_3:code>
+    <_3:num>376</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ARS">
+    <rdfs:label>Argentine peso</rdfs:label>
+    <_3:location>Argentina</_3:location>
+    <_3:code>ARS</_3:code>
+    <_3:num>032</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#LVL">
+    <rdfs:label>Latvian lats</rdfs:label>
+    <_3:location>Latvia</_3:location>
+    <_3:code>LVL</_3:code>
+    <_3:num>428</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XOF">
+    <rdfs:label>CFA Franc BCEAO</rdfs:label>
+    <_3:location>Benin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Senegal, Togo</_3:location>
+    <_3:code>XOF</_3:code>
+    <_3:num>952</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#TWD">
+    <rdfs:label>New Taiwan dollar</rdfs:label>
+    <_3:location>Taiwan and other islands that are under the effective control of the Republic of China (ROC)</_3:location>
+    <_3:code>TWD</_3:code>
+    <_3:num>901</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#LSL">
+    <rdfs:label>Lesotho loti</rdfs:label>
+    <_3:location>Lesotho</_3:location>
+    <_3:code>LSL</_3:code>
+    <_3:num>426</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SCR">
+    <rdfs:label>Seychelles rupee</rdfs:label>
+    <_3:location>Seychelles</_3:location>
+    <_3:code>SCR</_3:code>
+    <_3:num>690</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#DOP">
+    <rdfs:label>Dominican peso</rdfs:label>
+    <_3:location>Dominican Republic</_3:location>
+    <_3:code>DOP</_3:code>
+    <_3:num>214</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#RWF">
+    <rdfs:label>Rwanda franc</rdfs:label>
+    <_3:location>Rwanda</_3:location>
+    <_3:code>RWF</_3:code>
+    <_3:num>646</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XBA">
+    <rdfs:label>European Composite Unit (EURCO) (bond market unit)</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XBA</_3:code>
+    <_3:num>955</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ETB">
+    <rdfs:label>Ethiopian birr</rdfs:label>
+    <_3:location>Ethiopia</_3:location>
+    <_3:code>ETB</_3:code>
+    <_3:num>230</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XPT">
+    <rdfs:label>Platinum (one troy ounce)</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XPT</_3:code>
+    <_3:num>962</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XBD">
+    <rdfs:label>European Unit of Account 17 (E.U.A.-17) (bond market unit)</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XBD</_3:code>
+    <_3:num>958</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#HKD">
+    <rdfs:label>Hong Kong dollar</rdfs:label>
+    <_3:location>Hong Kong Special Administrative Region</_3:location>
+    <_3:code>HKD</_3:code>
+    <_3:num>344</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SAR">
+    <rdfs:label>Saudi riyal</rdfs:label>
+    <_3:location>Saudi Arabia</_3:location>
+    <_3:code>SAR</_3:code>
+    <_3:num>682</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#TTD">
+    <rdfs:label>Trinidad and Tobago dollar</rdfs:label>
+    <_3:location>Trinidad and Tobago</_3:location>
+    <_3:code>TTD</_3:code>
+    <_3:num>780</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XFU">
+    <rdfs:label>UIC franc (special settlement currency)</rdfs:label>
+    <_3:location>International Union of Railways</_3:location>
+    <_3:code>XFU</_3:code>
+    <_3:num>Nil</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#AWG">
+    <rdfs:label>Aruban guilder</rdfs:label>
+    <_3:location>Aruba</_3:location>
+    <_3:code>AWG</_3:code>
+    <_3:num>533</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BBD">
+    <rdfs:label>Barbados dollar</rdfs:label>
+    <_3:location>Barbados</_3:location>
+    <_3:code>BBD</_3:code>
+    <_3:num>052</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KGS">
+    <rdfs:label>Som</rdfs:label>
+    <_3:location>Kyrgyzstan</_3:location>
+    <_3:code>KGS</_3:code>
+    <_3:num>417</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#IRR">
+    <rdfs:label>Iranian rial</rdfs:label>
+    <_3:location>Iran</_3:location>
+    <_3:code>IRR</_3:code>
+    <_3:num>364</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#EUR">
+    <rdfs:label>Euro</rdfs:label>
+    <_3:location>16 European Union countries, Andorra, Kosovo, Monaco, Montenegro, San Marino, Vatican; see eurozone</_3:location>
+    <_3:code>EUR</_3:code>
+    <_3:num>978</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#PHP">
+    <rdfs:label>Philippine peso</rdfs:label>
+    <_3:location>Philippines</_3:location>
+    <_3:code>PHP</_3:code>
+    <_3:num>608</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SRD">
+    <rdfs:label>Surinam dollar</rdfs:label>
+    <_3:location>Suriname</_3:location>
+    <_3:code>SRD</_3:code>
+    <_3:num>968</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XBC">
+    <rdfs:label>European Unit of Account 9 (E.U.A.-9) (bond market unit)</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XBC</_3:code>
+    <_3:num>957</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#AED">
+    <rdfs:label>United Arab Emirates dirham</rdfs:label>
+    <_3:location>United Arab Emirates</_3:location>
+    <_3:code>AED</_3:code>
+    <_3:num>784</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#UZS">
+    <rdfs:label>Uzbekistan som</rdfs:label>
+    <_3:location>Uzbekistan</_3:location>
+    <_3:code>UZS</_3:code>
+    <_3:num>860</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#NGN">
+    <rdfs:label>Naira</rdfs:label>
+    <_3:location>Nigeria</_3:location>
+    <_3:code>NGN</_3:code>
+    <_3:num>566</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CRC">
+    <rdfs:label>Costa Rican colon</rdfs:label>
+    <_3:location>Costa Rica</_3:location>
+    <_3:code>CRC</_3:code>
+    <_3:num>188</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BIF">
+    <rdfs:label>Burundian franc</rdfs:label>
+    <_3:location>Burundi</_3:location>
+    <_3:code>BIF</_3:code>
+    <_3:num>108</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SDG">
+    <rdfs:label>Sudanese pound</rdfs:label>
+    <_3:location>Sudan</_3:location>
+    <_3:code>SDG</_3:code>
+    <_3:num>938</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CDF">
+    <rdfs:label>Franc Congolais</rdfs:label>
+    <_3:location>Democratic Republic of Congo</_3:location>
+    <_3:code>CDF</_3:code>
+    <_3:num>976</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BSD">
+    <rdfs:label>Bahamian dollar</rdfs:label>
+    <_3:location>Bahamas</_3:location>
+    <_3:code>BSD</_3:code>
+    <_3:num>044</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XPD">
+    <rdfs:label>Palladium (one troy ounce)</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XPD</_3:code>
+    <_3:num>964</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KMF">
+    <rdfs:label>Comoro franc</rdfs:label>
+    <_3:location>Comoros</_3:location>
+    <_3:code>KMF</_3:code>
+    <_3:num>174</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MVR">
+    <rdfs:label>Rufiyaa</rdfs:label>
+    <_3:location>Maldives</_3:location>
+    <_3:code>MVR</_3:code>
+    <_3:num>462</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CHW">
+    <rdfs:label>WIR franc (complementary currency)</rdfs:label>
+    <_3:location>Switzerland</_3:location>
+    <_3:code>CHW</_3:code>
+    <_3:num>948</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#BTN">
+    <rdfs:label>Ngultrum</rdfs:label>
+    <_3:location>Bhutan</_3:location>
+    <_3:code>BTN</_3:code>
+    <_3:num>064</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#GMD">
+    <rdfs:label>Dalasi</rdfs:label>
+    <_3:location>Gambia</_3:location>
+    <_3:code>GMD</_3:code>
+    <_3:num>270</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#AZN">
+    <rdfs:label>Azerbaijanian manat</rdfs:label>
+    <_3:location>Azerbaijan</_3:location>
+    <_3:code>AZN</_3:code>
+    <_3:num>944</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#LAK">
+    <rdfs:label>Kip</rdfs:label>
+    <_3:location>Laos</_3:location>
+    <_3:code>LAK</_3:code>
+    <_3:num>418</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#YER">
+    <rdfs:label>Yemeni rial</rdfs:label>
+    <_3:location>Yemen</_3:location>
+    <_3:code>YER</_3:code>
+    <_3:num>886</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#GIP">
+    <rdfs:label>Gibraltar pound</rdfs:label>
+    <_3:location>Gibraltar</_3:location>
+    <_3:code>GIP</_3:code>
+    <_3:num>292</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#NOK">
+    <rdfs:label>Norwegian krone</rdfs:label>
+    <_3:location>Norway</_3:location>
+    <_3:code>NOK</_3:code>
+    <_3:num>578</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#GNF">
+    <rdfs:label>Guinea franc</rdfs:label>
+    <_3:location>Guinea</_3:location>
+    <_3:code>GNF</_3:code>
+    <_3:num>324</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#DKK">
+    <rdfs:label>Danish krone</rdfs:label>
+    <_3:location>Denmark, Faroe Islands, Greenland</_3:location>
+    <_3:code>DKK</_3:code>
+    <_3:num>208</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#VND">
+    <rdfs:label>Vietnamese đồng</rdfs:label>
+    <_3:location>Vietnam</_3:location>
+    <_3:code>VND</_3:code>
+    <_3:num>704</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#RUB">
+    <rdfs:label>Russian rouble</rdfs:label>
+    <_3:location>Russia, Abkhazia, South Ossetia</_3:location>
+    <_3:code>RUB</_3:code>
+    <_3:num>643</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KZT">
+    <rdfs:label>Tenge</rdfs:label>
+    <_3:location>Kazakhstan</_3:location>
+    <_3:code>KZT</_3:code>
+    <_3:num>398</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#DZD">
+    <rdfs:label>Algerian dinar</rdfs:label>
+    <_3:location>Algeria</_3:location>
+    <_3:code>DZD</_3:code>
+    <_3:num>012</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CLP">
+    <rdfs:label>Chilean peso</rdfs:label>
+    <_3:location>Chile</_3:location>
+    <_3:code>CLP</_3:code>
+    <_3:num>152</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#KPW">
+    <rdfs:label>North Korean won</rdfs:label>
+    <_3:location>North Korea</_3:location>
+    <_3:code>KPW</_3:code>
+    <_3:num>408</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#RSD">
+    <rdfs:label>Serbian dinar</rdfs:label>
+    <_3:location>Serbia</_3:location>
+    <_3:code>RSD</_3:code>
+    <_3:num>941</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#UAH">
+    <rdfs:label>Hryvnia</rdfs:label>
+    <_3:location>Ukraine</_3:location>
+    <_3:code>UAH</_3:code>
+    <_3:num>980</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#ZWL">
+    <rdfs:label>Zimbabwe dollar</rdfs:label>
+    <_3:location>Zimbabwe</_3:location>
+    <_3:code>ZWL</_3:code>
+    <_3:num>932</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#PLN">
+    <rdfs:label>Złoty</rdfs:label>
+    <_3:location>Poland</_3:location>
+    <_3:code>PLN</_3:code>
+    <_3:num>985</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#XXX">
+    <rdfs:label>No currency</rdfs:label>
+    <_3:location></_3:location>
+    <_3:code>XXX</_3:code>
+    <_3:num>999</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CAD">
+    <rdfs:label>Canadian dollar</rdfs:label>
+    <_3:location>Canada</_3:location>
+    <_3:code>CAD</_3:code>
+    <_3:num>124</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#PEN">
+    <rdfs:label>Nuevo sol</rdfs:label>
+    <_3:location>Peru</_3:location>
+    <_3:code>PEN</_3:code>
+    <_3:num>604</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MWK">
+    <rdfs:label>Kwacha</rdfs:label>
+    <_3:location>Malawi</_3:location>
+    <_3:code>MWK</_3:code>
+    <_3:num>454</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#WST">
+    <rdfs:label>Samoan tala</rdfs:label>
+    <_3:location>Samoa</_3:location>
+    <_3:code>WST</_3:code>
+    <_3:num>882</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#UGX">
+    <rdfs:label>Uganda shilling</rdfs:label>
+    <_3:location>Uganda</_3:location>
+    <_3:code>UGX</_3:code>
+    <_3:num>800</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#IQD">
+    <rdfs:label>Iraqi dinar</rdfs:label>
+    <_3:location>Iraq</_3:location>
+    <_3:code>IQD</_3:code>
+    <_3:num>368</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#MDL">
+    <rdfs:label>Moldovan leu</rdfs:label>
+    <_3:location>Moldova</_3:location>
+    <_3:code>MDL</_3:code>
+    <_3:num>498</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#VEF">
+    <rdfs:label>Venezuelan bolívar fuerte</rdfs:label>
+    <_3:location>Venezuela</_3:location>
+    <_3:code>VEF</_3:code>
+    <_3:num>937</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#SHP">
+    <rdfs:label>Saint Helena pound</rdfs:label>
+    <_3:location>Saint Helena</_3:location>
+    <_3:code>SHP</_3:code>
+    <_3:num>654</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#TOP">
+    <rdfs:label>Pa'anga</rdfs:label>
+    <_3:location>Tonga</_3:location>
+    <_3:code>TOP</_3:code>
+    <_3:num>776</_3:num>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2009/05/currency/iso-4217#CNY">
+    <rdfs:label>Renminbi</rdfs:label>
+    <_3:location>China (Mainland)</_3:location>
+    <_3:code>CNY</_3:code>
+    <_3:num>156</_3:num>
+  </rdf:Description>
+</rdf:RDF>
+

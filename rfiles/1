@@ -1,0 +1,379 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dnbt: <http://d-nb.info/standards/elementset/dnb#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://d-nb.info/gnd/118514768> a gndo:DifferentiatedPerson ;
+	foaf:page <http://de.wikipedia.org/wiki/Bertolt_Brecht> ;
+	owl:sameAs <http://dbpedia.org/resource/Bertolt_Brecht> , <http://viaf.org/viaf/2467372> ;
+	gndo:gndIdentifier "118514768" ;
+	gndo:oldAuthorityNumber "(DE-588)1022091077" ;
+	owl:sameAs <http://d-nb.info/gnd/1022091077> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/1022091077" ;
+	gndo:oldAuthorityNumber "(DE-588a)118514768" , "(DE-588a)141399074" , "(DE-588a)139089691" , "(DE-588a)141300248" , "(DE-588a)136949541" , "(DE-588a)134336232" , "(DE-588a)12794544X" , "(DE-588a)12736630X" , "(DE-588a)12722811X" , "(DE-588a)127228098" , "(DE-588a)127228101" ;
+	gndo:variantNameForThePerson "Brêcht, Becton" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399078 .
+
+_:node1bb68e7kox2399078 gndo:forename "Becton" ;
+	gndo:surname "Brêcht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, Bertolʹt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399079 .
+
+_:node1bb68e7kox2399079 gndo:forename "Bertolʹt" ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, B." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399080 .
+
+_:node1bb68e7kox2399080 gndo:forename "B." ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, Eugen Berthold Friedrich" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399081 .
+
+_:node1bb68e7kox2399081 gndo:forename "Eugen Berthold Friedrich" ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, ..." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399082 .
+
+_:node1bb68e7kox2399082 gndo:forename "..." ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht-Eisler, ..." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399083 .
+
+_:node1bb68e7kox2399083 gndo:forename "..." ;
+	gndo:surname "Brecht-Eisler" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Beituo'erte-Bulaixite" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399084 .
+
+_:node1bb68e7kox2399084 gndo:personalName "Beituo'erte-Bulaixite" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Berchito, B." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399085 .
+
+_:node1bb68e7kox2399085 gndo:forename "B." ;
+	gndo:surname "Berchito" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brechtas, B." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399086 .
+
+_:node1bb68e7kox2399086 gndo:forename "B." ;
+	gndo:surname "Brechtas" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brechts, Bertolts" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399087 .
+
+_:node1bb68e7kox2399087 gndo:forename "Bertolts" ;
+	gndo:surname "Brechts" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brehts, Bertolts" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399088 .
+
+_:node1bb68e7kox2399088 gndo:forename "Bertolts" ;
+	gndo:surname "Brehts" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Breḳhṭ, Bārṭolṭ" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399089 .
+
+_:node1bb68e7kox2399089 gndo:forename "Bārṭolṭ" ;
+	gndo:surname "Breḳhṭ" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brekt, Berṭolṭ" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399090 .
+
+_:node1bb68e7kox2399090 gndo:forename "Berṭolṭ" ;
+	gndo:surname "Brekt" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brekṭ, Berṭōlṭ" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399091 .
+
+_:node1bb68e7kox2399091 gndo:forename "Berṭōlṭ" ;
+	gndo:surname "Brekṭ" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Breḳṭ, Berṭôlṭ" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399092 .
+
+_:node1bb68e7kox2399092 gndo:forename "Berṭôlṭ" ;
+	gndo:surname "Breḳṭ" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Breśṭ, Berṭalṭa" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399093 .
+
+_:node1bb68e7kox2399093 gndo:forename "Berṭalṭa" ;
+	gndo:surname "Breśṭ" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Breṣṭa, Barṭolṭa" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399094 .
+
+_:node1bb68e7kox2399094 gndo:forename "Barṭolṭa" ;
+	gndo:surname "Breṣṭa" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brišt, Bartūlt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399095 .
+
+_:node1bb68e7kox2399095 gndo:forename "Bartūlt" ;
+	gndo:surname "Brišt" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brišt, Birtūld" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399096 .
+
+_:node1bb68e7kox2399096 gndo:forename "Birtūld" ;
+	gndo:surname "Brišt" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brišt, Birtult" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399097 .
+
+_:node1bb68e7kox2399097 gndo:forename "Birtult" ;
+	gndo:surname "Brišt" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brīḫt, Birtūld" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399098 .
+
+_:node1bb68e7kox2399098 gndo:forename "Birtūld" ;
+	gndo:surname "Brīḫt" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Buchito, Berutorutu" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399099 .
+
+_:node1bb68e7kox2399099 gndo:forename "Berutorutu" ;
+	gndo:surname "Buchito" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Bulaixite, Beituo'erte" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399100 .
+
+_:node1bb68e7kox2399100 gndo:forename "Beituo'erte" ;
+	gndo:surname "Bulaixite" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Bulaixite, ..." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399101 .
+
+_:node1bb68e7kox2399101 gndo:forename "..." ;
+	gndo:surname "Bulaixite" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Burehito, Berutoruto" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399102 .
+
+_:node1bb68e7kox2399102 gndo:forename "Berutoruto" ;
+	gndo:surname "Burehito" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Burehito, ..." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399103 .
+
+_:node1bb68e7kox2399103 gndo:forename "..." ;
+	gndo:surname "Burehito" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "B. B." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399104 .
+
+_:node1bb68e7kox2399104 gndo:personalName "B. B." .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Mprecht, ..." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399105 .
+
+_:node1bb68e7kox2399105 gndo:forename "..." ;
+	gndo:surname "Mprecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Pulaihsit'ê, Peit'oĉrht'ê" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399106 .
+
+_:node1bb68e7kox2399106 gndo:forename "Peit'oĉrht'ê" ;
+	gndo:surname "Pulaihsit'ê" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Pulaihsit'ê, ..." ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399107 .
+
+_:node1bb68e7kox2399107 gndo:forename "..." ;
+	gndo:surname "Pulaihsit'ê" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Pŭrehit'ŭ, Peŏt'olt'ŭ" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399108 .
+
+_:node1bb68e7kox2399108 gndo:forename "Peŏt'olt'ŭ" ;
+	gndo:surname "Pŭrehit'ŭ" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Bŭrehit'ŭ, Beŏt'olt'ŭ" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399109 .
+
+_:node1bb68e7kox2399109 gndo:forename "Beŏt'olt'ŭ" ;
+	gndo:surname "Bŭrehit'ŭ" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, Berthold" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399110 .
+
+_:node1bb68e7kox2399110 gndo:forename "Berthold" ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Becht, Bertolt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399111 .
+
+_:node1bb68e7kox2399111 gndo:forename "Bertolt" ;
+	gndo:surname "Becht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brehd, Berd" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399112 .
+
+_:node1bb68e7kox2399112 gndo:forename "Berd" ;
+	gndo:surname "Brehd" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Larsen, Berthold" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399113 .
+
+_:node1bb68e7kox2399113 gndo:forename "Berthold" ;
+	gndo:surname "Larsen" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brekt, Bertôlt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399114 .
+
+_:node1bb68e7kox2399114 gndo:forename "Bertôlt" ;
+	gndo:surname "Brekt" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brekht, Bartolt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399115 .
+
+_:node1bb68e7kox2399115 gndo:forename "Bartolt" ;
+	gndo:surname "Brekht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brist, Birtult" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399116 .
+
+_:node1bb68e7kox2399116 gndo:forename "Birtult" ;
+	gndo:surname "Brist" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, Bert" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399117 .
+
+_:node1bb68e7kox2399117 gndo:forename "Bert" ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Bresta, Bartolta" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399118 .
+
+_:node1bb68e7kox2399118 gndo:forename "Bartolta" ;
+	gndo:surname "Bresta" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, Bertholt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399119 .
+
+_:node1bb68e7kox2399119 gndo:forename "Bertholt" ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, Bertold" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399120 .
+
+_:node1bb68e7kox2399120 gndo:forename "Bertold" ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Breht, Bertolt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399121 .
+
+_:node1bb68e7kox2399121 gndo:forename "Bertolt" ;
+	gndo:surname "Breht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Mprecht, Mpertolt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399122 .
+
+_:node1bb68e7kox2399122 gndo:forename "Mpertolt" ;
+	gndo:surname "Mprecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brekht, Bertolʹt" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399123 .
+
+_:node1bb68e7kox2399123 gndo:forename "Bertolʹt" ;
+	gndo:surname "Brekht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brekht, Bertolʹd" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399124 .
+
+_:node1bb68e7kox2399124 gndo:forename "Bertolʹd" ;
+	gndo:surname "Brekht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Breḵṭ, Berṭolṭ" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399125 .
+
+_:node1bb68e7kox2399125 gndo:forename "Berṭolṭ" ;
+	gndo:surname "Breḵṭ" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "Brecht, Eugen Bertolt Friedrich" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399126 .
+
+_:node1bb68e7kox2399126 gndo:forename "Eugen Bertolt Friedrich" ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "برشت، برتولد" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399127 .
+
+_:node1bb68e7kox2399127 gndo:personalName "برشت، برتولد" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "브레히트, 베르톨트" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399128 .
+
+_:node1bb68e7kox2399128 gndo:forename "베르톨트" ;
+	gndo:surname "브레히트" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "ברכט, ברטולט" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399129 .
+
+_:node1bb68e7kox2399129 gndo:forename "ברטולט" ;
+	gndo:surname "ברכט" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "贝·布莱希特" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399130 .
+
+_:node1bb68e7kox2399130 gndo:personalName "贝·布莱希特" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "布莱希特, 贝" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399131 .
+
+_:node1bb68e7kox2399131 gndo:forename "贝" ;
+	gndo:surname "布莱希特" .
+
+<http://d-nb.info/gnd/118514768> gndo:variantNameForThePerson "ブレヒト, ベルトルト" ;
+	gndo:variantNameEntityForThePerson _:node1bb68e7kox2399132 .
+
+_:node1bb68e7kox2399132 gndo:forename "ベルトルト" ;
+	gndo:surname "ブレヒト" .
+
+<http://d-nb.info/gnd/118514768> gndo:preferredNameForThePerson "Brecht, Bertolt" ;
+	gndo:preferredNameEntityForThePerson _:node1bb68e7kox2399133 .
+
+_:node1bb68e7kox2399133 gndo:forename "Bertolt" ;
+	gndo:surname "Brecht" .
+
+<http://d-nb.info/gnd/118514768> gndo:familialRelationship <http://d-nb.info/gnd/121608557> , <http://d-nb.info/gnd/119056011> , <http://d-nb.info/gnd/118738348> , <http://d-nb.info/gnd/137070411> , <http://d-nb.info/gnd/118809849> , <http://d-nb.info/gnd/119027615> , <http://d-nb.info/gnd/118940163> , <http://d-nb.info/gnd/118630091> , <http://d-nb.info/gnd/123783283> , <http://d-nb.info/gnd/118940155> , <http://d-nb.info/gnd/110005449> , <http://d-nb.info/gnd/13612495X> , <http://d-nb.info/gnd/123757398> , <http://d-nb.info/gnd/1030496250> , <http://d-nb.info/gnd/1030496366> , <http://d-nb.info/gnd/1072228688> , <http://d-nb.info/gnd/134772350> ;
+	gndo:professionOrOccupation <http://d-nb.info/gnd/4053309-8> , <http://d-nb.info/gnd/4185053-1> , <http://d-nb.info/gnd/4140241-8> , <http://d-nb.info/gnd/4052154-0> , <http://d-nb.info/gnd/4168391-2> , <http://d-nb.info/gnd/4049050-6> , <http://d-nb.info/gnd/4294338-3> ;
+	gndo:gndSubjectCategory <http://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#15.1p> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#15.3p> ;
+	gndo:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+	gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/ger> ;
+	gndo:publication "Brecht, Bertolt: Dreigroschenroman. - 1934" , "Brecht, Bertolt: Hauspostille. - 1927" , "Brecht, Bertolt: Aufstieg und Fall der Stadt Mahagonny. - 1929" , "Brecht, Bertolt: Baal. - 1922" , "Brecht, Bertolt: Trommeln in der Nacht. - 1923" , "Brecht, Bertolt: Mann ist Mann. - 1926" , "Brecht, Bertolt: Im Dickicht der Städte. - 1927" , "Brecht, Bertolt: Furcht und Elend des III. Reiches. - 1945" ;
+	gndo:biographicalOrHistoricalInformation "Schriftsteller, Regisseur"@de ;
+	gndo:placeOfBirth <http://d-nb.info/gnd/4003614-5> ;
+	gndo:placeOfDeath <http://d-nb.info/gnd/4005728-8> ;
+	gndo:placeOfExile <http://d-nb.info/gnd/4010877-6> , <http://d-nb.info/gnd/4077258-5> ;
+	owl:sameAs <http://www.filmportal.de/person/261E2D3A93D54134BF8AB5F21F0B2399> ;
+	gndo:gender <http://d-nb.info/standards/vocab/gnd/gender#male> ;
+	gndo:dateOfBirth "1898-02-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	gndo:dateOfDeath "1956-08-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+

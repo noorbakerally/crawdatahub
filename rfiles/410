@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:ns1="http://core.kmi.open.ac.uk-sesame.open.ac.uk/openrdf-sesame/repositories/core/OAIRepositoryIdentifier"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://oro.open.ac.uk/62/1/JVGR_paper_2002.pdf">
+	<ch_type xmlns="http://www.w3.org/TR/rdf-schema/#" rdf:resource="http://purl.org/ontology/bibo/Document"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/626800"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/629110"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/639090"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/639091"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/639092"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/639093"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/639094"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/639102"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/639209"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/639290"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/641119"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/641314"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/642250"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/642676"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/642826"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/644805"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/659022"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/659783"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/663341"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/675734"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/675784"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/677182"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/685005"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/690627"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/696825"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/713811"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/713815"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/713824"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/716688"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/718957"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/743434"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/743457"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/743506"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/778240"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/781396"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/836710"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/856184"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/862142"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/889135"/>
+	<element xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/data/simNode/889802"/>
+	<hasOAIIdentifier xmlns="http://core.kmi.open.ac.uk/data/">oai:open.ac.uk.OAI2:62</hasOAIIdentifier>
+	<hasOAIRepositoryIdentifier xmlns="http://core.kmi.open.ac.uk/data/" rdf:resource="http://oai.rbexplorer.com/id/Open Research Online (ORO)/oai:open.ac.uk.OAI2:62"/>
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://core.kmi.open.ac.uk/data/simNode/626800">
+	<method xmlns="http://purl.org/ontology/similarity/" rdf:resource="http://core.kmi.open.ac.uk/onto/method/cosine"/>
+	<weight xmlns="http://purl.org/ontology/similarity/" rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.115159</weight>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:33:59</dcterms:created>
+		<dc:source rdf:resource="http://ulm.rkbexplorer.com/id/publications/person-edbb61db"/>
+		<coref:coreferenceData rdf:resource="http://ulm.rkbexplorer.com/crs/publications/person-edbb61db" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://ulm.rkbexplorer.com/id/publications/person-edbb61db">
+		<rdf:type rdf:resource="&akt;Generic-Agent"/>
+		<rdf:type rdf:resource="&akt;Affiliated-Person"/>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<akt:full-name>Susanne Biundo</akt:full-name>
+		<akt:has-affiliation rdf:resource="http://ulm.rkbexplorer.com/id/ki"/>
+		<akt:has-telephone-number>+49 (0)731 5024122</akt:has-telephone-number>
+		<akt:has-web-address>http://www.informatik.uni-ulm.de/ki/biundo.html</akt:has-web-address>
+		<akt:has-email-address>susanne.biundo@uni-ulm.de</akt:has-email-address>
+		<akt:has-appelation rdf:resource="&akt;Prof"/>
+		<akt:has-surname>Biundo</akt:has-surname>
+		<akt:has-forename>Susanne</akt:has-forename>
+		<rdf:type rdf:resource="&akt;Professor-In-Academia"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ulm.rkbexplorer.com/id/publications/inproceedings-schattenberg:weigl:biundo:05">
+		<akt:has-author rdf:resource="http://ulm.rkbexplorer.com/id/publications/person-edbb61db"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ulm.rkbexplorer.com/id/publications/inproceedings-biundo:schattenberg:01">
+		<akt:has-author rdf:resource="http://ulm.rkbexplorer.com/id/publications/person-edbb61db"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ulm.rkbexplorer.com/id/publications/inproceedings-biundo:holzer:schattenberg:04:a">
+		<akt:has-author rdf:resource="http://ulm.rkbexplorer.com/id/publications/person-edbb61db"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ulm.rkbexplorer.com/id/publications/inproceedings-biundo:holzer:schattenberg:04:b">
+		<akt:has-author rdf:resource="http://ulm.rkbexplorer.com/id/publications/person-edbb61db"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ulm.rkbexplorer.com/id/publications/inproceedings-schattenberg:biundo:02">
+		<akt:has-author rdf:resource="http://ulm.rkbexplorer.com/id/publications/person-edbb61db"/>
+	</rdf:Description>
+</rdf:RDF>

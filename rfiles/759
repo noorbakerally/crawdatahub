@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:uneskos="http://purl.org/umu/uneskos#">
+
+  <skos:Concept rdf:about="http://skos.um.es/unescothes/C01194">
+    <skos:prefLabel xml:lang="ru">Образование</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Educación</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Éducation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Education</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://skos.um.es/unescothes/CS000"/>
+    <skos:topConceptOf rdf:resource="http://skos.um.es/unescothes/CS000"/>
+    <skos:related rdf:resource="http://skos.um.es/unescothes/C03974"/>
+    <skos:related rdf:resource="http://skos.um.es/unescothes/C02240"/>
+    <skos:scopeNote xml:lang="ru">Процесс, способствующий развитию способностей, отношений и других форм поведения, воспринимаемых обществом как достоинство. В необходимых случаях используйте более точный дескриптор.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Mise en oeuvre de moyens par lesquels l'on développe des capacités, des attitudes et autres formes de comportements valorisés par la société dans laquelle on vit. Utiliser un descripteur plus précis.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Proceso por el cual uno desarrolla habilidades, actitudes y otras formas de comportamiento valoradas por la sociedad en la que vive. Utilizar un descriptor más preciso.</skos:scopeNote>
+    <uneskos:memberOf rdf:resource="http://skos.um.es/unescothes/COL105"/>
+    <uneskos:mainConceptOf rdf:resource="http://skos.um.es/unescothes/COL105"/>
+  </skos:Concept>
+
+</rdf:RDF>

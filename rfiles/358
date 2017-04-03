@@ -1,0 +1,14 @@
+@prefix ns1:   <http://linkeddata.ge.imati.cnr.it/resource/ThIST/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:affioramento  a            skos:Concept ;
+        rdfs:label             "outcrops"@en , "affioramento"@it ;
+        skos:inScheme          <http://linkeddata.ge.imati.cnr.it/resource/SkosConceptScheme/7> ;
+        skos:prefLabel         "affioramento"@it , "outcrops"@en ;
+        skos:related           ns1:bedrock ;
+        skos:semanticRelation  ns1:bedrock .
+
+ns1:bedrock  skos:related      ns1:affioramento ;
+        skos:semanticRelation  ns1:affioramento .

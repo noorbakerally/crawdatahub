@@ -1,0 +1,772 @@
+<?xml version='1.0'?>
+<!--  If you are running a bot please visit this policy page outlining rules you must respect. http://www.livejournal.com/bots/  --><rdf:RDF
+   xml:lang="en"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ya="http://blogs.yandex.ru/schema/foaf/"
+   xmlns:lj="http://www.livejournal.org/rss/lj/1.0/"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <foaf:Person>
+    <foaf:nick>dneprembankment</foaf:nick>
+    <foaf:name>dneprembankment</foaf:name>
+    <lj:journaltitle>Вперед и только вперед. А также и вверх!</lj:journaltitle>
+    <foaf:openid rdf:resource="http://dneprembankment.livejournal.com/" />
+    <ya:country dc:title="UA" rdf:resource="http://www.livejournal.com/directory.bml?opt_sort=ut&amp;s_loc=1&amp;loc_cn=UA"/>
+    <ya:city dc:title="%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA" rdf:resource="http://www.livejournal.com/directory.bml?opt_sort=ut&amp;s_loc=1&amp;loc_cn=UA&amp;loc_st=&amp;loc_ci=%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA"/>
+    <foaf:img rdf:resource="http://l-userpic.livejournal.com/125184397/29341423" />
+    <foaf:page>
+      <foaf:Document rdf:about="http://dneprembankment.livejournal.com/profile">
+        <dc:title>LiveJournal.com Profile</dc:title>
+        <dc:description>Full LiveJournal.com profile, including information such as interests and bio.</dc:description>
+      </foaf:Document>
+    </foaf:page>
+    <foaf:icqChatID></foaf:icqChatID>
+    <foaf:aimChatID></foaf:aimChatID>
+    <foaf:jabberID></foaf:jabberID>
+    <foaf:msnChatID></foaf:msnChatID>
+    <foaf:yahooChatID></foaf:yahooChatID>
+    <ya:blogActivity>
+      <ya:Posts>
+        <ya:feed rdf:resource="http://dneprembankment.livejournal.com/data/rss" dc:type="application/rss+xml" />
+        <ya:posted>212</ya:posted>
+      </ya:Posts>
+      <ya:Comments>
+        <ya:posted>257</ya:posted>
+        <ya:received>221</ya:received>
+      </ya:Comments>
+    </ya:blogActivity>
+    <foaf:weblog rdf:resource='http://dneprembankment.livejournal.com/' lj:dateCreated='2010-07-25T13:05:00' lj:dateLastUpdated='2016-10-26T11:35:18' />
+    <ya:school
+       rdf:resource="http://www.livejournal.com/schools/?ctc=UA&amp;sc=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C&amp;cc=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA&amp;sid=47121"
+       dc:title="Дніпропетровський національний університет імені О.Гончара"/>
+    <foaf:interest dc:title="Акунин" rdf:resource="http://www.livejournal.com/interests.bml?int=%D0%90%D0%BA%D1%83%D0%BD%D0%B8%D0%BD" />
+    <foaf:interest dc:title="Гришковец" rdf:resource="http://www.livejournal.com/interests.bml?int=%D0%93%D1%80%D0%B8%D1%88%D0%BA%D0%BE%D0%B2%D0%B5%D1%86" />
+    <foaf:interest dc:title="Пикуль" rdf:resource="http://www.livejournal.com/interests.bml?int=%D0%9F%D0%B8%D0%BA%D1%83%D0%BB%D1%8C" />
+    <foaf:interest dc:title="Рыбалка" rdf:resource="http://www.livejournal.com/interests.bml?int=%D0%A0%D1%8B%D0%B1%D0%B0%D0%BB%D0%BA%D0%B0" />
+    <foaf:interest dc:title="джаз" rdf:resource="http://www.livejournal.com/interests.bml?int=%D0%B4%D0%B6%D0%B0%D0%B7" />
+    <foaf:interest dc:title="коньки" rdf:resource="http://www.livejournal.com/interests.bml?int=%D0%BA%D0%BE%D0%BD%D1%8C%D0%BA%D0%B8" />
+    <foaf:interest dc:title="русский рок" rdf:resource="http://www.livejournal.com/interests.bml?int=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%BE%D0%BA" />
+    <foaf:interest dc:title="туризм" rdf:resource="http://www.livejournal.com/interests.bml?int=%D1%82%D1%83%D1%80%D0%B8%D0%B7%D0%BC" />
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>alien_x_stream</foaf:nick>
+        <foaf:member_name>Oleg Breslavtsev</foaf:member_name>
+        <foaf:tagLine>Фотограф Олег Бреславцев</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/124267611/13026351</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://alien-x-stream.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://alien-x-stream.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>fedor_frank</foaf:nick>
+        <foaf:member_name>fedor_frank</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/118081961/37684738</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://fedor-frank.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://fedor-frank.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>evpatoriya</foaf:nick>
+        <foaf:member_name>Евпатория</foaf:member_name>
+        <foaf:tagLine>Евпатория курортная</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/58288589/12224346</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://evpatoriya.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://evpatoriya.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>aquatek_filips</foaf:nick>
+        <foaf:member_name>s.anashkevitch@me.com</foaf:member_name>
+        <foaf:tagLine>Жизнь в путешествиях</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/124870142/24582141</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://aquatek-filips.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://aquatek-filips.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>dinaitour</foaf:nick>
+        <foaf:member_name>(c) Андрей Найдек</foaf:member_name>
+        <foaf:tagLine>Подорожные заметки</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/115533140/18367909</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://dinaitour.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://dinaitour.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>artur_makeev</foaf:nick>
+        <foaf:member_name>Артур</foaf:member_name>
+        <foaf:tagLine>ЖЖурнал</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/119425055/44505161</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://artur-makeev.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://artur-makeev.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>avensisa</foaf:nick>
+        <foaf:member_name>avensisa</foaf:member_name>
+        <foaf:tagLine>Віддзеркалення</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/84547863/16715799</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://avensisa.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://avensisa.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>shaon</foaf:nick>
+        <foaf:member_name>Alex Shulman</foaf:member_name>
+        <foaf:tagLine>Все про ЦАХАЛ</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/80602948/1348771</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://shaon.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://shaon.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>castorfiberr</foaf:nick>
+        <foaf:member_name>castorfiberr</foaf:member_name>
+        <foaf:tagLine>А тем временем...</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/95200064/21289215</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://castorfiberr.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://castorfiberr.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>bcdnepr</foaf:nick>
+        <foaf:member_name>Max Koshelev</foaf:member_name>
+        <foaf:tagLine>Редко, скучно, банально</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/115417774/35541722</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://bcdnepr.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://bcdnepr.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>summer56</foaf:nick>
+        <foaf:member_name>summer56</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/114825690/16500977</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://summer56.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://summer56.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>pl_sokrovish</foaf:nick>
+        <foaf:member_name>pl_sokrovish</foaf:member_name>
+        <foaf:tagLine>Полуостров сокровищ</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/112619523/40860470</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://pl-sokrovish.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://pl-sokrovish.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>andr_vs_tattie</foaf:nick>
+        <foaf:member_name>andr_vs_tattie</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <rdfs:seeAlso rdf:resource="http://andr-vs-tattie.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://andr-vs-tattie.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>man_from_nord</foaf:nick>
+        <foaf:member_name>man_from_nord</foaf:member_name>
+        <foaf:tagLine>Записки северного человека</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/118315906/29367329</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://man-from-nord.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://man-from-nord.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>od_ry</foaf:nick>
+        <foaf:member_name>Дар&apos;я Коляда</foaf:member_name>
+        <foaf:tagLine>..:Солодка Даруся:..</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/122684930/11754034</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://od-ry.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://od-ry.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>marina_habibi</foaf:nick>
+        <foaf:member_name>marina_funny_girl</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/122933804/35497114</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://marina-habibi.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://marina-habibi.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>cyxymu</foaf:nick>
+        <foaf:member_name>Воспоминания о Сухуми, войне и боли</foaf:member_name>
+        <foaf:tagLine>ЖЖ Сухуми სოხუმი cyxymu</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/36692324/8641368</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://cyxymu.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://cyxymu.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>gorodevpatoriya</foaf:nick>
+        <foaf:member_name>gorodevpatoriya</foaf:member_name>
+        <foaf:tagLine>Евпатория сегодня</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/125761866/71421956</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://gorodevpatoriya.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://gorodevpatoriya.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>a_chernyh</foaf:nick>
+        <foaf:member_name>Александр Черных</foaf:member_name>
+        <foaf:tagLine>Александр Черных</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/116070172/26715407</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://a-chernyh.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://a-chernyh.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>safed_farishta</foaf:nick>
+        <foaf:member_name>safed_farishta</foaf:member_name>
+        <foaf:tagLine>Шуфлядка</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/123799120/22615008</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://safed-farishta.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://safed-farishta.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>bortsowa</foaf:nick>
+        <foaf:member_name>Рентгенолог</foaf:member_name>
+        <foaf:tagLine>Поднимите мне веки, оттопырьте мне уши!</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/20183044/4617458</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://bortsowa.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://bortsowa.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>travelworld</foaf:nick>
+        <foaf:member_name>TravelWorld</foaf:member_name>
+        <foaf:tagLine>Только когда плывешь против течения, понимаешь, чего стоит свободное мнение.</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/105861684/18757031</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://travelworld.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://travelworld.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>mitya_p</foaf:nick>
+        <foaf:member_name>Agent Smith</foaf:member_name>
+        <foaf:tagLine>Просто ЖЖ</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/93089667/13054067</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://mitya-p.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://mitya-p.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>my_crimea</foaf:nick>
+        <foaf:member_name>my_crimea</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/86187928/18657846</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://my-crimea.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://my-crimea.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>macos</foaf:nick>
+        <foaf:member_name>Alexander Belenkiy</foaf:member_name>
+        <foaf:tagLine>Необычные путешествия Александра Беленького</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/126657145/12000805</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://macos.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://macos.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>irus2006</foaf:nick>
+        <foaf:member_name>irus2006</foaf:member_name>
+        <foaf:tagLine>Ибадлаев Рустем</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/84715060/15600627</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://irus2006.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://irus2006.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>svyatoslav</foaf:nick>
+        <foaf:member_name>иерей Святослав Шевченко</foaf:member_name>
+        <foaf:tagLine>Святослав Шевченко</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/123702191/21638710</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://svyatoslav.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://svyatoslav.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>_artorn_</foaf:nick>
+        <foaf:member_name>_artorn_</foaf:member_name>
+        <foaf:tagLine>И ты будешь волков на земле плодить и учить их вилять хвостом...</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/115847132/1618405</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://users.livejournal.com/-artorn-/data/foaf" />
+        <foaf:weblog rdf:resource="http://users.livejournal.com/-artorn-/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>atanoissapa</foaf:nick>
+        <foaf:member_name>atanoissapa</foaf:member_name>
+        <foaf:tagLine>Щось таке</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/115129291/9273779</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://atanoissapa.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://atanoissapa.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>silme_ea</foaf:nick>
+        <foaf:member_name>Silme Ea</foaf:member_name>
+        <foaf:tagLine>Life is a journey</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/117109295/13399958</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://silme-ea.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://silme-ea.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>dima_pashchenko</foaf:nick>
+        <foaf:member_name>dima_pashchenko</foaf:member_name>
+        <foaf:tagLine>На велосипеде по миру</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/121287611/64328672</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://dima-pashchenko.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://dima-pashchenko.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>max_brejter</foaf:nick>
+        <foaf:member_name>max_brejter</foaf:member_name>
+        <foaf:tagLine>Размышлизмы, размышляторы и другие звери</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/108955666/24578474</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://max-brejter.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://max-brejter.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>vick_bst</foaf:nick>
+        <foaf:member_name>vick_bst</foaf:member_name>
+        <foaf:tagLine>Вик</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/105696562/31911652</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://vick-bst.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://vick-bst.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>spacetvstation</foaf:nick>
+        <foaf:member_name>Malder Fox</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/119856081/45983673</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://spacetvstation.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://spacetvstation.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>free_marta</foaf:nick>
+        <foaf:member_name>Виктория Ступина</foaf:member_name>
+        <foaf:tagLine>фотоблогер из Севастополя - Виктория Ступина (Free Marta)</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/126411332/9464565</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://free-marta.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://free-marta.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>bl_olen</foaf:nick>
+        <foaf:member_name>olenuha</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/104910535/14199134</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://bl-olen.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://bl-olen.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>1way_to_english</foaf:nick>
+        <foaf:member_name>Vладiмiр</foaf:member_name>
+        <foaf:tagLine>Английского языка жемчуга - Самая суть языка</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/125397321/53463037</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://1way-to-english.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://1way-to-english.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>araviya</foaf:nick>
+        <foaf:member_name>Ленука</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/119409386/11569491</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://araviya.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://araviya.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>sicheslav_ua</foaf:nick>
+        <foaf:member_name>Січеслав</foaf:member_name>
+        <foaf:tagLine>Особиста думка</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/101304461/27766657</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://sicheslav-ua.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://sicheslav-ua.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>samovidec</foaf:nick>
+        <foaf:member_name>Ярослав Апрасюхін</foaf:member_name>
+        <foaf:tagLine>Літопис Самовидця</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/86808978/19106665</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://samovidec.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://samovidec.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>specnazspn</foaf:nick>
+        <foaf:member_name>specnazspn</foaf:member_name>
+        <foaf:tagLine>&quot;СПЕЦИАЛЬНОЕ   НАЗНАЧЕНИЕ&quot;</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/108261743/26777637</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://specnazspn.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://specnazspn.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>marv</foaf:nick>
+        <foaf:member_name>Александр Марв</foaf:member_name>
+        <foaf:tagLine>Блог мегаватника</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/124675547/29043303</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://marv.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://marv.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>nemihail</foaf:nick>
+        <foaf:member_name>nemihail</foaf:member_name>
+        <foaf:tagLine>записки неизвестного блогера неМихаила</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/126275268/38873494</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://nemihail.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://nemihail.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>abdolbysh</foaf:nick>
+        <foaf:member_name>abdolbysh</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/106933635/12861792</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://abdolbysh.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://abdolbysh.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>best_by_me</foaf:nick>
+        <foaf:member_name>best_by_me</foaf:member_name>
+        <foaf:tagLine>Судьба решает главное - встретяться ли люди, остальное зависит только от нас!</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/109325802/17308799</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://best-by-me.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://best-by-me.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>i_petri</foaf:nick>
+        <foaf:member_name>страницы странствующего</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/124902285/20663604</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://i-petri.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://i-petri.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>saklakov_andrey</foaf:nick>
+        <foaf:member_name>saklakov_andrey</foaf:member_name>
+        <foaf:tagLine>Моё осознанное путешествие.</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/124571290/73770650</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://saklakov-andrey.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://saklakov-andrey.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>moreletom</foaf:nick>
+        <foaf:member_name>moreletom</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/110370868/37153364</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://moreletom.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://moreletom.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>fromdarkside</foaf:nick>
+        <foaf:member_name>fromdarkside</foaf:member_name>
+        <foaf:tagLine>Заметки, фотографии, комментарии</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/97341758/13506153</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://fromdarkside.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://fromdarkside.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>rebrik</foaf:nick>
+        <foaf:member_name>protoierei Alexandr</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/119663918/845681</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://rebrik.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://rebrik.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>gardemirina</foaf:nick>
+        <foaf:member_name>gardemirina</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/118615097/25651435</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://gardemirina.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://gardemirina.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>tanyacher</foaf:nick>
+        <foaf:member_name>tanyacher</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/82156118/11521679</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://tanyacher.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://tanyacher.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>tarhankutt</foaf:nick>
+        <foaf:member_name>tarhankutt</foaf:member_name>
+        <foaf:tagLine>Тарханкут - жемчужина Крыма</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/101794307/28368865</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://tarhankutt.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://tarhankutt.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>respublika_news</foaf:nick>
+        <foaf:member_name>Газета &quot;Республика&quot;</foaf:member_name>
+        <foaf:tagLine>Республика</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/112307670/38518222</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://respublika-news.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://respublika-news.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>k_markarian</foaf:nick>
+        <foaf:member_name>Карен Маркарян</foaf:member_name>
+        <foaf:tagLine>Поэтический альбом. И журналистика</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/107622121/33738180</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://k-markarian.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://k-markarian.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>dpmmax</foaf:nick>
+        <foaf:member_name>dpmmax</foaf:member_name>
+        <foaf:tagLine>блог добрых психиатров</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/97514453/24691820</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://dpmmax.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://dpmmax.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>crimeaphile</foaf:nick>
+        <foaf:member_name>Андрей Илюхин</foaf:member_name>
+        <foaf:tagLine>Крымофилия</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/122798610/29212979</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://crimeaphile.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://crimeaphile.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>elektraua</foaf:nick>
+        <foaf:member_name>Олег Стельмах</foaf:member_name>
+        <foaf:tagLine>Олег Стельмах | skyandmethod.com | Аэросъёмка в Киеве и Украине</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/90913400/15809149</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://elektraua.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://elektraua.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>tatjana_a</foaf:nick>
+        <foaf:member_name>tatjana_a</foaf:member_name>
+        <foaf:tagLine>Кофейное настроение</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/126371786/39042026</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://tatjana-a.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://tatjana-a.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>maximum_sveta</foaf:nick>
+        <foaf:member_name>maximum_sveta</foaf:member_name>
+        <foaf:tagLine>Ничего не имеет значения... только люди</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/101774551/28350491</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://maximum-sveta.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://maximum-sveta.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>andrey_ka23</foaf:nick>
+        <foaf:member_name>andrey_ka23</foaf:member_name>
+        <foaf:tagLine>Единственный ЖЖ который читает на ночь Путин</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/123435685/36982692</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://andrey-ka23.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://andrey-ka23.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>moryakukrainy</foaf:nick>
+        <foaf:member_name>Моряк Украины</foaf:member_name>
+        <foaf:tagLine>&quot;Моряк Украины&quot; </foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/98477059/22082780</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://moryakukrainy.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://moryakukrainy.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>krymchanka</foaf:nick>
+        <foaf:member_name>Ялтинская севастопольчанка :)</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/119600753/56464548</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://krymchanka.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://krymchanka.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>ravreba</foaf:nick>
+        <foaf:member_name>ravreba</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/119511529/55304920</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://ravreba.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://ravreba.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>plasmastik</foaf:nick>
+        <foaf:member_name>D</foaf:member_name>
+        <foaf:tagLine>Иллюстрированный журнал об Израиле и не только</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/116403521/7080412</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://plasmastik.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://plasmastik.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>ve_selo</foaf:nick>
+        <foaf:member_name>Николай Чепурненко</foaf:member_name>
+        <foaf:tagLine>Веселые истории сельской жизни, делюсь жизненным опытом с юмором</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/118889839/51932881</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://ve-selo.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://ve-selo.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>kolodyazny</foaf:nick>
+        <foaf:member_name>Oleg Kolodyazny</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/92191237/21470145</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://kolodyazny.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://kolodyazny.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>panomagic</foaf:nick>
+        <foaf:member_name>panomagic</foaf:member_name>
+        <foaf:tagLine>3D Панотеатр (с)</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/117752051/47673745</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://panomagic.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://panomagic.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>rinadavis</foaf:nick>
+        <foaf:member_name>rinadavis           Княгиня    Рина Наумова-Дэвис</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/124885950/28006137</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://rinadavis.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://rinadavis.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>sevphotoman</foaf:nick>
+        <foaf:member_name>Севастопольские фото-рассказы</foaf:member_name>
+        <foaf:tagLine>Севастопольские фото-рассказы</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/116908477/45565441</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://sevphotoman.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://sevphotoman.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>maks_kutashev</foaf:nick>
+        <foaf:member_name>Maksim Kutashev</foaf:member_name>
+        <foaf:tagLine>Путешествия по заповедным уголкам Крыма</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/124406477/48496719</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://maks-kutashev.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://maks-kutashev.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>kirrus_owmil</foaf:nick>
+        <foaf:member_name>Кирус</foaf:member_name>
+        <foaf:tagLine>***</foaf:tagLine>
+        <foaf:image>http://l-userpic.livejournal.com/114170170/14841332</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://kirrus-owmil.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://kirrus-owmil.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
+</rdf:RDF>

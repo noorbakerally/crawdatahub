@@ -1,0 +1,249 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix fmt: <http://www.w3.org/ns/formats/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix iso: <http://purl.org/iso25964/skos-thes#> .
+@prefix luc: <http://www.ontotext.com/owlim/lucene#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rrx: <http://purl.org/r2rml-ext/> .
+@prefix schema: <http://schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vdpp: <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wv: <http://vocab.org/waiver/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+aat:300264092 a gvp:Subject , gvp:Facet , iso:ThesaurusArray , skos:Collection , skos:OrderedCollection ;
+	rdfs:label "Objects Facet"@en , "Facet Objecten"@nl , "Objekte (Facette)"@de , "faceta objetos"@es ;
+	rdfs:seeAlso <http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300264092> ;
+	dct:created "2001-07-26T22:01:13"^^xsd:dateTime ;
+	dct:modified "2001-07-26T22:01:13"^^xsd:dateTime , "2010-04-23T03:22:12"^^xsd:dateTime , "2011-01-08T01:46:52"^^xsd:dateTime , "2016-09-23T09:32:39"^^xsd:dateTime , "2002-02-27T11:42:08"^^xsd:dateTime , "2004-04-07T17:41:00"^^xsd:dateTime , "2015-07-03T17:12:32"^^xsd:dateTime , "2015-07-03T17:13:42"^^xsd:dateTime , "2010-04-23T03:23:20"^^xsd:dateTime , "2011-01-08T01:48:10"^^xsd:dateTime , "2016-09-23T09:32:58"^^xsd:dateTime ;
+	skos:changeNote aat_rev:5002049863 , aat_rev:5001094097 , aat_rev:5002383726 , aat_rev:5002937973 , aat_rev:5004234053 , aat_rev:5001491305 , aat_rev:5001502681 , aat_rev:5004029202 , aat_rev:5004029204 , aat_rev:5001491306 , aat_rev:5004029203 , aat_rev:5004029205 , aat_rev:5002383730 , aat_rev:5002937978 , aat_rev:5004234059 ;
+	gvp:parentString "Top of the AAT hierarchies" ;
+	skos:note aat_scopeNote:41797 , aat_scopeNote:69133 , aat_scopeNote:99925 , aat_rev:5002049863 , aat_rev:5001094097 , aat_rev:5002383726 , aat_rev:5002937973 , aat_rev:5004234053 , aat_rev:5001491305 , aat_rev:5001502681 , aat_rev:5004029202 , aat_rev:5004029204 , aat_rev:5001491306 , aat_rev:5004029203 , aat_rev:5004029205 , aat_rev:5002383730 , aat_rev:5002937978 , aat_rev:5004234059 ;
+	gvp:parentStringAbbrev "Top of the AAT hierarchies" ;
+	skosxl:prefLabel aat_term:1000285674-en , aat_term:1000512597-nl , aat_term:1000664265-de , aat_term:1000456636-es ;
+	skos:prefLabel "Objects Facet"@en , "Facet Objecten"@nl , "Objekte (Facette)"@de , "faceta objetos"@es ;
+	gvp:prefLabelGVP aat_term:1000285674-en ;
+	skos:inScheme <http://vocab.getty.edu/aat/> ;
+	skos:notation "V" ;
+	skos:scopeNote aat_scopeNote:41797 , aat_scopeNote:69133 , aat_scopeNote:99925 ;
+	dct:contributor aat_contrib:10000000 , aat_contrib:10000131 , aat_contrib:10000205 , aat_contrib:10000232 ;
+	dc:identifier "300264092" ;
+	skos:member aat:300264550 , aat:300241490 , aat:300264551 , aat:300185711 , aat:300241489 , aat:300264552 ;
+	skos:memberList aat:300264092-list-300264550 ;
+	void:inDataset <http://vocab.getty.edu/dataset/aat> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	prov:wasGeneratedBy aat_rev:5002049863 .
+
+aat_rev:5002049863 a prov:Activity , prov:Create ;
+	dc:type "created" ;
+	prov:startedAtTime "2001-07-26T22:01:13"^^xsd:dateTime .
+
+aat_rev:5001094097 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2001-07-26T22:01:13"^^xsd:dateTime ;
+	dc:description "Objects Facet (1000285674);" ;
+	prov:used aat:300264092 .
+
+aat_rev:5002383726 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2010-04-23T03:22:12"^^xsd:dateTime ;
+	dc:description "faceta objetos (1000456636);" ;
+	prov:used aat:300264092 .
+
+aat_rev:5002937973 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2011-01-08T01:46:52"^^xsd:dateTime ;
+	dc:description "Facet Objecten (1000512597);" ;
+	prov:used aat:300264092 .
+
+aat_rev:5004234053 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2016-09-23T09:32:39"^^xsd:dateTime ;
+	dc:description "Objekte (1000664265);" ;
+	prov:used aat:300264092 .
+
+aat_rev:5001491305 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-02-27T11:42:08"^^xsd:dateTime ;
+	prov:used aat:300264092 .
+
+aat_rev:5001502681 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-04-07T17:41:00"^^xsd:dateTime ;
+	prov:used aat:300264092 .
+
+aat_rev:5004029202 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-07-03T17:12:32"^^xsd:dateTime ;
+	prov:used aat:300264092 .
+
+aat_rev:5004029204 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-07-03T17:13:42"^^xsd:dateTime ;
+	prov:used aat:300264092 .
+
+aat_rev:5001491306 a prov:Activity , prov:Modify ;
+	dc:type "note created" ;
+	prov:startedAtTime "2002-02-27T11:42:08"^^xsd:dateTime ;
+	dc:description "Language: " ;
+	prov:used aat:300264092 .
+
+aat_rev:5004029203 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2015-07-03T17:12:32"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used aat:300264092 .
+
+aat_rev:5004029205 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2015-07-03T17:13:42"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used aat:300264092 .
+
+aat_scopeNote:41797 a gvp:ScopeNote ;
+	rdf:value "The Objects facet encompasses discrete tangible or visual things that are for the most part produced by human endeavor or otherwise fabricated or given form by human activity. Included are built works, images, written documents, and other works, having utilitarian or purely aesthetic purpose. Natural landscapes are included in this facet too."@en ;
+	dct:contributor aat_contrib:10000000 ;
+	dct:source aat_source:2000076211 ;
+	dc:identifier "41797" ;
+	dct:language aat:300388277 .
+
+aat_scopeNote:69133 a gvp:ScopeNote ;
+	rdf:value "La faceta Objetos incluye aquellos objetos visuales tangibles diferenciados de aquellos inanimados y producidos por esfuerzo humano, esto es, fabricados o que se les ha dado forma por actividad humana. Esto abarca, en forma física desde obras construidas a imágenes y documentos escritos según intención, desde lo utilitario hasta lo estético. También incluye representaciones del paisaje que proveen el contexto para la construcción de un medio ambiente. Un descriptor aparece sólo una vez en el tesauro y éste es ubicado de acuerdo a una jerarquía según el propósito original u origen o por el contexto originario de su desarrollo."@es ;
+	dct:contributor aat_contrib:10000131 ;
+	dct:source aat_source:2000051034 ;
+	dc:identifier "69133" ;
+	dct:language aat:300389311 .
+
+aat_scopeNote:99925 a gvp:ScopeNote ;
+	rdf:value "Het facet Objecten omvat die afzonderlijke tastbare of visuele zaken die levenloos zijn en die zijn vervaardigd door menselijke inspanningen, dat wil zeggen, door menselijke activiteiten geproduceerd of vormgegeven. Het betreft zaken die kunnen uiteenlopen van gebouwen tot afbeeldingen tot geschreven documenten en, wat functie betreft, van gebruiksvoorwerp tot esthetisch object. Tevens omvat dit facet landschappelijke elementen die de context voor de bebouwde omgeving bepalen. Een descriptor verschijnt slechts één keer in de thesaurus, waarbij de plaats in de hiërarchie is bepaald op basis van het oorspronkelijke doel of de primaire ontwikkelingscontext van het object."@nl ;
+	dct:contributor aat_contrib:10000205 ;
+	dct:source aat_source:2000077523 ;
+	dc:identifier "99925" ;
+	dct:language aat:300388256 .
+
+aat_term:1000285674-en a skosxl:Label ;
+	gvp:term "Objects Facet"@en ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	skosxl:literalForm "Objects Facet"@en ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000000 ;
+	dct:contributor aat_contrib:10000000 ;
+	dct:source aat_source:2000094828 ;
+	gvp:sourceNonPreferred aat_source:2000094828 ;
+	dc:identifier "1000285674" ;
+	dct:language aat:300388277 .
+
+aat_term:1000512597-nl a skosxl:Label ;
+	gvp:term "Facet Objecten"@nl ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	skosxl:literalForm "Facet Objecten"@nl ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000205 ;
+	dct:contributor aat_contrib:10000205 ;
+	gvp:sourcePreferred aat_source:2000077523 ;
+	dct:source aat_source:2000077523 ;
+	dc:identifier "1000512597" ;
+	dct:language aat:300388256 .
+
+aat_term:1000664265-de a skosxl:Label ;
+	gvp:term "Objekte"@de ;
+	gvp:qualifier "Facette"@de ;
+	gvp:displayOrder "3"^^xsd:positiveInteger ;
+	skosxl:literalForm "Objekte (Facette)"@de ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/PluralNoun> ;
+	gvp:contributorPreferred aat_contrib:10000232 ;
+	dct:contributor aat_contrib:10000232 ;
+	gvp:sourcePreferred aat_source:2000084808 ;
+	dct:source aat_source:2000084808 ;
+	dc:identifier "1000664265" ;
+	dct:language aat:300388344 .
+
+aat_term:1000456636-es a skosxl:Label ;
+	gvp:term "faceta objetos"@es ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	skosxl:literalForm "faceta objetos"@es ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000131 ;
+	dct:contributor aat_contrib:10000131 ;
+	gvp:sourcePreferred aat_source:2000051034 ;
+	dct:source aat_source:2000051034 ;
+	dc:identifier "1000456636" ;
+	dct:language aat:300389311 .
+
+aat:300264092-list-300264550 a rdf:List ;
+	rdf:rest aat:300264092-list-300241490 ;
+	rdf:first aat:300264550 .
+
+aat:300264092-list-300241490 a rdf:List ;
+	rdf:rest aat:300264092-list-300264551 ;
+	rdf:first aat:300241490 .
+
+aat:300264092-list-300264551 a rdf:List ;
+	rdf:rest aat:300264092-list-300185711 ;
+	rdf:first aat:300264551 .
+
+aat:300264092-list-300185711 a rdf:List ;
+	rdf:rest aat:300264092-list-300241489 ;
+	rdf:first aat:300185711 .
+
+aat:300264092-list-300241489 a rdf:List ;
+	rdf:rest aat:300264092-list-300264552 ;
+	rdf:first aat:300241489 .
+
+aat:300264092-list-300264552 a rdf:List ;
+	rdf:rest rdf:nil ;
+	rdf:first aat:300264552 .

@@ -1,0 +1,101 @@
+@prefix db:      <http://data.organic-edunet.eu/resource/> .
+@prefix lomvoc:  <http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#> .
+@prefix lom:     <http://ltsc.ieee.org/rdf/lomv1p0/lom#> .
+@prefix OrEd:    <http://portal.organic-edunet.eu:8080/linkeddata/resource/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix dbPed:   <http://dbpedia.org/resource#> .
+@prefix vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix d2r:     <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix map:     <file:/home/flag/D2RQ/lom.n3#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix lre:     <http://organic-edunet.eu/LOM/rdf/voc#> .
+@prefix vocab:   <http://portal.organic-edunet.eu:8080/linkeddata/vocab/resource/> .
+
+dbPed:Austria
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%23Austria%3E> .
+
+<http://data.organic-edunet.eu/data/identifier/1454>
+      foaf:primaryTopic <http://data.organic-edunet.eu/resource/identifier/1454> .
+
+<http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#LOMv1.0>
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fltsc.ieee.org%2Frdf%2Flomv1p0%2Fvocabulary%23LOMv1.0%3E> .
+
+lre:Role-validator
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23Role-validator%3E> .
+
+<http://organic-edunet.eu/LOM/rdf/voc#LOMv1.0>
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23LOMv1.0%3E> .
+
+<http://data.organic-edunet.eu/resource/identifier/1454>
+      a       OrEd:identifier ;
+      lom:annotationEntity
+              "BEGIN:VCARDFN:Christiane Wagner-AltEMAIL;TYPE=INTERNET:christiane.wagner-alt@lebensministerium.atORG:Lebensministerium (BMLFUW)N:Wagner-Alt;ChristianeVERSION:3.0END:VCARD" ;
+      lom:catalog "URI" ;
+      lom:context <http://organic-edunet.eu/LOM/rdf/voc#LOMv1.0> , <http://organic-edunet.eu/LOM/rdf/voc#LREv3.0> ;
+      lom:contributionDate
+              "2010-10-20T00:00:00.00Z" ;
+      lom:contributionEntity
+              "BEGIN:VCARDFN:Christiane Wagner-AltEMAIL;TYPE=INTERNET:christiane.wagner-alt@lebensministerium.atORG:LebensministeriumN:Wagner-Alt;ChristianeVERSION:3.0END:VCARD" ;
+      lom:contributionRole
+              lomvoc:Role-initiator ;
+      lom:copyrightandOtherRestrictions
+              "yes" ;
+      lom:cost "no" ;
+      lom:description db:1454-2498 ;
+      lom:intendedEndUserRole
+              <http://organic-edunet.eu/LOM/rdf/voc#Role-LOMv1.0> ;
+      lom:keyword db:1454-4319 ;
+      lom:location <http://www.agrarhochschule.at/cm2/index.php/14-paedagoginnen-vs-asohs-pts-bs-hak-ahs-hum-htl-bbs/seminare-2011/493-d06-humus-die-vergessene-chance-fuer-das-weltklima> ;
+      lom:metadataSchema "LOMv1.0" , "LREv3.0" ;
+      lom:metametadataContributionDate
+              "2011-02-14T09:29:16.67Z" ;
+      lom:metametadataContributionEntity
+              "BEGIN:VCARDFN:Christiane Wagner-AltEMAIL;TYPE=INTERNET:christiane.wagner-alt@lebensministerium.atORG:Lebensministerium (BMLFUW)N:Wagner-Alt;ChristianeVERSION:3.0END:VCARD" , "BEGIN:VCARDFN:Christiane Wagner-AltEMAIL;TYPE=INTERNET:christiane.wagner-alt@lebensministerium.atN:Wagner-Alt;ChristianeVERSION:3.0END:VCARD" ;
+      lom:metametadataContributionRole
+              lre:Role-enricher , lre:Role-creator , lre:Role-validator ;
+      lom:metametadataEntry
+              <http://confolio.virtuelleschule.bmukk.gv.at/scam/1/entry/1282> ;
+      lom:structure <http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#LOMv1.0> ;
+      lom:technicalSize "0" ;
+      lom:typicalAgeRange db:1454-1454 ;
+      dcterms:coverage dbPed:Austria ;
+      dcterms:format "video/mpeg" ;
+      dcterms:identifier <http://www.agrarhochschule.at/cm2/index.php/14-paedagoginnen-vs-asohs-pts-bs-hak-ahs-hum-htl-bbs/seminare-2011/493-d06-humus-die-vergessene-chance-fuer-das-weltklima> ;
+      dcterms:language "de" ;
+      dcterms:rights <http://creativecommons.org/licenses/by-nc-nd/3.0/> ;
+      dcterms:title "Carbon Credits from Sustainable Landuse Systems (CaLas) @en" , "Möglichkeiten und Grenzen der nachhaltigen Bodennutzung im CO2 Zertifikatehandel @de" ;
+      dcterms:type <http://organic-edunet.eu/LOM/rdf/voc#LearningResourceType-LREv3.0> .
+
+<http://creativecommons.org/licenses/by-nc-nd/3.0/>
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-nd%2F3.0%2F%3E> .
+
+<http://organic-edunet.eu/LOM/rdf/voc#Role-LOMv1.0>
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23Role-LOMv1.0%3E> .
+
+lomvoc:Role-initiator
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fltsc.ieee.org%2Frdf%2Flomv1p0%2Fvocabulary%23Role-initiator%3E> .
+
+lre:Role-enricher
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23Role-enricher%3E> .
+
+OrEd:identifier
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fportal.organic-edunet.eu%3A8080%2Flinkeddata%2Fresource%2Fidentifier%3E> .
+
+lre:Role-creator
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23Role-creator%3E> .
+
+<http://organic-edunet.eu/LOM/rdf/voc#LREv3.0>
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23LREv3.0%3E> .
+
+<http://confolio.virtuelleschule.bmukk.gv.at/scam/1/entry/1282>
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fconfolio.virtuelleschule.bmukk.gv.at%2Fscam%2F1%2Fentry%2F1282%3E> .
+
+<http://organic-edunet.eu/LOM/rdf/voc#LearningResourceType-LREv3.0>
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Forganic-edunet.eu%2FLOM%2Frdf%2Fvoc%23LearningResourceType-LREv3.0%3E> .
+
+<http://www.agrarhochschule.at/cm2/index.php/14-paedagoginnen-vs-asohs-pts-bs-hak-ahs-hum-htl-bbs/seminare-2011/493-d06-humus-die-vergessene-chance-fuer-das-weltklima>
+      rdfs:seeAlso <http://data.organic-edunet.eu/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.agrarhochschule.at%2Fcm2%2Findex.php%2F14-paedagoginnen-vs-asohs-pts-bs-hak-ahs-hum-htl-bbs%2Fseminare-2011%2F493-d06-humus-die-vergessene-chance-fuer-das-weltklima%3E> .

@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<rdf:RDF
+  xmlns:dc      = "http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms = "http://purl.org/dc/terms/"
+  xmlns:foaf    = "http://xmlns.com/foaf/0.1/"
+  xmlns:geo     = "http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:map     = "http://downlode.org/Code/RDF/Map/"
+  xmlns:os      = "http://downlode.org/Code/RDF/Ordnance_Survey/schema/1#"
+  xmlns:owl     = "http://www.w3.org/2002/07/owl#"
+  xmlns:rdf     = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs    = "http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:wail    = "http://www.eyrie.org/~zednenem/2002/wail/"
+  xmlns:wiki    = "http://purl.org/rss/1.0/modules/wiki/"
+  xmlns:contact = "http://www.w3.org/2000/10/swap/pim/contact#"
+>
+
+<rdf:Description rdf:about="">
+  <dc:title>Randomness Guide to London: Lush, Liverpool Street Station</dc:title>
+  <dc:date>2012-05-15T13:11:17</dc:date>
+  <dcterms:modified>2012-05-15T13:11:17</dcterms:modified>
+ 
+  <dc:contributor rdf:resource="http://london.randomness.org.uk/wiki.cgi?id=AutoKake;format=rdf#obj" /> 
+  <dc:contributor rdf:resource="http://london.randomness.org.uk/wiki.cgi?id=Ewan;format=rdf#obj" /> 
+  <dc:contributor rdf:resource="http://london.randomness.org.uk/wiki.cgi?id=lushstaff;format=rdf#obj" /> 
+  <dc:contributor rdf:resource="http://london.randomness.org.uk/wiki.cgi?id=Kake;format=rdf#obj" />
+
+  <dc:source rdf:resource="http://london.randomness.org.uk/wiki.cgi?Lush%2C_Liverpool_Street_Station" />
+  <wiki:version>7</wiki:version>
+  <foaf:topic rdf:resource="#obj" />
+
+
+</rdf:Description>
+
+<geo:SpatialThing rdf:ID="obj">
+
+  <dc:title>Lush, Liverpool Street Station</dc:title>
+  
+  <dc:description>Lovely shop in Liverpool Street Station selling bath stuff, etc.</dc:description>
+
+  <foaf:depiction rdf:resource="http://farm4.static.flickr.com/3423/3749503591_84db155dca_m.jpg" />
+
+  <!-- categories -->
+
+  <dc:subject>Lush Shops</dc:subject>
+
+  <!-- address and geospatial data -->
+
+  <wail:location>
+    <wail:Address rdf:nodeID="address">
+      <wail:streetName>Liverpool Street Station</wail:streetName>
+      <wail:postalCode>EC2M 7PY</wail:postalCode>
+      <wail:locatedIn>
+        <wail:City rdf:nodeID="city">
+          <wail:name>london</wail:name>
+            <wail:locatedIn>
+              <wail:Country rdf:nodeID="country">
+                <wail:name>uk</wail:name>
+              </wail:Country>
+            </wail:locatedIn>
+        </wail:City>
+      </wail:locatedIn>
+    </wail:Address>
+  </wail:location>
+
+  <map:shownBy>
+    <map:Map rdf:about="http://www.streetmap.co.uk/newmap.srf?x=533216&#x26;y=181760" />
+  </map:shownBy>
+
+  <foaf:based_near>
+    <wail:Neighborhood rdf:nodeID="Broadgate">
+      <wail:name>Broadgate</wail:name>
+        <wail:locatedIn rdf:nodeID="city" />
+    </wail:Neighborhood>
+  </foaf:based_near>
+  <foaf:based_near>
+    <wail:Neighborhood rdf:nodeID="City">
+      <wail:name>City</wail:name>
+        <wail:locatedIn rdf:nodeID="city" />
+    </wail:Neighborhood>
+  </foaf:based_near>
+  <foaf:based_near>
+    <wail:Neighborhood rdf:nodeID="EC2">
+      <wail:name>EC2</wail:name>
+        <wail:locatedIn rdf:nodeID="city" />
+    </wail:Neighborhood>
+  </foaf:based_near>
+  <foaf:based_near>
+    <wail:Neighborhood rdf:nodeID="Liverpool_Street">
+      <wail:name>Liverpool Street</wail:name>
+        <wail:locatedIn rdf:nodeID="city" />
+    </wail:Neighborhood>
+  </foaf:based_near>
+
+  <geo:lat>51.5190575309493</geo:lat>
+  <geo:long>-0.0813812632087805</geo:long>
+
+  <os:x>533216</os:x>
+  <os:y>181760</os:y>
+
+
+  <!-- contact information -->
+  <contact:phone>020 7247 6983</contact:phone>
+  <foaf:homepage rdf:resource="http://www.facebook.com/Lush.liverpoolst" />
+  <dc:available>8am-8pm Mon-Fri; 10am-8pm Sat-Sun</dc:available>
+
+</geo:SpatialThing>
+
+</rdf:RDF>

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://localhost:8080/resource/"
+    xmlns:opmopviajero="http://webenemasuno.linkeddata.es/ontology/OPMO/"
+    xmlns:aemetprop="http://aemet.linkeddata.es/ontology/property/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:ir="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:yago="http://localhost:8080/class/yago/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:opmo="http://openprovenance.org/model/opmo#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:mpeg7-ext="http://webenemasuno.linkeddata.es/ontology/MPEG7/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:p="http://localhost:8080/property/"
+    xmlns:j.0="http://spinrdf.org/sp#"
+    xmlns:scovo="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:mpeg7="http://metadata.net/mpeg7/mpeg7.owl#"
+    xmlns:j.1="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ssn="http://purl.oclc.org/NET/ssnx/ssn#">
+  <j.1:Graph>
+    <prv:createdBy>
+      <prv:DataCreation>
+        <prv:usedData>
+          <j.1:Graph>
+            <prv:createdBy>
+              <prvTypes:QueryExecution>
+                <prv:usedGuideline>
+                  <prv:CreationGuideline>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DEFINE sql:describe-mode "CBD" DESCRIBE &lt;http://aemet.linkeddata.es/resource/WeatherStation/id08001&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://spinrdf.org/sp#Describe"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+                  </prv:CreationGuideline>
+                </prv:usedGuideline>
+                <prv:usedData rdf:resource="http://aemet.linkeddata.es/sparql"/>
+                <prv:performedBy>
+                  <prvTypes:DataCreatingService rdf:nodeID="A0">
+                    <rdfs:seeAlso rdf:resource="http://aemet.linkeddata.es/sparql"/>
+                  </prvTypes:DataCreatingService>
+                </prv:performedBy>
+              </prvTypes:QueryExecution>
+            </prv:createdBy>
+            <prv:retrievedBy>
+              <prv:DataAccess>
+                <prv:accessedService rdf:nodeID="A0"/>
+                <prv:performedBy>
+                  <prv:DataProvidingService rdf:nodeID="A1">
+                    <rdfs:seeAlso rdf:resource="http://aemet.linkeddata.es/"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#DataCreatingService"/>
+                  </prv:DataProvidingService>
+                </prv:performedBy>
+                <prv:completedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2017-04-01T22:58:25.783Z</prv:completedAt>
+              </prv:DataAccess>
+            </prv:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+          </j.1:Graph>
+        </prv:usedData>
+        <prv:performedBy rdf:nodeID="A1"/>
+        <prv:completedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-04-01T22:58:25.783Z</prv:completedAt>
+      </prv:DataCreation>
+    </prv:createdBy>
+    <void:subset>
+      <void:Dataset>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2011-06-21T16:36:46.589Z</dcterms:issued>
+        <dcterms:spatial rdf:resource="http://geo.linkeddata.es/resource/Pa%C3%ADs/Espa%C3%B1a"/>
+        <dc:rights xml:lang="es">La obtención, elaboración y medios de presentación de la información meteorológica, consecuencia de la actividad científica y técnica desarrollada por la Agencia Estatal de Meteorología (AEMET), acorde con el progreso científico y tecnológico, constituyen una modalidad de la propiedad intelectual regulada en su artículo 10 del Real Decreto Legislativo 1/1.996 de 12 de abril (Ley de Propiedad Intelectual). Corresponde a AEMET la titularidad y el ejercicio de todos los derechos tanto morales como económicos, que configuran el derecho exclusivo de la explotación y divulgación de dicha información.</dc:rights>
+        <dcterms:publisher rdf:resource="http://aemet.linkeddata.es/resource/Organizaci%C3%B3n/UPM"/>
+        <dcterms:creator rdf:resource="http://aemet.linkeddata.es/resource/Organizaci%C3%B3n/AEMET"/>
+      </void:Dataset>
+    </void:subset>
+    <foaf:primaryTopic>
+      <aemetonto:WeatherStation rdf:about="http://aemet.linkeddata.es/resource/WeatherStation/id08001">
+        <aemetonto:indclim>1387</aemetonto:indclim>
+        <aemetonto:locatedIn rdf:resource="http://dbpedia.org/resource/A_Coru%C3%B1a"/>
+        <geo:location rdf:resource="http://aemet.linkeddata.es/resource/Point/id08001"/>
+        <aemetonto:stationName>A CORUÑA</aemetonto:stationName>
+        <aemetonto:indsinop>08001</aemetonto:indsinop>
+        <rdfs:label xml:lang="en">Station 08001</rdfs:label>
+        <aemetonto:locatedIn rdf:resource="http://geo.linkeddata.es/resource/Provincia/A%20Coru%C3%B1a"/>
+        <rdfs:label xml:lang="es">Estación 08001</rdfs:label>
+        <owl:sameAs rdf:resource="http://aemet.linkeddata.es/resource/WeatherStation/id08001"/>
+      </aemetonto:WeatherStation>
+    </foaf:primaryTopic>
+  </j.1:Graph>
+  <rdf:Description rdf:about="http://aemet.linkeddata.es/data/resource/WeatherStation/id08001">
+    <rdfs:label>RDF description of Estación 08001</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://aemet.linkeddata.es/resource/WeatherStation/id08001"/>
+  </rdf:Description>
+</rdf:RDF>

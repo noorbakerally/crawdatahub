@@ -1,0 +1,2326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:omn-owl="http://www.openmobilenetwork.org/ontology/"
+	xmlns:ogc="http://www.opengis.net/ont/geosparql#"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:void="http://rdfs.org/ns/void#" >
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2105447019">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap45909161">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap224544272">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1831473597">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-287591162">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-233485921">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2049601515">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap292911292">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1487987219">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1000026055">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap3465750">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1884149235">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-660762628">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap822001909">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-612097089">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-794934658">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1423228266">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1658513122">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-30421816">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1411131494">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap675579245">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap266425637">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-751588730">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2130845858">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-855539235">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1211559118">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1436097064">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1839901729">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2024640171">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2103049158">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1999771438">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-821504545">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1664406522">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-428454392">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2032323867">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1934849486">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2020778343">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1382660135">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1881357099">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1830782125">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap982253370">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1599739175">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap301336109">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-159281922">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap462989296">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1973346330">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1630128403">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-363243299">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap418455571">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2005067143">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-223998811">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1288861486">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1447636938">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-450924515">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap734005021">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-959181958">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1082206386">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap17886550">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap348475697">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-957307070">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-850519904">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap147583918">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-869096539">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1916546535">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2020960569">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap47630216">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap968499740">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1648117077">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap257838851">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/mnc262_1">
+    <omn-owl:operatesCell rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1736851456">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2096921200">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-946289052">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-646219018">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1039250662">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-260786207">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1735947419">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1639614456">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-291567034">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2010416552">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1692962763">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1486141799">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap782876486">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-481740325">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap214400061">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1558927833">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1211068990">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1055684659">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap552337204">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1686497350">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap780387111">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap76355626">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-818971591">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-256075070">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-680044851">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1556116954">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-324115361">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1524152915">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1811662821">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap36054409">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1930079915">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1454706589">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1366386559">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1197625805">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-612892188">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap72382320">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1552623099">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1086766053">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1091891536">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap473726030">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1337629495">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap20035556">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1729622594">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2000216908">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1903668017">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1662850346">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1809212653">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1382994272">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap256324275">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap103531121">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1323432746">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1205315321">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1070079527">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1038904773">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1978690180">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-773221865">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-580675413">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2137787456">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1680510575">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1800786372">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2118342990">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1158558148">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1999711887">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1070344858">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1598561168">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap345012366">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1980196018">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1297721890">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap507760549">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap330269569">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap224394246">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-535177449">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap137558678">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1475476896">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1656549880">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap631171585">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-331613036">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1276771337">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap121182299">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap661022040">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1391637421">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1831642716">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1952001977">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1568793542">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap391682930">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap289910760">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-256429481">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-878156114">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-629301163">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1935537835">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-249264823">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1927143967">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2023096741">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1764648583">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1069123473">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1416010986">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-29618824">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-577259930">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-614913977">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1629646498">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2071020257">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2131679850">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1686553500">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-259391965">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1989544972">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1874025361">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1999771439">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap824186860">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-354817865">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap652580236">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1777005981">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1812245390">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1957729231">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap258410013">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap300547888">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap952038199">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-253320317">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-575699120">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-902950198">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-722641991">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-863249947">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1902607371">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-769700188">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap956589671">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2038179247">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1978349636">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1337566439">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-161280252">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-332769069">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1855186906">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1969492855">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1461653596">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1648974629">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1293184567">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1510048816">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1326481491">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1350066456">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2131679851">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-918699241">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1039194615">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1992021823">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap393108156">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-18836160">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1538045167">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-334787536">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1250434259">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap625957388">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap522654108">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap987627720">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1595999195">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1568303872">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1102931452">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1125838561">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1220792195">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1257812376">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-816900952">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap760646069">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-749262553">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap695777220">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap866181125">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-314454893">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-5885614">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1907230610">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2020993073">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1938878376">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-357090345">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual" />
+    <rdf:type rdf:resource="http://www.openmobilenetwork.org/ontology/Cell" />
+    <omn-owl:cellRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">983</omn-owl:cellRange>
+    <omn-owl:hasMeasuresWithNeighbors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</omn-owl:hasMeasuresWithNeighbors>
+    <omn-owl:hasMeasuresWithNoValidNeighbors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</omn-owl:hasMeasuresWithNoValidNeighbors>
+    <omn-owl:hasMeasuresWithNoValidNeighbors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</omn-owl:hasMeasuresWithNoValidNeighbors>
+    <omn-owl:hasMeasuresWithNoValidNeighbors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</omn-owl:hasMeasuresWithNoValidNeighbors>
+    <omn-owl:hasMeasuresWithServices rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</omn-owl:hasMeasuresWithServices>
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_htc_sense_hsp" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_googlequicksearchbox" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_whatsapp" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_android_process_media" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_metago_astro" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_sec_spp_push" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_partnersetup" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_de_amazon_mShop_android" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_yahoo_mobile_client_android_weather-com_yahoo_mobile_client_android_weather_service_WeatherServiceWatchdog" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_gms" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_skype_raider" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_browser" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_apps_maps-FriendService" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_apps_maps-GoogleLocationService" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_music-main" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_calendar" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_apps_maps-LocationFriendService" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_org_openmobilenetwork_app" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_process_gapps" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_de_tubut_iospcampusmap" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_yahoo_mobile_client_android_weather" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_netbiscuits_bild_android" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_org_contextdatacloud_app" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_xing_android" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_zoodles_kidmode" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_youtube" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_sec_android_widgetapp_ap_hero_accuweather" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_facebook_katana-providers" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_process_location" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_system" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_gallery3d" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_gsf_login" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_de_tub_semanticevent" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_apps_maps" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_gm" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_android_vending" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_videos" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_facebook_orca" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_apps_plus" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_rhmsoft_fm" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_ears" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_facebook_katana" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_googlequicksearchbox-search" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_de_tub_childtracking" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_simsekburak_android_namazvakitleri" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_joelapenna_foursquared" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_yahoo_mobile_client_android_weather-com_yahoo_snp_service" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_android_chrome" />
+    <omn-owl:hasServiceEvent rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_com_google_android_email" />
+    <ogc:asWKT rdf:datatype="http://www.openlinksw.com/schemas/virtrdf#Geometry">LINESTRING(13.313887 52.515167,13.315923 52.515247,13.320050 52.514496,13.321672 52.513329,13.320737 52.512859,13.319581 52.512371,13.319314 52.512344,13.315082 52.511982,13.303248 52.511600)</ogc:asWKT>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52.513542</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.317384</geo:long>
+    <omn-owl:hasCellID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2159549</omn-owl:hasCellID>
+    <omn-owl:hasLAC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5275</omn-owl:hasLAC>
+    <omn-owl:operatedBy rdf:resource="http://www.openmobilenetwork.org/resource/mnc262_1" />
+    <omn-owl:cellType rdf:resource="http://www.openmobilenetwork.org/resource/HSPAP" />
+    <omn-owl:hasMeasures rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244</omn-owl:hasMeasures>
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node312618622" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1620832117" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1599739175" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node306648908" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364736398" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1317365163" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364792198" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1317437029" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-303900708" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node349301675" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node361013967" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364797094" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364805211" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364792201" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364796260" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node349297205" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1315107980" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1315120141" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node349298170" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node349298172" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1315125153" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node349297207" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1315120104" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap933696093" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node349297584" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1315120110" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-2091555351" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap539615771" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1372018509" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap258410013" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1369532576" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1244070483" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1197625805" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap300547888" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap271573436" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2245253678" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1339007395" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1363110469" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1692962763" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-231123435" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-794934658" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1282080438" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-2118342990" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1158558148" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1282080437" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1282908032" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1272542309" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1279265631" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1282080431" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1272542311" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-935234325" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1246402211" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap734005021" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap661022040" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1272542306" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1070079527" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1454706589" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1311121748" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1748348869" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1305230435" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1305230458" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap631171585" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1563748303" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1305230445" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1305230452" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1311122025" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1311121926" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node71470900" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1311121798" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1311121841" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-159281922" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node936638690" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node936638697" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node932342561" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node936638671" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node937209089" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node936638701" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node936638712" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node901150027" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node847533090" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node847533153" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node932342548" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node932342550" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node932342540" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node297473691" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1556590596" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1436097064" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node459642485" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-260786207" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node493672506" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1194597912" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660140" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660142" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660137" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660138" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node444000789" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416661496" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1194597962" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1680510575" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1194597953" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node984208507" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node559443822" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-612097089" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node520518107" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node991056257" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node991057618" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-2094341287" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1962552237" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1194597915" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1194597922" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node946239615" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node951715914" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1194597952" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node940662428" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1194597936" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370455026" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1228195011" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1228200532" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node951715921" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1227884371" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node951715922" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1227904230" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370455027" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1228309754" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1228312054" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1228228396" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1228263560" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1227218241" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1227880298" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1227225279" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1297721890" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1227433150" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660134" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660136" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660119" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660120" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node340129941" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node401552930" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-498583524" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1229399255" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1229446777" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1228317932" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node340126128" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1099113058" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1214909285" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap860764025" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1224648496" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1216652551" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1970376917" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1969563837" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981254401" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981254406" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1978290051" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1968880341" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1978290052" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1960011363" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1960016516" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-677461460" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1966636540" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1966769124" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-900942803" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1960042296" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1038904773" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1960565922" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node330968875" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1983285324" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1987638672" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1983285322" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1978690180" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1983285323" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911681" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1992815751" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-773221865" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-580675413" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1992826632" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981254451" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981465033" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981254412" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap345012366" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-2137787456" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981254445" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981672977" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981672971" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1812245390" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1981672975" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661126972" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1825677002" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1925004644" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1868939229" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1825676974" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1908688883" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1118848377" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node619002115" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661126955" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1880737966" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1778329428" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661126966" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661126967" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1778329426" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap121182299" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1778329427" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1797325677" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1809995809" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1932625177" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1932523049" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1953053997" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1953021651" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1915397137" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1915416659" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-620082924" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1910194500" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1934849486" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1915389761" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1929575302" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node616300426" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1915428400" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node616297349" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1923980499" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node486093263" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node254307046" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node254307048" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node244118581" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node254307042" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1122522908" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node26735764" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node618283624" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1122522909" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node26736359" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1170145498" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node26735763" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2281112706" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2255358413" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node570028384" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661092192" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2283100639" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661092194" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661092190" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661092191" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661126952" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661126954" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-407723408" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node500192188" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661092195" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661092198" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268915402" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268915420" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1175886763" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1175886787" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1175886689" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node628068896" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1175886700" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268566426" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node638356055" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node267619266" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268915231" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268566436" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268854481" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2029768594" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2029768630" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2029768582" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2029768586" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2091870377" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2098311147" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2029768650" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2082435541" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1992826637" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1994575241" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1992826633" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1992826635" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2012411794" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2029076469" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1994575242" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1933330200" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1994575243" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1156532513" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2206758194" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2212313888" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2212311139" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2154992197" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2171343152" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap348475697" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2117724671" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2187185220" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2187554368" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap17886550" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2171343186" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2171343201" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911612" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node293632127" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-324115361" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-680044851" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1556116954" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap266425637" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1009320257" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-256075070" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1792687334" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1914588377" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-646219018" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1651445486" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1655852161" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap419128349" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1651445484" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1665206599" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1825914413" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1655852163" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1665206572" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1714527082" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1597763179" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1562485613" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1607538661" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1629646498" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1626867253" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1608247003" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1608389860" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1773502043" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1757437096" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1778329425" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1777651455" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1714451247" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1709963227" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1744051719" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1753810056" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1724407583" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1737383724" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1570571913" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1570571916" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1453630773" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1453884517" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1470030330" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1481377095" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1453884519" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1453885018" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1630128403" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1848199945" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-307957955" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-2056883406" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-439125765" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-582214391" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1556115395" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap369595637" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node993764817" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1952001977" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-354817865" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1709727762" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/way40452037" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node931752744" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node929285576" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1125838561" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node948033385" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node993764754" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1453702357" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node976111778" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node937559778" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node932295120" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node933125049" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap308545381" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1000372973" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1238892772" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap837332323" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap888688717" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap256324275" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node26735750" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node26735753" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node26735749" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738420143" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738420145" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node737368586" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node254307047" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738420142" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738500441" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738500442" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738437544" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738447127" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node737368434" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078633" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap776429910" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap546210660" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node737368561" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node737368581" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap366253349" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node737368551" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node737368559" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-153135987" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node776125571" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node809651528" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node740054655" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738500443" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node738806384" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node752809716" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node768569343" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2082268397" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node752809709" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node752809712" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-615863317" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node724056803" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2082343416" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598147" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598152" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node728168556" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2082343415" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078345" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node728168468" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598123" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598127" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node2171343155" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719596422" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598119" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598138" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap586201807" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598143" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598130" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719598134" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078599" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078602" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078592" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078597" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078622" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078631" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078613" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078615" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078558" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078561" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078549" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078557" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078578" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078579" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078567" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-249264823" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node731078572" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node889001006" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1069624119" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268916033" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node914409284" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1598561168" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node913408043" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node851147440" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node851147450" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap552337204" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862030906" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862030918" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862030832" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862030870" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268917651" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node833391312" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node851142242" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node851142392" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node846344153" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node847531243" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862031093" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1260198467" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268917065" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-137536799" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1890543071" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862031018" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862031023" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862030963" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862031011" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap147583918" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862031069" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-869096539" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862031076" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-2096181076" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862031027" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node862031053" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap47630216" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node489476145" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap968499740" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node489927889" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1916546535" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap2020960569" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1890543067" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node486092002" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node497131050" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node489940956" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node495542662" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node447436659" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node349301668" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node469876949" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap61122455" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node482470834" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-811925274" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node473107176" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node480000696" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node520518110" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1648117077" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node529672837" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node529816454" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node516359399" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node516359964" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node520518100" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node367054547" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node520518104" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node349301669" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node520518086" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1648974629" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1293184567" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node520518096" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node433914815" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node374420700" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node433914818" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1461653596" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1903668017" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1510048816" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap594778525" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node433914847" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-535926490" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node438156127" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node428794119" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1831642716" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node432836034" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-911192884" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node444000787" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node444994924" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node444000784" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1051359973" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1957502587" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node667124773" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node667880872" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node666155800" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node667123706" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node692167787" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node693892107" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node691273761" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node651452392" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node648231118" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node649140072" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661126965" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node661126971" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node656588658" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911668" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911682" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911645" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911659" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719596412" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719596416" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911684" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node719596408" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node695422806" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node697977970" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911583" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911619" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node715911573" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1388195298" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node611624094" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node613536371" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1737444012" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node617257328" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1389442494" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1385782403" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node553138983" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1385782504" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1957502580" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node552436232" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1957502583" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node552436233" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node604348389" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node604348390" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node628068901" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node628068912" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node647943536" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node628068906" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node628068909" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node617262898" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node619119805" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node618993715" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1912280141" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268917814" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1710339632" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1674551241" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node291535997" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node292319318" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node290440104" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node293635560" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node293111165" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node293128565" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node277529023" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node285898060" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node289404068" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node285898054" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node285898055" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap864118863" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268915542" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268915840" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap2000216908" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268915921" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268915934" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-2131679851" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap507760549" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268915502" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268917209" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268917077" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268917599" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node268916902" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370449041" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370449045" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370440115" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370454247" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370454248" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370449047" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node370450316" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364810947" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node365146088" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364809012" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node364809015" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node368007978" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1317772605" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1317772489" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node416660118" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap1811359210" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node401852740" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node411091942" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node427108452" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap574193419" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node427932030" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node425089052" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node1333810531" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node375800452" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node375802179" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node371781723" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-751588730" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node375759137" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node401852738" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node382547346" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node330966856" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node343566708" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node343566714" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node331707100" />
+    <omn-owl:covers rdf:resource="http://linkedgeodata.org/triplify/node343564757" />
+    <omn-owl:covers rdf:resource="http://www.openmobilenetwork.org/resource/wifiap-1276771337" />
+    <omn-owl:hasUserHistory rdf:resource="http://www.openmobilenetwork.org/resource/users2159549_5275_262_1" />
+    <omn-owl:hasTraffic rdf:resource="http://www.openmobilenetwork.org/resource/traffic2159549_5275_262_1" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc19" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc14" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc399" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc428" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc27" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc348" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc350" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc359" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc183" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc2" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc1319" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc1412" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc156" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc8" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc10" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc5161" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc10196" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc50" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc5163" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc6955" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc7073" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc7199" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc3447" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc3733" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc3751" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc1934" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc2179" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc2180" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc2221" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc11" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc166" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc174" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc2161" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc13592" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc9" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc1409" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc41" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc11338" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc357" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc40" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc252" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc3723" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc5752" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc54" />
+    <omn-owl:coversLocationEntity rdf:resource="http://www.contextdatacloud.org/resource/loc5736" />
+    <omn-owl:hasConnectedDevice rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_Milestone" />
+    <omn-owl:hasConnectedDevice rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_GalaxyNexus" />
+    <omn-owl:hasConnectedDevice rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_Nexus5" />
+    <omn-owl:hasConnectedDevice rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_HTCOne" />
+    <omn-owl:hasConnectedDevice rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1_GT-I9300" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2102369284">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap271573436">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1260198467">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1403199222">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2016924856">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-303900708">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-176243195">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1538896300">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap36766893">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1737444012">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1674551241">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-33718344">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1726375932">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-781728489">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-983127957">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap224758286">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1717930555">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1175309014">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2056883406">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1440153340">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1212651298">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2085241123">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap77507307">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1120030942">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-245729306">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1202730827">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1119356316">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2040606686">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap503030701">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2087284349">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap408461852">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1231885387">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1670857157">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap933696093">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-270355804">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1800306140">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1000047272">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1606663153">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap738671026">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-438696382">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1855195597">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2028670277">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-357090343">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2075247933">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1900339792">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-416872309">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap529721036">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1911530759">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap776429910">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1914588377">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1563748303">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1598403218">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap451456046">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1885444946">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-811925274">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-918847299">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap962188732">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-680418054">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1788354031">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2123820187">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1340589735">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1962552237">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1552324096">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1190464116">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1990819884">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1009320257">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-808437423">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1387926381">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1707030720">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1244070483">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-307957955">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1358277099">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1067069390">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2111379302">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap444367097">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap299643515">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1328749254">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1811359210">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap864118863">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap69085990">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1536853527">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap153438225">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap947836503">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap944350597">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-352657606">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-245678402">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1756744610">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2032123200">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap853093194">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1238892772">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-4293406">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap888688717">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap366253349">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap409925111">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2013929979">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1957848539">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap661934837">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1321435916">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-823529181">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-70165220">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap647766649">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap994654162">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1710339632">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap419128349">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1714527082">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1562485613">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1825914413">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1010731095">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap574193419">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-911192884">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap715257047">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1044831605">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1099113058">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap882541795">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1254068266">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1033500031">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-367875848">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-163214274">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1233161654">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1228106194">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap860764025">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1111004808">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap876546663">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-536020167">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1606683626">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap538188264">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap969376797">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap278320993">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1866026761">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1353012590">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-711180667">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap637218914">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1064097567">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-661504100">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1346887443">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap587732645">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-582214391">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap73458920">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1666560012">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap308545381">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1609493977">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-620082924">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1039469633">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap197517330">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1905695665">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-638862264">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1933330200">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-208851690">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-935234325">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2095028940">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap895401544">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1620832117">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1912280141">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1001116544">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1925004644">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1748348869">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1970600898">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap659192560">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-994119215">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1993678050">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap347224431">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1704258788">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1338791441">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-231123435">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-609455641">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-535926490">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1105552812">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap795170776">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1709727762">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-900942803">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap970656425">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-615863317">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1760848919">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap633247000">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1240466328">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1194389480">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap594778525">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-137536799">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1244893211">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-439125765">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-407723408">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1742586509">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap15757343">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-560782250">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1848199945">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-110061301">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1695534803">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1450520500">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1461653552">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1015576504">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1361438992">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap928748253">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1153583330">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap245017476">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap837332323">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-572155487">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1686075003">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-677461460">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1865148129">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap884871117">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap235199939">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1792687334">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1866026760">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1866026759">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap493269057">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap709720867">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1051359973">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1372884452">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2094341287">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1968880341">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-572306147">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-153135987">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2096181076">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-469048110">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap518280247">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap969285946">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-125219890">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2078024142">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1586945852">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1723601840">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1894849142">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-306166821">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2091555351">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1999711940">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap586201807">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap471149821">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1749681362">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1955192543">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/OpenMobileNetwork">
+    <void:exampleResource rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-583680169">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1722032001">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1002677516">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1008002419">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1552181449">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-498583524">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1451885530">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-901581939">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1556590596">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1692349283">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-610419557">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1556115395">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap865520825">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1189996780">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1338553837">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-835180958">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1948967456">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap285534892">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1832843749">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap569734100">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-147171610">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1419046274">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1557062710">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1830896337">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1413356237">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1949147271">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap227873970">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap341642321">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap546210660">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1999711888">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-196432012">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1002781236">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-55499443">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1000372973">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1510828817">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-315576851">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-186494132">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-274769929">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap539615771">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-315423786">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1349915112">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap304273185">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-689094585">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-268756789">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-1002462088">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-948838545">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2103840616">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap291943701">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap369595637">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-753487995">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap61122455">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-752861976">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-84609735">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-121323672">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap2019829268">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-522295774">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap1044382365">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openmobilenetwork.org/resource/wifiap-2038557489">
+    <omn-owl:isCoveredBy rdf:resource="http://www.openmobilenetwork.org/resource/cell2159549_5275_262_1" />
+  </rdf:Description>
+</rdf:RDF>

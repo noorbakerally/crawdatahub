@@ -1,0 +1,15 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.allie.dbcls.jp/DAV/VAD/fct/rdfdesc/description.vsp>
+  a dcterms:PhysicalResource, <http://www.w3.org/2000/01/rdf-schema#Resource> ;
+dcterms:title "description.vsp";
+dcterms:creator "dav";
+dcterms:created "2014-06-05 10:15:30";
+dcterms:modified "2014-06-05 10:15:30";
+  <http://www.w3.org/ns/posix/stat#mtime> 1401963330 ;
+  <http://www.w3.org/ns/posix/stat#size> 25851 ;
+rdfs:label "description.vsp".

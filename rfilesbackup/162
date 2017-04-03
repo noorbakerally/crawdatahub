@@ -1,0 +1,20 @@
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix naptan: <http://transport.data.gov.uk/def/naptan/> .
+@prefix spatialrelations: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://transport.data.gov.uk/id/station/VIC>
+        spatialrelations:easting   528901 , 528900 ;
+        spatialrelations:northing  179000 ;
+        naptan:crsRef              "VIC"^^naptan:CrsCode ;
+        naptan:tiplocRef           "VICTRIE"^^naptan:TiplocCode , "VICTRIC"^^naptan:TiplocCode ;
+        skos:prefLabel             "London Victoria Rail Station"@en .
+
+<http://transport.data.gov.uk/doc/station/VIC.ttl>
+        a                            api:ItemEndpoint , api:Page ;
+        api:definition               <http://transport.data.gov.uk/meta/doc/station/_code.ttl> ;
+        api:extendedMetadataVersion  <http://transport.data.gov.uk/doc/station/VIC.ttl?_metadata=all> ;
+        foaf:primaryTopic            <http://transport.data.gov.uk/id/station/VIC> .

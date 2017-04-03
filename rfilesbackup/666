@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://portalartroscopia.com/sites/all/themes/custom/portalartros/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Portal artroscopia.com tiene más de 2000 vídeos categorizados en la subespecialidad de artroscopia. Hombro, Rodilla, Cadera, Pie/tobillo y Mano/Muñeca, son facetas que te ayudarán a filtrar los videos. Cuando escoges una de las articulaciones aparece una nueva faceta que es la taxonomía de los procedimientos de esa articulación." />
+<link rel="canonical" href="http://portalartroscopia.com/en" />
+<link rel="shortlink" href="http://portalartroscopia.com/en" />
+  <title>portal de artroscopia |</title>
+  <link type="text/css" rel="stylesheet" href="http://portalartroscopia.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://portalartroscopia.com/sites/default/files/css/css_NO4FoVQNmMhNJBy2vIgZVS939f8AFdAvZxz7GS2p0A0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://portalartroscopia.com/sites/default/files/css/css_CKLXPCHY3CKu28fTEQbfbSXYX_dm76dYr96Rjup6pVg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://portalartroscopia.com/sites/default/files/css/css_UF7KkEK9viQgjMIOcppPkEl8L1rqQCQc8Tx3dbfOPdc.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="http://portalartroscopia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script src="http://portalartroscopia.com/misc/jquery.once.js?v=1.2"></script>
+<script src="http://portalartroscopia.com/misc/drupal.js?oevmrp"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.js"></script>
+<script src="http://portalartroscopia.com/sites/all/libraries/colorbox/jquery.colorbox-min.js?oevmrp"></script>
+<script src="http://portalartroscopia.com/sites/all/modules/contrib/colorbox/js/colorbox.js?oevmrp"></script>
+<script src="http://portalartroscopia.com/sites/all/modules/contrib/colorbox/styles/default/colorbox_style.js?oevmrp"></script>
+<script src="http://portalartroscopia.com/misc/autocomplete.js?v=7.51"></script>
+<script src="http://portalartroscopia.com/sites/all/modules/contrib/search_api_autocomplete/search_api_autocomplete.js?oevmrp"></script>
+<script src="http://portalartroscopia.com/sites/all/modules/contrib/google_analytics/googleanalytics.js?oevmrp"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-78967275-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="http://portalartroscopia.com/sites/all/themes/contrib/bootstrap/js/misc/autocomplete.js?oevmrp"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"portalartros","theme_token":"hxjYCiwWpCeJHS3EqS0bcCjCLx6NROnwV7h4bwLGVok","js":{"sites\/all\/themes\/contrib\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.5\/js\/bootstrap.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/contrib\/search_api_autocomplete\/search_api_autocomplete.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/misc\/autocomplete.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/simplenews\/simplenews.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"modules\/locale\/locale.css":1,"sites\/all\/modules\/contrib\/search_api_autocomplete\/search_api_autocomplete.css":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.5\/css\/bootstrap.min.css":1,"sites\/all\/themes\/contrib\/bootstrap\/css\/3.3.5\/overrides.min.css":1,"sites\/all\/themes\/custom\/portalartros\/css\/style.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"urlIsAjaxTrusted":{"\/en\/home":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body role="document" class="html front not-logged-in one-sidebar sidebar-second page-home i18n-en navbar-is-fixed-top">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <nav id="navbar" class="navbar navbar-fixed-top primera-cabecera">
+  <div class="container">
+            <div class="region region-first-header">
+    <section id="block-artroscopia-blocks-miembro" class="block block-artroscopia-blocks clearfix">
+
+      
+  <div class="bloque-miembro">
+  <a href="/en/user/register" class="btn">Sign up</a></div>
+
+</section>
+<section id="block-system-user-menu" class="block block-system block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/en/user/login" title="">Log in</a></li>
+</ul>
+</section>
+<section id="block-locale-language" class="block block-locale clearfix">
+
+      
+  <ul class="language-switcher-locale-url"><li class="es first"><a href="/es" class="language-link" xml:lang="es"><span>Español</span></a></li>
+<li class="en last active"><a href="/en" class="language-link active" xml:lang="en"><span>English</span></a></li>
+</ul>
+</section>
+  </div>
+      </div>
+</nav>
+<header id="navbar" role="banner" class="navbar navbar-fixed-top navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+              <a class="logo navbar-btn pull-left" href="/en" title="Home">
+          <img src="http://portalartroscopia.com/sites/all/themes/custom/portalartros/img/logo.png" alt="Home" />
+        </a>
+      
+              <h1><a class="name navbar-brand" href="/en" title="Home">portal de artroscopia</a></h1>
+      
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          </div>
+
+          <div class="navbar-collapse collapse">
+        <nav role="navigation">
+                      <ul class="menu nav navbar-nav"><li class="first leaf"><a href="/en" title="" class="active">Home</a></li>
+<li class="leaf"><a href="/en/videos" title="">Videos</a></li>
+<li class="leaf"><a href="/en/eventos" title="">Events</a></li>
+<li class="leaf"><a href="/en/personas" title="">People</a></li>
+<li class="last leaf"><a href="/en/blog" title="">Blog</a></li>
+</ul>                                      </nav>
+      </div>
+      </div>
+</header>
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+    
+      <div class="region region-header">
+    <section id="block-views-exp-home-page" class="block block-views clearfix">
+
+      
+  <form action="/en/home" method="get" id="views-exposed-form-home-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-fulltext-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-item-search-api-views-fulltext form-type-textfield form-autocomplete form-group"><div class="input-group"><input class="auto_submit form-control form-text" data-search-api-autocomplete-search="search_api_views_home" data-min-autocomplete-length="3" type="text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="" size="30" maxlength="128" /><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh" aria-hidden="true"></span></span></div><input type="hidden" id="edit-search-api-views-fulltext-autocomplete" value="http://portalartroscopia.com/index.php?q=en/search_api_autocomplete/search_api_views_home/-" disabled="disabled" class="autocomplete" /></div>        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <button type="submit" id="edit-submit-home" name="" value="Buscar" class="btn btn-default form-submit">Buscar</button>
+    </div>
+      </div>
+</div>
+</div></form>
+</section>
+  </div>
+  </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    
+    <section class="col-sm-10">
+                  <a id="main-content"></a>
+                                              <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="view view-home view-id-home view-display-id-page view-dom-id-8f1391d65e849c85a44fe72b86d75b69">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10700">Spine Lecture: Infection of the Spine including TB tuberculosis </a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content">Spiro Antoniades, M.D</span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10700"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/PKJXeb8EK04.jpg" alt="Spine Lecture: Infection of the Spine including TB tuberculosis " /></a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10701">Complex Cervical Conditions Part 1 </a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content">Jens R. Chapman , M.D.</span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10701"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/8y_rdHbJDZs.jpg" alt="Complex Cervical Conditions Part 1 " /></a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10702">Complex Cervical Conditions Part 2 </a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content">Dr. Chris Shaffrey</span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10702"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/guokTX1uyGM.jpg" alt="Complex Cervical Conditions Part 2 " /></a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10703">Dr. Ali Bydon Removes An Intramedullary Spinal Cord Tumor </a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content">Dr. Ali Bydon, M.D</span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10703"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/HoWWRQfWYTo.jpg" alt="Dr. Ali Bydon Removes An Intramedullary Spinal Cord Tumor " /></a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10704">Biopsia vertebral</a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10704"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/DY4_-awjKms.jpg" alt="Biopsia vertebral" /></a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10705">En Bloc Resection of Tumors of the Spine </a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10705"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/-K638cH9RkQ.jpg" alt="En Bloc Resection of Tumors of the Spine " /></a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10706">Lumbar Intradural Tumor</a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content">Dr. Pakzaban</span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10706"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/qopE8zaIw44.jpg" alt="Lumbar Intradural Tumor" /></a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10707">Spinal Cord Tumor Resection </a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10707"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/R4BuVm6KSNU.jpg" alt="Spinal Cord Tumor Resection " /></a></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/node/10708">Localization of Spinal Masses - Introduction </a></span>  </div>  
+  <div class="views-field views-field-field-autor-del-video">        <span class="field-content">James Smirniotopoulos</span>  </div>  
+  <div class="views-field views-field-field-video-thumbnail-path">        <span class="field-content"><div class="fondo-video"></div>
+<a href="/en/node/10708"><img src="http://portalartroscopia.com/sites/default/files/video_embed_field_thumbnails/youtube/wKihAhlyu-g.jpg" alt="Localization of Spinal Masses - Introduction " /></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+    </section>
+
+          <aside class="col-sm-2" role="complementary">
+          <div class="region region-sidebar-second">
+    <section id="block-artroscopia-contacto-bloque-contacto" class="block block-artroscopia-contacto clearfix">
+
+        <h2 class="block-title">Questions or suggestions</h2>
+    
+  <div class="bloque-contacto">
+  <p>Anything you can do better? Do you see something you do not like? <br>We attach importance to your opinions, write us!</p>
+  <a href="/en/contacto" class="btn btn-primary">Ask Us</a></div>
+
+</section>
+<section id="block-nodeblock-6472" class="block block-nodeblock clearfix">
+
+        <h2 class="block-title">Quiero compartir un &quot;caso Clínico&quot;</h2>
+    
+  <div id="node-6472" class="node node-article node-promoted clearfix" about="/en/node/6472" typeof="sioc:Item foaf:Document">
+
+        <span property="dc:title" content="Quiero compartir un &quot;caso Clínico&quot;" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  <div class="content">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="og:image rdfs:seeAlso" resource="http://portalartroscopia.com/sites/default/files/styles/bloque_de_nodo/public/field/image/poll.jpg?itok=IGp0mSGW"><a href="/en/node/6472"><img typeof="foaf:Image" class="img-responsive" src="http://portalartroscopia.com/sites/default/files/styles/bloque_de_nodo/public/field/image/poll.jpg?itok=IGp0mSGW" width="200" height="200" alt="caso clínico blog explicación" /></a></div></div></div><div class="field field-name-field-video field-type-video-embed-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/node/6472"><img typeof="foaf:Image" class="img-responsive" src="http://portalartroscopia.com/sites/default/files/styles/bloque_de_nodo/public/video_embed_field_thumbnails/youtube/njibED6qcCY.jpg?itok=VlPGgMQh" width="200" height="200" alt="" /></a></div></div></div>  </div>
+
+</div>
+
+</section>
+<section id="block-nodeblock-6471" class="block block-nodeblock clearfix">
+
+        <h2 class="block-title">Quiero enlazar uno de mis  Vídeos</h2>
+    
+  <div id="node-6471" class="node node-article node-promoted clearfix" about="/en/node/6471" typeof="sioc:Item foaf:Document">
+
+        <span property="dc:title" content="Quiero enlazar uno de mis  Vídeos" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  <div class="content">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="og:image rdfs:seeAlso" resource="http://portalartroscopia.com/sites/default/files/styles/bloque_de_nodo/public/field/image/video-formativo.jpg?itok=V6JBUJmF"><a href="/en/node/6471"><img typeof="foaf:Image" class="img-responsive" src="http://portalartroscopia.com/sites/default/files/styles/bloque_de_nodo/public/field/image/video-formativo.jpg?itok=V6JBUJmF" width="200" height="200" alt="Foto de formulario de entrada de Vídeos" /></a></div></div></div><div class="field field-name-field-video field-type-video-embed-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/node/6471"><img typeof="foaf:Image" class="img-responsive" src="http://portalartroscopia.com/sites/default/files/styles/bloque_de_nodo/public/video_embed_field_thumbnails/youtube/Fh3tSemp7pk.jpg?itok=CJcNzOPb" width="200" height="200" alt="" /></a></div></div></div>  </div>
+
+</div>
+
+</section>
+  </div>
+      </aside>  <!-- /#sidebar-second -->
+    
+  </div>
+</div>
+
+  <footer class="footer">
+      <div class="region region-footer">
+    <section id="block-artroscopia-blocks-pie" class="block block-artroscopia-blocks clearfix">
+
+      
+  <div class="bloque-pie">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="copy">&copy; Portal de Artroscopia</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="enlaces-pie">
+          <a href="/en/condiciones-de-uso">Terms of use</a>          <a href="/en/politica-de-cookies">Cookies policy</a>        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="menu-ayuda">
+          <a href="/en/ayuda">Help</a>        </div>
+        <div class="social-links">
+          
+
+<script type="text/javascript">
+  function newWindow(url) {
+    window.open(url, "_blank");
+    return false;
+  }
+</script>
+
+
+<div class="center-block">
+  <a  href="rss" title="RSS" class="icon icon-rss"><img src="/sites/all/themes/custom/portalartros/img/icon-rss.svg" alt="RSS"></a>
+  <a  onclick="newWindow(&#039;https://twitter.com/portalartros&#039;)" title="Profile in Twitter" class="icon icon-twitter"><img src="/sites/all/themes/custom/portalartros/img/icon-twitter.svg" alt="Twitter"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+  </div>
+  </footer>
+  <script src="http://portalartroscopia.com/sites/all/themes/contrib/bootstrap/js/bootstrap.js?oevmrp"></script>
+</body>
+</html>

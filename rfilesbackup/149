@@ -1,0 +1,110 @@
+@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
+@prefix geo:   <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
+@prefix cito:  <http://purl.org/spar/cito/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix c4o:   <http://purl.org/spar/c4o/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix ufVivo: <http://vivo.ufl.edu/ontology/vivo-ufl/> .
+
+<http://vivo.ufl.edu/individual/n8115443131>
+        a             owl:Thing , vivo:Position , vivo:Relationship , vivo:FacultyPosition , obo:BFO_0000001 , vivo:DependentResource , ufVivo:CourtesyFacultyPosition , obo:BFO_0000002 , <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> , obo:BFO_0000020 ;
+        rdfs:label    "Courtesy Clinical Assistant Professor" ;
+        vivo:relates  <http://vivo.ufl.edu/individual/n6593> .
+
+<http://vivo.ufl.edu/individual/n1919295595>
+        a             vivo:Relationship , obo:BFO_0000020 , obo:BFO_0000001 , owl:Thing , vivo:Authorship , obo:BFO_0000002 ;
+        rdfs:label    "Authorship for Hastings, Linda K" ;
+        vivo:relates  <http://vivo.ufl.edu/individual/n6593> .
+
+obo:BFO_0000002  a  owl:Class ;
+        rdfs:label  "Continuant" .
+
+<http://vivo.ufl.edu/individual/n466110>
+        a                   obo:BFO_0000004 , foaf:Agent , vivo:College , ufVivo:UFEntity , obo:BFO_0000001 , foaf:Organization , obo:BFO_0000002 , owl:Thing ;
+        rdfs:label          "College of Pharmacy"^^xsd:string ;
+        ufVivo:homeDeptFor  <http://vivo.ufl.edu/individual/n6593> .
+
+<http://vivo.ufl.edu/individual/n6593>
+        a                     ufVivo:UFEntity , foaf:Agent , ufVivo:UFCurrentEntity , owl:Thing , obo:BFO_0000001 , obo:BFO_0000002 , ufVivo:MiscFaculty , obo:BFO_0000004 , foaf:Person , ufVivo:CourtesyFaculty ;
+        rdfs:label            "Hastings, Linda K" ;
+        obo:ARG_2000028       <http://vivo.ufl.edu/individual/n2889293> ;
+        <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#modTime>
+                "2012-06-27T16:18:49"^^xsd:dateTime ;
+        <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType>
+                ufVivo:CourtesyFaculty , ufVivo:MiscFaculty , ufVivo:UFCurrentEntity ;
+        ufVivo:dateHarvested  "2012-09-13T10:07:47.122000" ;
+        ufVivo:gatorlink      "lhasting" ;
+        ufVivo:harvestedBy    "PeopleSoft-Harvester" , "PeopleSoft-BizTalk-Harvester" , "Python Pubs version 1.1" ;
+        ufVivo:homeDept       <http://vivo.ufl.edu/individual/n466110> ;
+        ufVivo:privacyFlag    "N" ;
+        vivo:relatedBy        <http://vivo.ufl.edu/individual/n8115443131> , <http://vivo.ufl.edu/individual/n1919295595> , <http://vivo.ufl.edu/individual/n8646213428> , <http://vivo.ufl.edu/individual/n28351> .
+
+obo:BFO_0000001  a  owl:Class ;
+        rdfs:label  "Entity" .
+
+owl:Thing  a    owl:Class .
+
+<http://vivo.ufl.edu/individual/n2889293>
+        a                vcard:Individual , obo:IAO_0000030 , obo:BFO_0000001 , owl:Thing , vcard:Kind , obo:ARG_2000379 , obo:BFO_0000031 , obo:BFO_0000002 ;
+        obo:ARG_2000029  <http://vivo.ufl.edu/individual/n6593> .
+
+<http://vivo.ufl.edu/individual/n28351>
+        a             <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> , ufVivo:CourtesyFacultyPosition , obo:BFO_0000020 , obo:BFO_0000001 , vivo:Position , obo:BFO_0000002 , vivo:Relationship , owl:Thing , vivo:DependentResource ;
+        rdfs:label    "Faculty" ;
+        vivo:relates  <http://vivo.ufl.edu/individual/n6593> .
+
+ufVivo:UFEntity  a  owl:Class ;
+        rdfs:label  "UF Entity"@en-US .
+
+foaf:Person  a      owl:Class ;
+        rdfs:label  "Person"@en-US .
+
+foaf:Agent  a       owl:Class ;
+        rdfs:label  "Agent"@en-US .
+
+<http://vivo.ufl.edu/individual/n1935248714>
+        a           obo:BFO_0000001 , owl:Thing , bibo:Article , bibo:AcademicArticle , bibo:Document , obo:BFO_0000031 , obo:BFO_0000002 , obo:IAO_0000030 , vivo:InformationResource ;
+        rdfs:label  "Prenatal Or Postnatal Indomethacin Exposure and Neonatal Gut Injury Associated With Isolated Intestinal Perforation and Necrotizing Enterocolitis" ;
+        <http://purl.org/dc/terms/creator>
+                <http://vivo.ufl.edu/individual/n6593> .
+
+ufVivo:MiscFaculty  a  owl:Class ;
+        rdfs:label  "Misc Faculty"@en-US .
+
+ufVivo:UFCurrentEntity
+        a           owl:Class ;
+        rdfs:label  "UF Current Entity"@en-US .
+
+obo:BFO_0000004  a  owl:Class ;
+        rdfs:label  "Independent Continuant"@en-US .
+
+<http://vivo.ufl.edu/individual/n6593/n6593.ttl>
+        a           foaf:Document ;
+        rdfs:label  "RDF description of Hastings, Linda K - http://vivo.ufl.edu/individual/n6593" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2017-04-01T19:22:03"^^xsd:dateTime ;
+        <http://purl.org/dc/elements/1.1/publisher>
+                <http://vivo.ufl.edu> ;
+        <http://purl.org/dc/elements/1.1/rights>
+                <http://vivo.ufl.edu/termsOfUse> .
+
+<http://vivo.ufl.edu/individual/n8646213428>
+        a             vivo:Relationship , obo:BFO_0000020 , obo:BFO_0000001 , owl:Thing , vivo:Authorship , obo:BFO_0000002 ;
+        vivo:relates  <http://vivo.ufl.edu/individual/n6593> .
+
+ufVivo:CourtesyFaculty
+        a           owl:Class ;
+        rdfs:label  "Courtesy Faculty"@en-US .

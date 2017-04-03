@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/corruption-perceptions-index.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <foaf:primaryTopic rdf:resource="http://transparency.270a.info/dataset/corruption-perceptions-index"/>
+    <dct:hasFormat rdf:resource="http://transparency.270a.info/dataset/corruption-perceptions-index.html"/>
+    <dct:hasFormat rdf:resource="http://transparency.270a.info/dataset/corruption-perceptions-index.json"/>
+    <dct:hasFormat rdf:resource="http://transparency.270a.info/dataset/corruption-perceptions-index.ttl"/>
+    <foaf:topic rdf:resource="http://transparency.270a.info/dataset/corruption-perceptions-index"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/corruption-perceptions-index.html">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/corruption-perceptions-index.json">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/corruption-perceptions-index.ttl">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/turtle</dc:format>
+    <rdfs:label>Turtle</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#entities">
+    <rdfs:label>number of entities</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/CPI2011">
+    <rdfs:label xml:lang="en">Corruption Perceptions Index 2011</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
+    <rdfs:label xml:lang="en">Subject</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/CPI2009">
+    <rdfs:label xml:lang="en">Corruption Perceptions Index 2009</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#Dataset">
+    <rdfs:label>dataset</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+    <rdfs:label xml:lang="en">License</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/corruption-perceptions-index">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/sparql-service-description#Graph"/>
+    <rdfs:label xml:lang="en">Transparency International Corruption Perceptions Index dataset</rdfs:label>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-24T00:00:00Z</dct:created>
+    <dct:creator rdf:resource="http://csarven.ca/#i"/>
+    <dct:hasPart rdf:resource="http://transparency.270a.info/dataset/CPI2010"/>
+    <dct:hasPart rdf:resource="http://transparency.270a.info/dataset/CPI2011"/>
+    <dct:hasPart rdf:resource="http://transparency.270a.info/dataset/CPI2009"/>
+    <dct:isPartOf rdf:resource="http://transparency.270a.info/dataset"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-24T00:00:00Z</dct:issued>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-07T00:00:00Z</dct:modified>
+    <dct:publisher rdf:resource="http://csarven.ca/#i"/>
+    <dct:source rdf:nodeID="mor58e129b944a2a"/>
+    <dct:subject rdf:resource="http://purl.org/linked-data/sdmx/2009/subject#2.5"/>
+    <dct:subject rdf:resource="http://purl.org/linked-data/sdmx/2009/subject#3.3"/>
+    <dct:subject rdf:resource="http://purl.org/linked-data/sdmx/2009/subject#2.4.6"/>
+    <dct:subject rdf:resource="http://purl.org/linked-data/sdmx/2009/subject#2.6"/>
+    <dct:subject rdf:resource="http://purl.org/linked-data/sdmx/2009/subject#1.8"/>
+    <dct:subject rdf:resource="http://purl.org/linked-data/sdmx/2009/subject#1.10"/>
+    <dct:subject rdf:resource="http://purl.org/linked-data/sdmx/2009/subject#3.4"/>
+    <dct:title xml:lang="en">Corruption Perceptions Index dataset</dct:title>
+    <void:classPartition rdf:nodeID="mor58e129b944af1"/>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:dataDump rdf:resource="http://transparency.270a.info/data/corruption-perceptions-index.tar.gz"/>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3928</void:entities>
+    <void:exampleResource rdf:resource="http://transparency.270a.info/dataset/corruption-perceptions-index/2011/CA"/>
+    <void:exampleResource rdf:resource="http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2011/CA"/>
+    <void:observation rdf:nodeID="mor58e129b944b80"/>
+    <void:observation rdf:nodeID="mor58e129b944bcf"/>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</void:properties>
+    <void:propertyPartition rdf:nodeID="mor58e129b944c40"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944c93"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944cef"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944d44"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944d99"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944dee"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944e42"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944e97"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944eeb"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944f4d"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944fa1"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b944ff6"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b94504a"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b9450a0"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b9450f6"/>
+    <void:propertyPartition rdf:nodeID="mor58e129b945150"/>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38513</void:triples>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="http://qudt.org/1.1/schema/qudt"/>
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+    <void:vocabulary rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
+    <void:vocabulary rdf:resource="http://transparency.270a.info/property/"/>
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/sdmx/2009/attribute"/>
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/sdmx/2009/dimension"/>
+    <foaf:page rdf:resource="http://www.transparency.org/research/cpi/"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/linked-data/sdmx/2009/subject#3.3">
+    <skos:prefLabel xml:lang="en">Multi-domain statistics and indicators</skos:prefLabel>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label xml:lang="en">Source</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#dataDump">
+    <rdfs:label>Data Dump</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#vocabulary">
+    <rdfs:label>vocabulary</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/CPI2010">
+    <rdfs:label xml:lang="en">Corruption Perceptions Index 2010</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://csarven.ca/#i">
+    <rdfs:label xml:lang="en">Sarven Capadisli</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/created">
+    <rdfs:label xml:lang="en">Date Created</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/linked-data/sdmx/2009/subject#1.10">
+    <skos:prefLabel xml:lang="en">Political and other community activities</skos:prefLabel>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdfs:label xml:lang="en">Creator</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdfs:label xml:lang="en">Title</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/linked-data/sdmx/2009/subject#1.8">
+    <skos:prefLabel xml:lang="en">Justice and crime</skos:prefLabel>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+    <rdfs:label xml:lang="en">Publisher</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#exampleResource">
+    <rdfs:label>example resource of dataset</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:label>label</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/hasPart">
+    <rdfs:label xml:lang="en">Has Part</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#propertyPartition">
+    <rdfs:label>property partition</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset">
+    <rdfs:label xml:lang="en">Transparency International datasets</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://transparency.270a.info/dataset/corruption-perceptions-index/2011/CA">
+    <rdfs:label xml:lang="en">Corruption Perceptions Index of Canada in 2011</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#properties">
+    <rdfs:label>number of properties</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+    <rdfs:label xml:lang="en">CC0 1.0 Universal</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/linked-data/cube">
+    <rdfs:label>The data cube vocabulary</rdfs:label>
+    <dct:title>Vocabulary for multi-dimensional (e.g. statistical) data publishing</dct:title>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#classPartition">
+    <rdfs:label>class partition</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/linked-data/sdmx/2009/subject#2.6">
+    <skos:prefLabel xml:lang="en">International trade and balance of payments</skos:prefLabel>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
+    <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.w3.org/ns/sparql-service-description#Graph">
+    <rdfs:label>Graph</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <rdfs:label>type</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
+    <rdfs:label xml:lang="en">Date Modified</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#classes">
+    <rdfs:label>classes</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
+    <rdfs:label xml:lang="en">Date Issued</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/linked-data/sdmx/2009/subject#2.5">
+    <skos:prefLabel xml:lang="en">Government finance, fiscal and public sector statistics</skos:prefLabel>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdfs.org/ns/void#triples">
+    <rdfs:label>number of triples</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/">
+    <dct:title xml:lang="en">DCMI Metadata Terms - other</dct:title>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/linked-data/sdmx/2009/subject#3.4">
+    <skos:prefLabel xml:lang="en">Yearbooks and similar compendia</skos:prefLabel>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/linked-data/sdmx/2009/subject#2.4.6">
+    <skos:prefLabel xml:lang="en">Banking, insurance, financial statistics</skos:prefLabel>
+  </rdf:Description>
+
+</rdf:RDF>

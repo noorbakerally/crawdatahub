@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Conferencia “IneveryCREA Argentina, la comunidad de la creatividad educativa”]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	La posibilidad de compartir producciones y construir conocimiento de manera colaborativa tiene un aliado en el uso de la tecnolog&iacute;a a trav&eacute;s del desarrollo de Comunidades que sirvan como plataforma para esa tarea. IneveryCREA, es una Red Social en la que los docentes pueden compartir su trabajo sobre la integraci&oacute;n de la tecnolog&iacute;a en las aulas</p>
+<table border="1" cellpadding="4" cellspacing="0">
+	<tbody>
+		<tr>
+			<td valign="top" width="121">
+				<p>
+					<strong>Ponente/s</strong></p>
+			</td>
+			<td valign="top" width="456">
+				<p>
+					Nilda Palacios</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" width="121">
+				<p>
+					<strong>Fecha</strong></p>
+			</td>
+			<td valign="top" width="456">
+				<p>
+					12 de Octubre</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" width="121">
+				<p>
+					<strong>Horario</strong></p>
+			</td>
+			<td valign="top" width="456">
+				<p>
+					14.00 hs</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" width="121">
+				<p>
+					<strong>Lugar</strong></p>
+			</td>
+			<td valign="top" width="456">
+				<p>
+					OEI&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" width="121">
+				<p>
+					<strong>Sede</strong></p>
+			</td>
+			<td valign="top" width="456">
+				<p>
+					Paraguay 1510</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	<a href="http://www.oei.org.ar/ibertic/Palacios.php" target="_blank">http://www.oei.org.ar/ibertic/Palacios.php</a></p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-10-01T16:31:24+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Conferencia “IneveryCREA Argentina, la comunidad de la creatividad educativa”]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.oei.org.ar/ibertic/Palacios.php" />
+    <sioc:has_creator rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/organization/inevery/profile/Inevery-Crea-Argentina/" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/f4451fac-ff9c-4308-8eb6-77e4f852d9f3" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/75094acf-aa9f-4b35-b671-de0ab2197aaf" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/4adec6ae-023c-43f7-affb-c8d821614ea6" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/2edf9b1f-2689-4373-9569-9d53ebe56adb" />
+    <sioc:has_space rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resources/category/eventos/29408328-dbf3-43c8-b678-3f54849fd279" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/conferencia%20ineverycrea%20argentina" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/red%20social" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/nilda%20palacios" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/oei" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/ineverycrea" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/organization/inevery/profile/Inevery-Crea-Argentina/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Inevery Crea Argentina · Equipo Inevery Crea]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Inevery Crea]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Argentina]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Inevery Crea Argentina]]></foaf:name>
+  </foaf:Person>
+  <foaf:Group rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/organization/inevery/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo Inevery Crea]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo Inevery Crea]]></foaf:name>
+    <foaf:member rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/organization/inevery/profile/Inevery-Crea-Argentina/" />
+  </foaf:Group>
+  <sioc_t:Comment rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/f4451fac-ff9c-4308-8eb6-77e4f852d9f3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	&iexcl;Gracias por acompa&ntilde;arnos! nos vemos.</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&iexcl;Gracias por acompa&ntilde;arnos! nos vemos.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-10-02T03:12:12+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/organization/inevery/profile/nildag/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/organization/inevery/profile/nildag/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Nilda  Palacios · Equipo Inevery Crea]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Nilda ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Palacios]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Nilda  Palacios]]></foaf:name>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/75094acf-aa9f-4b35-b671-de0ab2197aaf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Gracias, Paola, buen&iacute;simo!</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Gracias, Paola, buen&iacute;simo!</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-10-02T00:29:06+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/profile/Karina-Crespo/" />
+    <sioc:reply_of rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/4adec6ae-023c-43f7-affb-c8d821614ea6" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/profile/Karina-Crespo/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Karina Crespo]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Karina]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Crespo]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/4adec6ae-023c-43f7-affb-c8d821614ea6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	All&iacute; estaremos!!</p>
+<p>
+	Karina, s&iacute; las filman las presentaciones en IBERTIC y luego la suben a la red OEI, por lo que se podr&aacute; compartir en este espacio :)</p>
+<p>
+	&nbsp;</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	All&iacute; estaremos!!</p>
+<p>
+	Karina, s&iacute; las filman las presentaciones en IBERTIC y luego la suben a la red OEI, por lo que se podr&aacute; compartir en este espacio :)</p>
+<p>
+	&nbsp;</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-10-01T19:01:20+02:00</dcterms:created>
+    <sioc:attachment rdf:resource="http://gnoss.com/00000000-0000-0000-0000-000000000000" />
+    <sioc:has_creator rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/profile/Paola-Dellepiane/" />
+    <sioc:reply_of rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/2edf9b1f-2689-4373-9569-9d53ebe56adb" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/profile/Paola-Dellepiane/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Paola Andrea Dellepiane]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Paola Andrea]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Dellepiane]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resource/conferencia-ineverycrea-argentina-la-comunidad-de-/88f804a0-f920-4849-b62a-7f1a551a27e9/comentario/2edf9b1f-2689-4373-9569-9d53ebe56adb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Hola!</p>
+<p>
+	Qu&eacute; lindo ser&iacute;a que la filmen y subirlo a la comunidad!</p>
+<p>
+	Besos!<br />
+	K</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Hola!</p>
+<p>
+	Qu&eacute; lindo ser&iacute;a que la filmen y subirlo a la comunidad!</p>
+<p>
+	Besos!<br />
+	K</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-10-01T18:52:26+02:00</dcterms:created>
+    <sioc:attachment rdf:resource="http://gnoss.com/00000000-0000-0000-0000-000000000000" />
+    <sioc:has_creator rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/profile/Karina-Crespo/" />
+  </sioc_t:Comment>
+  <sioc:Space rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Inevery Crea Argentina]]></rdfs:label>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Inevery Crea Argentina]]></dcterms:title>
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/profesores" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/innovaci%c3%b3n%20educativa" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/educaci%c3%b3n%20primaria" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/ESO" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/educaci%c3%b3n%20infantil" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/escuela%202.0" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/pedagog%c3%ada" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/educaci%c3%b3n%202.0" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/bachillerato" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/actividades%20interactivas" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/material%20educativo" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/unidades%20did%c3%a1cticas" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/pizarra%20digital" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/plataforma%20educativa" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/red%20educativa" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/proyecto%20colaborativo" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/videos%20educativos" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/herramientas%202.0" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/creatividad%20educativa" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/recursos%20educativos%20originales" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/argentina" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/am%c3%a9rica" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/inevery%20crea" />
+    <sioc:topic rdf:resource="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/ineverycrea" />
+  </sioc:Space>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/profesores">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[profesores]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/innovaci%c3%b3n%20educativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[innovación educativa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/educaci%c3%b3n%20primaria">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación primaria]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/ESO">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ESO]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/educaci%c3%b3n%20infantil">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación infantil]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/escuela%202.0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escuela 2.0]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/pedagog%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pedagogía]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/educaci%c3%b3n%202.0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación 2.0]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/bachillerato">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bachillerato]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/actividades%20interactivas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[actividades interactivas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/material%20educativo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[material educativo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/unidades%20did%c3%a1cticas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[unidades didácticas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/pizarra%20digital">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pizarra digital]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/plataforma%20educativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[plataforma educativa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/red%20educativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[red educativa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/proyecto%20colaborativo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[proyecto colaborativo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/videos%20educativos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[videos educativos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/herramientas%202.0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[herramientas 2.0]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/creatividad%20educativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[creatividad educativa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/recursos%20educativos%20originales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recursos educativos originales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/argentina">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[argentina]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/am%c3%a9rica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[américa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/inevery%20crea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[inevery crea]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/ineverycrea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ineverycrea]]></rdfs:label>
+  </sioc_t:Tag>
+  <skos:Concept rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/resources/category/eventos/29408328-dbf3-43c8-b678-3f54849fd279">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Eventos]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Eventos]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/conferencia%20ineverycrea%20argentina">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[conferencia ineverycrea argentina]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/red%20social">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[red social]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/nilda%20palacios">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[nilda palacios]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.com.ar/en/community/ineverycreaargentina/search/tag/oei">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[oei]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

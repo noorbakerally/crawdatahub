@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:geo="http://www.geonames.org/ontology#"
+	xmlns:dc="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+	<foaf:Document rdf:about="http://ontologi.es/place/AD.rdf">
+		<foaf:primaryTopic rdf:resource="http://ontologi.es/place/AD" />
+		<dc:title>About: Andorra</dc:title>
+		<dc:publisher rdf:resource="http://tobyinkster.co.uk/#i" />
+		<dc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+	</foaf:Document>
+
+	<geo:Country rdf:about="http://ontologi.es/place/AD" skos:notation="AD" rdfs:label="Andorra">
+		<geo:name>Andorra</geo:name>
+		<owl:sameAs rdf:resource="http://www.geonames.org/countries/#AD" />
+		<rdfs:seeAlso rdf:resource="http://sameas.org/rdf?uri=http%3A%2F%2Fwww.geonames.org%2Fcountries%2F%23AD" />
+	</geo:Country>
+
+</rdf:RDF>

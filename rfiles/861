@@ -1,0 +1,68 @@
+@prefix mesh: <http://www.yso.fi/onto/mesh/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+mesh:D004268
+  skos:prefLabel "DNA-Binding Proteins"@en, "DNA-bindande proteiner"@sv, "DNA:n sitojaproteiinit"@fi ;
+  a skos:Concept ;
+  skos:related mesh:D004261 .
+
+mesh:D004261
+  skos:prefLabel "DNA-monistus"@fi, "DNA Replication"@en, "DNA-replikation"@sv ;
+  skos:hiddenLabel "Replication, DNA"@en, "DNA Replications"@en, "Replications, Autonomous"@en, "Autonomous Replications"@en, "Replications, DNA"@en ;
+  mesh:activeMeSHYear "2004", "2003", "2006", "2007", "2005" ;
+  skos:scopeNote "The process by which a DNA molecule is duplicated."@en ;
+  skos:narrower mesh:D042522, mesh:D016196 ;
+  skos:related mesh:D004268, mesh:D014779, mesh:D004265, mesh:D004264 ;
+  mesh:recordAuthorizer "sjn" ;
+  mesh:historyNote """68
+  """@en ;
+  skos:broader mesh:D039361 ;
+  skos:altLabel "Replication, Autonomous"@en, "DNA;n monistus"@fi, "DNA-kahdentuminen"@fi, "DNA-replikaatio"@fi, "DNA:n replikaatio"@fi, "DNA:n kahdentuminen"@fi ;
+  mesh:dateCreated "1999-01-01" ;
+  skos:historyNote "DNA/biosynthesis (1966-1967)"@en ;
+  mesh:publicMeSHNote """68
+  """@en ;
+  mesh:dateEstablished "1968-01-01" ;
+  mesh:recordMaintainer "nns" ;
+  skos:inScheme mesh:conceptscheme ;
+  skos:annotation """coord IM with specific DNA (IM); coord IM with VIRUS REPLICATION (IM) for DNA replic in viruses; consider also DNA /biosyn
+  """@en ;
+  a skos:Concept ;
+  mesh:recordOriginator "NLM" ;
+  mesh:dateRevised "2002-07-02" .
+
+mesh:D014779
+  skos:prefLabel "Virusförökning"@sv, "Virusreplikaatio"@fi, "Virus Replication"@en ;
+  a skos:Concept ;
+  skos:related mesh:D004261 .
+
+mesh:D039361
+  skos:prefLabel "Genetic Processes"@en, "Perinnölliset prosessit"@fi, "Genetiska processer"@sv ;
+  a skos:Concept ;
+  skos:narrower mesh:D004261 .
+
+mesh:conceptscheme
+  rdfs:label "Medical Subject Headings (MeSH)" ;
+  a skos:ConceptScheme .
+
+mesh:D004264
+  skos:prefLabel "DNA-topoisomeraser, typ I"@sv, "DNA Topoisomerases, Type I"@en, "Tyypin I DNA-topoisomeraasit"@fi ;
+  a skos:Concept ;
+  skos:related mesh:D004261 .
+
+mesh:D016196
+  skos:prefLabel "S-vaihe"@fi, "S-fas"@sv, "S Phase"@en ;
+  a skos:Concept ;
+  skos:broader mesh:D004261 .
+
+mesh:D042522
+  skos:prefLabel "DNA-replikaation ajoitus"@fi, "DNA Replication Timing"@en ;
+  a skos:Concept ;
+  skos:broader mesh:D004261 .
+
+mesh:D004265
+  skos:prefLabel "DNA-helicaser"@sv, "DNA-helikaasit"@fi, "DNA Helicases"@en ;
+  a skos:Concept ;
+  skos:related mesh:D004261 .
+

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/lipsor-laboratory-for-investigation-in/5f66995f-af8f-43d0-bfc1-bf15695c5215">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[LIPSOR : Laboratory for Investigation in Prospective Strategy and Organisation]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>P&aacute;gina principal del Laboratorio de Investigaci&oacute;n en Prospectiva, Estrategia y Organizaci&oacute;n (LIPSOR). </p><p>Desde hace 10 a&ntilde;os, LIPSOR dispone de un entorno de investigaci&oacute;n para profesores -investigadores, profesores -asociados y doctorandos de las C&aacute;tedras de Prospectiva Industrial y de Desarrollo de sistemas de organizaci&oacute;n en el CNAMs. El Laboratorio se organiza bajo la doble direcci&oacute;n de los profesores Michel Godet, titular de la C&aacute;tedra de Prospectiva Industrial y de Yvon Pesqueux, titular de la C&aacute;tedra de Desarrollo de Sistemas de Organizaci&oacute;n.</p><p>En el a&ntilde;o 2003, el laboratorio cambi&oacute; de denominaci&oacute;n para llamarse LIPSOR con el fin de poner el acento sobre un doble enfoque en los campos de la prospectiva, la estrategia y las organizaciones. Beneficiada desde la primavera de 2000 por la fusi&oacute;n de las actividades de investigaci&oacute;n de las C&aacute;tedras de Prospectiva Industrial y de Desarrollo de Sistemas de Organizaci&oacute;n del CNAM, constituye un marco de investigaci&oacute;n para profesores-investigadores, profesores -asociados y doctorandos de las dos C&aacute;tedras .</p><p>El programa de investigaci&oacute;n de LIPSOR se articula alrededor de 7 ejes principales, los cuales se inscriben en las investigaciones de los profesores-investigadores y los doctorandos. EStos son:</p><ul>    <li>Prospectiva, gesti&oacute;n estrat&eacute;gica y organizaci&oacute;n</li>    <li>Organizaci&oacute;n, cambio y aprendizaje organizacional</li>    <li>Epistemolog&iacute;a y  organizaci&oacute;n de la prospectiva estrat&eacute;gica y de la organizaci&oacute;n</li>    <li>Prospectiva de los recursos humanos y sociales</li>    <li>Prospectiva y evaluaci&oacute;n tecnol&oacute;gica</li>    <li>Desarrollo sostenible</li>    <li>Din&aacute;mica de los territorioa</li></ul><p>En el plano internacional, LIPSOR mantiene relaciones regulares con numerosos Centros de Investigaci&oacute;n y de Estudios Prospectivos en Europa, el Magreb, los EE.UU., Australia y Sudam&eacute;rica, ha contribuido a la creaci&oacute;n de la red Profutures. Desde septiembre de 2000 colabora tambi&eacute;n con la red de Prospective-Foresight Network. Todas estas redes tienen como objetivo com&uacute;n ser foros de discusi&oacute;n sobre la metodolog&iacute;a prospectiva. Mantiene tambi&eacute;n relaciones con la l&rsquo;International Federation of Scholarly Associations of Management (IFSAM), con la Academy of Management &ndash; Management Education Division (AOM) y la European Foundation for Management Development (EFMD)</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2010-09-15T07:20:01+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[LIPSOR : Laboratory for Investigation in Prospective Strategy and Organisation]]></dcterms:title>
+    <dcterms:source rdf:resource="http://lipsor.cnam.fr/jsp/fiche_pagelibre.jsp?STNAV=&amp;RUBNAV=&amp;CODE=90419717&amp;LANGUE=0&amp;RH=" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/prospektiker-de-la-anticipacion-a-la-accion-a/de150815-804b-43bf-b9bc-cfcdf0a59405" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/caja-de-las-herramientas-de-prospectiva/0f92b7f0-af5b-4ec5-9b4c-344c931e2528" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/forfas-irelands-national-policy-advisory-body-for/6f1bc09a-18e8-4833-a5ce-2b7ba97dd159" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/foundation-for-the-future/1f5b47d4-36e5-4dab-8a24-844442bf733b" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/institute-for-alternative-futures-explore-aspire/d5ae2f01-70bc-4c32-8830-c2a58adeaff3" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/technology-futures-inc-a-consulting-group/c219e938-2833-41bc-9c98-52ea2ad4d408" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/world-futures-studies-federation/52681036-b04b-4f04-a97b-a2d3be62fe09" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/iftf-institute-for-the-future/732f1f07-274c-4929-ad15-4985222cbcd4" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/fast-future-accelerating-innovation/81660233-f905-400e-a05d-6734d03385be" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/ibm-estudio-rrhh---chro-study-2010---trabajar-mas/bf404ff9-7bcb-4f03-8ac7-b6e830768fa9" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recursos/categoria/empresas-y-organizaciones/385beb00-2120-49db-b87b-db0c86c2679e" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/prospectiva%20tecnol%c3%b3gica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/francia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/aprendizaje%20acelerado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/cnam" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/lipsor" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/prospectiva%20industrial" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/sistemas%20de%20organizaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/prospectiva%20estrat%c3%a9gica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/michel%20godet" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/yvon%20pesqueux" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/desarrollo%20organizacional" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/gesti%c3%b3n%20estrat%c3%a9gica" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://my.gnoss.com/organizacion/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo GNOSS]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo GNOSS]]></foaf:name>
+  </foaf:Group>
+  <sioc:Space rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Prospects and Trends]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/recursos/categoria/empresas-y-organizaciones/385beb00-2120-49db-b87b-db0c86c2679e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Empresas y organizaciones]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Empresas y organizaciones]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/prospectiva%20tecnol%c3%b3gica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prospectiva tecnológica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/francia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[francia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/aprendizaje%20acelerado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aprendizaje acelerado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/cnam">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cnam]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/lipsor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[lipsor]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/prospectiva%20industrial">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prospectiva industrial]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/sistemas%20de%20organizaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sistemas de organización]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/prospectiva%20estrat%c3%a9gica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prospectiva estratégica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/michel%20godet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[michel godet]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/yvon%20pesqueux">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[yvon pesqueux]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/desarrollo%20organizacional">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[desarrollo organizacional]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/gesti%c3%b3n%20estrat%c3%a9gica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gestión estratégica]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

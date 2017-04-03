@@ -1,0 +1,21 @@
+@prefix article: <http://ogp.me/ns/article#> .
+@prefix fb1: <http://ogp.me/ns/fb#> .
+@prefix ns1: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix og1: <http://ogp.me/ns#> .
+
+<http://www.newsweek.com/2011/07/17/american-kids-immersed-in-chinese-asian-education.html> og1:description "Taking Tiger Mom tactics to radical new heights, these parents are packing up the family for a total Far East Immersion."@en;
+    og1:image "http://s.newsweek.com/sites/www.newsweek.com/files/2011/07/17/1337256000000.cached_9.jpg"@en;
+    og1:site_name "Newsweek"@en;
+    og1:title "How to Raise a Global Kid"@en;
+    og1:type "article"@en;
+    og1:url "http://www.newsweek.com/american-kids-immersed-chinese-asian-education-68477"@en;
+    article:modified_time "2011-07-29T19:45:24-04:00"@en;
+    article:published_time "2011-07-18T01:00:00-04:00"@en;
+    article:publisher "https://www.facebook.com/Newsweek"@en;
+    article:section "Education"@en;
+    fb1:app_id "245537789135954"@en;
+    fb1:pages "18343191100"@en .
+
+[] ns1:role ns1:main .
+
+

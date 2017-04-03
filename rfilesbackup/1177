@@ -1,0 +1,62 @@
+@prefix mdr: <http://onto.mondis.cz/resource/mdr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+mdr:record-4 a mdr:Record , _:node5673 , _:node5830 , _:node7568 ;
+	rdfs:label "St. Vitus Cathedral"@en ;
+	mdr:containsEvaluation <http://onto.mondis.cz/resource/mdr/record-4/evaluation-150> ;
+	mdr:hasCriteriaSet <http://onto.mondis.cz/resource/mdr/mondis-report-2.0-SNAPSHOT> ;
+	mdr:hasLastModified "2014-04-13T18:20:03Z"^^xsd:dateTime ;
+	mdr:hasAuthor mdr:person-kremep1 , <http://onto.mondis.cz/resource/people/kremep1> ;
+	mdr:hasTimeUploaded "2014-04-13T20:44:12.192Z"^^xsd:dateTime ;
+	mdr:isRecordOf mdr:chobject-107 ;
+	mdr:hasSimpleDirectEvaluationList <http://onto.mondis.cz/resource/mdr/record-4/evaluation-150> ;
+	<http://onto.mondis.cz/resource/mdr#containsEvaluation> <http://onto.mondis.cz/resource/mdr/record-4/evaluation-150> ;
+	mdr:directlyContainsEvaluation <http://onto.mondis.cz/resource/mdr/record-4/evaluation-150> ;
+	mdr:hasLanguage "en"^^xsd:string .
+
+_:node5673 a rdfs:Class , owl:Class ;
+	rdfs:subClassOf _:node5673 ;
+	owl:unionOf _:node5674 .
+
+_:node5830 a rdfs:Class , owl:Class ;
+	rdfs:subClassOf _:node5830 ;
+	owl:unionOf _:node5831 .
+
+_:node7568 a rdfs:Class , owl:Class ;
+	rdfs:subClassOf _:node7568 ;
+	owl:unionOf _:node7569 .
+
+_:node5674 a rdf:List ;
+	rdf:rest _:node5675 ;
+	rdf:first mdr:CriterionEvaluation .
+
+_:node5831 a rdf:List ;
+	rdf:rest _:node5832 ;
+	rdf:first mdr:CriterionEvaluation .
+
+_:node7569 a rdf:List ;
+	rdf:rest _:node7570 ;
+	rdf:first mdr:CriterionEvaluation .
+
+_:node5675 a rdf:List ;
+	rdf:rest rdf:nil ;
+	rdf:first mdr:Record .
+
+_:node5832 a rdf:List ;
+	rdf:rest rdf:nil ;
+	rdf:first mdr:Record .
+
+_:node7570 a rdf:List ;
+	rdf:rest rdf:nil ;
+	rdf:first mdr:Record .
+
+mdr:chobject-107 mdr:hasRecord mdr:record-4 .
+
+mdr:person-kremep1 mdr:isAuthorOf mdr:record-4 .
+
+<http://onto.mondis.cz/resource/people/kremep1> mdr:isAuthorOf mdr:record-4 .

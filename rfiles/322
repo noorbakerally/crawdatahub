@@ -1,0 +1,505 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix os:      <http://a9.com/-/spec/opensearch/1.1/> .
+@prefix opmv:    <http://purl.org/net/opmv/types/common#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap:    <http://usefulinc.com/ns/doap#> .
+@prefix xhv:     <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix sparql:  <http://purl.org/net/opmv/types/sparql#> .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl>
+      a       <http://purl.org/linked-data/api/vocab#Page> , <http://purl.org/linked-data/api/vocab#ListEndpoint> ;
+      os:itemsPerPage "120"^^<http://www.w3.org/2001/XMLSchema#long> ;
+      os:startIndex "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+      dct:hasPart <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl> ;
+      dct:isPartOf <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl> ;
+      <http://purl.org/linked-data/api/vocab#definition>
+              <http://lab.environment.data.gov.au/meta/data/acorn/climate/slice/station/year/month.ttl> ;
+      <http://purl.org/linked-data/api/vocab#extendedMetadataVersion>
+              <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl?_metadata=all> ;
+      <http://purl.org/linked-data/api/vocab#items>
+              (<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/12> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/01> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/02> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/03> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/04> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/05> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/06> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/07> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/08> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/09> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/10> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/11> <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/12>) ;
+      <http://purl.org/linked-data/api/vocab#page>
+              "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+      xhv:first <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl?_page=0> ;
+      xhv:next <http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl?_page=1> .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1918" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/11>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in November of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/12>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in December of the year 1910" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/02>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in February of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/10>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in October of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/05>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in May of the year 1912" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/08>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in August of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/01>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in January of the year 1919" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/04>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in April of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/09>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in September of the year 1914" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1911" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1915" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/07>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in July of the year 1917" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1913" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/03>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in March of the year 1916" .
+
+<http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/06>
+      a       <http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries> ;
+      rdfs:label "All observations for series 001019 in June of the year 1912" .

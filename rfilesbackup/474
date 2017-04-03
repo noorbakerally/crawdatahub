@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rs="http://elpo.stat.gov.rs/lod2/RS-DIC/rs#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sdmx-attribute="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:foaf="http://xmls.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="http://elpo.stat.gov.rs/lod2/">
+
+<rdf:Description rdf:about="">
+	<foaf:maker rdf:resource="http://webid.fcns.eu/people/uros.milosevic/card#me"/>
+	<dcterms:date>2011-12-28T11:14:04+0100</dcterms:date>
+</rdf:Description>
+
+<qb:DataSet rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDP usage - Collective consumption expenditure</rdfs:label>
+	<dcterms:subject rdf:resource="http://purl.org/linked-data/sdmx/2009/subject#2.2"/>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statistical Office of the Republic of Serbia</dc:publisher>
+	<rdfs:comment>Source: RZS (http://www.stat.gov.rs/) - RZS Database (http://webrzs.stat.gov.rs/WebSite/public/ReportView.aspx).</rdfs:comment>
+	<rdfs:seeAlso rdf:resource="http://webrzs.stat.gov.rs/WebSite/public/ReportView.aspx"/>
+	<qb:structure rdf:resource="RS-DATA/National_accounts/dsd#GDP_usage_Collective_consumption_expenditure"/>
+</qb:DataSet>
+
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs1">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y1997"/>
+	<sdmx-measure:obsValue>15459.0</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs2">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y1998"/>
+	<sdmx-measure:obsValue>19567.0</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs3">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y1999"/>
+	<sdmx-measure:obsValue>22801.1</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs4">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2000"/>
+	<sdmx-measure:obsValue>41075.3</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs5">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2001"/>
+	<sdmx-measure:obsValue>89844.5</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs6">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2002"/>
+	<sdmx-measure:obsValue>114611.0</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs7">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2003"/>
+	<sdmx-measure:obsValue>131000.3</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs8">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2004"/>
+	<sdmx-measure:obsValue>118576.3</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs9">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2005"/>
+	<sdmx-measure:obsValue>121334.5</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs10">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2006"/>
+	<sdmx-measure:obsValue>138977.8</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs11">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2007"/>
+	<sdmx-measure:obsValue>177778.4</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs12">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2008"/>
+	<sdmx-measure:obsValue>187827.0</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs13">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#MIO_NAT"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2009"/>
+	<sdmx-measure:obsValue>178036.2</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs14">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y1997"/>
+	<sdmx-measure:obsValue>12.8</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs15">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y1998"/>
+	<sdmx-measure:obsValue>12.0</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs16">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y1999"/>
+	<sdmx-measure:obsValue>11.1</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs17">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2000"/>
+	<sdmx-measure:obsValue>10.7</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs18">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2001"/>
+	<sdmx-measure:obsValue>11.8</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs19">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2002"/>
+	<sdmx-measure:obsValue>11.8</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs20">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2003"/>
+	<sdmx-measure:obsValue>11.6</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs21">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2004"/>
+	<sdmx-measure:obsValue>8.6</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs22">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2005"/>
+	<sdmx-measure:obsValue>7.2</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs23">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2006"/>
+	<sdmx-measure:obsValue>7.1</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs24">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2007"/>
+	<sdmx-measure:obsValue>7.8</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs25">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2008"/>
+	<sdmx-measure:obsValue>7.1</sdmx-measure:obsValue>
+</qb:Observation>
+
+<qb:Observation rdf:about="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28#obs26">
+	<qb:dataSet rdf:resource="RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"/>
+	<sdmx-attribute:unitMeasure rdf:resource="RS-DIC/esa95-unit#RT_GDP"/>
+	<rs:geo rdf:resource="RS-DIC/geo#RS"/>
+	<rs:time rdf:resource="RS-DIC/time#Y2009"/>
+	<sdmx-measure:obsValue>6.6</sdmx-measure:obsValue>
+</qb:Observation>
+</rdf:RDF>

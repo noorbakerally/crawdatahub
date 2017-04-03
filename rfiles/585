@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://status.tl1n.com/user/1"></maker>
+  <primaryTopic rdf:resource="http://status.tl1n.com/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://status.tl1n.com/user/1">
+  <mbox_sha1sum>04ae18bbc306f47b44adcb516d5a3634ab3a4974</mbox_sha1sum>
+  <name>Abinoam Jr.</name>
+  <weblog rdf:resource="http://status.tl1n.com/abinoam"></weblog>
+  <img>
+   <Image rdf:about="http://status.tl1n.com/avatar/1-200-20110624200241.jpeg">
+    <thumbnail>
+     <Image rdf:about="http://status.tl1n.com/avatar/1-96-20110624200241.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.tl1n.com/avatar/1-48-20110624200241.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.tl1n.com/avatar/1-24-20110624200241.jpeg"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://status.tl1n.com/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://status.tl1n.com/"></accountServiceHomepage>
+    <accountName>abinoam</accountName>
+    <accountProfilePage rdf:resource="http://status.tl1n.com/abinoam"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.tl1n.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://update.status.net/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/63390#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/169966#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/75#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/42390#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/31750#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <knows rdf:resource="http://identi.ca/user/42390"></knows>
+ </Agent>
+ <Agent rdf:about="http://update.status.net/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://update.status.net/user/1#acct">
+    <accountName>update</accountName>
+    <accountProfilePage rdf:resource="http://update.status.net/"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://update.status.net/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/63390">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/63390#acct">
+    <accountName>andregondim</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/andregondim"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/63390"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/169966">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/169966#acct">
+    <accountName>joindiaspora</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/joindiaspora"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/169966"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/75">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/75#acct">
+    <accountName>aracnus</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/aracnus"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/75"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/42390">
+  <knows rdf:resource="http://status.tl1n.com/user/1"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/42390#acct">
+    <accountName>solstag</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/solstag"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/42390"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.tl1n.com/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/31750">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/31750#acct">
+    <accountName>macno</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/macno"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/31750"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

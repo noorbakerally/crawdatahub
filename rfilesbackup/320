@@ -1,0 +1,3870 @@
+<!DOCTYPE html><html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Search Results</title>
+<link rel="shortcut icon" href="/images/datagovuk_favicon.png" type="image/x-icon">
+<link rel="start" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0">
+<link rel="next" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=1">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.json" type="application/json">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.plainhtml" type="text/htmlx">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf" type="application/rdf+xml">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.text" type="text/plain">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.ttl" type="text/turtle">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.xml" type="application/xml">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript" src="/scripts/jquery.min.js"></script><script type="text/javascript" src="/scripts/jquery-ui.min.js"></script><script type="text/javascript" src="/scripts/jquery.sparkline.js"></script><script type="text/javascript" src="/scripts/codemirror/codemirror_min.js"></script><script type="text/javascript">
+		$(function() {
+			$('.info img')
+				.toggle(function () {
+					$(this)
+						.attr('src', '/images/green/16x16/Cancel.png')
+						.next().show();
+				}, function () {
+					$(this)
+						.attr('src', '/images/green/16x16/Question.png')
+						.next().fadeOut('slow');
+				});
+			
+			$('input[type=date]').datepicker({
+				changeMonth: true,
+				changeYear: true,
+				dateFormat: 'yy-mm-dd',
+				autoSize: true
+			});
+			
+			$('#search').hide();
+			
+			$('#openSearch')
+				.toggle(function () {
+					$(this).text('Hide Search Form');
+					$('#search').slideDown('slow');
+				}, function () {
+					$(this).text('Show Search Form');
+					$('#search').slideUp('slow');
+				});
+			
+			$('.provenance textarea')
+				.each(function () {
+					var skipLines = parseFloat($(this).attr('data-skip-lines'), 10);
+					var lineHeight = parseFloat($(this).css('line-height'), 10);
+					$(this).scrollTop(skipLines * lineHeight);
+					var cm = CodeMirror.fromTextArea(this, {
+						basefiles: ["/scripts/codemirror/codemirror_base_sparql.js"],
+						stylesheet: "/css/sparql.css",
+						textWrapping: false
+					});
+					$(cm.frame).load(function () {
+						cm.jumpToLine(skipLines + 1);
+						$(cm.frame)
+							.css('border', 	'1px solid #D3D3D3')
+							.css('border-radius', '5px')
+							.css('-moz-border-radius', '5px');
+					});
+				});
+			
+			
+		});
+	</script>
+<link rel="stylesheet" href="/css/html5reset-1.6.1.css" type="text/css">
+<link rel="stylesheet" href="/css/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="/css/smoothness/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="/css/result.css" type="text/css">
+<!--[if lt IE 9]><link rel="stylesheet" href="/css/ie.css" type="text/css"></link><![endif]-->
+</head>
+<body>
+<div id="page">
+<nav class="site">
+<section class="formats">
+<ul>
+<li class="first">
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html" type="text/html" rel="alternate" title="view in html format">html</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.json" type="application/json" rel="alternate" title="view in json format">json</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.plainhtml" type="text/htmlx" rel="alternate" title="view in plainhtml format">plainhtml</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf" type="application/rdf+xml" rel="alternate" title="view in rdf format">rdf</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.text" type="text/plain" rel="alternate" title="view in text format">text</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.ttl" type="text/turtle" rel="alternate" title="view in ttl format">ttl</a>
+</li>
+<li class="last">
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.xml" type="application/xml" rel="alternate" title="view in xml format">xml</a>
+</li>
+</ul>
+</section>
+</nav>
+<header>
+<h1>
+<a href="/">Linked Data API</a>
+</h1>
+</header>
+<nav class="topnav">
+<script type="text/javascript">
+				function initMap() {
+					return null;
+				};
+			</script>
+<section class="summary">
+<h1>On This Page</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>Links to the items within this page, and to the previous and/or next pages of results.</p>
+</div>
+<ul>
+<li>
+<a href="#N65633" title="jump to item on this page">All observations for series 001019 in the year 1910</a>
+</li>
+<li>
+<a href="#N65642" title="jump to item on this page">All observations for series 001019 in the year 1910</a>
+</li>
+<li>
+<a href="#N65651" title="jump to item on this page">All observations for series 001019 in the year 1911</a>
+</li>
+<li>
+<a href="#N65660" title="jump to item on this page">All observations for series 001019 in the year 1911</a>
+</li>
+<li>
+<a href="#N65669" title="jump to item on this page">All observations for series 001019 in the year 1912</a>
+</li>
+<li>
+<a href="#N65678" title="jump to item on this page">All observations for series 001019 in the year 1912</a>
+</li>
+<li>
+<a href="#N65687" title="jump to item on this page">All observations for series 001019 in the year 1913</a>
+</li>
+<li>
+<a href="#N65696" title="jump to item on this page">All observations for series 001019 in the year 1913</a>
+</li>
+<li>
+<a href="#N65705" title="jump to item on this page">All observations for series 001019 in the year 1914</a>
+</li>
+<li>
+<a href="#N65714" title="jump to item on this page">All observations for series 001019 in the year 1914</a>
+</li>
+<li>
+<a href="#N65723" title="jump to item on this page">All observations for series 001019 in the year 1915</a>
+</li>
+<li>
+<a href="#N65732" title="jump to item on this page">All observations for series 001019 in the year 1915</a>
+</li>
+<li>
+<a href="#N65741" title="jump to item on this page">All observations for series 001019 in the year 1916</a>
+</li>
+<li>
+<a href="#N65750" title="jump to item on this page">All observations for series 001019 in the year 1916</a>
+</li>
+<li>
+<a href="#N65759" title="jump to item on this page">All observations for series 001019 in the year 1917</a>
+</li>
+<li>
+<a href="#N65768" title="jump to item on this page">All observations for series 001019 in the year 1917</a>
+</li>
+<li>
+<a href="#N65777" title="jump to item on this page">All observations for series 001019 in the year 1918</a>
+</li>
+<li>
+<a href="#N65786" title="jump to item on this page">All observations for series 001019 in the year 1918</a>
+</li>
+<li>
+<a href="#N65795" title="jump to item on this page">All observations for series 001019 in the year 1919</a>
+</li>
+<li>
+<a href="#N65804" title="jump to item on this page">All observations for series 001019 in the year 1919</a>
+</li>
+<li>
+<a href="#N65813" title="jump to item on this page">All observations for series 001019 in the year 1920</a>
+</li>
+<li>
+<a href="#N65822" title="jump to item on this page">All observations for series 001019 in the year 1920</a>
+</li>
+<li>
+<a href="#N65831" title="jump to item on this page">All observations for series 001019 in the year 1921</a>
+</li>
+<li>
+<a href="#N65840" title="jump to item on this page">All observations for series 001019 in the year 1921</a>
+</li>
+<li>
+<a href="#N65849" title="jump to item on this page">All observations for series 001019 in the year 1922</a>
+</li>
+<li>
+<a href="#N65858" title="jump to item on this page">All observations for series 001019 in the year 1922</a>
+</li>
+<li>
+<a href="#N65867" title="jump to item on this page">All observations for series 001019 in the year 1923</a>
+</li>
+<li>
+<a href="#N65876" title="jump to item on this page">All observations for series 001019 in the year 1923</a>
+</li>
+<li>
+<a href="#N65885" title="jump to item on this page">All observations for series 001019 in the year 1924</a>
+</li>
+<li>
+<a href="#N65894" title="jump to item on this page">All observations for series 001019 in the year 1924</a>
+</li>
+<li>
+<a href="#N65903" title="jump to item on this page">All observations for series 001019 in the year 1925</a>
+</li>
+<li>
+<a href="#N65912" title="jump to item on this page">All observations for series 001019 in the year 1925</a>
+</li>
+<li>
+<a href="#N65921" title="jump to item on this page">All observations for series 001019 in the year 1926</a>
+</li>
+<li>
+<a href="#N65930" title="jump to item on this page">All observations for series 001019 in the year 1926</a>
+</li>
+<li>
+<a href="#N65939" title="jump to item on this page">All observations for series 001019 in the year 1927</a>
+</li>
+<li>
+<a href="#N65948" title="jump to item on this page">All observations for series 001019 in the year 1927</a>
+</li>
+<li>
+<a href="#N65957" title="jump to item on this page">All observations for series 001019 in the year 1928</a>
+</li>
+<li>
+<a href="#N65966" title="jump to item on this page">All observations for series 001019 in the year 1928</a>
+</li>
+<li>
+<a href="#N65975" title="jump to item on this page">All observations for series 001019 in the year 1929</a>
+</li>
+<li>
+<a href="#N65984" title="jump to item on this page">All observations for series 001019 in the year 1929</a>
+</li>
+<li>
+<a href="#N65993" title="jump to item on this page">All observations for series 001019 in the year 1930</a>
+</li>
+<li>
+<a href="#N66002" title="jump to item on this page">All observations for series 001019 in the year 1930</a>
+</li>
+<li>
+<a href="#N66011" title="jump to item on this page">All observations for series 001019 in the year 1931</a>
+</li>
+<li>
+<a href="#N66020" title="jump to item on this page">All observations for series 001019 in the year 1931</a>
+</li>
+<li>
+<a href="#N66029" title="jump to item on this page">All observations for series 001019 in the year 1932</a>
+</li>
+<li>
+<a href="#N66038" title="jump to item on this page">All observations for series 001019 in the year 1932</a>
+</li>
+<li>
+<a href="#N66047" title="jump to item on this page">All observations for series 001019 in the year 1933</a>
+</li>
+<li>
+<a href="#N66056" title="jump to item on this page">All observations for series 001019 in the year 1933</a>
+</li>
+<li>
+<a href="#N66065" title="jump to item on this page">All observations for series 001019 in the year 1934</a>
+</li>
+<li>
+<a href="#N66074" title="jump to item on this page">All observations for series 001019 in the year 1934</a>
+</li>
+<li>
+<a href="#N66083" title="jump to item on this page">All observations for series 001019 in the year 1935</a>
+</li>
+<li>
+<a href="#N66092" title="jump to item on this page">All observations for series 001019 in the year 1935</a>
+</li>
+<li>
+<a href="#N66101" title="jump to item on this page">All observations for series 001019 in the year 1936</a>
+</li>
+<li>
+<a href="#N66110" title="jump to item on this page">All observations for series 001019 in the year 1936</a>
+</li>
+<li>
+<a href="#N66119" title="jump to item on this page">All observations for series 001019 in the year 1937</a>
+</li>
+<li>
+<a href="#N66128" title="jump to item on this page">All observations for series 001019 in the year 1937</a>
+</li>
+<li>
+<a href="#N66137" title="jump to item on this page">All observations for series 001019 in the year 1938</a>
+</li>
+<li>
+<a href="#N66146" title="jump to item on this page">All observations for series 001019 in the year 1938</a>
+</li>
+<li>
+<a href="#N66155" title="jump to item on this page">All observations for series 001019 in the year 1939</a>
+</li>
+<li>
+<a href="#N66164" title="jump to item on this page">All observations for series 001019 in the year 1939</a>
+</li>
+<li>
+<a href="#N66173" title="jump to item on this page">All observations for series 001019 in the year 1940</a>
+</li>
+<li>
+<a href="#N66182" title="jump to item on this page">All observations for series 001019 in the year 1940</a>
+</li>
+<li>
+<a href="#N66191" title="jump to item on this page">All observations for series 001019 in the year 1941</a>
+</li>
+<li>
+<a href="#N66200" title="jump to item on this page">All observations for series 001019 in the year 1941</a>
+</li>
+<li>
+<a href="#N66209" title="jump to item on this page">All observations for series 001019 in the year 1942</a>
+</li>
+<li>
+<a href="#N66218" title="jump to item on this page">All observations for series 001019 in the year 1942</a>
+</li>
+<li>
+<a href="#N66227" title="jump to item on this page">All observations for series 001019 in the year 1943</a>
+</li>
+<li>
+<a href="#N66236" title="jump to item on this page">All observations for series 001019 in the year 1943</a>
+</li>
+<li>
+<a href="#N66245" title="jump to item on this page">All observations for series 001019 in the year 1944</a>
+</li>
+<li>
+<a href="#N66254" title="jump to item on this page">All observations for series 001019 in the year 1944</a>
+</li>
+<li>
+<a href="#N66263" title="jump to item on this page">All observations for series 001019 in the year 1945</a>
+</li>
+<li>
+<a href="#N66272" title="jump to item on this page">All observations for series 001019 in the year 1945</a>
+</li>
+<li>
+<a href="#N66281" title="jump to item on this page">All observations for series 001019 in the year 1946</a>
+</li>
+<li>
+<a href="#N66290" title="jump to item on this page">All observations for series 001019 in the year 1946</a>
+</li>
+<li>
+<a href="#N66299" title="jump to item on this page">All observations for series 001019 in the year 1947</a>
+</li>
+<li>
+<a href="#N66308" title="jump to item on this page">All observations for series 001019 in the year 1947</a>
+</li>
+<li>
+<a href="#N66317" title="jump to item on this page">All observations for series 001019 in the year 1948</a>
+</li>
+<li>
+<a href="#N66326" title="jump to item on this page">All observations for series 001019 in the year 1948</a>
+</li>
+<li>
+<a href="#N66335" title="jump to item on this page">All observations for series 001019 in the year 1949</a>
+</li>
+<li>
+<a href="#N66344" title="jump to item on this page">All observations for series 001019 in the year 1949</a>
+</li>
+<li>
+<a href="#N66353" title="jump to item on this page">All observations for series 001019 in the year 1950</a>
+</li>
+<li>
+<a href="#N66362" title="jump to item on this page">All observations for series 001019 in the year 1950</a>
+</li>
+<li>
+<a href="#N66371" title="jump to item on this page">All observations for series 001019 in the year 1951</a>
+</li>
+<li>
+<a href="#N66380" title="jump to item on this page">All observations for series 001019 in the year 1951</a>
+</li>
+<li>
+<a href="#N66389" title="jump to item on this page">All observations for series 001019 in the year 1952</a>
+</li>
+<li>
+<a href="#N66398" title="jump to item on this page">All observations for series 001019 in the year 1952</a>
+</li>
+<li>
+<a href="#N66407" title="jump to item on this page">All observations for series 001019 in the year 1953</a>
+</li>
+<li>
+<a href="#N66416" title="jump to item on this page">All observations for series 001019 in the year 1953</a>
+</li>
+<li>
+<a href="#N66425" title="jump to item on this page">All observations for series 001019 in the year 1954</a>
+</li>
+<li>
+<a href="#N66434" title="jump to item on this page">All observations for series 001019 in the year 1954</a>
+</li>
+<li>
+<a href="#N66443" title="jump to item on this page">All observations for series 001019 in the year 1955</a>
+</li>
+<li>
+<a href="#N66452" title="jump to item on this page">All observations for series 001019 in the year 1955</a>
+</li>
+<li>
+<a href="#N66461" title="jump to item on this page">All observations for series 001019 in the year 1956</a>
+</li>
+<li>
+<a href="#N66470" title="jump to item on this page">All observations for series 001019 in the year 1956</a>
+</li>
+<li>
+<a href="#N66479" title="jump to item on this page">All observations for series 001019 in the year 1957</a>
+</li>
+<li>
+<a href="#N66488" title="jump to item on this page">All observations for series 001019 in the year 1957</a>
+</li>
+<li>
+<a href="#N66497" title="jump to item on this page">All observations for series 001019 in the year 1958</a>
+</li>
+<li>
+<a href="#N66506" title="jump to item on this page">All observations for series 001019 in the year 1958</a>
+</li>
+<li>
+<a href="#N66515" title="jump to item on this page">All observations for series 001019 in the year 1959</a>
+</li>
+<li>
+<a href="#N66524" title="jump to item on this page">All observations for series 001019 in the year 1959</a>
+</li>
+<li>
+<a href="#N66533" title="jump to item on this page">All observations for series 001019 in the year 1960</a>
+</li>
+<li>
+<a href="#N66542" title="jump to item on this page">All observations for series 001019 in the year 1960</a>
+</li>
+<li>
+<a href="#N66551" title="jump to item on this page">All observations for series 001019 in the year 1961</a>
+</li>
+<li>
+<a href="#N66560" title="jump to item on this page">All observations for series 001019 in the year 1961</a>
+</li>
+<li>
+<a href="#N66569" title="jump to item on this page">All observations for series 001019 in the year 1962</a>
+</li>
+<li>
+<a href="#N66578" title="jump to item on this page">All observations for series 001019 in the year 1962</a>
+</li>
+<li>
+<a href="#N66587" title="jump to item on this page">All observations for series 001019 in the year 1963</a>
+</li>
+<li>
+<a href="#N66596" title="jump to item on this page">All observations for series 001019 in the year 1963</a>
+</li>
+<li>
+<a href="#N66605" title="jump to item on this page">All observations for series 001019 in the year 1964</a>
+</li>
+<li>
+<a href="#N66614" title="jump to item on this page">All observations for series 001019 in the year 1964</a>
+</li>
+<li>
+<a href="#N66623" title="jump to item on this page">All observations for series 001019 in the year 1965</a>
+</li>
+<li>
+<a href="#N66632" title="jump to item on this page">All observations for series 001019 in the year 1965</a>
+</li>
+<li>
+<a href="#N66641" title="jump to item on this page">All observations for series 001019 in the year 1966</a>
+</li>
+<li>
+<a href="#N66650" title="jump to item on this page">All observations for series 001019 in the year 1966</a>
+</li>
+<li>
+<a href="#N66659" title="jump to item on this page">All observations for series 001019 in the year 1967</a>
+</li>
+<li>
+<a href="#N66668" title="jump to item on this page">All observations for series 001019 in the year 1967</a>
+</li>
+<li>
+<a href="#N66677" title="jump to item on this page">All observations for series 001019 in the year 1968</a>
+</li>
+<li>
+<a href="#N66686" title="jump to item on this page">All observations for series 001019 in the year 1968</a>
+</li>
+<li>
+<a href="#N66695" title="jump to item on this page">All observations for series 001019 in the year 1969</a>
+</li>
+<li>
+<a href="#N66704" title="jump to item on this page">All observations for series 001019 in the year 1969</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=1" title="go to next page">next &rsaquo;</a>
+</li>
+</ul>
+</section>
+<section class="sort">
+<h1>Sort by</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>This list shows the properties that you can sort by. Click on <img src="/images/grey/16x16/Arrow3%20Up.png" alt="sort in ascending order"> to sort in ascending order and <img src="/images/grey/16x16/Arrow3%20Down.png" alt="sort in descending order"> to sort in descending order. The properties that you're currently sorting by are shown at the top of the list. Click on <img src="/images/green/16x16/Cancel.png" alt="remove this sort"> to remove a sort and <img src="/images/green/16x16/Arrow3%20Up.png" alt="sort in descending order"> or <img src="/images/green/16x16/Arrow3%20Down.png" alt="sort in ascending order"> to reverse the current sort order. Click on the <img src="/images/green/16x16/Back.png" alt="remove all sorting"> icon to remove all the sorting. Note that sorting can significantly slow down the loading of the page.</p>
+</div>
+<ul>
+<li>
+<a rel="nofollow" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_sort=label" title="sort in ascending order"><img src="/images/grey/16x16/Arrow3%20Up.png" alt="sort in ascending order"></a><a rel="nofollow" title="sort in descending order" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_sort=-label"><img src="/images/grey/16x16/Arrow3%20Down.png" alt="sort in descending order"></a> <a rel="nofollow" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_sort=label" title="sort in ascending order">label</a>
+</li>
+<li>
+<a rel="nofollow" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_sort=class." title="sort in ascending order"><img src="/images/grey/16x16/Arrow3%20Up.png" alt="sort in ascending order"></a><a rel="nofollow" title="sort in descending order" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_sort=-class."><img src="/images/grey/16x16/Arrow3%20Down.png" alt="sort in descending order"></a> <a rel="nofollow" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_sort=class." title="sort in ascending order">class</a>
+</li>
+</ul>
+</section>
+<section class="view">
+<h1>View</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>Choose what information you want to view about each item. There are some pre-defined views, but starred properties are always present no matter what the view. You can star properties by clicking on the <img src="/images/grey/16x16/Star.png" alt="star this property"> icon. The currently starred icons have a <img src="/images/green/16x16/Star.png" alt="unstar this property"> icon; clicking on it will unstar the property.</p>
+</div>
+<ul>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_view=label&amp;_page=0" title="switch to label view">label</a>
+</li>
+</ul>
+<ul class="properties">
+<li>
+<a rel="nofollow" title="always include this property" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_properties=label"><img src="/images/grey/16x16/Star.png" alt="star this property"> label</a>
+</li>
+<li>
+<a rel="nofollow" title="always include this property" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_properties=class."><img src="/images/grey/16x16/Star.png" alt="star this property"> class</a>
+</li>
+</ul>
+</section>
+<section class="size">
+<h1>Items per page</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>Choose how many items to view on each page. The more items you view, the longer the page will take to load.</p>
+</div>
+<ul>
+<li>
+<a rel="nofollow" title="view 10 items per page" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_pageSize=10">10</a>
+</li>
+<li>
+<a rel="nofollow" title="view 25 items per page" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_pageSize=25">25</a>
+</li>
+<li>
+<a rel="nofollow" title="view 50 items per page" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0&amp;_pageSize=50">50</a>
+</li>
+</ul>
+</section>
+</nav>
+<div id="result">
+<div class="panel">
+<header>
+<p id="openSearch">Show Search Form</p>
+<h1>Search Results</h1>
+</header>
+<section id="search" style="display: none">
+<form action="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0">
+<input name="_page" value="0" type="hidden">
+<table>
+<colgroup>
+<col class="labelWidth">
+<col class="valueWidth">
+</colgroup>
+<tr>
+<th class="label"><label for="label">label</label></th><td class="input"><input name="label" id="label" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="class.">class</label></th><td class="input"><input name="class." id="class." size="25"></td>
+</tr>
+</table>
+<p>
+<button type="submit">Search</button>
+</p>
+</form>
+</section>
+<section>
+<table id="N65633">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910">All observations for series 001019 in the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65642">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910">All observations for series 001019 in the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65651">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911">All observations for series 001019 in the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65660">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911">All observations for series 001019 in the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65669">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912">All observations for series 001019 in the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65678">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912">All observations for series 001019 in the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65687">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913">All observations for series 001019 in the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65696">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913">All observations for series 001019 in the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65705">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914">All observations for series 001019 in the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65714">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914">All observations for series 001019 in the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65723">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915">All observations for series 001019 in the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65732">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915">All observations for series 001019 in the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65741">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916">All observations for series 001019 in the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65750">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916">All observations for series 001019 in the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65759">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917">All observations for series 001019 in the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65768">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917">All observations for series 001019 in the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65777">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918">All observations for series 001019 in the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65786">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918">All observations for series 001019 in the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65795">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919">All observations for series 001019 in the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65804">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919">All observations for series 001019 in the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65813">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1920">All observations for series 001019 in the year 1920</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65822">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1920">All observations for series 001019 in the year 1920</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65831">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1921">All observations for series 001019 in the year 1921</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65840">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1921">All observations for series 001019 in the year 1921</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65849">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1922">All observations for series 001019 in the year 1922</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65858">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1922">All observations for series 001019 in the year 1922</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65867">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1923">All observations for series 001019 in the year 1923</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65876">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1923">All observations for series 001019 in the year 1923</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65885">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1924">All observations for series 001019 in the year 1924</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65894">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1924">All observations for series 001019 in the year 1924</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65903">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1925">All observations for series 001019 in the year 1925</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65912">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1925">All observations for series 001019 in the year 1925</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65921">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1926">All observations for series 001019 in the year 1926</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65930">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1926">All observations for series 001019 in the year 1926</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65939">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1927">All observations for series 001019 in the year 1927</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65948">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1927">All observations for series 001019 in the year 1927</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65957">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1928">All observations for series 001019 in the year 1928</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65966">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1928">All observations for series 001019 in the year 1928</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65975">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1929">All observations for series 001019 in the year 1929</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65984">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1929">All observations for series 001019 in the year 1929</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65993">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1930">All observations for series 001019 in the year 1930</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66002">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1930">All observations for series 001019 in the year 1930</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66011">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1931">All observations for series 001019 in the year 1931</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66020">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1931">All observations for series 001019 in the year 1931</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66029">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1932">All observations for series 001019 in the year 1932</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66038">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1932">All observations for series 001019 in the year 1932</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66047">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1933">All observations for series 001019 in the year 1933</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66056">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1933">All observations for series 001019 in the year 1933</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66065">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1934">All observations for series 001019 in the year 1934</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66074">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1934">All observations for series 001019 in the year 1934</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66083">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1935">All observations for series 001019 in the year 1935</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66092">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1935">All observations for series 001019 in the year 1935</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66101">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1936">All observations for series 001019 in the year 1936</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66110">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1936">All observations for series 001019 in the year 1936</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66119">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1937">All observations for series 001019 in the year 1937</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66128">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1937">All observations for series 001019 in the year 1937</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66137">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1938">All observations for series 001019 in the year 1938</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66146">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1938">All observations for series 001019 in the year 1938</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66155">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1939">All observations for series 001019 in the year 1939</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66164">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1939">All observations for series 001019 in the year 1939</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66173">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1940">All observations for series 001019 in the year 1940</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66182">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1940">All observations for series 001019 in the year 1940</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66191">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1941">All observations for series 001019 in the year 1941</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66200">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1941">All observations for series 001019 in the year 1941</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66209">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1942">All observations for series 001019 in the year 1942</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66218">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1942">All observations for series 001019 in the year 1942</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66227">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1943">All observations for series 001019 in the year 1943</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66236">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1943">All observations for series 001019 in the year 1943</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66245">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1944">All observations for series 001019 in the year 1944</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66254">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1944">All observations for series 001019 in the year 1944</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66263">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1945">All observations for series 001019 in the year 1945</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66272">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1945">All observations for series 001019 in the year 1945</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66281">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1946">All observations for series 001019 in the year 1946</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66290">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1946">All observations for series 001019 in the year 1946</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66299">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1947">All observations for series 001019 in the year 1947</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66308">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1947">All observations for series 001019 in the year 1947</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66317">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1948">All observations for series 001019 in the year 1948</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66326">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1948">All observations for series 001019 in the year 1948</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66335">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1949">All observations for series 001019 in the year 1949</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66344">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1949">All observations for series 001019 in the year 1949</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66353">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1950">All observations for series 001019 in the year 1950</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66362">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1950">All observations for series 001019 in the year 1950</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66371">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1951">All observations for series 001019 in the year 1951</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66380">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1951">All observations for series 001019 in the year 1951</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66389">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1952">All observations for series 001019 in the year 1952</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66398">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1952">All observations for series 001019 in the year 1952</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66407">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1953">All observations for series 001019 in the year 1953</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66416">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1953">All observations for series 001019 in the year 1953</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66425">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1954">All observations for series 001019 in the year 1954</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66434">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1954">All observations for series 001019 in the year 1954</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66443">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1955">All observations for series 001019 in the year 1955</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66452">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1955">All observations for series 001019 in the year 1955</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66461">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1956">All observations for series 001019 in the year 1956</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66470">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1956">All observations for series 001019 in the year 1956</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66479">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1957">All observations for series 001019 in the year 1957</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66488">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1957">All observations for series 001019 in the year 1957</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66497">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1958">All observations for series 001019 in the year 1958</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66506">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1958">All observations for series 001019 in the year 1958</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66515">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1959">All observations for series 001019 in the year 1959</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66524">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1959">All observations for series 001019 in the year 1959</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66533">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1960">All observations for series 001019 in the year 1960</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66542">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1960">All observations for series 001019 in the year 1960</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66551">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1961">All observations for series 001019 in the year 1961</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66560">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1961">All observations for series 001019 in the year 1961</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66569">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1962">All observations for series 001019 in the year 1962</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66578">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1962">All observations for series 001019 in the year 1962</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66587">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1963">All observations for series 001019 in the year 1963</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66596">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1963">All observations for series 001019 in the year 1963</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66605">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1964">All observations for series 001019 in the year 1964</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66614">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1964">All observations for series 001019 in the year 1964</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66623">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1965">All observations for series 001019 in the year 1965</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66632">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1965">All observations for series 001019 in the year 1965</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66641">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1966">All observations for series 001019 in the year 1966</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66650">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1966">All observations for series 001019 in the year 1966</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66659">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1967">All observations for series 001019 in the year 1967</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66668">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1967">All observations for series 001019 in the year 1967</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66677">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1968">All observations for series 001019 in the year 1968</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66686">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1968">All observations for series 001019 in the year 1968</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66695">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1969">All observations for series 001019 in the year 1969</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66704">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1969">All observations for series 001019 in the year 1969</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/linked-data/api/vocab#Page">Page</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+</div>
+</div>
+<nav class="bottomnav">
+<section class="page">
+<ul>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=0" title="go to first page">&laquo; first</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html?_page=1" title="go to next page">next &rsaquo;</a>
+</li>
+</ul>
+</section>
+</nav>
+<footer>
+<div class="provenance">
+<div class=" query col1">
+<h2>Selection</h2>
+<p>This is the SPARQL query that was generated to identify the items to be shown in the page. You can modify it here and re-run the query but you may find more options at the <a href="http://lab.environment.data.gov.au/sparql">endpoint's page</a>.</p>
+<form action="http://lab.environment.data.gov.au/sparql" method="post">
+<textarea name="query" wrap="soft" data-skip-lines="3">PREFIX cube: &lt;http://purl.org/linked-data/cube#&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX time-series: &lt;http://lab.environment.data.gov.au/def/acorn/time-series/&gt;
+SELECT ?item
+WHERE {
+?item cube:sliceStructure &lt;http://lab.environment.data.gov.au/data/acorn/climate/slicekey/station-year&gt; .
+?item rdf:type time-series:TimeSeries .
+}  OFFSET 0 LIMIT 120</textarea>
+<p>
+<button type="submit">Run Query</button>
+</p>
+</form>
+</div>
+<div class=" query col2">
+<h2>Viewer</h2>
+<p>This is the SPARQL query that was generated to pull together the data that is provided about each item. You can modify it here and re-run the query but you may find more options at the <a href="http://lab.environment.data.gov.au/sparql">endpoint's page</a>.</p>
+<form action="http://lab.environment.data.gov.au/sparql" method="post">
+<textarea name="query" wrap="soft" data-skip-lines="5">PREFIX cube: &lt;http://purl.org/linked-data/cube#&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX time-series: &lt;http://lab.environment.data.gov.au/def/acorn/time-series/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+CONSTRUCT {?item rdf:type ?___0 .
+?item rdfs:label ?___1 .
+
+} WHERE {
+  {SELECT ?item
+    WHERE {
+    ?item cube:sliceStructure &lt;http://lab.environment.data.gov.au/data/acorn/climate/slicekey/station-year&gt; .
+    ?item rdf:type time-series:TimeSeries .
+    }  OFFSET 0 LIMIT 120
+}{ ?item rdf:type ?___0 . } 
+UNION { ?item rdfs:label ?___1 . } 
+
+}</textarea>
+<p>
+<button type="submit">Run Query</button>
+</p>
+</form>
+</div>
+</div>
+<p>Powered by <a href="http://elda.googlecode.com">Elda 1.2.21</a>, an implementation of the <a href="http://code.google.com/p/linked-data-api">Linked Data API</a>
+<br>
+<a href="http://www.axialis.com/free/icons">Icons</a> by <a href="http://www.axialis.com">Axialis Team</a>
+</p>
+</footer>
+</div>
+</body>
+</html>

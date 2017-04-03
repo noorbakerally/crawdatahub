@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/nextweb/resource/schemaorg-and-one-hundred-years-of-search/a0be9931-13c6-4d9a-90d7-8dc7d02d5cbd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Schema.org and One Hundred Years of Search]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Diapositivas del London SemWeb meetup celebrado en Londres el 30 de Marzo de 2012 y organizado por la Academia BBC.</p>
+<p>
+	En ellas se cuenta como han evolucionado las b&uacute;squedas de documentos en los &uacute;ltimos 100 a&ntilde;os.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-07-20T08:34:24+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Schema.org and One Hundred Years of Search]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.slideshare.net/danbri/schemaorg-and-one-hundred-years-of-search" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/nextweb" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/dbpedia-faceted-wikipedia-search/b56a08cc-d2df-41da-b1f9-a99e52375a55" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/gnosscom-lanza-el-primer-buscador-social/c65925d8-3c7e-413f-bf28-4df8d7ceef2b" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/la-web-semantica-pagina-de-la-asignatura/9c9fa589-e703-4657-a0ce-eeaa2959dd77" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/la-gente-necesita-respuestas-no-un-monton-de/b2f56d03-297b-48e9-bab7-580db05f4ef6" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/could-google-become-the-semantic-web-a-semantic/cf303f6d-7a62-4aed-9d22-edd2aba59896" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/twitter-con-internet-a-tiempo-real-y-la-web/6ba322d3-f59e-4e7a-841c-d38c8197526e" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/limosine-linguistically-motivated-semantic/88fe48e3-6912-46b9-b014-d325e74cc935" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/the-future-of-seo-panelists-at-semtechbiz-weigh/37b8877d-77e2-445d-be60-6efdf3a2a258" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/datanytimescom-new-york-times---linked-open-data/a1eec5e2-f47f-4b98-ad06-db985c5625dc" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/nextweb/resource/findmycarrots-the-semantic-search-engine-for/f1af8f8d-cac2-4822-a7bf-94a852e1547c" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/resources/category/semantic-search-engines/41cffd74-bf59-4834-9b72-7f58c8a0d2a3" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/resources/category/linked-data-web/e0066a51-bfa8-4683-82cc-3ecdb924d11c" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/search/tag/schema%20%20.org" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/search/tag/one%20hundred%20years%20of%20search" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/search/tag/diapositivas%20del%20london%20semweb" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/search/tag/londres" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/search/tag/marzo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/search/tag/academia%20bbc" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/nextweb/search/tag/b%c3%basquedas" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://my.gnoss.com/en/organization/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo GNOSS]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo GNOSS]]></foaf:name>
+  </foaf:Group>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/nextweb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Next Web: web 3.0, web semántica y el futuro de internet]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/nextweb/resources/category/semantic-search-engines/41cffd74-bf59-4834-9b72-7f58c8a0d2a3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Semantic search engines]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Semantic search engines]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/nextweb/resources/category/linked-data-web/e0066a51-bfa8-4683-82cc-3ecdb924d11c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Linked Data Web]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Linked Data Web]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/nextweb/search/tag/schema%20%20.org">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[schema  .org]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/nextweb/search/tag/one%20hundred%20years%20of%20search">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[one hundred years of search]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/nextweb/search/tag/diapositivas%20del%20london%20semweb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[diapositivas del london semweb]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/nextweb/search/tag/londres">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[londres]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/nextweb/search/tag/marzo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[marzo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/nextweb/search/tag/academia%20bbc">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[academia bbc]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/nextweb/search/tag/b%c3%basquedas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[búsquedas]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

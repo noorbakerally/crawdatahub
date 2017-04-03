@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:b3kat="http://bsb-muenchen.de/ont/b3katOntology#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+    xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+    xmlns:rdamediatypes="http://rdvocab.info/termList/RDAMediaType/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdagr1="http://rdvocab.info/Elements/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:blt="http://data.bl.uk/schema/bibliographic#"
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:ir="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://lod.b3kat.de/isbn/3881562044">
+    <owl:sameAs>
+      <bibo:Book rdf:about="http://lod.b3kat.de/title/BV000023809">
+        <dcterms:subject rdf:resource="http://d-nb.info/gnd/4070463-4"/>
+        <dcterms:subject rdf:resource="http://rvk.uni-regensburg.de/api/xml/node/QC%20344"/>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-29/item/BV000023809"/>
+        <isbd:P1006>Beitr. zur Pädagogik aus 20-jähriger Mitarb. in d. Entwicklungshilfe</isbd:P1006>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-N2/item/BV000023809"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1982</dcterms:issued>
+        <dcterms:subject rdf:resource="http://rvk.uni-regensburg.de/api/xml/node/MS%208400"/>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-473/item/BV000023809"/>
+        <dcterms:subject rdf:resource="http://d-nb.info/gnd/4059277-7"/>
+        <dc:subject xml:lang="de">Technologietransfer</dc:subject>
+        <bibo:isbn>3881562044</bibo:isbn>
+        <dcterms:isPartOf rdf:resource="http://lod.b3kat.de/title/BV000000042"/>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-19/item/BV000023809"/>
+        <dcterms:publisher>Breitenbach</dcterms:publisher>
+        <dcterms:extent>203 S.</dcterms:extent>
+        <dcterms:subject rdf:resource="http://rvk.uni-regensburg.de/api/xml/node/RB%2010918"/>
+        <bibo:oclcnum>230244209</bibo:oclcnum>
+        <dcterms:description>Günther Schnuer</dcterms:description>
+        <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <rdagr1:placeOfPublication>Saarbrücken u.a.</rdagr1:placeOfPublication>
+        <dc:title>Der Technologie-Transfer als Lehr- und Lernproblem</dc:title>
+        <dcterms:bibliographicCitation>Sozialwissenschaftliche Studien zu internationalen Problemen : 65</dcterms:bibliographicCitation>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-384/item/BV000023809"/>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-12/item/BV000023809"/>
+        <marcrel:aut rdf:resource="http://d-nb.info/gnd/107225026"/>
+        <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-11/item/BV000023809"/>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-355/item/BV000023809"/>
+        <owl:sameAsVol>
+          <rdf:Description rdf:about="http://lod.b3kat.de/title/BV000000042/vol/65">
+            <owl:sameAs rdf:resource="http://lod.b3kat.de/title/BV000023809"/>
+          </rdf:Description>
+        </owl:sameAsVol>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-83/item/BV000023809"/>
+        <dc:subject xml:lang="de">Bildungshilfe</dc:subject>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+        <dcterms:subject rdf:resource="http://d-nb.info/gnd/4006660-5"/>
+        <frbr:exemplar rdf:resource="http://lod.b3kat.de/bib/DE-703/item/BV000023809"/>
+        <rdagr1:otherTitleInformation>Beitr. zur Pädagogik aus 20-jähriger Mitarb. in d. Entwicklungshilfe</rdagr1:otherTitleInformation>
+        <dcterms:creator rdf:resource="http://d-nb.info/gnd/107225026"/>
+        <dcterms:subject rdf:resource="http://d-nb.info/gnd/4014954-7"/>
+        <dcterms:subject rdf:resource="http://lod.b3kat.de/ssg/5.3"/>
+        <dc:subject xml:lang="de">Pädagogik</dc:subject>
+        <rdagr1:publicationStatement>Saarbrücken u.a. : Breitenbach 1982</rdagr1:publicationStatement>
+        <dcterms:subject rdf:resource="http://d-nb.info/gnd/4044302-4"/>
+        <isbd:P1053>203 S.</isbd:P1053>
+        <owl:sameAs rdf:resource="http://hub.culturegraph.org/about/BVB-BV000023809"/>
+        <dcterms:subject rdf:resource="http://rvk.uni-regensburg.de/api/xml/node/DV%203000"/>
+        <dc:subject xml:lang="de">Didaktik</dc:subject>
+        <dc:subject xml:lang="de">Entwicklungsländer</dc:subject>
+        <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+      </bibo:Book>
+    </owl:sameAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lod.b3kat.de/data/title/BV000023809">
+    <rdfs:label>RDF description of Der Technologie-Transfer als Lehr- und Lernproblem</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lod.b3kat.de/title/BV000023809"/>
+  </rdf:Description>
+</rdf:RDF>

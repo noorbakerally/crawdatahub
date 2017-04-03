@@ -1,0 +1,12 @@
+
+<http://opendatacommunities.org/data/transparency/input-indicators/local-authority-funding-from-government-grant/2011-2012/other> a <http://opendatacommunities.org/def/ontology/transparency/InputIndicatorReport> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Percentage of local authority revenue expenditure funded by general government grant, 2011-2012, Other Authorities" ;
+	<http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/data/transparency/input-indicators/local-authority-funding-from-government-grant> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> 72.7 ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <http://qudt.org/vocab/unit#Percent> ;
+	<http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-A> ;
+	<http://opendatacommunities.org/def/ontology/geography/refArea> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> ;
+	<http://opendatacommunities.org/def/ontology/time/refPeriod> <http://reference.data.gov.uk/id/government-year/2011-2012> ;
+	<http://opendatacommunities.org/def/ontology/transparency/authorityType> <http://opendatacommunities.org/def/local-government/OtherAuthority> ;
+	<http://opendatacommunities.org/def/ontology/transparency/indicator> <http://opendatacommunities.org/def/concept/transparency/input-indicator/local-authority-funding-from-government-grant> ;
+	<http://opendatacommunities.org/def/ontology/transparency/previousReport> <http://opendatacommunities.org/data/transparency/input-indicators/local-authority-funding-from-government-grant/2010-2011/other> .

@@ -1,0 +1,94 @@
+<http://id.crossref.org/contributor/r-j-moorhead-2yo77xsxzlc40>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/familyName>
+              "Moorhead" ;
+      <http://xmlns.com/foaf/0.1/givenName>
+              "R J" ;
+      <http://xmlns.com/foaf/0.1/name>
+              "R J Moorhead" .
+
+<http://id.crossref.org/contributor/j-sanyal-2yo77xsxzlc40>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/familyName>
+              "Sanyal" ;
+      <http://xmlns.com/foaf/0.1/givenName>
+              "J" ;
+      <http://xmlns.com/foaf/0.1/name>
+              "J Sanyal" .
+
+<http://id.crossref.org/contributor/j-dyer-2yo77xsxzlc40>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/familyName>
+              "Dyer" ;
+      <http://xmlns.com/foaf/0.1/givenName>
+              "J" ;
+      <http://xmlns.com/foaf/0.1/name>
+              "J Dyer" .
+
+<http://id.crossref.org/contributor/song-zhang-2yo77xsxzlc40>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/familyName>
+              "Song Zhang" ;
+      <http://xmlns.com/foaf/0.1/name>
+              " Song Zhang" .
+
+<http://id.crossref.org/issn/1077-2626>
+      a       <http://purl.org/ontology/bibo/Journal> ;
+      <http://prismstandard.org/namespaces/basic/2.1/issn>
+              "1077-2626" ;
+      <http://purl.org/dc/terms/title>
+              "IEEE Transactions on Visualization and Computer Graphics" ;
+      <http://purl.org/ontology/bibo/issn>
+              "1077-2626" ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              "urn:issn:1077-2626" .
+
+<http://id.crossref.org/contributor/a-mercer-2yo77xsxzlc40>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/familyName>
+              "Mercer" ;
+      <http://xmlns.com/foaf/0.1/givenName>
+              "A" ;
+      <http://xmlns.com/foaf/0.1/name>
+              "A Mercer" .
+
+<http://id.crossref.org/contributor/p-amburn-2yo77xsxzlc40>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/familyName>
+              "Amburn" ;
+      <http://xmlns.com/foaf/0.1/givenName>
+              "P" ;
+      <http://xmlns.com/foaf/0.1/name>
+              "P Amburn" .
+
+<http://dx.doi.org/10.1109/TVCG.2010.181>
+      <http://prismstandard.org/namespaces/basic/2.1/doi>
+              "10.1109/tvcg.2010.181" ;
+      <http://prismstandard.org/namespaces/basic/2.1/endingPage>
+              "1430" ;
+      <http://prismstandard.org/namespaces/basic/2.1/startingPage>
+              "1421" ;
+      <http://prismstandard.org/namespaces/basic/2.1/volume>
+              "16" ;
+      <http://purl.org/dc/terms/creator>
+              <http://id.crossref.org/contributor/r-j-moorhead-2yo77xsxzlc40> , <http://id.crossref.org/contributor/j-sanyal-2yo77xsxzlc40> , <http://id.crossref.org/contributor/j-dyer-2yo77xsxzlc40> , <http://id.crossref.org/contributor/song-zhang-2yo77xsxzlc40> , <http://id.crossref.org/contributor/a-mercer-2yo77xsxzlc40> , <http://id.crossref.org/contributor/p-amburn-2yo77xsxzlc40> ;
+      <http://purl.org/dc/terms/date>
+              "2010-11"^^<http://www.w3.org/2001/XMLSchema#gYearMonth> ;
+      <http://purl.org/dc/terms/identifier>
+              "10.1109/tvcg.2010.181" ;
+      <http://purl.org/dc/terms/isPartOf>
+              <http://id.crossref.org/issn/1077-2626> ;
+      <http://purl.org/dc/terms/publisher>
+              "Institute of Electrical and Electronics Engineers (IEEE)" ;
+      <http://purl.org/dc/terms/title>
+              "Noodles: A Tool for Visualization of Numerical Weather Model Ensemble Uncertainty" ;
+      <http://purl.org/ontology/bibo/doi>
+              "10.1109/tvcg.2010.181" ;
+      <http://purl.org/ontology/bibo/pageEnd>
+              "1430" ;
+      <http://purl.org/ontology/bibo/pageStart>
+              "1421" ;
+      <http://purl.org/ontology/bibo/volume>
+              "16" ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <info:doi/10.1109/tvcg.2010.181> , <doi:10.1109/tvcg.2010.181> , <http://dx.doi.org/10.1109/tvcg.2010.181> .

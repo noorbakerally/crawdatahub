@@ -1,0 +1,221 @@
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pleiades: <https://pleiades.stoa.org/places/vocab#> .
+@prefix prov: <http://www.w3.org/TR/prov-o/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spatial: <http://geovocab.org/spatial#> .
+
+<https://pleiades.stoa.org/places/1043#this> a <http://geovocab.org/spatial#Feature>;
+    rdfs:label "Internum Mare";
+    spatial:C <https://pleiades.stoa.org/places/1046#this>,
+        <https://pleiades.stoa.org/places/1094#this>,
+        <https://pleiades.stoa.org/places/1356#this>,
+        <https://pleiades.stoa.org/places/148020#this>,
+        <https://pleiades.stoa.org/places/148089#this>,
+        <https://pleiades.stoa.org/places/157878#this>,
+        <https://pleiades.stoa.org/places/157942#this>,
+        <https://pleiades.stoa.org/places/246419#this>,
+        <https://pleiades.stoa.org/places/246709#this>,
+        <https://pleiades.stoa.org/places/256045#this>,
+        <https://pleiades.stoa.org/places/256198#this>,
+        <https://pleiades.stoa.org/places/265818#this>,
+        <https://pleiades.stoa.org/places/265874#this>,
+        <https://pleiades.stoa.org/places/285491#this>,
+        <https://pleiades.stoa.org/places/295279#this>,
+        <https://pleiades.stoa.org/places/433059#this>,
+        <https://pleiades.stoa.org/places/462075#this>,
+        <https://pleiades.stoa.org/places/462168#this>,
+        <https://pleiades.stoa.org/places/462290#this>,
+        <https://pleiades.stoa.org/places/462311#this>,
+        <https://pleiades.stoa.org/places/472063#this>,
+        <https://pleiades.stoa.org/places/560221#this>,
+        <https://pleiades.stoa.org/places/570407#this>,
+        <https://pleiades.stoa.org/places/589748#this>,
+        <https://pleiades.stoa.org/places/589944#this>,
+        <https://pleiades.stoa.org/places/638836#this>,
+        <https://pleiades.stoa.org/places/639079#this>,
+        <https://pleiades.stoa.org/places/648593#this>,
+        <https://pleiades.stoa.org/places/648748#this>,
+        <https://pleiades.stoa.org/places/658489#this>,
+        <https://pleiades.stoa.org/places/658560#this>,
+        <https://pleiades.stoa.org/places/678103#this>,
+        <https://pleiades.stoa.org/places/707498#this>,
+        <https://pleiades.stoa.org/places/727136#this>,
+        <https://pleiades.stoa.org/places/727137#this>,
+        <https://pleiades.stoa.org/places/727157#this>,
+        <https://pleiades.stoa.org/places/727172#this>,
+        <https://pleiades.stoa.org/places/727191#this>,
+        <https://pleiades.stoa.org/places/727198#this>,
+        <https://pleiades.stoa.org/places/727224#this>,
+        <https://pleiades.stoa.org/places/727239#this>,
+        <https://pleiades.stoa.org/places/746813#this>,
+        <https://pleiades.stoa.org/places/772#this>,
+        <https://pleiades.stoa.org/places/775#this>,
+        <https://pleiades.stoa.org/places/776#this>,
+        <https://pleiades.stoa.org/places/837#this>,
+        <https://pleiades.stoa.org/places/845#this>,
+        <https://pleiades.stoa.org/places/993#this>;
+    rdfs:comment "The Mediterranean Sea or Mare Nostrum is a sea connected to the Atlantic Ocean that is surrounded almost completely by land.";
+    foaf:primaryTopicOf <https://pleiades.stoa.org/places/1043> .
+
+<https://pleiades.stoa.org/places/1043> a <http://www.w3.org/2004/02/skos/core#Concept>,
+        <https://pleiades.stoa.org/places/vocab#Place>;
+    dcterms:bibliographicCitation "";
+    dcterms:contributor <https://pleiades.stoa.org/author/fdeblauwe>,
+        <https://pleiades.stoa.org/author/jbecker>,
+        <https://pleiades.stoa.org/author/juser>,
+        <https://pleiades.stoa.org/author/sgillies>,
+        <https://pleiades.stoa.org/author/thomase>;
+    dcterms:coverage "Mediterranean Sea";
+    dcterms:creator <http://viaf.org/viaf/51858528>,
+        <http://viaf.org/viaf/59162760>,
+        <http://viaf.org/viaf/65713033>,
+        <https://pleiades.stoa.org/author/lund-brian-z>;
+    dcterms:description "The Mediterranean Sea or Mare Nostrum is a sea connected to the Atlantic Ocean that is surrounded almost completely by land.";
+    dcterms:modified "2017-01-20T16:39:03-04:00";
+    dcterms:title "Internum Mare";
+    cito:citesAsRelated [ ],
+        [ ],
+        [ ];
+    cito:citesForInformation [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ];
+    rdfs:seeAlso <https://pleiades.stoa.org/places/1046>,
+        <https://pleiades.stoa.org/places/1094>,
+        <https://pleiades.stoa.org/places/1356>,
+        <https://pleiades.stoa.org/places/148020>,
+        <https://pleiades.stoa.org/places/148089>,
+        <https://pleiades.stoa.org/places/157878>,
+        <https://pleiades.stoa.org/places/157942>,
+        <https://pleiades.stoa.org/places/246419>,
+        <https://pleiades.stoa.org/places/246709>,
+        <https://pleiades.stoa.org/places/256045>,
+        <https://pleiades.stoa.org/places/256198>,
+        <https://pleiades.stoa.org/places/265818>,
+        <https://pleiades.stoa.org/places/265874>,
+        <https://pleiades.stoa.org/places/285491>,
+        <https://pleiades.stoa.org/places/295279>,
+        <https://pleiades.stoa.org/places/433059>,
+        <https://pleiades.stoa.org/places/462075>,
+        <https://pleiades.stoa.org/places/462168>,
+        <https://pleiades.stoa.org/places/462290>,
+        <https://pleiades.stoa.org/places/462311>,
+        <https://pleiades.stoa.org/places/472063>,
+        <https://pleiades.stoa.org/places/560221>,
+        <https://pleiades.stoa.org/places/570407>,
+        <https://pleiades.stoa.org/places/589748>,
+        <https://pleiades.stoa.org/places/589944>,
+        <https://pleiades.stoa.org/places/638836>,
+        <https://pleiades.stoa.org/places/639079>,
+        <https://pleiades.stoa.org/places/648593>,
+        <https://pleiades.stoa.org/places/648748>,
+        <https://pleiades.stoa.org/places/658489>,
+        <https://pleiades.stoa.org/places/658560>,
+        <https://pleiades.stoa.org/places/678103>,
+        <https://pleiades.stoa.org/places/707498>,
+        <https://pleiades.stoa.org/places/727136>,
+        <https://pleiades.stoa.org/places/727137>,
+        <https://pleiades.stoa.org/places/727157>,
+        <https://pleiades.stoa.org/places/727172>,
+        <https://pleiades.stoa.org/places/727191>,
+        <https://pleiades.stoa.org/places/727198>,
+        <https://pleiades.stoa.org/places/727224>,
+        <https://pleiades.stoa.org/places/727239>,
+        <https://pleiades.stoa.org/places/746813>,
+        <https://pleiades.stoa.org/places/772>,
+        <https://pleiades.stoa.org/places/775>,
+        <https://pleiades.stoa.org/places/776>,
+        <https://pleiades.stoa.org/places/837>,
+        <https://pleiades.stoa.org/places/845>,
+        <https://pleiades.stoa.org/places/993>;
+    owl:sameAs <http://pleiades.stoa.org/places/1043>;
+    skos:altLabel "Internum Mare"@la,
+        "Mare Nostrum"@la,
+        "Mediterranean Sea"@en;
+    skos:inScheme <https://pleiades.stoa.org/places>;
+    prov:wasDerivedFrom [ rdfs:label "Barrington Atlas: BAtlas 1 G4 Internum Mare" ];
+    pleiades:hasFeatureType <https://pleiades.stoa.org/vocabularies/place-types/water-open>;
+    pleiades:hasName <https://pleiades.stoa.org/places/1043/internum-mare>,
+        <https://pleiades.stoa.org/places/1043/mare-nostrum>,
+        <https://pleiades.stoa.org/places/1043/name.2013-07-23.3118593130> .
+
+<https://pleiades.stoa.org/places/1043/internum-mare> a <https://pleiades.stoa.org/places/vocab#Name>;
+    dcterms:bibliographicCitation "";
+    dcterms:contributor <http://viaf.org/viaf/51858528>,
+        <http://viaf.org/viaf/59162760>,
+        <http://viaf.org/viaf/65713033>,
+        <https://pleiades.stoa.org/author/jbecker>,
+        <https://pleiades.stoa.org/author/lund-brian-z>,
+        <https://pleiades.stoa.org/author/thomase>;
+    dcterms:creator <https://pleiades.stoa.org/author/sgillies>;
+    dcterms:description "";
+    dcterms:modified "2013-07-23T15:09:53-04:00";
+    dcterms:title "Internum Mare";
+    cito:citesForInformation [ ];
+    owl:sameAs <http://pleiades.stoa.org/places/1043/internum-mare>;
+    prov:wasDerivedFrom [ rdfs:label "Barrington Atlas: BAtlas 1 G4 Internum Mare" ];
+    pleiades:during <https://pleiades.stoa.org/vocabularies/time-periods/roman>;
+    pleiades:end_date 300;
+    pleiades:nameAttested "Internum Mare"@la;
+    pleiades:nameRomanized "Internum Mare";
+    pleiades:start_date -30 .
+
+<https://pleiades.stoa.org/places/1043/mare-nostrum> a <https://pleiades.stoa.org/places/vocab#Name>;
+    dcterms:bibliographicCitation "";
+    dcterms:creator <https://pleiades.stoa.org/author/jbecker>;
+    dcterms:description "";
+    dcterms:modified "2013-07-30T12:01:10-04:00";
+    dcterms:title "Mare Nostrum";
+    cito:citesAsEvidence [ ],
+        [ ],
+        [ ],
+        [ ];
+    owl:sameAs <http://pleiades.stoa.org/places/1043/mare-nostrum>;
+    prov:wasDerivedFrom [ rdfs:label "Pleiades" ];
+    pleiades:during <https://pleiades.stoa.org/vocabularies/time-periods/roman>;
+    pleiades:end_date 300;
+    pleiades:nameAttested "Mare Nostrum"@la;
+    pleiades:nameRomanized "Mare Nostrum";
+    pleiades:start_date -30 .
+
+<https://pleiades.stoa.org/places/1043/name.2013-07-23.3118593130> a <https://pleiades.stoa.org/places/vocab#Name>;
+    dcterms:bibliographicCitation "";
+    dcterms:creator <https://pleiades.stoa.org/author/jbecker>;
+    dcterms:description "modern toponym";
+    dcterms:modified "2013-07-30T12:15:43-04:00";
+    dcterms:title "Mediterranean Sea";
+    cito:citesAsEvidence [ ];
+    owl:sameAs <http://pleiades.stoa.org/places/1043/name.2013-07-23.3118593130>;
+    prov:wasDerivedFrom [ rdfs:label "Pleiades" ];
+    pleiades:during <https://pleiades.stoa.org/vocabularies/time-periods/modern>;
+    pleiades:end_date 2100;
+    pleiades:nameRomanized "Mediterranean Sea";
+    pleiades:start_date 1700 .
+
+<https://pleiades.stoa.org/vocabularies/place-types/water-open> a <http://www.w3.org/2004/02/skos/core#Concept>;
+    owl:sameAs <http://pleiades.stoa.org/vocabularies/place-types/water-open>;
+    skos:inScheme <https://pleiades.stoa.org/vocabularies/place-types>;
+    skos:prefLabel "water, open"@en .
+
+<https://pleiades.stoa.org/vocabularies/time-periods/modern> a <http://www.w3.org/2004/02/skos/core#Concept>;
+    owl:sameAs <http://n2t.net/ark:/99152/p03wskdgh6j>,
+        <http://pleiades.stoa.org/vocabularies/time-periods/modern>;
+    skos:inScheme <https://pleiades.stoa.org/vocabularies/time-periods>;
+    skos:prefLabel "Modern (AD 1700-Present)"@en;
+    skos:scopeNote "Our present, modern era. [[1700, 2100]]"@en .
+
+<https://pleiades.stoa.org/vocabularies/time-periods/roman> a <http://www.w3.org/2004/02/skos/core#Concept>;
+    owl:sameAs <http://n2t.net/ark:/99152/p03wskdxnzf>,
+        <http://pleiades.stoa.org/vocabularies/time-periods/roman>;
+    skos:inScheme <https://pleiades.stoa.org/vocabularies/time-periods>;
+    skos:prefLabel "Roman, early Empire (30 BC-AD 300)"@en;
+    skos:scopeNote "The Roman period (i.e., the early Roman Empire) in Greek and Roman history. For the purposes of Pleiades, this period is said to begin in the year 30 before the birth of Christ and to end in the year 300 after the birth of Christ. [[-30, 300]]"@en .
+

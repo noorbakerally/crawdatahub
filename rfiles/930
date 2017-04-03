@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://localhost:8080/resource/"
+    xmlns:ir="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:yago="http://localhost:8080/class/yago/"
+    xmlns:geoes="http://geo.linkeddata.es/ontology/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:geosparql="http://www.opengis.net/ont/geosparql/"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:p="http://localhost:8080/property/"
+    xmlns:skos="http://www.w3.org/2008/05/skos#"
+    xmlns:j.0="http://spinrdf.org/sp#"
+    xmlns:scovo="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:pheno="http://phenomenontology.linkeddata.es/ontology/"
+    xmlns:j.1="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://geo.linkeddata.es/data/resource/Provincia/Madrid">
+    <rdfs:label>RDF description of Madrid</rdfs:label>
+    <foaf:primaryTopic>
+      <geoes:Provincia rdf:about="http://geo.linkeddata.es/resource/Provincia/Madrid">
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Galapagar"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villar%20del%20Olmo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Torrej%C3%B3n%20de%20la%20Calzada"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Legan%C3%A9s"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Navalcarnero"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Santorcaz"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Torrej%C3%B3n%20de%20Ardoz"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Colmenar%20del%20Arroyo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Colmenar%20de%20Oreja"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Hiruela"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Ambite"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pi%C3%B1u%C3%A9car-Gandullas"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Puebla%20de%20la%20Sierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Caraba%C3%B1a"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Campo%20Real"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Quijorna"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Parla"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Navacerrada"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Colmenar%20Viejo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Alpedrete"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Guadarrama"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Titulcia"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villarejo%20de%20Salvan%C3%A9s"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Garganta%20de%20los%20Montes"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/El%20%C3%81%C2%81lamo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villaviciosa%20de%20Od%C3%B3n"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Hoyo%20de%20Manzanares"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pedrezuela"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Escorial%2C%20El"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Fuente%20el%20Saz%20de%20Jarama"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pezuela%20de%20las%20Torres"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pr%C3%A1dena%20del%20Rinc%C3%B3n"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Humanes%20de%20Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/M%C3%B3stoles"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Torrelodones"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villa%20del%20Prado"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pozuelo%20de%20Alarc%C3%B3n"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Serranillos%20del%20Valle"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villanueva%20de%20Perales"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cabrera%2C%20La"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Velilla%20de%20San%20Antonio"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pinto"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Navalafuente"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Estremera"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Fresnedillas%20de%20la%20Oliva"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Chinch%C3%B3n"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Corpa"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Berzosa%20del%20Lozoya"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Lozoya"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Atazar"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cobe%C3%B1a"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Venturada"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Ciempozuelos"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Community_of_Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/San%20Agust%C3%ADn%20del%20Guadalix"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Orusco%20de%20Taju%C3%B1a"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Tielmes"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Somosierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Torres%20de%20la%20Alameda"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Fuentidue%C3%B1a%20de%20Tajo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Boalo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Madarcos"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Algete"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Patones"/>
+        <owl:sameAs rdf:resource="http://geo.linkeddata.es/resource/Provincia/Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Escorial"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cubas%20de%20la%20Sagra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Molar%2C%20El"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Buitrago%20del%20Lozoya"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Berrueco%2C%20El"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Casarrubuelos"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Acebeda"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/San%20Mart%C3%ADn%20de%20Valdeiglesias"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cadalso%20de%20los%20Vidrios"/>
+        <owl:sameAs rdf:resource="http://geo.linkeddata.es/NOMGEO/resource/Provincia/Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Horcajo%20de%20la%20Sierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Zarzalejo"/>
+        <geoes:formaParteDe rdf:resource="http://geo.linkeddata.es/resource/ComunidadAut%C3%B3noma/Comunidad%20de%20Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/San%20Fernando%20de%20Henares"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Alcobendas"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villalbilla"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Robledo%20de%20Chavela"/>
+        <owl:sameAs rdf:resource="http://geo.linkeddata.es/NGCE/resource/Provincia/Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Braojos"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Talamanca%20de%20Jarama"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdemaqueda"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Loeches"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Fresno%20de%20Torote"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Lozoyuela"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Arroyomolinos_%28Madrid%29"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Nuevo%20Bazt%C3%A1n"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdemorillo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Molinos%2C%20Los"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Fuenlabrada"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Sevilla%20la%20Nueva"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Boadilla%20del%20Monte"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Torrej%C3%B3n%20de%20Velasco"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pozuelo%20del%20Rey"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Meco"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Montejo%20de%20la%20Sierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Ajalvir"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Becerril%20de%20la%20Sierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdeavero"/>
+        <geo:geometry rdf:resource="http://geo.linkeddata.es/resource/wgs84/40.4178488946733_-3.70225217644804"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Navarredonda%20y%20San%20Mam%C3%A9s"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villavieja%20del%20Lozoya"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Arroyomolinos"/>
+        <owl:sameAs rdf:resource="http://gadm.geovocab.org/id/2_13628"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villamanrique%20de%20Tajo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Canencia"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdaracete"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdemoro"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdilecha"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Alameda%20del%20Valle"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Belmonte%20de%20Tajo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Vell%C3%B3n"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Brea%20de%20Tajo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Getafe"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/San%20Lorenzo%20de%20El%20Escorial"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Gri%C3%B1%C3%B3n"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Santos%20de%20la%20Humosa"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Olmeda%20de%20las%20Fuentes"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdeolmos"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Morata%20de%20Taju%C3%B1a"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Redue%C3%B1a"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Robledillo%20de%20la%20Jara"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Soto%20del%20Real"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Gascones"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Coslada"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Arganda%20del%20Rey"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villamanta"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Torremocha%20de%20Jarama"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villanueva%20del%20Pardillo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Paracuellos%20de%20Jarama"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Puentes%20Viejas"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Perales%20de%20Taju%C3%B1a"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Rozas%20de%20Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Collado%20Villalba"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pinilla%20del%20Valle"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Aldea%20del%20Fresno"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cercedilla"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Majadahonda"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Moraleja%20de%20Enmedio"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Collado%20Mediano"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Moralzarzal"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Colmenarejo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdemanco"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Robregordo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/San%20Sebasti%C3%A1n%20de%20los%20Reyes"/>
+        <owl:sameAs rdf:resource="http://sws.geonames.org/6355233/"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Navas%20del%20Rey"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Anchuelo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/San%20Mart%C3%ADn%20de%20la%20Vega"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Aranjuez"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdelaguna"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Camarma%20de%20Esteruelas"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Guadalix%20de%20la%20Sierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Alcal%C3%A1%20de%20Henares"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Brunete"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Bustarviejo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cervera%20de%20Buitrago"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdetorres%20de%20Jarama"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/%C3%81lamo%2C%20El"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Batres"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villaconejos"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Molar%2C%20El_%28Madrid%29"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cenicientos"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Ribatejada"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Miraflores%20de%20la%20Sierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villamantilla"/>
+        <owl:sameAs rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Alcorc%C3%B3n"/>
+        <geo:geometry rdf:resource="http://geo.linkeddata.es/resource/wgs84/40.4_-3.68333333333333"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cabrera"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valverde%20de%20Alcal%C3%A1"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Santa%20Mar%C3%ADa%20de%20la%20Alameda"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Vaciamadrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Tres%20Cantos"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Madrid</rdfs:label>
+        <rdfs:label xml:lang="es">Madrid</rdfs:label>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Villanueva%20de%20la%20Ca%C3%B1ada"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Mejorada%20del%20Campo"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Cabanillas%20de%20la%20Sierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Daganzo%20de%20Arriba"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Rozas%20de%20Puerto%20Real"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Valdepi%C3%A9lagos"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Rozas%20de%20Madrid%2C%20Las"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Navalagamella"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Pelayos%20de%20la%20Presa"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Rivas-Vaciamadrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Rascafr%C3%ADa"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Gargantilla%20del%20Lozoya"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Gri%C3%B3n"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Serna%20del%20Monte"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Horcajuelo%20de%20la%20Sierra"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Chapiner%C3%ADa"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Manzanares%20el%20Real"/>
+        <geoes:tieneCapital rdf:resource="http://geo.linkeddata.es/resource/Municipio/Madrid"/>
+        <geoes:formadoPor rdf:resource="http://geo.linkeddata.es/resource/Municipio/Torrelaguna"/>
+      </geoes:Provincia>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <j.1:Graph>
+    <prv:createdBy>
+      <prv:DataCreation>
+        <prv:usedData>
+          <j.1:Graph>
+            <prv:createdBy>
+              <prvTypes:QueryExecution>
+                <prv:usedGuideline>
+                  <j.0:Describe>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DEFINE sql:describe-mode "CBD" DESCRIBE &lt;http://geo.linkeddata.es/resource/Provincia/Madrid&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+                  </j.0:Describe>
+                </prv:usedGuideline>
+                <prv:usedData rdf:resource="http://geo.linkeddata.es/sparql"/>
+                <prv:performedBy>
+                  <prvTypes:DataCreatingService rdf:nodeID="A0">
+                    <rdfs:seeAlso rdf:resource="http://geo.linkeddata.es/sparql"/>
+                  </prvTypes:DataCreatingService>
+                </prv:performedBy>
+              </prvTypes:QueryExecution>
+            </prv:createdBy>
+            <prv:retrievedBy>
+              <prv:DataAccess>
+                <prv:accessedService rdf:nodeID="A0"/>
+                <prv:performedBy>
+                  <prv:DataProvidingService rdf:nodeID="A1">
+                    <rdfs:seeAlso rdf:resource="http://geo.linkeddata.es/"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#DataCreatingService"/>
+                  </prv:DataProvidingService>
+                </prv:performedBy>
+                <prv:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2017-04-02T16:37:42.833Z</prv:performedAt>
+              </prv:DataAccess>
+            </prv:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+          </j.1:Graph>
+        </prv:usedData>
+        <prv:performedBy rdf:nodeID="A1"/>
+        <prv:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-04-02T16:37:42.833Z</prv:performedAt>
+      </prv:DataCreation>
+    </prv:createdBy>
+    <dcterms:spatial rdf:resource="http://geo.linkeddata.es/resource/Pa%C3%ADs/Espa%C3%B1a"/>
+    <dc:rights xml:lang="es">La información geográfica digital comprendida en el  Equipamiento Geográfico de Referencia Nacional  (artículo 1.1 de la Orden FOM/956/2008) así como los  Metadatos   de los datos geográficos y servicios del IGN-CNIG, no requieren la aceptación de licencia y su uso será, en cualquier caso, libre y gratuito, siempre que se mencione al Instituto Geográfico Nacional como propietario de los datos.</dc:rights>
+    <dcterms:publisher rdf:resource="http://geo.linkeddata.es"/>
+    <dcterms:creator rdf:resource="http://geo.linkeddata.es/resource/Organizaci%C3%B3n/InstitutoGeogr%C3%A1ficoNacionalDeEspa%C3%B1a"/>
+    <foaf:primaryTopic rdf:resource="http://geo.linkeddata.es/resource/Provincia/Madrid"/>
+  </j.1:Graph>
+</rdf:RDF>

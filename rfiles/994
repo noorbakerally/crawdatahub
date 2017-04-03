@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:og="http://ogp.me/ns#">
+<head>
+
+
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Countering Entropy Measure Attacks on Packed Software Detection - Smartness, Semantics and Security - GNOSS</title>
+
+    <link id="IMGfavicon" rel="shortcut icon" type="image/ico" />
+
+        <link rel="canonical" href="https://redprivada.gnoss.com//comunidad/deustotechcomputing/recurso/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="en" href="https://redprivada.gnoss.com//en/community/deustotechcomputing/resource/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="es" href="https://redprivada.gnoss.com//comunidad/deustotechcomputing/recurso/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="pt" href="https://redprivada.gnoss.com//pt/comunidade/deustotechcomputing/recurso/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="ca" href="https://redprivada.gnoss.com//ca/comunitat/deustotechcomputing/recurs/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="eu" href="https://redprivada.gnoss.com//eu/komunitatea/deustotechcomputing/baliabidea/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="gl" href="https://redprivada.gnoss.com//gl/comunidade/deustotechcomputing/recurso/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="fr" href="https://redprivada.gnoss.com//fr/communaute/deustotechcomputing/ressource/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="de" href="https://redprivada.gnoss.com//de/gemeinde/deustotechcomputing/ressource/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+                <link rel="alternate" hreflang="it" href="https://redprivada.gnoss.com//it/comunita/deustotechcomputing/risorsa/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" />
+    
+        <meta name="robots" content="noindex, nofollow" />
+
+
+
+    
+
+    <link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/unificado.css?v=2.3.1711a20170320" />
+
+
+
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/lang/es/idioma.css?v=2.3.1711a20170320" />
+<link media="screen" type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link media="screen" type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito|Open Sans:300,400,600,700&amp;subset=latin" />
+
+    <link media="screen" type="text/css" rel="stylesheet" href="https://content.gnoss.com/imagenes/proyectos/personalizacion/eea8ee4c-c1b8-4809-8474-5647be7a1b5e/community.css?v=9" />
+
+
+    
+
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/jquery.min.js?v=2.3.1711a20170320"></script>
+
+    <script type="text/javascript" src="https://static2.gnoss.com/js/unificado.js?v=2.3.1711a20170320"></script>
+
+
+<script type="text/javascript" src="https://static2.gnoss.com/lang/en/text.js?v=2.3.1711a20170320"></script>
+
+
+
+    <script type="text/javascript" src="https://content.gnoss.com/imagenes/proyectos/personalizacion/eea8ee4c-c1b8-4809-8474-5647be7a1b5e/community.js?v=10"></script>    
+
+    <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker = _gat._getTracker("UA-10859712-25");pageTracker._trackPageview();pageTracker._setDomainName('.gnoss.com');} catch(err) {}</script>
+
+
+
+
+
+
+</head>
+
+<body class=" invitado">
+    
+
+
+
+    <form method="post" target="_blank" action="" name="formularioHidden" id="formularioHidden">
+        <fieldset style="display: none">
+            <legend class="nota">formularioHidden</legend>
+                <input type="hidden" id="inpt_proyID" class="inpt_proyID" value="eea8ee4c-c1b8-4809-8474-5647be7a1b5e"/>
+                <input type="hidden" id="inpt_usuarioID" class="inpt_usuarioID" value="ffffffff-ffff-ffff-ffff-ffffffffffff"/>
+                <input type="hidden" id="inpt_bool_esMyGnoss" class="inpt_bool_esMyGnoss" value="True"/>
+                <input type="hidden" id="inpt_bool_estaEnProyecto" class="inpt_bool_estaEnProyecto" value="False"/>
+                <input type="hidden" id="inpt_bool_esUsuarioInvitado" class="inpt_bool_esUsuarioInvitado" value="True"/>
+                <input type="hidden" id="inpt_perfilID" class="inpt_perfilID" value="ffffffff-ffff-ffff-ffff-ffffffffffff"/>
+                <input type="hidden" id="inpt_identidadID" class="inpt_identidadID" value="FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF"/>
+                <input type="hidden" id="inpt_perfilOrgID" class="inpt_perfilOrgID" value="00000000-0000-0000-0000-000000000000"/>
+                <input type="hidden" id="inpt_Cookies" class="inpt_Cookies" value="True"/>
+                <input type="hidden" id="inpt_Idioma" class="inpt_Idioma" value="en"/>
+                <input type="hidden" id="inpt_baseUrlBusqueda" class="inpt_baseUrlBusqueda" value="https://redprivada.gnoss.com//en/community/deustotechcomputing"/>
+                <input type="hidden" id="inpt_baseURL" class="inpt_baseURL" value="https://redprivada.gnoss.com"/>
+                <input type="hidden" id="inpt_baseURLContent" class="inpt_baseURLContent" value="https://content.gnoss.com"/>
+                <input type="hidden" id="inpt_baseURLStatic" class="inpt_baseURLStatic" value="https://static2.gnoss.com"/>
+                <input type="hidden" id="inpt_tablaPropiaAutoCompletar" class="inpt_tablaPropiaAutoCompletar" value="False"/>
+                <input type="hidden" id="inpt_organizacionID" class="inpt_organizacionID" value="11111111-1111-1111-1111-111111111111"/>
+                <input type="hidden" id="inpt_AdministradorOrg" class="inpt_AdministradorOrg" value="False"/>
+                <input type="hidden" id="inpt_UrlLogin" class="inpt_UrlLogin" value="https://login2.gnoss.com/login.aspx?token=dl9Jo6gw7TCC9i5Q0yqEzhR8Pl7j4DEIvNkymoPBxYs%253d&amp;proyectoID=eea8ee4c-c1b8-4809-8474-5647be7a1b5e"/>
+                <input type="hidden" id="inpt_FacetasProyAutoCompBuscadorCom" class="inpt_FacetasProyAutoCompBuscadorCom" value="dc:creator@@@foaf:name|"/>
+                <input type="hidden" id="inpt_tipoBusquedaAutoCompl" class="inpt_tipoBusquedaAutoCompl" value=""/>
+                <input type="hidden" id="inpt_usarMasterParaLectura" class="inpt_usarMasterParaLectura" value="False"/>
+                <input type="hidden" id="inpt_UrlServicioFacetas" class="inpt_UrlServicioFacetas" value="https://facetasredprivada.gnoss.com/CargadorFacetas"/>
+                <input type="hidden" id="inpt_UrlServicioResultados" class="inpt_UrlServicioResultados" value="https://resultadosredprivada.gnoss.com/CargadorResultados"/>
+                <input type="hidden" id="inpt_UrlServicioContextos" class="inpt_UrlServicioContextos" value="https://resultadoshome.gnoss.com/CargadorContextoMensajes"/>
+                <input type="hidden" id="inpt_urlServicioAutocompletar" class="inpt_urlServicioAutocompletar" value="https://autocompletar.gnoss.com/AutoCompletar.asmx"/>
+                <input type="hidden" id="inpt_urlServicioAutocompletarEtiquetas" class="inpt_urlServicioAutocompletarEtiquetas" value="https://autocompletarred.gnoss.com/AutoCompletarEtiquetas.asmx"/>
+                <input type="hidden" id="inpt_urlEtiquetadoAutomatico" class="inpt_urlEtiquetadoAutomatico" value="https://etiquetado.gnoss.com/EtiquetadoAutomatico.asmx"/>
+                <input type="hidden" id="inpt_serverTime" class="inpt_serverTime" value="2017/04/02 19:12"/>
+                <input type="hidden" id="inpt_tipo" class="inpt_tipo" value=""/>
+                <input type="hidden" id="inpt_MantenerSesionActiva" class="inpt_MantenerSesionActiva" value="True"/>
+            <input type="submit" style="display: none;" id="enviarHidden" value="enviar" title="enviar" />
+        </fieldset>
+    </form>
+
+    <form method="post" target="_blank" action="" name="formularioRDF" id="formularioRDF">
+        <fieldset style="display: none">
+            <legend class="nota">formularioRDF</legend>
+            <input type="text" style="display: none;" title="query" name="query" id="query" />
+            <input type="text" style="display: none;" title="pagina" name="pagina" id="pagina" />
+            <input type="submit" style="display: none;" id="rdfHack" value="enviar" title="enviar" />
+        </fieldset>
+    </form>
+
+    <div style="width: 100px; height: 100px; position: absolute; display: none; left: 0px; top: 0px; z-index: 2000" class="popup">
+        <img style="border-width: 0px;" alt="Cargando..." src="https://static2.gnoss.com/img/espera.gif" />
+        <p><strong>Cargando...</strong></p>
+    </div>
+    <div style="display: none; z-index: 1999; width: 100%; top: 0px; left: 0px; position: absolute; height: 2900px;" id="mascaraBlanca"></div>
+
+    <div class="aaCabecera">
+
+        <form method="post" id="formLogin" action="https://login2.gnoss.com/login.aspx?token=dl9Jo6gw7TCC9i5Q0yqEzhR8Pl7j4DEIvNkymoPBxYs%253d&amp;proyectoID=eea8ee4c-c1b8-4809-8474-5647be7a1b5e">
+            <input type="text" name="usuario" title="User" id="usuario" style="display: none;" />
+            <input type="text" name="password" title="Password" id="password" style="display: none;" /> 
+            <input type="text" name="clausulasRegistro" title="clausulasRegistro" id="clausulasRegistro" style="display: none;" />
+
+            <div id="formularioLoginHeader" class="formularioLoginHeader">
+                <div class="wrap">
+                    <div class="errores" style="display: none" id="errorLogin"></div>
+                    <fieldset class="mediumLabels">
+                        <legend>Login </legend>
+                        <p>
+                            <label for="txtUsuario">Email or username</label>
+                            <input type="text" id="txtUsuario" class="text medium" />
+                        </p>
+                        <p>
+                            <label for="txtContraseña">Password</label>
+                            <input type="password" id="txtContraseña" class="text medium" />
+                        </p>
+
+                    </fieldset>
+                    <fieldset class="registroRedesSociales">
+                        <legend></legend>
+                        <p>
+                            <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/join">Sign up</a>
+                        </p>
+                    </fieldset>
+                        <fieldset class="registroRedesSociales">
+                            <legend>Or if you prefer...</legend>
+                            <ul>
+                                    <li class="iconFacebook">Connect with <a href="https://login2.gnoss.com/loginfacebook.aspx?token=dl9Jo6gw7TCC9i5Q0yqEzhR8Pl7j4DEIvNkymoPBxYs%253d&amp;proyectoID=eea8ee4c-c1b8-4809-8474-5647be7a1b5e&amp;urlOrigen=https%3a%2f%2fredprivada.gnoss.com%2fen%2fcommunity%2fdeustotechcomputing%2fresource%2fCountering-Entropy-Measure-Attacks-on-Packed-Softw%2fe6191c80-0872-443d-9bb9-ba22afd96702">Facebook</a>
+                                    </li>
+                                    <li class="iconGoogle">Connect with <a href="https://login2.gnoss.com/logingoogle.aspx?token=dl9Jo6gw7TCC9i5Q0yqEzhR8Pl7j4DEIvNkymoPBxYs%253d&amp;proyectoID=eea8ee4c-c1b8-4809-8474-5647be7a1b5e&amp;urlOrigen=https%3a%2f%2fredprivada.gnoss.com%2fen%2fcommunity%2fdeustotechcomputing%2fresource%2fCountering-Entropy-Measure-Attacks-on-Packed-Softw%2fe6191c80-0872-443d-9bb9-ba22afd96702">Google</a>
+                                    </li>
+                                    <li class="iconTwitter">Connect with <a href="https://login2.gnoss.com/logintwitter.aspx?token=dl9Jo6gw7TCC9i5Q0yqEzhR8Pl7j4DEIvNkymoPBxYs%253d&amp;proyectoID=eea8ee4c-c1b8-4809-8474-5647be7a1b5e&amp;urlOrigen=https%3a%2f%2fredprivada.gnoss.com%2fen%2fcommunity%2fdeustotechcomputing%2fresource%2fCountering-Entropy-Measure-Attacks-on-Packed-Softw%2fe6191c80-0872-443d-9bb9-ba22afd96702">Twitter</a>
+                                    </li>
+                            </ul>
+                        </fieldset>
+                    <fieldset>
+                        <p>
+                            <input type="button" value="Sign in" class="submit principal" id="btnEntrar" name="btnEntrar" />
+                            &nbsp;<a class="login" href="https://redprivada.gnoss.com//en/community/deustotechcomputing/olvide-password">I forgot my password</a>
+                        </p>
+                    </fieldset>
+                    <div class="tools">
+                        <p><a class="hidePanel" href="#formularioLoginHeader">cerrar </a></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div id="identidad">
+            <div class="wrapper">
+                <ul id="opciones">
+                    <li><a href="#formularioLoginHeader" class="hideShowPanel">Sign in</a></li>
+                            <li><a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/join">Join community</a></li>                         
+                </ul>
+                <ul id="gnoss">
+                        <li>
+                            <a lang="es" href="https://redprivada.gnoss.com//comunidad/deustotechcomputing/recurso/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="Espa&#241;ol"><span>es</span></a>
+                        </li>
+                        <li>
+                            <a class="activo" lang="en" href="https://redprivada.gnoss.com//en/community/deustotechcomputing/resource/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="English"><span>en</span></a>
+                        </li>
+                        <li>
+                            <a lang="pt" href="https://redprivada.gnoss.com//pt/comunidade/deustotechcomputing/recurso/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="Portuguese"><span>pt</span></a>
+                        </li>
+                        <li>
+                            <a lang="ca" href="https://redprivada.gnoss.com//ca/comunitat/deustotechcomputing/recurs/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="Catal&#224;"><span>ca</span></a>
+                        </li>
+                        <li>
+                            <a lang="eu" href="https://redprivada.gnoss.com//eu/komunitatea/deustotechcomputing/baliabidea/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="Euskera"><span>eu</span></a>
+                        </li>
+                        <li>
+                            <a lang="gl" href="https://redprivada.gnoss.com//gl/comunidade/deustotechcomputing/recurso/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="Galego"><span>gl</span></a>
+                        </li>
+                        <li>
+                            <a lang="fr" href="https://redprivada.gnoss.com//fr/communaute/deustotechcomputing/ressource/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="Fran&#231;ais"><span>fr</span></a>
+                        </li>
+                        <li>
+                            <a lang="de" href="https://redprivada.gnoss.com//de/gemeinde/deustotechcomputing/ressource/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="Deutsch"><span>de</span></a>
+                        </li>
+                        <li>
+                            <a lang="it" href="https://redprivada.gnoss.com//it/comunita/deustotechcomputing/risorsa/countering-entropy-measure-attacks-on-packed/e6191c80-0872-443d-9bb9-ba22afd96702" title="Italiano"><span>it</span></a>
+                        </li>
+
+                    <li class="logo">
+                        <a rel="listado-gnoss" class="enlaceDesplegable" href="http://my.gnoss.com/en/home">Explore</a>
+                        <div class="desplegable listado-gnoss">
+                            <ul class="listado">
+                                <li><a href="http://my.gnoss.com/en/home">Home</a></li>
+                                <li><a href="http://my.gnoss.com/en/index">Index</a></li>
+                                <li><a href="http://my.gnoss.com/en/communities">Communities</a></li>
+                                <li><a href="http://my.gnoss.com/en/blogs">Blogs</a></li>
+                                <li><a href="http://my.gnoss.com/en/people-and-organizations">People and organizations</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+
+    <div id="header">
+        <div class="wrapper">
+            <p class="indentado"><a>Ir al contenido principal</a></p>
+            <div id="corporativo">
+                <div class="content" style="display: block; margin-top: 10px;">
+                        <!-- Panel Logo -->
+                        <div class="logoCustomRIAM">
+                            <h1>
+                                <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing">
+                                        <img src="https://content.gnoss.com/imagenes/proyectos/eea8ee4c-c1b8-4809-8474-5647be7a1b5e.png?v=1" title="Smartness, Semantics and Security" alt="Smartness, Semantics and Security" />
+                                </a>
+                            </h1>
+
+                        </div>
+                </div>
+            </div>
+            <div id="buscador">
+                <form method="post" id="formBuscador" action="https://redprivada.gnoss.com/en/community/deustotechcomputing/resource/Countering-Entropy-Measure-Attacks-on-Packed-Softw/e6191c80-0872-443d-9bb9-ba22afd96702">
+                    <fieldset style="display: block">
+                    <legend class="nota">buscador</legend>
+                    <div class="fieldsetGroup">
+                        <label for="ddlCategorias">Find in</label>
+                        <select class="ddlCategorias" id="ddlCategorias">
+                        <option value="MyGNOSSMeta">All GNOSS</option>
+                        <option value="121b447f-9e2d-4ac9-9c86-a81b8012d3d2" selected="selected">All the community</option>
+                        <option value="c2be7151-0835-452a-824a-b79fdb0b48d8">Researchers</option>
+                        <option value="365d686f-5fc4-47d7-92c6-b443ad4eface">Publications</option>
+                        <option value="1cefbfcb-cc79-486e-a2ad-164421a609ef">Projects</option>
+                        </select>
+                            <input type="hidden" value="ub_MyGNOSSMeta@https://redprivada.gnoss.com//en/community/deustotechcomputing/search?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_121b447f-9e2d-4ac9-9c86-a81b8012d3d2@https://redprivada.gnoss.com//en/community/deustotechcomputing/search?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_c2be7151-0835-452a-824a-b79fdb0b48d8@https://redprivada.gnoss.com//en/community/deustotechcomputing/Researchers?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_365d686f-5fc4-47d7-92c6-b443ad4eface@https://redprivada.gnoss.com//en/community/deustotechcomputing/Publications?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_1cefbfcb-cc79-486e-a2ad-164421a609ef@https://redprivada.gnoss.com//en/community/deustotechcomputing/Projects?search=" class="inpt_tipo_busqueda" />
+                                                        <input type="hidden" value="oa_c2be7151-0835-452a-824a-b79fdb0b48d8@Researchers" class="inpt_OrigenAutocompletar" />
+                                <input type="hidden" value="oa_365d686f-5fc4-47d7-92c6-b443ad4eface@Publications" class="inpt_OrigenAutocompletar" />
+                                <input type="hidden" value="oa_1cefbfcb-cc79-486e-a2ad-164421a609ef@Projects" class="inpt_OrigenAutocompletar" />
+                    </div>
+                    <!-- #buscador //-->
+                    <div class="fieldsetGroup searchGroup">
+                        <label for="criterio" class="nota">Buscar en &nbsp;</label>
+                        <input type="text" id="txtBusquedaPrincipal" class="text txtBusqueda autocompletar" />
+                        <input type="button" title="Find" class="encontrar" id="btnBuscarPrincipal" />
+                    </div>
+
+                    <!-- #buscador //-->
+                    <div class="botonBuscar"></div>
+                    <input type="submit" style="display: none;" id="enviarFormBuscador" value="enviar" title="enviar" />
+                    </fieldset>
+                </form>
+            </div>
+
+            <div id="nav">
+                <ul class="principal">
+                                                <li class="nivel01 navHomeCom Es.Riam.Gnoss.Web.MVC.Models.CommunityModel+TabModel.">
+                                <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing" >Home</a>
+                            </li>
+                            <li class="nivel01 Es.Riam.Gnoss.Web.MVC.Models.CommunityModel+TabModel.">
+                                <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/Researchers" >Researchers</a>
+                            </li>
+                            <li class="nivel01 Es.Riam.Gnoss.Web.MVC.Models.CommunityModel+TabModel.">
+                                <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/Publications" >Publications</a>
+                            </li>
+                            <li class="nivel01 Es.Riam.Gnoss.Web.MVC.Models.CommunityModel+TabModel.">
+                                <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/Projects" >Projects</a>
+                            </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    <div id="wrap">
+        <div id="page">
+                        
+            <div id="section">
+
+
+    <div class="columms" id="tools">
+        <div class="supertitle">
+            <p>
+                <strong> </strong>
+            </p>
+        </div>
+
+            <ul class="options tools">
+                <li class="botonRegistro">
+                        <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/join">Join and participate</a>
+                </li>
+                <li class="link">
+                    <span>or </span><a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/login">Sign in</a>
+                </li>
+            </ul>
+            <!-- .col-4 //-->
+    </div>
+                <div id="content">
+                    <div class="info columms" id="info">
+    <p class="title-panel-info">Login </p>
+    <div id="col03">
+                <div class="box">
+                    <fieldset>
+                        <legend><p>Ouch!, an error on @1@...</p><p>Lets get to work! Our development team is taking care of it.</p><p>We'll fix the indicent as soon as possible. Meanwhile, you can make any <a href="mailto:@2@">suggestion</a>. <p>Don't get angry... ;-)</p></p></legend>
+                    </fieldset>
+                </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+
+
+    <div class="cols-1">
+        <div class="cols-1">
+            <div class="box">
+                <ul>
+                    <li>
+                        <strong>
+                                © RIAM I+L Lab  2017                        </strong>
+                    </li>
+
+
+
+                    <li>
+                            <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/terms-of-use">Terms of use of GNOSS</a>
+                    </li>
+
+
+
+                        <li>
+                                <a href="https://redprivada.gnoss.com//eu/komunitatea/deustotechcomputing/cookien-politika" target="_blank">Pol&#237;tica de cookies</a>
+                        </li>
+
+
+                        <li>
+                            <a href="https://redprivada.gnoss.com//en/community/deustotechcomputing/about">About</a>
+                        </li>
+
+
+
+                        <li class="gnossIntegrate">
+                            <p>Integrated catalog in space</p>
+                            <p>
+                                <a href="http://gnoss.com/home">
+                                    <img alt="GNOSS" style="width:66px" src="https://static2.gnoss.com/img/logo_gnoss.png"/>
+                                </a>
+                            </p>
+                        </li>
+                </ul>
+
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            EjecutarScriptsIniciales2();
+        });
+    </script>
+    
+
+
+
+
+
+
+
+
+</body>
+</html>

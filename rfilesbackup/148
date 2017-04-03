@@ -1,0 +1,75 @@
+@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
+@prefix geo:   <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
+@prefix cito:  <http://purl.org/spar/cito/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix c4o:   <http://purl.org/spar/c4o/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix ufVivo: <http://vivo.ufl.edu/ontology/vivo-ufl/> .
+
+vivo:DependentResource
+        a       owl:Class .
+
+<http://vivo.ufl.edu/individual/n193072>
+        a               foaf:Group , ufVivo:UFEntity , owl:Thing , foaf:Organization , foaf:Agent , obo:BFO_0000002 , vivo:Committee , obo:BFO_0000001 , obo:BFO_0000004 ;
+        rdfs:label      "UF Health Science Center Institutional Review Board -- IRB01"@en-US ;
+        vivo:relatedBy  <http://vivo.ufl.edu/individual/n1622> .
+
+<http://vivo.ufl.edu/individual/n42003>
+        a               foaf:Person , foaf:Agent , obo:BFO_0000002 , ufVivo:UFCurrentEntity , vivo:NonAcademic , obo:BFO_0000001 , ufVivo:UFEntity , owl:Thing , obo:BFO_0000004 ;
+        rdfs:label      "Faunce, Allison E" ;
+        vivo:relatedBy  <http://vivo.ufl.edu/individual/n1622> .
+
+obo:BFO_0000001  a  owl:Class ;
+        rdfs:label  "Entity" .
+
+vivo:Position  a    owl:Class ;
+        rdfs:label  "Position"@en-US .
+
+<http://vivo.ufl.edu/individual/n1622/n1622.ttl>
+        a           foaf:Document ;
+        rdfs:label  "RDF description of http://vivo.ufl.edu/individual/n1622" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2017-04-01T19:22:01"^^xsd:dateTime ;
+        <http://purl.org/dc/elements/1.1/publisher>
+                <http://vivo.ufl.edu> ;
+        <http://purl.org/dc/elements/1.1/rights>
+                <http://vivo.ufl.edu/termsOfUse> .
+
+<http://vivo.ufl.edu/individual/n903890993>
+        a                           obo:BFO_0000003 , obo:BFO_0000038 , obo:BFO_0000001 , owl:Thing , vivo:DateTimeInterval , obo:BFO_0000008 ;
+        ufVivo:dateTimeIntervalFor  <http://vivo.ufl.edu/individual/n1622> .
+
+vivo:Relationship  a  owl:Class ;
+        rdfs:label  "Relationship"@en-US .
+
+<http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource>
+        a       owl:Class .
+
+obo:BFO_0000002  a  owl:Class ;
+        rdfs:label  "Continuant" .
+
+owl:Thing  a    owl:Class .
+
+obo:BFO_0000020  a  owl:Class ;
+        rdfs:label  "Specifically Dependent Continuant"@en-US .
+
+<http://vivo.ufl.edu/individual/n1622>
+        a                      obo:BFO_0000001 , owl:Thing , vivo:DependentResource , <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> , vivo:Relationship , obo:BFO_0000020 , vivo:Position , obo:BFO_0000002 ;
+        <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType>
+                vivo:Position ;
+        vivo:dateTimeInterval  <http://vivo.ufl.edu/individual/n903890993> ;
+        vivo:hrJobTitle        "RESEARCH P" ;
+        vivo:relates           <http://vivo.ufl.edu/individual/n42003> , <http://vivo.ufl.edu/individual/n193072> .

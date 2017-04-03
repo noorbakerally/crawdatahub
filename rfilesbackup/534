@@ -1,0 +1,49 @@
+@prefix kodac:   <http://data.kdata.kr/korea_data_category/> .
+@prefix geonames:  <http://www.geonames.org/ontology#> .
+@prefix kdataontology:  <http://data.kdata.kr/ontology/> .
+@prefix countries:  <http://data.kdata.kr/countries/> .
+@prefix ho:      <http://data.kdata.kr/heritage/> .
+@prefix meta:    <http://example.org/metadata#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prvTypes:  <http://purl.org/net/provenance/types#> .
+@prefix page:    <http://data.kdata.kr/page/> .
+@prefix event:   <http://purl.org/NET/c4dm/event.owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bc:      <http://data.kdata.kr/biological_classification/> .
+@prefix prv:     <http://purl.org/net/provenance/ns#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix kdata:   <http://data.kdata.kr/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix yago:    <http://localhost:8080/class/yago/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix kdc:     <http://data.kdata.kr/class/> .
+@prefix kohis:   <http://data.kdata.kr/korea_history/> .
+@prefix units:   <http://data.kdata.kr/units/> .
+@prefix kdp:     <http://data.kdata.kr/property/> .
+@prefix kcup:    <http://data.kdata.kr/cultural_property/> .
+@prefix p:       <http://localhost:8080/property/> .
+@prefix bibo:    <http://purl.org/ontology/bibo/> .
+@prefix administrative_section:  <http://data.kdata.kr/administrative_section/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix doap:    <http://usefulinc.com/ns/doap#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+kdata:Park_Chan-ho_baseball
+      rdf:type kdc:SportsPlayer ;
+      rdfs:label "박찬호"@ko ;
+      kdp:birthDate "1973-06-30"^^xsd:date ;
+      kdp:birthPlace administrative_section:Gongju-si , administrative_section:Chungcheongnam-do , <http://lod.fms.or.kr/resource/Gongju-si> , <http://lod.nature.go.kr/resource/Chungcheongnamdo> , <http://dbpedia.org/resource/Chungcheongnam-do> , <http://dbpedia.org/resource/Gongju> ;
+      kdp:graduatedFrom kdata:Gongju_High_School , kdata:Gongju_Middle_School , kdata:Hanyang_University , <http://dbpedia.org/resource/Hanyang_University> , <http://data.riss.kr/resource/University/211062> , kdata:Gongju_Elementary_School ;
+      kdp:height "185"^^xsd:float ;
+      kdp:playerNumber "61" ;
+      kdp:playerRecord kdata:Park_Chan-ho_baseball_rec2012 ;
+      kdp:position "투수" ;
+      kdp:team kdata:Hanwha_Eagles ;
+      kdp:throw_bat "우투우타" ;
+      kdp:weight "93"^^xsd:float ;
+      dcterms:subject kodac:Sports_Player , kodac:Baseball_Player , kodac:Pitcher ;
+      foaf:depiction <http://www.koreabaseball.com/file/person/middle/62761.jpg> ;
+      foaf:name "박찬호"@ko , "Park Chan-ho"@en .

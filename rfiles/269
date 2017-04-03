@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rdf:RDF xmlns:geo='http://www.w3.org/2003/01/geo/wgs84_pos#' xmlns:ns0='http://data.ordnancesurvey.co.uk/ontology/postcode/' xmlns:osadmingeo='http://data.ordnancesurvey.co.uk/ontology/admingeo/' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:spatialrelations='http://data.ordnancesurvey.co.uk/ontology/spatialrelations/'>
+  <ns0:PostcodeUnit rdf:about='http://uk-postcodes.com/postcode/KT172NG'>
+    <rdfs:label>KT17 2NG</rdfs:label>
+    <osadmingeo:Borough>
+      <rdf:Description rdf:about='http://data.ordnancesurvey.co.uk/id/7000000000013949'>
+        <rdfs:label>Epsom and Ewell</rdfs:label>
+      </rdf:Description>
+    </osadmingeo:Borough>
+    <osadmingeo:County>
+      <rdf:Description rdf:about='http://data.ordnancesurvey.co.uk/id/7000000000013965'>
+        <rdfs:label>Surrey</rdfs:label>
+      </rdf:Description>
+    </osadmingeo:County>
+    <osadmingeo:CountyElectoralDivision>
+      <rdf:Description rdf:about='http://data.ordnancesurvey.co.uk/id/7000000000013952'>
+        <rdfs:label>Ewell</rdfs:label>
+      </rdf:Description>
+    </osadmingeo:CountyElectoralDivision>
+    <osadmingeo:DistrictWard>
+      <rdf:Description rdf:about='http://data.ordnancesurvey.co.uk/id/7000000000013953'>
+        <rdfs:label>Stoneleigh</rdfs:label>
+      </rdf:Description>
+    </osadmingeo:DistrictWard>
+    <osadmingeo:WestminsterConstituency>
+      <rdf:Description rdf:about='http://data.ordnancesurvey.co.uk/id/7000000000025027'>
+        <rdfs:label>Epsom and Ewell</rdfs:label>
+      </rdf:Description>
+    </osadmingeo:WestminsterConstituency>
+    <spatialrelations:easting rdf:datatype='http://www.w3.org/2001/XMLSchema#integer'>522170</spatialrelations:easting>
+    <spatialrelations:northing rdf:datatype='http://www.w3.org/2001/XMLSchema#integer'>163974</spatialrelations:northing>
+    <spatialrelations:t_spatiallyInside rdf:resource='http://statistics.data.gov.uk/id/statistical-geography/E07000208' />
+     <spatialrelations:t_spatiallyInside rdf:resource='http://statistics.data.gov.uk/id/statistical-geography/E10000030' />
+     <spatialrelations:t_spatiallyInside rdf:resource='http://statistics.data.gov.uk/id/statistical-geography/E05007282' />
+     <spatialrelations:t_spatiallyInside rdf:resource='http://statistics.data.gov.uk/id/statistical-geography/E14000694' />
+    <owl:sameAs rdf:resource='http://data.ordnancesurvey.co.uk/id/postcodeunit/KT172NG' />
+    <geo:lat rdf:datatype='http://www.w3.org/2001/XMLSchema#decimal'>51.361705350870835</geo:lat>
+    <geo:long rdf:datatype='http://www.w3.org/2001/XMLSchema#decimal'>-0.2466182985791111</geo:long>
+  </ns0:PostcodeUnit>
+  
+  
+  
+  
+  
+</rdf:RDF>

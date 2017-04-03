@@ -1,0 +1,599 @@
+@prefix places: <http://purl.org/ontology/places#> .
+@prefix tri: <http://opendata.epa.gov/tri/schema/> .
+@prefix cdr: <http://opendata.epa.gov/oppt/cdr/schema#> .
+@prefix rcra: <http://opendata.epa.gov/rcra/schema/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://opendata.epa.gov/data/facility/110000589355> a <http://opendata.epa.gov/frs/schema#Facility> , <http://opendata.epa.gov/frs/schema#ElectricityGeneratorFacility> , <http://opendata.epa.gov/frs/schema#FederalFacility> , <http://opendata.epa.gov/frs/schema#HazardousWasteFacility> , <http://opendata.epa.gov/frs/schema#NuclearElectricityGenerator> , <http://opendata.epa.gov/frs/schema#SmallHazardousWasteFacility> , <http://opendata.epa.gov/frs/schema#StationaryFacility> ;
+	rdfs:label "Browns Ferry Nuclear Power Plant" ;
+	rdfs:seeAlso <https://opendata.epa.gov/data/facility/110000589355.json> , <https://opendata.epa.gov/data/facility/110000589355.rdf> , <https://opendata.epa.gov/data/facility/110000589355.ttl> ;
+	places:in <http://opendata.epa.gov/states/AL> , <http://opendata.epa.gov/states/AL/athens> ;
+	places:point_on_map "34.7074,-87.1189"^^places:latlong ;
+	<http://xmlns.com/foaf/0.1/name> "Us Tva Browns Ferry Nuclear Plant" ;
+	<http://www.w3.org/2006/vcard/ns#adr> <http://opendata.epa.gov/addresses/carrollrcooperdecatural35609> , <http://opendata.epa.gov/addresses/pobox2000decatural35609unitedstates> , <http://opendata.epa.gov/addresses/pobox2000decatural35609usa> ;
+	<http://opendata.epa.gov/frs/schema#agency> <http://opendata.epa.gov/agencies/tennesseevalleyauthority> ;
+	<http://opendata.epa.gov/frs/schema#epa_interest> <http://opendata.epa.gov/program_system/air/airsyntheticminor> , <http://opendata.epa.gov/program_system/airsafs/airminor> , <http://opendata.epa.gov/program_system/br/hazardouswastebiennialreporter> , <http://opendata.epa.gov/program_system/egrid/electricpowergeneratornuclearbased> , <http://opendata.epa.gov/program_system/eia860/electricgenerator> , <http://opendata.epa.gov/program_system/eis/airemissionsclassificationunknown> , <http://opendata.epa.gov/program_system/ffdocket/federalfacilityhazardouswastedocket> , <http://opendata.epa.gov/program_system/icis/enforcementcomplianceactivity> , <http://opendata.epa.gov/program_system/ncdb/complianceactivity> , <http://opendata.epa.gov/program_system/npdes/icisnpdesmajor> , <http://opendata.epa.gov/program_system/npdes/icisnpdesnonmajor> , <http://opendata.epa.gov/program_system/npdes/stormwaterconstruction> , <http://opendata.epa.gov/program_system/rcrainfo/sqg> , <http://opendata.epa.gov/program_system/tris/trireporter> ;
+	<http://opendata.epa.gov/frs/schema#facilities_registry_id> "110000589355" ;
+	<http://opendata.epa.gov/frs/schema#involved_in> <http://opendata.epa.gov/naics/2007/221113> , <http://opendata.epa.gov/naics/2007/236210> , <http://opendata.epa.gov/naics/2007/237130> ;
+	<http://opendata.epa.gov/frs/schema#location> <http://opendata.epa.gov/locations/34.7074,-87.1189> ;
+	<http://opendata.epa.gov/frs/schema#may_affect> <http://opendata.epa.gov/hucs/06030002> ;
+	<http://opendata.epa.gov/frs/schema#monitored_under> <http://opendata.epa.gov/programs/cleanairact> ;
+	<http://opendata.epa.gov/frs/schema#region> <http://opendata.epa.gov/epa_regions/04> ;
+	<http://opendata.epa.gov/frs/schema#tri_facility_id> "35611STVBRSHAWR" ;
+	<http://xmlns.com/foaf/0.1/page> <http://en.wikipedia.org/wiki/Browns_Ferry_Nuclear_Power_Plant> ;
+	<http://www.w3.org/2006/vcard/ns#has_address> <http://opendata.epa.gov/addresses/110000589355shawrdatnuclearplantrdathensal35611usa> ;
+	owl:sameAs <http://opendata.epa.gov/rcra/handlers/AL8640015410> ;
+	<http://dbpedia.org/ontology/abstract> "The Browns Ferry Nuclear Plant is located on the Tennessee River near Decatur and Athens, Alabama, on the north side of Wheeler Lake. The nuclear power plant is named after a ferry that operated at the site until the middle of the 20th century. The site has three General Electric boiling water reactor (BWR) nuclear generating units and is owned entirely by the Tennessee Valley Authority. Browns Ferry was TVA's first nuclear power plant; its approval occurred on June 17, 1966 and construction began in September 1966. In 1974, the time of its initial operation, it was the largest nuclear plant in the world. It was the first nuclear plant in the world to generate more than 1 gigawatt of power. In 2006, the Nuclear Regulatory Commission (NRC) renewed the licenses for all three reactors, extending them for an additional twenty years." ;
+	<http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/a/ab/Browns_ferry_NPP.jpg> ;
+	<http://dbpedia.org/ontology/operator> <http://dbpedia.org/resource/Tennessee_Valley_Authority> .
+
+<http://opendata.epa.gov/frs/schema#Facility> a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/frs/schema#> ;
+	rdfs:label "Facility" .
+
+<http://opendata.epa.gov/frs/schema#ElectricityGeneratorFacility> a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/frs/schema#> ;
+	rdfs:label "Electricity Generator Facility" ;
+	rdfs:subClassOf <http://opendata.epa.gov/frs/schema#Facility> .
+
+<http://opendata.epa.gov/frs/schema#FederalFacility> a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/frs/schema#> ;
+	rdfs:label "Federal Facility" ;
+	rdfs:subClassOf <http://opendata.epa.gov/frs/schema#Facility> .
+
+<http://opendata.epa.gov/frs/schema#HazardousWasteFacility> a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/frs/schema#> ;
+	rdfs:label "Hazardous Waste Facility" ;
+	rdfs:subClassOf <http://opendata.epa.gov/frs/schema#Facility> .
+
+<http://opendata.epa.gov/frs/schema#NuclearElectricityGenerator> a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/frs/schema#> ;
+	rdfs:label "Nuclear Electricity Generator" ;
+	rdfs:subClassOf <http://opendata.epa.gov/frs/schema#ElectricityGeneratorFacility> .
+
+<http://opendata.epa.gov/frs/schema#SmallHazardousWasteFacility> a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/frs/schema#> ;
+	rdfs:label "Small Hazardous Waste Facility" ;
+	rdfs:subClassOf <http://opendata.epa.gov/frs/schema#HazardousWasteFacility> .
+
+<http://opendata.epa.gov/frs/schema#StationaryFacility> a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/frs/schema#> ;
+	rdfs:label "Stationary Facility" ;
+	rdfs:subClassOf <http://opendata.epa.gov/frs/schema#Facility> .
+
+<https://opendata.epa.gov/data/facility/110000589355.json> <http://purl.org/dc/terms/format> "application/ld+json" .
+
+<https://opendata.epa.gov/data/facility/110000589355.rdf> <http://purl.org/dc/terms/format> "application/rdf+xml" .
+
+<https://opendata.epa.gov/data/facility/110000589355.ttl> <http://purl.org/dc/terms/format> "text/turtle" .
+
+<http://opendata.epa.gov/states/AL> a places:State , <http://opendata.epa.gov/frs/schema#State> ;
+	rdfs:label "Alabama" ;
+	<http://xmlns.com/foaf/0.1/name> "Alabama" , "Delaware" , "Georgia" , "Louisiana" , "Mississippi" , "Texas" .
+
+<http://opendata.epa.gov/states/AL/athens> a places:City ;
+	places:in <http://opendata.epa.gov/states/AL> ;
+	<http://xmlns.com/foaf/0.1/name> "Athens" , "Athens," .
+
+<http://opendata.epa.gov/addresses/carrollrcooperdecatural35609> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	places:in <http://opendata.epa.gov/states/AL> ;
+	<http://opendata.epa.gov/frs/schema#adr_of> <https://opendata.epa.gov/data/facility/110000589355> ;
+	<http://opendata.epa.gov/frs/schema#state_code> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#region> "Alabama" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Carroll R Cooper" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" .
+
+<http://opendata.epa.gov/addresses/pobox2000decatural35609unitedstates> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	places:in <http://opendata.epa.gov/states/AL> ;
+	<http://opendata.epa.gov/frs/schema#adr_of> <https://opendata.epa.gov/data/facility/110000589355> ;
+	<http://opendata.epa.gov/frs/schema#state_code> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#region> "Alabama" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Po Box 2000" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "United States" .
+
+<http://opendata.epa.gov/addresses/pobox2000decatural35609usa> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	places:in <http://opendata.epa.gov/states/AL> ;
+	<http://opendata.epa.gov/frs/schema#adr_of> <https://opendata.epa.gov/data/facility/110000589355> ;
+	<http://opendata.epa.gov/frs/schema#state_code> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Po Box 2000" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" .
+
+<http://opendata.epa.gov/agencies/tennesseevalleyauthority> a <http://opendata.epa.gov/frs/schema#FederalAgency> ;
+	<http://xmlns.com/foaf/0.1/name> "Tennessee Valley Authority" .
+
+<http://opendata.epa.gov/program_system/air/airsyntheticminor> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "AIR SYNTHETIC MINOR" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/air/> .
+
+<http://opendata.epa.gov/program_system/airsafs/airminor> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "AIR MINOR" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/airsafs/> .
+
+<http://opendata.epa.gov/program_system/br/hazardouswastebiennialreporter> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "HAZARDOUS WASTE BIENNIAL REPORTER" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/br/> .
+
+<http://opendata.epa.gov/program_system/egrid/electricpowergeneratornuclearbased> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "ELECTRIC POWER GENERATOR (NUCLEAR BASED)" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/egrid/> .
+
+<http://opendata.epa.gov/program_system/eia860/electricgenerator> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "ELECTRIC GENERATOR" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/eia860/> .
+
+<http://opendata.epa.gov/program_system/eis/airemissionsclassificationunknown> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "AIR EMISSIONS CLASSIFICATION UNKNOWN" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/eis/> .
+
+<http://opendata.epa.gov/program_system/ffdocket/federalfacilityhazardouswastedocket> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "FEDERAL FACILITY HAZARDOUS WASTE DOCKET" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/ffdocket/> .
+
+<http://opendata.epa.gov/program_system/icis/enforcementcomplianceactivity> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "ENFORCEMENT/COMPLIANCE ACTIVITY" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/icis/> .
+
+<http://opendata.epa.gov/program_system/ncdb/complianceactivity> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "COMPLIANCE ACTIVITY" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/ncdb/> .
+
+<http://opendata.epa.gov/program_system/npdes/icisnpdesmajor> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "ICIS-NPDES MAJOR" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/npdes/> .
+
+<http://opendata.epa.gov/program_system/npdes/icisnpdesnonmajor> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "ICIS-NPDES NON-MAJOR" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/npdes/> .
+
+<http://opendata.epa.gov/program_system/npdes/stormwaterconstruction> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "STORM WATER CONSTRUCTION" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/npdes/> .
+
+<http://opendata.epa.gov/program_system/rcrainfo/sqg> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "SQG" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/rcrainfo/> .
+
+<http://opendata.epa.gov/program_system/tris/trireporter> a <http://opendata.epa.gov/frs/schema#Interest> ;
+	rdfs:label "TRI REPORTER" ;
+	<http://opendata.epa.gov/frs/schema#hasProgramSystem> <http://opendata.epa.gov/program_system/tris/> .
+
+<http://opendata.epa.gov/naics/2007/221113> a <http://opendata.epa.gov/frs/schema#NAICSCode> ;
+	<http://www.w3.org/2004/02/skos/core#definition> "Nuclear Electric Power Generation" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "221113" .
+
+<http://opendata.epa.gov/naics/2007/236210> a <http://opendata.epa.gov/frs/schema#NAICSCode> ;
+	<http://www.w3.org/2004/02/skos/core#definition> "Industrial Building Construction" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "236210" .
+
+<http://opendata.epa.gov/naics/2007/237130> a <http://opendata.epa.gov/frs/schema#NAICSCode> ;
+	<http://www.w3.org/2004/02/skos/core#definition> "Power and Communication Line and Related Structures Construction" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "237130" .
+
+<http://opendata.epa.gov/locations/34.7074,-87.1189> a <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+	places:in <http://opendata.epa.gov/states/AL> , <http://opendata.epa.gov/states/AL/athens> ;
+	<http://opendata.epa.gov/frs/schema#location_of> <https://opendata.epa.gov/data/facility/110000589355> ;
+	<http://opendata.epa.gov/frs/schema#region> <http://opendata.epa.gov/epa_regions/04> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "34.7074" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-87.1189" .
+
+<http://opendata.epa.gov/hucs/06030002> a <http://opendata.epa.gov/frs/schema#HucCode> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "06030002" .
+
+<http://opendata.epa.gov/epa_regions/04> a <http://opendata.epa.gov/frs/schema#Region> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "EPA Region 4" ;
+	<http://purl.org/dc/terms/description> "Atlanta (serving Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, and Tennessee)" ;
+	rdfs:label "US EPA Region 04, Atlanta" .
+
+<http://opendata.epa.gov/addresses/110000589355shawrdatnuclearplantrdathensal35611usa> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "Limestone" ;
+	<http://opendata.epa.gov/frs/schema#fips_county_code> "01083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://opendata.epa.gov/frs/schema#state_code> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#region> "Alabama" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Rd At Nuclear Plant Rd." ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://xmlns.com/foaf/0.1/based_near> <http://3roundstones.com/ZipCodes/35611> .
+
+<http://dbpedia.org/resource/Tennessee_Valley_Authority> a <http://dbpedia.org/ontology/Company> ;
+	rdfs:label "Tennessee Valley Authority" ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.tva.gov/> ;
+	<http://xmlns.com/foaf/0.1/page> <http://en.wikipedia.org/wiki/Tennessee_Valley_Authority> ;
+	<http://dbpedia.org/ontology/abstract> "The Tennessee Valley Authority (TVA) is a federally owned corporation in the United States created by congressional charter in May 1933 to provide navigation, flood control, electricity generation, fertilizer manufacturing, and economic development in the Tennessee Valley, a region particularly affected by the Great Depression. The enterprise was a result of the efforts of Senator George W. Norris of Nebraska. TVA was envisioned not only as a provider, but also as a regional economic development agency that would use federal experts and electricity to rapidly modernize the region's economy and society. TVA's service area covers most of Tennessee, parts of Alabama, Mississippi, and Kentucky, and small slices of Georgia, North Carolina, and Virginia. It was the first large regional planning agency of the federal government and remains the largest. Under the leadership of David Lilienthal (\"Mr. TVA\"), TVA became a model for America's governmental efforts to modernize Third World agrarian societies." ;
+	<http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/f/f4/US-TennesseeValleyAuthority-Logo.svg> .
+
+<http://opendata.epa.gov/rcra/handlers/AL8640015410> rdfs:label "TVA Brown's Ferry Nuclear Plant" ;
+	rcra:hasActivity <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/B/1> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/B/2> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/1> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/10> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/11> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/12> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/13> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/14> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/15> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/2> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/3> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/4> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/5> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/6> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/7> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/8> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/9> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/1> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/10> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/2> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/3> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/4> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/5> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/6> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/7> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/8> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/9> ;
+	a rcra:Handler , <http://opendata.epa.gov/rcra/purposes/Recycler> , <http://opendata.epa.gov/rcra/generator-type/LargeQuantityGenerator> ;
+	rcra:landType <http://opendata.epa.gov/rcra/land-type/F> ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/al> ;
+	<http://www.w3.org/2006/vcard/ns#hasAddress> <http://opendata.epa.gov/addresses/approximately10milesnwofdecaturtennrivermile294decatural356092000al083> , <http://opendata.epa.gov/addresses/pobox2000decatural356090000al083> , <http://opendata.epa.gov/addresses/pobox2000decatural356092000al083> , <http://opendata.epa.gov/addresses/shawrdatnuclearplantrdathensal356110000al083> , <http://opendata.epa.gov/addresses/shawrdatnuclearplantrdathensal35611al083> , <http://opendata.epa.gov/addresses/shawroadatnuclearplantrdathensal356110000al083> , <http://opendata.epa.gov/addresses/shawroadatnuclearplantrdathensal35611al083> , <http://opendata.epa.gov/addresses/shawroadnuclearplantathensal35611al083> , <http://opendata.epa.gov/addresses/shawroadnuclearplantrdathensal35611al083> , <http://opendata.epa.gov/addresses/shawroadnuclearplantroadathensal35611al083> , <http://opendata.epa.gov/addresses/pobox2000decatural356090000us> , <http://opendata.epa.gov/addresses/pobox2000decatural356092000us> , <http://opendata.epa.gov/addresses/pobox2000decatural35609us> , <http://opendata.epa.gov/addresses/pobox2000pec1ddecatural356092000us> , <http://opendata.epa.gov/addresses/pobox2000wsp1adecatural356092000us> , <http://opendata.epa.gov/addresses/shawroadathensal356110000us> ;
+	owl:sameAs <https://opendata.epa.gov/data/facility/110000589355> ;
+	<http://opendata.epa.gov/frs/schema#region> <http://opendata.epa.gov/epa_regions/04> .
+
+rcra:Handler rdfs:comment "A RCRA Handler is an organization that handles solid waste and is required under the RCRA legislation to report its activities to the US EPA." ;
+	rdfs:label "Handler" ;
+	a owl:Class ;
+	rdfs:seeAlso "http://www.epa.gov/region02/waste/csummary.htm" ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/rcra/schema/> .
+
+<http://opendata.epa.gov/rcra/purposes/Recycler> rdfs:comment "Indicates that this rcra:Facility is a recycler." ;
+	rdfs:label "a recycler" ;
+	a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/rcra/schema/> ;
+	rdfs:subClassOf rcra:Handler .
+
+<http://opendata.epa.gov/rcra/generator-type/LargeQuantityGenerator> rdfs:comment """A RCRA Large Quantity Generator is a RCRA Handler that (a) generates 1,000 kg or more of hazardous waste during any calendar month; or
+(b) generates more than 1 kg of acutely hazardous waste during any calendar month; or
+(c) generates more than 100 kg of any residue or contaminated soil, waste or other debris resulting from the cleanup of a spill, into or on any land or water, of acutely hazardous waste during any calendar month; or
+(d) generates 1 kg or less of acutely hazardous waste during any calendar month, and accumulate more than 1 kg of acutely hazardous waste at any time; or
+(e) generates 100 kg or less of any residue or contaminated soil, waste or other debris resulting from the cleanup of a spill, into or on any land or water, of acutely hazardous waste during any calendar month, and accumulated more than 100 kg of that material at any time.""" ;
+	rdfs:label "Large Quantity Generator" ;
+	a owl:Class ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/rcra/schema/> .
+
+<http://opendata.epa.gov/rcra/land-type/F> rdfs:comment "This facility sits on federal land." ;
+	a rcra:LandType ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "on federal land" .
+
+<http://opendata.epa.gov/addresses/approximately10milesnwofdecaturtennrivermile294decatural356092000al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Approximately 10 Miles Nw Of Decatur,(Tenn River Mile 294)" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35609> .
+
+<http://opendata.epa.gov/addresses/pobox2000decatural356090000al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "P O Box 2000" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35609> .
+
+<http://opendata.epa.gov/addresses/pobox2000decatural356092000al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "P O Box 2000" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35609> .
+
+<http://opendata.epa.gov/addresses/shawrdatnuclearplantrdathensal356110000al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Rd at Nuclear Plant Rd" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35611> .
+
+<http://opendata.epa.gov/addresses/shawrdatnuclearplantrdathensal35611al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Rd at Nuclear Plant Rd" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35611> .
+
+<http://opendata.epa.gov/addresses/shawroadatnuclearplantrdathensal356110000al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Road at Nuclear Plant Rd" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35611> .
+
+<http://opendata.epa.gov/addresses/shawroadatnuclearplantrdathensal35611al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Road at Nuclear Plant Rd" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35611> .
+
+<http://opendata.epa.gov/addresses/shawroadnuclearplantathensal35611al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Road @ Nuclear Plant" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35611> .
+
+<http://opendata.epa.gov/addresses/shawroadnuclearplantrdathensal35611al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Road @ Nuclear Plant Rd" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35611> .
+
+<http://opendata.epa.gov/addresses/shawroadnuclearplantroadathensal35611al083> a <http://www.w3.org/2006/vcard/ns#Address> ;
+	<http://opendata.epa.gov/frs/schema#county_name> "AL083" ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "USA" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Road @ Nuclear Plant Road" ;
+	<http://xmlns.com/foaf/0.1/based_near> <zip:35611> .
+
+<http://opendata.epa.gov/addresses/pobox2000decatural356090000us> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "US" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "P O Box 2000" .
+
+<http://opendata.epa.gov/addresses/pobox2000decatural356092000us> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "US" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "P O Box 2000" , "P O Box 2000, Decatur, Al 356092000 Us" , "P.O. Box 2000, Decatur, Al 35609-2000 Us" , "P.O. Box 2000, Decatur, Al 356092000 Us" .
+
+<http://opendata.epa.gov/addresses/pobox2000decatural35609us> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "US" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "P.O. Box 2000" , "P.O. Box 2000, Decatur, Al 35609 Us" , "Po Box 2000, Decatur, Al 35609 Us" .
+
+<http://opendata.epa.gov/addresses/pobox2000pec1ddecatural356092000us> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "US" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "P O Box 2000 Pec 1d" .
+
+<http://opendata.epa.gov/addresses/pobox2000wsp1adecatural356092000us> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "US" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Decatur" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35609" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "P.O. Box 2000/Wsp 1a" .
+
+<http://opendata.epa.gov/addresses/shawroadathensal356110000us> a <http://www.w3.org/2006/vcard/ns#Postal> ;
+	<http://opendata.epa.gov/frs/schema#state> <http://opendata.epa.gov/states/AL> ;
+	<http://www.w3.org/2006/vcard/ns#country-name> "US" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Athens" ;
+	<http://www.w3.org/2006/vcard/ns#postal-code> "35611" ;
+	<http://www.w3.org/2006/vcard/ns#region> "AL" ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Shaw Road" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/B/1> rcra:receivedReportOn "20100323" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/B> ;
+	rcra:reportedInCycle "2009" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/B/2> rcra:receivedReportOn "20120306" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/B> ;
+	rcra:reportedInCycle "2011" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/1> rcra:receivedReportOn "19980821" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/10> rcra:receivedReportOn "20100216" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/11> rcra:receivedReportOn "20110215" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/12> rcra:receivedReportOn "20120214" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/13> rcra:receivedReportOn "20130204" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/14> rcra:receivedReportOn "20140219" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/15> rcra:receivedReportOn "20150212" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16> rcra:receivedReportOn "20160212" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/2> rcra:receivedReportOn "20020208" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/3> rcra:receivedReportOn "20030401" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/4> rcra:receivedReportOn "20040310" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/5> rcra:receivedReportOn "20050216" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/6> rcra:receivedReportOn "20060210" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/7> rcra:receivedReportOn "20070222" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/8> rcra:receivedReportOn "20080207" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/9> rcra:receivedReportOn "20090213" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/N> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/1> rcra:receivedReportOn "19900301" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "1989" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/10> rcra:receivedReportOn "20080215" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "2007" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/2> rcra:receivedReportOn "19920327" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "1991" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/3> rcra:receivedReportOn "19940225" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "1993" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/4> rcra:receivedReportOn "19960228" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "1995" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/5> rcra:receivedReportOn "19980223" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "1997" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/6> rcra:receivedReportOn "20010314" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "1999" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/7> rcra:receivedReportOn "20020226" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "2001" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/8> rcra:receivedReportOn "20040225" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "2003" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/R/9> rcra:receivedReportOn "20060222" ;
+	rcra:reportType <http://opendata.epa.gov/rcra/report-type/R> ;
+	rcra:reportedInCycle "2005" .
+
+<http://opendata.epa.gov/tri/facility/35611STVBRSHAWR> a tri:Facility ;
+	rdfs:label "US TVA Browns Ferry Nuclear Plant" ;
+	owl:sameAs <https://opendata.epa.gov/data/facility/110000589355> ;
+	tri:had_status <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2003> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2004> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2005> , <http://opendata.epa.gov/tri/facility/status/USTVA2006> , <http://opendata.epa.gov/tri/facility/status/USTVA2007> , <http://opendata.epa.gov/tri/facility/status/USTVA2008> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2009> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2011> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2010> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2012> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2013> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2001> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2014> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY1998> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY1999> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2000> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2002> , <http://opendata.epa.gov/tri/facility/status/USTENNESSEEVALLEYAUTHORITY2015> ;
+	tri:has_report <https://opendata.epa.gov/data/trireport/1308206323673> , <https://opendata.epa.gov/data/trireport/1308206323685> , <https://opendata.epa.gov/data/trireport/1309207295318> , <https://opendata.epa.gov/data/trireport/1310208819894> , <https://opendata.epa.gov/data/trireport/1311209491289> , <https://opendata.epa.gov/data/trireport/1312210096842> , <https://opendata.epa.gov/data/trireport/1313211491749> , <https://opendata.epa.gov/data/trireport/1314212568707> , <https://opendata.epa.gov/data/trireport/1315213596644> , <https://opendata.epa.gov/data/trireport/1304202470353> , <https://opendata.epa.gov/data/trireport/1398120145646> , <https://opendata.epa.gov/data/trireport/1398120145659> , <https://opendata.epa.gov/data/trireport/1305203309442> , <https://opendata.epa.gov/data/trireport/1306204335917> , <https://opendata.epa.gov/data/trireport/1307205419930> , <https://opendata.epa.gov/data/trireport/1399130026533> , <https://opendata.epa.gov/data/trireport/1303202075572> , <https://opendata.epa.gov/data/trireport/1399130026545> , <https://opendata.epa.gov/data/trireport/1302200244883> , <https://opendata.epa.gov/data/trireport/1300140113515> , <https://opendata.epa.gov/data/trireport/1301150285474> , <https://opendata.epa.gov/data/trireport/1313211491752> , <https://opendata.epa.gov/data/trireport/1311209491291> , <https://opendata.epa.gov/data/trireport/1315213596657> ;
+	tri:owner <https://opendata.epa.gov/data/company/USTennesseeValleyAuthority> ;
+	<http://opendata.epa.gov/frs/schema#tri_facility_id> "35611STVBRSHAWR" ;
+	<http://www.w3.org/2006/vcard/ns#adr> <http://opendata.epa.gov/addresses/10835SHAWRDATHENSLIMESTONEAL35611> .
+
+<https://opendata.epa.gov/data/trireport/1308206323673> rdfs:label "2008 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2009-06-16"^^xsd:date ;
+	tri:reporting_year "2008" .
+
+<https://opendata.epa.gov/data/trireport/1308206323685> rdfs:label "2008 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Polycyclic Aromatic Compounds" ;
+	tri:received_date "2009-06-16"^^xsd:date ;
+	tri:reporting_year "2008" .
+
+<https://opendata.epa.gov/data/trireport/1309207295318> rdfs:label "2009 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2010-06-15"^^xsd:date ;
+	tri:reporting_year "2009" .
+
+<https://opendata.epa.gov/data/trireport/1310208819894> rdfs:label "2010 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2011-06-30"^^xsd:date ;
+	tri:reporting_year "2010" .
+
+<https://opendata.epa.gov/data/trireport/1311209491289> rdfs:label "2011 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2012-06-28"^^xsd:date ;
+	tri:reporting_year "2011" .
+
+<https://opendata.epa.gov/data/trireport/1312210096842> rdfs:label "2012 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2013-06-17"^^xsd:date ;
+	tri:reporting_year "2012" .
+
+<https://opendata.epa.gov/data/trireport/1313211491749> rdfs:label "2013 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2014-06-27"^^xsd:date ;
+	tri:reporting_year "2013" .
+
+<https://opendata.epa.gov/data/trireport/1314212568707> rdfs:label "2014 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2015-06-22"^^xsd:date ;
+	tri:reporting_year "2014" .
+
+<https://opendata.epa.gov/data/trireport/1315213596644> rdfs:label "2015 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2016-05-23"^^xsd:date ;
+	tri:reporting_year "2015" .
+
+<https://opendata.epa.gov/data/trireport/1304202470353> rdfs:label "2004 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2005-06-28"^^xsd:date ;
+	tri:reporting_year "2004" .
+
+<https://opendata.epa.gov/data/trireport/1398120145646> rdfs:label "1998 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Tetrachloroethylene" ;
+	tri:received_date "1999-06-28"^^xsd:date ;
+	tri:reporting_year "1998" .
+
+<https://opendata.epa.gov/data/trireport/1398120145659> rdfs:label "1998 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Zinc Compounds" ;
+	tri:received_date "1999-06-28"^^xsd:date ;
+	tri:reporting_year "1998" .
+
+<https://opendata.epa.gov/data/trireport/1305203309442> rdfs:label "2005 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2006-06-19"^^xsd:date ;
+	tri:reporting_year "2005" .
+
+<https://opendata.epa.gov/data/trireport/1306204335917> rdfs:label "2006 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2007-06-21"^^xsd:date ;
+	tri:reporting_year "2006" .
+
+<https://opendata.epa.gov/data/trireport/1307205419930> rdfs:label "2007 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2008-06-24"^^xsd:date ;
+	tri:reporting_year "2007" .
+
+<https://opendata.epa.gov/data/trireport/1399130026533> rdfs:label "1999 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Tetrachloroethylene" ;
+	tri:received_date "2000-06-14"^^xsd:date ;
+	tri:reporting_year "1999" .
+
+<https://opendata.epa.gov/data/trireport/1303202075572> rdfs:label "2003 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2004-10-28"^^xsd:date ;
+	tri:reporting_year "2003" .
+
+<https://opendata.epa.gov/data/trireport/1399130026545> rdfs:label "1999 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Zinc Compounds" ;
+	tri:received_date "2000-06-14"^^xsd:date ;
+	tri:reporting_year "1999" .
+
+<https://opendata.epa.gov/data/trireport/1302200244883> rdfs:label "2002 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2003-07-01"^^xsd:date ;
+	tri:reporting_year "2002" .
+
+<https://opendata.epa.gov/data/trireport/1300140113515> rdfs:label "2000 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Zinc Compounds" ;
+	tri:received_date "2001-06-22"^^xsd:date ;
+	tri:reporting_year "2000" .
+
+<https://opendata.epa.gov/data/trireport/1301150285474> rdfs:label "2001 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Lead" ;
+	tri:received_date "2002-06-28"^^xsd:date ;
+	tri:reporting_year "2001" .
+
+<https://opendata.epa.gov/data/trireport/1313211491752> rdfs:label "2013 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Naphthalene" ;
+	tri:received_date "2014-06-27"^^xsd:date ;
+	tri:reporting_year "2013" .
+
+<https://opendata.epa.gov/data/trireport/1311209491291> rdfs:label "2011 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Naphthalene" ;
+	tri:received_date "2012-06-28"^^xsd:date ;
+	tri:reporting_year "2011" .
+
+<https://opendata.epa.gov/data/trireport/1315213596657> rdfs:label "2015 TRI Report from Us TVA Browns Ferry Nuclear Plant regarding Naphthalene" ;
+	tri:received_date "2016-05-23"^^xsd:date ;
+	tri:reporting_year "2015" .
+
+<https://opendata.epa.gov/data/facility/110000589355> owl:sameAs <http://opendata.epa.gov/tri/facility/35611STVBRSHAWR> .

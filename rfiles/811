@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/origen-de-la-tierra/77c8cc5e-b8a0-4692-99f0-789b31e83d62">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Origen de la tierra]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Les comparto un video del proceso de formaci&oacute;n de la Tierra actual!</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-11T20:59:03+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Origen de la tierra]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=q4tr1vg0Z2I" />
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+    <sioc:has_discussion rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/origen-de-la-tierra/77c8cc5e-b8a0-4692-99f0-789b31e83d62/comentario/8aee0335-ef6e-4610-9074-8d31c98a8d26" />
+    <sioc:has_space rdf:resource="http://reduno-internacional.com/en/community/UNOi" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/el-poder-de-la-tierra/04128644-d201-4005-8241-df6c87717426" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/the-senses/bbe74624-99c6-4caf-9d19-6e92afd7a9b1" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/la-formacion-del-sistema-solar/894f86d4-da9b-49fc-a54e-6ab111da6e7b" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/nervous-system/88efcf86-784d-480b-b0ea-38013fd6ce1c" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/heredity/bfaf0d27-8703-46e0-bca4-03bd81d76cd5" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/reading-monster-4-worries-heroes-app/9beccc37-3acf-4f9b-9fef-80aebb5b4a9b" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/los-mayas/1cb9d6e2-7f3c-4794-8b9c-b3fd36bc03c6" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/la-conquista-de-mexico/939e3b1a-cecf-4654-820c-063522629c90" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/darwin-y-la-teoria-de-la-evolucion/217fe1f6-20df-448c-98b2-3d30827c1146" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/ecosistemas/8b71d09c-97c4-4564-bd9c-22d0f3776ab9" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/be-a-scientist/1b715f40-5073-4615-a567-52ef5aac6fe6" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/materias/362e12b1-7736-4fc5-8f83-67efbe322172" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/geografia/a0853412-16a4-4ff2-8201-f78430d72cf6" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/tierra" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/origen" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Fernando  Aguilar · Sistema UNO]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernando ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Aguilar]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernando  Aguilar]]></foaf:name>
+  </foaf:Person>
+  <foaf:Group rdf:about="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Sistema UNO]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Sistema UNO]]></foaf:name>
+    <foaf:member rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+  </foaf:Group>
+  <sioc_t:Comment rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/origen-de-la-tierra/77c8cc5e-b8a0-4692-99f0-789b31e83d62/comentario/8aee0335-ef6e-4610-9074-8d31c98a8d26">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	A mi me gusta mucho este, muestra el tama&ntilde;o real del universo conocido y al final la luz remanente del bigbang usando un viaje hacia atr&aacute;s y despu&eacute;s de regreso a la tierra.<br />
+	http://youtu.be/hX-hwFtAcOw</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	A mi me gusta mucho este, muestra el tama&ntilde;o real del universo conocido y al final la luz remanente del bigbang usando un viaje hacia atr&aacute;s y despu&eacute;s de regreso a la tierra.<br />
+	http://youtu.be/hX-hwFtAcOw</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-10-01T21:04:16+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/profile/Heberto-Lopez/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://reduno-internacional.com/en/community/UNOi/profile/Heberto-Lopez/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Heberto Lopez]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Heberto]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Lopez]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc:Space rdf:about="http://reduno-internacional.com/en/community/UNOi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Red UNO Internacional]]></rdfs:label>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Red UNO Internacional]]></dcterms:title>
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/contenidos%20educativos" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/contenidos%20educativos%20digitales" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/sistema%20uno" />
+  </sioc:Space>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/contenidos%20educativos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contenidos educativos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/contenidos%20educativos%20digitales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contenidos educativos digitales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/sistema%20uno">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sistema uno]]></rdfs:label>
+  </sioc_t:Tag>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/be-a-scientist/1b715f40-5073-4615-a567-52ef5aac6fe6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Be a Scientist]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Be a Scientist]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/materias/362e12b1-7736-4fc5-8f83-67efbe322172">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Materias]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Materias]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/geografia/a0853412-16a4-4ff2-8201-f78430d72cf6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Geografía]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Geografía]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/tierra">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tierra]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/origen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[origen]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

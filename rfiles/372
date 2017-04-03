@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:ns0="&ns0;"
+	xmlns:akt="&akt;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:26:03</dcterms:created>
+		<dc:source rdf:resource="http://epsrc.rkbexplorer.com/id/resource-person-7150"/>
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://epsrc.rkbexplorer.com/id/resource-person-7150">
+		<rdf:type rdf:resource="&akt;Person"/>
+		<rdf:type rdf:resource="&akt;Employee"/>
+		<rdf:type rdf:resource="&akt;Research-In-Academia"/>
+		<akt:family-name>Henderson</akt:family-name>
+		<akt:has-appellation>Professor</akt:has-appellation>
+		<akt:full-name>P Henderson</akt:full-name>
+		<akt:has-pretty-name>P Henderson</akt:has-pretty-name>
+		<akt:works-for rdf:resource="http://rae2001.rkbexplorer.com/id/resource-H-0160"/>
+		<akt:works-in-unit rdf:resource="http://epsrc.rkbexplorer.com/id/resource-department-750"/>
+		<akt:has-telephone-number>+442380593440</akt:has-telephone-number>
+		<akt:has-fax-number>+442380593045</akt:has-fax-number>
+		<akt:has-email-address>p.henderson@ecs.soton.ac.uk</akt:has-email-address>
+		<akt:has-research-interest rdf:resource="http://epsrc.rkbexplorer.com/id/resource-research_topics_def-164"/>
+		<akt:has-research-interest rdf:resource="http://epsrc.rkbexplorer.com/id/resource-research_topics_def-62"/>
+		<akt:has-research-interest rdf:resource="http://epsrc.rkbexplorer.com/id/resource-research_topics_def-97"/>
+		<akt:has-research-interest rdf:resource="http://epsrc.rkbexplorer.com/id/resource-research_topics_def-123"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://epsrc.rkbexplorer.com/id/resource-grant-GR-M91013-01">
+		<akt:has-project-leader rdf:resource="http://epsrc.rkbexplorer.com/id/resource-person-7150"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://epsrc.rkbexplorer.com/id/resource-grant-GR-M08066-01">
+		<akt:has-project-leader rdf:resource="http://epsrc.rkbexplorer.com/id/resource-person-7150"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://epsrc.rkbexplorer.com/id/resource-grant-GR-K83014-01">
+		<akt:has-project-leader rdf:resource="http://epsrc.rkbexplorer.com/id/resource-person-7150"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://epsrc.rkbexplorer.com/id/resource-grant-GR-F62810-01">
+		<akt:has-project-member rdf:resource="http://epsrc.rkbexplorer.com/id/resource-person-7150"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://epsrc.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://epsrc.rkbexplorer.com/id/resource-person-7150"/>
+	</rdf:Description>
+</rdf:RDF>

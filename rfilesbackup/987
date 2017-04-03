@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000020"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000020">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Specimen</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological specimen</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological specimen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<rdfs:label>Blood samples</rdfs:label>
+	<ERO_0001517 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://global.eagle-i.net/i/Homo_sapiens"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001517">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source Organism Type</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from organism</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives_from_organism</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://global.eagle-i.net/i/Homo_sapiens">
+	<rdfs:label>Homo sapiens</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">"from consented breast or colon cancer  patients; and subjects without cancer"</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<ERO_0001157 xmlns="http://purl.obolibrary.org/obo/">Colon cancer</ERO_0001157>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001157">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis Description</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has diagnosis</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_diagnosis_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<ERO_0001157 xmlns="http://purl.obolibrary.org/obo/">Breast cancer</ERO_0001157>
+	<ERO_0001157 xmlns="http://purl.obolibrary.org/obo/">No cancer</ERO_0001157>
+	<RO_0001025 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://cdrewu.eagle-i.net/i/00000136-0961-ccb9-1a88-e81c80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</preferredLabel>
+	<rdfs:label xml:lang="en">located_in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0961-ccb9-1a88-e81c80000000">
+	<rdfs:label>Cancer Research and Training Core Facility</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<rdfs:label xml:lang="en">located in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-12T19:28:19.758-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://cdrewu.eagle-i.net/i/00000135-76b1-8c3c-f836-7d1b80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000135-76b1-8c3c-f836-7d1b80000000">
+	<rdfs:label>efleming (Erik Fleming)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-05T14:04:33.905-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<hasWorkflowOwner xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://cdrewu.eagle-i.net/i/0000013f-ca0c-f2a4-ba61-af1a80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow owner</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/0000013f-ca0c-f2a4-ba61-af1a80000000">
+	<rdfs:label>tdave</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://cdrewu.eagle-i.net/i/00000135-76b1-8c3c-f836-7d1b80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000135-76b1-8c3c-f836-7d1b80000000">
+	<rdfs:label>efleming (Erik Fleming)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cdrewu.eagle-i.net/i/00000136-0972-1715-1a88-e81c80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

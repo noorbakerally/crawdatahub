@@ -1,0 +1,27 @@
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix ns1:	<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030/> .
+ns1:record	foaf:primaryTopic	<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030> .
+@prefix dcat:	<http://www.w3.org/ns/dcat#> .
+@prefix ns3:	<https://nkod.opendata.cz/zdroje/katalog/> .
+ns3:NKOD	dcat:dataset	<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030>	rdf:type	dcat:Dataset .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:	<http://purl.org/dc/terms/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030>	dct:modified	"2017-03-17"^^xsd:date ;
+	dct:title	"INSPIRE - budovy - obec - Kry\u0161tofovy Hamry [563315]"@cs ;
+	dct:description	"Stahovac\u00ED slu\u017Eba pro t\u00E9ma Parcely (CP) je ve\u0159ejn\u00E1 stahovac\u00ED slu\u017Eba pro poskytov\u00E1n\u00ED dat z Informa\u010Dn\u00EDho syst\u00E9mu katastru nemovitost\u00ED (ISKN), umo\u017E\u0148uj\u00EDc\u00ED u\u017Eivatel\u016Fm opakovan\u00E9 stahov\u00E1n\u00ED t\u011Bchto dat v souborech po obc\u00EDch a online p\u0159\u00EDstup k t\u011Bmto dat\u016Fm pomoc\u00ED technologie Atom. tahovac\u00ED slu\u017Eba poskytuje harmonizovan\u00E1 data t\u00E9matu Budovy (BU) ve form\u00E1tu GML dle INSPIRE. Slu\u017Eba spl\u0148uje technick\u00E9 pokyny pro INSPIRE stahovac\u00ED slu\u017Eby verze 3.0."@cs .
+@prefix ns7:	<http://linked.opendata.cz/resource/business-entity/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030>	dct:publisher	ns7:CZ00025712 ;
+	dct:spatial	<http://ruian.linked.opendata.cz/resource/obce/563315> ;
+	dct:issued	"2016-10-24"^^xsd:date ;
+	dcat:contactPoint	ns1:contact-point ;
+	dcat:distribution	<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030/10> ,
+		<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030/11> .
+@prefix ns8:	<http://publications.europa.eu/resource/authority/frequency/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030>	dct:accrualPeriodicity	ns8:DAILY ;
+	dct:temporal	ns1:temporal ;
+	dcat:keyword	"INSPIRE"@cs ,
+		"Budovy"@cs .
+@prefix ns9:	<http://linked.opendata.cz/ontology/ckan/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/65186030>	ns9:datasetID	"65186030" .

@@ -1,0 +1,19 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/business-entity/> .
+@prefix gr:	<http://purl.org/goodrelations/v1#> .
+ns1:CZ00084018	rdf:type	gr:BusinessEntity .
+@prefix ns3:	<http://www.w3.org/ns/regorg#> .
+ns1:CZ00084018	rdf:type	ns3:RegisteredOrganization .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+ns1:CZ00084018	dcterms:modified	"2014-07-02+02:00"^^xsd:date ;
+	gr:legalName	"HV\u011AZD\u00C1RNA A PLANET\u00C1RIUM, p.o." ;
+	dcterms:issued	"1992-12-15+01:00"^^xsd:date .
+@prefix adms:	<http://www.w3.org/ns/adms#> .
+ns1:CZ00084018	adms:identifier	<http://linked.opendata.cz/resource/business-entity/CZ00084018/identifier/00084018> .
+@prefix ns7:	<http://linked.opendata.cz/ontology/ares#> .
+@prefix ns8:	<http://linked.opendata.cz/resource/domain/ares/concept-scheme/stavy-zivnosti/> .
+ns1:CZ00084018	ns7:stav-zivnosti	ns8:A ;
+	ns7:zivnost	<http://linked.opendata.cz/resource/business-entity/CZ00084018/zivnost/1992-12-15/Z/L/Koup%C4%9B%20zbo%C5%BE%C3%AD%20za%20%C3%BA%C4%8Delem%20jeho%20dal%C5%A1%C3%ADho%20prodeje%20a%20prodej> ,
+		<http://linked.opendata.cz/resource/business-entity/CZ00084018/zivnost/1992-12-15/A/L/V%C3%BDroba%2C%20obchod%20a%20slu%C5%BEby%20neuveden%C3%A9%20v%20p%C5%99%C3%ADloh%C3%A1ch%201%20a%C5%BE%203%20%C5%BEivnostensk%C3%A9ho%20z%C3%A1kona> ;
+	ns3:orgType	<http://linked.opendata.cz/resource/domain/ares/concept-scheme/organization-types/331> .

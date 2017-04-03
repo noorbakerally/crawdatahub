@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://lod.nal.usda.gov/nalt/10486">
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/40878"/>
+    <skos:narrower rdf:resource="http://lod.nal.usda.gov/nalt/55430"/>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/24612"/>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/10475"/>
+    <skos:narrower rdf:resource="http://lod.nal.usda.gov/nalt/55471"/>
+    <skos:altLabel xml:lang="en">food nutritive value</skos:altLabel>
+    <skos:altLabel xml:lang="en">fattening value</skos:altLabel>
+    <skos:altLabel xml:lang="en">feed value</skos:altLabel>
+    <skos:altLabel xml:lang="en">nutritive ratio</skos:altLabel>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/15576"/>
+    <skos:scopeNote xml:lang="es">Usar para la acción de evaluar la capacidad de un alimento o comida para contribuir a la dieta y/o estado nutricional de un humano o animal; USAR "composición alimentaria" o un término más específico para descripciones de la composición de comidas/alimentos, sin relación con su eficacia en el organismo.</skos:scopeNote>
+    <skos:broader rdf:resource="http://lod.nal.usda.gov/nalt/27606"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">nutritive value index</skos:altLabel>
+    <skos:altLabel xml:lang="en">nutritional value</skos:altLabel>
+    <skos:altLabel xml:lang="en">feed nutritive value</skos:altLabel>
+    <skos:definition xml:lang="en">An indication of the contribution of a food to the nutrient content of the diet. This value depends on the quantity of a food which is digested and absorbed and the amounts of the essential nutrients (protein, fat, carbohydrate, minerals, vitamins) which it contains.</skos:definition>
+    <skos:altLabel xml:lang="en">nutrient value</skos:altLabel>
+    <skos:narrower rdf:resource="http://lod.nal.usda.gov/nalt/33535"/>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/17237"/>
+    <skos:prefLabel xml:lang="en">nutritive value</skos:prefLabel>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-08</dcterms:modified>
+    <skos:altLabel xml:lang="en">nutritional quality</skos:altLabel>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/17238"/>
+    <skos:prefLabel xml:lang="es">valor nutritivo</skos:prefLabel>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/10480"/>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/37110"/>
+    <skos:altLabel xml:lang="en">dietary value</skos:altLabel>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/10483"/>
+    <skos:related rdf:resource="http://lod.nal.usda.gov/nalt/10481"/>
+    <skos:scopeNote xml:lang="en">Use for evaluating the ability of a food or feed to contribute to the diet and/or nutritional status of a human or animal; for descriptions of the composition of foods/feeds, without regard to their efficacy in the organism, USE "food composition" or one of its narrower terms.</skos:scopeNote>
+    <skos:exactMatch rdf:resource="http://id.agrisemantics.org/gacs/C948"/>
+    <skos:altLabel xml:lang="en">food value</skos:altLabel>
+    <skos:broader rdf:resource="http://lod.nal.usda.gov/nalt/33532"/>
+    <skos:definition xml:lang="es">Indicación de la contribución de un alimento al contenido nutritivo de la dieta. Este valor depende de la cantidad de alimento que es digerido y absorbido y las cantidades del nutrientes esenciales (proteína, grasa, hidratos de carbono, minerales, vitaminas) que éste contiene.</skos:definition>
+    <skos:narrower rdf:resource="http://lod.nal.usda.gov/nalt/199028"/>
+    <skos:narrower rdf:resource="http://lod.nal.usda.gov/nalt/55470"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-19</dcterms:created>
+    <skos:altLabel xml:lang="en">feeding value</skos:altLabel>
+    <skos:narrower rdf:resource="http://lod.nal.usda.gov/nalt/17239"/>
+    <skos:altLabel xml:lang="en">nutritional characteristics</skos:altLabel>
+    <skos:narrower rdf:resource="http://lod.nal.usda.gov/nalt/33534"/>
+    <skos:broader rdf:resource="http://lod.nal.usda.gov/nalt/33531"/>
+    <skos:narrower rdf:resource="http://lod.nal.usda.gov/nalt/192559"/>
+    <skos:altLabel xml:lang="en">quality for nutrition</skos:altLabel>
+  </rdf:Description>
+</rdf:RDF>

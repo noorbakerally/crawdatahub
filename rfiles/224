@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns/" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+		<title>Surge Radio &raquo; Music</title>
+		<link type="text/css" rel="stylesheet" href="/style/bootstrap.min.css?v=03102013" />
+		<link type="text/css" rel="stylesheet" href="/style/style.css?v=201702121215" />
+		<link type="text/css" rel="stylesheet" href="/style/jquery.cookiebar.css?v=201503241502" />
+		<link type="image/x-icon" rel="icon" href="/style/images/favicon.ico?v=03102013" />
+		<link type="image/x-icon" rel="shortcut icon" href="/style/images/favicon.ico?v=03102013" />
+		<link rel="apple-touch-icon" href="/style/images/touch-icon-iphone.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="/style/images/touch-icon-ipad.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="/style/images/touch-icon-iphone-retina.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="/style/images/touch-icon-ipad-retina.png" />
+		<link rel="apple-touch-startup-image" href="/style/images/startup.png">
+		
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+      <script type="text/javascript" src="/js/jquery.cookiebar.js"></script>
+		<script type="text/javascript" src="/js/surge.js?v=27022015"></script>
+		<script type="text/javascript" src="/js/paging.js?v=03102013"></script>
+		<script type="text/javascript" src="/js/request.js?v=17032015"></script>
+		<script type="text/javascript" src="/js/swfobject.js?v=03102013"></script>
+		
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		
+		<meta property="fb:admins" content="286106360,635845000,523751126,504947787" />
+				<meta property="fb:app_id" content="206156472740662" />
+		<meta property="og:url" content="http://www.surgeradio.co.uk/music/artists/302bd7b9-d012-4360-897a-93b00c855680.rdf" />
+		<meta property="og:type" content="music.radio_station" />
+		<meta property="og:title" content="Surge Radio &raquo; Music" />
+		<meta property="og:locale" content="en_GB"/>
+		
+				<meta property="og:image" content="http://www.surgeradio.co.uk/style/images/surge_mini_logo.png" />
+		<meta property="og:description" content="Your Student Soundtrack" />
+				<meta property="og:site_name" content="Surge Radio"/>
+	</head>
+	<body>
+		<div id="request_back" class="hidden">
+		</div>
+		<div id="request_box" class="hidden">
+			<div id="request_inner">
+				<div class="box" id="bar_right">
+					<h2>Request a Track!</h2>
+					<div id="request_cont">
+						<div id="request_search_bar">
+							<form action="/request/search/" method="post" onsubmit="searchSongs(); return false;">
+								<input type="submit" id="request_search_submit" value="" />
+								<input type="text" name="search" id="request_search" class="blur" value="Search music or request a song" 
+										onfocus="if (this.value == 'Search music or request a song') { this.value = ''; $(this).removeClass('blur'); }" 
+										onblur="if (this.value == '') { this.value = 'Search music or request a song'; $(this).addClass('blur'); }" />
+							</form>
+						</div>
+						<form id="request_form">
+							<div id="request_name" class="request_input">
+								Name: <input type="text" id="name_input" name="name" />
+							</div>
+							<div id="request_email" class="request_input">
+								Email: <input type="text" id="email_input" name="email" />
+							</div>
+							<div id="request_rem" class="request_input">
+								<label for="remember_input">Remember Me</label> <input type="checkbox" id="remember_input" name="remember_me" checked="checked" />
+							</div>
+							<div id="request_message" class="request_input">
+								Send a Message to the Studio:<br />
+								<textarea id="message_input"></textarea>
+							</div>
+							<input type="submit" value="Request Track" id="request_submit" />
+						</form>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							$('#request_search_bar form').submit(function() {
+								searchSongs();
+								return false;
+							});
+							
+							$('form#request_form').submit(function() {
+								sendRequest();
+								return false;
+							});
+							
+							var info = $.parseJSON(jQuery.cookie("surge_request"));
+							
+							if (info != null) {
+								$('#name_input').val(info['name']);
+								$('#email_input').val(info['email']);
+							}
+						});
+					</script>
+					<div id="dialog" style="display: none;">
+						
+					</div>
+				</div>
+				<div class="box">
+					<div class="top">Playlists</div>
+					<div id="playlists">
+						<a class="linkbox" href="#" onclick="showTopRequests(); return false;">
+							<span class="flright">&raquo;</span>Top Requests
+						</a>
+						<a class="linkbox" href="#" onclick="showPlaylist('A'); return false;">
+							<span class="flright">&raquo;</span>Playlist A
+						</a>
+						<a class="linkbox" href="#" onclick="showPlaylist('B'); return false;">
+							<span class="flright">&raquo;</span>Playlist B
+						</a>
+						<a class="linkbox" href="#" onclick="showPlaylist('C'); return false;">
+							<span class="flright">&raquo;</span>Playlist C
+						</a>
+												<a class="linkbox" href="#" onclick="showNewTracks(20); return false;">
+							<span class="flright">&raquo;</span>New
+						</a>
+						<a class="linkbox" href="#" onclick="showFavourites(); return false;">
+							<span class="flright">&raquo;</span>Favourites
+						</a>
+						<a class="linkbox" href="#" onclick="showChart(); return false;">
+							<span class="flright">&raquo;</span>Surge Chart
+						</a>
+						<a class="linkbox" href="#" onclick="showAlpha('artist'); return false;">
+							<span class="flright">&raquo;</span>All Artists
+						</a>
+						<div class="alpha" id="artist_alpha">
+														<a href="#" onclick="showArtistList('A'); return false;">A</a>&nbsp;
+														<a href="#" onclick="showArtistList('B'); return false;">B</a>&nbsp;
+														<a href="#" onclick="showArtistList('C'); return false;">C</a>&nbsp;
+														<a href="#" onclick="showArtistList('D'); return false;">D</a>&nbsp;
+														<a href="#" onclick="showArtistList('E'); return false;">E</a>&nbsp;
+														<a href="#" onclick="showArtistList('F'); return false;">F</a>&nbsp;
+														<a href="#" onclick="showArtistList('G'); return false;">G</a>&nbsp;
+														<a href="#" onclick="showArtistList('H'); return false;">H</a>&nbsp;
+														<a href="#" onclick="showArtistList('I'); return false;">I</a>&nbsp;
+														<a href="#" onclick="showArtistList('J'); return false;">J</a>&nbsp;
+														<a href="#" onclick="showArtistList('K'); return false;">K</a>&nbsp;
+														<a href="#" onclick="showArtistList('L'); return false;">L</a>&nbsp;
+														<a href="#" onclick="showArtistList('M'); return false;">M</a>&nbsp;
+														<a href="#" onclick="showArtistList('N'); return false;">N</a>&nbsp;
+														<a href="#" onclick="showArtistList('O'); return false;">O</a>&nbsp;
+														<a href="#" onclick="showArtistList('P'); return false;">P</a>&nbsp;
+														<a href="#" onclick="showArtistList('Q'); return false;">Q</a>&nbsp;
+														<a href="#" onclick="showArtistList('R'); return false;">R</a>&nbsp;
+														<a href="#" onclick="showArtistList('S'); return false;">S</a>&nbsp;
+														<a href="#" onclick="showArtistList('T'); return false;">T</a>&nbsp;
+														<a href="#" onclick="showArtistList('U'); return false;">U</a>&nbsp;
+														<a href="#" onclick="showArtistList('V'); return false;">V</a>&nbsp;
+														<a href="#" onclick="showArtistList('W'); return false;">W</a>&nbsp;
+														<a href="#" onclick="showArtistList('X'); return false;">X</a>&nbsp;
+														<a href="#" onclick="showArtistList('Y'); return false;">Y</a>&nbsp;
+														<a href="#" onclick="showArtistList('Z'); return false;">Z</a>&nbsp;
+														<a href="#" onclick="showArtistList('#'); return false;">#</a>&nbsp;
+						</div>
+						<a class="linkbox" href="#" onclick="showAlpha('song'); return false;">
+							<span class="flright">&raquo;</span>All Songs
+						</a>
+						<div class="alpha" id="song_alpha">
+														<a href="#" onclick="showSongList('A'); return false;">A</a>&nbsp;
+														<a href="#" onclick="showSongList('B'); return false;">B</a>&nbsp;
+														<a href="#" onclick="showSongList('C'); return false;">C</a>&nbsp;
+														<a href="#" onclick="showSongList('D'); return false;">D</a>&nbsp;
+														<a href="#" onclick="showSongList('E'); return false;">E</a>&nbsp;
+														<a href="#" onclick="showSongList('F'); return false;">F</a>&nbsp;
+														<a href="#" onclick="showSongList('G'); return false;">G</a>&nbsp;
+														<a href="#" onclick="showSongList('H'); return false;">H</a>&nbsp;
+														<a href="#" onclick="showSongList('I'); return false;">I</a>&nbsp;
+														<a href="#" onclick="showSongList('J'); return false;">J</a>&nbsp;
+														<a href="#" onclick="showSongList('K'); return false;">K</a>&nbsp;
+														<a href="#" onclick="showSongList('L'); return false;">L</a>&nbsp;
+														<a href="#" onclick="showSongList('M'); return false;">M</a>&nbsp;
+														<a href="#" onclick="showSongList('N'); return false;">N</a>&nbsp;
+														<a href="#" onclick="showSongList('O'); return false;">O</a>&nbsp;
+														<a href="#" onclick="showSongList('P'); return false;">P</a>&nbsp;
+														<a href="#" onclick="showSongList('Q'); return false;">Q</a>&nbsp;
+														<a href="#" onclick="showSongList('R'); return false;">R</a>&nbsp;
+														<a href="#" onclick="showSongList('S'); return false;">S</a>&nbsp;
+														<a href="#" onclick="showSongList('T'); return false;">T</a>&nbsp;
+														<a href="#" onclick="showSongList('U'); return false;">U</a>&nbsp;
+														<a href="#" onclick="showSongList('V'); return false;">V</a>&nbsp;
+														<a href="#" onclick="showSongList('W'); return false;">W</a>&nbsp;
+														<a href="#" onclick="showSongList('X'); return false;">X</a>&nbsp;
+														<a href="#" onclick="showSongList('Y'); return false;">Y</a>&nbsp;
+														<a href="#" onclick="showSongList('Z'); return false;">Z</a>&nbsp;
+														<a href="#" onclick="showSongList('#'); return false;">#</a>&nbsp;
+						</div>
+						<a class="linkbox" href="#" onclick="showRandom(); return false;">
+							Random <span class="flright">&raquo;</span>
+						</a>
+					</div>
+					<div class="mid">
+						Previously Played
+					</div>
+					<div id="lastsongs">
+					</div>
+				</div><div id="bar2" class="box hidden">
+					<div class="top">
+						Artists
+					</div>
+					<div id="artists_cont">
+					</div>
+				</div><div id="bar3" class="box hidden">
+					<div class="top">
+						Songs
+					</div>
+					<div id="songs_cont">
+					</div>
+				</div><div id="bar4" class="box hidden">
+					<div class="top">
+						Song Name
+					</div>
+					<div id="song_info">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div style="display: block; height: 0px;">&nbsp;</div>
+			<div class="header nav">
+				<div class="container">
+					<div class="row">
+						<div class="span9" id="navigation">
+							<a href="/">Home</a>
+							<a href="/schedule">Shows</a>
+							<a href="/music">Music</a>
+							<a href="/news">News</a>
+							<a href="/features">Features</a>
+							<a href="/about">About</a>
+							<a href="/join" class="join">Join</a>
+                     <!--
+                     <a href="/varsity" class="els">Varsity</a>
+                     -->
+							<a href="/members">DJ Area</a>
+						</div>
+						<div class="span3" id="search_box">
+							<form action="/request/search/" method="post" class="search">
+								<input type="submit" class="submit" value="" />
+								<input type="text" name="search" placeholder="Search music or request a song" value="" />
+								<input type="hidden" name="type" value="search" />
+							</form>
+						</div>
+						<script type="text/javascript">
+							$(document).ready(function() {
+								$('#search_box form').submit(function() {
+									showRequestBox();
+									setSearchText($('#search_box input[name=search]').val());
+									searchSongs();
+									return false;
+								});
+							});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="header listen hidden-phone">
+				<div class="container head">
+					<div class="row">
+						<a class="logo span4" href="/"></a>
+						<div class="span8" id="player">
+							<div id="on_air"></div>
+							<div id="now_playing"></div>
+							<div id="controls">
+								<div id="player_cont">
+									<audio id="audio_player" preload="none">
+										<!--<source src="http://152.78.144.19/surge/surge.stream/playlist.m3u8" type="audio/mp4; codecs='mp4a.40.2'">-->
+										<!--<source src="http://stream.susu.org:8000/surge-live-high-mp3" type="audio/mp3">
+										<source src="http://stream.susu.org:8000/surge-live-high.ogg" type="audio/ogg">-->
+										<source src="http://stream.susu.org:8000/surge-live-mid-mp3" type="audio/mp3">
+										<source src="http://stream.susu.org:8000/surge-live-mid.ogg" type="audio/ogg">
+										<!--<source src="http://stream.susu.org:8000/surge-live-low-mp3" type="audio/mp3">
+										<source src="http://stream.susu.org:8000/surge-live-low.ogg" type="audio/ogg">-->
+									</audio>
+								</div>
+								<div id="webcams">
+									<div class="popup">studio webcam</div>
+									<a href="/webcams"></a>
+								</div>
+								<div id="play_button"></div>
+								<div id="time_bar">
+									<div id="current_time"></div>
+								</div>
+								<div id="vol_control">
+									<div id="vol_bar">
+										<div id="vol_slider">
+											<div></div>
+										</div>
+									</div>
+									<div id="vol_icon"></div>
+								</div>
+								<div id="quality" title="Change Quality">M</div>
+								<div id="alternatives">
+									<div id="facebook">
+										<div class="popup">listen on facebook</div>
+										<a href="http://apps.facebook.com/surgetotalrequest" target="_blank"></a>
+									</div>
+									<div id="android">
+										<div class="popup">listen on android</div>
+										<a href="https://play.google.com/store/apps/details?id=tunein.player" target="_blank"></a>
+									</div>
+									<div id="iphone">
+										<div class="popup">listen on iphone</div>
+										<a href="https://itunes.apple.com/gb/app/tunein-radio/id319295332" target="_blank"></a>
+									</div>
+									<div id="itunes">
+										<div class="popup">listen on itunes</div>
+										<a href="/onair/listen/surge-live-high-mp3.pls" target="_blank" type="audio/mpeg-url"></a>
+									</div>
+								</div>
+								<!--<div id="control_2"></div>
+								<div id="control_3"></div>-->
+							</div>
+													</div>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="page_cont">
+												<div id="music">
+<script type="text/javascript">
+var playing = false;
+$(document).ready(function() {
+var height = $('#slider .column').first().outerHeight(true);
+$('#music_body').animate({'height': height}, 500);
+$(".details").each(function() {
+$(this).css('bottom', -$(this).outerHeight()+"px");
+$(".play_button", $(this).parent()).css("top", ((($(this).parent().height() - $(this).outerHeight()) / 2) - 25) + "px");
+});
+$(".music_head a").click(function(e) {
+var id = $(this).index();
+var width = $('#music_body').width();
+$('#slider').animate({'left': -1 * id * width}, 500);
+var height = $($('#slider .column')[id]).outerHeight(true);
+$('#music_body').animate({'height': height}, 500);
+$('.music_head a.selected').removeClass('selected');
+$(this).addClass('selected');
+e.preventDefault();
+return false;
+});
+$(".clip_player").bind("loadedmetadata", function() {
+$(".play_button", $(this).parent()).removeClass("hidden");
+}).bind("ended", function() {
+$(".play_button", $(this).parent()).removeClass("pause");
+$(".clip_progress", $(this).parent()).width(0);
+clearTimeout(clip_timer);
+});
+$(".play_button").click(function() {
+if ($(this).hasClass("pause")) {
+$(".clip_player", $(this).parent())[0].currentTime = 0;
+$(".clip_player", $(this).parent())[0].pause();
+$(".clip_progress", $(this).parent()).width(0);
+$(this).removeClass("pause");
+clearTimeout(clip_timer);
+} else {
+$(".play_button.pause, #play_button.pause, #play_button.buffer").click();
+$(".clip_player", $(this).parent())[0].play();
+$(this).addClass("pause");
+var code = $(this).closest(".song").attr("id");
+clip_timer = setInterval(function() { updateDuration(code); }, 100);
+}
+});
+});
+$(window).resize(function() {
+var id = $(".music_head .selected").index();
+var width = $('#music_body').width();
+$('#slider').css('left', -1 * id * width);
+var height = $($('#slider .column')[id]).outerHeight(true);
+$('#music_body').css('height', height);
+});
+function updateDuration(code) {
+var player = $("#"+code+" .clip_player")[0];
+var duration = player.duration;
+if (duration > -1) {
+var current = player.currentTime;
+var perc = (current / duration) * 100;
+$("#"+code+" .clip_progress").width(perc+"%");
+}
+}
+</script><div class="music_head">
+<a href="#col_playlist_a" class="selected">Playlist A<div></div></a>
+<a href="#col_playlist_b">Playlist B<div></div></a>
+<a href="#col_playlist_c">Playlist C<div></div></a>
+<a href="#col_surge_chart">Surge Chart<div></div></a>
+<a href="#col_new_music" class="right">New Music<div></div></a></div><div id="music_body"><div id="slider"><div class="column"><div class="song" id="011538" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011538.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011538.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011538'); return false;" href="#">Ciao Adios</a>
+<br />
+<a class="artist" onclick="searchArtist('Anne-Marie'); return false;" href="#">Anne-Marie</a><div class="buttons">
+<a onclick="showTrack('011538'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011387" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011387.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011387.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011387'); return false;" href="#">That's What I Like</a>
+<br />
+<a class="artist" onclick="searchArtist('Bruno Mars'); return false;" href="#">Bruno Mars</a><div class="buttons">
+<a onclick="showTrack('011387'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011616" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011616.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011616.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011616'); return false;" href="#">Slide (ft. Frank Ocean & Migos)</a>
+<br />
+<a class="artist" onclick="searchArtist('Calvin Harris'); return false;" href="#">Calvin Harris</a><div class="buttons">
+<a onclick="showTrack('011616'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011553" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011553.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011553.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011553'); return false;" href="#">Something Here</a>
+<br />
+<a class="artist" onclick="searchArtist('Day Wave'); return false;" href="#">Day Wave</a><div class="buttons">
+<a onclick="showTrack('011553'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011507" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011507.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011507.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011507'); return false;" href="#">Ran</a>
+<br />
+<a class="artist" onclick="searchArtist('Future Islands'); return false;" href="#">Future Islands</a><div class="buttons">
+<a onclick="showTrack('011507'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011592" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011592.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011592.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011592'); return false;" href="#">Cloud 9</a>
+<br />
+<a class="artist" onclick="searchArtist('Jamiroquai'); return false;" href="#">Jamiroquai</a><div class="buttons">
+<a onclick="showTrack('011592'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011541" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011541.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011541.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011541'); return false;" href="#">Sunrise</a>
+<br />
+<a class="artist" onclick="searchArtist('Jillionaire, Fuse ODG & Fatman Scoop'); return false;" href="#">Jillionaire, Fuse ODG & Fatman Scoop</a><div class="buttons">
+<a onclick="showTrack('011541'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011509" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011509.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011509.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011509'); return false;" href="#">Big Picture</a>
+<br />
+<a class="artist" onclick="searchArtist('London Grammar'); return false;" href="#">London Grammar</a><div class="buttons">
+<a onclick="showTrack('011509'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011661" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011661.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011661.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011661'); return false;" href="#">Green Light</a>
+<br />
+<a class="artist" onclick="searchArtist('Lorde'); return false;" href="#">Lorde</a><div class="buttons">
+<a onclick="showTrack('011661'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011530" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011530.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011530.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011530'); return false;" href="#">Heartbreak Diet</a>
+<br />
+<a class="artist" onclick="searchArtist('Sälen'); return false;" href="#">Sälen</a><div class="buttons">
+<a onclick="showTrack('011530'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011548" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011548.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011548.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011548'); return false;" href="#">Don't Kill My Vibe</a>
+<br />
+<a class="artist" onclick="searchArtist('Sigrid'); return false;" href="#">Sigrid</a><div class="buttons">
+<a onclick="showTrack('011548'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011622" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011622.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011622.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011622'); return false;" href="#">Big For Your Boots</a>
+<br />
+<a class="artist" onclick="searchArtist('Stormzy'); return false;" href="#">Stormzy</a><div class="buttons">
+<a onclick="showTrack('011622'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011596" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011596.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011596.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011596'); return false;" href="#">Black Magic</a>
+<br />
+<a class="artist" onclick="searchArtist('The Amazons'); return false;" href="#">The Amazons</a><div class="buttons">
+<a onclick="showTrack('011596'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011688" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011688.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011688.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011688'); return false;" href="#">In My Mind (Surge Session)</a>
+<br />
+<a class="artist" onclick="searchArtist('The Amazons'); return false;" href="#">The Amazons</a><div class="buttons">
+<a onclick="showTrack('011688'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011689" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011689.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011689.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011689'); return false;" href="#">Little Something (Surge Session)</a>
+<br />
+<a class="artist" onclick="searchArtist('The Amazons'); return false;" href="#">The Amazons</a><div class="buttons">
+<a onclick="showTrack('011689'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011639" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011639.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011639.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011639'); return false;" href="#">Something Just Like This</a>
+<br />
+<a class="artist" onclick="searchArtist('The Chainsmokers & Coldplay'); return false;" href="#">The Chainsmokers & Coldplay</a><div class="buttons">
+<a onclick="showTrack('011639'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011554" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011554.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011554.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011554'); return false;" href="#">How Can I Compete</a>
+<br />
+<a class="artist" onclick="searchArtist('The Magic Gang'); return false;" href="#">The Magic Gang</a><div class="buttons">
+<a onclick="showTrack('011554'); return false;" href="#" class="right">Request</a></div></div></div></div></div><div class="column"><div class="song" id="011655" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011655.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011655.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011655'); return false;" href="#">Oxygen</a>
+<br />
+<a class="artist" onclick="searchArtist('Catfish And The Bottlemen'); return false;" href="#">Catfish And The Bottlemen</a><div class="buttons">
+<a onclick="showTrack('011655'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011731" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011731.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011731.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011731'); return false;" href="#">Symphony (ft. Zara Larsson)</a>
+<br />
+<a class="artist" onclick="searchArtist('Clean Bandit'); return false;" href="#">Clean Bandit</a><div class="buttons">
+<a onclick="showTrack('011731'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011656" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011656.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011656.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011656'); return false;" href="#">Leaving You Behind</a>
+<br />
+<a class="artist" onclick="searchArtist('Clean Cut Kid'); return false;" href="#">Clean Cut Kid</a><div class="buttons">
+<a onclick="showTrack('011656'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011734" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011734.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011734.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011734'); return false;" href="#">Passionfruit</a>
+<br />
+<a class="artist" onclick="searchArtist('Drake'); return false;" href="#">Drake</a><div class="buttons">
+<a onclick="showTrack('011734'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011623" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011623.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011623.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011623'); return false;" href="#">Reload That</a>
+<br />
+<a class="artist" onclick="searchArtist('Elf Kid'); return false;" href="#">Elf Kid</a><div class="buttons">
+<a onclick="showTrack('011623'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011699" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011699.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011699.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011699'); return false;" href="#">Meditation (ft. Jazmine Sullivan & KAYTRANADA)</a>
+<br />
+<a class="artist" onclick="searchArtist('GoldLink'); return false;" href="#">GoldLink</a><div class="buttons">
+<a onclick="showTrack('011699'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011467" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011467.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011467.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011467'); return false;" href="#">Issues</a>
+<br />
+<a class="artist" onclick="searchArtist('Julia Michaels'); return false;" href="#">Julia Michaels</a><div class="buttons">
+<a onclick="showTrack('011467'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011552" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011552.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011552.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011552'); return false;" href="#">Cloudbusting</a>
+<br />
+<a class="artist" onclick="searchArtist('Just Us'); return false;" href="#">Just Us</a><div class="buttons">
+<a onclick="showTrack('011552'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011660" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011660.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011660.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011660'); return false;" href="#">No More Sad Songs (ft. Machine Gun Kelly)</a>
+<br />
+<a class="artist" onclick="searchArtist('Little Mix'); return false;" href="#">Little Mix</a><div class="buttons">
+<a onclick="showTrack('011660'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011662" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011662.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011662.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011662'); return false;" href="#">Down</a>
+<br />
+<a class="artist" onclick="searchArtist('Marian Hill'); return false;" href="#">Marian Hill</a><div class="buttons">
+<a onclick="showTrack('011662'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011579" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011579.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011579.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011579'); return false;" href="#">Falcon Eye</a>
+<br />
+<a class="artist" onclick="searchArtist('Off Bloom'); return false;" href="#">Off Bloom</a><div class="buttons">
+<a onclick="showTrack('011579'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011630" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011630.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011630.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011630'); return false;" href="#">There's A Honey</a>
+<br />
+<a class="artist" onclick="searchArtist('Pale Waves'); return false;" href="#">Pale Waves</a><div class="buttons">
+<a onclick="showTrack('011630'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011667" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011667.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011667.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011667'); return false;" href="#">Sucker</a>
+<br />
+<a class="artist" onclick="searchArtist('The Big Moon'); return false;" href="#">The Big Moon</a><div class="buttons">
+<a onclick="showTrack('011667'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011615" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011615.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011615.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011615'); return false;" href="#">Beach (I Wanna Make You Mine)</a>
+<br />
+<a class="artist" onclick="searchArtist('Will Joseph Cook'); return false;" href="#">Will Joseph Cook</a><div class="buttons">
+<a onclick="showTrack('011615'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011642" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011642.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011642.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011642'); return false;" href="#">Stay</a>
+<br />
+<a class="artist" onclick="searchArtist('Zedd & Alessia Cara'); return false;" href="#">Zedd & Alessia Cara</a><div class="buttons">
+<a onclick="showTrack('011642'); return false;" href="#" class="right">Request</a></div></div></div></div></div><div class="column"><div class="song" id="011744" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011744.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011744.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011744'); return false;" href="#">Chasing Highs</a>
+<br />
+<a class="artist" onclick="searchArtist('ALMA'); return false;" href="#">ALMA</a><div class="buttons">
+<a onclick="showTrack('011744'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011687" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011687.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011687.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011687'); return false;" href="#">3WW</a>
+<br />
+<a class="artist" onclick="searchArtist('alt-J'); return false;" href="#">alt-J</a><div class="buttons">
+<a onclick="showTrack('011687'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011721" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011721.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011721.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011721'); return false;" href="#">Orthodox Man</a>
+<br />
+<a class="artist" onclick="searchArtist('Blaenavon'); return false;" href="#">Blaenavon</a><div class="buttons">
+<a onclick="showTrack('011721'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011694" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011694.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011694.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011694'); return false;" href="#">3AM (Pull Up) (ft. MÃ?)</a>
+<br />
+<a class="artist" onclick="searchArtist('Charli XCX'); return false;" href="#">Charli XCX</a><div class="buttons">
+<a onclick="showTrack('011694'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011695" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011695.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011695.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011695'); return false;" href="#">Hello Hello</a>
+<br />
+<a class="artist" onclick="searchArtist('Fickle Friends'); return false;" href="#">Fickle Friends</a><div class="buttons">
+<a onclick="showTrack('011695'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011747" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011747.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011747.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011747'); return false;" href="#">Andromeda (ft. D.R.A.M.)</a>
+<br />
+<a class="artist" onclick="searchArtist('Gorillaz'); return false;" href="#">Gorillaz</a><div class="buttons">
+<a onclick="showTrack('011747'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011751" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011751.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011751.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011751'); return false;" href="#">Southampton Lad</a>
+<br />
+<a class="artist" onclick="searchArtist('J. Bone'); return false;" href="#">J. Bone</a><div class="buttons">
+<a onclick="showTrack('011751'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011701" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011701.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011701.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011701'); return false;" href="#">In The Morning</a>
+<br />
+<a class="artist" onclick="searchArtist('Jaded'); return false;" href="#">Jaded</a><div class="buttons">
+<a onclick="showTrack('011701'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011752" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011752.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011752.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011752'); return false;" href="#">ThreeOneEight</a>
+<br />
+<a class="artist" onclick="searchArtist('Jake Willis'); return false;" href="#">Jake Willis</a><div class="buttons">
+<a onclick="showTrack('011752'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="010908" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/010908.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/010908.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('010908'); return false;" href="#">I'm Not In Love With You</a>
+<br />
+<a class="artist" onclick="searchArtist('Jerry Williams'); return false;" href="#">Jerry Williams</a><div class="buttons">
+<a onclick="showTrack('010908'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011703" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011703.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011703.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011703'); return false;" href="#">All Time Low</a>
+<br />
+<a class="artist" onclick="searchArtist('Jon Bellion'); return false;" href="#">Jon Bellion</a><div class="buttons">
+<a onclick="showTrack('011703'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011732" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011732.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011732.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011732'); return false;" href="#">You're In Love With A Psycho</a>
+<br />
+<a class="artist" onclick="searchArtist('Kasabian'); return false;" href="#">Kasabian</a><div class="buttons">
+<a onclick="showTrack('011732'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011735" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011735.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011735.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011735'); return false;" href="#">iSpy (ft. Lil Yachty)</a>
+<br />
+<a class="artist" onclick="searchArtist('Kyle'); return false;" href="#">Kyle</a><div class="buttons">
+<a onclick="showTrack('011735'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011738" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011738.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011738.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011738'); return false;" href="#">1 Night</a>
+<br />
+<a class="artist" onclick="searchArtist('Mura Masa & Charli XCX'); return false;" href="#">Mura Masa & Charli XCX</a><div class="buttons">
+<a onclick="showTrack('011738'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011754" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011754.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011754.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011754'); return false;" href="#">Story Of 48</a>
+<br />
+<a class="artist" onclick="searchArtist('Sports & Tech'); return false;" href="#">Sports & Tech</a><div class="buttons">
+<a onclick="showTrack('011754'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011569" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011569.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011569.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011569'); return false;" href="#">Happy Family</a>
+<br />
+<a class="artist" onclick="searchArtist('Sundara Karma'); return false;" href="#">Sundara Karma</a><div class="buttons">
+<a onclick="showTrack('011569'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011641" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011641.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011641.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011641'); return false;" href="#">Lavender</a>
+<br />
+<a class="artist" onclick="searchArtist('Two Door Cinema Club'); return false;" href="#">Two Door Cinema Club</a><div class="buttons">
+<a onclick="showTrack('011641'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011750" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011750.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011750.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011750'); return false;" href="#">Still Got Time (ft. PARTYNEXTDOOR)</a>
+<br />
+<a class="artist" onclick="searchArtist('ZAYN'); return false;" href="#">ZAYN</a><div class="buttons">
+<a onclick="showTrack('011750'); return false;" href="#" class="right">Request</a></div></div></div></div></div><div class="column"><div class="song" id="001166" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/001166.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/001166.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('001166'); return false;" href="#">It Wasn't Me</a>
+<br />
+<a class="artist" onclick="searchArtist('Shaggy'); return false;" href="#">Shaggy</a><div class="buttons">
+<a onclick="showTrack('001166'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="000078" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/000078.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/000078.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('000078'); return false;" href="#">Country House</a>
+<br />
+<a class="artist" onclick="searchArtist('Blur'); return false;" href="#">Blur</a><div class="buttons">
+<a onclick="showTrack('000078'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="007936" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/007936.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/007936.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('007936'); return false;" href="#">Fields Of Gold</a>
+<br />
+<a class="artist" onclick="searchArtist('Sting'); return false;" href="#">Sting</a><div class="buttons">
+<a onclick="showTrack('007936'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="002693" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/002693.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/002693.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('002693'); return false;" href="#">Enjoy The Silence 04</a>
+<br />
+<a class="artist" onclick="searchArtist('Depeche Mode'); return false;" href="#">Depeche Mode</a><div class="buttons">
+<a onclick="showTrack('002693'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="006151" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/006151.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/006151.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('006151'); return false;" href="#">Africa</a>
+<br />
+<a class="artist" onclick="searchArtist('Toto'); return false;" href="#">Toto</a><div class="buttons">
+<a onclick="showTrack('006151'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="002086" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/002086.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/002086.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('002086'); return false;" href="#">American Pie</a>
+<br />
+<a class="artist" onclick="searchArtist('Don McLean'); return false;" href="#">Don McLean</a><div class="buttons">
+<a onclick="showTrack('002086'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="008402" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/008402.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/008402.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('008402'); return false;" href="#">Stormur</a>
+<br />
+<a class="artist" onclick="searchArtist('Sigur Ros'); return false;" href="#">Sigur Ros</a><div class="buttons">
+<a onclick="showTrack('008402'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="003480" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/003480.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/003480.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('003480'); return false;" href="#">Benzin</a>
+<br />
+<a class="artist" onclick="searchArtist('Rammstein'); return false;" href="#">Rammstein</a><div class="buttons">
+<a onclick="showTrack('003480'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="006916" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/006916.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/006916.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('006916'); return false;" href="#">Amor Fati</a>
+<br />
+<a class="artist" onclick="searchArtist('Washed Out'); return false;" href="#">Washed Out</a><div class="buttons">
+<a onclick="showTrack('006916'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="003274" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/003274.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/003274.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('003274'); return false;" href="#">Only This Moment</a>
+<br />
+<a class="artist" onclick="searchArtist('Royksopp'); return false;" href="#">Royksopp</a><div class="buttons">
+<a onclick="showTrack('003274'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="005549" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/005549.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/005549.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('005549'); return false;" href="#">Two Tribes</a>
+<br />
+<a class="artist" onclick="searchArtist('Frankie Goes to Hollywood'); return false;" href="#">Frankie Goes to Hollywood</a><div class="buttons">
+<a onclick="showTrack('005549'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="005376" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/005376.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/005376.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('005376'); return false;" href="#">Da Ya Think I'm Sexy?</a>
+<br />
+<a class="artist" onclick="searchArtist('Rod Stewart'); return false;" href="#">Rod Stewart</a><div class="buttons">
+<a onclick="showTrack('005376'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="003819" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/003819.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/003819.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('003819'); return false;" href="#">In the morning</a>
+<br />
+<a class="artist" onclick="searchArtist('Razorlight'); return false;" href="#">Razorlight</a><div class="buttons">
+<a onclick="showTrack('003819'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="006518" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/006518.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/006518.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('006518'); return false;" href="#">A Little Respect</a>
+<br />
+<a class="artist" onclick="searchArtist('Erasure'); return false;" href="#">Erasure</a><div class="buttons">
+<a onclick="showTrack('006518'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="000165" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/000165.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/000165.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('000165'); return false;" href="#">Babylon</a>
+<br />
+<a class="artist" onclick="searchArtist('David Gray'); return false;" href="#">David Gray</a><div class="buttons">
+<a onclick="showTrack('000165'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="008324" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/008324.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/008324.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('008324'); return false;" href="#">Alive</a>
+<br />
+<a class="artist" onclick="searchArtist('Empire Of The Sun'); return false;" href="#">Empire Of The Sun</a><div class="buttons">
+<a onclick="showTrack('008324'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="001242" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/001242.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/001242.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('001242'); return false;" href="#">Star 69 (Clean Edit)</a>
+<br />
+<a class="artist" onclick="searchArtist('Fatboy Slim'); return false;" href="#">Fatboy Slim</a><div class="buttons">
+<a onclick="showTrack('001242'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="006298" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/006298.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/006298.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('006298'); return false;" href="#">Bigmouth Strikes Again</a>
+<br />
+<a class="artist" onclick="searchArtist('The Smiths'); return false;" href="#">The Smiths</a><div class="buttons">
+<a onclick="showTrack('006298'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="008289" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/008289.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/008289.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('008289'); return false;" href="#">Shine A Little Love</a>
+<br />
+<a class="artist" onclick="searchArtist('Electric Light Orchestra'); return false;" href="#">Electric Light Orchestra</a><div class="buttons">
+<a onclick="showTrack('008289'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="000937" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/000937.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/000937.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('000937'); return false;" href="#">It's Oh So Quiet</a>
+<br />
+<a class="artist" onclick="searchArtist('Bjork'); return false;" href="#">Bjork</a><div class="buttons">
+<a onclick="showTrack('000937'); return false;" href="#" class="right">Request</a></div></div></div></div></div><div class="column"><div class="song" id="011754" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011754.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011754.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011754'); return false;" href="#">Story Of 48</a>
+<br />
+<a class="artist" onclick="searchArtist('Sports & Tech'); return false;" href="#">Sports & Tech</a><div class="buttons">
+<a onclick="showTrack('011754'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011752" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011752.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011752.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011752'); return false;" href="#">ThreeOneEight</a>
+<br />
+<a class="artist" onclick="searchArtist('Jake Willis'); return false;" href="#">Jake Willis</a><div class="buttons">
+<a onclick="showTrack('011752'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011751" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011751.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011751.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011751'); return false;" href="#">Southampton Lad</a>
+<br />
+<a class="artist" onclick="searchArtist('J. Bone'); return false;" href="#">J. Bone</a><div class="buttons">
+<a onclick="showTrack('011751'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011750" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011750.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011750.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011750'); return false;" href="#">Still Got Time (ft. PARTYNEXTDOOR)</a>
+<br />
+<a class="artist" onclick="searchArtist('ZAYN'); return false;" href="#">ZAYN</a><div class="buttons">
+<a onclick="showTrack('011750'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011749" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011749.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011749.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011749'); return false;" href="#">Deliverance</a>
+<br />
+<a class="artist" onclick="searchArtist('Rationale'); return false;" href="#">Rationale</a><div class="buttons">
+<a onclick="showTrack('011749'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011748" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011748.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011748.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011748'); return false;" href="#">Location (Remix) (ft. Lil Wayne & Kehlani)</a>
+<br />
+<a class="artist" onclick="searchArtist('Khalid'); return false;" href="#">Khalid</a><div class="buttons">
+<a onclick="showTrack('011748'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011747" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011747.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011747.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011747'); return false;" href="#">Andromeda (ft. D.R.A.M.)</a>
+<br />
+<a class="artist" onclick="searchArtist('Gorillaz'); return false;" href="#">Gorillaz</a><div class="buttons">
+<a onclick="showTrack('011747'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011746" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011746.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011746.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011746'); return false;" href="#">Light My Body Up (ft. Nicki Minaj & Lil Wayne)</a>
+<br />
+<a class="artist" onclick="searchArtist('David Guetta'); return false;" href="#">David Guetta</a><div class="buttons">
+<a onclick="showTrack('011746'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011745" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011745.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011745.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011745'); return false;" href="#">REDMERCEDES</a>
+<br />
+<a class="artist" onclick="searchArtist('Aminé'); return false;" href="#">Aminé</a><div class="buttons">
+<a onclick="showTrack('011745'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011744" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011744.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011744.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011744'); return false;" href="#">Chasing Highs</a>
+<br />
+<a class="artist" onclick="searchArtist('ALMA'); return false;" href="#">ALMA</a><div class="buttons">
+<a onclick="showTrack('011744'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011743" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011743.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011743.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011743'); return false;" href="#">Let's Get Ready To Rhumble</a>
+<br />
+<a class="artist" onclick="searchArtist('PJ & Duncan'); return false;" href="#">PJ & Duncan</a><div class="buttons">
+<a onclick="showTrack('011743'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011742" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011742.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011742.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011742'); return false;" href="#">Good Life</a>
+<br />
+<a class="artist" onclick="searchArtist('G-Eazy & Kehlani'); return false;" href="#">G-Eazy & Kehlani</a><div class="buttons">
+<a onclick="showTrack('011742'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011741" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011741.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011741.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011741'); return false;" href="#">Losing You</a>
+<br />
+<a class="artist" onclick="searchArtist('Zac Samuel'); return false;" href="#">Zac Samuel</a><div class="buttons">
+<a onclick="showTrack('011741'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011740" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011740.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011740.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011740'); return false;" href="#">Feels Like Summer</a>
+<br />
+<a class="artist" onclick="searchArtist('Weezer'); return false;" href="#">Weezer</a><div class="buttons">
+<a onclick="showTrack('011740'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011739" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011739.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011739.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011739'); return false;" href="#">Do It Like Me (Icy Feet) (ft. Sage The Gemini & Kelis)</a>
+<br />
+<a class="artist" onclick="searchArtist('TCTS'); return false;" href="#">TCTS</a><div class="buttons">
+<a onclick="showTrack('011739'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011738" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011738.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011738.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011738'); return false;" href="#">1 Night</a>
+<br />
+<a class="artist" onclick="searchArtist('Mura Masa & Charli XCX'); return false;" href="#">Mura Masa & Charli XCX</a><div class="buttons">
+<a onclick="showTrack('011738'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011737" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011737.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011737.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011737'); return false;" href="#">Angels / Your Love (ft. BJ The Chicago Kid)</a>
+<br />
+<a class="artist" onclick="searchArtist('Mr Jukes'); return false;" href="#">Mr Jukes</a><div class="buttons">
+<a onclick="showTrack('011737'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011736" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011736.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011736.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011736'); return false;" href="#">Animal (Peter Bjorn & John Remix)</a>
+<br />
+<a class="artist" onclick="searchArtist('Miike Snow'); return false;" href="#">Miike Snow</a><div class="buttons">
+<a onclick="showTrack('011736'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011735" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011735.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011735.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011735'); return false;" href="#">iSpy (ft. Lil Yachty)</a>
+<br />
+<a class="artist" onclick="searchArtist('Kyle'); return false;" href="#">Kyle</a><div class="buttons">
+<a onclick="showTrack('011735'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011734" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011734.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011734.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011734'); return false;" href="#">Passionfruit</a>
+<br />
+<a class="artist" onclick="searchArtist('Drake'); return false;" href="#">Drake</a><div class="buttons">
+<a onclick="showTrack('011734'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011733" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011733.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011733.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011733'); return false;" href="#">Flame</a>
+<br />
+<a class="artist" onclick="searchArtist('Tinashe'); return false;" href="#">Tinashe</a><div class="buttons">
+<a onclick="showTrack('011733'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011732" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011732.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011732.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011732'); return false;" href="#">You're In Love With A Psycho</a>
+<br />
+<a class="artist" onclick="searchArtist('Kasabian'); return false;" href="#">Kasabian</a><div class="buttons">
+<a onclick="showTrack('011732'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011731" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011731.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011731.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011731'); return false;" href="#">Symphony (ft. Zara Larsson)</a>
+<br />
+<a class="artist" onclick="searchArtist('Clean Bandit'); return false;" href="#">Clean Bandit</a><div class="buttons">
+<a onclick="showTrack('011731'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011730" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011730.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011730.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011730'); return false;" href="#">Matches</a>
+<br />
+<a class="artist" onclick="searchArtist('Cash Cash & ROZES'); return false;" href="#">Cash Cash & ROZES</a><div class="buttons">
+<a onclick="showTrack('011730'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011725" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011725.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011725.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011725'); return false;" href="#">Run</a>
+<br />
+<a class="artist" onclick="searchArtist('Offaiah'); return false;" href="#">Offaiah</a><div class="buttons">
+<a onclick="showTrack('011725'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011724" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011724.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011724.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011724'); return false;" href="#">Did You See</a>
+<br />
+<a class="artist" onclick="searchArtist('J Hus'); return false;" href="#">J Hus</a><div class="buttons">
+<a onclick="showTrack('011724'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011723" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011723.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011723.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011723'); return false;" href="#">Where U Iz</a>
+<br />
+<a class="artist" onclick="searchArtist('Fatboy Slim'); return false;" href="#">Fatboy Slim</a><div class="buttons">
+<a onclick="showTrack('011723'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011722" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011722.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011722.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011722'); return false;" href="#">Disco Heat</a>
+<br />
+<a class="artist" onclick="searchArtist('Calvin Harris'); return false;" href="#">Calvin Harris</a><div class="buttons">
+<a onclick="showTrack('011722'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011721" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011721.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011721.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011721'); return false;" href="#">Orthodox Man</a>
+<br />
+<a class="artist" onclick="searchArtist('Blaenavon'); return false;" href="#">Blaenavon</a><div class="buttons">
+<a onclick="showTrack('011721'); return false;" href="#" class="right">Request</a></div></div></div></div><div class="song" id="011717" style="background-image:URL('http://www.surgeradio.co.uk/style/images/music/011717.png');"><div class="clip_progress"></div><div class="play_button hidden"></div>
+<audio preload="auto" class="clip_player">
+<source src="/podcasts/clips/011717.mp3" type="audio/mp3" />
+</audio><div class="details"><div>
+<a onclick="showTrack('011717'); return false;" href="#">Do It Right (ft. Haile)</a>
+<br />
+<a class="artist" onclick="searchArtist('Yungen & Sneakbo'); return false;" href="#">Yungen & Sneakbo</a><div class="buttons">
+<a onclick="showTrack('011717'); return false;" href="#" class="right">Request</a></div></div></div></div></div></div></div></div>			</div>
+			<div class="foot_break"></div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<!--<a href="http://www.susu.org" id="susu_link"></a>-->
+				<span>
+					Surge Radio is part of <span>SUSU Media</span>.
+					Copyright &copy; 2001 - 2017 Surge. All rights reserved.
+				</span>
+			</div>
+		</div>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=147531432034074";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<iframe id="nav_frame" width="0" height="0" class="hidden" hidden="hidden"></iframe>
+		
+	</body>
+</html>

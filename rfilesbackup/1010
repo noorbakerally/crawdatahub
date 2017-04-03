@@ -1,0 +1,49 @@
+@prefix pubblicazioni:	<http://www.cnr.it/ontology/cnr/pubblicazioni.owl#> .
+@prefix prodotto:	<http://www.cnr.it/ontology/cnr/individuo/prodotto/> .
+@prefix unitaDiPersonaleInterno:	<http://www.cnr.it/ontology/cnr/individuo/unitaDiPersonaleInterno/> .
+prodotto:ID93760	pubblicazioni:autoreCNR	unitaDiPersonaleInterno:MATRICOLA11472 .
+@prefix void:	<http://rdfs.org/ns/void#> .
+<http://data.cnr.it/dataset/>	void:exampleResource	unitaDiPersonaleInterno:MATRICOLA11472 .
+unitaDiPersonaleInterno:MATRICOLA1582	pubblicazioni:coautore	unitaDiPersonaleInterno:MATRICOLA11472 .
+@prefix unitaDiPersonaleEsterno:	<http://www.cnr.it/ontology/cnr/individuo/unitaDiPersonaleEsterno/> .
+unitaDiPersonaleEsterno:ID14956	pubblicazioni:coautore	unitaDiPersonaleInterno:MATRICOLA11472 .
+unitaDiPersonaleEsterno:ID6444	pubblicazioni:coautore	unitaDiPersonaleInterno:MATRICOLA11472 .
+unitaDiPersonaleEsterno:ID6446	pubblicazioni:coautore	unitaDiPersonaleInterno:MATRICOLA11472 .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix personale:	<http://www.cnr.it/ontology/cnr/personale.owl#> .
+unitaDiPersonaleInterno:MATRICOLA11472	rdf:type	personale:UnitaDiPersonaleInterno .
+@prefix persone:	<http://www.cnr.it/ontology/cnr/persone.owl#> .
+unitaDiPersonaleInterno:MATRICOLA11472	rdf:type	persone:Persona .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+unitaDiPersonaleInterno:MATRICOLA11472	rdfs:label	"ENRICO DAGA"@it ,
+		"ENRICO DAGA"@en .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+unitaDiPersonaleInterno:MATRICOLA11472	owl:sameAs	unitaDiPersonaleEsterno:ID19090 ,
+		unitaDiPersonaleEsterno:ID9879 .
+@prefix rapportoConCNR:	<http://www.cnr.it/ontology/cnr/individuo/rapportoConCNR/> .
+unitaDiPersonaleInterno:MATRICOLA11472	personale:personaInRapporto	rapportoConCNR:MATRICOLA11472 ;
+	pubblicazioni:autoreCNRDi	prodotto:ID260892 ,
+		prodotto:ID172580 ,
+		prodotto:ID260885 ,
+		prodotto:ID93760 ,
+		prodotto:ID93759 ;
+	pubblicazioni:coautore	unitaDiPersonaleInterno:MATRICOLA1582 ,
+		unitaDiPersonaleEsterno:ID6444 ,
+		unitaDiPersonaleInterno:MATRICOLA10954 ,
+		unitaDiPersonaleEsterno:ID14956 ,
+		unitaDiPersonaleInterno:MATRICOLA6893 ,
+		unitaDiPersonaleInterno:MATRICOLA11456 ,
+		unitaDiPersonaleEsterno:ID6446 ;
+	personale:nome	"ENRICO"@en ;
+	personale:cognome	"DAGA"@en .
+@prefix suddivisioni:	<http://www.cnr.it/ontology/cnr/suddivisioni.owl#> .
+unitaDiPersonaleInterno:MATRICOLA11472	suddivisioni:afferisceA	<http://www.cnr.it/ontology/cnr/individuo/strutturaGestionale/CDS000.414> .
+unitaDiPersonaleInterno:MATRICOLA10954	pubblicazioni:coautore	unitaDiPersonaleInterno:MATRICOLA11472 .
+rapportoConCNR:MATRICOLA11472	personale:rapportoConPersona	unitaDiPersonaleInterno:MATRICOLA11472 .
+unitaDiPersonaleInterno:MATRICOLA6893	pubblicazioni:coautore	unitaDiPersonaleInterno:MATRICOLA11472 .
+unitaDiPersonaleInterno:MATRICOLA11456	pubblicazioni:coautore	unitaDiPersonaleInterno:MATRICOLA11472 .
+<http://www.cnr.it/ontology/cnr/individuo/strutturaGestionale/CDS000.414>	suddivisioni:haAfferente	unitaDiPersonaleInterno:MATRICOLA11472 .
+prodotto:ID93759	pubblicazioni:autoreCNR	unitaDiPersonaleInterno:MATRICOLA11472 .
+prodotto:ID172580	pubblicazioni:autoreCNR	unitaDiPersonaleInterno:MATRICOLA11472 .
+prodotto:ID260892	pubblicazioni:autoreCNR	unitaDiPersonaleInterno:MATRICOLA11472 .
+prodotto:ID260885	pubblicazioni:autoreCNR	unitaDiPersonaleInterno:MATRICOLA11472 .

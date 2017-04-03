@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:cas="http://rdfdata.eionet.europa.eu/cas/ontology/"
+    xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+    xmlns:sdmx-dimension="http://purl.org/linked-data/sdmx/2009/dimension#"
+    xmlns:ir="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:itis="http://rdfdata.eionet.europa.eu/itis/ontology/"
+    xmlns:eprtr="http://rdfdata.eionet.europa.eu/eprtr/ontology/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:dbprop="http://dppedia.org/property/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:eea="http://rdfdata.eionet.europa.eu/eea/ontology/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:lrtap="http://rdfdata.eionet.europa.eu/lrtap/ontology/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:eunis="http://eunis.eea.europa.eu/rdf/schema.rdf#"
+    xmlns:eunis-species="http://eunis.eea.europa.eu/rdf/species-schema.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:eunis-sites="http://eunis.eea.europa.eu/rdf/sites-schema.rdf#">
+  <rdf:Description rdf:about="http://rdfdata.eionet.europa.eu/data/eea/languages/fi">
+    <rdfs:label>RDF description of Finnish</rdfs:label>
+    <foaf:primaryTopic>
+      <eea:Language rdf:about="http://rdfdata.eionet.europa.eu/eea/languages/fi">
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Finnish_language"/>
+        <eea:name xml:lang="uk">Фінська</eea:name>
+        <eea:name xml:lang="lv">somu</eea:name>
+        <eea:name xml:lang="pt">finlandês</eea:name>
+        <eea:name xml:lang="cs">Finština</eea:name>
+        <eea:name xml:lang="da">Finsk</eea:name>
+        <eea:officialOf rdf:resource="http://rdfdata.eionet.europa.eu/eea/countries/FI"/>
+        <eea:name xml:lang="ca">finès</eea:name>
+        <eea:name xml:lang="ar">ﺎﻠﻔﻨﻠﻧﺪﻳﺓ</eea:name>
+        <eea:name xml:lang="tr">Fince</eea:name>
+        <eea:code>fi</eea:code>
+        <eea:name xml:lang="nb">finsk</eea:name>
+        <eea:name xml:lang="eo">finna</eea:name>
+        <eea:name xml:lang="he">פינית</eea:name>
+        <eea:name xml:lang="is">Finnska</eea:name>
+        <owl:sameAs rdf:resource="http://publications.europa.eu/resource/authority/language/FIN"/>
+        <eea:name xml:lang="el">Φινλανδικά</eea:name>
+        <owl:sameAs rdf:resource="http://lexvo.org/id/iso639-3/fin"/>
+        <eea:name xml:lang="sk">fínsky</eea:name>
+        <eea:name xml:lang="ru">Финский</eea:name>
+        <eea:name xml:lang="sl">Finščina</eea:name>
+        <eea:name xml:lang="it">finlandese</eea:name>
+        <eea:name xml:lang="ga">Fionnlainnis</eea:name>
+        <eea:name xml:lang="es">finlandés</eea:name>
+        <eea:name xml:lang="hr">finski</eea:name>
+        <eea:name xml:lang="lt">Suomių</eea:name>
+        <eea:name xml:lang="hu">finn</eea:name>
+        <eea:name xml:lang="ro">Finlandeză</eea:name>
+        <owl:sameAs rdf:resource="http://psi.oasis-open.org/iso/639/#fin"/>
+        <eea:name xml:lang="sv">finska</eea:name>
+        <eea:name xml:lang="nl">Fins</eea:name>
+        <eea:name xml:lang="sr">Фински</eea:name>
+        <eea:name xml:lang="bg">Фински</eea:name>
+        <eea:name xml:lang="mt">Finlandiż</eea:name>
+        <eea:name xml:lang="en">Finnish</eea:name>
+        <eea:name xml:lang="et">Soome</eea:name>
+        <eea:name>Suomi</eea:name>
+        <eea:name xml:lang="pl">fiński</eea:name>
+        <eea:name xml:lang="fi">suomi</eea:name>
+        <eea:name xml:lang="de">Finnisch</eea:name>
+        <rdfs:label>Finnish</rdfs:label>
+        <eea:name xml:lang="fr">finnois</eea:name>
+      </eea:Language>
+    </foaf:primaryTopic>
+  </rdf:Description>
+</rdf:RDF>

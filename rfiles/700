@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/3-recomendaciones-para-habilitar-anotaciones-en/12f299ee-568b-42ca-992b-8057eedb3e52" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/generar-rdf-desde-datos-tabulares-en-la-web/ec7da17e-eb9f-4737-8dfb-6797d436f79a" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/aplicaciones-industriales-de-la-web-semantica/a684b5ae-9c64-4fbc-ae11-21698f25eed1" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/semantic-seo-for-the-automotive-industry/95020f9d-cfb9-4dd7-9510-95b8ff2d0b8a" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/rdf-arquitecturas-web-y-posicionamiento-semantico/1a831e77-ca55-491b-af27-8958174ddbc7" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/tecnologias-web-semantica-divulgacion/5f74fa9f-b2c8-4ea0-9744-909701e60829" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/web-semantica-que-es-y-que-relacion-guarda-con/2aee7cbe-1d88-478d-8026-524e1d8b59b4" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/web-30integracion-de-la-web-semantica-y-la-web-20/440f4082-2489-49fe-b7c3-795037c2e3f6" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/10-claves-para-entender-la-web-semantica/fe999c33-a558-4f45-81b8-e4b034ac630a" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/json-ld-el-futuro-de-la-web-semantica/4d986d58-06d9-4ccc-9e4f-e680ec54b0f6" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/3-recomendaciones-para-habilitar-anotaciones-en/12f299ee-568b-42ca-992b-8057eedb3e52">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[3 recomendaciones para habilitar Anotaciones en la Web. W3C]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>El grupo Web Annotation Working Group ha publicado unas recomendaciones para anotaci&oacute;n en la web, con estos 3 documentos:</p>
+
+<ul>
+	<li><a href="https://www.w3.org/TR/2017/REC-annotation-model-20170223/" target="_blank">Web Annotation Data Model</a></li>
+	<li><a href="https://www.w3.org/TR/2017/REC-annotation-vocab-20170223/" target="_blank">Web Annotation Vocabulary</a></li>
+	<li><a href="https://www.w3.org/TR/2017/REC-annotation-protocol-20170223/" target="_blank">Web Annotation Protocol</a></li>
+</ul>
+
+<p>El grupo ha generado 2 notas adicionales:</p>
+
+<ul>
+	<li><a href="https://www.w3.org/TR/2017/NOTE-annotation-html-20170223/" target="_blank">Embedding Web Annotations in HTML</a></li>
+	<li><a href="https://www.w3.org/TR/2017/NOTE-selectors-states-20170223/" target="_blank">Selectors and States</a>&nbsp;(sobre la especificaci&oacute;n formal y sem&aacute;ntica de <a href="https://www.w3.org/TR/2017/REC-annotation-model-20170223/" target="_blank">Web Annotation Data Model</a>)</li>
+</ul>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2017-02-27T12:58:41+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[3 recomendaciones para habilitar Anotaciones en la Web. W3C]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://www.w3.org/blog/news/archives/6156?pk_campaign=feed&pk_kwd=three-recommendations-to-enable-annotations-on-the-web]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/perfil/susanalopez/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/anotaciones" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/w3c" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/recomendaciones" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20annotation%20vocabulary" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20annotation%20protocol" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/selectors%20and%20states" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20annotation%20working%20group" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/recommendation" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/w3c%20recommendation" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/perfil/susanalopez/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Susana López Sola]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Susana]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[López Sola]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/anotaciones">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[anotaciones]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/w3c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[w3c]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/World_Wide_Web_Consortium" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.082bb" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/recomendaciones">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recomendaciones]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20annotation%20vocabulary">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[web annotation vocabulary]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20annotation%20protocol">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[web annotation protocol]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/selectors%20and%20states">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[selectors and states]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20annotation%20working%20group">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[web annotation working group]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/recommendation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recommendation]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/w3c%20recommendation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[w3c recommendation]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/World_Wide_Web_Consortium" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.082bb" />
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/generar-rdf-desde-datos-tabulares-en-la-web/ec7da17e-eb9f-4737-8dfb-6797d436f79a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Generar RDF desde datos tabulares en la Web. Recomendación del W3C]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>El documento define los procedimientos y reglas a aplicar para convertir datos tabulares en RDF. Los datos tabulares pueden estar complementados con anotaciones en metadatos que describan su estructura, el significado de su contenido, y si forma parte de una una colecci&oacute;n de datos tabulares interrelacionados. El documento especifica el efecto de estos metadatos en el RDF resultante.</p>
+
+<p>Esta recomendaci&oacute;n forma parte de un conjunto de documentos del W3C sobre CSV en la Web:</p>
+
+<ul>
+	<li><a href="https://www.w3.org/TR/tabular-data-model/" target="_blank">Model for Tabular Data and Metadata on the Web</a></li>
+	<li><a href="https://www.w3.org/TR/tabular-metadata/" target="_blank">Metadata Vocabulary for Tabular Data</a></li>
+	<li><a href="https://www.w3.org/TR/csv2rdf/" target="_blank">Generating JSON from Tabular Data on the Web</a></li>
+</ul>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-03-04T13:26:10+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Generar RDF desde datos tabulares en la Web. Recomendación del W3C]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://www.w3.org/TR/csv2rdf/]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/tabular%20data" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/w3c%20recommendation" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/recomendaci%c3%b3n%20del%20w3c" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/rdf" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/w3c" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/csv" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/metadata" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/datos%20tabulares" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://my.gnoss.com/organizacion/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo GNOSS]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo GNOSS]]></foaf:name>
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/tabular%20data">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tabular data]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/recomendaci%c3%b3n%20del%20w3c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recomendación del w3c]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/rdf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[rdf]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/csv">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[csv]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Comma-separated_values" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.02hznc" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/metadata">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[metadata]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Metadata" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.05451" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/datos%20tabulares">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[datos tabulares]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/aplicaciones-industriales-de-la-web-semantica/a684b5ae-9c64-4fbc-ae11-21698f25eed1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Aplicaciones industriales de la web semántica]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>&nbsp;</p>
+
+<p>Las tecnolog&iacute;as de la web sem&aacute;ntica se aplican a menudo a un gran espectro de aplicaciones en las que el conocimiento del dominio se conceptualiza y formaliza (Ontolog&iacute;a) como soporte para suprocesamiento (Razonamiento) operado por las m&aacute;quinas. Por otra parte, a trav&eacute;s de una sutil uni&oacute;n de razonamiento humano (cognitivo) y el razonamiento mec&aacute;nico (base l&oacute;gica), es posible para los seres humanos y m&aacute;quinas compartir tareas complementarias. Por nombrar algunas de esas &aacute;reas de aplicaci&oacute;n: Portales Corporativos y Gesti&oacute;n del Conocimiento, E-Commerce, E-trabajo, Salud, E-Gobiemo, la comprensi&oacute;n del lenguaje natural y automatizada, b&uacute;squeda de informaci&oacute;n, integraci&oacute;n de datos y Servicios, Redes sociales y filtrado colaborativo, etc.</p>
+
+<p>Desde la perspectiva social y econ&oacute;mica esta tecnolog&iacute;a emergente debe contribuir no solo al crecimiento de la riqueza econ&oacute;mica, sino que tambi&eacute;n debe mostrar un aporte claro de valor en nuestras actividades cotidianas para ser una tecnolog&iacute;a transparente y eficiente. La adopci&oacute;n de las tecnolog&iacute;as de la Web Sem&aacute;ntica por parte de la industria est&aacute; avanzando lentamente. Uno de los problemas es que el mundo acad&eacute;mico no siempre es consciente de los problemas concretos que se plantean en la industria. Por el contrario, la industria no est&aacute; a menudo bien informada acerca de los desarrollos acad&eacute;micos que potencialmente puede satisfacer sus necesidades. En este documento se presenta un trabajo en curso en la fertilizaci&oacute;n cruzada entre la industria y la academia. En particular, se presenta una colecci&oacute;n de campos de aplicaciones y casos de uso de las empresas que est&aacute;n interesadas en las promesas de la tecnolog&iacute;a de la Web Sem&aacute;ntica.</p>
+
+<p>Campos de aplicaci&oacute;n:</p>
+
+<ul>
+	<li>Knowledge Management</li>
+	<li>E-Commerce</li>
+	<li>Biosciences and Medical applications</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[alain leger]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[jean charlet"^]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[lyndon j.b. nixon]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[pavel shvaiko]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-08-17T23:06:15+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aplicaciones industriales de la web semántica]]></dcterms:title>
+    <dcterms:source rdf:resource="http://red.gnoss.com/VisualizarDocumento.aspx?tipo=BaseRecursos&amp;doc=a684b5ae-9c64-4fbc-ae11-21698f25eed1&amp;nombre=Aplicaciones+industriales+de+la+web+sem%c3%a1ntica.pdf&amp;ext=.pdf&amp;org=11111111-1111-1111-1111-111111111111&amp;proy=f03794ff-1a79-409c-a6b2-7e32e373c689&amp;dscr=true" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/industriales" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/aplicaciones" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sem%c3%a1ntica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/razonamiento" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/corporativos" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/gesti%c3%b3n%20del%20conocimiento" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/e-commerce" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/e-trabajo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/ontolog%c3%ada" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/industriales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[industriales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/aplicaciones">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aplicaciones]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sem%c3%a1ntica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[semántica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/razonamiento">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[razonamiento]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/corporativos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[corporativos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/gesti%c3%b3n%20del%20conocimiento">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gestión del conocimiento]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/e-commerce">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[e-commerce]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/e-trabajo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[e-trabajo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/ontolog%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ontología]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/semantic-seo-for-the-automotive-industry/95020f9d-cfb9-4dd7-9510-95b8ff2d0b8a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Semantic SEO for the Automotive Industry]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Cars are typically characterized by many technical features. Also, the location of offer and demand matters, both for used and new cars. This in combination with the vast amount of possibilities to configure a certain car model makes it very difficult to articulate the exact strengths and features of a certain make and model to potential customers, and makes the matchmaking process very complex.<br />
+This talk shows examples of how leading brands in the automotive segment can combine GoodRelations, the Vehicle Sales Ontology, schema.org, and brand-specific extensions to articulate their value proposition to both traditional Web search engines and to novel applications.</p>
+
+<p>This is a video recording of my talk at the London Semantic Tech &amp; Business Conference 2011. For more information, see <a href="http://semtechbizuk2011.semanticweb.com/sessionPop.cfm?confid=63&amp;proposalid=4385" rel="nofollow" target="_blank">semtechbizuk2011.semanticweb.com/sessionPop.cfm?confid=63&amp;proposalid=4385</a></p>
+]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[martin hepp]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-05-28T09:54:30+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Semantic SEO for the Automotive Industry]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://vimeo.com/34870158]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/perfil/riam/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/goodrelations" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/vehicle%20sales%20ontology" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/automotive%20industry" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/semantic%20seo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/martin%20hepp" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/perfil/riam/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Ricardo Alonso Maturana]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Ricardo]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Alonso Maturana]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/goodrelations">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[goodrelations]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/vehicle%20sales%20ontology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vehicle sales ontology]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/automotive%20industry">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[automotive industry]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/semantic%20seo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[semantic seo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/martin%20hepp">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[martin hepp]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/rdf-arquitecturas-web-y-posicionamiento-semantico/1a831e77-ca55-491b-af27-8958174ddbc7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[RDF: arquitecturas web y posicionamiento semántico]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>En esta presentaci&oacute;n, el profesor Jose Emilio Labra de la Universidad de Oviedo explica las aplicaciones del <strong>RDF</strong> (Resource Description Framework), hablando para ello de las arquitecturas sem&aacute;nticas en las que se inserta, y de c&oacute;mo afecta al <strong>posicionamiento web</strong>, lo que llama posicionamiento sem&aacute;ntico.</p>
+
+<p>En este sentido habla de c&oacute;mo a&ntilde;adir sem&aacute;ntica al HTML considerando:</p>
+
+<ul>
+	<li>Incluir RDF como comentarios al HTML</li>
+	<li>Enlazar a ficheros HTML externos</li>
+	<li>GRDDL</li>
+	<li>Microformatos</li>
+	<li>RDFa</li>
+	<li>Microdatos (proyecto Schema.org)</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-05-28T09:27:03+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[RDF: arquitecturas web y posicionamiento semántico]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.slideshare.net/jelabra/24-aplicaciones-rdf" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/perfil/pablohermoso/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/aplicaciones" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/rdf" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/microdatos" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/posicionamiento" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sem%c3%a1ntico" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/jose%20emilio%20labra%20de%20la%20universidad%20de%20oviedo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/posicionamiento%20web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/resource%20description%20framework" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/html" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/schema" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/arquitecturas" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/perfil/pablohermoso/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Pablo Hermoso de Mendoza González]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Pablo]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Hermoso de Mendoza González]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/microdatos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[microdatos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/posicionamiento">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[posicionamiento]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sem%c3%a1ntico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[semántico]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/jose%20emilio%20labra%20de%20la%20universidad%20de%20oviedo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[jose emilio labra de la universidad de oviedo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/posicionamiento%20web">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[posicionamiento web]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/resource%20description%20framework">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[resource description framework]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/html">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[html]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/schema">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[schema]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/arquitecturas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[arquitecturas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/tecnologias-web-semantica-divulgacion/5f74fa9f-b2c8-4ea0-9744-909701e60829">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Tecnologias Web Semántica. Divulgación]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>En esta presentaci&oacute;n el profesor Jose Emilio Labra Gayo expone de modo divulgativo los principales aspectos relacionados con la Web Sem&aacute;ntica atendiendo a los siguientes apartados:</p>
+
+<ul>
+	<li>&iquest;Qu&eacute; es la Web Sem&aacute;ntica? Mapa de Tecnolog&iacute;as</li>
+	<li>Fundamentos Web</li>
+	<li>Descripci&oacute;n de recursos</li>
+	<li>Consultando la web de datos</li>
+	<li>Inferencias y ontolog&iacute;as</li>
+	<li>Casos pr&aacute;cticos</li>
+</ul>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-05-28T08:47:36+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Tecnologias Web Semántica. Divulgación]]></dcterms:title>
+    <dcterms:source rdf:resource="http://es.slideshare.net/jelabra/tecnologias-web-semantica" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/perfil/pablohermoso/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/divulgaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/jose%20emilio%20labra%20gayo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20sem%c3%a1ntica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/tecnolog%c3%adas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/tecnologias%20web%20sem%c3%a1ntica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20de%20datos" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/divulgaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[divulgación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/jose%20emilio%20labra%20gayo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[jose emilio labra gayo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20sem%c3%a1ntica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[web semántica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/tecnolog%c3%adas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tecnologías]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/tecnologias%20web%20sem%c3%a1ntica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tecnologias web semántica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20de%20datos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[web de datos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/web-semantica-que-es-y-que-relacion-guarda-con/2aee7cbe-1d88-478d-8026-524e1d8b59b4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Web semántica: ¿Qué es y qué relación guarda con Internet?]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Una de las preguntas que m&aacute;s suelen hacer los usuarios de Internet cuando investigan un poco sobre las distintas fases de la Red de Redes es <strong>a qu&eacute; se refiere el t&eacute;rmino &ldquo;web sem&aacute;ntica&rdquo;</strong>. Es todav&iacute;a algo bastante abstracto para muchos usuarios, y es l&oacute;gico que pueda llevar a confusi&oacute;n.</p>
+
+<p>En este art&iacute;culo Sergio Agudo,&nbsp; T&eacute;cnico Superior en Producci&oacute;n de Audiovisuales, blogger, emprendedor, programador inform&aacute;tico <strong>intenta disipar las dudas</strong> que puedan surgir en torno a este asunto, e intentar aclarar y diferenciar de forma m&aacute;s precisa a qu&eacute; podemos referirnos como web sem&aacute;ntica de forma propiamente dicha.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-05-08T13:50:54+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Web semántica: ¿Qué es y qué relación guarda con Internet?]]></dcterms:title>
+    <dcterms:source rdf:resource="http://rootear.com/web/que-es-la-web-semantica" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/relaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/guarda" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/internet" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sem%c3%a1ntica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/red%20de%20redes" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sergio%20agudo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/intenta%20disipar%20las%20dudas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/t%c3%a9cnico%20superior" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/producci%c3%b3n%20de%20audiovisuales" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/relaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[relación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/guarda">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[guarda]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/internet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[internet]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/red%20de%20redes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[red de redes]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sergio%20agudo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sergio agudo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/intenta%20disipar%20las%20dudas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[intenta disipar las dudas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/t%c3%a9cnico%20superior">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[técnico superior]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/producci%c3%b3n%20de%20audiovisuales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[producción de audiovisuales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/web-30integracion-de-la-web-semantica-y-la-web-20/440f4082-2489-49fe-b7c3-795037c2e3f6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Web 3.0:integración de la Web Semántica y la Web 2.0]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Este art&iacute;culo nos describe con detalle las diferencias de&nbsp;la Web 1.0, 2.0 y 3.0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-26T08:35:34+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Web 3.0:integración de la Web Semántica y la Web 2.0]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.slideshare.net/nicolascoronelacosta/redessociales-web30integraciondelawebsemanticaylaweb20lossantosnavagodoylibre" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sem%c3%a1ntica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/integraci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web%20sem%c3%a1ntica" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/integraci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[integración]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/10-claves-para-entender-la-web-semantica/fe999c33-a558-4f45-81b8-e4b034ac630a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[10 claves para entender la web semántica]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Los usuarios son cada vez m&aacute;s exigentes en sus b&uacute;squedas. Las personas necesitan respuestas concretas a aspectos concretos y cada vez aumentan m&aacute;s las consultas &ldquo;long tail&rdquo; por el mismo motivo. Este art&iacute;culo presenta 10 claves para entender la web sem&aacute;ntica y mejorar el posicionamiento de las webs sem&aacute;nticas.</p>
+
+<p>&nbsp;</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-10T12:50:26+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[10 claves para entender la web semántica]]></dcterms:title>
+    <dcterms:source rdf:resource="http://marketingymedia.com/2015/02/23/que-es-la-web-semantica/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sem%c3%a1ntica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/10" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/claves" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/entender" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/10">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[10]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/claves">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[claves]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/entender">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[entender]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/json-ld-el-futuro-de-la-web-semantica/4d986d58-06d9-4ccc-9e4f-e680ec54b0f6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[JSON LD: El futuro de la web semántica]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>JSON LD significa JavaScript Object Notation for Linked Data, o lo que es lo mismo, una forma estandarizada para indicar relaciones de datos en objetos JSON. Para ello se han utilizado los principales est&aacute;ndares de cada disciplina: Objetos JSON que son el est&aacute;ndar de facto para la comunicaci&oacute;n entre webs y Schema.org, el est&aacute;ndar de relaci&oacute;n de datos utilizado por los principales buscadores del mundo: Bing, Google, Yahoo! and Yandex.</p>
+
+<p>Las ventajas que ofrece este tipo de notaci&oacute;n frente a los microformatos es que separa completamente la visualizaci&oacute;n de la p&aacute;gina web del marcado sem&aacute;ntico, lo que facilita enormemente la implementaci&oacute;n para los desarrolladores.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-05T10:43:08+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[JSON LD: El futuro de la web semántica]]></dcterms:title>
+    <dcterms:source rdf:resource="http://internetrepublica.com/json-ld-el-futuro-de-la-web-semantica" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/javascript%20object%20notation" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/linked%20data" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/json" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/schema" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/google" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/yahoo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/yandex" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/ld" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/json%20ld" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/futuro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/sem%c3%a1ntica" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/javascript%20object%20notation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[javascript object notation]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/linked%20data">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[linked data]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/json">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[json]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/google">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[google]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/yahoo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[yahoo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/yandex">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[yandex]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/ld">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ld]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/json%20ld">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[json ld]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/futuro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futuro]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

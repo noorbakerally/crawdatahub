@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-03-27T05:30:24</dcterms:created>
+		<dc:source rdf:resource="http://dblp.rkbexplorer.com/id/conf/otm/JaffriGM07"/>
+		<coref:coreferenceData rdf:resource="http://dblp.rkbexplorer.com/crs/conf/otm/JaffriGM07" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://dblp.rkbexplorer.com/id/conf/otm/JaffriGM07">
+		<akt:has-date rdf:resource="http://www.aktors.org/ontology/date#2007"/>
+		<akt:has-web-address>http://dx.doi.org/10.1007/978-3-540-76890-6_40</akt:has-web-address>
+		<akt:cites-publication-reference rdf:resource="http://dblp.rkbexplorer.com/id/conf/otm/2007-w2"/>
+		<akt:article-of-journal rdf:resource="http://dblp.rkbexplorer.com/id/journal-3ca6563ab12068a2aa24539d2aef743c"/>
+		<akt:has-author rdf:resource="http://dblp.rkbexplorer.com/id/people-5c3b0c986bef5fa4e181c5830d56326b-821c78f146af8686f27f14f35492fa07"/>
+		<akt:has-author rdf:resource="http://dblp.rkbexplorer.com/id/people-27de9959dd8fe48b5e154f61ef6541ae-636105d5e176f764985be2b061ec9682"/>
+		<akt:has-author rdf:resource="http://dblp.rkbexplorer.com/id/people-0266bd1eda73e9fc04ea7e0b6fd96a61-0c7c09ff48ef45cf582dbbd86f40def0"/>
+		<akt:has-title>URI Identity Management for Semantic Web Data Integration and Linkage.</akt:has-title>
+		<owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/publications/conf/otm/JaffriGM07"/>
+		<rdf:type rdf:resource="&akt;Book-Section-Reference"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://dblp.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://dblp.rkbexplorer.com/id/conf/otm/JaffriGM07"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+@prefix ns1:   <http://aims.fao.org/aos/agrovoc/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns5:   <http://data.uba.de/umt/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000>
+        a                        skos:Concept ;
+        rdfs:label               "tettonica"@it , "tectonics"@en ;
+        skos:broader             <http://linkeddata.ge.imati.cnr.it/resource/EARTh/88340> ;
+        skos:broaderTransitive   <http://linkeddata.ge.imati.cnr.it/resource/EARTh/88340> ;
+        skos:closeMatch          dbpedia:Tectonics , <http://www.eionet.europa.eu/gemet/concept/8344> , ns5:_00024221 , ns1:c_31904 ;
+        skos:definition          "Branca della geologia che tratta degli aspetti regionali, sia strutturali sia deformativi della crosta terrestre."@it , "A branch of geology dealing with the broad architecture of the outer part of the Earth, that is, the regional assembling of structural or deformation features, a study of their mutual relations, origin and historical evolution."@en ;
+        skos:exactMatch          <http://www.eionet.europa.eu/gemet/concept/8344> , ns1:c_31904 ;
+        skos:inScheme            <http://linkeddata.ge.imati.cnr.it/resource/SkosConceptScheme/1> ;
+        skos:mappingRelation     ns5:_00024221 , ns1:c_31904 , <http://www.eionet.europa.eu/gemet/concept/8344> , dbpedia:Tectonics ;
+        skos:narrower            <http://linkeddata.ge.imati.cnr.it/resource/EARTh/121180> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/144050> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/101790> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/81270> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/81260> ;
+        skos:narrowerTransitive  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/81260> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/144050> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/121180> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/101790> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/81270> ;
+        skos:note                "A branch of geology dealing with the broad architecture of the outer part of the Earth, that is, the regional assembling of structural or deformation features, a study of their mutual relations, origin and historical evolution."@en , "Branca della geologia che tratta degli aspetti regionali, sia strutturali sia deformativi della crosta terrestre."@it ;
+        skos:prefLabel           "tettonica"@it , "tectonics"@en ;
+        skos:related             <http://linkeddata.ge.imati.cnr.it/resource/EARTh/137490> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/137500> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/10580> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/12710> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/144050> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/144220> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/141380> ;
+        skos:semanticRelation    <http://linkeddata.ge.imati.cnr.it/resource/EARTh/81270> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/141380> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/101790> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/81260> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/10580> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/88340> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/121180> , ns1:c_31904 , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/144050> , ns5:_00024221 , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/137490> , <http://www.eionet.europa.eu/gemet/concept/8344> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/12710> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/137500> , <http://linkeddata.ge.imati.cnr.it/resource/EARTh/144220> , dbpedia:Tectonics .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/144050>
+        skos:broader            <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:broaderTransitive  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:related            <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation   <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/141380>
+        skos:related           <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/88340>
+        skos:narrower            <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:narrowerTransitive  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation    <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/137500>
+        skos:related           <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://www.eionet.europa.eu/gemet/concept/8344>
+        skos:closeMatch        <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:exactMatch        <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:mappingRelation   <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/81270>
+        skos:broader            <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:broaderTransitive  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation   <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/144220>
+        skos:related           <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/10580>
+        skos:related           <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/121180>
+        skos:broader            <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:broaderTransitive  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation   <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/12710>
+        skos:related           <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+ns1:c_31904  skos:exactMatch   <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/101790>
+        skos:broader            <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:broaderTransitive  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation   <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/137490>
+        skos:related           <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .
+
+<http://linkeddata.ge.imati.cnr.it/resource/EARTh/81260>
+        skos:broader            <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:broaderTransitive  <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> ;
+        skos:semanticRelation   <http://linkeddata.ge.imati.cnr.it/resource/EARTh/100000> .

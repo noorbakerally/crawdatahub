@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix soton: <http://id.southampton.ac.uk/ns/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://purl.org/vocab/aiiso/schema#> .
+@prefix ns1: <http://www.w3.org/ns/org#> .
+@prefix oo: <http://purl.org/openorg/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+
+<http://id.southampton.ac.uk/app/soton-map-embed> rdf:type soton:App ;
+                                                  rdfs:label "Embeddable Map Widget"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                                  foaf:homepage <http://data.southampton.ac.uk/site_map_embed.html> ;
+                                                  dcterms:description "Embed maps of our campuses into conference, lecture pages, or blogs."^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                                  soton:appType <http://id.southampton.ac.uk/app-type/web-widget> ;
+                                                  dcterms:publisher <http://id.southampton.ac.uk/> ;
+                                                  dcterms:created "2011-03-06"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                                  dcterms:title "Embeddable Map Widget"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                                  dcterms:requires <http://id.southampton.ac.uk/dataset/places> ,
+                                                                   <http://id.southampton.ac.uk/dataset/bus-info> ,
+                                                                   <http://id.southampton.ac.uk/dataset/amenities> ;
+                                                  dcterms:creator <http://id.ecs.soton.ac.uk/person/1248> .
+
+<http://id.southampton.ac.uk/> rdf:type foaf:Organization ,
+                                        ns0:Institution ,
+                                        ns1:FormalOrganization ,
+                                        ns1:Organization ;
+                               rdfs:label "University of Southampton"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://id.southampton.ac.uk/dataset/places> rdf:type oo:AuthoritativeDataset ,
+                                                      ns2:Dataset ;
+                                             rdfs:label "Buildings and Places"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://id.southampton.ac.uk/dataset/bus-info> rdf:type oo:NonAuthoritativeDataset ,
+                                                        ns2:Dataset ;
+                                               rdfs:label "Southampton Bus Information"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://id.southampton.ac.uk/dataset/amenities> rdf:type oo:NonAuthoritativeDataset ,
+                                                         ns2:Dataset ;
+                                                rdfs:label "Local Amenities"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://id.ecs.soton.ac.uk/person/1248> rdf:type foaf:Person ;
+                                        foaf:homepage <http://users.ecs.soton.ac.uk/cjg/> ;
+                                        foaf:mbox <mailto:cjg@ecs.soton.ac.uk> ;
+                                        foaf:name "Christopher Gutteridge"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                        foaf:mbox_sha1sum "0799d8e3358ce99497edcfc66291e739a52af446"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://id.southampton.ac.uk/app-type/web-widget> rdfs:label "Embeddable Web Widget"^^<http://www.w3.org/2001/XMLSchema#string> .

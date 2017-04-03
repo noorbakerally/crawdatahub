@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://legadolibre.com.ar/user/16"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/16"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://legadolibre.com.ar/user/16">
+  <mbox_sha1sum>a1535e64dd01ca83ba83da252e98cb939a4f6eac</mbox_sha1sum>
+  <weblog rdf:resource="http://legadolibre.com.ar/serafasto"></weblog>
+  <based_near>
+   <geo:SpatialThing rdf:about="http://sws.geonames.org/3943423/">
+    <name>Chosica, Lima, Perú</name>
+    <geo:lat>-11.94306</geo:lat>
+    <geo:long>-76.70944</geo:long>
+    <page rdf:resource="http://www.geonames.org/3943423"></page>
+   </geo:SpatialThing>
+  </based_near>
+  <img>
+   <Image rdf:about="http://legadolibre.com.ar/avatar/16-316-20140627202820.jpeg">
+    <thumbnail>
+     <Image rdf:about="http://legadolibre.com.ar/avatar/16-96-20141204231405.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://legadolibre.com.ar/avatar/16-48-20141204121357.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://legadolibre.com.ar/avatar/16-24-20141205101845.jpeg"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/16#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>serafasto</accountName>
+    <accountProfilePage rdf:resource="http://legadolibre.com.ar/serafasto"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/16"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/3#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/11329#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/13#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://parlementum.net/user/26054#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/84588#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://tonybaldwin.me/status/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/90536#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/68903#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/124693#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/444#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/715#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/740#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/746#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://status.fsf.org/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/113454#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://sn.jpope.org/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/18572#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/116496#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/122993#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://gnusocial.net/user/3998#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://charlemos.barriohacker.net/user/143#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://bobinas.pandilla4gatos.tk/user/7#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://bobinas.pandilla4gatos.tk/user/17#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.no/user/4417#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <knows rdf:resource="http://legadolibre.com.ar/user/1"></knows>
+  <knows rdf:resource="http://legadolibre.com.ar/user/3"></knows>
+  <knows rdf:resource="http://identi.ca/user/11329"></knows>
+  <knows rdf:resource="http://legadolibre.com.ar/user/13"></knows>
+  <knows rdf:resource="http://identi.ca/user/84588"></knows>
+  <knows rdf:resource="http://identi.ca/user/124693"></knows>
+  <knows rdf:resource="http://legadolibre.com.ar/user/444"></knows>
+  <knows rdf:resource="http://legadolibre.com.ar/user/715"></knows>
+  <knows rdf:resource="http://legadolibre.com.ar/user/740"></knows>
+  <knows rdf:resource="http://legadolibre.com.ar/user/746"></knows>
+  <knows rdf:resource="https://sn.jpope.org/user/2"></knows>
+  <knows rdf:resource="http://legadolibre.com.ar/user/18572"></knows>
+  <knows rdf:resource="http://quitter.se/user/116496"></knows>
+  <knows rdf:resource="http://gnusocial.net/user/3998"></knows>
+  <knows rdf:resource="http://charlemos.barriohacker.net/user/143"></knows>
+  <knows rdf:resource="https://bobinas.pandilla4gatos.tk/user/7"></knows>
+  <knows rdf:resource="https://bobinas.pandilla4gatos.tk/user/17"></knows>
+  <knows rdf:resource="https://gnusocial.no/user/4417"></knows>
+ </Agent>
+ <Agent rdf:about="http://legadolibre.com.ar/user/1">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>mama21mama</accountName>
+    <accountProfilePage rdf:resource="http://legadolibre.com.ar/mama21mama"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://legadolibre.com.ar/mama21mama/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://legadolibre.com.ar/mama21mama/foaf">
+  <maker rdf:resource="http://legadolibre.com.ar/user/1"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://legadolibre.com.ar/user/3">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/3#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>decoy91</accountName>
+    <accountProfilePage rdf:resource="http://legadolibre.com.ar/decoy91"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/3"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://legadolibre.com.ar/decoy91/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://legadolibre.com.ar/decoy91/foaf">
+  <maker rdf:resource="http://legadolibre.com.ar/user/3"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/3"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://identi.ca/user/11329">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/11329#acct">
+    <accountName>rms</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/rms"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/11329"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://legadolibre.com.ar/user/13">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/13#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>djdexter</accountName>
+    <accountProfilePage rdf:resource="https://legadolibre.com.ar/djdexter"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/13"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://legadolibre.com.ar/djdexter/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://legadolibre.com.ar/djdexter/foaf">
+  <maker rdf:resource="http://legadolibre.com.ar/user/13"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/13"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://parlementum.net/user/26054">
+  <account>
+   <OnlineAccount rdf:about="http://parlementum.net/user/26054#acct">
+    <accountName>sweet</accountName>
+    <accountProfilePage rdf:resource="http://parlementum.net/sweet"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://parlementum.net/user/26054"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/84588">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/84588#acct">
+    <accountName>octaviotron</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/octaviotron"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/84588"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://tonybaldwin.me/status/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://tonybaldwin.me/status/user/1#acct">
+    <accountName>tony</accountName>
+    <accountProfilePage rdf:resource="http://tonybaldwin.me/status/tony"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://tonybaldwin.me/status/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/90536">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/90536#acct">
+    <accountName>ovruni</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/ovruni"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/90536"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/68903">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/68903#acct">
+    <accountName>trisquel</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/trisquel"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/68903"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/124693">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/124693#acct">
+    <accountName>tonybaldwin</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/tonybaldwin"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/124693"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://legadolibre.com.ar/user/444">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/444#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>arescorpio</accountName>
+    <accountProfilePage rdf:resource="http://legadolibre.com.ar/arescorpio"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/444"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://legadolibre.com.ar/arescorpio/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://legadolibre.com.ar/arescorpio/foaf">
+  <maker rdf:resource="http://legadolibre.com.ar/user/444"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/444"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://legadolibre.com.ar/user/715">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/715#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>nilsonmorales</accountName>
+    <accountProfilePage rdf:resource="http://legadolibre.com.ar/nilsonmorales"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/715"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://legadolibre.com.ar/nilsonmorales/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://legadolibre.com.ar/nilsonmorales/foaf">
+  <maker rdf:resource="http://legadolibre.com.ar/user/715"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/715"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://legadolibre.com.ar/user/740">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/740#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>kmarky</accountName>
+    <accountProfilePage rdf:resource="http://legadolibre.com.ar/kmarky"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/740"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://legadolibre.com.ar/kmarky/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://legadolibre.com.ar/kmarky/foaf">
+  <maker rdf:resource="http://legadolibre.com.ar/user/740"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/740"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://legadolibre.com.ar/user/746">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/746#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>emo</accountName>
+    <accountProfilePage rdf:resource="http://legadolibre.com.ar/emo"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/746"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://legadolibre.com.ar/emo/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://legadolibre.com.ar/emo/foaf">
+  <maker rdf:resource="http://legadolibre.com.ar/user/746"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/746"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="https://status.fsf.org/user/2">
+  <account>
+   <OnlineAccount rdf:about="https://status.fsf.org/user/2#acct">
+    <accountName>fsf</accountName>
+    <accountProfilePage rdf:resource="https://status.fsf.org/fsf"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.fsf.org/user/2"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/113454">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/113454#acct">
+    <accountName>mcscx</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/mcscx"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/113454"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://sn.jpope.org/user/2">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://sn.jpope.org/user/2#acct">
+    <accountName>jpope</accountName>
+    <accountProfilePage rdf:resource="https://sn.jpope.org/jpope"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://sn.jpope.org/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://legadolibre.com.ar/user/18572">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://legadolibre.com.ar/user/18572#acct">
+    <accountServiceHomepage rdf:resource="http://legadolibre.com.ar/"></accountServiceHomepage>
+    <accountName>puppylinuxusers</accountName>
+    <accountProfilePage rdf:resource="http://legadolibre.com.ar/puppylinuxusers"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://legadolibre.com.ar/user/18572"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://legadolibre.com.ar/puppylinuxusers/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://legadolibre.com.ar/puppylinuxusers/foaf">
+  <maker rdf:resource="http://legadolibre.com.ar/user/18572"></maker>
+  <primaryTopic rdf:resource="http://legadolibre.com.ar/user/18572"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://quitter.se/user/116496">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/116496#acct">
+    <accountName>almadelibertade</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/almadelibertade"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/116496"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/122993">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/122993#acct">
+    <accountName>versuchdasmal</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/versuchdasmal"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/122993"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://gnusocial.net/user/3998">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://gnusocial.net/user/3998#acct">
+    <accountName>omarlibre</accountName>
+    <accountProfilePage rdf:resource="http://gnusocial.net/omarlibre"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://gnusocial.net/user/3998"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://charlemos.barriohacker.net/user/143">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://charlemos.barriohacker.net/user/143#acct">
+    <accountName>omarlibre</accountName>
+    <accountProfilePage rdf:resource="http://charlemos.barriohacker.net/omarlibre"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://charlemos.barriohacker.net/user/143"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://bobinas.pandilla4gatos.tk/user/7">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://bobinas.pandilla4gatos.tk/user/7#acct">
+    <accountName>xikufrancesc</accountName>
+    <accountProfilePage rdf:resource="https://bobinas.pandilla4gatos.tk/xikufrancesc"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://bobinas.pandilla4gatos.tk/user/7"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://bobinas.pandilla4gatos.tk/user/17">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://bobinas.pandilla4gatos.tk/user/17#acct">
+    <accountName>omarlibre</accountName>
+    <accountProfilePage rdf:resource="https://bobinas.pandilla4gatos.tk/omarlibre"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://bobinas.pandilla4gatos.tk/user/17"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.no/user/4417">
+  <knows rdf:resource="http://legadolibre.com.ar/user/16"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.no/user/4417#acct">
+    <accountName>omarlibre</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.no/omarlibre"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.no/user/4417"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/779356">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/779356#acct">
+    <accountName>mennisakohl</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/mennisakohl"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/779356"></sioc:account_of>
+    <sioc:follows rdf:resource="http://legadolibre.com.ar/user/16#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

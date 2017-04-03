@@ -1,0 +1,76 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/domain/vavai/projekt/> .
+@prefix ns2:	<http://linked.opendata.cz/ontology/domain/vavai/> .
+ns1:TA01010078	rdf:type	ns2:Projekt .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:TA01010078	rdfs:seeAlso	"http://www.isvav.cz/projectDetail.do?rowId=TA01010078"^^xsd:anyURI .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+ns1:TA01010078	dcterms:description	"1) Applied research of advanced semiconductor materials and structures and experimental development of technologies for their manufacturing, especially advanced technology of Silicon-On-Insulator (SOI) manufacturing and bonding of silicon wafers for SOI. 2) Applied research and development of advanced methods for characterization of bulk and surface properties of semiconductor materials and structures (IR checking of bonding quality, complex metrology of SOI, measurement of minor carrier lifetime)."@en ,
+		"1) Aplikovan\u00FD v\u00FDzkum progresivn\u00EDch polovodi\u010Dov\u00FDch materi\u00E1l\u016F a struktur a experiment\u00E1ln\u00ED v\u00FDvoj technologi\u00ED jejich v\u00FDroby se zam\u011B\u0159en\u00EDm na pokro\u010Dilou technologii v\u00FDroby Silicon-On-Insulator (SOI) a na bonding k\u0159em\u00EDkov\u00FDch desek pro SOI. 2) Aplikovan\u00FD v\u00FDzkum a v\u00FDvoj nov\u00FDch metod charakterizace objemov\u00FDch i povrchov\u00FDch vlastnost\u00ED polovodi\u010Dov\u00FDch materi\u00E1l\u016F a struktur (IR kamera pro m\u011B\u0159en\u00ED kvality bondingu, komplexn\u00ED metrologie struktury SOI, m\u011B\u0159en\u00ED doby \u017Eivota minoritn\u00EDch nositel\u016F n\u00E1boje)." ;
+	dcterms:title	"SOI Structures for Advanced Semiconductor Applications"@en ,
+		"Struktury SOI pro pokro\u010Dil\u00E9 polovodi\u010Dov\u00E9 aplikace" .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns1:TA01010078	skos:notation	"TA01010078" .
+@prefix ns7:	<http://linked.opendata.cz/ontology/domain/vavai/cep/> .
+@prefix ns8:	<http://linked.opendata.cz/resource/domain/vavai/aktivita/> .
+ns1:TA01010078	ns7:aktivita	ns8:TA .
+@prefix ns9:	<http://linked.opendata.cz/resource/domain/vavai/projekt/TA01010078/> .
+ns1:TA01010078	ns7:celkovaStatniPodpora	ns9:celkovaStatniPodpora ;
+	ns7:celkoveNaklady	ns9:celkoveNaklady ;
+	ns7:datumDodatniDoRIV	"2015-05-26+02:00"^^xsd:date .
+@prefix ns10:	<http://linked.opendata.cz/ontology/domain/vavai/cep/druhSouteze/> .
+ns1:TA01010078	ns7:druhSouteze	ns10:VS .
+@prefix ns11:	<http://linked.opendata.cz/ontology/domain/vavai/cep/duvernostUdaju/> .
+ns1:TA01010078	ns7:duvernostUdaju	ns11:S ;
+	ns7:fazeProjektu	<http://linked.opendata.cz/ontology/domain/vavai/cep/fazeProjektu/100602742> .
+@prefix ns12:	<http://linked.opendata.cz/ontology/domain/vavai/cep/obor/> .
+ns1:TA01010078	ns7:hlavniObor	ns12:JJ .
+@prefix ns13:	<http://linked.opendata.cz/ontology/domain/vavai/cep/hodnoceniProjektu/> .
+ns1:TA01010078	ns7:hodnoceniProjektu	ns13:U .
+@prefix ns14:	<http://linked.opendata.cz/ontology/domain/vavai/cep/kategorie/> .
+ns1:TA01010078	ns7:kategorie	ns14:VV ;
+	ns7:klicovaSlova	"BGSOI; BESOI; BOX; bonding; grinding; Silicon; silicon wafer; etchning; polishing; semiconductors; SOI; SOI wafer"@en ;
+	ns7:partnetrHlavni	<http://linked.opendata.cz/resource/domain/vavai/subjekt/ico%3A26821532> ;
+	ns7:pocetKoordinujicichPrijemcu	"0"^^xsd:int ;
+	ns7:pocetPrijemcu	"1"^^xsd:int ;
+	ns7:pocetSpoluPrijemcu	"1"^^xsd:int ;
+	ns7:pocetVysledkuRIV	"16"^^xsd:int ;
+	ns7:pocetZverejnenychVysledkuVRIV	"16"^^xsd:int ;
+	ns7:posledniUvolneniVMinulemRoce	"2013-02-28+01:00"^^xsd:date ;
+	ns7:prideleniPodpory	<http://linked.opendata.cz/resource/domain/vavai/cep/prideleniPodpory/20110001> ;
+	ns7:sberDatUcastniciPoslednihoRoku	<http://reference.data.gov.uk/id/gregorian-year/2013> ;
+	ns7:sberDatUdajeProjZameru	<http://reference.data.gov.uk/id/gregorian-year/2014> .
+@prefix ns15:	<http://linked.opendata.cz/resource/domain/vavai/soutez/> .
+ns1:TA01010078	ns7:soutez	ns15:STA02011TA01 .
+@prefix ns16:	<http://linked.opendata.cz/ontology/domain/vavai/cep/statusZobrazovaneFaze/> .
+ns1:TA01010078	ns7:statusZobrazovaneFaze	ns16:DUU .
+@prefix ns17:	<http://linked.opendata.cz/ontology/domain/vavai/cep/typPojektu/> .
+ns1:TA01010078	ns7:typPojektu	ns17:P ;
+	ns7:ukonceniReseni	"2013-12-31+01:00"^^xsd:date ;
+	ns7:vedlejsiObor	ns12:BM ,
+		ns12:JA ;
+	ns7:zahajeniReseni	"2011-01-01+01:00"^^xsd:date ;
+	<http://linked.opendata.cz/ontology/domain/vavai/cep/zhodnoceni+vysledku+projektu+dodavatelem>	"The main factual results (G-functional sample / prototype Z-proven technology) have been met at a high technical level and to the extent necessary for the successful implementation of the project in excess of the original assignment. Two P-\u00A0patents weren\u00B4t obtained by the date of the final proceedings."@en ,
+		"Hlavn\u00ED v\u011Bcn\u00E9 v\u00FDsledky (G-funk\u010Dn\u00ED vzorek/prototyp, Z-ov\u011B\u0159en\u00E1 technologie) byly spln\u011Bny na vysok\u00E9 technick\u00E9 \u00FArovni a v rozsahu pot\u0159ebn\u00E9m pro \u00FAsp\u011B\u0161nou realizaci projektu p\u0159ekra\u010Duj\u00EDc\u00EDm p\u016Fvodn\u00ED zad\u00E1n\u00ED. Dva v\u00FDsledky druhu P-patent nebyly dosa\u017Eeny k datu z\u00E1v\u011Bre\u010Dn\u00E9ho oponentn\u00EDho \u0159\u00EDzen\u00ED."@cs .
+@prefix ns18:	<http://linked.opendata.cz/ontology/domain/vavai/cep/zivotniCyklusProjektu/> .
+ns1:TA01010078	ns7:zivotniCyklusProjektu	ns18:ZBKU ;
+	ns7:klicoveSlovo	" silicon wafer" ,
+		" BOX" ,
+		" polishing" ,
+		" grinding" ,
+		"BGSOI" ,
+		" bonding" ,
+		" SOI" ,
+		" Silicon" ,
+		" BESOI" ,
+		" etchning" ,
+		" semiconductors" .
+<http://linked.opendata.cz/resource/domain/vavai/cep/ucast/TA01010078/2011/ico%3A26821532>	ns7:projekt	ns1:TA01010078 .
+<http://linked.opendata.cz/resource/domain/vavai/cep/ucast/TA01010078/2011/orjk%3A14310>	ns7:projekt	ns1:TA01010078 .
+<http://linked.opendata.cz/resource/domain/vavai/cep/ucast/TA01010078/2012/ico%3A26821532>	ns7:projekt	ns1:TA01010078 .
+<http://linked.opendata.cz/resource/domain/vavai/cep/ucast/TA01010078/2012/orjk%3A14310>	ns7:projekt	ns1:TA01010078 .
+<http://linked.opendata.cz/resource/domain/vavai/cep/ucast/TA01010078/2013/ico%3A26821532>	ns7:projekt	ns1:TA01010078 .
+<http://linked.opendata.cz/resource/domain/vavai/cep/ucast/TA01010078/2013/orjk%3A14310>	ns7:projekt	ns1:TA01010078 .
+<http://linked.opendata.cz/resource/domain/vavai/cep/ucast/TA01010078/2014/ico%3A26821532>	ns7:projekt	ns1:TA01010078 .
+<http://linked.opendata.cz/resource/domain/vavai/cep/ucast/TA01010078/2014/orjk%3A14310>	ns7:projekt	ns1:TA01010078 .

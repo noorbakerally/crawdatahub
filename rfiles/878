@@ -1,0 +1,119 @@
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:lang="en">
+			<rdf:Description rdf:about="http://www.legislation.gov.uk/id?title=The%20A34%20Trunk%20Road%20%28Speen%20%E2%80%93%20East%20Ilsley%2C%20Slip%20Roads%29%20%28Temporary%20Prohibition%20of%20Traffic%29%20Order%202011">
+							<owl:sameAs rdf:resource="http://www.legislation.gov.uk/id/uksi/2011/1540"/>
+						</rdf:Description><frbr:Work rdf:about="http://www.legislation.gov.uk/id/uksi/2011/1540">
+						<rdf:type rdf:resource="http://www.metalex.eu/metalex/2008-05-02#BibliographicWork"/>
+						<rdfs:label>The A34 Trunk Road (Speen – East Ilsley, Slip Roads) (Temporary Prohibition of Traffic) Order 2011</rdfs:label>
+						<rdfs:isDefinedBy rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+						<foaf:isPrimaryTopicOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/><frbr:realization rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/><metalex:realizedBy rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+						<dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.legislation.gov.uk/id/uksi/2011/1540</dct:identifier>
+						<dct:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+						
+						
+						<metalex:fragmentOf rdf:resource="http://www.legislation.gov.uk/id/uksi/2011/1540"/>
+						
+					</frbr:Work>
+			
+			<frbr:Expression rdf:about="http://www.legislation.gov.uk/uksi/2011/1540/made">
+			<rdf:type rdf:resource="http://www.metalex.eu/metalex/2008-05-02#BibliographicExpression"/>
+			<rdfs:seeAlso rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540"/>
+			<rdfs:label>The A34 Trunk Road (Speen – East Ilsley, Slip Roads) (Temporary Prohibition of Traffic) Order 2011  as made</rdfs:label>
+			<foaf:primaryTopic rdf:resource="http://www.legislation.gov.uk/id/uksi/2011/1540"/>
+			<frbr:realizationOf rdf:resource="http://www.legislation.gov.uk/id/uksi/2011/1540"/>
+			<metalex:realizes rdf:resource="http://www.legislation.gov.uk/id/uksi/2011/1540"/>
+			<frbr:embodiment rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.xml"/><metalex:embodiedBy rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.xml"/><dct:hasFormat rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.xml"/><frbr:embodiment rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.rdf"/><metalex:embodiedBy rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.rdf"/><dct:hasFormat rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.rdf"/><frbr:embodiment rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.akn"/><metalex:embodiedBy rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.akn"/><dct:hasFormat rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.akn"/><frbr:embodiment rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.htm"/><metalex:embodiedBy rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.htm"/><dct:hasFormat rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.htm"/><frbr:embodiment rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.pdf"/><metalex:embodiedBy rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.pdf"/><dct:hasFormat rdf:resource="http://legislation.data.gov.uk/uksi/2011/1540/made/data.pdf"/>
+			<dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.legislation.gov.uk/uksi/2011/1540/made</dct:identifier>
+			<dct:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+			
+			<dct:publisher>
+						<rdf:Description>
+					<rdfs:label>Queen's Printer of Acts of Parliament</rdfs:label>
+				</rdf:Description>
+			</dct:publisher>
+			<dct:license rdf:resource="http://www.legislation.gov.uk/developer/licence"/>
+			
+			
+		</frbr:Expression>
+			
+			<frbr:Manifestation rdf:about="http://legislation.data.gov.uk/uksi/2011/1540/made/data.xml">
+			<rdf:type rdf:resource="http://www.metalex.eu/metalex/2008-05-02#BibliographicManifestation"/>
+			<rdfs:label>XML version of The A34 Trunk Road (Speen – East Ilsley, Slip Roads) (Temporary Prohibition of Traffic) Order 2011  as made</rdfs:label>
+			<frbr:embodimentOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<metalex:embodies rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:isFormatOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://legislation.data.gov.uk/uksi/2011/1540/made/data.xml</dct:identifier>
+			<dct:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+			<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-19T17:11:19Z</dct:modified>
+			<dct:format>
+				<dct:IMT>
+					<rdf:value>application/xml</rdf:value>
+					<rdfs:label>XML</rdfs:label>
+				</dct:IMT>
+			</dct:format>
+			
+		</frbr:Manifestation><frbr:Manifestation rdf:about="http://legislation.data.gov.uk/uksi/2011/1540/made/data.rdf">
+			<rdf:type rdf:resource="http://www.metalex.eu/metalex/2008-05-02#BibliographicManifestation"/>
+			<rdfs:label>RDF/XML version of The A34 Trunk Road (Speen – East Ilsley, Slip Roads) (Temporary Prohibition of Traffic) Order 2011  as made</rdfs:label>
+			<frbr:embodimentOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<metalex:embodies rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:isFormatOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://legislation.data.gov.uk/uksi/2011/1540/made/data.rdf</dct:identifier>
+			<dct:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+			<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-19T17:11:19Z</dct:modified>
+			<dct:format>
+				<dct:IMT>
+					<rdf:value>application/rdf+xml</rdf:value>
+					<rdfs:label>RDF/XML</rdfs:label>
+				</dct:IMT>
+			</dct:format>
+			
+		</frbr:Manifestation><frbr:Manifestation rdf:about="http://legislation.data.gov.uk/uksi/2011/1540/made/data.akn">
+			<rdf:type rdf:resource="http://www.metalex.eu/metalex/2008-05-02#BibliographicManifestation"/>
+			<rdfs:label>AKN version of The A34 Trunk Road (Speen – East Ilsley, Slip Roads) (Temporary Prohibition of Traffic) Order 2011  as made</rdfs:label>
+			<frbr:embodimentOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<metalex:embodies rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:isFormatOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://legislation.data.gov.uk/uksi/2011/1540/made/data.akn</dct:identifier>
+			<dct:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+			<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-19T17:11:19Z</dct:modified>
+			<dct:format>
+				<dct:IMT>
+					<rdf:value>application/akn+xml</rdf:value>
+					<rdfs:label>AKN</rdfs:label>
+				</dct:IMT>
+			</dct:format>
+			
+		</frbr:Manifestation><frbr:Manifestation rdf:about="http://legislation.data.gov.uk/uksi/2011/1540/made/data.htm">
+			<rdf:type rdf:resource="http://www.metalex.eu/metalex/2008-05-02#BibliographicManifestation"/>
+			<rdfs:label>HTML snippet version of The A34 Trunk Road (Speen – East Ilsley, Slip Roads) (Temporary Prohibition of Traffic) Order 2011  as made</rdfs:label>
+			<frbr:embodimentOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<metalex:embodies rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:isFormatOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://legislation.data.gov.uk/uksi/2011/1540/made/data.htm</dct:identifier>
+			<dct:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+			<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-19T17:11:19Z</dct:modified>
+			<dct:format>
+				<dct:IMT>
+					<rdf:value>application/xhtml+xml</rdf:value>
+					<rdfs:label>HTML snippet</rdfs:label>
+				</dct:IMT>
+			</dct:format>
+			
+		</frbr:Manifestation><frbr:Manifestation rdf:about="http://legislation.data.gov.uk/uksi/2011/1540/made/data.pdf">
+			<rdf:type rdf:resource="http://www.metalex.eu/metalex/2008-05-02#BibliographicManifestation"/>
+			<rdfs:label>PDF version of The A34 Trunk Road (Speen – East Ilsley, Slip Roads) (Temporary Prohibition of Traffic) Order 2011  as made</rdfs:label>
+			<frbr:embodimentOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<metalex:embodies rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:isFormatOf rdf:resource="http://www.legislation.gov.uk/uksi/2011/1540/made"/>
+			<dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://legislation.data.gov.uk/uksi/2011/1540/made/data.pdf</dct:identifier>
+			<dct:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+			<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-19T17:11:19Z</dct:modified>
+			<dct:format>
+				<dct:IMT>
+					<rdf:value>application/pdf</rdf:value>
+					<rdfs:label>PDF</rdfs:label>
+				</dct:IMT>
+			</dct:format>
+			
+		</frbr:Manifestation>
+		</rdf:RDF>

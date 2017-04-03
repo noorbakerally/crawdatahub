@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>
+      Start Page | Linked Structured Product Labels
+    </title>
+    <link rel="stylesheet" type="text/css" href="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/snorql/style.css" />
+    <link rel="alternate" type="application/rdf+xml" href="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/all?output=rdfxml" title="This page in RDF (XML)" />
+    <link rel="alternate" type="text/rdf+n3" href="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/all?output=n3" title="This page in RDF (N3)" />
+  </head>
+  <body>
+    <div id="rdficon"><a href="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/all" title="RDF data"><img src="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/snorql/rdf_flyer.24.gif" alt="[RDF data]" /></a></div>
+    <div class="browser">
+      <div id="header">
+	<h1 id="title">
+          Linked Structured Product Labels
+	</h1>
+	<div class="subtitle">Running at https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/</div>
+      </div>
+
+      <!-- <div class="section"> -->
+      <!-- 	<strong>Home</strong> -->
+      <!-- 	 -->
+      <!-- 	| -->
+      <!-- 	 -->
+      <!-- 	 -->
+      <!-- 	<strong><a href="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/directory/FDAPharmgxTable">FDAPharmgxTable</a></strong> -->
+      <!-- 	 -->
+      <!-- 	<strong><a href="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/directory/structuredProductLabelMetadata">structuredProductLabelMetadata</a></strong> -->
+      <!-- 	 -->
+      <!-- 	 -->
+
+      <!-- </div> -->
+      <div class="section">
+	<p> 
+Welcome to the <a href="http://thedatahub.org/dataset/linked-structured-product-labels">Linked Structured Product Labels (LinkedSPLs) resource</a>. LinkedSPLs publishes all sections of FDA-approved drug package inserts from <a href="http://dailymed.nlm.nih.gov/dailymed/about.cfm">DailyMed</a> for use by NLP and Semantic Web researchers. This resource is part of the "Addressing PDDI Evidence Gaps" project funded by that National Library of Medicine (1R01LM011838-01). </p>
+
+<p>View the most recent LinkedSPLs presentations on slideshare:
+<ul>
+<li><a target="new" href="http://www.slideshare.net/boycer/linked-dataandsp-lsfdaspljamboree092014">LinkedSPLs overview - dynamic enhancement of product labeling proof-of-concept</a></li>
+<li><a target="new" href="http://www.slideshare.net/boycer/pharmacogenomics-annotation-in-drug-product-labeling">Extending SPLs with clinical pharmacogenomics annotations</a></li>
+</ul>
+</p>
+
+<p>Currently, data from the product labels of all United States prescription drugs and a subset of over the counter medications is provided. A powerful feature of LinkedSPLs is that all active moieties and product labels are mapped to PURLs from standard terminologies, many of which are available in <a href="http://bio2rdf.org/">bio2rdf</a>. The resource contains manually validated mappings between drug product active ingredients and DrugBank, ChEBI, NDF-RT, DRON, and FDA/NDF-RT Established Pharmacologic Classes. The resource includes an index of product label sections noted as having pharmacogenomics information by the  <a href="http://goo.gl/llrC4">FDA Pharmacogenetic Biomarker Table</a>. <!-- Also, this site's SPL data is updated weekly and all SPLs retain <a href="http://dailymed.nlm.nih.gov/dailymed/about.cfm">DailyMed</a> versioning data so that researchers can record the provenance of the text and sections they work with. --> LinkedSPLs is provided as a service as part of the <a href="https://www.dikb.org/">Drug Interaction Knowledge Base (DIKB) project</a>. 
+
+</p>
+	<p>If you find this resource useful, please acknowledge so using one of the following citations:
+	  <ol>
+	    <li>Boyce RD, Horn JR, Hassanzadeh O, de Waard A, Schneider J, Luciano JS, Rastegar-Mojarad M, Liakata M. Dynamic enhancement of drug product labels to support drug safety, efficacy, and effectiveness. J Biomed Semantics. 2013 Jan 26;4(1):5. DOI 10.1186/2041-1480-4-5 PMID: 23351881. PMCID:PMC3698101. <a href="http://www.biomedcentral.com/content/pdf/2041-1480-4-5.pdf">http://www.biomedcentral.com/content/pdf/2041-1480-4-5.pdf</a> </li>
+            <li>Boyce, RD., Freimuth, RR., Romagnoli, KM., Pummer, T., Hochheiser, H., Empey, PE. Toward semantic modeling of pharmacogenomic knowledge for clinical and translational decision support. Proceedings of the 2013 AMIA Summit on Translational Bioinformatics. San Francisco, March 2013. 
+	    </li>
+            <li>Hassanzadeh, O., Zhu, Qian., Freimuth, RR., Boyce R. Extending the "Web of Drug Identity" with Knowledge Extracted from United States Product Labels. Proceedings of the 2013 AMIA Summit on Translational Bioinformatics. San Francisco, March 2013. 
+	    </li>
+	  </ol>
+      </p>
+      </div>
+
+      <div class="section">
+	<h2>2. RDF View</h2>
+	<!-- <p>You can also explore this database with <strong>Semantic Web browsers</strong>  -->
+        <!--   like <a href="http://dig.csail.mit.edu/2005/ajar/ajaw/tab">Tabulator</a> or -->
+        <!--   <a href="http://www4.wiwiss.fu-berlin.de/rdf_browser/">Disco</a>. To start browsing, -->
+        <!--   open this entry point URL in your Semantic Web browser:</p> -->
+	<!-- <p style="text-align: center"><strong>https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/all</strong></p> -->
+	<p> <a href="https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/linkedSPLs-core.nt.bz2">The most recent RDF dump of LinkedSPLs "core" (01/30/2017)</a> is available (336M in BZ2 compressed format). There are other graphs in the release for active ingredients, pharmacogenomics statement annotation, and drug-drug interaction annotation. The "active moiety" graph is available at <a href="https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/activeMoietySub-in-rdf.xml.bz2">activeMoietySub-in-rdf.xml.bz2</a>. The "clinical drug" graph is available at <a href="https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/clinicalDrugSub-in-rdf.xml.bz2">clinicalDrugSub-in-rdf.xml.bz2</a>. Please contact Richard D. Boyce, PhD at the University of Pittsburgh Department of Biomedical Informatics if you would like access to the a downloadable version of the pharmacogenomics statement annotation and drug-drug interaction annotation graphs. Otherwise, just use the public server (see below)</p>
+	<p> A Virtuoso SPARQL endpoint is available here: <a target="new" href="https://dbmi-icode-01.dbmi.pitt.edu/sparql">https://dbmi-icode-01.dbmi.pitt.edu/sparql</a></p>
+	<p>Example queries using the graph are written here: <a href="https://github.com/bio2rdf/bio2rdf-scripts/blob/release3/linkedSPLs/example-queries-bio2rdf-linkedSPLs-RDF.txt">Example Queries</a></p>
+      </div>
+
+
+      <div class="section">
+	<h2>3. Updates and Known Issues  </h2>
+	<p> (01/30/17) <b>IMPORTANT:</b> The LinkedSPLs resource has recently updated. Please see the <a href="https://github.com/bio2rdf/bio2rdf-scripts/tree/release3/linkedSPLs">code repository</a> for details of mappings and <a href="http://forums.dikb.org/t/linkedspls-is-updated-at-01-18-2017/85">forum</a> for related issues and discussions.  
+	</p> 
+	<!-- <p> (3/21/14) <b>IMPORTANT:</b> This resource has been updated to be current with SPLs in DailyMed as of February 15 2014. All resource mappings were updated except pharmacogenomics and DrugBank. We expect to have these done by April 10th 2014. Due to an internal issue that will soon be fixed, this version of the dataset does not provide mappings from FDA UNII and RxNorm to NDF-RT. Please contact us if you need a complete update sooner. -->
+	<!-- <p> (02/21/13) The update script is currently broken and so SPLs are current only to December of 2012. Please see the <a href="https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/update_lodd_dailymed.log">a log of several recent updates</a> for a list of SPLs that are updated in DailyMed but not in this resource as of February/March of 2013. This issue will be fixed in Apri (join our project to help make this fix more quickly!). -->
+	<!-- <p> (9/27/13) NDF-RT chemical ingredients are now mapped to SPL active moieties and provided within the context of SPL resources. Thanks to Dr. Qian Zhu and her colleagues at Mayo for contributing this mapping! See <a href="http://www.ncbi.nlm.nih.gov/pubmed/23256517">PMID 23256517</a> for more details on the mapping.  -->
+	<!-- </p> -->
+	<!-- <p>(9/1/13) The base url of the <a href="https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/linkedSPLs-dump.nt.bz2">LInkedSPLs RDF dump</a> is now the same as that provided by this D2R server so that the URIs in the graph will resolve to HTML pages is browsed. -->
+	<!-- </p> -->
+	<!-- <p> (8/26/13) SPLs in LinkedSPLs has been completely reinitialized using data from August 17th downloaded from DailyMed. The drug class mappings were also updated. -->
+	<!-- </p>	 -->
+	<!-- <p> (8/26/13) The <a href="http://goo.gl/llrC4">FDA Pharmacogenetic Biomarker Table</a> is the June 19th 2012 version. Please note that the mappings were not created for ADO-TRASTUZUMAB EMTANSINE, CRIZOTINIB, DROSPIRENONE AND ETHINYL ESTRADIOL, IVACAFTOR, MYCOPHENOLIC ACID, PERTUZUMAB, SODIUM PHENYLACETATE AND SODIUM BENZOATE, VALPROIC ACID, and the combination "RIFAMPIN, ISONIAZID, AND PYRAZINAMIDE" -->
+	<!-- </p> -->
+	<!-- <p> (8/31/12) This D2R Server version of the linkedSPLs dataset is provided so that users can browse example portions of the dataset. Performance is currently very slow and query results are limited to 100 items. The entire RDF graph is available for download (see above) and installation in your local triple store. Also, there is a publically accessible high performance mirror of the full dataset (with bonus data!). Please contact Richard Boyce at rdb20 -at- pitt -dot- edu for more information. -->
+	<!-- </p> -->
+	<!-- <p> (8/31/12) Note that when importing the <a href="http://goo.gl/llrC4">FDA Pharmacogenetic Biomarker Table</a> we mapped the "Metabolic and Endocrinology" therapeutic application to ncbit:Endocrinology, "Dermatology and Dental" to ncbit:Dermatology, and "Reproductive and Urologic" to ncbit:Urology. -->
+	<!-- </p> -->
+	<!-- <p> (8/09/12) An updated import of the <a href="http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/ucm162549.htm">FDA Established Pharmacologic Class (EPC) classes</a> was created. At present, there are over 34K mappings between drug products and EPC classes (many products have multiple ingredients from different classes), over 5K mappings from product to Chemical/Ingredient class, and over 7K mappings from product to a mechanism of action. -->
+	<!-- </p> -->
+	<!-- <p> (6/30/12) All SPLs for drug products should be mapped to RxNORM PURLs using the dc:subject property. All active moieties should be mapped to RxNORM ingredients using the dailymed:activeMoietyRxCUI property. Similarly, an attempt is made to map all active moieties to ChEBI (OBO) and DrugBank (drugbank.ca) using dailymed:subjectXref.  There are also mappings to DrugBank and bio2rdf by the dailymed:subjectXref property. These are known to be incomplete at this time. The list of active moieties that have not been mapped to DrugBank in bio2rdf is here: <a href="https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/active-moieties-not-mapped-to-DrugBank-and-bio2rdf.log">active-moieties-not-mapped-to-DrugBank-and-bio2rdf.log</a>  -->
+	<!-- </p> -->
+
+	<!-- <p>The following SPLs list no active moiety where there should be one: <a href="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/page/structuredProductLabelMetadata/3128">3128</a> and <a href="https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/page/structuredProductLabelMetadata/14106">14106</a>. This may be an error in the source documents. </p> -->
+      </div>
+    </div>
+
+      <!-- <div class="section"> -->
+      <!-- 	<h2>1. HTML View</h2> -->
+      <!-- 	<p>You can use the navigation links at the top of this page to explore the database. PLEASE NOTE: we only provide a sample of the linked data via HTML because of resource limitations. If you need access to the complete dataset, please download the complete RDF as ntriples below or use the Virtuoso endpoint (also mentioned below) </p> -->
+      <!-- </div> -->
+
+
+    <!--   <div class="section"> -->
+    <!-- 	<h2>3. How this resource is updated </h2> -->
+    <!-- 	<p> <i>(NOTE: see updates and known issues below)</i> This resource is updated every seven days (on Thursdays) using <a href="http://dailymed.nlm.nih.gov/dailymed/rss.cfm">an RSS feed provided by DailyMed</a>. </p> -->
+    <!-- 	<p>You can view <a href="https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/update_lodd_dailymed.log">a log of several recent updates</a> </p> -->
+    <!-- 	<p>  The <a href="http://swat-4-med-safety.googlecode.com/svn/trunk/linkedSPLs/">scripts used to create and update the resource</a> are available in the LinkedSPL Google Code project. </p> -->
+    <!-- 	<p>DO YOU WANT TO SEE THIS RESOURCE IMPROVED? Join our <a href="https://code.google.com/p/swat-4-med-safety/">Google Code project</a> or <a href="https://code.google.com/p/swat-4-med-safety/issues/list">submit an issue</a></p> -->
+    <!--   </div> -->
+
+    <!--  <div class="snorql"> -->
+    <!--   <div class="section"> -->
+    <!--     <h2>5. SPARQL Endpoint</h2> -->
+    <!--     <p>SPARQL clients can query the database at this SPARQL endpoint:</p> -->
+    <!--     <p style="text-align: center"><strong>https://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/sparql</strong></p> -->
+    <!--     <p>The database can also be explored using <a href="snorql/">this AJAX-based SPARQL Explorer.</a> Some <a href="http://www.pitt.edu/~rdb20/data/example-queries-against-the-UPITT-NLP-LDSI.txt">example queries</a> are available.</p> -->
+    <!--   </div> -->
+    <!-- </div> -->
+
+  <div>
+
+<BR><BR><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+
+<br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Drug Interaction Knowledge Base (DIKB)</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.dbmi.pitt.edu/person/richard-boyce-phd" property="cc:attributionName" rel="cc:attributionURL">Richard D. Boyce</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.  </BR></BR>
+
+
+<p>The content of the LinkedSPL site is extracted from SPLs downloaded from <a href="http://dailymed.nlm.nih.gov/dailymed/about.cfm">DailyMed</a>. All content reuse should acknowledge both DailyMed and the author of the SPL from which content orignated (i.e., the manufacturer available as dailymed:representedOrganization).</p>
+
+<font size="-2" color="#999999">
+<p>
+
+<h3>MEDICAL DISCLAIMER</h3>
+
+<b>No advice</b>
+This website contains general information about medical conditions and treatments.  The information is not advice, and should not be treated as such.
+
+<b>Limitation of warranties</b>
+
+The medical information on this website is provided "as is" without any representations or warranties, express or implied. Neither the author (Richard Boyce) or the University of Pittsburgh make any representations or warranties in relation to the medical information on this website.
+
+Without prejudice to the generality of the foregoing paragraph, Neither the author (Richard Boyce) or the University of Pittsburgh warrant that:
+
+<ul>
+  <li>the medical information on this website will be constantly available, or available at all; or</li>
+
+  <li>the medical information on this website is complete, true, accurate, up-to-date, or non-misleading.</li>
+</ul>
+<p>
+<b>Professional assistance</b>
+
+You must not rely on the information on this website as an alternative to medical advice from your doctor or other professional healthcare provider.
+
+If you have any specific questions about any medical matter you should consult your doctor or other professional healthcare provider.
+
+If you think you may be suffering from any medical condition you should seek immediate medical attention.
+
+You should never delay seeking medical advice, disregard medical advice, or discontinue medical treatment because of information on this website.
+</p>
+<p>
+<b>Liability</b>
+Nothing in this medical disclaimer will limit any of our liabilities in any way that is not permitted under applicable law, or exclude any of our liabilities that may not be excluded under applicable law.
+</p>
+<p>
+<b>About this medical disclaimer</b>
+
+We created this <a href="http://www.freenetlaw.com/free-medical-disclaimer/">medical disclaimer</a> with the help of a Contractology precedent available at www.freenetlaw.com.
+    Premium templates available from Contractology include <a href="http://www.contractology.com/precedents/non-disclosure-agreement.html">confidential disclosure agreement forms</a>.
+</p>
+</p>
+</font>
+
+</div>
+
+
+    <div id="footer">Generated by <a href="http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/">D2R Server</a></div>
+  </body>
+</html>

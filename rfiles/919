@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:picaplus="http://lod.hebis.uni-frankfurt.de/daten/terms/"
+   xmlns:dbpedia="http://localhost:8080/resource/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rel="http://opendata.hbz-nrw.de/rel/1.0/"
+   xmlns:geonames="http://www.geonames.org/ontology#"
+   xmlns:yago="http://localhost:8080/class/yago/"
+   xmlns:units="http://dbpedia.org/units/"
+   xmlns:p="http://localhost:8080/property/"
+   xmlns:auth="http://opendata.hbz-nrw.de/auth/1.0/"
+   xmlns:prvTypes="http://purl.org/net/provenance/types#"
+   xmlns:bibo="http://purl.org/ontology/bibo/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:j.0="http://spinrdf.org/sp#"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dcterms_v1_1="http://purl.org/dc/elements/1.1/"
+   xmlns:meta="http://example.org/metadata#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:j.1="http://www.w3.org/2004/03/trix/rdfg-1/"
+   xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+   xmlns:prv="http://purl.org/net/provenance/ns#"
+   xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:rda="http://RDVocab.info/Elements/">
+   <rdf:Description rdf:about="http://lod.hebis.de/resource/06073998">
+      <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+      <wdrs:describedby rdf:resource="http://lod.hebis.de/catalog/html/06073998"/>      
+      <dcterms:medium>paper</dcterms:medium>
+      <dcterms:format>print</dcterms:format>
+      <rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+      <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+      <dcterms:identifier>060739983</dcterms:identifier>
+      <bibo:oclcnum>30661811</bibo:oclcnum>
+      <owl:sameAs>http://d-nb.info/820349011</owl:sameAs>
+      <isbd:P1018>1982</isbd:P1018>
+      <dcterms:issued>1982</dcterms:issued>
+      <dcterms:title>Der Technologie-Transfer als Lehr- und Lernproblem</dcterms:title>
+      <isbd:P1004>Der &#64;Technologie-Transfer als Lehr- und Lernproblem</isbd:P1004>
+      <isbd:P1006>Beiträge zur Pädagogik aus 20-jähriger Mitarbeit in der Entwicklungshilfe</isbd:P1006>
+      <dcterms:creator>http://d-nb.info/gnd/107225026</dcterms:creator>
+      <isbd:P1016>Saarbrücken {[u.a.]</isbd:P1016>
+      <isbd:P1017>Breitenbach</isbd:P1017>
+      <dcterms:publisher>Breitenbach</dcterms:publisher>
+   </rdf:Description>
+</rdf:RDF>

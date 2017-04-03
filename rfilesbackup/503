@@ -1,0 +1,280 @@
+﻿<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Kromonos">
+
+    <title>K.R.O.M.O.N.O.S.: Kinetic Robotic Organism Manufactured for Online Nullification and Omnipresent Sabotage</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/css.php/main.scss" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <!-- End Piwik Code -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top " role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <div class="fa fa-bars">&#x2630;</div>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                     <span class="light">/home/</span>kromonos
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="active">
+                        <a class="page-scroll" href="#about">Über mich</a>
+                    </li>
+                    <!--<li class="">
+                        <a class="page-scroll" href="#streaming">Live-Streaming</a>
+                    </li>-->
+                    <li class="">
+                        <a class="page-scroll" href="#links">Equipment</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p class="intro-text"><img id="logo" src="img/logo.png" /></p>
+                        <h2 class="brand-heading" id="welcome">Willkommen</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Über mich</h2>
+                <h3>Basisinformationen</h3>
+                <strong>Nick: </strong>Kromonos
+                <br /><strong>Ausbildung: </strong>Fachinformatiker FR Anwendungsentwicklung
+                <br /><strong>Geburtstag: </strong>06 Juli 1982
+                <br />
+                <br />
+                <br />
+                <h3>Linux Erfahrung</h3>
+                <p class="justify">
+                    Mein erstes Linux war ein S.u.S.E. Linux 5.3 mit Kernel 2.0.35, welches ich Sept./Okt. 1998 vom Chef meiner Praktikumsstelle geschenkt bekam.
+                    Seitdem habe ich immer mindestens einen PC in meinem Netzwerk auf dem ein Linux installiert ist.
+                    Darüber hinaus habe ich Erfahrung mit folgenden Distributionen gesammelt:
+                </p>
+                <ul class="justify">
+                    <li><a href="http://www.gentoo.org/" target="_blank">Gentoo</a></li>
+                    <li><a href="http://www.archlinux.org/" target="_blank">Arch Linux</a></li>
+                    <li><a href="http://www.debian.org/" target="_blank">Debian</a> und Derivate</li>
+                    <li><a href="http://www.redhat.com/" target="_blank">RedHat</a> (bis 7)</li>
+                    <li><a href="https://www.centos.org/" target="_blank">CentOS</a>/<a href="https://www.scientificlinux.org/">Scientific Linux</a> 7.x</li>
+                    <li><a href="http://www.suse.com/" target="_blank">S.u.S.E.</a> (bis 6.3)</li>
+                </ul>
+                <h3>Andere Systeme</h3>
+                <ul>
+                    <li>Windows 3.1 bis 10</li>
+                    <li>Windows Homeserver</li>
+                    <li>Windows SBS 2010</li>
+                    <li>BeOS, Haiku</li>
+                    <li>MS-DOS 5 bis 6.22</li>
+                    <li>FreeDOS</li>
+                </ul>
+                <h3>Programmiersprachen</h3>
+                <ul class="justify">
+                    <li>bash</li>
+                    <li>C= Basic, GWBasic, QBasic, Visual Basic</li>
+                    <li>Python</li>
+                    <li>C/C++ (Basics)</li>
+                    <li>TCL (Basics)</li>
+                    <li>PHP</li>
+                    <li>Perl (Basics)</li>
+                    <li>JavaScript (Basics)</li>
+                    <li>Java (Android Entwicklung)</li>
+                </ul>
+                <h3>Markup-Sprachen</h3>
+                <ul>
+                    <li>[x]HTML</li>
+                    <li>XML</li>
+                    <li>[La]TeX (Basics)</li>
+                    <li>CSS/SCSS/LESS</li>
+                </ul>
+                <h3>Template-Engines</h3>
+                <ul>
+                    <li><a href="http://www.smarty.net/" target="_blank">Smarty</a></li>
+                    <li><a href="https://github.com/everzet/jade.php" target="_blank">jade.php</a></li>
+                    <li><a href="http://mustache.github.com/" target="_blank">Mustache</a></li>
+                </ul>
+                <h3>Serverdienste</h3>
+                <div class="row list-style">
+                    <div class="col-lg-4">
+                        <ul class="justify text-left">
+                            <li>lighttpd mit PHP als FastCGI</li>
+                            <li>Apache 2.x</li>
+                            <li>Squid incl. dansguardian</li>
+                            <li>ntp</li>
+                            <li>mumble</li>
+                            <li>MySQL</li>
+                            <li>Samba</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="justify text-left">
+                            <li>bind9</li>
+                            <li>dhcp4</li>
+                            <li>identd</li>
+                            <li>postfix &amp; dovecot Mail Service</li>
+                            <li>Zentraler Syslog-NG</li>
+                            <li>OpenSSH</li>
+                            <li>OpenVPN</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="justify text-left">
+                            <li>pptp VPN</li>
+                            <li>Asterisk Telefonanlagen</li>
+                            <li>Open-Xchange</li>
+                            <li>Zarafa Groupware incl. z-push</li>
+                            <li>mpd</li>
+                            <li>IceCast</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Office</h3>
+                <ul>
+                    <li>Microsoft Office</li>
+                    <li>Libre-/OpenOffice</li>
+                    <li>AbiWord</li>
+                    <li>gnumeric</li>
+                </ul>
+                <h3>Sonstiges</h3>
+                <ul>
+                    <li><a href="http://www.cacert.org/" target="_blank">CAcert Assurer</a></li>
+                    <li><a href="http://www.netgear.de/" target="_blank">NetGear Beta Tester</a></li>
+                    <li><a href="http://developer.android.com/index.html" target="_blank">Android Developer</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+    <section id="links" class="content-section text-center">
+        <div class="equipment-section">
+           <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2" id="equipment">
+                        <h2>Equipment</h2>
+                        <h3>Dell Studio 1555</h3>
+                        <ul class="justify">
+                            <li><strong>CPU:</strong>&nbsp;Intel® Core 2 Duo T4300 (2x 2,1 GHz)</li>
+                            <li><strong>RAM:</strong>&nbsp;4096 MB DDR2 SDRAM</li>
+                            <li><strong>Festplatte:</strong>&nbsp;Kingston SV100S2 64 GB SSD</li>
+                            <li><strong>Bildschirm:</strong>&nbsp;15.6" TFT (1920×1080)</li>
+                            <li><strong>Betriebssystem:</strong>&nbsp;<a href="https://getfedora.org/de/" target="_blank">Fedora x86_64</a></li>
+                            <li><strong>Windowmanager:</strong> Xfce</li>
+                        </ul>
+                        <h3>&nbsp;Dell PowerEdge T110II</h3>
+                        <ul class="justify">
+                            <li><strong>CPU:</strong>&nbsp;Intel® Core i3-2100CPU (4x 3,1 GHz)</li>
+                            <li><strong>RAM:</strong> 16 GB DDR3&nbsp;1.333&nbsp;MHz</li>
+                            <li><strong>Festplatten:</strong> 4x&nbsp;Western Digital&nbsp;WD20EARS, 2x Western Digital&nbsp;WD10EARS, 1x&nbsp;Seagate Constellation ES</li>
+                            <li><strong>Bildschirm:</strong> null</li>
+                            <li><strong>Betriebssystem:</strong> <a href="https://www.debian.org/index.de.html" target="_blank">Debian x86_64</a></li>
+                        </ul>
+                        <h3>PC Engines APU.1D (Firewall)</h3>
+                        <ul class="justify">
+                            <li><strong>CPU:</strong> AMD T40E (1,0 GHz)</li>
+                            <li><strong>RAM:</strong> 2GB DDR3</li>
+                            <li><strong>Festplatte:</strong> 8GB SD</li>
+                            <li><strong>Betriebssystem:</strong> <a href="http://www.ipfire.org/" target="_blank">IPFire</a></li>
+                        </ul>
+                        <h3>Gaming PC</h3>
+                        <ul class="justify">
+                            <li><strong>CPU:</strong> AMD Phenom II X6 1100T</span></li>
+                            <li><strong>RAM:</strong> 16GB Team Group Inc.</li>
+                            <li><strong>Grafikkarte:</strong> NVIDIA GeForce GTX 570</li>
+                            <li><strong>Festplatte:</strong> 111GB Kingston SSD, 931GB Seagate HDD</li>
+                            <li><strong>Betriebssystem:</strong> Windows 10 Professional 64-bit, Fedora Linux x86_64</li>
+                            <li><strong>Windowmanager:</strong> Gnome</li>
+                        </ul>
+                        <h3>Workstation</h3>
+                        <ul class="justify">
+                            <li><strong>CPU:</strong> Intel® Pentium E5700</span></li>
+                            <li><strong>RAM:</strong> 4GB DDR2 Munchkin</li>
+                            <li><strong>Grafikkarte:</strong> NVIDIA GeForce GT 520</li>
+                            <li><strong>Festplatte:</strong> 320.1GB Samsung HM320JI</li>
+                            <li><strong>Betriebssystem:</strong> Fedora Linux x86_64</li>
+                            <li><strong>Windowmanager:</strong> Gnome</li>
+                        </ul>
+
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <ul>
+                <li><i class="fa fa-copyright"></i> kromonos.net 2016</li>
+                <li><a href="mailto:webmaster@kromonos.net"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="xmpp:k@bka.li"><i class="fa fa-comment"></i></a></li>
+                <li><a href="http://social.bka.li/kromonos" target="_blank"><i class="fa fa-users"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/grayscale.js"></script>
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setCookieDomain", "*.kromonos.net"]);
+        _paq.push(["setDomains", ["kromonos.net"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.bka.li/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript';
+            g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <noscript><p><img src="http://piwik.bka.li/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+</body>
+</html>

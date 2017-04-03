@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:opmo2="http://webenemasuno.linkeddata.es/ontology/OPMO/" xmlns:linkdata="http://webenemasuno.linkeddata.es/ontology/" xmlns:opmo1="http://openprovenance.org/model/opmo#" xmlns:opmov="http://purl.org/net/opmv/ns#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:hr-xml="http://gnoss.com/Ontologia/Curriculum.owl#" xmlns:opmo="http://gnoss.com/Ontologia/OPMO.owl#" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/esperando-la-gran-ola/fec6e038-f831-47c5-9115-8fee40d08a68">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Esperando la gran ola]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Andoni Canela se sumó a ellos. Pacientemente. "El ritmo es lento, pueden estar esperando 10 o 15 minutos sentados sobre sus tablas en el agua o, como en este caso, en las rocas". Teahupoo, cuya afamada ola izquierda se conoce como Chopes, es cada año el escenario de la competición Billabong Pro Tahiti (http://billabongpro.com/tahiti10/). Air Tahiti (902 12 23 23; www.airtahitinui.com.es) vuela a la ciudad de Papeete desde París (con una parada en Los Ángeles) a partir de unos 1.300 euros. Para más información se puede acudir a la oficina de turismo de Tahití en Madrid (www.tahiti-tourisme.es; 914 11 01 67).</p>]]></sioc:content>
+    <dc:creator rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Organization/PRISA_DIGITAL" />
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-02T16:00:33+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Esperando la gran ola]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Esperando la gran ola.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://gnoss.com/items/Guide_fec6e038-f831-47c5-9115-8fee40d08a68_26fb8138-60ab-40c1-945d-7151a6678f3a" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:has_space rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/sueos-sobre-un-gran-mapa/0f5d25ec-ba6f-4122-b5ea-498f879c20a0" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/de-vinos-por-el-mundo/300285d6-0664-459b-9ad0-12fb8ce2391f" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/samoa-y-tonga-en-vuelos-de-bajo-coste/3da900bb-b97c-44ca-975f-b414065dee6a" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/dublin-embrujado-por-samuel-beckett/50f7eb93-2555-428f-8941-6905a36101b9" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/la-gran-roca-sagrada-de-los-anangu/0aa612c9-9f9c-45be-b9fc-56ad652d39c3" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/los-tres-mejores-meses-para-viajar-barato/6c308f04-33f1-4e98-b3b3-6f64c8f4df1b" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/el-paraiso-con-forma-de-cruasan/f6529a53-7693-4a23-93f5-28454d4ab50f" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/albergues-de-lujo-a-20-euros/2f3b9d59-5b64-4c7a-80ec-9c7c39418466" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/mickey-mouse-y-el-baile-de-los-vampiros/03062d23-8552-41a8-ab16-0a267d18eb35" />
+    <sioc:related_to rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/escalas-apetecibles/be50953d-17e0-4d07-9531-d38fc7509ffa" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/recursos/categoria/oceania/9c3da50b-c699-4fb1-9a6c-16331da717e6" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/madrid" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/gran" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/paris" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/los%20%c3%a1ngeles" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/ola" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/canela" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/esperando" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/surferos" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/tahiti%20iti" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/tahiti" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/chopes" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/billabong%20pro%20tahiti" />
+    <sioc:topic rdf:resource="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/papeete" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://my.gnoss.com/organizacion/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo GNOSS]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo GNOSS]]></foaf:name>
+  </foaf:Group>
+  <sioc:Space rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Mi Guía de Viajes: una completa colección de guías de viajes para viajeros como tú]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/recursos/categoria/oceania/9c3da50b-c699-4fb1-9a6c-16331da717e6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Oceanía]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Oceanía]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/madrid">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[madrid]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/gran">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gran]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/paris">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[paris]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/los%20%c3%a1ngeles">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[los ángeles]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/ola">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ola]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/canela">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[canela]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/esperando">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[esperando]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/surferos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[surferos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/tahiti%20iti">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tahiti iti]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/tahiti">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tahiti]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/chopes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[chopes]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/billabong%20pro%20tahiti">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[billabong pro tahiti]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://miguiadeviajes.net/comunidad/guiasdeviaje/busqueda/tag/papeete">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[papeete]]></rdfs:label>
+  </sioc_t:Tag>
+<linkdata:Guide rdf:about="http://gnoss.com/items/Guide_fec6e038-f831-47c5-9115-8fee40d08a68_26fb8138-60ab-40c1-945d-7151a6678f3a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://webenemasuno.linkeddata.es/ontology/Guide]]></rdfs:label>
+    <sioc_t:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#date">05/03/2011</sioc_t:created_at>
+    <opmo:shortContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<p>"Un hombre frente al mar, esperando la gran ola". Teahupoo, enclave al sur de la península de Tahiti Iti, al sureste de la isla de Tahití (Polinesia francesa), es uno de esos lugares míticos para los <i>surferos. </i>"La costa es completamente salvaje, con olas muy bestias de dos o tres metros de altura [la más grande registrada medía 10 metros] que congregan sobre todo a nativos y profesionales. Aquella tarde había unos ocho o diez que se quedaron hasta que se hizo de noche".</p>]]></opmo:shortContent>
+    <opmo1:pname rdf:resource="http://elviajero.elpais.com/articulo/20110305elpviavje_4/Tes" />
+    <owl:sameAs rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20110305ELPVIAVJE_4.TES" />
+    <opmo:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[imagenes/Documentos/ImagenesSemanticas/fec6e038-f831-47c5-9115-8fee40d08a68/fbae1312-fa88-4d08-915f-f6051ff1abae.jpg]]></opmo:image>
+    <opmov:wasDerivedFrom rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20110305ELPVIAVJE_4.TES" />
+    <opmo1:content rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[<p>"Un hombre frente al mar, esperando la gran ola". Teahupoo, enclave al sur de la península de Tahiti Iti, al sureste de la isla de Tahití (Polinesia francesa), es uno de esos lugares míticos para los <i>surferos. </i>"La costa es completamente salvaje, con olas muy bestias de dos o tres metros de altura [la más grande registrada medía 10 metros] que congregan sobre todo a nativos y profesionales. Aquella tarde había unos ocho o diez que se quedaron hasta que se hizo de noche". Andoni Canela se sumó a ellos. Pacientemente. "El ritmo es lento, pueden estar esperando 10 o 15 minutos sentados sobre sus tablas en el agua o, como en este caso, en las rocas". Teahupoo, cuya afamada ola izquierda se conoce como Chopes, es cada año el escenario de la competición Billabong Pro Tahiti (http://billabongpro.com/tahiti10/). Air Tahiti (902 12 23 23; www.airtahitinui.com.es) vuela a la ciudad de Papeete desde París (con una parada en Los Ángeles) a partir de unos 1.300 euros. Para más información se puede acudir a la oficina de turismo de Tahití en Madrid (www.tahiti-tourisme.es; 914 11 01 67).</p>]]></opmo1:content>
+    <sioc_t:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Esperando la gran ola]]></sioc_t:title>
+    <sioc_t:has_creator rdf:resource="http://gnoss.com/items/opmo#Account_fec6e038-f831-47c5-9115-8fee40d08a68_5140cc6c-2cba-4e4e-af15-efbfb2ce8132" />
+    <opmo1:account rdf:resource="http://gnoss.com/items/opmo#Account_fec6e038-f831-47c5-9115-8fee40d08a68_06eeffff-ab0f-4492-ab48-302b1464c3c7" />
+    <opmo1:account rdf:resource="http://gnoss.com/items/opmo#Account_fec6e038-f831-47c5-9115-8fee40d08a68_39aeca78-4801-4b96-b716-06bf1c1973b3" />
+    <opmo2:refersTo rdf:resource="http://gnoss.com/items/wgs84_pos#SpatialThing_fec6e038-f831-47c5-9115-8fee40d08a68_a15c397e-81ee-4f11-9511-0151d3d72200" />
+    <geo:location rdf:resource="http://gnoss.com/items/wgs84_pos#Point_fec6e038-f831-47c5-9115-8fee40d08a68_7992a321-f334-4c45-b429-dce70385ea68" />
+  </linkdata:Guide>
+  <opmo1:Account rdf:about="http://gnoss.com/items/opmo#Account_fec6e038-f831-47c5-9115-8fee40d08a68_5140cc6c-2cba-4e4e-af15-efbfb2ce8132">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://openprovenance.org/model/opmo#Account]]></rdfs:label>
+    <foaf:homepage rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Account/ACCANNONYMOUS" />
+    <foaf:accountName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[ANNONYMOUS]]></foaf:accountName>
+  </opmo1:Account>
+  <opmo1:Account rdf:about="http://gnoss.com/items/opmo#Account_fec6e038-f831-47c5-9115-8fee40d08a68_06eeffff-ab0f-4492-ab48-302b1464c3c7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://openprovenance.org/model/opmo#Account]]></rdfs:label>
+    <foaf:homepage rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Account/ACCANDONI_CANELA" />
+    <foaf:accountName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[ANDONI CANELA]]></foaf:accountName>
+  </opmo1:Account>
+  <opmo1:Account rdf:about="http://gnoss.com/items/opmo#Account_fec6e038-f831-47c5-9115-8fee40d08a68_39aeca78-4801-4b96-b716-06bf1c1973b3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://openprovenance.org/model/opmo#Account]]></rdfs:label>
+    <foaf:homepage rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Account/ACCPRISA_DIGITAL" />
+    <foaf:accountName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[PRISA DIGITAL]]></foaf:accountName>
+  </opmo1:Account>
+  <geo:SpatialThing rdf:about="http://gnoss.com/items/wgs84_pos#SpatialThing_fec6e038-f831-47c5-9115-8fee40d08a68_a15c397e-81ee-4f11-9511-0151d3d72200">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing]]></rdfs:label>
+    <opmo:countrySubDivision rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Polinesia Francesa]]></opmo:countrySubDivision>
+    <linkdata:place rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[French Polynesia]]></linkdata:place>
+    <linkdata:urlPlace rdf:resource="http://dbpedia.org/resource/French_Polynesia" />
+  </geo:SpatialThing>
+  <geo:Point rdf:about="http://gnoss.com/items/wgs84_pos#Point_fec6e038-f831-47c5-9115-8fee40d08a68_7992a321-f334-4c45-b429-dce70385ea68">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[-17,56666667]]></geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[-149,5666667]]></geo:long>
+  </geo:Point>
+</rdf:RDF>

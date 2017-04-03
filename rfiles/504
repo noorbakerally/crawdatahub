@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:taxonomy="http://www.esd.org.uk/standards" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:org="http://www.w3.org/ns/org#" xmlns:payment="http://reference.data.gov.uk/def/payment#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:defesdorguk="http://def.esd.org.uk/">
+	<defesdorguk:ServiceClass rdf:about="http://id.esd-toolkit.eu/service/644">
+		<dcterms:identifier>644</dcterms:identifier>
+		<skos:inScheme>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/BelgianServiceList/1.00">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:inScheme>
+		<skos:inScheme>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/ServiceList/3.09">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:inScheme>
+		<skos:inScheme>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/DutchServiceList/1.00">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:inScheme>
+		<skos:inScheme>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/ServiceList/3.10">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:inScheme>
+		<skos:inScheme>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/ServiceList/3.11">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:inScheme>
+		<skos:inScheme>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/ScottishServiceList/3.09">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:inScheme>
+		<skos:inScheme>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/LocalGovernmentServiceList/3.13">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:inScheme>
+		<skos:topConceptOf rdf:resource="http://id.esd-toolkit.eu/BelgianServiceList/1.00" />
+		<skos:topConceptOf rdf:resource="http://id.esd-toolkit.eu/ServiceList/3.09" />
+		<skos:topConceptOf rdf:resource="http://id.esd-toolkit.eu/DutchServiceList/1.00" />
+		<skos:topConceptOf rdf:resource="http://id.esd-toolkit.eu/ServiceList/3.10" />
+		<skos:topConceptOf rdf:resource="http://id.esd-toolkit.eu/ServiceList/3.11" />
+		<skos:topConceptOf rdf:resource="http://id.esd-toolkit.eu/ScottishServiceList/3.09" />
+		<skos:topConceptOf rdf:resource="http://id.esd-toolkit.eu/LocalGovernmentServiceList/3.13" />
+		<skos:topConceptOf>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/ServiceList/3.12">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:topConceptOf>
+		<skos:topConceptOf>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/ServiceList/3.13">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:topConceptOf>
+		<skos:topConceptOf>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/ServiceList/3.14">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:topConceptOf>
+		<skos:topConceptOf>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/LocalGovernmentServiceList/3.14">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:topConceptOf>
+		<skos:topConceptOf>
+			<rdf:Description rdf:about="http://id.esd-toolkit.eu/LocalGovernmentServiceList/3.12">
+				<skos:hasTopConcept rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</skos:topConceptOf>
+		<skos:prefLabel>Sports - facilities - information</skos:prefLabel>
+		<skos:prefLabel>Speelterreinen</skos:prefLabel>
+		<skos:prefLabel>Openluchtsportcentra</skos:prefLabel>
+		<skos:historyNote>Added scope notes in version 2.02. Term name changed from 'Sports facilities' to 'Sports - facilities - information' in version 3.00.</skos:historyNote>
+		<skos:definition>Publication of details of sports facilities provided by the local authority.  This would usually include locations, facilities available, charges, opening hours etc.</skos:definition>
+		<owl:sameAs>
+			<rdf:Description rdf:about="http://id.esd.org.uk/service/644">
+				<owl:sameAs rdf:resource="http://id.esd-toolkit.eu/service/644" />
+			</rdf:Description>
+		</owl:sameAs>
+	</defesdorguk:ServiceClass>
+	<rdf:Description rdf:about="http://id.esd-toolkit.eu/function/80">
+		<defesdorguk:containsService rdf:resource="http://id.esd-toolkit.eu/service/644" />
+	</rdf:Description>
+</rdf:RDF>

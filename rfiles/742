@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://localhost:8080/resource/"
+    xmlns:opmopviajero="http://webenemasuno.linkeddata.es/ontology/OPMO/"
+    xmlns:ir="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:yago="http://localhost:8080/class/yago/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:opmo="http://openprovenance.org/model/opmo#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:mpeg7-ext="http://webenemasuno.linkeddata.es/ontology/MPEG7/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:p="http://localhost:8080/property/"
+    xmlns:j.0="http://spinrdf.org/sp#"
+    xmlns:scovo="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:mpeg7="http://metadata.net/mpeg7/mpeg7.owl#"
+    xmlns:j.1="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <opmopviajero:Guide rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES">
+    <opmopviajero:refersTo rdf:resource="http://geo.linkeddata.es/resource/ComunidadAut%C3%B3noma/Andaluc%C3%ADa"/>
+    <opmo:account rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Account/ACCPRISA_DIGITAL"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2"/>
+    <sioc:has_creator rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Account/ACCISIDORO_MERINO"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT47_2.350833333333333"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT-15.75_-47.95"/>
+    <opmo:content>&lt;l&gt;EN BUSCA DEL CALOR&lt;/l&gt;
+&lt;b&gt;1 Arenas brasileñas
+&lt;/b&gt;Las playas de &lt;b&gt;Natal&lt;/b&gt; y &lt;b&gt;Pipa,&lt;/b&gt; al noreste de Brasil, son la especialidad de Club Vacaciones. En enero, esta mayorista organiza dos salidas desde Madrid, los días 20 y 27, que ofrece en programas de 7 y 14 noches, desde 695 y 1.060 euros, respectivamente, por persona. Con vuelos directos de Air Comet, traslado, alojamiento y desayuno. Iberojet tiene un vuelo directo a &lt;b&gt;Salvador de Bahía,&lt;/b&gt; con salidas los domingos de febrero desde Madrid, que ofrece combinado con siete noches de hotel en Salvador, Praia do Forte, Guarajuba o Sauípe, a partir de 824 euros por persona.
+- &lt;b&gt; Club Vacaciones&lt;/b&gt; (www.clubvacaciones.es).
+En agencias.
+- &lt;b&gt; Iberojet&lt;/b&gt; (www.iberojet.es). En agencias.
+&lt;l&gt;2 Cuba, a más de 20 grados&lt;/l&gt;
+Enero y febrero suelen ser los meses más frescos del año en Cuba, con temperaturas entre 18 y 26 grados. La agencia Kobatours propone descubrir la isla caribeña más allá del binomio La Habana-Varadero, con un programa &lt;i&gt;fly &amp; drive&lt;/i&gt; que incluye los vuelos desde Madrid, traslados a la llegada, bonos canjeables por siete noches de hotel, siete días de coche de alquiler y visado, por 1.203 euros por persona. Otra agencia especialista en viajes a Cuba, Online Tours, organiza viajes de nueve días para buceadores a los arrecifes de &lt;b&gt;María la Gorda&lt;/b&gt; desde 1.280 euros por persona. El precio incluye los vuelos, traslados, inmersiones, pensión completa, visado y seguro. La mayorista Ibercuba, por su parte, opera un vuelo diario entre Madrid y &lt;b&gt;La Habana&lt;/b&gt; que ofrece combinado con siete noches de hotel, traslados, desayunos y visado desde 776 euros.
+-  &lt;b&gt;Kobatours&lt;/b&gt; (902 19 02 19;
+www.kobatours.com).
+-  &lt;b&gt;Online Tours&lt;/b&gt; (914 44 84 80;
+www.onlinetours.net).
+-  &lt;b&gt;Ibercuba.&lt;/b&gt; En agencias.
+&lt;l&gt;3 Ecoturismo en Costa Rica&lt;/l&gt;
+Volcanes, reptiles marinos, 850 especies de aves, 6.500 tipos de mariposas y bosques lluviosos donde crecen más de 1.200 variedades de orquídeas. Costa Rica ha hecho del ecoturismo su imagen de marca. Marsans propone descubrir los principales parques nacionales del país centroamericano con un circuito de 12 días (10 noches) que cuesta 1.606 euros e incluye los vuelos de ida y vuelta con Air Comet, traslados, visitas y excursiones, alojamiento en hoteles de categoría turista y pensión completa durante parte del viaje. Con descuento del 10% si la reserva se hace antes del 18 de enero. Salidas, los sábados de enero y febrero desde Madrid.
+-  &lt;b&gt;Marsans&lt;/b&gt; (902 30 60 90; www.marsans.es).
+&lt;l&gt;4 Gambia, invierno caluroso&lt;/l&gt;
+Vibrantes mercados, algunos de los mejores &lt;i&gt;resorts&lt;/i&gt; de playa de África occidental y la reserva natural de &lt;b&gt;Abuko&lt;/b&gt; hacen de Gambia, un diminuto país de la costa oeste de África, un destino de invierno apetecible. Los jueves de enero y febrero, Club Vacaciones fleta un vuelo chárter directo desde Madrid que se ofrece, junto con siete noches en un hotel de playa, desde 495 euros por persona.
+-  &lt;b&gt;Club Vacaciones&lt;/b&gt; (www.clubvacaciones.es). En agencias.
+5 Bali, por mil euros
+Arrozales espejeando en las colinas, templos hinduistas, volcanes, playas jalonadas de cocoteros y un estilo de vida que convierte los gestos más cotidianos en obras de arte. Singapore Airlines opera vuelos con escala entre Barcelona y Bali, que mayoristas como Julia Tours ofrecen hasta el 31 de marzo, en programas de ocho días (cinco noches, en hoteles de lujo), desde 1.000 euros por persona.
+-  &lt;b&gt;Julia Tours&lt;/b&gt; (www.juliatours.es). En agencias.
+&lt;l&gt;6 Polinesia, de promoción&lt;/l&gt;
+El sueño de los Mares del Sur se puede conseguir con rebajas de hasta 1.000 euros por persona con la promoción que acaba de lanzar Catai en su programación de Polinesia. Hasta finales de abril, un viaje de 15 días a Tahití, Moorea y Bora Bora, por ejemplo, cuesta 2.990 euros por persona, 630 euros menos que el precio de catálogo. Con vuelos, traslados y hotel de tres estrellas.
+-  &lt;b&gt;Catai&lt;/b&gt; (www.catai.es).
+&lt;l&gt;EL FRÍO MÁS ESTIMULANTE&lt;/l&gt;
+&lt;b&gt;7 Rusia bajo la nieve
+&lt;/b&gt;Un proverbio ruso dice que no hay mal tiempo, sólo ropa inadecuada. Aventurarse en el gélido invierno de &lt;b&gt;Moscú&lt;/b&gt; permite descubrir la cara más hermosa de una ciudad de cúpulas escarchadas y humeantes samovares. Al norte, en la majestuosa &lt;b&gt;San Petersburgo,&lt;/b&gt; aguardan la aguja dorada del Almirantazgo, los tesoros del palacio de Invierno, los cafés literarios de la Perspectiva Nevski, la lámina helada del Neva... Hasta el 31 de marzo, la mayorista Transrutas programa salidas diarias a Rusia desde Madrid, Barcelona, Bilbao, Málaga y Valencia: estancias de cuatro días en Moscú desde 650 euros; viajes de ocho días repartidos entre Moscú y San Petersburgo desde 995 euros. Aparte, tasas (unos 110 euros, con variaciones según los aeropuertos de salida) y visado (64 euros).
+-  &lt;b&gt;Transrutas.&lt;/b&gt; En agencias.
+&lt;l&gt;8 Un baño termal en Budapest&lt;/l&gt;
+Cero grados de media se miden estos días en la capital de Hungría. Los baños termales del hotel Géllert pueden servir para caldear una escapada a la ciudad, que invita a descubrir sus atractivos invernales con la campaña Winter Invasion, con promociones como la que, hasta el 31 de marzo, contempla estancias de cuatro noches por el precio de tres en 40 hoteles, además de descuentos en transporte, balnearios, restaurantes, tiendas y visitas con la tarjeta Budapest Card. Smart Wings y Air Europa ofrecen vuelos directos entre Madrid y Budapest desde 151 euros. La bajo coste Clickair cubre la ruta desde Barcelona a partir de 70 euros.
+-  www.budapestwinterinvasion.com.
+-  www.smartwings.com.
+-  www.clickair.com.
+&lt;l&gt;9 Amsterdam&lt;/l&gt;
+Una animada vida cultural, recogida en la programación de Amsterdam Winter Adventure, ayuda a mantener el pulso de la ciudad cuando bajan las temperaturas. Hasta el 28 de febrero, Viva Tours ofrece vuelos directos de Iberia desde varias ciudades españolas, combinados con dos o más noches de hotel en la capital holandesa, desde 250 euros por persona; cada noche extra, a partir de 37 euros.
+-  &lt;b&gt;Viva Tours&lt;/b&gt; (www.vivatours.es). En agencias.
+&lt;l&gt;NI FRÍO NI CALOR&lt;/l&gt;
+&lt;b&gt;10 Menorca campestre
+&lt;/b&gt;En Menorca, la más oriental de las islas Baleares, el turismo se ha desarrollado sin caer en las tropelías de otros lugares del litoral mediterráneo. Un buen ejemplo es Fornells, en una hermosa bahía en el norte de la isla donde coexisten el antiguo pueblo de pescadores -famoso por su caldereta de langosta- y un puñado de discretos hoteles y casas de veraneo. Con Spanair, un vuelo de ida y vuelta entre Madrid y Menorca en febrero sale por 77 euros. En la central de reservas www.visitmenorca.com se pueden reservar hoteles y casas rurales por toda la isla. Marsans propone una escapada de dos noches, con vuelos desde Madrid, por 241 euros.
+-  &lt;b&gt;Spanair&lt;/b&gt; (902 13 14 15; www.spanair.com).
+-  www.visitmenorca.com.
+&lt;l&gt;11 Marraquech&lt;/l&gt;
+Halcón Viajes ya ha colgado en su &lt;i&gt;web&lt;/i&gt; el cartel de rebajas. Entre las ofertas más interesantes, una escapada a Marraquech (vuelos de ida y vuelta desde Madrid, traslados, cuatro noches de hotel y desayunos) desde 248 euros por persona. Para los que prefieren viajar a su aire, Easyjet tiene vuelos directos de ida y vuelta entre Madrid y Marraquech en febrero por 36 euros; hasta el 11 de marzo, la mayorista Soláfrica propone estancias de tres noches en &lt;i&gt;riads&lt;/i&gt; de lujo de la zona de la medina desde 219 euros por persona.
+-  &lt;b&gt;Halcón Viajes&lt;/b&gt; (902 300 600;
+www.halconviajes.com).
+-  &lt;b&gt;Easyjet&lt;/b&gt; (www.easyjet.com).
+-  &lt;b&gt;Soláfrica.&lt;/b&gt; En agencias.
+&lt;l&gt;12 Punta Umbría&lt;/l&gt;
+En el parque natural de los Enebrales, en Doñana, paseos por las dunas, y brisas atlánticas para un fin de semana en las playas de Huelva. Hasta el 13 de marzo, Viajes El Corte Inglés ofrece estancias de dos o más noches en el hotel de cuatro estrellas Barceló Punta Umbría desde 30 euros por persona y noche; los niños, gratis.
+-  &lt;b&gt;Viajes El Corte Inglés&lt;/b&gt; (902 400 454;
+www.viajeselcorteingles.es).
+&lt;l&gt;13 A Niza, por 74 euros&lt;/l&gt;
+Vueling comienza el año sacando 100.000 plazas a la venta a 25 euros por trayecto, precio final. La oferta permite montar una escapada de fin de semana a la Riviera, por ejemplo. Reservando ahora, un vuelo de ida y vuelta entre Madrid y Niza sale por 74 euros.
+-  &lt;b&gt;Vueling&lt;/b&gt; (www.vueling.com).
+&lt;l&gt;14 Cerdeña, bajo coste&lt;/l&gt;
+La isla italiana de Cerdeña es uno de los nuevos destinos que la bajo coste Ryanair ofrece desde su base de Madrid. En febrero, un vuelo de ida y vuelta a la ciudad de Alghero cuesta unos 63 euros. Sin salir de la &lt;i&gt;web&lt;/i&gt; de la compañía, se puede reservar el hotel: una habitación doble en un tres estrellas, con desayuno, 58 euros la noche.
+-  &lt;b&gt;Ryanair&lt;/b&gt; (www.ryanair.com).
+&lt;l&gt;15 Malta, clima mediterráneo&lt;/l&gt;
+La tibieza del invierno mediterráneo tiene un buen exponente en la isla de Malta, con temperaturas medias entre 10 y 16 grados. La mayorista Dunia Tours tiene una oferta, válida hasta el 26 de enero, para viajar a Malta: vuelos, traslados, cuatro noches en un hotel-&lt;i&gt;spa&lt;/i&gt; de cuatro estrellas y desayuno, desde 520 euros.
+-  &lt;b&gt;Dunia Tours.&lt;/b&gt; En agencias.
+&lt;l&gt;16 Recorrido por Sicilia&lt;/l&gt;
+Los templos dóricos y las catedrales normandas puntean un circuito de ocho días por la isla italiana. El programa contempla excursiones a Taormina, el monte Etna, Siracusa, Catania, Messina, Agrigento, Cefalú y Palermo. Desde 1.065 euros, con vuelos, traslados, visitas, hoteles de cuatro estrellas y pensión completa. Salidas, los lunes de enero y febrero desde Madrid y otras ciudades.
+- &lt;b&gt; Cóndor Vacaciones&lt;/b&gt; (www.condorvacaciones.es). En agencias.
+&lt;l&gt;17 La Palma, a 20 grados&lt;/l&gt;
+Tres o más días para perderse por los lugares más recónditos y bonitos de la isla de La Palma, en Canarias: el Roque de los Muchachos y el pico de la Nieve, el bosque de laurisilva de los Tilos, la caldera de Taburiente y el barranco de las Angustias, Santa Cruz de la Palma, y los volcanes de San Antonio y Teneguía (conocido por su erupción de 1971). Con Viva Tours, un paquete de vuelos de Iberia, traslados, dos noches de alojamiento en la zona de Los Cancajos y coche de alquiler, desde 320 euros por persona; cada noche extra, a partir de 35 euros. Salidas, desde Madrid y otras ciudades.
+&lt;l&gt;18 Cuatro días en Madeira&lt;/l&gt;
+La floreada y atlántica isla portuguesa de Madeira es el destino de los viajes de cuatro y ocho días que organiza Abreu, hasta el 29 de febrero, desde 375 y 455 euros, respectivamente. Con vuelos de ida y vuelta desde Madrid (vía Lisboa), traslados, hotel de tres estrellas y desayuno.
+-  &lt;b&gt;Abreu.&lt;/b&gt; En agencias.
+&lt;l&gt;19 El mejor momento para Egipto&lt;/l&gt;
+Lejos de las sofocantes temperaturas de julio y agosto en El Cairo, Asuán y Luxor, los meses invernales permiten disfrutar de un crucero por el Nilo sin tener que refugiarse en el aire acondicionado del camarote. Temperatura en enero: entre 8 y 18 grados en El Cairo. Para el 18 y el 25 de enero, Iberojet organiza un viaje de lujo a Egipto (tres noches de crucero y cuatro noches en El Cairo), con alojamiento, traslados, visitas y visado, desde 632 euros por persona.
+-  &lt;b&gt;Iberojet.&lt;/b&gt; En agencias.
+&lt;l&gt;20 La Patagonia&lt;/l&gt;
+El verano austral atempera los remotos confines de América. Marsans propone un viaje de 13 días (10 noches) a Argentina, visitando Ushuaia (Tierra de Fuego), Buenos Aires, Calafate e Iguazú, desde 1.966 euros más tasas.
+-  &lt;b&gt;Catai&lt;/b&gt; (www.catai.es). En agencias.
+</opmo:content>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT38.7_-9.183333333333334"/>
+    <opmopviajero:language>es</opmopviajero:language>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT54.08888888888889_18.41944444444444"/>
+    <opmopviajero:refersTo rdf:resource="http://dbpedia.org/resource/The_Gambia"/>
+    <opmo:pname rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >http://elviajero.elpais.com/articulo/20080112elpviapor_1/Tes</opmo:pname>
+    <opmopviajero:refersTo rdf:resource="http://dbpedia.org/resource/Brazil"/>
+    <owl:sameAs rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES"/>
+    <opmopviajero:longit>2295</opmopviajero:longit>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT41.9_12.48333333333333"/>
+    <opmopviajero:page>1</opmopviajero:page>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT47_2"/>
+    <opmopviajero:refersTo rdf:resource="http://dbpedia.org/resource/France"/>
+    <opmopviajero:refersTo rdf:resource="http://dbpedia.org/resource/Portugal"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT38.76666666666667_-9.183333333333334"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT38.76666666666667_-9.15"/>
+    <opmopviajero:refersTo rdf:resource="http://dbpedia.org/resource/Italy"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT37.3833333333333_-5.98333333333333"/>
+    <opmo:account rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Account/ACCISIDORO_MERINO"/>
+    <opmopviajero:refersTo rdf:resource="http://dbpedia.org/resource/Rusia"/>
+    <opmopviajero:longitMeasure>word</opmopviajero:longitMeasure>
+    <opmopviajero:refersTo rdf:resource="http://geo.linkeddata.es/resource/ComunidadAut%C3%B3noma/Illes%20Balears"/>
+    <opmopviajero:refersTo rdf:resource="http://dbpedia.org/resource/Malta"/>
+    <sioc:title>Nieve en Moscú, sol en Brasil</sioc:title>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT35.88333333333333_14.5"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT39.5666666666667_2.65"/>
+    <opmopviajero:refersTo rdf:resource="http://dbpedia.org/resource/Indonesia"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT13.46666666666667_-16.6"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT38.7_-9.15"/>
+    <opmopviajero:refersTo rdf:resource="http://geo.linkeddata.es/resource/ComunidadAut%C3%B3noma/Canarias"/>
+    <opmopviajero:subtitle>20 tentadoras propuestas para aprovechar las ofertas de temporada baja</opmopviajero:subtitle>
+    <sioc:created_at>20080112</sioc:created_at>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT-6.175_106.8283333333333"/>
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT28.0833333333333_-15.4"/>
+  </opmopviajero:Guide>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/data/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES?output=xml">
+    <rdfs:label>RDF description of ELPVIAPOR_1.TES</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/WasGeneratedBy/WASGENERATEDBY13380382372360">
+    <opmo:effect rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES"/>
+  </rdf:Description>
+  <j.1:Graph>
+    <prv:createdBy>
+      <prv:DataCreation>
+        <prv:usedData>
+          <j.1:Graph>
+            <prv:createdBy>
+              <prvTypes:QueryExecution>
+                <prv:usedGuideline>
+                  <prv:CreationGuideline>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DESCRIBE &lt;http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://spinrdf.org/sp#Describe"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+                  </prv:CreationGuideline>
+                </prv:usedGuideline>
+                <prv:usedData rdf:resource="http://webenemasuno.linkeddata.es/sparql"/>
+                <prv:performedBy>
+                  <prvTypes:DataCreatingService rdf:nodeID="A0">
+                    <rdfs:seeAlso rdf:resource="http://webenemasuno.linkeddata.es/sparql"/>
+                  </prvTypes:DataCreatingService>
+                </prv:performedBy>
+              </prvTypes:QueryExecution>
+            </prv:createdBy>
+            <prv:retrievedBy>
+              <prv:DataAccess>
+                <prv:accessedService rdf:nodeID="A0"/>
+                <prv:performedBy>
+                  <prv:DataProvidingService rdf:nodeID="A1">
+                    <rdfs:seeAlso rdf:resource="http://webenemasuno.linkeddata.es/"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#DataCreatingService"/>
+                  </prv:DataProvidingService>
+                </prv:performedBy>
+                <prv:completedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2017-04-02T16:33:14.868Z</prv:completedAt>
+              </prv:DataAccess>
+            </prv:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+          </j.1:Graph>
+        </prv:usedData>
+        <prv:performedBy rdf:nodeID="A1"/>
+        <prv:completedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-04-02T16:33:14.868Z</prv:completedAt>
+      </prv:DataCreation>
+    </prv:createdBy>
+    <void:subset>
+      <void:Dataset>
+        <dc:rights xml:lang="es">Todos los derechos de las imágenes y los contenidos mostrados en esta página pertenecen al Grupo Prisa</dc:rights>
+        <dcterms:publisher rdf:resource="http://aemet.linkeddata.es/resource/Organizaci%C3%B3n/UPM"/>
+        <dcterms:creator rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Organization/PRISA_DIGITAL"/>
+      </void:Dataset>
+    </void:subset>
+    <foaf:primaryTopic rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES"/>
+  </j.1:Graph>
+</rdf:RDF>

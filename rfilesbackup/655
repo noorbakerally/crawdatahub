@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:void="http://rdfs.org/ns/void#"
+         xmlns:sio="http://semanticscience.org/resource/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:prv="http://purl.org/net/provenance/ns#">
+  <void:Dataset rdf:about="http://lod.hackerceo.org/ANGEL/VIVO2DOI/http-reach.suny.edu/individual/Yamamoto_A">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Bundle"/>
+    <void:linkPredicate rdf:resource="http://www.w3.org/ns/prov#alternateOf"/>
+    <void:target rdf:resource="http://dx.doi.org"/>
+    <void:target rdf:resource="http://id.crossref.org"/>
+    <void:target rdf:resource="http://reach.suny.edu"/>
+    <void:uriSpace>http://lod.hackerceo.org/ANGEL/VIVO2DOI/</void:uriSpace>
+    <void:rootResource rdf:resource="http://lod.hackerceo.org/ANGEL/VIVO2DOI/void.ttl"/>
+    <void:homepage rdf:resource="http://research.hackerceo.org/renaissance/ANGEL/Datasets/VIVO2DOI"/>
+    <sio:has-member>
+      <foaf:Person rdf:about="http://reach.suny.edu/individual/Yamamoto_A">
+        <prov:alternateOf>
+          <foaf:Person rdf:about="http://id.crossref.org/contributor/akitsugu-yamamoto-3a6i1naskn4gx">
+          </foaf:Person>
+        </prov:alternateOf>
+      </foaf:Person>
+    </sio:has-member>
+    <sio:has-member rdf:resource="http://id.crossref.org/contributor/akitsugu-yamamoto-3a6i1naskn4gx"/>
+    <sio:has-member>
+      <bibo:Article rdf:about="http://reach.suny.edu/individual/a21266992">
+        <prov:alternateOf>
+          <bibo:Article rdf:about="http://dx.doi.org/10.1038/ncomms1144">
+          </bibo:Article>
+        </prov:alternateOf>
+      </bibo:Article>
+    </sio:has-member>
+    <sio:has-member rdf:resource="http://dx.doi.org/10.1038/ncomms1144"/>
+    <prov:wasDerivedFrom>
+      <prov:Entity rdf:about="http://lod.hackerceo.org/ANGEL/VIVO2DOI/http-reach.suny.edu/individual/Yamamoto_A#access-b3d5bc192cbd4f93e946910d7fd9879c">
+        <prv:retreivedBy>
+          <prv:DataAccess>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prv:accessedResource rdf:resource="http://reach.suny.edu/individual/Yamamoto_A"/>
+          </prv:DataAccess>
+        </prv:retreivedBy>
+      </prov:Entity>
+    </prov:wasDerivedFrom>
+    <prov:wasAttributedTo>
+      <prov:SoftwareAgent rdf:about="http://lod.hackerceo.org/ANGEL/VIVO2DOI/~agentGhost">
+        <rdf:type rdf:resource="http://purl.org/net/provenance/ns#NonHumanAgent"/>
+      </prov:SoftwareAgent>
+    </prov:wasAttributedTo>
+  </void:Dataset>
+</rdf:RDF>

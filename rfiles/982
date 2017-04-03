@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000485"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000485">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatography instrument</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">chromatography instrument</IAO_0000111>
+	<rdfs:label xml:lang="en">chromatography instrument</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<rdfs:label>ÄKTA purifier 100</rdfs:label>
+	<ERO_0000480 xmlns="http://purl.obolibrary.org/obo/">http://www.gmi-inc.com/GE-Pharmacia-AKTA-Purifier.html#product_desc</ERO_0000480>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000480">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Website(s)</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has URL</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_url</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">"The The AKTA Purifier Range (formally GE Amersham Pharmacia AKTA Purifier) is the new "classic" system used for the rapid purification of proteins at low to medium pressures, high performance purification and characterization. Using state-of-the-art computer-controlled pumps, UV and pH/ conductivity monitors, as well as a fraction collector, the AKTA Purifier FPLC range will greatly increase your protein purification efficiencies - indispensable when working with labile biomolecules and enzymes.
+
+The GE Pharmacia AKTA Purifier series is a high end liquid chromatography system designed for fast and reliable separations of peptides and nucleic acids. AKTApurifier runs all techniques, from μg to mg scale at flow rates from 0.001 ml/min to 10 ml/min and pressures from 0 to 25 MPa. With operational simplicity and a wide range of pre-programmed application protocols and method templates.
+
+The AKTA purifier range incorporates many features to minimize preparation and run times and maximize reliability and reproducibility of results. AKTApurifier range is essential in guaranteeing fast, reproducible runs every-time.
+The tunable detector featured in this model allows you to select from a wide spectral range. The AKTA Purifier 100 allows of flow rates of up to 100 ml per minute."</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<synonym xmlns="http://eagle-i.org/ont/app/1.0/">FPLC</synonym>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/synonym">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Name</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eagle-i_synonym</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<ERO_0000034 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://global.eagle-i.net/i/0000013d-bc73-a1b8-ecc6-81a580000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000034">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacturer</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has manufacturer</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_manufacturer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://global.eagle-i.net/i/0000013d-bc73-a1b8-ecc6-81a580000000">
+	<rdfs:label>General Electric Company</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<ERO_0000050 xmlns="http://purl.obolibrary.org/obo/">100</ERO_0000050>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000050">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Model Number</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model number</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model_number</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://howard.eagle-i.net/i/00000135-589c-62cf-bf4c-ca4080000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-589c-62cf-bf4c-ca4080000000">
+	<rdfs:label>Nekhai, Sergei, Ph.D.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<ERO_0000543 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/ERO_0001504"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000543">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related Technique</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001504">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast protein liquid chromatography</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000543">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related technique</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related_technique</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001504">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fast protein liquid chromatography</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<ERO_0000543 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/ERO_0001329"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001329">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liquid chromatography-mass spectrometry</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid chromatography-mass spectrometry</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<ERO_0000543 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/ERO_0000526"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000526">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein purification</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein purification</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<RO_0001025 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://howard.eagle-i.net/i/00000135-589a-a87e-bf4c-ca4080000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</preferredLabel>
+	<rdfs:label xml:lang="en">located_in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-589a-a87e-bf4c-ca4080000000">
+	<rdfs:label>RCMI Proteomics Facility</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<rdfs:label xml:lang="en">located in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-07T13:03:48.681-06:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://howard.eagle-i.net/i/00000134-4868-30a6-bf4c-ca4080000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000134-4868-30a6-bf4c-ca4080000000">
+	<rdfs:label>rpearse</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-23T08:59:11.281-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://howard.eagle-i.net/i/00000134-4869-1754-bf4c-ca4080000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000134-4869-1754-bf4c-ca4080000000">
+	<rdfs:label>sgarner</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000004">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrument</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instrument</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instrument</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">processed material</IAO_0000111>
+	<rdfs:label xml:lang="en">processed material</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://howard.eagle-i.net/i/00000135-592d-b27f-bf4c-ca4080000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

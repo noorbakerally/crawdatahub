@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#Center"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vivoweb.org/ontology/core#Center">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Center</preferredLabel>
+	<rdfs:label xml:lang="en">center</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<rdfs:label>Meharry Sickle Cell Center</rdfs:label>
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">"The Meharry Sickle Cell Center (MSCC) has more than a thirty-five year history of service to the community and to patients with Sickle cell disease and other hemoglobinopathies.  In this capacity, the Center provides comprehensive services including clinical care, education, genetic counseling, laboratory services, and research.  
+
+The Center's Director, Steven N. Wolff, M.D., provides comprehensive medical care for adults with sickle cell disease residing in the 40 Counties in the Middle Tennessee area. The Center’s Associate Director and Laboratory Director, Maria del Pilar Aguinaga, PhD., DLM (ASCP), along with Robert Mushi, PhD, and Celestine Mgbemere, MD provide diagnostic services as members of the Hemoglobinopathy Confirmatory Laboratory for the State of TN Newborn Screening Program, which is housed at the MSCC. In this capacity, all children born in the state of Tennessee who have screened positive for a  hemoglobinopathy and all adults seeking to know their hemoglobinopathy status undergo state of the art evaluation at the MSCC Hemoglobinopathy Laboratory. High performance liquid chromatography, alkaline, acid, neutral and isoelectricfocusing electrophoresis are utilized to confirm or establish a hemoglobinopathy diagnosis.  Annually, over 6,000 blood samples for suspected hemoglobin disorders undergo laboratory evaluation at the MSCC.  Health care agencies and parents of children identified with positive hemoglobinopathy results are promptly notified so that proper medical management can be instituted.  Additionally, the MSCC provides follow-up services to newborns with sickle cell disease to ascertain that all children are undergoing appropriate preventive care such as receiving prophylactic antibiotics by two months of birth and their recommended vaccines.
+
+The Sickle cell clinic is located on the second floor of Metropolitan Nashville General Hospital.  It provides easy access to the laboratory and other hospital resources.  The Center's Follow-Up Nurse, Ms. Ronlanda Foley provides continuity of care and clinical follow-up to the adult and pediatric patients with sickle cell disease. Ms. Tené Hamilton Franklin provides genetic counseling and educational services to the families affected with sickle cell disease and other hemoglobinopathies. The MSCC sponsors monthly support group meetings for adults, adolescents and children with sickle cell disease. Adult Support Group meetings take place at Matthew Walker Comprehensive Health Center, Transition Support Group for adolescents and Pediatric Support Group for children   with sickle cell disease, take place at the Pediatric Sickle Cell Clinic of Monroe Carrell Jr. Children’s Hospital at Vanderbilt.
+
+The MSCC organizes several community activities for patients, families and health care providers. During Sickle Cell and Pain Awareness Month (Month of September), the MSCC organizes an Annual Walk-A-Round Campus to raise awareness for Sickle Cell Disease, promote health and fitness, and acknowledge individuals in the community dealing with Sickle Cell or a family member caring for someone with Sickle Cell Disease. Other sickle cell month activities include hemoglobinopathy screenings; health exhibits, a blood drive for sickle cell patients; a heritage lecture on sickle cell disease in memory of the late Dr. Joseph Phillips, a former Meharry professor who was affected by sickle cell disease and numerous presentations and educational activities in the community.  
+
+Currently under early development is a coordinated effort with Vanderbilt University to develop a regional comprehensive care center for patients with sickle cell disease.  This center would combine resources from many institutions to develop an outpatient facility to provide medical and psychosocial care for children, their families and adults with hemoglobinopathies.
+
+The Middle Tennessee region should be proud of the heritage of the Meharry Sickle Cell Center as one of the first centers in the country and as a leading center for the care of patients with Sickle cell disease in our region."</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<synonym xmlns="http://eagle-i.org/ont/app/1.0/">MSCC</synonym>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/synonym">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Name</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eagle-i_synonym</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://meharry.eagle-i.net/i/00000135-7deb-192b-9658-54ab80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7deb-192b-9658-54ab80000000">
+	<rdfs:label>Wolff, Steven N, MD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-14T16:09:39.978-06:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://meharry.eagle-i.net/i/00000134-486d-02b3-9658-54ab80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000134-486d-02b3-9658-54ab80000000">
+	<rdfs:label>sgarner</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-20T17:11:24.627-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://meharry.eagle-i.net/i/00000134-486d-02b3-9658-54ab80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000134-486d-02b3-9658-54ab80000000">
+	<rdfs:label>sgarner</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/">Agent</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agent</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agent</rdfs:label>
+	<rdfs:label xml:lang="en">agent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organization</IAO_0000111>
+	<rdfs:label xml:lang="en">organization</rdfs:label>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organization</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://meharry.eagle-i.net/i/00000135-7ddc-3d1d-9658-54ab80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

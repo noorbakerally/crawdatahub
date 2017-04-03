@@ -1,0 +1,47 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>Property</res:resultVariable>
+    <res:resultVariable>Value</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>Property</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>Value</res:variable><res:value rdf:resource="http://www.contextdatacloud.org/ontology/LocationEntity"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>Property</res:variable><res:value rdf:resource="http://purl.org/goodrelations/v1#name"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>Value</res:variable><res:value>Telekom Innovation Laboratories</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>Property</res:variable><res:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#street-address"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>Value</res:variable><res:value>Ernst-Reuter-Platz 7</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>Property</res:variable><res:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#postal-code"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>Value</res:variable><res:value>10587</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>Property</res:variable><res:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#locality"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>Value</res:variable><res:value>Berlin</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>Property</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>Value</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#decimal">52.51284</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>Property</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>Value</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#decimal">13.32002</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>Property</res:variable><res:value rdf:resource="http://www.contextdatacloud.org/ontology/radius"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>Value</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">27</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>Property</res:variable><res:value rdf:resource="http://xmlns.com/foaf/0.1/homepage"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>Value</res:variable><res:value>http://www.laboratories.telekom.com/</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>Property</res:variable><res:value rdf:resource="http://www.contextdatacloud.org/ontology/hasLocationCategory"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>Value</res:variable><res:value rdf:resource="http://www.contextdatacloud.org/resource/researchInstitute"/></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>

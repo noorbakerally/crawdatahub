@@ -1,0 +1,23 @@
+
+<http://opendatacommunities.org/data/service-expenditure> <http://purl.org/dc/terms/modified> "2012-03-16T18:10:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a <http://publishmydata.com/def/dataset#Dataset> , <http://publishmydata.com/def/dataset#DeprecatedDataset> , <http://rdfs.org/ns/void#Dataset> , <http://www.w3.org/ns/dcat#Dataset> ;
+	<http://purl.org/dc/terms/title> "Revenue budget 2011-12" ;
+	<http://purl.org/dc/terms/publisher> <http://reference.data.gov.uk/id/department/dclg> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "The revenue budget for each local authority in 2011-12, broken down by service category." ;
+	<http://purl.org/dc/terms/issued> "2012-03-16T17:56:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Revenue budget 2011-12" ;
+	<http://purl.org/dc/terms/description> """This dataset includes detailed information on the 2011-12 spending plans of every local authority in England.  It includes both upper and lower tiers of local government (county councils as well as district councils and local authorities) and other types of authorities such as police, fire, waste, transport and parks.
+
+Note that the dataset refers to budgets of local authorities as organisations.  It is not always the case that the money is spent in the geographical area that the authority is responsible for.
+
+Spending is broken down by the services provided.  The services have been identified using a DCLG coding scheme. These are in most cases an exact match with the CIPFA Service Reporting Code of Practice categories (SeRCOP) ([details here](http://doc.cipfa.org.uk/SeRCOP/GeneralFundRevenueAccount/EnglandWales/2011-2012.html)). A cross-reference to the SeRCOP codes will be added shortly.
+
+This linked data representation of the revenue budget data is based on a spreadsheet that can be downloaded [here](http://www.communities.gov.uk/publications/corporate/statistics/revenuelocaldatabudget201112).  Further commentary, explanation and analysis of this dataset can be found [here (PDF)](http://www.communities.gov.uk/documents/statistics/pdf/1933771.pdf).""" ;
+	<http://www.w3.org/ns/dcat#theme> <http://opendatacommunities.org/def/concept/themes/lg-finance-revenue> ;
+	<http://publishmydata.com/def/dataset#graph> <http://opendatacommunities.org/graph/service-expenditure> ;
+	<http://purl.org/dc/terms/references> <http://docs.publishmydata.com> ;
+	<http://purl.org/dc/terms/subject> <http://opendatacommunities.org/def/concept/themes/lg-finance-revenue> ;
+	<http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/> ;
+	<http://rdfs.org/ns/void#sparqlEndpoint> <http://opendatacommunities.org/sparql> ;
+	<http://publishmydata.com/def/dataset#contactEmail> <mailto:ODC@communities.gsi.gov.uk> ;
+	<http://publishmydata.com/def/ontology/folder/inFolder> <http://opendatacommunities.org/def/concept/folders/themes/lg-finance-revenue> .

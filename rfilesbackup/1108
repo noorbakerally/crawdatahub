@@ -1,0 +1,13 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/sukl/medicinal-product/> .
+@prefix ns2:	<http://linked.opendata.cz/ontology/sukl/> .
+ns1:IBALGIN-400	rdf:type	ns2:MedicinalProduct .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+ns1:IBALGIN-400	dcterms:title	"IBALGIN 400"@cs ;
+	ns2:hasMedicinalProductPackaging	<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0202362> ,
+		<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032081> ,
+		<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032079> ,
+		<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0162673> ,
+		<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032082> ,
+		<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080> ,
+		<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0100013> .

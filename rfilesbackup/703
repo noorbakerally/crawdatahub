@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--http://--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:confman="org.dspace.core.ConfigurationManager" xmlns:encoder="xalan://java.net.URLEncoder" xmlns:dri="http://di.tamu.edu/DRI/1.0/" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="IE=9" http-equiv="X-UA-Compatible" />
+<meta name="Generator" content="SSOAR - Social Science Open Access Repository 5.4" />
+<link href="/ssoar/themes/ssoar/typo3export/fileadmin/styles/01_layouts_basics/css/style/dbclear-new.css" type="text/css" rel="stylesheet" />
+<link href="/ssoar/themes/ssoar/typo3export/fileadmin/styles/01_layouts_basics/css/layout_3col_standard.css" type="text/css" rel="stylesheet" />
+<link href="/ssoar/themes/ssoar/typo3export/fileadmin/styles/01_layouts_basics/css/screen/content_dbclear.css" type="text/css" rel="stylesheet" />
+<link href="/ssoar/themes/ssoar/typo3export/fileadmin/styles/01_layouts_basics/css/style/ssoar.css" type="text/css" rel="stylesheet" />
+<link type="application/opensearchdescription+xml" rel="search" href="http://localhost:8080/ssoar/description.xml" title="SSOAR" />
+<script type="text/javascript">
+                    //Clear default text of emty text areas on focus
+                    function tFocus(element)
+                    {
+                            if (element.value == ' '){element.value='';}
+                    }
+                    //Clear default text of emty text areas on submit
+                    function tSubmit(form)
+                    {
+                            var defaultedElements = document.getElementsByTagName("textarea");
+                            for (var i=0; i != defaultedElements.length; i++){
+                                    if (defaultedElements[i].value == ' '){
+                                            defaultedElements[i].value='';}}
+                    }
+                    //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                    function disableEnterKey(e)
+                    {
+                         var key;
+                    
+                         if(window.event)
+                              key = window.event.keyCode;     //Internet Explorer
+                         else
+                              key = e.which;     //Firefox and Netscape
+                    
+                         if(key == 13)  //if "Enter" pressed, then disable!
+                              return false;
+                         else
+                              return true;
+                    }
+                    
+                    function FnArray()
+                    {
+                        this.funcs = new Array;
+                    }
+
+                    FnArray.prototype.add = function(f)
+                    {
+                        if( typeof f!= "function" )
+                        {
+                            f = new Function(f);
+                        }
+                        this.funcs[this.funcs.length] = f;
+                    };
+
+                    FnArray.prototype.execute = function()
+                    {
+                        for( var i=0; i < this.funcs.length; i++ )
+                        {
+                            this.funcs[i]();
+                        }
+                    };
+
+                    var runAfterJSImports = new FnArray();
+            </script>
+<script type="text/javascript" src="/ssoar/themes/ssoar/lib/js/modernizr-1.7.min.js"> </script>
+<script type="text/javascript" src="/ssoar/themes/ssoar/lib/js/ssoar.js"> </script>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Franzmann, Manuel" xml:lang="de" />
+<meta name="DCTERMS.dateAccepted" content="2009-04-01T20:57:00Z" xml:lang="de" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.dateAccepted" content="2012-08-29T23:12:22Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2012-08-29T23:12:22Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2009" xml:lang="de" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="http://www.ssoar.info/ssoar/handle/document/5634" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Der Thüringische CDU-Ministerpräsident Dieter Althaus kombiniert in seinem Reformentwurf eines &quot;Solidarischen Bürgergelds&quot; den Ansatz eines bedingungslosen Grundeinkommens mit einer einheitlichen Kranken- und Pflegeversicherungsprämie. Diese Kombination wird  analysiert, da aus ihr eine bemerkenswerte Problemlösung resultiert, die außerdem aufschlussreich ist im Hinblick auf die in der heutigen sozialpolitischen Reformdebatte verstärkt diskutierte Frage der Kombination des Grundeinkommensansatzes mit anderen Reformelementen." xml:lang="de" />
+<meta name="DC.language" content="de" xml:lang="de" />
+<meta name="DC.subject" content="Political science" xml:lang="en" scheme="DCTERMS.DDC" />
+<meta name="DC.subject" content="Politikwissenschaft" xml:lang="de" scheme="DCTERMS.DDC" />
+<meta name="DC.subject" content="Bürgergeld; Grundeinkommen; Kopfpauschale; bedingungsloses Grundeinkommen" />
+<meta name="DC.title" content="Die Krankenversicherungsprämie im &quot;Bürgergeld&quot;-Konzept von Dieter Althaus und die Frage der Kombination des bedingungslosen Grundeinkommens mit anderen Reformelementen" xml:lang="de" />
+<meta name="DC.description" content="begutachtet" xml:lang="de" />
+<meta name="DC.description" content="reviewed" xml:lang="en" />
+<meta name="DC.identifier" content="http://sites.google.com/site/manuelfranzmann/" xml:lang="de" />
+<meta name="DC.publisher" content="Deutschland" xml:lang="de" />
+<meta name="DC.publisher" content="Germany" xml:lang="en" />
+<meta name="DC.publisher" content="Frankfurt am Main" xml:lang="de" />
+<meta name="DC.subject" content="soziale Sicherung" xml:lang="de" />
+<meta name="DC.subject" content="Social Security" xml:lang="en" />
+<meta name="DC.subject" content="Einkommens-, Lohn-, Vermögenspolitik, Tarifpolitik" xml:lang="de" />
+<meta name="DC.subject" content="Income Policy, Property Policy, Wage Policy" xml:lang="en" />
+<meta name="DC.subject" content="Mindesteinkommen" xml:lang="de" />
+<meta name="DC.subject" content="minimum income" xml:lang="en" />
+<meta name="DC.subject" content="Krankenversicherung" xml:lang="de" />
+<meta name="DC.subject" content="health insurance" xml:lang="en" />
+<meta name="DC.subject" content="Bürgerversicherung" xml:lang="de" />
+<meta name="DC.subject" content="universal health care" xml:lang="en" />
+<meta name="DC.subject" content="Sozialstaat" xml:lang="de" />
+<meta name="DC.subject" content="social welfare state" xml:lang="en" />
+<meta name="DC.subject" content="Grundsicherung" xml:lang="de" />
+<meta name="DC.subject" content="basic income" xml:lang="en" />
+<meta name="DC.subject" content="Reformpolitik" xml:lang="de" />
+<meta name="DC.subject" content="reform policy" xml:lang="en" />
+<meta name="DC.subject" content="Erwerbsarbeit" xml:lang="de" />
+<meta name="DC.subject" content="gainful work" xml:lang="en" />
+<meta name="DC.subject" content="Finanzierung" xml:lang="de" />
+<meta name="DC.subject" content="funding" xml:lang="en" />
+<meta name="DC.subject" content="Bundesrepublik Deutschland" xml:lang="de" />
+<meta name="DC.subject" content="Federal Republic of Germany" xml:lang="en" />
+<meta name="DC.identifier" content="urn:nbn:de:0168-ssoar-56340" xml:lang="de" />
+<meta name="DC.date" content="2009-04-02T14:49:00Z" xml:lang="de" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.rights" content="Creative Commons - Attribution-Noncommercial-No Derivative Works" xml:lang="en" />
+<meta name="DC.rights" content="Creative Commons - Namensnennung, Nicht kommerz., Keine Bearbeitung" xml:lang="de" />
+<meta name="DC.type" content="monograph" xml:lang="de" />
+<meta name="DC.type" content="Arbeitspapier" xml:lang="de" />
+<meta name="DC.type" content="working paper" xml:lang="en" />
+<meta name="DC.rights" content="f" xml:lang="de" />
+<meta name="DC.source" content="8" />
+<meta name="DC.subject" content="applied research" xml:lang="en" />
+<meta name="DC.subject" content="anwendungsorientiert" xml:lang="de" />
+<meta name="DC.description" content="Postprint" xml:lang="de" />
+<meta name="DC.description" content="Postprint" xml:lang="en" />
+
+<title>Die Krankenversicherungsprämie im "Bürgergeld"-Konzept von Dieter Althaus und die Frage der Kombination des bedingungslosen Grundeinkommens mit anderen Reformelementen</title>
+<meta content="8" name="citation_firstpage" />
+<meta content="Die Krankenversicherungsprämie im &quot;Bürgergeld&quot;-Konzept von Dieter Althaus und die Frage der Kombination des bedingungslosen Grundeinkommens mit anderen Reformelementen" name="citation_title" />
+<meta content="Franzmann, Manuel" name="citation_author" />
+<meta content="http://www.ssoar.info/ssoar/bitstream/document/5634/1/ssoar-2009-franzmann-die_krankenversicherungspramie_im_burgergeld-konzept_von.pdf" name="citation_pdf_url" />
+<meta content="2009" name="citation_date" />
+<meta content="http://www.ssoar.info/ssoar/handle/document/5634" name="citation_abstract_html_url" />
+</head>
+<body>
+<div class="hidden glass-pane" id="glassPane"> </div>
+<div class="hidden popup infolis-popup" id="InfolisPopup">  	
+										
+										<iframe frameborder="0" src="" id="InfolisIframe"> </iframe>
+<button onclick="javascript:InfolisCloseFunction();" id="InfolisClose" class="infolisCloseButton" type="button">x</button>
+</div>
+<div name="pageHead" id="page_margins">
+<div id="page">
+<div id="header">
+<a href="http://www.ssoar.info">
+<img src="/ssoar/themes/ssoar/typo3export/fileadmin/styles/01_layouts_basics/img/ssoar/header_logo.png" alt="" title="Home" width="628" height="90" class="headImg1" />
+</a>
+<div class="option-set">
+<ul class="simple-list">
+<li>
+<span>
+<a href="/ssoar/login">Einloggen</a>
+</span>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<span>
+<a href="/ssoar/register">Registrieren</a>
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div xmlns="http://di.tamu.edu/DRI/1.0/" id="nav">
+<div id="nav_main">
+<ul>
+<li>
+<a href="http://www.ssoar.info/home.html" target="_self" title="Home">
+<span>Home</span>
+</a>
+</li>
+<li>
+<a href="http://www.ssoar.info/leitlinien.html" target="_self" title="Leitlinien">
+<span>Leitlinien</span>
+</a>
+</li>
+<li>
+<a href="/ssoar/discover" target="_self">
+<span>Browsen und Suchen</span>
+</a>
+</li>
+<li>
+<a href="/ssoar/advanced-search" target="_self">
+<span>Erweiterte Suche</span>
+</a>
+</li>
+<li>
+<a href="/ssoar/submit" target="_self">
+<span>Neues Dokument hinzufügen</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="main">
+<div id="col1"> </div>
+<div id="col2">
+<div class="clearfix" id="col2_content">
+<div class="clearfix" id="col2_content">
+<span class="rRline1"> </span>
+<span class="rRline2"> </span>
+<span class="rRline3"> </span>
+<span class="rRline4"> </span>
+<div class="rBox">
+<div class="news-latest-container">
+<div class="news-latest-item">
+<p>Mehr von <a href="/ssoar/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Franzmann%2C+Manuel">Franzmann, Manuel</a>
+</p>
+</div>
+<div class="news-latest-item">
+<h3 style="color:#360">Export für Ihre Literaturverwaltung</h3>
+<p>Übernahme per Copy &amp; Paste<br />
+<a href="5634?style=bibtex" target="_blank">Bibtex-Export</a>
+<br />
+<a href="5634?style=endnote" target="_blank">Endnote-Export</a>
+</p>
+</div>
+<div class="news-latest-item" id="statistics">
+<h3 style="color:#360">
+<a style="color:#360" href="javascript:getStatistics(15145,'en','http://')">Statistiken anzeigen</a>
+</h3>
+</div>
+</div>
+</div>
+<span class="rRline4b"> </span>
+<span class="rRline3b"> </span>
+<span class="rRline2b"> </span>
+<span class="rRline1b"> </span>
+<div style="display: none;" id="infolisButton">
+<span class="rRline1"> </span>
+<span class="rRline2"> </span>
+<span class="rRline3"> </span>
+<span class="rRline4"> </span>
+<div class="rBox">
+<div class="news-latest-container">
+<div class="news-latest-item">
+<h3 style="color:#360; cursor: pointer;" onclick="javascript:displayInfolisPopup('urn:nbn:de:0168-ssoar-56340');">verknüpfte Forschungsdaten anzeigen</h3>
+<input value="urn:nbn:de:0168-ssoar-56340" id="urn" type="hidden" />
+</div>
+</div>
+</div>
+<span class="rRline4b"> </span>
+<span class="rRline3b"> </span>
+<span class="rRline2b"> </span>
+<span class="rRline1b"> </span>
+</div>
+<div class="news-latest-item">
+<br />
+<h3 style="color: rgb(51, 102, 0);"> Weiterempfehlen </h3>
+<script type="text/javascript">var addthis_pub="ssoar";</script>
+<p style="line-height: 1em;">
+<a onclick="return addthis_sendto()" onmouseout="addthis_close()" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" href="//www.addthis.com/bookmark.php?v=20">
+<img style="border:0" alt="Bookmark and Share" height="16" width="125" src="//s7.addthis.com/static/btn/lg-share-en.gif" />
+</a>
+</p>
+<script src="//s7.addthis.com/js/200/addthis_widget.js" type="text/javascript">sampleTextForScriptNotToBeEmpty</script>
+<br />
+</div>
+</div>
+</div>
+</div>
+<div id="col3">
+<div class="clearfix" id="col3_content">
+<h1 class="div-head">Die Krankenversicherungsprämie im "Bürgergeld"-Konzept von Dieter Althaus und die Frage der Kombination des bedingungslosen Grundeinkommens mit anderen Reformelementen</h1>
+<!-- External Metadata URL: cocoon://metadata/handle/document/5634/mets.xml-->
+<div xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" class="tranlationDocument">
+<span class="documentType"> [Arbeitspapier]</span>
+</div>
+<h2 xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom">
+<div>Franzmann, Manuel</div>
+</h2>
+<div xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" style="margin-top:1em">
+<a href="http://www.etracker.de/lnkcnt.php?et=qPKGYV&amp;url=http://www.ssoar.info/ssoar/bitstream/handle/document/5634/ssoar-2009-franzmann-die_krankenversicherungspramie_im_burgergeld-konzept_von.pdf?sequence=1&amp;lnkname=ssoar-2009-franzmann-die_krankenversicherungspramie_im_burgergeld-konzept_von.pdf&amp;20170402014007790" target="_blank">
+<img align="left" style="margin-right:2em;" alt="fulltextDownload" src="/ssoar/themes/ssoar/typo3export/fileadmin/styles/01_layouts_basics/img/ssoar/pdf-icon.png" />Volltext herunterladen</a>
+<p> (48 KByte)</p>
+</div>
+<h5 xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" style="margin-top:2em;">Zitationshinweis</h5>
+<p xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom">Bitte beziehen Sie sich beim Zitieren dieses Dokumentes immer auf folgenden Persistent Identifier (PID):<a href="http://nbn-resolving.de/urn:nbn:de:0168-ssoar-56340">http://nbn-resolving.de/urn:nbn:de:0168-ssoar-56340</a>
+<br />
+</p>
+<h5 xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" style="margin-top:2em;">Weitere Angaben: </h5>
+<table xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" class="resultTableCellResourceContent">
+<tr>
+<td class="resourceDetailTableCellLabel">Abstract</td>
+<td class="resourceDetailTableCellValue">Der Thüringische CDU-Ministerpräsident Dieter Althaus kombiniert in seinem Reformentwurf eines "Solidarischen Bürgergelds" den Ansatz eines bedingungslosen Grundeinkommens mit einer einheitlichen Kranken- und Pflegeversicherungsprämie. Diese Kombination wird  analysiert, da aus ihr eine bemerkenswerte Problemlösung resultiert, die außerdem aufschlussreich ist im Hinblick auf die in der heutigen sozialpolitischen Reformdebatte verstärkt diskutierte Frage der Kombination des Grundeinkommensansatzes mit anderen Reformelementen.</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Thesaurusschlagwörter</td>
+<td class="resourceDetailTableCellValue">
+<a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=minimum income">minimum income</a>; <a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=health insurance">health insurance</a>; <a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=universal health care">universal health care</a>; <a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=social welfare state">social welfare state</a>; <a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=basic income">basic income</a>; <a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=reform policy">reform policy</a>; <a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=gainful work">gainful work</a>; <a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=funding">funding</a>; <a href="/ssoar/discover?filtertype=thesoz&amp;filter_relational_operator=equals&amp;filter=Federal Republic of Germany">Federal Republic of Germany</a>
+</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Klassifikation</td>
+<td class="resourceDetailTableCellValue">soziale Sicherung; Einkommenspolitik, Lohnpolitik, Tarifpolitik, Vermögenspolitik</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Methode</td>
+<td class="resourceDetailTableCellValue">anwendungsorientiert</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Freie Schlagwörter</td>
+<td class="resourceDetailTableCellValue">Bürgergeld; Grundeinkommen; Kopfpauschale; bedingungsloses Grundeinkommen</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Sprache Dokument</td>
+<td class="resourceDetailTableCellValue">Deutsch</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Publikationsjahr</td>
+<td class="resourceDetailTableCellValue">2009</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Erscheinungsort</td>
+<td class="resourceDetailTableCellValue">Frankfurt am Main</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Seitenangabe</td>
+<td class="resourceDetailTableCellValue">8 S.</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Status</td>
+<td class="resourceDetailTableCellValue">Postprint; begutachtet</td>
+</tr>
+<tr>
+<td class="resourceDetailTableCellLabel">Lizenz</td>
+<td class="resourceDetailTableCellValue">
+		<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/de/">
+			Creative Commons - Namensnennung, Nicht kommerz., Keine Bearbeitung
+		</a>
+	</td>
+</tr>
+</table>
+<div xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" align="right">
+<a href="#header">top</a>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div class="logos">
+<img src="/ssoar/themes/ssoar/images/logo_gesis.png" />
+<img src="/ssoar/themes/ssoar/images/logo_dfg.png" />
+<img src="/ssoar/themes/ssoar/images/logo_oa.png" />
+</div>
+<a href="http://www.ssoar.info/home.html" target="_self" title="Home">Home</a>
+			 | 
+		    <a href="http://www.ssoar.info/home/service/kontakt.html" target="_self" title="Kontakt">Kontakt</a>
+			 | 
+		     
+		    <a href="http://www.ssoar.info/home/service/impressum.html" target="_self" title="Impressum">Impressum</a>
+			 | 
+		    <a href="http://www.ssoar.info/home/service/betriebskonzept.html" target="_self" title="Betriebskonzept">Betriebskonzept</a>
+			 | 
+		    <a href="http://www.ssoar.info/home/service/sitemap.html" target="_self" title="Sitemap">Sitemap</a>
+<div class="copyright">
+			    © 2007 - 2012 Social Science Open Access Repository (SSOAR), powered by DSpace<br /> The content of this website is made available under a
+			        
+		<a href="http://creativecommons.org/licenses/by-sa/3.0/de/legalcode">
+			Creative Commons Lizenz 3.0
+		</a>
+	.
+
+			</div>
+<a href="/ssoar/htmlmap">
+<!--rien-->
+</a>
+</div>
+</div>
+</div>
+<script src="/ssoar/themes/ssoar/lib/js/jquery-1.6.2.min.js" type="text/javascript"> </script>
+<script src="/ssoar/themes/ssoar/lib/js/jquery-ui-1.8.15.custom.min.js" type="text/javascript"> </script><!--[if lt IE 7 ]>
+<script type="text/javascript" src="/ssoar/themes/ssoar/lib/js/DD_belatedPNG_0.0.8a.js?v=1"> </script>
+<script type="text/javascript">DD_belatedPNG.fix('#ds-header-logo');DD_belatedPNG.fix('#ds-footer-logo');$.each($('img[src$=png]'), function() {DD_belatedPNG.fixPng(this);});</script><![endif]-->
+<script type="text/javascript">
+            runAfterJSImports.execute();
+        </script>
+<!--Copyright (c) 2000-2013 etracker GmbH. All rights reserved.-->
+<!--This material may not be reproduced, displayed, modified or distributed-->
+<!--without the express prior written permission of the copyright holder.-->
+<!--BEGIN etracker code ETRC 3.0-->
+<script type="text/javascript">document.write(String.fromCharCode(60)+"script type=\"text/javascript\" src=\"//www.etracker.com/t.js?et=qPKGYV\">"+String.fromCharCode(60)+"/script>");</script>
+<!--etracker PARAMETER 3.0-->
+<script type="text/javascript">
+var et_pagename = "SSOAR%2Fhandle/document/5634%2F";
+var et_areas    = "SSOAR%2F";
+</script>
+<!--etracker PARAMETER END-->
+        <script type="text/javascript">_etc();</script>
+<noscript>
+<p>
+<a href="//www.etracker.com">
+<img src="//www.etracker.com/nscnt.php?et=qPKGYV" alt="" style="border:0px;" class="trackimage" />
+</a>
+</p>
+</noscript>
+<!--etracker CODE END-->
+</body>
+</html>

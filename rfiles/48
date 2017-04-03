@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:bibliographic="http://lists.talis.com/schema/bibliographic#"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:elements="http://rdvocab.info/elements/"
+  xmlns:temp="http://lists.talis.com/schema/temp#">
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A"/>
+    <foaf:topic rdf:resource="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A"/>
+    <dct:hasFormat rdf:resource="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A.html"/>
+    <dct:hasFormat rdf:resource="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A.json"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A/authors">
+    <rdf:_1 rdf:resource="http://www.readinglists.manchester.ac.uk/people/58651674-D9A2-1EFF-BE9F-18B536327E26"/>
+    <rdf:_2 rdf:resource="http://www.readinglists.manchester.ac.uk/people/6F7B1087-BA40-273B-1FFD-63B8AF1D2750"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/people/58651674-D9A2-1EFF-BE9F-18B536327E26">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <owl:sameAs rdf:resource="http://www.readinglists.manchester.ac.uk/people/3D3E6AC5-FDD7-FC13-FF4D-D8B737DDFBE2"/>
+    <foaf:name>Hanselman, Duane C.</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/people/6F7B1087-BA40-273B-1FFD-63B8AF1D2750">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <owl:sameAs rdf:resource="http://www.readinglists.manchester.ac.uk/people/A4739C13-6468-9EDB-909D-7877B4BE0887"/>
+    <foaf:name>Littlefield, Bruce</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/organisations/9C2BE85A-6CE4-8F14-91AF-6BCAF22F8190DD2F8FB6-2D10-4F37-9219-AC1E4C1BF53E">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <owl:sameAs rdf:resource="http://www.readinglists.manchester.ac.uk/organisations/C9E62E64-79DA-D94C-22C6-5D2132924AD2E519E233-26F7-9F1C-2420-6A1DFB3570C3"/>
+    <foaf:name>Prentice hall</foaf:name>
+    <foaf:name>Prentice Hall</foaf:name>
+    <foaf:name>Prentice-Hall</foaf:name>
+    <foaf:name>PRENTICE HALL</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A">
+    <bibliographic:localControlNumber>21197367630001631</bibliographic:localControlNumber>
+    <bibo:authorList rdf:resource="http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A/authors"/>
+    <bibo:isbn10>0130194689</bibo:isbn10>
+    <dc:subject>Numerical analysis Data processing.</dc:subject>
+    <dct:date>c2001</dct:date>
+    <dct:publisher rdf:resource="http://www.readinglists.manchester.ac.uk/organisations/9C2BE85A-6CE4-8F14-91AF-6BCAF22F8190DD2F8FB6-2D10-4F37-9219-AC1E4C1BF53E"/>
+    <dct:source rdf:resource="http://www.readinglists.manchester.ac.uk/catalog/records/2028020"/>
+    <dct:title>Mastering MATLAB 6: a comprehensive tutorial and reference</dct:title>
+    <elements:placeOfPublication>Upper Saddle River, N.J.</elements:placeOfPublication>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#Resource"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+    <temp:oldLocalControlNumber>2028020</temp:oldLocalControlNumber>
+  </rdf:Description>
+
+</rdf:RDF>

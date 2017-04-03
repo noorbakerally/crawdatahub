@@ -1,0 +1,927 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:harmonise="http://protege.stanford.edu/rdf/HTOv4002#" xmlns:multiLan="http://www.multilang-property/20140324#" xmlns:onTour="http://e-tourism.deri.at/ont/e-tourism#" xmlns:frbrer="http://purl.org/vocab/frbr/core#" xmlns:eharmonise="http://www.eharmonise/2014-03-12#" xmlns:gn="http://www.geonames.org/ontology#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:hr-xml="http://lariojaturismo.gnoss.com/Ontologia/Curriculum.owl#" xmlns:winery="http://lariojaturismo.gnoss.com/Ontologia/winery.owl#" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="https://lariojaturismo.com/comunidad/larioja/comer-y-beber?default;rdf:type=winery">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodega-y-viedos-solabal/7e238e4c-af7c-43e5-af21-1d99f8a70f1c" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-de-la-real-divisa/1bf151f6-18bd-4158-95bf-8d6a4216b535" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-puelles/51cb0ff6-7697-4270-b271-47b190480910" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-solana-de-ramirez/149c2e0d-376e-410e-a3b4-be06a12b94f6" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-vinicola-real/2044883c-8dd7-49df-acdf-d3ecd518f22f" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodega-vias-nuevas/1d887a98-67f8-4619-8221-7398f8b01893" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-ciceron/c4998c7a-9a73-45b9-a7c3-b71bd35073eb" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-domeco-de-jarauta/5752f406-57bc-43d5-8368-45286fb33b5f" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-pastor-diaz/06b12454-bf8c-4b0f-9d19-ad8d2b7c745b" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-via-herminia/53487aaa-9f7f-4f2e-81d9-2ae7f5814fed" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-y-viedos-fernandez-de-manzanos/d781c953-0814-482a-acc4-0463062f32fb" />
+    <gnoss:Results rdf:resource="https://lariojaturismo.com/comunidad/larioja/recurso/viedos-de-aldeanueva/6ffe4d34-de1a-4126-8cdb-d76b8520e908" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodega-y-viedos-solabal/7e238e4c-af7c-43e5-af21-1d99f8a70f1c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodega y Viñedos Solabal]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>Vi&ntilde;edos propios. Elaboraci&oacute;n mediante m&eacute;todo tradicional y tecnolog&iacute;a moderna. Nave de barricas de roble americano y franc&eacute;s. Botellero de crianza. Club de vino</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[<br>Own vineyards. Made using the traditional method and modern technology. American and French oak barrels  in the cellar. Bottle ageing cellar . Wine club</br>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[<p>Eigene Weinberge. Weinbereitung unter Einsatz traditioneller Methoden in Verbindung mit moderner Technologie. Fasslager mit Fässern aus amerikanischer und französischer Eiche. Flaschenlager für den Flaschenausbau. Weinclub</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[<p>Vignoble en propriété. L'élaboration allie les méthodes traditionnelles et une technologie moderne. Chai à barriques en chêne américain et français. Bouteiller d'élevage. Club du vin</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-11-22T12:00:11+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodega y Viñedos Solabal]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodega y Viñedos Solabal.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_a177b219-308a-462d-b54a-6e29c3e6db0c" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodega" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1edos%20solabal" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://lariojaturismo.com/organizacion/lariojaturismo/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[La Rioja Turismo]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[La Rioja Turismo]]></foaf:name>
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodega">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bodega]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1edos%20solabal">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[viñedos solabal]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-de-la-real-divisa/1bf151f6-18bd-4158-95bf-8d6a4216b535">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas de la Real Divisa]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[Stone building. Underground, stone cellars. Only makes wines from its own estate vineyards.]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[<p>Steingebäude. Unterirdische Felsenkeller. Es werden ausschließlich Weine aus eigenen Trauben hergestellt.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[<p>Bâtiment en pierre. Chais souterrains en pierre. Élaboration exclusive de vins issus du vignoble de la propriété.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-03-29T11:06:17+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas de la Real Divisa]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas de la Real Divisa.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_1bf151f6-18bd-4158-95bf-8d6a4216b535_e317520c-6215-4050-bb8f-1cdfe2431cec" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/la%20real%20divisa" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bodegas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/la%20real%20divisa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[la real divisa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-puelles/51cb0ff6-7697-4270-b271-47b190480910">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas Puelles]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>Antiguo molino del siglo XVII rodeado de vi&ntilde;edos. Club de vinos (compra de barricas). Hotel en bodega.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[Old 17th century mill surrounded by vines. Wine club. (purchase of barrels).]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[<p>Alte Mühle aus dem 17. Jahrhundert inmitten von Weinbergen. Weinclub (Verkauf von Fässern). Hotel in der Bodega.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[<p>Ancien moulin du 17e siècle au milieu des vignes. Club du vin (achat de barriques entières). Cave-Hôtel.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-11-22T12:02:58+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Puelles]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Puelles.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_51cb0ff6-7697-4270-b271-47b190480910_584d9406-37d9-4149-ba6b-ac50c66e34f0" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/puelles" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/puelles">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[puelles]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-solana-de-ramirez/149c2e0d-376e-410e-a3b4-be06a12b94f6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas Solana de Ramírez]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br />
+<br />
+Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br />
+<br />
+Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br />
+<br />
+Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p>
+
+<p>&nbsp;</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="pt"><![CDATA[<div>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotación familiar, dedicada generación tras generación al cultivo de la vid y posterior elaboración y crianza de sus vinos, que se consolidó en el a&ntilde;o 1.985 &nbsp;y que cada día ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicación de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnología para la elaboración y limpieza del vino, con la manera más tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del país.<br /><br />Enclavada en Ábalos, en una de las zonas más preciadas de la Denominación de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.<br /><br /></strong>Dise&ntilde;ada con modernas tecnologías, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano. </div><br /><p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ca"><![CDATA[<div>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotación familiar, dedicada generación tras generación al cultivo de la vid y posterior elaboración y crianza de sus vinos, que se consolidó en el a&ntilde;o 1.985 &nbsp;y que cada día ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicación de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnología para la elaboración y limpieza del vino, con la manera más tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del país.<br /><br />Enclavada en Ábalos, en una de las zonas más preciadas de la Denominación de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.<br /><br /></strong>Dise&ntilde;ada con modernas tecnologías, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano. </div><br /><p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="eu"><![CDATA[<div>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotación familiar, dedicada generación tras generación al cultivo de la vid y posterior elaboración y crianza de sus vinos, que se consolidó en el a&ntilde;o 1.985 &nbsp;y que cada día ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicación de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnología para la elaboración y limpieza del vino, con la manera más tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del país.<br /><br />Enclavada en Ábalos, en una de las zonas más preciadas de la Denominación de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.<br /><br /></strong>Dise&ntilde;ada con modernas tecnologías, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano. </div><br /><p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ga"><![CDATA[<div>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotación familiar, dedicada generación tras generación al cultivo de la vid y posterior elaboración y crianza de sus vinos, que se consolidó en el a&ntilde;o 1.985 &nbsp;y que cada día ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicación de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnología para la elaboración y limpieza del vino, con la manera más tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del país.<br /><br />Enclavada en Ábalos, en una de las zonas más preciadas de la Denominación de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.<br /><br /></strong>Dise&ntilde;ada con modernas tecnologías, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano. </div><br /><p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[<p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[<p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong> est une exploitation familiale consacrée, génération après génération, à la culture de la vigne et à l'élaboration et l'élevage du vin. Consolidée depuis 1985, elle progresse en permanence et, grâce à ceux qui et apportent tous leurs efforts depuis si longtemps et à la fidélité de notre clientèle, elle bénéficie d'un positionnement de choix sur le marché.<br /><br />La technologie moderne a été intégrée pour contrôler l'élaboration du vin et son hygiène, dans le respect des méthodes de vinification artisanale traditionnelles des grands vins de Rioja. Nos vins sont reconnus en Espagne et à l'étranger.<br /><br />Nos chais sont installés à Ábalos, dans une zone très appréciée de l’AOCQ Rioja. Nos vins sont commercialisés sous les marques <strong>SOLANA DE RAMIREZ ET VALSARTE.</strong><br /><br />Ultramodernes, nos installations disposent de salles indépendantes pour l'élevage des vins Crianza et Reserva, avec des cuves centenaires et des barriques de chêne français et américain.</p><p> </p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[<p>BODEGAS SOLANA DE RAMIREZ RUIZ ist ein Familienbetrieb, der sich seit Generationen dem Weinbau und der Bereitung und dem Ausbau von Weinen widmet. Die Gründung war im Jahr 1985 und die Bodega hat seit damals ihre Marktposition stetig verbessern können. Dies ist ebenso dem Einsatz und der Hingabe der Menschen zu verdanken, die diese Bodega führen, wie der Treue unserer Kunden.<br /><br />Uns ist es gelungen, die neuen Technologien der Weinbereitung und Läuterung mit den traditionellen und handwerklichen Methoden zu kombinieren, die die großen Rioja-Weine ausmachen. Unsere Weine werden im In- und Ausland geschätzt.<br /><br />Die Bodega findet sich in Ábalos, eines der am meisten geschätzten Gebiete innerhalb des Anbaugebiets der Qualifizierten Herkunftsbezeichnung Rioja. Die Weine werden unter den Marken <strong>SOLANA DE RAMIREZ und VALSARTE vertrieben.</strong><br /><br />Die Kellerei ist mit moderner Technologie ausgestattet. Sie verfügt über getrennte Räumlichkeiten für die Reifung und Lagerung der Weine und hundertjährige Holzgebinde sowie Fässer aus französischer und amerikanischer Eiche.</p><p> </p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-11-22T11:52:45+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Solana de Ramírez]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Solana de Ramírez.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_149c2e0d-376e-410e-a3b4-be06a12b94f6_ac4dbc4c-13c4-49aa-8994-dbb9c98c8a65" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/solana%20de%20ram%c3%adrez" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/comer%20en%20bodega" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/enoturismo" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/solana%20de%20ramirez%20%20y%20valsarte" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/solana%20de%20ramirez%20ruiz" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/rioja" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/%c3%a1balos" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/denominaci%c3%b3n%20de%20origen%20calificada%20rioja" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/solana%20de%20ramirez%20y%20valsarte" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/solana%20de%20ram%c3%adrez">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[solana de ramírez]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/comer%20en%20bodega">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[comer en bodega]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/enoturismo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[enoturismo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/solana%20de%20ramirez%20%20y%20valsarte">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[solana de ramirez  y valsarte]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/solana%20de%20ramirez%20ruiz">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[solana de ramirez ruiz]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/rioja">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[rioja]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/%c3%a1balos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ábalos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/denominaci%c3%b3n%20de%20origen%20calificada%20rioja">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[denominación de origen calificada rioja]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/solana%20de%20ramirez%20y%20valsarte">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[solana de ramirez y valsarte]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-vinicola-real/2044883c-8dd7-49df-acdf-d3ecd518f22f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas Vinícola Real]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[The bodega has a hotel on the site, the Casa del Cofrade. Wine Club, dining room with grill.]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="pt"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p><p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ca"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p><p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="eu"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p><p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ga"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p><p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-06-22T16:07:32+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Vinícola Real]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Vinícola Real.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_2044883c-8dd7-49df-acdf-d3ecd518f22f_32a3355e-a222-42be-902d-c4ba7b950304" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vin%c3%adcola%20real" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/enoturismo" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/comer%20en%20bodega" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/cursos%20de%20cata" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/restaurante%20en%20bodega" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vin%c3%adcola%20real">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vinícola real]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/cursos%20de%20cata">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cursos de cata]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/restaurante%20en%20bodega">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[restaurante en bodega]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodega-vias-nuevas/1d887a98-67f8-4619-8221-7398f8b01893">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodega Viñas Nuevas]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[La visita a esta bodega incluye el paseo por los viñedos de los que se extraen las uvas para los caldos que se elaboran en esta bodega familiar.]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[The visit to this Winery includes a walk through the vineyards where the grapes are grown for making wine at this family winery.]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[La visite de cette cave comprend une promenade dans les vignes d'où provient le raisin destiné aux vins élaborés par cette cave familiale.]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[Der Besuch dieser Bodega beinhaltet einen Spaziergang durch die Weinberge, aus denen die Trauben der Weine stammen, die in dieser Familienkellerei hergestellt werden.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-03-29T11:13:35+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodega Viñas Nuevas]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodega Viñas Nuevas.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_1d887a98-67f8-4619-8221-7398f8b01893_9f904337-be85-49a1-ad75-6637353d752d" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodega" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1as%20nuevas" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1as%20nuevas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[viñas nuevas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-ciceron/c4998c7a-9a73-45b9-a7c3-b71bd35073eb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas Cicerón]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>Familiar, sencilla y moderna. Sistema de llenado de acuerdo a la forma octogonal de la bodega.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[Family, simple, modern. Filling system according to the octagonal shape of the Winery.]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[Familiale, simple et moderne. Système de remplissage adapté aux formes octogonales de la cave.]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[Familiär, einfach und modern. Abfüllsystem abgestimmt auf die achteckige Form der Bodega.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-03-29T11:15:46+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Cicerón]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Cicerón.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_c4998c7a-9a73-45b9-a7c3-b71bd35073eb_f23ace96-2178-422e-8481-09fecb9d7367" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/cicer%c3%b3n" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/cicer%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cicerón]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-domeco-de-jarauta/5752f406-57bc-43d5-8368-45286fb33b5f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas Domeco de Jarauta]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[Bodega familiar enclavada dentro de sus viñedos. Vistas panorámicas. Se puede visitar en época de vendimia.<br />]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[Family Winery inside its vineyards. Panoramic views. The visit is possible during harvest time.<br />]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[Familienkellerei, die inmitten der eigenen Weinberge liegt. Panoramaaussicht. Besuche während der Weinlese sind möglich.<br />]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[Cave familiale nichée au cœur de son vignoble. Vues panoramiques. Ouvert aux visites pendant les vendanges.<br />]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-03-29T11:16:44+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Domeco de Jarauta]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Domeco de Jarauta.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_5752f406-57bc-43d5-8368-45286fb33b5f_54bb8c38-61c0-476e-a468-33a70edee83b" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/domeco%20de%20jarauta" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/domeco%20de%20jarauta">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[domeco de jarauta]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-pastor-diaz/06b12454-bf8c-4b0f-9d19-ad8d2b7c745b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas Pastor Díaz]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[All their wines come from vineyards. Vineyard and wine tasting. Wine Club. <br />]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="pt"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ca"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="eu"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ga"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-06-23T10:33:50+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Pastor Díaz]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Pastor Díaz.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_06b12454-bf8c-4b0f-9d19-ad8d2b7c745b_d483b459-9f1a-42ce-ba34-118f08e5856a" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/pastor%20d%c3%adaz" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/pastor%20d%c3%adaz">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pastor díaz]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-via-herminia/53487aaa-9f7f-4f2e-81d9-2ae7f5814fed">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas Viña Herminia]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="pt"><![CDATA[Edificio de piedra. Calados subterráneos de piedra. Exclusiva elaboración de vinos de sus propios vi&ntilde;edos. <p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ca"><![CDATA[Edificio de piedra. Calados subterráneos de piedra. Exclusiva elaboración de vinos de sus propios vi&ntilde;edos. <p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="eu"><![CDATA[Edificio de piedra. Calados subterráneos de piedra. Exclusiva elaboración de vinos de sus propios vi&ntilde;edos. <p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ga"><![CDATA[Edificio de piedra. Calados subterráneos de piedra. Exclusiva elaboración de vinos de sus propios vi&ntilde;edos. <p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[<p>Stone building. Underground stone cellars. Estate grown wines only.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[<p>Steingebäude. Unterirdische Felsenkeller. Es werden ausschließlich Weine aus eigenen Trauben hergestellt.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[<p>Bâtiment en pierre. Chais souterrains en pierre. Élaboration exclusive de vins issus du vignoble de la propriété.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-03-29T11:18:58+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Viña Herminia]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Viña Herminia.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_fac2a649-d15e-43dc-b1ff-502d8fa67923" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1a%20herminia" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/enoturismo" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/comer%20en%20bodega" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1a%20herminia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[viña herminia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/bodegas-y-viedos-fernandez-de-manzanos/d781c953-0814-482a-acc4-0463062f32fb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bodegas y Viñedos Fernández de Manzanos]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="es"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="pt"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ca"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="eu"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="ga"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="en"><![CDATA[150 hectares of vineyards. Winemaking facilities in  Aldeanueva and Azagra.]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="de"><![CDATA[<p>Betrieb mit einer Rebfläche von 150 ha. Gebäude in Aldeanueva und Azagra.</p>]]></sioc:content>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xml:lang="fr"><![CDATA[<p>Vignoble de 150 hectares et installations à Aldeanueva et à Azagra.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-03-29T11:21:00+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas y Viñedos Fernández de Manzanos]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas y Viñedos Fernández de Manzanos.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_d781c953-0814-482a-acc4-0463062f32fb_472db71b-1dd8-4a0d-8560-67b33090d636" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/bodegas" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1edos%20fern%c3%a1ndez%20de%20manzanos" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1edos%20fern%c3%a1ndez%20de%20manzanos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[viñedos fernández de manzanos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://lariojaturismo.com/comunidad/larioja/recurso/viedos-de-aldeanueva/6ffe4d34-de1a-4126-8cdb-d76b8520e908">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Viñedos de Aldeanueva]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Mayor bodega de producci&oacute;n de La Rioja y mayor elaboradora. Principal cooperativa de La Rioja Baja.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-06-23T10:46:26+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Viñedos de Aldeanueva]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Viñedos de Aldeanueva.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://lariojaturismo.gnoss.com/items/Winery_6ffe4d34-de1a-4126-8cdb-d76b8520e908_68704027-3498-49fd-b00a-4e588fc5e3f0" />
+    <sioc:has_creator rdf:resource="http://lariojaturismo.com/organizacion/lariojaturismo/" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1edos" />
+    <sioc:topic rdf:resource="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/aldeanueva" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/vi%c3%b1edos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[viñedos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://lariojaturismo.com/comunidad/larioja/busqueda/tag/aldeanueva">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aldeanueva]]></rdfs:label>
+  </sioc_t:Tag>
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_a177b219-308a-462d-b54a-6e29c3e6db0c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodega y Viñedos Solabal]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[<br>Own vineyards. Made using the traditional method and modern technology. American and French oak barrels  in the cellar. Bottle ageing cellar . Wine club</br>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[<p>Eigene Weinberge. Weinbereitung unter Einsatz traditioneller Methoden in Verbindung mit moderner Technologie. Fasslager mit Fässern aus amerikanischer und französischer Eiche. Flaschenlager für den Flaschenausbau. Weinclub</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[<p>Vignoble en propriété. L'élaboration allie les méthodes traditionnelles et une technologie moderne. Chai à barriques en chêne américain et français. Bouteiller d'élevage. Club du vin</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>Vi&ntilde;edos propios. Elaboraci&oacute;n mediante m&eacute;todo tradicional y tecnolog&iacute;a moderna. Nave de barricas de roble americano y franc&eacute;s. Botellero de crianza. Club de vino</p>]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_123076f8-9ee8-4b97-a07d-4feeee53e379_032d34ab-fd7f-4ff9-af2e-eba44699f2c0" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_32ee68ff-535b-46e1-8a78-4af99a1ec9c8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_468f90e0-34a9-414e-88dd-dbeb99edff57">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_68f97e2e-9376-4395-9cc4-1e9ccd21b816">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_d4dd4eb5-819b-46cf-8589-38db35a4ddc9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_faad8612-ea60-43c6-a43e-139db3126b25">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_e89a76d8-a822-4c95-9962-2939cf8fec86">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_7e238e4c-af7c-43e5-af21-1d99f8a70f1c_fbe6ee86-9ab5-4f92-aa52-4286db260f28">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_123076f8-9ee8-4b97-a07d-4feeee53e379_032d34ab-fd7f-4ff9-af2e-eba44699f2c0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ábalos]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_1bf151f6-18bd-4158-95bf-8d6a4216b535_e317520c-6215-4050-bb8f-1cdfe2431cec">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas de la Real Divisa]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[Stone building. Underground, stone cellars. Only makes wines from its own estate vineyards.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[<p>Steingebäude. Unterirdische Felsenkeller. Es werden ausschließlich Weine aus eigenen Trauben hergestellt.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[<p>Bâtiment en pierre. Chais souterrains en pierre. Élaboration exclusive de vins issus du vignoble de la propriété.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_123076f8-9ee8-4b97-a07d-4feeee53e379_032d34ab-fd7f-4ff9-af2e-eba44699f2c0" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_1bf151f6-18bd-4158-95bf-8d6a4216b535_a7491b5c-0af6-486c-9bb3-6c0d689248f1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_1bf151f6-18bd-4158-95bf-8d6a4216b535_0d880502-7668-40b2-a49e-2612ae0b2614">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_1bf151f6-18bd-4158-95bf-8d6a4216b535_45f71f16-bf65-4280-9d60-54dd10500dd0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_1bf151f6-18bd-4158-95bf-8d6a4216b535_dee88e42-fc0d-4358-bde8-dda6018e5e2f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_1bf151f6-18bd-4158-95bf-8d6a4216b535_ebf5a089-df7b-47a4-8880-885c02fe06df">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_1bf151f6-18bd-4158-95bf-8d6a4216b535_1529ac91-1963-4318-9013-e9ad967ba7be">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_123076f8-9ee8-4b97-a07d-4feeee53e379_032d34ab-fd7f-4ff9-af2e-eba44699f2c0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ábalos]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_51cb0ff6-7697-4270-b271-47b190480910_584d9406-37d9-4149-ba6b-ac50c66e34f0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Puelles]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[Old 17th century mill surrounded by vines. Wine club. (purchase of barrels).]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[<p>Alte Mühle aus dem 17. Jahrhundert inmitten von Weinbergen. Weinclub (Verkauf von Fässern). Hotel in der Bodega.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[<p>Ancien moulin du 17e siècle au milieu des vignes. Club du vin (achat de barriques entières). Cave-Hôtel.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>Antiguo molino del siglo XVII rodeado de vi&ntilde;edos. Club de vinos (compra de barricas). Hotel en bodega.</p>]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_123076f8-9ee8-4b97-a07d-4feeee53e379_032d34ab-fd7f-4ff9-af2e-eba44699f2c0" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_51cb0ff6-7697-4270-b271-47b190480910_3df7e5be-416b-43b5-b62b-e6848f623bcb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_51cb0ff6-7697-4270-b271-47b190480910_0760a0fb-73d0-48e9-9e54-9200408772df">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_51cb0ff6-7697-4270-b271-47b190480910_6736153b-2d9f-4257-bd0d-e64872f0d44d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_51cb0ff6-7697-4270-b271-47b190480910_7f914a38-b374-48c0-bcf6-56c4708e6ec9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_51cb0ff6-7697-4270-b271-47b190480910_bd698364-2526-4852-b8c4-56468e72efa4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_1003">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_1002">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_123076f8-9ee8-4b97-a07d-4feeee53e379_032d34ab-fd7f-4ff9-af2e-eba44699f2c0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ábalos]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_149c2e0d-376e-410e-a3b4-be06a12b94f6_ac4dbc4c-13c4-49aa-8994-dbb9c98c8a65">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Solana de Ramírez]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="pt"><![CDATA[<div>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotación familiar, dedicada generación tras generación al cultivo de la vid y posterior elaboración y crianza de sus vinos, que se consolidó en el a&ntilde;o 1.985 &nbsp;y que cada día ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicación de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnología para la elaboración y limpieza del vino, con la manera más tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del país.<br /><br />Enclavada en Ábalos, en una de las zonas más preciadas de la Denominación de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.<br /><br /></strong>Dise&ntilde;ada con modernas tecnologías, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano. </div><br /><p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ca"><![CDATA[<div>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotación familiar, dedicada generación tras generación al cultivo de la vid y posterior elaboración y crianza de sus vinos, que se consolidó en el a&ntilde;o 1.985 &nbsp;y que cada día ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicación de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnología para la elaboración y limpieza del vino, con la manera más tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del país.<br /><br />Enclavada en Ábalos, en una de las zonas más preciadas de la Denominación de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.<br /><br /></strong>Dise&ntilde;ada con modernas tecnologías, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano. </div><br /><p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="eu"><![CDATA[<div>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotación familiar, dedicada generación tras generación al cultivo de la vid y posterior elaboración y crianza de sus vinos, que se consolidó en el a&ntilde;o 1.985 &nbsp;y que cada día ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicación de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnología para la elaboración y limpieza del vino, con la manera más tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del país.<br /><br />Enclavada en Ábalos, en una de las zonas más preciadas de la Denominación de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.<br /><br /></strong>Dise&ntilde;ada con modernas tecnologías, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano. </div><br /><p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ga"><![CDATA[<div>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotación familiar, dedicada generación tras generación al cultivo de la vid y posterior elaboración y crianza de sus vinos, que se consolidó en el a&ntilde;o 1.985 &nbsp;y que cada día ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicación de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnología para la elaboración y limpieza del vino, con la manera más tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del país.<br /><br />Enclavada en Ábalos, en una de las zonas más preciadas de la Denominación de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.<br /><br /></strong>Dise&ntilde;ada con modernas tecnologías, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano. </div><br /><p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[<p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br /><br />Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br /><br />Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br /><br />Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p><p>&nbsp;</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[<p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong> est une exploitation familiale consacrée, génération après génération, à la culture de la vigne et à l'élaboration et l'élevage du vin. Consolidée depuis 1985, elle progresse en permanence et, grâce à ceux qui et apportent tous leurs efforts depuis si longtemps et à la fidélité de notre clientèle, elle bénéficie d'un positionnement de choix sur le marché.<br /><br />La technologie moderne a été intégrée pour contrôler l'élaboration du vin et son hygiène, dans le respect des méthodes de vinification artisanale traditionnelles des grands vins de Rioja. Nos vins sont reconnus en Espagne et à l'étranger.<br /><br />Nos chais sont installés à Ábalos, dans une zone très appréciée de l’AOCQ Rioja. Nos vins sont commercialisés sous les marques <strong>SOLANA DE RAMIREZ ET VALSARTE.</strong><br /><br />Ultramodernes, nos installations disposent de salles indépendantes pour l'élevage des vins Crianza et Reserva, avec des cuves centenaires et des barriques de chêne français et américain.</p><p> </p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[<p>BODEGAS SOLANA DE RAMIREZ RUIZ ist ein Familienbetrieb, der sich seit Generationen dem Weinbau und der Bereitung und dem Ausbau von Weinen widmet. Die Gründung war im Jahr 1985 und die Bodega hat seit damals ihre Marktposition stetig verbessern können. Dies ist ebenso dem Einsatz und der Hingabe der Menschen zu verdanken, die diese Bodega führen, wie der Treue unserer Kunden.<br /><br />Uns ist es gelungen, die neuen Technologien der Weinbereitung und Läuterung mit den traditionellen und handwerklichen Methoden zu kombinieren, die die großen Rioja-Weine ausmachen. Unsere Weine werden im In- und Ausland geschätzt.<br /><br />Die Bodega findet sich in Ábalos, eines der am meisten geschätzten Gebiete innerhalb des Anbaugebiets der Qualifizierten Herkunftsbezeichnung Rioja. Die Weine werden unter den Marken <strong>SOLANA DE RAMIREZ und VALSARTE vertrieben.</strong><br /><br />Die Kellerei ist mit moderner Technologie ausgestattet. Sie verfügt über getrennte Räumlichkeiten für die Reifung und Lagerung der Weine und hundertjährige Holzgebinde sowie Fässer aus französischer und amerikanischer Eiche.</p><p> </p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>BODEGAS SOLANA DE RAMIREZ RUIZ<strong> </strong>es una explotaci&oacute;n familiar, dedicada generaci&oacute;n tras generaci&oacute;n al cultivo de la vid y posterior elaboraci&oacute;n y crianza de sus vinos, que se consolid&oacute; en el a&ntilde;o 1.985 &nbsp;y que cada d&iacute;a ha logrado posicionarse mejor en el mercado, gracias al esfuerzo y dedicaci&oacute;n de quienes han estado al frente de ella durante todo este tiempo, como tambi&eacute;n a la fidelidad de nuestros clientes.<br />
+<br />
+Hemos sabido compaginar la nueva tecnolog&iacute;a para la elaboraci&oacute;n y limpieza del vino, con la manera m&aacute;s tradicional y artesana de hacer los grandes vinos de Rioja. Nuestros vinos, son reconocidos dentro y fuera del pa&iacute;s.<br />
+<br />
+Enclavada en &Aacute;balos, en una de las zonas m&aacute;s preciadas de la Denominaci&oacute;n de Origen Calificada Rioja. Los vinos, se comercializan con las marcas, <strong>SOLANA DE RAMIREZ&nbsp; Y VALSARTE.</strong><br />
+<br />
+Dise&ntilde;ada con modernas tecnolog&iacute;as, tiene naves independientes para la crianza y reserva de vinos, con cubas centenarias y barricas de roble franc&eacute;s y americano.</p>
+
+<p>&nbsp;</p>]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_123076f8-9ee8-4b97-a07d-4feeee53e379_032d34ab-fd7f-4ff9-af2e-eba44699f2c0" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_149c2e0d-376e-410e-a3b4-be06a12b94f6_1b541962-741e-477b-8fda-ee59507e1bdd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_86">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Capacidad del comedor]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[Capacity of the dining]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Capacité de la salle à manger]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Kapazität der Speisesaal]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_149c2e0d-376e-410e-a3b4-be06a12b94f6_8324e603-33fd-48ee-a813-6416b80a3b07">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_149c2e0d-376e-410e-a3b4-be06a12b94f6_28832664-6da4-46a8-8ee3-3d2b338f60a5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_149c2e0d-376e-410e-a3b4-be06a12b94f6_c887ac14-cd92-4204-8ab1-4249328f2ee1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_149c2e0d-376e-410e-a3b4-be06a12b94f6_ca5cf65d-a5e5-411d-9a80-575f92ae3ade">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_149c2e0d-376e-410e-a3b4-be06a12b94f6_f7729010-31c6-43b8-af8a-d794399031eb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_149c2e0d-376e-410e-a3b4-be06a12b94f6_a72388ed-a3b6-4a4d-826b-8e1c8d97a190">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_149c2e0d-376e-410e-a3b4-be06a12b94f6_fbb691a9-2260-45ca-addc-b56085757e3e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_123076f8-9ee8-4b97-a07d-4feeee53e379_032d34ab-fd7f-4ff9-af2e-eba44699f2c0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ábalos]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_2044883c-8dd7-49df-acdf-d3ecd518f22f_32a3355e-a222-42be-902d-c4ba7b950304">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Vinícola Real]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[The bodega has a hotel on the site, the Casa del Cofrade. Wine Club, dining room with grill.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="pt"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p><p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ca"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p><p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="eu"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p><p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ga"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p><p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>La bodega dispone de un hotel en sus instalaciones, La Casa del Cofrade. Club de vino. comedor con asador. Concertado.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[<p>La cave possède un hôtel dans ses installations, La Casa del Cofrade. Club du vin. Salle à manger et barbecue. Sur rendez-vous.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[<p>Zur Bodega gehört auch ein Hotel, La Casa del Cofrade (das Haus des Laienbruders). Weinclub. Speisesaal mit Grill. Nach Vereinbarung.</p>]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_4a27601b-5948-4409-b798-d4da2bde614c_72573eda-3742-43ad-9f29-ec51a69e7bac" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_2044883c-8dd7-49df-acdf-d3ecd518f22f_3120e81c-55ea-44cb-aec5-af68f023d4e7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_86">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Capacidad del comedor]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[Capacity of the dining]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Capacité de la salle à manger]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Kapazität der Speisesaal]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_2044883c-8dd7-49df-acdf-d3ecd518f22f_4b068fbd-d2b0-4daf-9286-42cf497e4dd8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_2044883c-8dd7-49df-acdf-d3ecd518f22f_0cbbdc71-f693-4e6b-9492-f8abb3bcb326">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_2044883c-8dd7-49df-acdf-d3ecd518f22f_1b7e2dfb-f1d9-45ee-9884-34374b9d5ba3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_2044883c-8dd7-49df-acdf-d3ecd518f22f_22ba6a64-5dad-4768-9fec-c6c818a7a245">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_2044883c-8dd7-49df-acdf-d3ecd518f22f_ada4952a-ff97-4923-89db-897b3ca21f2c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_2044883c-8dd7-49df-acdf-d3ecd518f22f_e427cbfa-56b1-4d12-88bd-0f3a1e493a07">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_2044883c-8dd7-49df-acdf-d3ecd518f22f_774de62b-0fb2-4add-91db-a1df009b9440">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_1003">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_4a27601b-5948-4409-b798-d4da2bde614c_72573eda-3742-43ad-9f29-ec51a69e7bac">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Albelda de Iregua]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_1d887a98-67f8-4619-8221-7398f8b01893_9f904337-be85-49a1-ad75-6637353d752d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodega Viñas Nuevas]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[The visit to this Winery includes a walk through the vineyards where the grapes are grown for making wine at this family winery.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[La visite de cette cave comprend une promenade dans les vignes d'où provient le raisin destiné aux vins élaborés par cette cave familiale.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Der Besuch dieser Bodega beinhaltet einen Spaziergang durch die Weinberge, aus denen die Trauben der Weine stammen, die in dieser Familienkellerei hergestellt werden.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[La visita a esta bodega incluye el paseo por los viñedos de los que se extraen las uvas para los caldos que se elaboran en esta bodega familiar.]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_1d887a98-67f8-4619-8221-7398f8b01893_51e5a4fc-553f-4659-9578-1eb3bfbea2a8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_1d887a98-67f8-4619-8221-7398f8b01893_7dc53c65-88ad-4186-a684-544dfb17cce9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_1d887a98-67f8-4619-8221-7398f8b01893_996d008b-0177-4668-b294-96d3613507e2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_1d887a98-67f8-4619-8221-7398f8b01893_e41394b7-2cee-4e2d-9785-99d580b6c34c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aldeanueva de Ebro]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_c4998c7a-9a73-45b9-a7c3-b71bd35073eb_f23ace96-2178-422e-8481-09fecb9d7367">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Cicerón]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[Family, simple, modern. Filling system according to the octagonal shape of the Winery.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Familiale, simple et moderne. Système de remplissage adapté aux formes octogonales de la cave.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Familiär, einfach und modern. Abfüllsystem abgestimmt auf die achteckige Form der Bodega.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>Familiar, sencilla y moderna. Sistema de llenado de acuerdo a la forma octogonal de la bodega.</p>]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_c4998c7a-9a73-45b9-a7c3-b71bd35073eb_8b1f80e6-7168-4ffa-8bd9-2c60ab9fdb42">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_c4998c7a-9a73-45b9-a7c3-b71bd35073eb_4d7e4b4b-4913-4135-b459-3770c7c27625">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_c4998c7a-9a73-45b9-a7c3-b71bd35073eb_e7d7d6b3-6995-4228-bcc0-82acb6aef73b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_c4998c7a-9a73-45b9-a7c3-b71bd35073eb_ec99bbc5-bb1b-4b18-9d53-935c17a31b48">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_c4998c7a-9a73-45b9-a7c3-b71bd35073eb_d121a044-0a34-4216-952c-c45f81ee3218">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aldeanueva de Ebro]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_5752f406-57bc-43d5-8368-45286fb33b5f_54bb8c38-61c0-476e-a468-33a70edee83b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Domeco de Jarauta]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[Family Winery inside its vineyards. Panoramic views. The visit is possible during harvest time.<br />]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Familienkellerei, die inmitten der eigenen Weinberge liegt. Panoramaaussicht. Besuche während der Weinlese sind möglich.<br />]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Cave familiale nichée au cœur de son vignoble. Vues panoramiques. Ouvert aux visites pendant les vendanges.<br />]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Bodega familiar enclavada dentro de sus viñedos. Vistas panorámicas. Se puede visitar en época de vendimia.<br />]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7" />
+  </harmonise:Winery>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_5752f406-57bc-43d5-8368-45286fb33b5f_0557cb6a-ebd1-4f48-86d3-fa63d23d8f32">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_5752f406-57bc-43d5-8368-45286fb33b5f_08f41526-ab39-4f3e-915a-7ffa0f614c78">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_5752f406-57bc-43d5-8368-45286fb33b5f_3cd15655-5219-43fd-b7b6-b0329e2169d2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_5752f406-57bc-43d5-8368-45286fb33b5f_5fe14865-2a27-4646-90bf-d7b3b996f498">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aldeanueva de Ebro]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_06b12454-bf8c-4b0f-9d19-ad8d2b7c745b_d483b459-9f1a-42ce-ba34-118f08e5856a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Pastor Díaz]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustación de vinos. Club de vinos.<br />]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[All their wines come from vineyards. Vineyard and wine tasting. Wine Club. <br />]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="pt"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ca"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="eu"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ga"><![CDATA[<p>Todos sus vinos provienen de vi&ntilde;edos propios. Visita de vi&ntilde;edos y degustaci&oacute;n de vinos. Club de vinos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Tous ses vins sont issus des vignes de la propriété. Visite du vignoble et dégustation de vins. Club du vin.<br />]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Alle Weine werden aus Trauben von den eigenen Weinberge hergestellt. Besichtigung der Weinberge und Weinverkostung. Weinclub.<br />]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_06b12454-bf8c-4b0f-9d19-ad8d2b7c745b_64a1a9c9-aa57-4a19-905f-5fca6bdb9173">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_06b12454-bf8c-4b0f-9d19-ad8d2b7c745b_b3610779-ca97-4712-8f54-e97bca27c47b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_06b12454-bf8c-4b0f-9d19-ad8d2b7c745b_7173a86e-517f-4cd5-96e8-17da3181cf5d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_06b12454-bf8c-4b0f-9d19-ad8d2b7c745b_b76bc8b3-41af-4267-af1a-b3eb1dc1c16b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_06b12454-bf8c-4b0f-9d19-ad8d2b7c745b_dbc74d5f-431f-4551-9904-ff76f94cddc9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_06b12454-bf8c-4b0f-9d19-ad8d2b7c745b_73d24f45-0e17-452f-a8c2-18e846b76aef">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aldeanueva de Ebro]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_fac2a649-d15e-43dc-b1ff-502d8fa67923">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas Viña Herminia]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="pt"><![CDATA[Edificio de piedra. Calados subterráneos de piedra. Exclusiva elaboración de vinos de sus propios vi&ntilde;edos. <p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ca"><![CDATA[Edificio de piedra. Calados subterráneos de piedra. Exclusiva elaboración de vinos de sus propios vi&ntilde;edos. <p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="eu"><![CDATA[Edificio de piedra. Calados subterráneos de piedra. Exclusiva elaboración de vinos de sus propios vi&ntilde;edos. <p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ga"><![CDATA[Edificio de piedra. Calados subterráneos de piedra. Exclusiva elaboración de vinos de sus propios vi&ntilde;edos. <p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[<p>Stone building. Underground stone cellars. Estate grown wines only.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[<p>Steingebäude. Unterirdische Felsenkeller. Es werden ausschließlich Weine aus eigenen Trauben hergestellt.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[<p>Bâtiment en pierre. Chais souterrains en pierre. Élaboration exclusive de vins issus du vignoble de la propriété.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>Edificio de piedra. Calados subterr&aacute;neos de piedra. Exclusiva elaboraci&oacute;n de vinos de sus propios vi&ntilde;edos.</p>]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_52142b66-2c06-440a-9df3-f77cbe14f5a0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_86">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Capacidad del comedor]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[Capacity of the dining]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Capacité de la salle à manger]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Kapazität der Speisesaal]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_e0856058-ce73-4d40-a8af-14d86f196f2a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_a34cf2f0-6644-41e1-9118-ad35e295ee7f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_34c56371-885a-42df-be2b-caafe85f70f8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_c6be7496-8e38-4380-8991-d7e57e0b269a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_e968ab92-18c2-4894-aac9-89bbae83b370">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_53487aaa-9f7f-4f2e-81d9-2ae7f5814fed_7b5c604f-e029-4b3b-964b-a6bf0a75789d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aldeanueva de Ebro]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_d781c953-0814-482a-acc4-0463062f32fb_472db71b-1dd8-4a0d-8560-67b33090d636">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bodegas y Viñedos Fernández de Manzanos]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="pt"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ca"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="eu"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="ga"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[150 hectares of vineyards. Winemaking facilities in  Aldeanueva and Azagra.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[<p>Betrieb mit einer Rebfläche von 150 ha. Gebäude in Aldeanueva und Azagra.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[<p>Vignoble de 150 hectares et installations à Aldeanueva et à Azagra.</p>]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[<p>Explotaci&oacute;n con 150 hect&aacute;reas de vi&ntilde;edo. Instalaciones en Aldeanueva y Azagra.</p>]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_d781c953-0814-482a-acc4-0463062f32fb_8512a479-348c-443b-ace5-e200a72e450d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_d781c953-0814-482a-acc4-0463062f32fb_7f2fb3b8-4ac6-4405-a4f3-e279155535eb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_d781c953-0814-482a-acc4-0463062f32fb_8116702c-a648-4a2f-a591-3a73f0f0a195">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_d781c953-0814-482a-acc4-0463062f32fb_96c960d3-36af-4d9b-ab16-b79e415cf363">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_d781c953-0814-482a-acc4-0463062f32fb_e2aba72b-4408-4d31-8d90-52d269c91c1b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_d781c953-0814-482a-acc4-0463062f32fb_a985a650-1494-480a-8522-cb7781db55ab">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aldeanueva de Ebro]]></harmonise:name>
+  </eharmonise:Destination>
+
+<harmonise:Winery rdf:about="http://lariojaturismo.gnoss.com/items/Winery_6ffe4d34-de1a-4126-8cdb-d76b8520e908_68704027-3498-49fd-b00a-4e588fc5e3f0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Winery]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Viñedos de Aldeanueva]]></harmonise:name>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Mayor bodega de producción de La Rioja y mayor elaboradora. Principal cooperativa de La Rioja Baja. ]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[The largest wine producing winery in La Rioja. The main cooperative of the Rioja Baja.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[La plus grande cave vitivinicole de La Rioja en production de raisin et de vin. Principale coopérative de la Basse-Rioja.]]></harmonise:longDescription>
+    <harmonise:longDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Die größte produzierende Bodega der Region La Rioja und der größter Erzeuger. Größte Kooperative der Rioja Baja.]]></harmonise:longDescription>
+    <harmonise:city rdf:resource="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7" />
+  </harmonise:Winery>
+  <eharmonise:ValueProfile rdf:about="http://lariojaturismo.gnoss.com/items/ValueProfile_6ffe4d34-de1a-4126-8cdb-d76b8520e908_af38b6cf-c178-4931-a230-90cdb73d25bd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#ValueProfile]]></rdfs:label>
+  </eharmonise:ValueProfile>
+  <harmonise:Profile rdf:about="http://lariojaturismo.gnoss.com/items/WINPROFILE_81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Profile]]></rdfs:label>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="de"><![CDATA[Anzahl der Läufe]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"><![CDATA[No. of Barrels]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="fr"><![CDATA[Nombre de barils]]></harmonise:profileName>
+    <harmonise:profileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="es"><![CDATA[Nº de Barricas]]></harmonise:profileName>
+  </harmonise:Profile>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_6ffe4d34-de1a-4126-8cdb-d76b8520e908_0f7bea89-d6e9-40df-9535-8b794a3648cb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_6ffe4d34-de1a-4126-8cdb-d76b8520e908_29b2e9ef-a4f6-49c0-95a5-aab022a07ffb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_6ffe4d34-de1a-4126-8cdb-d76b8520e908_2f14c762-080e-4585-b9b6-85e133038bb6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_6ffe4d34-de1a-4126-8cdb-d76b8520e908_4521d97c-29ad-4dc4-9895-077e449e1987">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_6ffe4d34-de1a-4126-8cdb-d76b8520e908_849bdac5-f5a8-44de-b67b-1fadad691fa4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_6ffe4d34-de1a-4126-8cdb-d76b8520e908_9d51d7fc-1aca-4e2a-97ab-8245048e55d3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Image rdf:about="http://lariojaturismo.gnoss.com/items/Image_6ffe4d34-de1a-4126-8cdb-d76b8520e908_b0b36a88-9aff-4ca2-9d33-e25fcdaec1f2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Image]]></rdfs:label>
+  </eharmonise:Image>
+  <eharmonise:Location rdf:about="http://lariojaturismo.gnoss.com/items/Location_6ffe4d34-de1a-4126-8cdb-d76b8520e908_b79fd996-9b3f-4126-956d-ac6ba0e3dcd3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Location]]></rdfs:label>
+  </eharmonise:Location>
+  <multiLan:Translation rdf:about="http://lariojaturismo.gnoss.com/items/languages_1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.multilang-property/20140324#Translation]]></rdfs:label>
+  </multiLan:Translation>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <harmonise:Facility rdf:about="http://lariojaturismo.gnoss.com/items/WINFACILITY_3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://protege.stanford.edu/rdf/HTOv4002#Facility]]></rdfs:label>
+  </harmonise:Facility>
+  <eharmonise:Destination rdf:about="http://lariojaturismo.gnoss.com/items/Destination_11877a94-50c3-4208-b58b-d4e96cc6b5d5_0d6772a4-fb16-4d1a-9c20-b61bedaf7fe7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.eharmonise/2014-03-12#Destination]]></rdfs:label>
+    <harmonise:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aldeanueva de Ebro]]></harmonise:name>
+  </eharmonise:Destination>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0: <http://purl.org/linked-data/sdmx#> .
+@prefix property: <http://worldbank.270a.info/property/> .
+
+<http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO.ttl> rdf:type foaf:Document ,
+                                                                                  dctype:Text ;
+                                                                         foaf:primaryTopic <http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO> ;
+                                                                         dct:hasFormat <http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO.rdf> ,
+                                                                                       <http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO.html> ,
+                                                                                       <http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO.json> ;
+                                                                         foaf:topic <http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO> .
+
+<http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO.rdf> rdf:type dctype:Text ,
+                                                                                  foaf:Document ;
+                                                                         dc:format "application/rdf+xml" ;
+                                                                         rdfs:label "RDF/XML" .
+
+<http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO.html> rdf:type dctype:Text ,
+                                                                                   foaf:Document ;
+                                                                          dc:format "text/html" ;
+                                                                          rdfs:label "HTML" .
+
+<http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO.json> rdf:type dctype:Text ,
+                                                                                   foaf:Document ;
+                                                                          dc:format "application/json" ;
+                                                                          rdfs:label "JSON" .
+
+<http://worldbank.270a.info/classification/indicator> skos:prefLabel "قائمة رمز لمؤشرات التنمية العالمية"@ar ,
+                                                                     "Lista de códigos para el mundo de los indicadores de desarrollo"@es ,
+                                                                     "Liste des codes pour les indicateurs de développement dans le monde"@fr ,
+                                                                     "Code list for World Bank indicators"@en .
+
+<http://creativecommons.org/publicdomain/zero/1.0/> rdfs:label "CC0 1.0 Universal"@en .
+
+<http://worldbank.270a.info/classification/topic/1> skos:notation "1" ;
+                                                    skos:prefLabel "Agriculture & Rural Development"@en .
+
+<http://worldbank.270a.info/property/source-organization> rdfs:label "Source organization"@en ;
+                                                          skos:prefLabel "Source organization"@en .
+
+<http://worldbank.270a.info/property/topic> rdfs:label "Topic"@en ;
+                                            skos:prefLabel "Topic"@en .
+
+<http://worldbank.270a.info/classification/indicator/AG.AGR.TRAC.NO> rdf:type ns0:ConceptRole ,
+                                                                              skos:Concept ;
+                                                                     dct:created "2012-02-29T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                                                     dct:creator <http://csarven.ca/#i> ;
+                                                                     dct:issued "2014-06-25T10:35:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                                                     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+                                                                     dct:source <http://api.worldbank.org/indicator/AG.AGR.TRAC.NO?format=xml> ;
+                                                                     property:source <http://worldbank.270a.info/classification/source/2> ;
+                                                                     property:source-organization "Food and Agriculture Organization, electronic files and web site."@en ;
+                                                                     property:topic <http://worldbank.270a.info/classification/topic/1> ;
+                                                                     skos:definition "Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year."@en ;
+                                                                     skos:inScheme <http://worldbank.270a.info/classification/indicator> ;
+                                                                     skos:notation "AG.AGR.TRAC.NO" ;
+                                                                     skos:prefLabel "Agricultural machinery, tractors"@en ;
+                                                                     skos:topConceptOf <http://worldbank.270a.info/classification/indicator> ;
+                                                                     foaf:page <http://data.worldbank.org/indicator/AG.AGR.TRAC.NO> .
+
+<http://csarven.ca/#i> rdfs:label "Sarven Capadisli"@en .
+
+<http://worldbank.270a.info/classification/source/2> skos:notation "2" ;
+                                                     skos:prefLabel "World Development Indicators"@en .
+
+<http://worldbank.270a.info/property/source> rdfs:label "Source"@en ;
+                                             skos:prefLabel "Source"@en .

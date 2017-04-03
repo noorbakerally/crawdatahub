@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:dbpedia="http://dbpedia.org/property/"
+	xmlns:schema="http://schema.org/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<!-- Provenance metadata -->
+<rdf:Description rdf:about="http://www.rusmarc.ru/RDF/PersName/nlr771515.rdf">    
+	<dc:creator rdf:parseType="Resource">
+		<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization" />
+		<rdfs:label xml:lang="ru">Национальная Служба развития системы форматов RUSMARC</rdfs:label>
+		<foaf:homepage rdf:resource="http://www.rusmarc.ru/" />
+	</dc:creator> 
+	<dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-04-23</dc:created>
+</rdf:Description> 
+
+<!-- ===================   Primary entity - person   =================================================-->
+<rdf:Description rdf:about="http://www.rusmarc.ru/RDF/PersName/nlr771515.rdf#person">
+
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<foaf:name xml:lang="ru">Толстой, Лев Николаевич (1828-1910)</foaf:name>
+	<foaf:name xml:lang="ru">Толстой, Лев Николаевич</foaf:name>
+	<foaf:name xml:lang="ru">Толстой, Л. Н. (1828-1910)</foaf:name>
+	<foaf:name xml:lang="ru">Толстой, Л. Н. </foaf:name>
+	<foaf:name xml:lang="ru">Толстой, Н.[!] Л.[!] (1828-1910)</foaf:name>
+	<foaf:name xml:lang="ru">Толстой, Н.[!] Л.[!]</foaf:name>
+	<foaf:name xml:lang="be">Талстой, Леў Мiкалаевiч (1828-1910)</foaf:name>
+	<foaf:name xml:lang="be">Талстой, Леў Мiкалаевiч</foaf:name>
+	<foaf:name xml:lang="be">Талстой, Л. М. (1828-1910)</foaf:name>
+	<foaf:name xml:lang="be">Талстой, Л. М.</foaf:name>
+	<foaf:name xml:lang="ru">Tolstoj, Lev Nikolaevič (1828-1910)</foaf:name>
+	<foaf:name xml:lang="ru">Tolstoj, Lev Nikolaevič</foaf:name>
+	<foaf:name xml:lang="ru">Tolstoj, L. N. (1828-1910)</foaf:name>
+	<foaf:name xml:lang="ru">Tolstoj, L. N. (1828-1910)</foaf:name>
+	<foaf:name xml:lang="sr">Толстоj, Лав Николаjевић (1828-1910)</foaf:name>
+    <foaf:name xml:lang="sr">Толстоj, Лав Николаjевић</foaf:name>
+    <foaf:name xml:lang="sr">Толстоj, Л. Н. (1828-1910)</foaf:name>
+    <foaf:name xml:lang="sr">Толстоj, Л. Н.</foaf:name>
+    <foaf:name xml:lang="sr">Толстоj, Лав Николаjевич (1828-1910)</foaf:name>
+    <foaf:name xml:lang="sr">Толстоj, Лав Николаjевич</foaf:name>
+    <foaf:name xml:lang="sr">Толстоj, Л. Н. (1828-1910)</foaf:name>
+    <foaf:name xml:lang="sr">Толстоj, Л. Н.</foaf:name>
+
+	<foaf:familyName>Толстой</foaf:familyName>
+	<foaf:givenName>Лев Николаевич</foaf:givenName>
+
+	<dbpedia:birthYear>1828</dbpedia:birthYear> 
+	<dbpedia:deathYear>1910</dbpedia:deathYear> 
+
+	<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg"/>
+
+	<foaf:gender>male</foaf:gender>
+
+<!-- owl:sameAs statement indicates that two URI references actually refer to the same thing: the individuals have the same "identity". -->
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/96987389"/>
+    <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb11926775j#foaf:Person"/>
+
+<!-- rdfs:seeAlso is used to indicate a resource that might provide additional information about the subject resource.  -->
+    <rdfs:seeAlso rdf:resource="https://ru.wikipedia.org/wiki/Толстой,_Лев_Николаевич"/>
+
+	</rdf:Description>	
+
+<!-- ====================== Concept  - russian ================================================== -->
+
+<rdf:Description rdf:about="http://www.rusmarc.ru/RDF/PersName/nlr771515.rdf#concept">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+
+<!-- The focus property relates a conceptualisation of something to the thing itself. -->
+	<foaf:focus rdf:resource="http://www.rusmarc.ru/RDF/PersName/nlr771515.rdf#person"/>
+
+ <!-- The skos:prefLabel property makes it possible to assign a preferred lexical label to a resource (200).  -->	
+	<skos:prefLabel xml:lang="ru">Толстой, Лев Николаевич (1828-1910)</skos:prefLabel>
+<!-- The skos:altLabel property makes it possible to assign an alternative lexical label to a concept (400).  -->
+	<skos:altLabel xml:lang="ru">Толстой, Лев Николаевич</skos:altLabel>
+	<skos:altLabel xml:lang="ru">Толстой, Л. Н. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="ru">Толстой, Л. Н.</skos:altLabel>
+	<skos:altLabel xml:lang="ru">Толстой, Н.[!] Л.[!] (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="ru">Толстой, Н.[!] Л.[!]</skos:altLabel>
+
+<!-- skos:note - property for general documentation purposes. This property is further specialized into skos:scopeNote, skos:definition, skos:example, and skos:historyNote to fit more-specific types of documentation -->	
+<!-- 300 Справочное примечание -->
+	<skos:note xml:lang="ru">Русский писатель, драматург, публицист, граф.</skos:note>
+	<skos:note xml:lang="ru">Печатался также под псевд.: Л.Н., Л.Н.Т..</skos:note>
+<!-- 305 Сссылочное примечание "См. также" -->
+	<skos:scopeNote xml:lang="ru">Представитель рода Толстых. Сведения об этом роде смотри в каталогах РНБ под заголовком: Толстые (род)</skos:scopeNote>
+
+<!-- skos:editorialNote supplies information that is an aid to administrative housekeeping, such as reminders of editorial work still to be done, or warnings in the event that future editorial changes might be made. 
+-->
+<!-- 810 Источник, в котором найдена информация -->
+	<skos:editorialNote xml:lang="ru">Ист.: ГАКрус.(скан.) РНБ.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: ЭК РНБ.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Большая советская энциклопедия-3.- М.,1969-1978.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Краткая литературная энциклопедия.- М.,1964-1978.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Всемирный биографический энциклопедический словарь. - М., 1998.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Словарь псевдонимов русских писателей, ученых и общественных деятелей/ Масанов И.Ф.- М.,1958.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Рассказы для детей/ [Соч.] Н.[!]С.Тургенева и гр. Н.[!]Л.[!]Толстого; С картинками акад.: В.М.Вснецова[!], В.Е.Маковского, И.Е.Репина и В.И.Суикова[!]. - М.,1886.</skos:editorialNote>
+
+<!-- 520 См. также (родовое имя) Толстые (род) -->
+	<skos:related rdf:resource="http://www.rusmarc.ru/RDF/PersName/nlr7714332.rdf#concept"/>
+</rdf:Description>	
+
+<!-- ====================== Concept  - Russian - Latin script =================================== -->
+
+<rdf:Description rdf:about="http://www.rusmarc.ru/RDF/PersName/nlr771516#concept">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+
+<!-- The focus property relates a conceptualisation of something to the thing itself. -->
+	<foaf:focus rdf:resource="http://www.rusmarc.ru/RDF/PersName/nlr771515.rdf#person"/>
+
+ <!-- The skos:prefLabel property makes it possible to assign a preferred lexical label to a resource (200).  -->	
+	<skos:prefLabel xml:lang="ru">Tolstoj, Lev Nikolaevič (1828-1910)</skos:prefLabel>
+<!-- The skos:altLabel property makes it possible to assign an alternative lexical label to a concept (400).  -->
+	<skos:altLabel xml:lang="ru">Tolstoj, Lev Nikolaevič</skos:altLabel>
+	<skos:altLabel xml:lang="ru">Tolstoj, L. N. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="ru">Tolstoj, L. N.</skos:altLabel>
+	<skos:altLabel xml:lang="ru">Толстой, Н.[!] Л.[!] (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="ru">Толстой, Н.[!] Л.[!]</skos:altLabel>
+	<skos:altLabel xml:lang="en">Tolstoy, Lev (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="en">Tolstoy, Lev</skos:altLabel>
+	<skos:altLabel xml:lang="en">Tolstoy, L. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="en">Tolstoy, L.</skos:altLabel>
+	<skos:altLabel xml:lang="de">Tolstoi, Leo N. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="de">Tolstoi, Leo N.</skos:altLabel>
+	<skos:altLabel xml:lang="de">Tolstoi, L. N. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="de">Tolstoi, L. N.</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Tolstoï, Léon (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Tolstoï, Léon</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Tolstoï, L. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Tolstoï, L.</skos:altLabel>
+	<skos:altLabel xml:lang="it">Tolstoi, Leone (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="it">Tolstoi, Leone</skos:altLabel>
+	<skos:altLabel xml:lang="it">Tolstoi, L. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="it">Tolstoi, L.</skos:altLabel>
+	<skos:altLabel xml:lang="ro">Tolstoi, Lev (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="ro">Tolstoi, Lev</skos:altLabel>
+	<skos:altLabel xml:lang="ro">Tolstoi, L. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="ro">Tolstoi, L.</skos:altLabel>
+	<skos:altLabel xml:lang="pl">Tołstoj, Lew (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="pl">Tołstoj, Lew</skos:altLabel>
+	<skos:altLabel xml:lang="pl">Tołstoj, L. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="pl">Tołstoj, L.</skos:altLabel>
+	<skos:altLabel xml:lang="hu">Tolsztoj, Lev (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="hu">Tolsztoj, Lev</skos:altLabel>
+	<skos:altLabel xml:lang="hu">Tolsztoj, L. (1828-1910)</skos:altLabel>
+	<skos:altLabel xml:lang="hu">Tolsztoj, L.</skos:altLabel>
+
+<!-- skos:note - property for general documentation purposes. This property is further specialized into skos:scopeNote, skos:definition, skos:example, and skos:historyNote to fit more-specific types of documentation -->	
+<!-- 300 Справочное примечание -->
+	<skos:note xml:lang="ru">Русский писатель, драматург, публицист, граф.</skos:note>
+
+<!-- skos:editorialNote supplies information that is an aid to administrative housekeeping, such as reminders of editorial work still to be done, or warnings in the event that future editorial changes might be made. 
+-->
+<!-- 810 Источник, в котором найдена информация -->
+	<skos:editorialNote xml:lang="ru">Ист.: РНБ ГАКин.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: ЭК РНБ "Издания на иностранных языках (1994- )".</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Краткая литературная энциклопедия.- М., 1964-1978.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Всемирный биографический энциклопедический словарь.- М., 1998.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Русские писатели и поэты : Краткий биогр. словарь. - М., 1999.</skos:editorialNote>
+
+
+</rdf:Description>	
+
+<!-- ====================== Concept  - Belorussian ============================================= -->
+
+<rdf:Description rdf:about="http://www.rusmarc.ru/RDF/PersName/nlr770132315#concept">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+
+<!-- The focus property relates a conceptualisation of something to the thing itself. -->
+	<foaf:focus rdf:resource="http://www.rusmarc.ru/RDF/PersName/nlr771515.rdf#person"/>
+
+ <!-- The skos:prefLabel property makes it possible to assign a preferred lexical label to a resource (200).  -->	
+	<skos:prefLabel xml:lang="be">Талстой, Леў Мiкалаевiч (1828-1910)</skos:prefLabel>
+<!-- The skos:altLabel property makes it possible to assign an alternative lexical label to a concept (400).  -->
+    <skos:altLabel xml:lang="be">Талстой, Леў Мiкалаевiч</skos:altLabel>
+    <skos:altLabel xml:lang="be">Талстой, Л. М. (1828-1910)</skos:altLabel>
+    <skos:altLabel xml:lang="be">Талстой, Л. М.</skos:altLabel>
+
+<!-- skos:note - property for general documentation purposes. This property is further specialized into skos:scopeNote, skos:definition, skos:example, and skos:historyNote to fit more-specific types of documentation -->	
+<!-- 300 Справочное примечание -->
+	<skos:note xml:lang="ru">Русский писатель, драматург, публицист, граф.</skos:note>
+
+<!-- skos:editorialNote supplies information that is an aid to administrative housekeeping, such as reminders of editorial work still to be done, or warnings in the event that future editorial changes might be made. 
+-->
+<!-- 810 Источник, в котором найдена информация -->
+	<skos:editorialNote xml:lang="ru">Ист.: Пераклады з твораў Л. М. Талстога.../ склад. : Ф. Д. Клiмчук. - Мiнск : Мэджык, 2011.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Интернет : http://be.wikipedia.org : форма имени на белорус. яз. : Леў Мiкалаевiч Талстой. Биогр. свед., годы жизни.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Краткая литературная энциклопедия. - М., 1972. - Т. 7 : форма имени на рус. яз. : Толстой Лев Николаевич. Годы жизни.</skos:editorialNote>
+
+</rdf:Description>	
+
+<!-- ====================== Concept  - Serbian ============================================= -->
+
+<rdf:Description rdf:about="http://www.rusmarc.ru/RDF/PersName/nlr77108062#concept">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+
+<!-- The focus property relates a conceptualisation of something to the thing itself. -->
+	<foaf:focus rdf:resource="http://www.rusmarc.ru/RDF/PersName/nlr771515.rdf#person"/>
+
+ <!-- The skos:prefLabel property makes it possible to assign a preferred lexical label to a resource (200).  -->	
+	<skos:prefLabel xml:lang="sr">Толстоj, Лав Николаjевић (1828-1910)</skos:prefLabel>
+<!-- The skos:altLabel property makes it possible to assign an alternative lexical label to a concept (400).  -->
+    <skos:altLabel xml:lang="be">Толстоj, Лав Николаjевић</skos:altLabel>
+    <skos:altLabel xml:lang="be">Толстоj, Л. Н. (1828-1910)</skos:altLabel>
+    <skos:altLabel xml:lang="be">Толстоj, Л. Н.</skos:altLabel>
+    <skos:altLabel xml:lang="be">Толстоj, Лав Николаjевич (1828-1910)</skos:altLabel>
+    <skos:altLabel xml:lang="be">Толстоj, Лав Николаjевич</skos:altLabel>
+    <skos:altLabel xml:lang="be">Толстоj, Л. Н. (1828-1910)</skos:altLabel>
+    <skos:altLabel xml:lang="be">Толстоj, Л. Н.</skos:altLabel>
+
+<!-- skos:note - property for general documentation purposes. This property is further specialized into skos:scopeNote, skos:definition, skos:example, and skos:historyNote to fit more-specific types of documentation -->	
+<!-- 300 Справочное примечание -->
+	<skos:note xml:lang="ru">Русский писатель, драматург, публицист. Граф.</skos:note>
+	<skos:note xml:lang="ru">Печатался также под псевд.: Л.Н., Л.Н.Т..</skos:note>
+
+<!-- skos:editorialNote supplies information that is an aid to administrative housekeeping, such as reminders of editorial work still to be done, or warnings in the event that future editorial changes might be made. 
+-->
+<!-- 810 Источник, в котором найдена информация -->
+	<skos:editorialNote xml:lang="ru">Ист.: ГАК РНБ (сербохорв.): форма имени - Толстоj, Лав Николаjевић.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: ЭК РНБ "Издания на иностранных языках (1944- )": форма имени - Толстоj, Лав Николаjевић.</skos:editorialNote>
+	<skos:editorialNote xml:lang="ru">Ист.: Литература о Толстоjу и Достоjевском у фонду универзитетске...: каталог изложбе...- Београд,2010: форма имени - Толстоj, Лав Николаjевич (в макете карточки Народной Библиотеки Сербии)</skos:editorialNote>
+
+</rdf:Description>	
+</rdf:RDF>
+
+

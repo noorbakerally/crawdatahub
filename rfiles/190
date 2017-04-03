@@ -1,0 +1,30 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix school: <http://education.data.gov.uk/def/school/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://education.data.gov.uk/id/school/520965>
+        rdfs:label                    "Stepping Stones Nursery Group" ;
+        school:PFI                    false ;
+        school:address                <http://api.talis.com/stores/govuk-education/items/1258976680122#self> ;
+        school:typeOfEstablishment    school:TypeOfEstablishment_TERM_EY_Setting ;
+        school:uniqueReferenceNumber  520965 .
+
+<http://api.talis.com/stores/govuk-education/items/1258976680122#self>
+        school:address1  "Perdiswell Young Peoples Leisu" ;
+        school:address2  "Perdiswell Park" ;
+        school:address3  "Droitwich Road" ;
+        school:postcode  "WR3 7SN" ;
+        school:region    "Worcestershire" ;
+        school:town      "Worcester" .
+
+school:TypeOfEstablishment_TERM_EY_Setting
+        rdfs:label  "EY Setting" .
+
+<http://education.data.gov.uk/doc/school/520965.ttl>
+        a                            api:ItemEndpoint , api:Page ;
+        api:definition               <http://education.data.gov.uk/meta/doc/school/_number.ttl> ;
+        api:extendedMetadataVersion  <http://education.data.gov.uk/doc/school/520965.ttl?_metadata=all> ;
+        foaf:primaryTopic            <http://education.data.gov.uk/id/school/520965> .

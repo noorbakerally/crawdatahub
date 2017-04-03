@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/la-teoria-de-la-relatividad-en-ingles/eb95e40e-937f-4447-a68d-5f1a3fbc97ff">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[La teoría de la relatividad en inglés]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Material educativo elaborado por la organizaci&oacute;n <a href="http://nobelprize.org/nobel_organizations/nobelmedia/" target="_blank">Nobel Media&nbsp;AB</a>. Consiste en varias presentaciones online que desarrollan varios aspectos relacionados con la teor&iacute;a que le vali&oacute; el premio Nobel de f&iacute;sica a Albert Einstein.</p>
+<p>
+	<img alt=" " src="http://nobelprize.org/educational/physics/relativity/images/relativity_intro.gif" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	<span>Para obtener m&aacute;s&nbsp;</span><b><span>recursos educativos</span></b><span>&nbsp;y&nbsp;</span><b><span>materiales did&aacute;cticos</span></b><span>&nbsp;consulta la base de recursos de la comunidad&nbsp;</span><a href="http://didactalia.net/" target="_blank"><span>Didactalia: materiales did&aacute;cticos.</span></a></p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-03-16T13:15:03+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[La teoría de la relatividad en inglés]]></dcterms:title>
+    <dcterms:source rdf:resource="http://nobelprize.org/educational/physics/relativity/" />
+    <sioc:has_space rdf:resource="https://didactalia.net/comunidad/materialeducativo" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/ingles/0f4adc40-4f3f-4c7f-9b4a-ab2dcc40bcc9" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/unidad-didactica/2ca24dec-226a-4d18-aba6-136364277638" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/fisica/3195d3ca-f7d5-45eb-822a-3df8e94dc695" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/16-18-aosbachillerato/906f8c6d-1d1e-4aa3-b014-7a82da75ba28" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/imagen/b7971a47-7d06-4fb5-8280-b438bbb61c85" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/14-16-aos3-4-eso/ba0244b8-8105-4a2e-ba1e-079d87261b3d" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/eoi-escuelas-oficiales-de-idiomas/bf589fbe-265d-45eb-95a0-4b2a607eaf60" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/actividad-interactiva/de517fbd-7694-4291-8fb7-97c9144ae8eb" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/recursos%20interactivos" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/f%c3%adsica" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/albert%20einstein" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/teor%c3%ada" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/estocolmo" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/theory" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relatividad" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/sciences" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/stockholm" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/teor%c3%ada%20relatividad" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/discoveries" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/nobelprize.org" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/theory%20of%20relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/teor%c3%ada%20de%20la%20relatividad" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc:Space rdf:about="https://didactalia.net/comunidad/materialeducativo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Didactalia: material educativo]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/ingles/0f4adc40-4f3f-4c7f-9b4a-ab2dcc40bcc9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Inglés]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Inglés]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/unidad-didactica/2ca24dec-226a-4d18-aba6-136364277638">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Unidad didáctica]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Unidad didáctica]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/fisica/3195d3ca-f7d5-45eb-822a-3df8e94dc695">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Física]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Física]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/16-18-aosbachillerato/906f8c6d-1d1e-4aa3-b014-7a82da75ba28">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[16-18 años/Bachillerato]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[16-18 años/Bachillerato]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/imagen/b7971a47-7d06-4fb5-8280-b438bbb61c85">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Imagen]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Imagen]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/14-16-aos3-4-eso/ba0244b8-8105-4a2e-ba1e-079d87261b3d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[14-16 años/3º-4º ESO]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[14-16 años/3º-4º ESO]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/eoi-escuelas-oficiales-de-idiomas/bf589fbe-265d-45eb-95a0-4b2a607eaf60">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[EOI-Escuelas Oficiales de Idiomas]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[EOI-Escuelas Oficiales de Idiomas]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/categoria/actividad-interactiva/de517fbd-7694-4291-8fb7-97c9144ae8eb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Actividad interactiva]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Actividad interactiva]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/recursos%20interactivos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recursos interactivos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/f%c3%adsica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[física]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/albert%20einstein">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[albert einstein]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/teor%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[teoría]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/estocolmo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[estocolmo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/theory">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[theory]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relatividad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[relatividad]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/sciences">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sciences]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/stockholm">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[stockholm]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[relativity]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/teor%c3%ada%20relatividad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[teoría relatividad]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/discoveries">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[discoveries]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/nobelprize.org">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[nobelprize.org]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/theory%20of%20relativity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[theory of relativity]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/teor%c3%ada%20de%20la%20relatividad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[teoría de la relatividad]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/net/provenance/ns#"
+    xmlns:j.1="http://usefulinc.com/ns/doap#"
+    xmlns:j.2="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.3="http://spinrdf.org/sp#"
+    xmlns:j.4="http://purl.org/net/provenance/types#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:j.6="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:j.7="http://rdfs.org/ns/void#">
+  <j.1:Project>
+    <j.1:homepage rdf:resource="http://www4.wiwiss.fu-berlin.de/pubby/"/>
+    <j.1:release>
+      <j.1:Version rdf:nodeID="A0">
+        <j.1:revision>0.4</j.1:revision>
+      </j.1:Version>
+    </j.1:release>
+  </j.1:Project>
+  <j.4:DataCreatingService rdf:about="http://202.45.139.84:10035/catalogs/fao/repositories/jita">
+    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#Actor"/>
+  </j.4:DataCreatingService>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/data/P?output=xml">
+    <rdfs:label>RDF description of P</rdfs:label>
+    <foaf:primaryTopic>
+      <j.2:Concept rdf:about="http://aims.fao.org/aos/jita/P">
+        <j.2:prefLabel xml:lang="nl">2.[Gebruikersgerichte en management functionaliteiten]: midden niveau (inclusief socio-economische en juridische kwesties)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="en">2.[User oriented, directional, and management functionalities]: intermediate level (socio-economical and legal issues are included here)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="ar">2. [ موجهة للمستخدم ، اتجاهي، وإدارة الوظائف] : المرحلة المتوسطة (يتم تضمين القضايا الاجتماعية والاقتصادية والقانونية هنا)</j.2:prefLabel>
+        <j.2:narrower rdf:resource="http://aims.fao.org/aos/jita/LI"/>
+        <j.2:prefLabel xml:lang="ca">2.[Gestió d’usuaris, de serveis i col•leccions]: nivell intermedi (inclou aspectes socioeconòmics i legals)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="tr">2.[Kullanıcı odaklı, yönelimli, ve yönetim işlevleri]: orta düzey (sosyo-ekonomik ve hukuki konular buraya dahildir)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="el">2.[Χρηστοκεντρικές, καθοδηγητικές και διαχειριστικές λειτουργικότητες]: ενδιάμεσο επίπεδο (συμπεριλαμβανομένων κοινωνικό-οικονομικών και νομικών θεμάτων)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="it">2.[Funzionalità orientate all'utente, direzionali e di gestione]: livello intermedio (questioni socio-economiche e giuridiche sono incluse qui)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="pt">2.[Funcionalidades orientadas a usuários, de direção, e gestão]: nível intermédio (incluindo questões socioeconómicas e legais)</j.2:prefLabel>
+        <j.2:narrower rdf:resource="http://aims.fao.org/aos/jita/PE"/>
+        <j.2:narrower rdf:resource="http://aims.fao.org/aos/jita/MA"/>
+        <j.2:prefLabel xml:lang="sv">2. [Användarorienterade, ledningsmässiga och administrativa funktioner]: mellanliggande nivå (socioekonomiska och rättsliga frågor inkluderas här)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="pl">2.[Zorientowane na użytkownika, ukierunkowane funkcje zarzšdzania]: poziom pośredni (tutaj aspekty społeczno-ekonomiczne i prawne)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="es">2.[Gestión y Funcionalidades orientadas al usuario]: nivel intermedio (incluidos aquí temas legales y socioeconómicos)</j.2:prefLabel>
+        <j.2:inScheme rdf:resource="http://aims.fao.org/aos/agrovoc/jita"/>
+        <j.2:prefLabel xml:lang="fr">2.[Fonctionnalités pour les utilisateurs, la direction et la gestion]: niveau intermédiaire (questions juridiques et socio-économiques inclues)</j.2:prefLabel>
+        <j.2:narrower rdf:resource="http://aims.fao.org/aos/jita/PU"/>
+        <j.2:prefLabel xml:lang="ru">2.[Ориентированные, направленные на пользователя и функции управления]: промежуточный уровень (социально-экономические и юридические вопросы)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="ro">2.[Funcționalități orientate spre utilizator, direcționale și ale managementului]: nivelul intermediar (problemele socio-economice și de natură legală sunt incluse aici)</j.2:prefLabel>
+        <j.2:prefLabel xml:lang="cs">2.[Funkcionality zaměřené na uživatele, řízení a správu]: střední úroveň (socio-ekonomické a právní otázky jsou zahrnuty)</j.2:prefLabel>
+        <j.2:narrower rdf:resource="http://aims.fao.org/aos/jita/SC"/>
+      </j.2:Concept>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description>
+    <j.7:sparqlEndpoint rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/jita"/>
+  </rdf:Description>
+  <j.6:Graph rdf:nodeID="A1">
+    <j.0:createdBy>
+      <j.0:DataCreation>
+        <j.0:usedData>
+          <j.6:Graph>
+            <j.0:createdBy>
+              <j.4:QueryExecution>
+                <j.0:usedGuideline>
+                  <j.3:Describe>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DESCRIBE &lt;http://aims.fao.org/aos/jita/P&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                  </j.3:Describe>
+                </j.0:usedGuideline>
+                <j.0:performedBy rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/jita"/>
+                <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataCreation"/>
+              </j.4:QueryExecution>
+            </j.0:createdBy>
+            <j.0:retrievedBy>
+              <j.0:DataAccess>
+                <j.0:accessedService rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/jita"/>
+                <j.0:performedBy>
+                  <j.4:DataCreatingService rdf:nodeID="A2">
+                    <rdfs:seeAlso rdf:resource="http://aims.fao.org/aos/"/>
+                    <j.0:deployedSoftware rdf:nodeID="A0"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#Actor"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataProvidingService"/>
+                  </j.4:DataCreatingService>
+                </j.0:performedBy>
+                <j.0:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2017-04-02T16:50:55.466Z</j.0:performedAt>
+              </j.0:DataAccess>
+            </j.0:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+          </j.6:Graph>
+        </j.0:usedData>
+        <j.0:performedBy rdf:nodeID="A2"/>
+        <j.0:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-04-02T16:50:55.466Z</j.0:performedAt>
+      </j.0:DataCreation>
+    </j.0:createdBy>
+    <j.5:realizes rdf:resource="http://aims.fao.org/aos/data/P"/>
+    <foaf:topic rdf:nodeID="A1"/>
+    <foaf:primaryTopic rdf:resource="http://aims.fao.org/aos/jita/P"/>
+    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+  </j.6:Graph>
+</rdf:RDF>

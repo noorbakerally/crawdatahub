@@ -1,0 +1,61 @@
+@prefix nobel:   <http://data.nobelprize.org/terms/> .
+@prefix xhtml:   <http://www.w3.org/1999/xhtml/vocab/#> .
+@prefix d2rq:    <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix viaf:    <http://viaf.org/viaf/> .
+@prefix meta:    <http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/metadata#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prvTypes:  <http://purl.org/net/provenance/types#> .
+@prefix d2r:     <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
+@prefix dbpedia:  <http://dbpedia.org/resource/> .
+@prefix map:     <http://data.nobelprize.org/resource/#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbpprop:  <http://dbpedia.org/property/> .
+@prefix prv:     <http://purl.org/net/provenance/ns#> .
+@prefix dc:      <http://purl.org/dc/terms/> .
+@prefix dbpedia-owl:  <http://dbpedia.org/ontology/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sp:      <http://spinrdf.org/sp#> .
+@prefix yago:    <http://yago-knowledge.org/resource/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix freebase:  <http://rdf.freebase.com/ns/> .
+@prefix doap:    <http://usefulinc.com/ns/doap#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.nobelprize.org/resource/laureate/1>
+      a       foaf:Person , nobel:Laureate ;
+      rdfs:isDefinedBy <http://data.nobelprize.org/data/laureate/1> ;
+      rdfs:label "Wilhelm Conrad Röntgen" ;
+      nobel:laureateAward <http://data.nobelprize.org/resource/laureateaward/1> ;
+      nobel:nobelPrize <http://data.nobelprize.org/resource/nobelprize/Physics/1901> ;
+      dbpedia-owl:affiliation
+              <http://data.nobelprize.org/resource/university/Munich_University> ;
+      dbpedia-owl:birthPlace
+              <http://data.nobelprize.org/resource/city/Lennep_%28now_Remscheid%29> , <http://data.nobelprize.org/resource/country/Prussia_%28now_Germany%29> ;
+      dbpedia-owl:deathPlace
+              <http://data.nobelprize.org/resource/city/Munich> , <http://data.nobelprize.org/resource/country/Germany> ;
+      dbpprop:dateOfBirth "1845-03-27"^^xsd:date ;
+      dbpprop:dateOfDeath "1923-02-10"^^xsd:date ;
+      owl:sameAs dbpedia:Wilhelm_Röntgen ;
+      foaf:birthday "1845-03-27"^^xsd:date ;
+      foaf:familyName "Röntgen" ;
+      foaf:gender "male" ;
+      foaf:givenName "Wilhelm Conrad" ;
+      foaf:name "Wilhelm Conrad Röntgen" ;
+      foaf:page <http://data.nobelprize.org/page/laureate/1> .
+
+<http://data.nobelprize.org/resource/nobelprize/Physics/1901>
+      nobel:laureate <http://data.nobelprize.org/resource/laureate/1> .
+
+<http://data.nobelprize.org/resource/laureateaward/1>
+      nobel:laureate <http://data.nobelprize.org/resource/laureate/1> .
+
+<http://data.nobelprize.org/data/laureate/1>
+      a       foaf:Document , prv:DataItem ;
+      rdfs:label "RDF Description of Wilhelm Conrad Röntgen" ;
+      dc:date "2017-04-02T16:54:19.899Z"^^xsd:dateTime ;
+      prv:containedBy <http://data.nobelprize.org/dataset> ;
+      void:inDataset <http://data.nobelprize.org/dataset> ;
+      foaf:primaryTopic <http://data.nobelprize.org/resource/laureate/1> .

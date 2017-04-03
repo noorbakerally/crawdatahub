@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:og="http://ogp.me/ns#">
+<head>
+
+
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Compartimos Conocimiento</title>
+
+    <link id="IMGfavicon" rel="shortcut icon" type="image/ico" />
+
+        <link rel="canonical" href="http://corporateexcellence.net/comunidad/patronato/login/redirect" />
+                <link rel="alternate" hreflang="en" href="http://corporateexcellence.net/en/community/patronato/login/redirect" />
+                <link rel="alternate" hreflang="es" href="http://corporateexcellence.net/comunidad/patronato/login/redirect" />
+                <link rel="alternate" hreflang="pt" href="http://corporateexcellence.net/pt/comunidade/patronato/login/redirect" />
+                <link rel="alternate" hreflang="ca" href="http://corporateexcellence.net/ca/comunitat/patronato/login/redirect" />
+                <link rel="alternate" hreflang="eu" href="http://corporateexcellence.net/eu/komunitatea/patronato/logina/redirect" />
+                <link rel="alternate" hreflang="gl" href="http://corporateexcellence.net/gl/comunidade/patronato/login/redirect" />
+                <link rel="alternate" hreflang="fr" href="http://corporateexcellence.net/fr/communaute/patronato/login/redirect" />
+                <link rel="alternate" hreflang="de" href="http://corporateexcellence.net/de/gemeinde/patronato/login/redirect" />
+                <link rel="alternate" hreflang="it" href="http://corporateexcellence.net/it/comunita/patronato/login/redirect" />
+    
+        <meta name="robots" content="all" />
+
+
+
+    
+
+    <link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/unificado.css?v=2.3.1503a20170109" />
+
+
+
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/lang/es/idioma.css?v=2.3.1503a20170109" />
+<link media="screen" type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link media="screen" type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito|Open Sans:300,400,600,700&amp;subset=latin" />
+
+    <link media="screen" type="text/css" rel="stylesheet" href="http://content.gnoss.com/imagenes/proyectos/personalizacion/7fc8706a-1ed8-4ff1-84e1-af98d6679f81/community.css?v=17" />
+
+
+    
+
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/jquery.min.js?v=2.3.1503a20170109"></script>
+
+    <script type="text/javascript" src="https://static2.gnoss.com/js/unificado.js?v=2.3.1503a20170109"></script>
+
+<script type="text/javascript" src="https://static2.gnoss.com/lang/en/text.js?v=2.3.1503a20170109"></script>
+
+
+
+    <script type="text/javascript" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/7fc8706a-1ed8-4ff1-84e1-af98d6679f81/community.js?v=18"></script>    
+
+    <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{ pageTracker = _gat._getTracker("UA-33905588-1");pageTracker._trackPageview();} catch(err) {}</script>
+
+
+
+
+
+
+</head>
+
+<body class="layout04 full operativaRegistro login  invitado">
+    
+
+
+
+    <form method="post" target="_blank" action="" name="formularioHidden" id="formularioHidden">
+        <fieldset style="display: none">
+            <legend class="nota">formularioHidden</legend>
+                <input type="hidden" id="inpt_proyID" class="inpt_proyID" value="7fc8706a-1ed8-4ff1-84e1-af98d6679f81"/>
+                <input type="hidden" id="inpt_usuarioID" class="inpt_usuarioID" value="ffffffff-ffff-ffff-ffff-ffffffffffff"/>
+                <input type="hidden" id="inpt_bool_esMyGnoss" class="inpt_bool_esMyGnoss" value="True"/>
+                <input type="hidden" id="inpt_bool_estaEnProyecto" class="inpt_bool_estaEnProyecto" value="False"/>
+                <input type="hidden" id="inpt_bool_esUsuarioInvitado" class="inpt_bool_esUsuarioInvitado" value="True"/>
+                <input type="hidden" id="inpt_perfilID" class="inpt_perfilID" value="ffffffff-ffff-ffff-ffff-ffffffffffff"/>
+                <input type="hidden" id="inpt_identidadID" class="inpt_identidadID" value="FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF"/>
+                <input type="hidden" id="inpt_perfilOrgID" class="inpt_perfilOrgID" value="00000000-0000-0000-0000-000000000000"/>
+                <input type="hidden" id="inpt_Cookies" class="inpt_Cookies" value="True"/>
+                <input type="hidden" id="inpt_Idioma" class="inpt_Idioma" value="en"/>
+                <input type="hidden" id="inpt_baseUrlBusqueda" class="inpt_baseUrlBusqueda" value="http://corporateexcellence.net/en/community/patronato"/>
+                <input type="hidden" id="inpt_baseURL" class="inpt_baseURL" value="http://corporateexcellence.net"/>
+                <input type="hidden" id="inpt_baseURLContent" class="inpt_baseURLContent" value="http://content.gnoss.com"/>
+                <input type="hidden" id="inpt_baseURLStatic" class="inpt_baseURLStatic" value="https://static2.gnoss.com"/>
+                <input type="hidden" id="inpt_tablaPropiaAutoCompletar" class="inpt_tablaPropiaAutoCompletar" value="False"/>
+                <input type="hidden" id="inpt_organizacionID" class="inpt_organizacionID" value="11111111-1111-1111-1111-111111111111"/>
+                <input type="hidden" id="inpt_AdministradorOrg" class="inpt_AdministradorOrg" value="False"/>
+                <input type="hidden" id="inpt_UrlLogin" class="inpt_UrlLogin" value="https://login2.gnoss.com/login.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;redirect=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81"/>
+                <input type="hidden" id="inpt_FacetasProyAutoCompBuscadorCom" class="inpt_FacetasProyAutoCompBuscadorCom" value="sioc_t:Tag|gnoss:hasnombrecompleto|foaf:firstName"/>
+                <input type="hidden" id="inpt_tipoBusquedaAutoCompl" class="inpt_tipoBusquedaAutoCompl" value=""/>
+                <input type="hidden" id="inpt_usarMasterParaLectura" class="inpt_usarMasterParaLectura" value="False"/>
+                <input type="hidden" id="inpt_UrlServicioFacetas" class="inpt_UrlServicioFacetas" value="http://facetasred.gnoss.com/CargadorFacetas"/>
+                <input type="hidden" id="inpt_UrlServicioResultados" class="inpt_UrlServicioResultados" value="http://resultadosred.gnoss.com/CargadorResultados,http://resultadosred2.gnoss.com/CargadorResultados,http://resultadosred3.gnoss.com/CargadorResultados,http://resultadosred4.gnoss.com/CargadorResultados,http://resultadosred5.gnoss.com/CargadorResultados"/>
+                <input type="hidden" id="inpt_UrlServicioContextos" class="inpt_UrlServicioContextos" value="http://resultadoshome.gnoss.com/CargadorContextoMensajes"/>
+                <input type="hidden" id="inpt_urlServicioAutocompletar" class="inpt_urlServicioAutocompletar" value="http://autocompletar.gnoss.com/AutoCompletar.asmx"/>
+                <input type="hidden" id="inpt_urlServicioAutocompletarEtiquetas" class="inpt_urlServicioAutocompletarEtiquetas" value="http://autocompletarred.gnoss.com/AutoCompletarEtiquetas.asmx"/>
+                <input type="hidden" id="inpt_urlEtiquetadoAutomatico" class="inpt_urlEtiquetadoAutomatico" value="http://etiquetado.gnoss.com/EtiquetadoAutomatico.asmx"/>
+                <input type="hidden" id="inpt_serverTime" class="inpt_serverTime" value="2017/04/02 01:36"/>
+                <input type="hidden" id="inpt_tipo" class="inpt_tipo" value="tipoBusquedaAutoCompl"/>
+            <input type="submit" style="display: none;" id="enviarHidden" value="enviar" title="enviar" />
+        </fieldset>
+    </form>
+
+    <form method="post" target="_blank" action="" name="formularioRDF" id="formularioRDF">
+        <fieldset style="display: none">
+            <legend class="nota">formularioRDF</legend>
+            <input type="text" style="display: none;" title="query" name="query" id="query" />
+            <input type="text" style="display: none;" title="pagina" name="pagina" id="pagina" />
+            <input type="submit" style="display: none;" id="rdfHack" value="enviar" title="enviar" />
+        </fieldset>
+    </form>
+
+    <div style="width: 100px; height: 100px; position: absolute; display: none; left: 0px; top: 0px; z-index: 2000" class="popup">
+        <img style="border-width: 0px;" alt="Cargando..." src="https://static2.gnoss.com/img/espera.gif" />
+        <p><strong>Cargando...</strong></p>
+    </div>
+    <div style="display: none; z-index: 1999; width: 100%; top: 0px; left: 0px; position: absolute; height: 2900px;" id="mascaraBlanca"></div>
+
+    <div class="aaCabecera">
+
+        <form method="post" id="formLogin" action="https://login2.gnoss.com/login.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;redirect=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81">
+            <input type="text" name="usuario" title="User" id="usuario" style="display: none;" />
+            <input type="text" name="password" title="Password" id="password" style="display: none;" /> 
+            <input type="text" name="clausulasRegistro" title="clausulasRegistro" id="clausulasRegistro" style="display: none;" />
+
+            <div id="formularioLoginHeader" class="formularioLoginHeader">
+                <div class="wrap">
+                    <div class="errores" style="display: none" id="errorLogin"></div>
+                    <fieldset class="mediumLabels">
+                        <legend>Login </legend>
+                        <p>
+                            <label for="txtUsuario">Email or username</label>
+                            <input type="text" id="txtUsuario" class="text medium" />
+                        </p>
+                        <p>
+                            <label for="txtContraseña">Password</label>
+                            <input type="password" id="txtContraseña" class="text medium" />
+                        </p>
+
+                    </fieldset>
+                    <fieldset class="registroRedesSociales">
+                        <legend></legend>
+                        <p>
+                            <a href="http://corporateexcellence.net/en/community/patronato/join">Sign up</a>
+                        </p>
+                    </fieldset>
+                        <fieldset class="registroRedesSociales">
+                            <legend>Or if you prefer...</legend>
+                            <ul>
+                                    <li class="iconFacebook">Connect with <a href="https://login2.gnoss.com/loginfacebook.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81&amp;urlOrigen=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285">Facebook</a>
+                                    </li>
+                                    <li class="iconGoogle">Connect with <a href="https://login2.gnoss.com/logingoogle.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81&amp;urlOrigen=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285">Google</a>
+                                    </li>
+                                    <li class="iconTwitter">Connect with <a href="https://login2.gnoss.com/logintwitter.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81&amp;urlOrigen=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285">Twitter</a>
+                                    </li>
+                            </ul>
+                        </fieldset>
+                    <fieldset>
+                        <p>
+                            <input type="button" value="Sign in" class="submit principal" id="btnEntrar" name="btnEntrar" />
+                            &nbsp;<a class="login" href="http://corporateexcellence.net/en/community/patronato/olvide-password">I forgot my password</a>
+                        </p>
+                    </fieldset>
+                    <div class="tools">
+                        <p><a class="hidePanel" href="#formularioLoginHeader">cerrar </a></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div id="identidad">
+            <div class="wrapper">
+                <ul id="opciones">
+                    <li><a href="#formularioLoginHeader" class="hideShowPanel">Sign in</a></li>
+                            <li><a href="http://corporateexcellence.net/en/community/patronato/join">Join community</a></li>                         
+                </ul>
+                <ul id="gnoss">
+                        <li>
+                            <a lang="es" href="http://corporateexcellence.net/comunidad/patronato/login/redirect" title="Espa&#241;ol"><span>es</span></a>
+                        </li>
+                        <li>
+                            <a class="activo" lang="en" href="http://corporateexcellence.net/en/community/patronato/login/redirect" title="English"><span>en</span></a>
+                        </li>
+                        <li>
+                            <a lang="pt" href="http://corporateexcellence.net/pt/comunidade/patronato/login/redirect" title="Portuguese"><span>pt</span></a>
+                        </li>
+                        <li>
+                            <a lang="ca" href="http://corporateexcellence.net/ca/comunitat/patronato/login/redirect" title="Catal&#224;"><span>ca</span></a>
+                        </li>
+                        <li>
+                            <a lang="eu" href="http://corporateexcellence.net/eu/komunitatea/patronato/logina/redirect" title="Euskera"><span>eu</span></a>
+                        </li>
+                        <li>
+                            <a lang="gl" href="http://corporateexcellence.net/gl/comunidade/patronato/login/redirect" title="Galego"><span>gl</span></a>
+                        </li>
+                        <li>
+                            <a lang="fr" href="http://corporateexcellence.net/fr/communaute/patronato/login/redirect" title="Fran&#231;ais"><span>fr</span></a>
+                        </li>
+                        <li>
+                            <a lang="de" href="http://corporateexcellence.net/de/gemeinde/patronato/login/redirect" title="Deutsch"><span>de</span></a>
+                        </li>
+                        <li>
+                            <a lang="it" href="http://corporateexcellence.net/it/comunita/patronato/login/redirect" title="Italiano"><span>it</span></a>
+                        </li>
+
+                    <li class="logo">
+                        <a rel="listado-gnoss" class="enlaceDesplegable" href="http://my.gnoss.com/en/home">Explore</a>
+                        <div class="desplegable listado-gnoss">
+                            <ul class="listado">
+                                <li><a href="http://my.gnoss.com/en/home">Home</a></li>
+                                <li><a href="http://my.gnoss.com/en/index">Index</a></li>
+                                <li><a href="http://my.gnoss.com/en/communities">Communities</a></li>
+                                <li><a href="http://my.gnoss.com/en/blogs">Blogs</a></li>
+                                <li><a href="http://my.gnoss.com/en/people-and-organizations">People and organizations</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+
+    <div id="header">
+        <div class="wrapper">
+            <p class="indentado"><a>Ir al contenido principal</a></p>
+            <div id="corporativo">
+                <div class="content" style="display: block; margin-top: 10px;">
+                        <!-- Panel Logo -->
+                        <div class="logoCustomRIAM">
+                            <h1>
+                                <a href="http://corporateexcellence.net/en/community/patronato">
+                                        <img src="http://content.gnoss.com/imagenes/proyectos/7fc8706a-1ed8-4ff1-84e1-af98d6679f81.png?v=8" title="Compartimos Conocimiento" alt="Compartimos Conocimiento" />
+                                </a>
+                            </h1>
+
+                            <p class="small">
+                                <span>
+<strong>Public</strong> community
+                                </span>
+                                    <span style="display:block;">Community in state Closed</span>
+                            </p>
+                        </div>
+                </div>
+            </div>
+            <div id="buscador">
+                <form method="post" id="formBuscador" action="http://corporateexcellence.net/en/community/patronato/login/redirect/en/community/patronato/resource/Tesis-Creacion-de-una-nueva-metodologia-multistak/46f6bdff-6268-4b82-9ed7-7359c4036285">
+                    <fieldset style="display: block">
+                    <legend class="nota">buscador</legend>
+                    <div class="fieldsetGroup">
+                        <label for="ddlCategorias">Find in</label>
+                        <select class="ddlCategorias" id="ddlCategorias">
+                        <option value="MyGNOSSMeta">All GNOSS</option>
+                        <option value="076151fe-3960-4b3e-a9d3-28d15fecbf71" selected="selected">All the community</option>
+                        <option value="ff4277fd-abcb-4711-aaf0-5a905545711e">Resources</option>
+                        <option value="a72274cd-f1b4-4f31-a902-2045c3ed3cf1">People and organizations</option>
+                        </select>
+                            <input type="hidden" value="ub_MyGNOSSMeta@http://corporateexcellence.net/en/community/patronato/search?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_076151fe-3960-4b3e-a9d3-28d15fecbf71@http://corporateexcellence.net/en/community/patronato/search?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_ff4277fd-abcb-4711-aaf0-5a905545711e@http://corporateexcellence.net/en/community/patronato/resources?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_a72274cd-f1b4-4f31-a902-2045c3ed3cf1@http://corporateexcellence.net/en/community/patronato/people-and-organizations?search=" class="inpt_tipo_busqueda" />
+                                                        <input type="hidden" value="oa_ff4277fd-abcb-4711-aaf0-5a905545711e@Recursos" class="inpt_OrigenAutocompletar" />
+                                <input type="hidden" value="oa_a72274cd-f1b4-4f31-a902-2045c3ed3cf1@PerYOrg" class="inpt_OrigenAutocompletar" />
+                    </div>
+                    <!-- #buscador //-->
+                    <div class="fieldsetGroup searchGroup">
+                        <label for="criterio" class="nota">Buscar en &nbsp;</label>
+                        <input type="text" id="txtBusquedaPrincipal" class="text txtBusqueda autocompletar" />
+                        <input type="button" title="Find" class="encontrar" id="btnBuscarPrincipal" />
+                    </div>
+
+                    <!-- #buscador //-->
+                    <div class="botonBuscar"></div>
+                    <input type="submit" style="display: none;" id="enviarFormBuscador" value="enviar" title="enviar" />
+                    </fieldset>
+                </form>
+            </div>
+            
+
+
+        </div>
+    </div>
+</div>
+
+
+    <div id="wrap">
+        <div id="page">
+                            <div class="aviso columms" id="info">
+                    <h3><span>Panel </span>Aviso</h3>
+                    <div class="col-4">
+                        <div class="box">
+                            <p>The community members, like the rest of the GNOSS users, can only surf the community and explore its contents.</p>  
+                        </div>
+                    </div>
+                </div>
+            
+            <div id="section">
+                <div id="content">
+                    
+
+<div id="col01" >
+    <div class="form formtheme01 formularioRegistroUsuarios">
+        <h2>
+                Login
+        </h2>
+        <div>
+            <div class="box box01">
+<form method="post" id="formPaginaLogin" action="https://login2.gnoss.com/login.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;redirect=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81">
+    <div class="fieldset fieldset01">
+        <fieldset class="mediumLabels">
+            <legend>User information</legend>
+            <div class="fieldsetContent">
+                <p>
+                    <label for="usuario_Login">Email or username</label>
+                    <input id="usuario_Login" name="usuario" type="text" class="text medium" />
+                </p>
+                <p>
+                    <label for="password_login">Password</label>
+                    <input id="password_login" name="password" type="password" class="text medium" />
+                </p>
+
+                <div id="loginError">
+                    <div class="ko">
+                        <p id="mensajeError">Wrong password or user, try again.</p>
+                    </div>
+                </div>
+                <div id="loginErrorAutenticacionExterna">
+                    <div class="ko">
+                        <p>Se ha producido un error en el servicio de autenticaci&#243;n. </p>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="fieldset actionButtons fieldset03 actionButtons">
+        <fieldset>
+            <legend></legend>
+            <p>
+
+
+                <input type="submit" onclick="if(validarCampos()){MostrarUpdateProgress();}else{ $(&#39;#loginError .ko&#39;).show();return false;}" title="Sign in" value="Sign in" class="principal submit" />
+                <a href="http://corporateexcellence.net/en/community/patronato/olvide-password">I forgot my password</a>
+            </p>
+        </fieldset>
+    </div>
+</form>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        if (ObtenerHash() == '#error') {
+            $('#loginError .ko').show();
+        }
+        else if (ObtenerHash().indexOf('&') > 0) {
+            var mensajeError = ObtenerHash().split('&')[1];
+            if(mensajeError != ''){
+                $('#mensajeError').text(mensajeError);
+                $('#loginError .ko').show();
+            }
+        }
+        if (ObtenerHash() == '#errorAutenticacionExterna') {
+            $('#loginErrorAutenticacionExterna .ko').show();
+        }
+
+        $('#formPaginaLogin').prop('action', $('#inpt_UrlLogin').val());
+        $('#usuario_Login').focus();
+        $('#usuario_Login').keydown(function (event) {
+            if (event.which || event.keyCode) { 
+                if ((event.which == 13) || (event.keyCode == 13)) { 
+                    return false; 
+                } 
+            }
+        });
+        $('#password_login').keydown(function (event) {
+            if (event.which || event.keyCode) { 
+                if ((event.which == 13) || (event.keyCode == 13)) { 
+                    if ($('#usuario_Login').val() == "" || $('#password_login').val() == ""){
+                        $('#loginError .ko').css('display', 'block');
+                        return false; 
+                    }
+                } 
+            }
+        });
+    });
+
+    function validarCampos()
+    { 
+        return ($('#usuario_Login').val() != '' && $('#password_login').val() != '')
+    }
+</script>            </div>
+            <div class="box box02">
+                <div class="fieldset fieldset04 registroRedesSociales">
+                        <fieldset>
+                            <legend></legend>
+                            <p>
+                                <a href="http://corporateexcellence.net/en/community/patronato/join" id="hlRegistrate">Sign up</a>
+                            </p>
+                        </fieldset>
+
+			            <fieldset id="fsPrefieresRedesSociales">
+				        <legend>Or if you prefer...</legend>			
+				            <ul>
+                                    <li class="iconFacebook">Connect with <a href="https://login2.gnoss.com/loginfacebook.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81&amp;urlOrigen=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285">Facebook</a>
+                                    </li>
+                                    <li class="iconGoogle">Connect with <a href="https://login2.gnoss.com/logingoogle.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81&amp;urlOrigen=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285">Google</a>
+                                    </li>
+                                    <li class="iconTwitter">Connect with <a href="https://login2.gnoss.com/logintwitter.aspx?token=3wPjqPEwWAt0b4eVyyqw9uWIm%252bHziKOXH2Yf7mgXVcE%253d&amp;proyectoID=7fc8706a-1ed8-4ff1-84e1-af98d6679f81&amp;urlOrigen=http%3a%2f%2fcorporateexcellence.net%2fen%2fcommunity%2fpatronato%2fresource%2fTesis-Creacion-de-una-nueva-metodologia-multistak%2f46f6bdff-6268-4b82-9ed7-7359c4036285">Twitter</a>
+                                    </li>
+                            </ul>			
+			            </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<div id="col02">
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+        <div class="cols-5">
+            <div class="col-1">
+                <div class="box">
+                    <p class="footer-title">
+                        About GNOSS
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://products.gnoss.com/en/community/gnossproducts/resource/GNOSS-Semantics--Social-Business-Platform/d27efdca-7e2f-4cde-b869-3813d0a006bb">What’s GNOSS?</a>
+                        </li>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/recurso/Why-GNOSS/47603dc7-1c8f-4992-ac07-d53953788347">GNOSS Technology Advantages</a>
+                        </li>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/solutions">Solutions</a>
+                        </li>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/recurso/Servicios-de-consultoria-y-soporte/eafb8972-7591-481e-82b1-a5d183515846">Services</a>
+                        </li>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/busqueda-avanzada#skos:ConceptID=gnoss:4AC05978-54EC-417B-B397-37128C3A3A59">Case Studies</a>
+                        </li>
+                        <li>
+                            <a href="http://didactalia.net/comunidad/materialeducativo/didactalia/sobre-didactalia">Didactalia: Educational project</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="box">
+                    <p class="footer-title">
+                        How can I use GNOSS?
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://101.gnoss.com">GNOSS 101</a>
+                        </li>
+                        <li>
+                            <a href="http://red.gnoss.com/comunidad/ayudayfaqs">Help and FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="box">
+                    <p class="footer-title">
+                        Newsroom
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://noticias.gnoss.com">News</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gnoss.com/blog/gnosslife">GNOSS Official Blog</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gnoss.com/comunidad/watermelon/recursos">Watermelon Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="box">
+                    <p class="footer-title">
+                        Tools
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://www.gnoss.com/herramientas-gnoss">Add to GNOSS</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gnoss.com/widgets-gnoss">Widgets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1 last">
+                <div class="box">
+                    <p>
+
+                        Community integrated in
+                        <a href="http://gnoss.com/en/home">
+                            <img style="width: 180px;" alt="GNOSS" src="https://static2.gnoss.com/img/logo_gnoss.png"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="cols-1">
+        <div class="cols-1">
+            <div class="box">
+                <ul>
+                    <li>
+                        <strong>
+                                © RIAM I+L Lab  2017                        </strong>
+                    </li>
+
+
+                        <li>
+                                <a href="http://corporateexcellence.net/en/community/patronato/privacy-policy">Privacy </a>
+                        </li>
+
+                    <li>
+                            <a href="http://corporateexcellence.net/en/community/patronato/terms-of-use">Terms of use of GNOSS</a>
+                    </li>
+
+
+
+                        <li>
+                                <a href="http://corporateexcellence.net/ca/comunitat/patronato/pol&#237;tica-de-cookies" target="_blank">Pol&#237;tica de cookies</a>
+                        </li>
+
+
+
+
+                        <li>
+
+                            <a href="http://www.gnoss.com/en/identity/EquipoGnoss/contact" class="fin">Contact </a>
+                        </li>
+
+                </ul>
+
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            EjecutarScriptsIniciales2();
+        });
+    </script>
+    
+
+
+
+
+
+
+
+
+</body>
+</html>

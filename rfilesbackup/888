@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:linked-data="http://purl.org/linked-data/api/vocab#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:dct="http://purl.org/dc/terms/">
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/agent/%C3%89ditionsdeLaMartini%C3%A8re">
+    <rdfs:label>Éditions de La Martinière</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+    <foaf:isPrimaryTopicOf rdf:resource="http://bnb.data.bl.uk/doc/agent/%C3%89ditionsdeLaMartini%C3%A8re"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/doc/agent/%C3%89ditionsdeLaMartini%C3%A8re">
+    <foaf:primaryTopic rdf:resource="http://bnb.data.bl.uk/id/agent/%C3%89ditionsdeLaMartini%C3%A8re"/>
+    <rdfs:label>Éditions de La Martinière</rdfs:label>
+    <linked-data:definition rdf:resource="http://bnb.data.bl.uk/api#agent"/>
+    <void:inDataset rdf:resource="http://bnb.data.bl.uk/id/data/BNB"/>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <linked-data:extendedMetadataVersion rdf:resource="http://bnb.data.bl.uk/doc/agent/%C3%89ditionsdeLaMartini%C3%A8re?_metadata=all%2Cviews%2Cformats%2Cexecution%2Cbindings%2Csite"/>
+  </rdf:Description>
+
+</rdf:RDF>

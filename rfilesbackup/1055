@@ -1,0 +1,1504 @@
+@prefix cdr: <http://opendata.epa.gov/oppt/cdr/schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://opendata.epa.gov/data/cdrreport/110000308523/1305620> a cdr:Activity ;
+	rdfs:label "2012 report from Minerals Technologies Inc regarding Calcium hydroxide (Ca(OH)2)" ;
+	rdfs:seeAlso <https://opendata.epa.gov/data/cdrreport/110000308523/1305620.json> , <https://opendata.epa.gov/data/cdrreport/110000308523/1305620.rdf> , <https://opendata.epa.gov/data/cdrreport/110000308523/1305620.ttl> ;
+	cdr:maxConcentration "90% +" ;
+	cdr:numberOfWorkers "25 - 49" ;
+	cdr:reportingYear "2012"^^xsd:Year ;
+	cdr:reportsMovementOf <http://opendata.epa.gov/oppt/cdr/chemicals/1305620> ;
+	cdr:hasActivityType <http://opendata.epa.gov/oppt/cdr/activity_types/M> ;
+	cdr:previousVolumeOfActivityInPounds "247176000" ;
+	cdr:volumeDomesticallyManufacturedInPounds "211452000" ;
+	cdr:volumeExportedInPounds "0" ;
+	cdr:volumeUsedInPounds "211452000" .
+
+<https://opendata.epa.gov/data/cdrreport/110000308523/1305620.json> <http://purl.org/dc/terms/format> "application/ld+json" .
+
+<https://opendata.epa.gov/data/cdrreport/110000308523/1305620.rdf> <http://purl.org/dc/terms/format> "application/rdf+xml" .
+
+<https://opendata.epa.gov/data/cdrreport/110000308523/1305620.ttl> <http://purl.org/dc/terms/format> "text/turtle" .
+
+<http://opendata.epa.gov/oppt/cdr/chemicals/1305620> a cdr:Chemical ;
+	rdfs:label "Calcium hydroxide (Ca(OH)2)" ;
+	owl:sameAs <https://opendata.epa.gov/data/substance/43619> ;
+	cdr:hasPhysicalForm <http://opendata.epa.gov/oppt/cdr/physical_forms/DryPowder> , <http://opendata.epa.gov/oppt/cdr/physical_forms/Liquid> , <http://opendata.epa.gov/oppt/cdr/physical_forms/OtherSolid> , <http://opendata.epa.gov/oppt/cdr/physical_forms/PelletsLargeCrystals> , <http://opendata.epa.gov/oppt/cdr/physical_forms/WetSolid> ;
+	cdr:hasConsumerUsage <http://opendata.epa.gov/oppt/cdr/consumer_uses/115842_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/118597_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/118597_2> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/118768_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/118768_2> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/121902_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/125875_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/129812_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/183007_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/183007_2> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/260552_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/278401_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/278457_2> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/36535_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/36535_2> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/386688_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/481450_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/93033_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/507825_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/704966_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/714421_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/738197_1> , <http://opendata.epa.gov/oppt/cdr/consumer_uses/278457_1> ;
+	cdr:hasIndustrialUsage <http://opendata.epa.gov/oppt/cdr/industrial_uses/100912_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/115265_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/115842_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/118597_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/118597_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/118597_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/118768_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/118768_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/118768_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/121902_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/122632_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/125232_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/125875_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/129812_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/154645_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/157517_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/164403_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/165659_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/166027_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/172118_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/17236_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/174034_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/26307_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/264655_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/278401_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/278401_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/278457_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/278457_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/278457_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/29641_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/315700_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/316144_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/324193_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/329549_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/329626_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/329703_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/329703_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/330702_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/330857_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/36535_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/36535_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/74538_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/74773_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/88058_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/88433_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/93033_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/227778_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/230980_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/245384_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/245748_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/260552_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/331359_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/331359_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/366231_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/385572_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/385786_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/386403_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/386688_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/410557_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/410592_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/413406_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/413441_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/433295_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/433421_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/434480_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/435116_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/435159_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/435500_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/435535_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/436876_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/437417_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438128_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438314_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_10> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_5> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_6> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_7> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_8> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_9> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/438591_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/439038_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_10> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_5> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_6> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_7> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_8> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_9> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/452771_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/454517_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/454560_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/481450_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/482707_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/507585_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/507763_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/507825_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/351543_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/375672_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/379829_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/392605_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/397198_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/400151_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/414258_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/414373_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/414467_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/414939_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/415669_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/422772_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/551851_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/551851_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/557386_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/559998_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/570048_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/571470_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_10> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_5> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_6> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_7> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_8> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_9> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576362_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576362_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576362_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_10> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_5> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_6> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_7> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_8> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_9> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577192_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577192_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577192_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577192_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_5> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_6> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_7> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_8> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_9> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/577677_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_5> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/583050_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/583050_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/583050_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/583050_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/584840_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/584840_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/584840_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/584840_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/683229_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_5> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/690686_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/704966_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/580207_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581296_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581296_2> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581296_3> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/581296_4> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/707764_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/714421_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/715294_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/738197_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/759956_1> , <http://opendata.epa.gov/oppt/cdr/industrial_uses/782922_1> .
+
+<http://opendata.epa.gov/oppt/cdr/activity_types/M> a <http://opendata.epa.gov/oppt/cdr/ActivityType> ;
+	rdfs:comment "Indicates that a cdr:Activity has manufactured a chemical on site." ;
+	rdfs:label "manufactured" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/115842_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "30% - < 60%" ;
+	cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/118597_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "< 1%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "80" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/118597_2> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Agricultural Products (non-pesticidal)" ;
+	cdr:maxConcentration "< 1%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "20" ;
+	cdr:forConsumerMarket "true"^^xsd:boolean .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/118768_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Agricultural Products (non-pesticidal)" ;
+	cdr:maxConcentration "< 1%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "20" ;
+	cdr:forConsumerMarket "true"^^xsd:boolean .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/118768_2> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "< 1%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "80" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/121902_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Fuels and Related Products" ;
+	cdr:maxConcentration "Not Known or Reasonably Ascertainable" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:forConsumerMarket "true"^^xsd:boolean .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/125875_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Fuels and Related Products" ;
+	cdr:maxConcentration "Not Known or Reasonably Ascertainable" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:forConsumerMarket "true"^^xsd:boolean .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/129812_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "30% - < 60%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/183007_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "30% - < 60%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "60" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/183007_2> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Building/Construction Materials" ;
+	cdr:maxConcentration "30% - < 60%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "40" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/260552_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "Not Known or Reasonably Ascertainable" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/278401_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Agricultural Products (non-pesticidal)" ;
+	cdr:maxConcentration "90% +" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "60" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/278457_2> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Agricultural Products (non-pesticidal)" ;
+	cdr:maxConcentration "90% +" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "60" ;
+	cdr:forConsumerMarket "true"^^xsd:boolean .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/36535_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "30% - < 60%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "98" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/36535_2> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Agricultural Products (non-pesticidal)" ;
+	cdr:maxConcentration "30% - < 60%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "2" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/386688_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Plastic and Rubber Products" ;
+	cdr:maxConcentration "1% - < 30%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/481450_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Lubricants and Greases" ;
+	cdr:maxConcentration "1% - < 30%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/93033_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "30% - < 60%" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/507825_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "90% +" ;
+	cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/704966_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Building/Construction Materials" ;
+	cdr:maxConcentration "Not Known or Reasonably Ascertainable" ;
+	cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "80" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/714421_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "60% - < 90%" ;
+	cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/consumer_uses/738197_1> cdr:forCommercialMarket "true"^^xsd:boolean ;
+	cdr:hasProductCategory "Water Treatment Products" ;
+	cdr:maxConcentration "90% +" ;
+	cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/100912_1> cdr:numberOfWorkers "500 - 999" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Ion exchange agents" ;
+	cdr:hasSector "Paper Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/115265_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/115842_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Oxidizing/reducing agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/118597_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "50" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Food, beverage, and tobacco product manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/118597_2> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "20" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/118597_3> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "30" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Synthetic Rubber Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/118768_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "20" ;
+	cdr:hasIndustrialFunction "Processing aids, specific to petroleum production" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/118768_2> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "30" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Synthetic Rubber Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/118768_3> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "50" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Food, beverage, and tobacco product manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/121902_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/122632_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/125232_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Oxidizing/reducing agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/125875_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/129812_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/154645_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/157517_1> cdr:numberOfWorkers "500 - 999" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/164403_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/165659_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/166027_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "All Other Basic Organic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/172118_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/17236_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Oxidizing/reducing agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/174034_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/26307_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Oxidizing/reducing agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/264655_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Chemical Product and Preparation Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/278401_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "40" ;
+	cdr:hasIndustrialFunction "Not Known or Reasonably Ascertainable" ;
+	cdr:hasSector "Not Known or Reasonably Ascertainable" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/278401_2> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "60" ;
+	cdr:hasIndustrialFunction "Agricultural chemicals (non-pesticidal)" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/278457_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "60" ;
+	cdr:hasIndustrialFunction "Agricultural chemicals (non-pesticidal)" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/278457_2> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "20" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Construction" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/278457_3> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "20" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/29641_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/315700_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/316144_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/324193_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/329549_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "4" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Other (requires additional information)" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/329626_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Other (requires additional information)" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/329703_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "50" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Other (requires additional information)" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/329703_2> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "50" ;
+	cdr:hasIndustrialFunction "Agricultural chemicals (non-pesticidal)" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/330702_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Construction" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/330857_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Other (requires additional information)" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/36535_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "2" ;
+	cdr:hasIndustrialFunction "Agricultural chemicals (non-pesticidal)" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/36535_2> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "98" ;
+	cdr:hasIndustrialFunction "Corrosion inhibitors and anti-scaling agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/74538_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/74773_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "10 - 24" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/88058_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Oxidizing/reducing agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/88433_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/93033_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/227778_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/230980_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/245384_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "97" ;
+	cdr:hasIndustrialFunction "Oxidizing/reducing agents" ;
+	cdr:hasSector "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/245748_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Ion exchange agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/260552_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/331359_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "50" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Other (requires additional information)" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/331359_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "50" ;
+	cdr:hasIndustrialFunction "Agricultural chemicals (non-pesticidal)" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/366231_1> cdr:numberOfWorkers "500 - 999" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Process regulators" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/385572_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/385786_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/386403_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into article" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/386688_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Plastics Product Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/410557_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/410592_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/413406_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/413441_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/433295_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/433421_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/434480_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/435116_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/435159_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/435500_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/435535_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/436876_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/437417_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438128_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438314_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_10> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Construction" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_3> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Oil and Gas Drilling, Extraction, and Support activities" ;
+	cdr:numberOfSites "10 - 24" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_4> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adhesives and sealant chemicals" ;
+	cdr:hasSector "Miscellaneous Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_5> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Food, beverage, and tobacco product manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_6> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Services" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_7> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "All Other Chemical Product and Preparation Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_8> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438398_9> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Primary Metal Manufacturing" ;
+	cdr:numberOfSites "10 - 24" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/438591_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/439038_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "1" ;
+	cdr:hasIndustrialFunction "Fillers" ;
+	cdr:hasSector "Textiles, apparel, and leather manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_10> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "1" ;
+	cdr:hasIndustrialFunction "Viscosity adjustors" ;
+	cdr:hasSector "All Other Chemical Product and Preparation Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "6" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Primary Metal Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_3> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "24" ;
+	cdr:hasIndustrialFunction "Not Known or Reasonably Ascertainable" ;
+	cdr:hasSector "Wholesale and Retail Trade" ;
+	cdr:numberOfSites "25 - 99" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_4> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "58" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "25 - 99" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_5> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "1" ;
+	cdr:hasIndustrialFunction "Not Known or Reasonably Ascertainable" ;
+	cdr:hasSector "Non-metallic Mineral Product Manufacturing (includes clay, glass, cement, concrete, lime, gypsum, and other non-metallic mineral product manufacturing)" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_6> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "1" ;
+	cdr:hasIndustrialFunction "Agricultural chemicals (non-pesticidal)" ;
+	cdr:hasSector "Primary Metal Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_7> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "2" ;
+	cdr:hasIndustrialFunction "Adhesives and sealant chemicals" ;
+	cdr:hasSector "Asphalt Paving, Roofing, and Coating Materials Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_8> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "3" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/450476_9> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "3" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/452771_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/454517_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/454560_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/481450_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Lubricants and lubricant additives" ;
+	cdr:hasSector "All Other Chemical Product and Preparation Manufacturing" ;
+	cdr:numberOfSites "10 - 24" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/482707_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/507585_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Primary Metal Manufacturing" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/507763_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Services" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/507825_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Services" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-repackaging" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/351543_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/375672_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Process regulators" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/379829_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Fillers" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/392605_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, specific to petroleum production" ;
+	cdr:hasSector "Oil and Gas Drilling, Extraction, and Support activities" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/397198_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/400151_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/414258_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/414373_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/414467_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/414939_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/415669_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/422772_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/551851_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "50" ;
+	cdr:hasIndustrialFunction "Agricultural chemicals (non-pesticidal)" ;
+	cdr:hasSector "Agriculture, Forestry, Fishing and Hunting" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/551851_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "50" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Other (requires additional information)" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/557386_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Textiles, apparel, and leather manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/559998_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/570048_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/571470_1> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Process regulators" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_10> cdr:numberOfWorkers "500 - 999" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_3> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_4> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_5> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_6> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_7> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_8> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576106_9> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576362_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "10" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576362_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "5" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576362_3> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "85" ;
+	cdr:hasIndustrialFunction "Adsorbents and absorbents" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "25 - 99" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_10> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_3> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_4> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_5> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_6> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_7> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_8> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/576767_9> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577192_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577192_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577192_3> cdr:numberOfWorkers "1000 - 9999" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577192_4> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_3> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_4> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_5> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_6> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_7> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_8> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577422_9> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/577677_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Oxidizing/reducing agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_2> cdr:numberOfWorkers "50 - 99" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_3> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_4> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581825_5> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/583050_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/583050_2> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/583050_3> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/583050_4> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/584840_1> cdr:numberOfWorkers "1000 - 9999" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/584840_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/584840_3> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/584840_4> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/683229_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "All Other Chemical Product and Preparation Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "6" ;
+	cdr:hasIndustrialFunction "Solvents (for cleaning or degreasing)" ;
+	cdr:hasSector "Primary Metal Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_2> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "NKRA" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Primary Metal Manufacturing" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_3> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "NKRA" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Services" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_4> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "NKRA" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Textiles, apparel, and leather manufacturing" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/686398_5> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "NKRA" ;
+	cdr:hasIndustrialFunction "Bleaching agents" ;
+	cdr:hasSector "Paper Manufacturing" ;
+	cdr:numberOfSites "Not Known or Reasonably Ascertainable" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/690686_1> cdr:numberOfWorkers "25 - 49" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "All Other Basic Inorganic Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/704966_1> cdr:numberOfWorkers "Not Known or Reasonably Ascertainable" ;
+	cdr:percentProductionVolume "80" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Other (requires additional information)" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/580207_1> cdr:numberOfWorkers "500 - 999" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Process regulators" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Use-non-incorporative activities" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581296_1> cdr:numberOfWorkers "500 - 999" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581296_2> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581296_3> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/581296_4> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "CBI" ;
+	cdr:hasIndustrialFunction "CBI" ;
+	cdr:hasSector "CBI" ;
+	cdr:numberOfSites "CBI" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/707764_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Intermediates" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/714421_1> cdr:numberOfWorkers "< 10" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/715294_1> cdr:numberOfWorkers "10 - 24" ;
+	cdr:percentProductionVolume "3" ;
+	cdr:hasIndustrialFunction "Fuels and fuel additives" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing-incorporation into formulation, mixture, or reaction product" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/738197_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Other (specify)" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/759956_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Processing aids, not otherwise listed" ;
+	cdr:hasSector "Mining (except Oil and Gas) and support activities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .
+
+<http://opendata.epa.gov/oppt/cdr/industrial_uses/782922_1> cdr:numberOfWorkers "100 - 499" ;
+	cdr:percentProductionVolume "100" ;
+	cdr:hasIndustrialFunction "Oxidizing/reducing agents" ;
+	cdr:hasSector "Utilities" ;
+	cdr:numberOfSites "< 10" ;
+	cdr:typeOfProcessOrUse "Processing as a reactant" .

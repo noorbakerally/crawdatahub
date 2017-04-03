@@ -1,0 +1,27 @@
+
+
+
+<rdf:RDF xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <Concept rdf:about="http://msc2010.org/resources/MSC/2010/54B30">
+        <seeAlso xmlns="http://msc2010.org/resources/MSC/2010/mscvocab#"
+            rdf:resource="http://msc2010.org/resources/MSC/2010/18B30"/>
+        <seeAlso xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://msc2010.org/resources/MSC/2010/18B30"/>
+        <altLabel xml:lang="en">Categorical methods [See also 18B30]</altLabel>
+        <altLabel xml:lang="it">Metodi categoriali [Vedi anche 18B30]</altLabel>
+        <altLabel xml:lang="zh">范畴方法[参见18B30]</altLabel>
+        <broader rdf:resource="http://msc2010.org/resources/MSC/2010/54Bxx"/>
+        <exactMatch rdf:resource="http://msc2010.org/resources/MSC/2000/54B30"/>
+        <historyNote rdf:resource="http://msc2010.org/resources/MSC/2010/54B30-formerly-1991"/>
+        <inScheme rdf:resource="http://msc2010.org/resources/MSC/2010/MSC2010"/>
+        <notation rdf:datatype="http://msc2010.org/resources/MSC/2010/mscvocab#MSCNotation">54B30</notation>
+        <note>See also 18B30.</note>
+        <prefLabel xml:lang="en">Categorical methods</prefLabel>
+        <prefLabel xml:lang="it">Metodi categoriali</prefLabel>
+        <prefLabel xml:lang="zh">范畴方法</prefLabel>
+        <relatedMatch rdf:resource="http://msc2010.org/resources/MSC/2010/fullDD21-512.55"/>
+        <semanticRelation rdf:resource="http://msc2010.org/resources/MSC/2010/18B30"/>
+    </Concept>
+</rdf:RDF>

@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/guia-de-la-productividad-para-empresas-de/c79fb300-c3b1-4212-a3a6-d94503de37ca">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Guía de la Productividad para empresas de tecnologías de la información y la comunicación (TIC). Generalitat de Cataluña]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p style="text-align: justify; ">Esta <a href="http://www.anella.cat/c/document_library/get_file?uuid=b49c638e-796e-4a22-9077-a101c6e8d40d&amp;groupId=25818881">gu&iacute;a</a>&nbsp;recoge los consejos de diez empresas catalanas del sector TIC a partir de su <strong>experiencia para mejorar la productividad y la competitividad </strong>(editada en Junio del 2010; en catal&aacute;n). <br />Las buenas pr&aacute;cticas recopiladas datan sobre:</p><ul>    <li style="text-align: justify; "><strong>Social computing</strong>, herramienta web 2.0 dentro de la empresa &middot;</li>    <li style="text-align: justify; ">Sistemas Expertos, apoyo a la <strong>gesti&oacute;n del conocimiento</strong> &middot;</li>    <li style="text-align: justify; "><strong>Comunicaciones unificadas</strong>, herramientas de productividad para la&nbsp;colaboraci&oacute;n</li>    <li style="text-align: justify; "><strong>Gesti&oacute;n integrada de proyecto</strong>s, colaboraci&oacute;n entre&nbsp;proveedor y cliente</li>    <li style="text-align: justify; "><strong>Escritorio din&aacute;mico</strong>, la pr&oacute;xima generaci&oacute;n del&nbsp;puesto de trabajo</li>    <li style="text-align: justify; "><strong>Certificaciones</strong>, la clave de la&nbsp;competitividad</li>    <li style="text-align: justify; ">El <strong>teletrabajo</strong>, herramienta de eficiencia econ&oacute;mica</li>    <li style="text-align: justify; "><strong>Ergonom&iacute;a</strong>, la adecuaci&oacute;n del espacio de trabajo</li>    <li style="text-align: justify; "><strong>BPM</strong>, un sistema&nbsp;de gesti&oacute;n de procesos empresariales</li>    <li style="text-align: justify; "><strong>Green IT</strong>, la tecnolog&iacute;a&nbsp;sostenible</li></ul><p style="text-align: justify; ">A las empresas, de las cuales se conoc&iacute;an experiencias en aumentos de productividad, se les pidi&oacute; que describieran su caso de acuerdo con el siguiente gui&oacute;n:</p><ul>    <li style="text-align: justify; ">Descripci&oacute;n de la empresa</li>    <li style="text-align: justify; ">Problem&aacute;tica que intenta resolver</li>    <li style="text-align: justify; ">Descripci&oacute;n de la pr&aacute;ctica</li>    <li style="text-align: justify; ">Beneficios aportados</li>    <li style="text-align: justify; ">Proceso de puesta en marcha (principales pasos y etapas, principales dificultades en la adopci&oacute;n de la pr&aacute;ctica, medidas propuestas para facilitar la adopci&oacute;n y el uso de la pr&aacute;ctica y buenas pr&aacute;cticas en su aplicaci&oacute;n)</li>    <li style="text-align: justify; ">Conclusiones</li></ul><p style="text-align: justify; ">&quot;Seg&uacute;n el profesor del Departamento de Sistemas de Informaci&oacute;n de Esade, Enric Colet,<strong> &quot;el secreto para salir de la crisis se basa en la productividad&quot;</strong>, que hace a las empresas m&aacute;s competitivas y, por lo tanto, generan m&aacute;s demanda y m&aacute;s puestos de trabajo.</p><p style="text-align: justify; ">Entre las buenas pr&aacute;cticas de la gu&iacute;a se encuentra la implementaci&oacute;n de acciones de '<strong>social computing'</strong> para garantizar que los trabajadores de una empresa compartan el conocimiento con el resto de la comunidad, a trav&eacute;s de <strong>herramientas web 2.0</strong>.</p><p style="text-align: justify; ">Tambi&eacute;n destaca los beneficios del <strong>teletrabajo</strong> para mejorar la eficiencia; y la ergonom&iacute;a, es decir, adecuar el espacio de trabajo, teniendo en cuenta tambi&eacute;n aspectos de salud.</p><p style="text-align: justify; ">La gu&iacute;a est&aacute; impulsada y elaborada en el marco del plan TIC.cat por la Secretaria de Telecomunicaciones, el Colegio Oficial de Ingenieros en Inform&aacute;tica de Catalunya, el Centro de Innovaci&oacute;n en Productividad, y Ubiquat Technologies, y es una herramienta para mejorar la productividad de los recursos humanos, a trav&eacute;s de la alta formaci&oacute;n y la extensi&oacute;n de las nuevas tecnolog&iacute;as a todos los procesos productivos&quot;. Fuente: <a target="_blank" href="http://www.portaltic.es">Portalic.es</a></p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2010-07-15T12:40:20+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Guía de la Productividad para empresas de tecnologías de la información y la comunicación (TIC). Generalitat de Cataluña]]></dcterms:title>
+    <dcterms:source rdf:resource="http://red.gnoss.com/VisualizarDocumento.aspx?tipo=BaseRecursos&amp;doc=c79fb300-c3b1-4212-a3a6-d94503de37ca&amp;nombre=Buenas+pr%c3%a1cticas+TIC.pdf&amp;ext=.pdf&amp;org=11111111-1111-1111-1111-111111111111&amp;proy=efdf77fc-dad6-48fc-80af-75d16fd9d70e&amp;dscr=true" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/questio/" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/guia-de-la-productividad-para-empresas-de/c79fb300-c3b1-4212-a3a6-d94503de37ca/comentario/f29e7f91-9e73-4b33-829b-c182fcd92773" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/guia-de-la-productividad-para-empresas-de/c79fb300-c3b1-4212-a3a6-d94503de37ca/comentario/a56eb76c-ab06-48e0-bf9c-97a35bda44b5" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/nextnew" />
+    <sioc:has_space rdf:resource="http://aertic.com/en/community/aertic" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/nbic" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/nextweb" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/superarlacrisis" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/cgem-lancement-de-linitiative-greco-au-maroc/51bdd606-dcc5-4635-a733-68394a79b6e6" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/ceneap---accueil-seminaire-codeveloppement/c90cae06-a02a-4e20-b57d-3b3fc51718fb" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/euro-mediterranee-competitivite-verte--/c31626c9-e3ad-4d3a-83d1-4ea3783e0e9a" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/malaga-con-novasoft-entre-los-grupos-de-la-ue-que/836791cf-6d99-471c-9682-5b5248d943b3" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/leconomiste-lancement-au-maroc-de-linitiative/9ffb4ca5-62d9-4250-9a44-e3e1bc9f2005" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/technologie-verte-les-enormes-gains-de-la/69cf15cc-d49f-4dd7-b16f-d814194239f9" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/the-future-of-wind-power-increasing-economic/a2e97c11-fe68-47da-81b2-f419668c8595" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/competing-in-the-green-economy/27aa7379-fea8-4253-93bd-be4a40d35b6e" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/youtube---energias-renovables---icex/189a802e-a42c-40e0-b333-8f809494009b" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/establecimiento-de-una-agencia-internacional-de/aafca370-8c9b-4bcc-8b2b-35b4a08637fd" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/tics-icts-tics/0cc5b970-ad7e-47f1-8b19-d3bd73fecb1a" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/sostenibilidad-sustainability-durabilite/2e4c8c32-9bbc-44c5-a045-fa81b19bf93b" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/empresas-y-organizaciones-firms-and-organizations/fa88d6ce-f116-44bf-af91-8dccb8327793" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/web%202.0" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tic" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/it" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/social%20computing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/gesti%c3%b3n%20del%20conocimiento" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/guia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/catalu%c3%b1a" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/productividad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/buenas%20pr%c3%a1cticas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/green%20it" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/herramientas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/teletrabajo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/generalitat" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/bpm" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/green" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/la%20competitividad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/certificaciones" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ergonomia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/escritorio%20din%c3%a1mico" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://my.gnoss.com/en/organization/questio/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[QUESTIO]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[QUESTIO]]></foaf:name>
+  </foaf:Group>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/guia-de-la-productividad-para-empresas-de/c79fb300-c3b1-4212-a3a6-d94503de37ca/comentario/f29e7f91-9e73-4b33-829b-c182fcd92773">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>Gracias Santiago. Nos alegramos de que te sea &uacute;til.</p>]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Gracias Santiago. Nos alegramos de que te sea &uacute;til.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2010-10-04T09:00:59+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/questio/" />
+  </sioc_t:Comment>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/guia-de-la-productividad-para-empresas-de/c79fb300-c3b1-4212-a3a6-d94503de37ca/comentario/a56eb76c-ab06-48e0-bf9c-97a35bda44b5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>el documento es muy interesante, consulto si existe una versi&oacute;n en espa&ntilde;ol o en ingl&eacute;s,</p><p>&nbsp;</p><p>saludos</p><p>&nbsp;</p><p>Santiago Garc&iacute;a &Aacute;lvarez</p><p>&nbsp;</p>]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>el documento es muy interesante, consulto si existe una versi&oacute;n en espa&ntilde;ol o en ingl&eacute;s,</p><p>&nbsp;</p><p>saludos</p><p>&nbsp;</p><p>Santiago Garc&iacute;a &Aacute;lvarez</p><p>&nbsp;</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2010-10-01T16:53:35+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/santiagogarcia/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/santiagogarcia/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[SANTIAGO GARCIA ALVAREZ]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[SANTIAGO]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[GARCIA ALVAREZ]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/greencompetitiveness">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Green Competitiveness]]></rdfs:label>
+  </sioc:Space>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/nextnew">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[NextNew: nuevos negocios tecnológicos]]></rdfs:label>
+  </sioc:Space>
+  <sioc:Space rdf:about="http://aertic.com/en/community/aertic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[AERTIC: empresas TIC de La Rioja]]></rdfs:label>
+  </sioc:Space>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/nbic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Convergencia tecnológica NBIC]]></rdfs:label>
+  </sioc:Space>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/nextweb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Next Web: web 3.0, web semántica y el futuro de internet]]></rdfs:label>
+  </sioc:Space>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/superarlacrisis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Superar la crisis y salir fortalecidos]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/tics-icts-tics/0cc5b970-ad7e-47f1-8b19-d3bd73fecb1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[TICs/ ICTs/  TICs]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[TICs/ ICTs/  TICs]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/sostenibilidad-sustainability-durabilite/2e4c8c32-9bbc-44c5-a045-fa81b19bf93b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Sostenibilidad/ Sustainability/  Durabilité]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Sostenibilidad/ Sustainability/  Durabilité]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/empresas-y-organizaciones-firms-and-organizations/fa88d6ce-f116-44bf-af91-8dccb8327793">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Empresas y organizaciones/ Firms and organizations/ Enterprises et organisations]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Empresas y organizaciones/ Firms and organizations/ Enterprises et organisations]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/web%202.0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[web 2.0]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Web_2.0" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.05b058" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tic]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Tic" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/it">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[it]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/It_(novel)" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.01nxb_" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/social%20computing">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[social computing]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/gesti%c3%b3n%20del%20conocimiento">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gestión del conocimiento]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Knowledge_management" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0jmlp" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/guia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[guia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/catalu%c3%b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cataluña]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Catalonia" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.01zv_" />
+    <owl:sameAs rdf:resource="http://sws.geonames.org/3336901/" />
+    <owl:sameAs rdf:resource="http://data.nytimes.com/N23452151093583445981" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/productividad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[productividad]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Productivity" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.026y05" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/buenas%20pr%c3%a1cticas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[buenas prácticas]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Best_practice" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/green%20it">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[green it]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Green_computing" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.05ljhq" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/herramientas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[herramientas]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Tool" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.07k1x" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/teletrabajo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[teletrabajo]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Telecommuting" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.014xsg" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.027r5v2" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/generalitat">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[generalitat]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Generalitat" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0h3sf" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/bpm">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bpm]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/green">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[green]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/la%20competitividad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[la competitividad]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/certificaciones">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[certificaciones]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ergonomia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ergonomia]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Human_factors_and_ergonomics" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.02m8q" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/escritorio%20din%c3%a1mico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escritorio dinámico]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

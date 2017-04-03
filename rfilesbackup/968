@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001452"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001452">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactive ion etcher</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reactive ion etcher</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<rdfs:label>Reactive Ion Etch - Chlorine-based</rdfs:label>
+	<ERO_0000480 xmlns="http://purl.obolibrary.org/obo/">http://sitemason.vanderbilt.edu/files/dpyG2Y/RIEC.jpg</ERO_0000480>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000480">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Website(s)</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has URL</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_url</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<ERO_0000480 xmlns="http://purl.obolibrary.org/obo/">http://www.vanderbilt.edu/vinse/facilities/instruments/rie+trion-technologies+minilock-ii-rie</ERO_0000480>
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">Chlorine based chemistry for reactive ion etching:
+
+- Aluminum
+- Aluminum oxide
+- Silicon
+- Any material requiring chlorine chemistry
+- Process gases include Cl2, BCI3, CF4, O2, N2</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<synonym xmlns="http://eagle-i.org/ont/app/1.0/">RIE Trion Technologies Minilock II</synonym>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/synonym">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Name</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eagle-i_synonym</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<located_in xmlns="http://www.obofoundry.org/ro/ro.owl#" rdf:resource="http://eagle-i.ea.vanderbilt.edu/i/00000138-7bc7-c4a0-480b-864680000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.obofoundry.org/ro/ro.owl#located_in">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</preferredLabel>
+	<rdfs:label xml:lang="en">located_in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-7bc7-c4a0-480b-864680000000">
+	<rdfs:label>Vanderbilt Institute of Nanoscale Science and Engineering</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<ERO_0000050 xmlns="http://purl.obolibrary.org/obo/">Minilock II</ERO_0000050>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000050">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Model Number</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model number</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model_number</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://eagle-i.ea.vanderbilt.edu/i/00000138-81ef-ac0c-a500-ef7680000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81ef-ac0c-a500-ef7680000000">
+	<rdfs:label>Schmidt, Ben, Ph.D.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-13T15:07:27.688-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://eagle-i.ea.vanderbilt.edu/i/00000136-effb-4103-f2fd-6ffe80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000136-effb-4103-f2fd-6ffe80000000">
+	<rdfs:label>lrobins (Lisa Robins)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-18T14:27:08.619-06:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://eagle-i.ea.vanderbilt.edu/i/00000136-f003-8cd6-f2fd-6ffe80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000136-f003-8cd6-f2fd-6ffe80000000">
+	<rdfs:label>rpearse (Richard Pearse)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://eagle-i.ea.vanderbilt.edu/i/00000136-f008-4433-f2fd-6ffe80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000136-f008-4433-f2fd-6ffe80000000">
+	<rdfs:label>tjohnson (Tenille Johnson)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000004">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrument</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instrument</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instrument</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">processed material</IAO_0000111>
+	<rdfs:label xml:lang="en">processed material</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ifomis.org/bfo/1.1#Entity">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.ea.vanderbilt.edu/i/00000138-81f2-ad1f-a500-ef7680000000">
+	<rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ifomis.org/bfo/1.1/snap#Continuant">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

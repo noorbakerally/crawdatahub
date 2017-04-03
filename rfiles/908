@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[¿Trabajas en tu aula con herramientas del entorno Google? Participa con nosotros en labsCREA]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	<img alt="" src="http://www.collaborationideas.com/wp-content/uploads/2011/02/google-tools.png" style="width: 300px; height: 300px;" /></p>
+<p>
+	&iquest;Eres un docente innovador que ha incorporado en su din&aacute;mica de trabajo diario el <strong>entorno de Google</strong>? Si usas <a href="https://maps.google.es/" target="_blank">Google Maps</a> para explicar los cuerpos geom&eacute;tricos a trav&eacute;s de un mapa de la ciudad de Barcelona; si compartes los documentos del aula en la nube con <a href="https://maps.google.es/" target="_blank">Google Docs</a> o si <a href="https://accounts.google.com/ServiceLogin?service=jotspot&amp;passive=1209600&amp;continue=https://sites.google.com/?hl%3Des&amp;followup=https://sites.google.com/?hl%3Des&amp;hl=es&amp;authuser=0" target="_blank">Google Site</a> es habitual en los proyectos que lanzas en tu centro, la propuesta que hoy lanzamos es para ti.</p>
+<p>
+	Con la denominaci&oacute;n <strong>labsCREA</strong> estamos generando un <strong>laboratorio de trabajo</strong> en el que pensamos sacar el m&aacute;ximo partido a las <strong>Apps que Google facilita para Educaci&oacute;n</strong>: <a href="http://www.google.com/apps/intl/es/edu/" target="_blank">Google Apps for Education</a>. Para ello buscamos formar un grupo de trabajo con docentes innovadores que tengan incorporadas ya algunas de las herramientas que el entorno Google nos facilita dentro de las actividades y din&aacute;micas de su programaci&oacute;n anual.</p>
+<p>
+	<strong>Si quieres participar</strong> de una iniciativa puntera, deseas mostrar lo mucho y bueno que ya haces con las Apps de Google y deseas aprender m&aacute;s avanzando en un equipo docente innovador, este es tu momento. <strong>Presenta tu candidatura a participar en labsCREA</strong> con un comentario a esta entrada a&ntilde;adiendo tu nombre, nivel educativo que impartes y asignatura, nombre del centro y un breve texto con la raz&oacute;n para ser elegido. En breve y a trav&eacute;s de la comunidad recibir&aacute;s contestaci&oacute;n.</p>
+<p>
+	Suerte a todos &iexcl;&iexcl;&iexcl;</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-18T17:39:22+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[¿Trabajas en tu aula con herramientas del entorno Google? Participa con nosotros en labsCREA]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Nota]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/organizacion/inevery/perfil/Inevery-Crea-Espana/" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/5c9f77a0-4612-41a4-9932-0d09301fd8d7" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/7058a75f-42e1-4f8b-b1ef-e9943462ec55" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/726198e2-35fa-48b8-a03c-eb951c3381a4" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/8b5f6749-f6c2-4cb8-9ed4-f5d024aae52f" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/f3a83761-f8ff-4b93-bd9a-67cd257c65d9" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/3596eac2-9925-4689-99ad-ecb133fdfb72" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/628b5d67-9bea-42ea-8f07-880370d3f504" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/507266fd-3b0f-4940-85a0-3069ef507ba1" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/f76c5280-364b-4515-ba34-47ea1572bf7f" />
+    <sioc:has_discussion rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/3483eea8-8ccd-40ea-b8ac-ee7d6eff1caa" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/comunidad/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/video/1463b0db-39bb-4dcd-a51c-c1f1589e8642" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/herramientas-20/29fe54f0-bc5f-4471-8d67-50fb89f8827c" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/areas-de-conocimiento/474385f8-0b1b-448a-8609-fbdc2fd771ef" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/castellano/56eb19ec-10f9-4852-9c01-6afe7d0054f9" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/recursos-transversales/5b0ed91e-df6c-49d9-811c-375c0d1ac264" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/audiopodcast/737ef84d-94bb-4e82-81d2-254e1c441cb1" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/herramientas-para-hacer-recursos-tic/872e02a4-65f5-4adb-801d-35585b5d9145" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/imagen/ce792a4d-99b4-4e36-bac1-34167435f3fa" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/idioma-del-recurso/d22f6fec-b028-4f34-b79c-69353d547bb8" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/labs-crea/de66a553-a6ba-4f18-bd1f-c2a265ccda1a" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/herramientas" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/google" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/labscrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/apps" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/organizacion/inevery/perfil/Inevery-Crea-Espana/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Inevery Crea España · Equipo Inevery Crea]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Inevery Crea]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[España]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Inevery Crea España]]></foaf:name>
+  </foaf:Person>
+  <foaf:Group rdf:about="http://ineverycrea.net/comunidad/ineverycrea/organizacion/inevery/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo Inevery Crea]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo Inevery Crea]]></foaf:name>
+    <foaf:member rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/organizacion/inevery/perfil/Inevery-Crea-Espana/" />
+  </foaf:Group>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/5c9f77a0-4612-41a4-9932-0d09301fd8d7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Aunque soy nuevo en esta comunidad quisiera presentarme como candidato a formar parte de este grupo de profesores innovadores. Mi nombre es Juan M. de la Serna, tras haber impartido durante a&ntilde;os docencia unversitaria en distintas universidades, he pasado a colaborar como docente virtual en varias instituciones a nivel universitario. Para ello estoy siempre buscando nuevas herramientas con las que facilitar el aprendizaje de los alumnos. Por ello trato de aprender todo lo que puedo para ofrecer una mayor calidad docente, incorporando herramientas &quot;externas&quot; a plataformas como Moodle, para lo cual ,uso a diario las herramientas de Goggle Apps.</p>
+<p>
+	El ideal para m&iacute; es encontrar las herramientas adecudas para dise&ntilde;ar y compartir cursos masivos MOOC a nivel universitario..</p>
+<p>
+	Si quiere revisar alguno de mis datos puede consultar mi perfil publico de Linkedin</p>
+<p>
+	http://es.linkedin.com/pub/juan-m-de-la-serna-t/16/405/54a</p>
+<p>
+	Si precisa un CV detallado ind&iacute;quemelo y se lo remito.</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Aunque soy nuevo en esta comunidad quisiera presentarme como candidato a formar parte de este grupo de profesores innovadores. Mi nombre es Juan M. de la Serna, tras haber impartido durante a&ntilde;os docencia unversitaria en distintas universidades, he pasado a colaborar como docente virtual en varias instituciones a nivel universitario. Para ello estoy siempre buscando nuevas herramientas con las que facilitar el aprendizaje de los alumnos. Por ello trato de aprender todo lo que puedo para ofrecer una mayor calidad docente, incorporando herramientas &quot;externas&quot; a plataformas como Moodle, para lo cual ,uso a diario las herramientas de Goggle Apps.</p>
+<p>
+	El ideal para m&iacute; es encontrar las herramientas adecudas para dise&ntilde;ar y compartir cursos masivos MOOC a nivel universitario..</p>
+<p>
+	Si quiere revisar alguno de mis datos puede consultar mi perfil publico de Linkedin</p>
+<p>
+	http://es.linkedin.com/pub/juan-m-de-la-serna-t/16/405/54a</p>
+<p>
+	Si precisa un CV detallado ind&iacute;quemelo y se lo remito.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-11-05T00:04:48+01:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/Juan-Moises-de-la-sserna/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/Juan-Moises-de-la-sserna/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Juan Moises de la sserna]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Juan Moises]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[de la sserna]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/7058a75f-42e1-4f8b-b1ef-e9943462ec55">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Hola, me llamo &Aacute;ngeles Alonso y soy profesora de m&uacute;sica en el IES Pando, de Oviedo. Dentro de google tengo un site que es &eacute;ste:&nbsp; https://sites.google.com/site/materialmusica09/ &nbsp;</p>
+<p>
+	Me resulta especialmente &uacute;til por una parte para colgar mis presentaciones y hot potatoes en mi blog, y por otra para recoger informaci&oacute;n acerca del trabajo de otros compa&ntilde;eros que en un momento determinado puede servirme a m&iacute; para enfocar un aspecto determinado en la clase.</p>
+<p>
+	Google se ha convertido en un recurso imprescindible en mi vida profesional</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Hola, me llamo &Aacute;ngeles Alonso y soy profesora de m&uacute;sica en el IES Pando, de Oviedo. Dentro de google tengo un site que es &eacute;ste:&nbsp; https://sites.google.com/site/materialmusica09/ &nbsp;</p>
+<p>
+	Me resulta especialmente &uacute;til por una parte para colgar mis presentaciones y hot potatoes en mi blog, y por otra para recoger informaci&oacute;n acerca del trabajo de otros compa&ntilde;eros que en un momento determinado puede servirme a m&iacute; para enfocar un aspecto determinado en la clase.</p>
+<p>
+	Google se ha convertido en un recurso imprescindible en mi vida profesional</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-09-23T22:50:32+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/Ángeles--Alonso-Fernández/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/Ángeles--Alonso-Fernández/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Ángeles  Alonso Fernández]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Ángeles ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Alonso Fernández]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/726198e2-35fa-48b8-a03c-eb951c3381a4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Hola, soy V&iacute;ctor Roda, profesor de F&iacute;sica y Qu&iacute;mica en Ed. Secundaria y bachillerato. Trabajo en el colegio <a href="http://www.juandelanuza.org" target="_blank">Juan de Lanuza</a>, en Zaragoza, e imparto clases como profesor asociado del Departamento de <a href="http://www.unizar.es/departamentos/d_cc_experimentales" target="_blank">Did&aacute;ctica de las Ciencias Experimentales</a> de la U. de Zaragoza. Hace cuatro cursos comenc&eacute; a trabajar con el alumnado con herramientas de Google (groups, gmail, pages, docs...). Uno de los problemas que les encontraba era la integraci&oacute;n entre ellas, pero se resolvi&oacute; al encontrar Google Apps. Desde el curso 2010-2011 trabajo con este entorno que integra Gmail, Sites, Drive y casi todas las herramientas de Google y estoy encantado. Ya estoy preparando los &quot;sites&quot; y las cuentas de mi nuevo alumnado y adem&aacute;s para que en el colegio se va a adoptar el entorno, as&iacute; que ya no tendr&eacute; la limitaci&oacute;n de 50 usuarios que ten&iacute;a hasta ahora. Las herramientas de Google me parecen muy adecuadas para el trabajo con estudiantes y tambi&eacute;n con compa&ntilde;eros, ya que facilitan la gesti&oacute;n de documentos, la comunicaci&oacute;n, la colaboraci&oacute;n, son sencillas, intuitivas, pr&aacute;cticas...</p>
+<p>
+	Me encantar&iacute;a participar en la iniciativa.</p>
+<p>
+	Saludos.</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Hola, soy V&iacute;ctor Roda, profesor de F&iacute;sica y Qu&iacute;mica en Ed. Secundaria y bachillerato. Trabajo en el colegio <a href="http://www.juandelanuza.org" target="_blank">Juan de Lanuza</a>, en Zaragoza, e imparto clases como profesor asociado del Departamento de <a href="http://www.unizar.es/departamentos/d_cc_experimentales" target="_blank">Did&aacute;ctica de las Ciencias Experimentales</a> de la U. de Zaragoza. Hace cuatro cursos comenc&eacute; a trabajar con el alumnado con herramientas de Google (groups, gmail, pages, docs...). Uno de los problemas que les encontraba era la integraci&oacute;n entre ellas, pero se resolvi&oacute; al encontrar Google Apps. Desde el curso 2010-2011 trabajo con este entorno que integra Gmail, Sites, Drive y casi todas las herramientas de Google y estoy encantado. Ya estoy preparando los &quot;sites&quot; y las cuentas de mi nuevo alumnado y adem&aacute;s para que en el colegio se va a adoptar el entorno, as&iacute; que ya no tendr&eacute; la limitaci&oacute;n de 50 usuarios que ten&iacute;a hasta ahora. Las herramientas de Google me parecen muy adecuadas para el trabajo con estudiantes y tambi&eacute;n con compa&ntilde;eros, ya que facilitan la gesti&oacute;n de documentos, la comunicaci&oacute;n, la colaboraci&oacute;n, son sencillas, intuitivas, pr&aacute;cticas...</p>
+<p>
+	Me encantar&iacute;a participar en la iniciativa.</p>
+<p>
+	Saludos.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-09-06T11:07:52+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/Victor-Roda/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/Victor-Roda/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Victor Roda]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Victor]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Roda]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/8b5f6749-f6c2-4cb8-9ed4-f5d024aae52f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Me llamo M&ordf; Mar Ser&oacute;n y soy maestra de Primaria en la especialidad de m&uacute;sica en toda la etapa, pero adem&aacute;s soy tutora de 3&ordm; ciclo en el que trabajo matem&aacute;ticas, c. medio y lenguaje.</p>
+<p>
+	Mi colegio es CEIP F&eacute;lix Plaza Ramos de Alhaur&iacute;n el Grande (M&aacute;laga).</p>
+<p>
+	Me encanta las herramientas GOOGLE y las utilizo habitualmente tanto en mi vida profesional docente como en mi vida personal, y as&iacute; intento transmit&iacute;rselo a mis alumnos y a las personas de mi entorno tanto virtual como anal&oacute;gico.</p>
+<p>
+	He visto este post como la oportunidad de trabajar con otros docentes las APPS-GOOGLE y poder profundizar y conocer otras aplicaciones que no conozca, intercambiar experiencias, trabajos... que trasladar&eacute; a mi alumnado y a sus familias igualmente.</p>
+<p>
+	Aqu&iacute; os pongo el SITE que hemos trabajado en este curso en tutor&iacute;a: https://sites.google.com/site/enclaseconmar1112/</p>
+<p>
+	En este &aacute;rbol de perlas os enlazo alguno de los otros site que utilizo: http://pear.ly/V8bz</p>
+<p>
+	&nbsp;</p>
+<p>
+	Espero que sea una aventura google y educativa divertida y sea del provecho de mis alumnos.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Saludos a todos</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Me llamo M&ordf; Mar Ser&oacute;n y soy maestra de Primaria en la especialidad de m&uacute;sica en toda la etapa, pero adem&aacute;s soy tutora de 3&ordm; ciclo en el que trabajo matem&aacute;ticas, c. medio y lenguaje.</p>
+<p>
+	Mi colegio es CEIP F&eacute;lix Plaza Ramos de Alhaur&iacute;n el Grande (M&aacute;laga).</p>
+<p>
+	Me encanta las herramientas GOOGLE y las utilizo habitualmente tanto en mi vida profesional docente como en mi vida personal, y as&iacute; intento transmit&iacute;rselo a mis alumnos y a las personas de mi entorno tanto virtual como anal&oacute;gico.</p>
+<p>
+	He visto este post como la oportunidad de trabajar con otros docentes las APPS-GOOGLE y poder profundizar y conocer otras aplicaciones que no conozca, intercambiar experiencias, trabajos... que trasladar&eacute; a mi alumnado y a sus familias igualmente.</p>
+<p>
+	Aqu&iacute; os pongo el SITE que hemos trabajado en este curso en tutor&iacute;a: https://sites.google.com/site/enclaseconmar1112/</p>
+<p>
+	En este &aacute;rbol de perlas os enlazo alguno de los otros site que utilizo: http://pear.ly/V8bz</p>
+<p>
+	&nbsp;</p>
+<p>
+	Espero que sea una aventura google y educativa divertida y sea del provecho de mis alumnos.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Saludos a todos</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-08-30T19:19:31+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/Mar-Serón/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/Mar-Serón/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Mar Serón]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Mar]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Serón]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/f3a83761-f8ff-4b93-bd9a-67cd257c65d9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Soy Rafael Luis Campa&ntilde;a Jim&eacute;nez, Vicedirector del <a href="http://www.iescartuja.es" target="_blank">IES Cartuja de Granada</a>&nbsp;y profesor de EE.SS. en las especialidades de Administraci&oacute;n de Empresas y Org. y Gesti&oacute;n Comercial. Imparto clases en el Ciclo Formativo de Grado Superior de Administraci&oacute;n y Finanzas. Desde el curso 2007/2008 nos acreditamos en google apps para educaci&oacute;n, que nos permite tener nuestro dominio con tecnolog&iacute;a google. Mi compa&ntilde;ero David Vill&eacute;n y yo lo pusimos en marcha en esa fecha y utilizamos varias aplicaciones en el aula: google docs (actualmente google drive), blogger, calendario, sites, youtube, etc. Cada a&ntilde;o vamos incorporando nuevas aplicaciones que mejoran la formaci&oacute;n de nuestro alumnado. Os presento un portafolio del m&oacute;dulo formativo desarrollado durante el curso 2011/2012&nbsp;<a href="https://sites.google.com/a/iescartuja.es/pe2012/home" target="_blank">https://sites.google.com/a/iescartuja.es/pe2012/home</a>.</p>
+<p>
+	Saludos</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Soy Rafael Luis Campa&ntilde;a Jim&eacute;nez, Vicedirector del <a href="http://www.iescartuja.es" target="_blank">IES Cartuja de Granada</a>&nbsp;y profesor de EE.SS. en las especialidades de Administraci&oacute;n de Empresas y Org. y Gesti&oacute;n Comercial. Imparto clases en el Ciclo Formativo de Grado Superior de Administraci&oacute;n y Finanzas. Desde el curso 2007/2008 nos acreditamos en google apps para educaci&oacute;n, que nos permite tener nuestro dominio con tecnolog&iacute;a google. Mi compa&ntilde;ero David Vill&eacute;n y yo lo pusimos en marcha en esa fecha y utilizamos varias aplicaciones en el aula: google docs (actualmente google drive), blogger, calendario, sites, youtube, etc. Cada a&ntilde;o vamos incorporando nuevas aplicaciones que mejoran la formaci&oacute;n de nuestro alumnado. Os presento un portafolio del m&oacute;dulo formativo desarrollado durante el curso 2011/2012&nbsp;<a href="https://sites.google.com/a/iescartuja.es/pe2012/home" target="_blank">https://sites.google.com/a/iescartuja.es/pe2012/home</a>.</p>
+<p>
+	Saludos</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-08-29T11:46:58+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/Rafael-Luis--Campaña-Jiménez/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/Rafael-Luis--Campaña-Jiménez/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Rafael Luis  Campaña Jiménez]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Rafael Luis ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Campaña Jiménez]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/3596eac2-9925-4689-99ad-ecb133fdfb72">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Soy Manuel Jes&uacute;s Fern&aacute;ndez Naranjo, Director del <a href="http://www.iesvirgendelcastillo.es" target="_blank">IES Virgen del Castillo</a> de Lebrija y profesor de Ciencias Sociales. En mis clases he utilizado <a href="https://maps.google.es/maps/ms?msa=0&amp;msid=214442889762638610431.0004b1c585f0a16917eed&amp;hl=es&amp;ie=UTF8&amp;ll=36.20297,-5.949426&amp;spn=1.4846,0.297291&amp;t=h&amp;vpsrc=6&amp;source=embed" target="_blank">Google Maps</a>&nbsp;, adem&aacute;s de<a href="https://docs.google.com/spreadsheet/viewform?formkey=dDdPdXNnOW5GNFl3M3B2UVdHU1lra2c6MQ#gid=0" target="_blank"> formularios Docs</a>. En el centro tambi&eacute;n hemos experimentado con los informes de evaluaci&oacute;n fianales para extenderlo el curso que viene a todos los cursos. Y&nbsp;este pr&oacute;ximo curso, como en el centro de mi amigo Juanma D&iacute;az, vamos a utilizar Google Apps for Education, con el dominio iesvdc,es, tanto en el &aacute;mbito educativo como en el de gesti&oacute;n del centro. La verdad es que, sin utilizarlo todav&iacute;a, sabemos que va a ser una herramienta muy &uacute;til para extender el trabajo colaborativo y la metodolog&iacute;a 2.0 tanto entre el alumnado como entre el profesorado y estar&iacute;amos muy interesados en participar en esta interesante iniciativa.</p>
+<p>
+	Saludos.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Se me olvidaba, tambi&eacute;n he utilizado varias sites, que suelen ser herramientas muy colaborativas. Por ejemplo la que he creado para <a href="http://sites.google.com/site/proyectocolaborativodireccion/" target="_blank">compartir mi proyecto de direcci&oacute;n</a>.</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Soy Manuel Jes&uacute;s Fern&aacute;ndez Naranjo, Director del <a href="http://www.iesvirgendelcastillo.es" target="_blank">IES Virgen del Castillo</a> de Lebrija y profesor de Ciencias Sociales. En mis clases he utilizado <a href="https://maps.google.es/maps/ms?msa=0&amp;msid=214442889762638610431.0004b1c585f0a16917eed&amp;hl=es&amp;ie=UTF8&amp;ll=36.20297,-5.949426&amp;spn=1.4846,0.297291&amp;t=h&amp;vpsrc=6&amp;source=embed" target="_blank">Google Maps</a>&nbsp;, adem&aacute;s de<a href="https://docs.google.com/spreadsheet/viewform?formkey=dDdPdXNnOW5GNFl3M3B2UVdHU1lra2c6MQ#gid=0" target="_blank"> formularios Docs</a>. En el centro tambi&eacute;n hemos experimentado con los informes de evaluaci&oacute;n fianales para extenderlo el curso que viene a todos los cursos. Y&nbsp;este pr&oacute;ximo curso, como en el centro de mi amigo Juanma D&iacute;az, vamos a utilizar Google Apps for Education, con el dominio iesvdc,es, tanto en el &aacute;mbito educativo como en el de gesti&oacute;n del centro. La verdad es que, sin utilizarlo todav&iacute;a, sabemos que va a ser una herramienta muy &uacute;til para extender el trabajo colaborativo y la metodolog&iacute;a 2.0 tanto entre el alumnado como entre el profesorado y estar&iacute;amos muy interesados en participar en esta interesante iniciativa.</p>
+<p>
+	Saludos.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Se me olvidaba, tambi&eacute;n he utilizado varias sites, que suelen ser herramientas muy colaborativas. Por ejemplo la que he creado para <a href="http://sites.google.com/site/proyectocolaborativodireccion/" target="_blank">compartir mi proyecto de direcci&oacute;n</a>.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-08-29T10:28:48+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/mjfn/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/mjfn/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Manuel Jesús Fernández Naranjo]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Manuel Jesús]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernández Naranjo]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/628b5d67-9bea-42ea-8f07-880370d3f504">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Hola.</p>
+<p>
+	Mi nombre es Juanma D&iacute;az y soy coordinador TIC y profesor de Matem&aacute;ticas del <a href="http://www.ieschavesnogales.es/" target="_blank">IES Chaves Nogales</a> de Sevilla. Este verano nos hemos dado de alta en Google Apps para Educaci&oacute;n y pensamos usarlas en el pr&oacute;ximo curso. Tendremos todo el profesorado y el alumnado una cuenta de correo personalizada con nuestro dominio ieschavesnogales.es que usaremos a trav&eacute;s de Gmail. Tambi&eacute;n usaremos Google Calendar y los documentos compartidos a trav&eacute;s de Google Docs. Adem&aacute;s investigaremos m&aacute;s posibilidades educativas del resto de aplicaciones.</p>
+<p>
+	De momento hemos creado <a href="https://sites.google.com/site/ieschavesnogales/" target="_blank">este site</a> de Google donde contaremos nuestras actividades y experiencias.</p>
+<p>
+	Estar&iacute;amos encantados de participar en este proyecto para poder seguir aprendiendo y compartiendo.</p>
+<p>
+	Saludos</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Hola.</p>
+<p>
+	Mi nombre es Juanma D&iacute;az y soy coordinador TIC y profesor de Matem&aacute;ticas del <a href="http://www.ieschavesnogales.es/" target="_blank">IES Chaves Nogales</a> de Sevilla. Este verano nos hemos dado de alta en Google Apps para Educaci&oacute;n y pensamos usarlas en el pr&oacute;ximo curso. Tendremos todo el profesorado y el alumnado una cuenta de correo personalizada con nuestro dominio ieschavesnogales.es que usaremos a trav&eacute;s de Gmail. Tambi&eacute;n usaremos Google Calendar y los documentos compartidos a trav&eacute;s de Google Docs. Adem&aacute;s investigaremos m&aacute;s posibilidades educativas del resto de aplicaciones.</p>
+<p>
+	De momento hemos creado <a href="https://sites.google.com/site/ieschavesnogales/" target="_blank">este site</a> de Google donde contaremos nuestras actividades y experiencias.</p>
+<p>
+	Estar&iacute;amos encantados de participar en este proyecto para poder seguir aprendiendo y compartiendo.</p>
+<p>
+	Saludos</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-08-27T19:16:53+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/Juanma-Díaz/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/Juanma-Díaz/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Juanma Díaz]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Juanma]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Díaz]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/507266fd-3b0f-4940-85a0-3069ef507ba1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Gracias a todos. En breve tendr&eacute;is respuesta a vuestro inter&eacute;s.</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Gracias a todos. En breve tendr&eacute;is respuesta a vuestro inter&eacute;s.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-08-15T20:16:20+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/organizacion/inevery/perfil/Inevery-Crea-Espana/" />
+  </sioc_t:Comment>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/f76c5280-364b-4515-ba34-47ea1572bf7f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Hola soy Sara Reina, maestra de educaci&oacute;n infantil en el CEIP Antonio Machado de Collado Villalba.</p>
+<p>
+	Os dejo el enlace a mi blog de aula, &nbsp;en &eacute;l podreis encontrar algunas de las aplicaciones de google que usamos en nuestro aula.</p>
+<p>
+	<a href="http://blogaulaelefantes.blogspot.com.es/" target="_blank">http://blogaulaelefantes.blogspot.com.es/</a></p>
+<p>
+	Supongo que no os hace falta m&aacute;s gente de infantil, pero si no es as&iacute; , estar&iacute;a encantada de participar. Un saludo.</p>
+<p>
+	&nbsp;</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Hola soy Sara Reina, maestra de educaci&oacute;n infantil en el CEIP Antonio Machado de Collado Villalba.</p>
+<p>
+	Os dejo el enlace a mi blog de aula, &nbsp;en &eacute;l podreis encontrar algunas de las aplicaciones de google que usamos en nuestro aula.</p>
+<p>
+	<a href="http://blogaulaelefantes.blogspot.com.es/" target="_blank">http://blogaulaelefantes.blogspot.com.es/</a></p>
+<p>
+	Supongo que no os hace falta m&aacute;s gente de infantil, pero si no es as&iacute; , estar&iacute;a encantada de participar. Un saludo.</p>
+<p>
+	&nbsp;</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-08-14T05:18:14+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/sara--reina-herrera/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/sara--reina-herrera/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Sara  Reina Herrera @kenzitomania]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Sara ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Reina Herrera @kenzitomania]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recurso/trabajas-en-tu-aula-con-herramientas-del-entorno-g/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8/comentario/3483eea8-8ccd-40ea-b8ac-ee7d6eff1caa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	He o&iacute;do que se pueden solicitar gratuitamente cuentas de correo de Gmail para mi alumnado. Tengo una cuenta de Google Apps con un dominio (cpcisneros.es) pero s&oacute;lo me permite 10 usuarios. He enviado correos a sitios que me indicaban de Google pero no he recibido ninguna respuesta. &iquest;Soluci&oacute;n?</p>
+<p>
+	Muchas gracias</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	He o&iacute;do que se pueden solicitar gratuitamente cuentas de correo de Gmail para mi alumnado. Tengo una cuenta de Google Apps con un dominio (cpcisneros.es) pero s&oacute;lo me permite 10 usuarios. He enviado correos a sitios que me indicaban de Google pero no he recibido ninguna respuesta. &iquest;Soluci&oacute;n?</p>
+<p>
+	Muchas gracias</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-07-22T19:21:53+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/perfil/José-Antonio-Sánchez/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://ineverycrea.net/comunidad/ineverycrea/perfil/José-Antonio-Sánchez/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[José Antonio Sánchez]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[José Antonio]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Sánchez]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc:Space rdf:about="http://ineverycrea.net/comunidad/ineverycrea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Inevery Crea España]]></rdfs:label>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Inevery Crea España]]></dcterms:title>
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/profesores" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/innovaci%c3%b3n%20educativa" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n%20primaria" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/ESO" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n%20infantil" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/escuela%202.0" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/pedagog%c3%ada" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n%202.0" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/bachillerato" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/actividades%20interactivas" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/material%20educativo" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/unidades%20did%c3%a1cticas" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/pizarra%20digital" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/plataforma%20educativa" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/red%20educativa" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/proyecto%20colaborativo" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/videos%20educativos" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/herramientas%202.0" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/creatividad%20educativa" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/recursos%20educativos%20originales" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/inevery%20crea" />
+  </sioc:Space>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/profesores">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[profesores]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/innovaci%c3%b3n%20educativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[innovación educativa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n%20primaria">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación primaria]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/ESO">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ESO]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n%20infantil">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación infantil]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/escuela%202.0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escuela 2.0]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/pedagog%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pedagogía]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/educaci%c3%b3n%202.0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación 2.0]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/bachillerato">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bachillerato]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/actividades%20interactivas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[actividades interactivas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/material%20educativo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[material educativo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/unidades%20did%c3%a1cticas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[unidades didácticas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/pizarra%20digital">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pizarra digital]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/plataforma%20educativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[plataforma educativa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/red%20educativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[red educativa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/proyecto%20colaborativo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[proyecto colaborativo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/videos%20educativos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[videos educativos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/herramientas%202.0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[herramientas 2.0]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/creatividad%20educativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[creatividad educativa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/recursos%20educativos%20originales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recursos educativos originales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/ineverycrea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ineverycrea]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/inevery%20crea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[inevery crea]]></rdfs:label>
+  </sioc_t:Tag>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/video/1463b0db-39bb-4dcd-a51c-c1f1589e8642">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Video]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Video]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/herramientas-20/29fe54f0-bc5f-4471-8d67-50fb89f8827c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Herramientas 2.0]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Herramientas 2.0]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/areas-de-conocimiento/474385f8-0b1b-448a-8609-fbdc2fd771ef">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Áreas de conocimiento]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Áreas de conocimiento]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/castellano/56eb19ec-10f9-4852-9c01-6afe7d0054f9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Castellano]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Castellano]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/recursos-transversales/5b0ed91e-df6c-49d9-811c-375c0d1ac264">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Recursos transversales]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Recursos transversales]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/audiopodcast/737ef84d-94bb-4e82-81d2-254e1c441cb1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Audio/Podcast]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Audio/Podcast]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/herramientas-para-hacer-recursos-tic/872e02a4-65f5-4adb-801d-35585b5d9145">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Herramientas para hacer recursos TIC]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Herramientas para hacer recursos TIC]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/imagen/ce792a4d-99b4-4e36-bac1-34167435f3fa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Imagen]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Imagen]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/idioma-del-recurso/d22f6fec-b028-4f34-b79c-69353d547bb8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Idioma del recurso]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Idioma del recurso]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/comunidad/ineverycrea/recursos/categoria/labs-crea/de66a553-a6ba-4f18-bd1f-c2a265ccda1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Labs Crea]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Labs Crea]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/herramientas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[herramientas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/google">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[google]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/labscrea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[labscrea]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/comunidad/ineverycrea/busqueda/tag/apps">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[apps]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

@@ -1,0 +1,224 @@
+
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#>.
+@prefix owl:	<http://www.w3.org/2002/07/owl#>.
+@prefix scn:	<http://cv.iptc.org/newscodes/scene/>
+		
+<http://cv.iptc.org/newscodes/scene/> 
+	rdf:type skos:ConceptScheme;
+	skos:HasTopConcept		scn:010100;
+	skos:HasTopConcept		scn:010200;
+	skos:HasTopConcept		scn:010300;
+	skos:HasTopConcept		scn:010400;
+	skos:HasTopConcept		scn:010500;
+	skos:HasTopConcept		scn:010600;
+	skos:HasTopConcept		scn:010700;
+	skos:HasTopConcept		scn:010800;
+	skos:HasTopConcept		scn:010900;
+	skos:HasTopConcept		scn:011000;
+	skos:HasTopConcept		scn:011100;
+	skos:HasTopConcept		scn:011200;
+	skos:HasTopConcept		scn:011300;
+	skos:HasTopConcept		scn:011400;
+	skos:HasTopConcept		scn:011500;
+	skos:HasTopConcept		scn:011600;
+	skos:HasTopConcept		scn:011700;
+	skos:HasTopConcept		scn:011800;
+	skos:HasTopConcept		scn:011900;
+	skos:HasTopConcept		scn:012000;
+	skos:HasTopConcept		scn:012100;
+	skos:HasTopConcept		scn:012200;
+	skos:HasTopConcept		scn:012300;
+	skos:HasTopConcept		scn:012400.
+
+scn:010100
+	rdf:type skos:Concept;
+	skos:prefLabel	"headshot"@en-GB;
+	skos:prefLabel	"Portrait"@de;
+	skos:definition	"A head only view of a person (or animal/s) or persons as in a montage. "@en-GB;
+	skos:definition	"Ansicht nur des Kopfes einer oder mehrerer Personen oder von einem oder mehreren Tieren."@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:010200
+	rdf:type skos:Concept;
+	skos:prefLabel	"half-length"@en-GB;
+	skos:prefLabel	"Halbfigur"@de;
+	skos:definition	"A torso and head view of a person or persons. "@en-GB;
+	skos:definition	"Ansicht des Oberkörpers einer oder mehrerer Personen"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:010300
+	rdf:type skos:Concept;
+	skos:prefLabel	"full-length"@en-GB;
+	skos:prefLabel	"Ganzfigur"@de;
+	skos:definition	"A view from head to toe of a person or persons "@en-GB;
+	skos:definition	"Ansicht der vollständigen Figur einer oder mehrerer Personen"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:010400
+	rdf:type skos:Concept;
+	skos:prefLabel	"profile"@en-GB;
+	skos:prefLabel	"Profilansicht"@de;
+	skos:definition	"A view of a person from the side "@en-GB;
+	skos:definition	"Ansicht einer oder mehrerer Personen von der Seite"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:010500
+	rdf:type skos:Concept;
+	skos:prefLabel	"Rückansicht"@de;
+	skos:prefLabel	"rear view"@en-GB;
+	skos:definition	"Ansicht einer oder mehrerer Personen von hinten"@de;
+	skos:definition	"A view of a person or persons from the rear. "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:010600
+	rdf:type skos:Concept;
+	skos:prefLabel	"Einzelperson"@de;
+	skos:prefLabel	"single"@en-GB;
+	skos:definition	"Ansicht einer einzelnen Person"@de;
+	skos:definition	"A view of only one person, object or animal. "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:010700
+	rdf:type skos:Concept;
+	skos:prefLabel	"couple"@en-GB;
+	skos:prefLabel	"Paar"@de;
+	skos:definition	"Ansicht von zwei Personen zwischen denen eine persönliche Beziehung besteht, z.B. sind sie verlobt, verheiratet oder einer sonstigen Liebesbeziehung"@de;
+	skos:definition	"A view of two people who are in a personal relationship, for example engaged, married or in a romantic partnership. "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:010800
+	rdf:type skos:Concept;
+	skos:prefLabel	"two"@en-GB;
+	skos:prefLabel	"Zwei Personen"@de;
+	skos:definition	"A view of two people "@en-GB;
+	skos:definition	"Ansicht von zwei Personen"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:010900
+	rdf:type skos:Concept;
+	skos:prefLabel	"group"@en-GB;
+	skos:prefLabel	"Gruppe"@de;
+	skos:definition	"Ansicht von mehr als zwei Personen"@de;
+	skos:definition	"A view of more than two people "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011000
+	rdf:type skos:Concept;
+	skos:prefLabel	"Gesamtansicht"@de;
+	skos:prefLabel	"general view"@en-GB;
+	skos:definition	"An overall view of the subject and its surrounds "@en-GB;
+	skos:definition	"Ansicht eines Subjekts und von dessen Umgebung"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011100
+	rdf:type skos:Concept;
+	skos:prefLabel	"Panorama"@de;
+	skos:prefLabel	"panoramic view"@en-GB;
+	skos:definition	"A panoramic or wide angle view of a subject and its surrounds "@en-GB;
+	skos:definition	"Ein Panoramaansicht oder Weitwinkelansicht eines Subjekts und von dessen Umgebung"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011200
+	rdf:type skos:Concept;
+	skos:prefLabel	"aerial view"@en-GB;
+	skos:prefLabel	"Luftbild"@de;
+	skos:definition	"Eine Ansicht aus der Höhe"@de;
+	skos:definition	"A view taken from above "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011300
+	rdf:type skos:Concept;
+	skos:prefLabel	"under-water"@en-GB;
+	skos:prefLabel	"Unter Wasser"@de;
+	skos:definition	"A photo taken under water "@en-GB;
+	skos:definition	"Ein unter Wasser aufgenommenes Bild"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011400
+	rdf:type skos:Concept;
+	skos:prefLabel	"night scene"@en-GB;
+	skos:prefLabel	"Nachtaufnahme"@de;
+	skos:definition	"Ein Bild das während der Dunkelheit aufgenommen wurde"@de;
+	skos:definition	"A photo taken during darkness "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011500
+	rdf:type skos:Concept;
+	skos:prefLabel	"Satellitenansicht"@de;
+	skos:prefLabel	"satellite"@en-GB;
+	skos:definition	"A photo taken from a satellite in orbit "@en-GB;
+	skos:definition	"Ein Bild das aus einer Satellitenumlaufbahn aufgenommen wurde"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011600
+	rdf:type skos:Concept;
+	skos:prefLabel	"Außenansicht"@de;
+	skos:prefLabel	"exterior view"@en-GB;
+	skos:definition	"A photo that shows the exterior of a building or other object "@en-GB;
+	skos:definition	"Ein Bild das außerhalb  eines Gebäudes oder ähnlichen Objekts aufgenommen wurde."@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011700
+	rdf:type skos:Concept;
+	skos:prefLabel	"interior view"@en-GB;
+	skos:prefLabel	"Innenansicht"@de;
+	skos:definition	"Ein Bild das innerhalb eines Gebäudes oder ähnlichen Objekts aufgenommen wurde"@de;
+	skos:definition	"A scene or view of the interior of a building or other object "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011800
+	rdf:type skos:Concept;
+	skos:prefLabel	"close-up"@en-GB;
+	skos:prefLabel	"Nahaufnahme"@de;
+	skos:definition	"Eine Ansicht von einer Person oder einem Objekt das aus nächster Nähe um Details oder Emotionen hervorzustreichen. Auch Makro-Fotografie."@de;
+	skos:definition	"A view of, or part of a person/object taken at close range in order to emphasize detail or accentuate mood. Macro photography. "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:011900
+	rdf:type skos:Concept;
+	skos:prefLabel	"Aktionsaufnahme"@de;
+	skos:prefLabel	"action"@en-GB;
+	skos:definition	"Subject in motion such as children jumping, horse running "@en-GB;
+	skos:definition	"Subjekt in Bewegung, wie hüpfendes Kind, laufendes Pferd usw."@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:012000
+	rdf:type skos:Concept;
+	skos:prefLabel	"performing"@en-GB;
+	skos:prefLabel	"Beim Auftritt"@de;
+	skos:definition	"Subject or subjects on a stage performing to an audience "@en-GB;
+	skos:definition	"Subjekt(e) auf einer Bühne, während sie vor Publikum auftreten"@de;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:012100
+	rdf:type skos:Concept;
+	skos:prefLabel	"posing"@en-GB;
+	skos:prefLabel	"Posieren"@de;
+	skos:definition	"Subjekt(e) die eine besondere Körperposition einnehmen, wie ein "Victory"-Zeichen"@de;
+	skos:definition	"Subject or subjects posing such as a "victory" pose or other stance that symbolizes leadership. "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:012200
+	rdf:type skos:Concept;
+	skos:prefLabel	"symbolic"@en-GB;
+	skos:prefLabel	"Symbol"@de;
+	skos:definition	"Ein gestaltetes Bild das ein Ereignis symbolisiert, wie zwei Ringe für die Ehe"@de;
+	skos:definition	"A posed picture symbolizing an event - two rings for marriage "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:012300
+	rdf:type skos:Concept;
+	skos:prefLabel	"Ausgefallenes"@de;
+	skos:prefLabel	"off-beat"@en-GB;
+	skos:definition	"Ein attraktives, vielleicht auch lustiges Bild aus dem Alltag - Hund mit Sonnenbrille, Leute die in einem Brunnen baden"@de;
+	skos:definition	"An attractive, perhaps fun picture of everyday events - dog with sunglasses, people cooling off in the fountain "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.
+
+scn:012400
+	rdf:type skos:Concept;
+	skos:prefLabel	"movie scene"@en-GB;
+	skos:prefLabel	"Filmszene"@de;
+	skos:definition	"Bilder wie während der Aufnahmen zu einem Film oder einer Fernsehproduktion gemacht wurden"@de;
+	skos:definition	"Photos taken during the shooting of a movie or TV production. "@en-GB;
+	skos:inScheme <http://cv.iptc.org/newscodes/scene/>.

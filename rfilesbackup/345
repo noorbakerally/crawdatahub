@@ -1,0 +1,46 @@
+<rdf:RDF xmlns:marcrel="http://id.loc.gov/vocabulary/relators" xmlns:time="http://www.w3.org/2006/time#" xmlns:dctype="http://purl.org/dc/dcmitype/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dacs="http://www.archivists.org/governance/standards/dacs#" xmlns:dcterms="http://purl.org/dc/terms/">
+    <dacs:Series>
+        <dcterms:title>Series 6: Sylvia Beach's Circle and Collections</dcterms:title>
+        <dcterms:coverage>
+            <dacs:InclusiveDates>
+                <time:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1874-01-01T00:00:00Z</time:start>
+                <time:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-12-31T23:59:59Z</time:end>
+            </dacs:InclusiveDates>
+        </dcterms:coverage>
+        <marcrel:rps rdf:resource="http://findingaids.princeton.edu/repositories/mss"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31 boxes (4 partial)</dcterms:extent>
+        <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+        <dcterms:isPartOf rdf:resource="http://findingaids.princeton.edu/collections/C0108"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02284"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02285"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02288"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02289"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02101"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02290"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c01120"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c01987"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02291"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02292"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02293"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02297"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02298"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02306"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c00874"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c01523"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02307"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02308"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02309"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02310"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02311"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02078"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c01883"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02312"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02313"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c01980"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02314"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c00660"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c00659"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02315"/>
+        <dcterms:hasPart rdf:resource="http://findingaids.princeton.edu/collections/C0108/c02316"/>
+    </dacs:Series>
+</rdf:RDF>

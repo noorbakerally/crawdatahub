@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:Description rdf:nodeID="b48364"><geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41.65606</geo:lat></rdf:Description>
+<rdf:Description rdf:nodeID="b48364"><n0pred:parentCountry xmlns:n0pred="http://sws.geonames.org/ontology#" rdf:nodeID="b48366"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:identifier xmlns:dcterms="http://purl.org/dc/terms/">zaragoza.es</dcterms:identifier></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:description xmlns:dcterms="http://purl.org/dc/terms/" rdf:nodeID="b48363"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><rdfs:label rdf:nodeID="b48361"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:language xmlns:dcterms="http://purl.org/dc/terms/">es</dcterms:language></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:title xmlns:dcterms="http://purl.org/dc/terms/" rdf:nodeID="b48362"/></rdf:Description>
+<rdf:Description rdf:nodeID="b48364"><rdfs:seeAlso rdf:resource="http://sws.geonames.org/3104324/"/></rdf:Description>
+<rdf:Description rdf:nodeID="b48364"><n0pred:countryCode xmlns:n0pred="http://sws.geonames.org/ontology#">ES</n0pred:countryCode></rdf:Description>
+<rdf:Description rdf:nodeID="b48366"><n0pred:featureCode xmlns:n0pred="http://sws.geonames.org/ontology#" rdf:resource="http://www.geonames.org/ontology#A.PCLI"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><rdfs:label xml:lang="en">Zaragoza Public Data Catalogue</rdfs:label></rdf:Description>
+<rdf:Description rdf:nodeID="b48364"><rdfs:label rdf:nodeID="b48365"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:nodeID="b48364"/></rdf:Description>
+<rdf:Description rdf:nodeID="b48364"><n0pred:featureClass xmlns:n0pred="http://sws.geonames.org/ontology#" rdf:resource="http://www.geonames.org/ontology#P"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:title xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Zaragoza Public Data Catalogue</dcterms:title></rdf:Description>
+<rdf:Description rdf:nodeID="b48364"><geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.87734</geo:long></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:description xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Zaragoza Public Data Catalogue</dcterms:description></rdf:Description>
+<rdf:Description rdf:nodeID="b48364"><rdfs:label xml:lang="en">Saragossa</rdfs:label></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><rdf:type rdf:resource="http://data.fundacionctic.org/vocab/catalog/datasets#Catalog"/></rdf:Description>
+<rdf:Description rdf:nodeID="b48366"><rdfs:label xml:lang="en">Spain</rdfs:label></rdf:Description>
+<rdf:Description rdf:nodeID="b48366"><rdf:type rdf:resource="http://sws.geonames.org/ontology#Feature"/></rdf:Description>
+<rdf:Description rdf:nodeID="b48364"><n0pred:featureCode xmlns:n0pred="http://sws.geonames.org/ontology#" rdf:resource="http://www.geonames.org/ontology#P.PPLA"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-04-08</dcterms:issued></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><dcterms:type xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.fundacionctic.org/vocab/catalog/datasets#official"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><n0pred:status xmlns:n0pred="http://data.fundacionctic.org/vocab/catalog/datasets#" rdf:resource="http://data.fundacionctic.org/vocab/catalog/datasets#status-linkedData"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/zaragoza.es"><foaf:homepage xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://datos.zaragoza.es"/></rdf:Description>
+</rdf:RDF>

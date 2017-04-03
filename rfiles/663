@@ -1,0 +1,309 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix fmt: <http://www.w3.org/ns/formats/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix iso: <http://purl.org/iso25964/skos-thes#> .
+@prefix luc: <http://www.ontotext.com/owlim/lucene#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rrx: <http://purl.org/r2rml-ext/> .
+@prefix schema: <http://schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vdpp: <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wv: <http://vocab.org/waiver/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+aat:300264551 a gvp:Subject , iso:ThesaurusArray , gvp:Hierarchy , skos:Collection , skos:OrderedCollection ;
+	rdfs:label "Furnishings and Equipment (hierarchy name)"@en , "Gebruiksartikelen en Uitrusting"@nl , "Einrichtungen und Ausstattungen"@de , "Einrichtung und Ausstattung"@de , "mobiliario y equipamiento"@es ;
+	rdfs:seeAlso <http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300264551> ;
+	dct:created "2002-02-27T14:11:28"^^xsd:dateTime ;
+	dct:modified "2002-02-27T14:11:28"^^xsd:dateTime , "2014-12-05T08:40:51"^^xsd:dateTime , "2010-04-23T03:28:09"^^xsd:dateTime , "2011-01-08T02:00:07"^^xsd:dateTime , "2014-12-05T08:38:22"^^xsd:dateTime , "2016-09-23T09:37:38"^^xsd:dateTime , "2010-04-23T03:28:41"^^xsd:dateTime , "2002-02-27T14:17:05"^^xsd:dateTime , "2003-09-24T10:00:40"^^xsd:dateTime , "2010-05-20T10:26:48"^^xsd:dateTime , "2015-07-03T10:41:12"^^xsd:dateTime , "2015-07-03T15:24:46"^^xsd:dateTime , "2014-12-05T08:43:53"^^xsd:dateTime , "2011-01-08T02:00:43"^^xsd:dateTime , "2016-09-23T09:37:46"^^xsd:dateTime ;
+	skos:changeNote aat_rev:5001491340 , aat_rev:5001491339 , aat_rev:5002386967 , aat_rev:5002941024 , aat_rev:5003761869 , aat_rev:5003764437 , aat_rev:5004240944 , aat_rev:5004240945 , aat_rev:5001491341 , aat_rev:5001501230 , aat_rev:5002532044 , aat_rev:5004029042 , aat_rev:5004029152 , aat_rev:5001491342 , aat_rev:5003766095 , aat_rev:5004029043 , aat_rev:5004029153 , aat_rev:5002386971 , aat_rev:5002941029 , aat_rev:5004240953 ;
+	gvp:broader aat:300264092 ;
+	gvp:broaderGenericExtended aat:300264092 ;
+	gvp:broaderExtended aat:300264092 ;
+	gvp:broaderPreferredExtended aat:300264092 ;
+	gvp:parentString "Objects Facet" ;
+	skos:note aat_scopeNote:53325 , aat_scopeNote:100209 , aat_scopeNote:137824 , aat_rev:5001491340 , aat_rev:5001491339 , aat_rev:5002386967 , aat_rev:5002941024 , aat_rev:5003761869 , aat_rev:5003764437 , aat_rev:5004240944 , aat_rev:5004240945 , aat_rev:5001491341 , aat_rev:5001501230 , aat_rev:5002532044 , aat_rev:5004029042 , aat_rev:5004029152 , aat_rev:5001491342 , aat_rev:5003766095 , aat_rev:5004029043 , aat_rev:5004029153 , aat_rev:5002386971 , aat_rev:5002941029 , aat_rev:5004240953 ;
+	gvp:parentStringAbbrev "Objects Facet" ;
+	skosxl:prefLabel aat_term:1000303859-en , aat_term:1000612240-nl , aat_term:1000664335-de , aat_term:1000457034-es ;
+	skos:prefLabel "Furnishings and Equipment (hierarchy name)"@en , "Gebruiksartikelen en Uitrusting"@nl , "Einrichtung und Ausstattung"@de , "mobiliario y equipamiento"@es ;
+	skosxl:altLabel aat_term:1000664334-de ;
+	skos:altLabel "Einrichtungen und Ausstattungen"@de ;
+	gvp:broaderGeneric aat:300264092 ;
+	gvp:broaderPreferred aat:300264092 ;
+	gvp:prefLabelGVP aat_term:1000303859-en ;
+	skos:inScheme <http://vocab.getty.edu/aat/> ;
+	skos:notation "V.T" ;
+	skos:scopeNote aat_scopeNote:53325 , aat_scopeNote:100209 , aat_scopeNote:137824 ;
+	dct:contributor aat_contrib:10000000 , aat_contrib:10000131 , aat_contrib:10000205 , aat_contrib:10000232 ;
+	dc:identifier "300264551" ;
+	skos:member aat:300037335 , aat:300209261 , aat:300022238 , aat:300036743 , aat:300207851 , aat:300045611 , aat:300041619 , aat:300136012 , aat:300042929 ;
+	skos:memberList aat:300264551-list-300037335 ;
+	void:inDataset <http://vocab.getty.edu/dataset/aat> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	prov:wasGeneratedBy aat_rev:5001491340 .
+
+aat_rev:5001491340 a prov:Activity , prov:Create ;
+	dc:type "created" ;
+	prov:startedAtTime "2002-02-27T14:11:28"^^xsd:dateTime .
+
+aat_rev:5001491339 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2002-02-27T14:11:28"^^xsd:dateTime ;
+	dc:description "NEW SUBJECT (1000303859);" ;
+	prov:used aat:300264551 .
+
+aat_rev:5002386967 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2010-04-23T03:28:09"^^xsd:dateTime ;
+	dc:description "mobiliario y equipamiento (1000457034);" ;
+	prov:used aat:300264551 .
+
+aat_rev:5002941024 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2011-01-08T02:00:07"^^xsd:dateTime ;
+	dc:description "Interieurinrichting en uitrusting (1000512899);" ;
+	prov:used aat:300264551 .
+
+aat_rev:5003761869 a prov:Activity , prov:Modify ;
+	dc:type "term deleted" ;
+	prov:startedAtTime "2014-12-05T08:38:22"^^xsd:dateTime ;
+	dc:description "Interieurinrichting en uitrusting (1000512899);" ;
+	prov:used aat:300264551 .
+
+aat_rev:5003764437 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2014-12-05T08:40:51"^^xsd:dateTime ;
+	dc:description "Gebruiksartikelen en Uitrusting (1000612240);" ;
+	prov:used aat:300264551 .
+
+aat_rev:5004240944 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2016-09-23T09:37:38"^^xsd:dateTime ;
+	dc:description "Einrichtungen und Ausstattungen (1000664334);" ;
+	prov:used aat:300264551 .
+
+aat_rev:5004240945 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2016-09-23T09:37:38"^^xsd:dateTime ;
+	dc:description "Einrichtung und Ausstattung (1000664335);" ;
+	prov:used aat:300264551 .
+
+aat_rev:5001491341 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-02-27T14:17:05"^^xsd:dateTime ;
+	prov:used aat:300264551 .
+
+aat_rev:5001501230 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-09-24T10:00:40"^^xsd:dateTime ;
+	prov:used aat:300264551 .
+
+aat_rev:5002532044 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2010-05-20T10:26:48"^^xsd:dateTime ;
+	prov:used aat:300264551 .
+
+aat_rev:5004029042 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-07-03T10:41:12"^^xsd:dateTime ;
+	prov:used aat:300264551 .
+
+aat_rev:5004029152 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-07-03T15:24:46"^^xsd:dateTime ;
+	prov:used aat:300264551 .
+
+aat_rev:5001491342 a prov:Activity , prov:Modify ;
+	dc:type "note created" ;
+	prov:startedAtTime "2002-02-27T14:17:05"^^xsd:dateTime ;
+	dc:description "Language: " ;
+	prov:used aat:300264551 .
+
+aat_rev:5003766095 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2014-12-05T08:43:53"^^xsd:dateTime ;
+	dc:description "Language: Dutch (70261)" ;
+	prov:used aat:300264551 .
+
+aat_rev:5004029043 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2015-07-03T10:41:12"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used aat:300264551 .
+
+aat_rev:5004029153 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2015-07-03T15:24:46"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used aat:300264551 .
+
+aat_scopeNote:53325 a gvp:ScopeNote ;
+	rdf:value "The Furnishings and Equipment hierarchy contains terms for objects that are primarily movable that provide comfort, convenience, or protection in dwellings, places or business, or other public or private spaces. They may be useful or ornamental and may be used in indoor or outdoor spaces. Regarding other Hierarchies: Terms for objects with the primary purpose of storage receptacles or other forms of container (e.g., \"candle boxes,\" \"footlockers\") are in the Containers hierarchy."@en ;
+	dct:contributor aat_contrib:10000000 ;
+	dct:source aat_source:2000076211 ;
+	dc:identifier "53325" ;
+	dct:language aat:300388277 .
+
+aat_scopeNote:100209 a gvp:ScopeNote ;
+	rdf:value "Het gedeelte 'gebruiksartikelen en uitrusting' bevat descriptoren voor artefacten die primair en oorspronkelijk een gebruiksbestemming hebben (persoonlijke aankleding of inrichting van een ruimte) of die comfort, gemak of bescherming moeten bieden. Dergelijke artefacten zijn vaak verfraaid en worden in enkele gevallen zuiver als sierobject beschouwd."@nl ;
+	dct:contributor aat_contrib:10000205 ;
+	dct:source aat_source:2000077523 ;
+	dc:identifier "100209" ;
+	dct:language aat:300388256 .
+
+aat_scopeNote:137824 a gvp:ScopeNote ;
+	rdf:value "Der Abschnitt der \"Einrichtungen und Ausstattungen\" stellt Deskriptoren für menschengemachte Objekte bereit, deren primäre und ursprüngliche Funktion die Nützlichkeit ist - um eine Person oder einen Ort auszustatten oder um Komfort, Bequemlichkeit oder Schutz zu bieten. Diese Objekte sind oft verziert und werden gelegentlich auch als rein ornamental angesehen."@de ;
+	dct:contributor aat_contrib:10000232 ;
+	dct:source aat_source:2000084808 ;
+	dc:identifier "137824" ;
+	dct:language aat:300388344 .
+
+aat_term:1000303859-en a skosxl:Label ;
+	gvp:term "Furnishings and Equipment"@en ;
+	gvp:qualifier "hierarchy name"@en ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	skosxl:literalForm "Furnishings and Equipment (hierarchy name)"@en ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000000 ;
+	dct:contributor aat_contrib:10000000 ;
+	dct:source aat_source:2000094828 ;
+	gvp:sourceNonPreferred aat_source:2000094828 ;
+	dc:identifier "1000303859" ;
+	dct:language aat:300388277 .
+
+aat_term:1000612240-nl a skosxl:Label ;
+	gvp:term "Gebruiksartikelen en Uitrusting"@nl ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	skosxl:literalForm "Gebruiksartikelen en Uitrusting"@nl ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000205 ;
+	dct:contributor aat_contrib:10000205 ;
+	dc:identifier "1000612240" ;
+	dct:language aat:300388256 .
+
+aat_term:1000664335-de a skosxl:Label ;
+	gvp:term "Einrichtung und Ausstattung"@de ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	skosxl:literalForm "Einrichtung und Ausstattung"@de ;
+	gvp:termType <http://vocab.getty.edu/term/type/AlternateDescriptor> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/SingularNoun> ;
+	gvp:contributorPreferred aat_contrib:10000232 ;
+	dct:contributor aat_contrib:10000232 ;
+	dct:source aat_source:2000084808 ;
+	dc:identifier "1000664335" ;
+	dct:language aat:300388344 .
+
+aat_term:1000457034-es a skosxl:Label ;
+	gvp:term "mobiliario y equipamiento"@es ;
+	gvp:displayOrder "5"^^xsd:positiveInteger ;
+	skosxl:literalForm "mobiliario y equipamiento"@es ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/SingularNoun> ;
+	gvp:contributorPreferred aat_contrib:10000131 ;
+	dct:contributor aat_contrib:10000131 ;
+	gvp:sourcePreferred aat_source:2000051034 ;
+	dct:source aat_source:2000051034 ;
+	dc:identifier "1000457034" ;
+	dct:language aat:300389311 .
+
+aat_term:1000664334-de a skosxl:Label ;
+	gvp:term "Einrichtungen und Ausstattungen"@de ;
+	gvp:displayOrder "3"^^xsd:positiveInteger ;
+	skosxl:literalForm "Einrichtungen und Ausstattungen"@de ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/PluralNoun> ;
+	dct:contributor aat_contrib:10000232 ;
+	gvp:contributorNonPreferred aat_contrib:10000232 ;
+	gvp:sourcePreferred aat_source:2000084808 ;
+	dct:source aat_source:2000084808 ;
+	dc:identifier "1000664334" ;
+	dct:language aat:300388344 .
+
+aat:300264551-list-300037335 a rdf:List ;
+	rdf:rest aat:300264551-list-300209261 ;
+	rdf:first aat:300037335 .
+
+aat:300264551-list-300209261 a rdf:List ;
+	rdf:rest aat:300264551-list-300022238 ;
+	rdf:first aat:300209261 .
+
+aat:300264551-list-300022238 a rdf:List ;
+	rdf:rest aat:300264551-list-300036743 ;
+	rdf:first aat:300022238 .
+
+aat:300264551-list-300036743 a rdf:List ;
+	rdf:rest aat:300264551-list-300207851 ;
+	rdf:first aat:300036743 .
+
+aat:300264551-list-300207851 a rdf:List ;
+	rdf:rest aat:300264551-list-300045611 ;
+	rdf:first aat:300207851 .
+
+aat:300264551-list-300045611 a rdf:List ;
+	rdf:rest aat:300264551-list-300041619 ;
+	rdf:first aat:300045611 .
+
+aat:300264551-list-300041619 a rdf:List ;
+	rdf:rest aat:300264551-list-300136012 ;
+	rdf:first aat:300041619 .
+
+aat:300264551-list-300136012 a rdf:List ;
+	rdf:rest aat:300264551-list-300042929 ;
+	rdf:first aat:300136012 .
+
+aat:300264551-list-300042929 a rdf:List ;
+	rdf:rest rdf:nil ;
+	rdf:first aat:300042929 .

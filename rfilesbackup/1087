@@ -1,0 +1,399 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:def-ef="http://location.data.gov.uk/def/ef/SamplingPoint/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:def-bw="http://environment.data.gov.uk/def/bathing-water/"
+    xmlns:def-bwq="http://environment.data.gov.uk/def/bathing-water-quality/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:bw="http://environment.data.gov.uk/id/bathing-water/"
+    xmlns:j.1="http://www.w3.org/1999/xhtml/vocab#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:api="http://purl.org/linked-data/api/vocab#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <api:ListEndpoint rdf:about="http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.rdf">
+    <dct:isPartOf rdf:resource="http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.rdf"/>
+    <j.0:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >10</j.0:itemsPerPage>
+    <j.1:next rdf:resource="http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.rdf?_page=1"/>
+    <api:page rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >0</api:page>
+    <api:definition rdf:resource="http://environment.data.gov.uk/meta/doc/bathing-water-quality/in-season/sample.rdf"/>
+    <api:items rdf:parseType="Collection">
+      <def-bwq:SampleAssessment rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950606/time/105000/recordDate/19950606">
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W23</rdfs:label>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089763"/>
+        <def-bwq:totalColiformQualifier>
+          <rdf:Description rdf:about="http://environment.data.gov.uk/def/bathing-water-quality/actual">
+            <def-bwq:countQualifierNotation rdf:datatype="http://environment.data.gov.uk/def/bathing-water-quality/countQualifierCode"
+            >=</def-bwq:countQualifierNotation>
+          </rdf:Description>
+        </def-bwq:totalColiformQualifier>
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:salmonellaPresent>
+          <rdf:Description rdf:about="http://environment.data.gov.uk/def/bathing-water-quality/not-assessed">
+            <def-bwq:presenceNotation rdf:datatype="http://environment.data.gov.uk/def/bathing-water-quality/presenceCode"
+            >n/a</def-bwq:presenceNotation>
+            <skos:prefLabel xml:lang="en">not-assessed</skos:prefLabel>
+          </rdf:Description>
+        </def-bwq:salmonellaPresent>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-06-06T10:50:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-06-06T10:50:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >1</def-bwq:faecalStreptococciCount>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W23">
+            <rdfs:label xml:lang="en">British Week:1995-W23</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:bathingWater>
+          <rdf:Description rdf:about="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300">
+            <def-bw:eubwidNotation rdf:datatype="http://environment.data.gov.uk/def/bathing-water/eubwid"
+            >ukk2206-20300</def-bw:eubwidNotation>
+            <skos:prefLabel xml:lang="en">Ringstead Bay</skos:prefLabel>
+          </rdf:Description>
+        </def-bwq:bathingWater>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <def-bwq:samplingPoint>
+          <rdf:Description rdf:about="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300">
+            <def-ef:samplePointNotation rdf:datatype="http://location.data.gov.uk/def/ef/SamplingPoint/samplePointCode"
+            >20300</def-ef:samplePointNotation>
+            <skos:prefLabel xml:lang="en">Sampling point at Ringstead Bay</skos:prefLabel>
+          </rdf:Description>
+        </def-bwq:samplingPoint>
+        <def-bwq:sampleClassification>
+          <rdf:Description rdf:about="http://environment.data.gov.uk/def/bathing-water-quality/G">
+            <skos:prefLabel xml:lang="en">Higher</skos:prefLabel>
+            <def-bwq:complianceCodeNotation rdf:datatype="http://environment.data.gov.uk/def/bathing-water-quality/complianceCode"
+            >G</def-bwq:complianceCodeNotation>
+          </rdf:Description>
+        </def-bwq:sampleClassification>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >5</def-bwq:faecalColiformCount>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2</def-bwq:totalColiformCount>
+        <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+      </def-bwq:SampleAssessment>
+      <qb:Observation rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950519/time/105500/recordDate/19950519">
+        <def-bwq:sampleClassification rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/G"/>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089761"/>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >3</def-bwq:faecalStreptococciCount>
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W20</rdfs:label>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >1</def-bwq:totalColiformCount>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-05-19T10:55:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-05-19T10:55:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <rdf:type rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment"/>
+        <def-bwq:salmonellaPresent rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/not-assessed"/>
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2</def-bwq:faecalColiformCount>
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W20">
+            <rdfs:label xml:lang="en">British Week:1995-W20</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+      </qb:Observation>
+      <qb:Observation rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950813/time/111500/recordDate/19950813">
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >21</def-bwq:faecalColiformCount>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W32</rdfs:label>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-08-13T11:15:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-08-13T11:15:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089772"/>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >17</def-bwq:faecalStreptococciCount>
+        <def-bwq:salmonellaPresent rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/not-assessed"/>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >20</def-bwq:totalColiformCount>
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W32">
+            <rdfs:label xml:lang="en">British Week:1995-W32</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:sampleClassification rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/G"/>
+        <rdf:type rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment"/>
+      </qb:Observation>
+      <def-bwq:SampleAssessment rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950719/time/112500/recordDate/19950719">
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >10</def-bwq:totalColiformCount>
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W29</rdfs:label>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:salmonellaPresent>
+          <rdf:Description rdf:about="http://environment.data.gov.uk/def/bathing-water-quality/not-present">
+            <def-bwq:presenceNotation rdf:datatype="http://environment.data.gov.uk/def/bathing-water-quality/presenceCode"
+            >N</def-bwq:presenceNotation>
+            <skos:prefLabel xml:lang="en">not-present</skos:prefLabel>
+          </rdf:Description>
+        </def-bwq:salmonellaPresent>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <def-bwq:sampleClassification rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/G"/>
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W29">
+            <rdfs:label xml:lang="en">British Week:1995-W29</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >5</def-bwq:faecalColiformCount>
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+        <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-07-19T11:25:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-07-19T11:25:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089769"/>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >59</def-bwq:faecalStreptococciCount>
+      </def-bwq:SampleAssessment>
+      <qb:Observation rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950703/time/111000/recordDate/19950703">
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W27</rdfs:label>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089767"/>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <rdf:type rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment"/>
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-07-03T11:10:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-07-03T11:10:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >1</def-bwq:totalColiformCount>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >3</def-bwq:faecalColiformCount>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >1</def-bwq:faecalStreptococciCount>
+        <def-bwq:sampleClassification rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/G"/>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:salmonellaPresent rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/not-assessed"/>
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W27">
+            <rdfs:label xml:lang="en">British Week:1995-W27</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:faecalStreptococciQualifier>
+          <rdf:Description rdf:about="http://environment.data.gov.uk/def/bathing-water-quality/lessThan">
+            <def-bwq:countQualifierNotation rdf:datatype="http://environment.data.gov.uk/def/bathing-water-quality/countQualifierCode"
+            >&lt;</def-bwq:countQualifierNotation>
+          </rdf:Description>
+        </def-bwq:faecalStreptococciQualifier>
+      </qb:Observation>
+      <qb:Observation rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950727/time/111000/recordDate/19950727">
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:sampleClassification rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/G"/>
+        <def-bwq:salmonellaPresent rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/not-assessed"/>
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W30">
+            <rdfs:label xml:lang="en">British Week:1995-W30</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >29</def-bwq:totalColiformCount>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089770"/>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W30</rdfs:label>
+        <rdf:type rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment"/>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >13</def-bwq:faecalColiformCount>
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >15</def-bwq:faecalStreptococciCount>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-07-27T11:10:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-07-27T11:10:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+      </qb:Observation>
+      <def-bwq:SampleAssessment rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950822/time/111000/recordDate/19950822">
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W34">
+            <rdfs:label xml:lang="en">British Week:1995-W34</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089773"/>
+        <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >470</def-bwq:totalColiformCount>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >160</def-bwq:faecalStreptococciCount>
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W34</rdfs:label>
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:sampleClassification>
+          <rdf:Description rdf:about="http://environment.data.gov.uk/def/bathing-water-quality/I">
+            <skos:prefLabel xml:lang="en">Minimum</skos:prefLabel>
+            <def-bwq:complianceCodeNotation rdf:datatype="http://environment.data.gov.uk/def/bathing-water-quality/complianceCode"
+            >I</def-bwq:complianceCodeNotation>
+          </rdf:Description>
+        </def-bwq:sampleClassification>
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+        <def-bwq:salmonellaPresent rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/not-present"/>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-08-22T11:10:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-08-22T11:10:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >297</def-bwq:faecalColiformCount>
+      </def-bwq:SampleAssessment>
+      <def-bwq:SampleAssessment rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950527/time/111000/recordDate/19950527">
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W21">
+            <rdfs:label xml:lang="en">British Week:1995-W21</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:salmonellaPresent rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/not-assessed"/>
+        <def-bwq:sampleClassification rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/G"/>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >9</def-bwq:faecalStreptococciCount>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >18</def-bwq:totalColiformCount>
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >20</def-bwq:faecalColiformCount>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089762"/>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W21</rdfs:label>
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-05-27T11:10:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-05-27T11:10:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+      </def-bwq:SampleAssessment>
+      <qb:Observation rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950802/time/111000/recordDate/19950802">
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <rdf:type rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment"/>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >600</def-bwq:totalColiformCount>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >200</def-bwq:faecalColiformCount>
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:salmonellaPresent rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/not-assessed"/>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-08-02T11:10:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-08-02T11:10:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W31</rdfs:label>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089771"/>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W31">
+            <rdfs:label xml:lang="en">British Week:1995-W31</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:sampleClassification rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/I"/>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >14</def-bwq:faecalStreptococciCount>
+      </qb:Observation>
+      <qb:Observation rdf:about="http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/20300/date/19950912/time/112000/recordDate/19950912">
+        <def-bwq:sampleDateTime>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/gregorian-instant/1995-09-12T11:20:00">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1995-09-12T11:20:00</time:inXSDDateTime>
+          </rdf:Description>
+        </def-bwq:sampleDateTime>
+        <qb:dataSet rdf:resource="http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season"/>
+        <def-bwq:sampleClassification rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/G"/>
+        <def-bwq:faecalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >3</def-bwq:faecalColiformCount>
+        <def-bwq:totalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:abnormalWeatherException rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</def-bwq:abnormalWeatherException>
+        <def-bwq:faecalStreptococciCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2</def-bwq:faecalStreptococciCount>
+        <def-bwq:faecalStreptococciQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <dct:source rdf:resource="http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_2011_BWQ_BASELINE.csv#line=089777"/>
+        <rdfs:label xml:lang="en">Ringstead Bay sample assessment for 1995-W37</rdfs:label>
+        <def-bwq:salmonellaPresent rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/not-assessed"/>
+        <rdf:type rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment"/>
+        <def-bwq:faecalColiformQualifier rdf:resource="http://environment.data.gov.uk/def/bathing-water-quality/actual"/>
+        <def-bwq:sampleWeek>
+          <rdf:Description rdf:about="http://reference.data.gov.uk/id/week/1995-W37">
+            <rdfs:label xml:lang="en">British Week:1995-W37</rdfs:label>
+          </rdf:Description>
+        </def-bwq:sampleWeek>
+        <def-bwq:samplingPoint rdf:resource="http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/20300"/>
+        <def-bwq:totalColiformCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >20</def-bwq:totalColiformCount>
+        <def-bwq:bathingWater rdf:resource="http://environment.data.gov.uk/id/bathing-water/ukk2206-20300"/>
+      </qb:Observation>
+    </api:items>
+    <api:extendedMetadataVersion rdf:resource="http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.rdf?_metadata=all"/>
+    <dct:hasPart rdf:resource="http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.rdf"/>
+    <j.1:first rdf:resource="http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.rdf?_page=0"/>
+    <j.0:startIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</j.0:startIndex>
+    <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+  </api:ListEndpoint>
+</rdf:RDF>

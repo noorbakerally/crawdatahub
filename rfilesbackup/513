@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:air="http://www.megginson.com/exp/ns/airports#"
+ xmlns:contact="http://www.w3.org/2000/10/swap/pim/contact#"
+ xmlns:wn="http://xmlns.com/wordnet/1.6/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<foaf:Person rdf:ID="djw">
+<foaf:name>Daniel Weitzner</foaf:name>
+<foaf:firstName>Daniel</foaf:firstName>
+<foaf:surname>Weitzner</foaf:surname>
+<foaf:nick>Danny</foaf:nick>
+<foaf:mbox_sha1sum>032c319f439f63efba54f4fa51bfb3a3fafedfbe</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://www.w3.org/People/Weitzner.html"></foaf:homepage>
+<foaf:openid rdf:resource="http://www.w3.org/People/Weitzner.html"></foaf:openid>
+<foaf:depiction rdf:resource="http://www.w3.org/People/djweitzner/public/dannyhead.jpg"></foaf:depiction>
+<foaf:phone rdf:resource="tel:+1-617-253-8036"></foaf:phone>
+<foaf:workplaceHomepage rdf:resource="http://www.w3.org/"></foaf:workplaceHomepage>
+<foaf:workInfoHomepage rdf:resource="http://www.w3.org/People/Weitzner.html"></foaf:workInfoHomepage>
+<foaf:schoolHomepage rdf:resource="http://www.swarthmore.edu/"></foaf:schoolHomepage>
+<foaf:member rdf:resource="http://dig.csail.mit.edu/data#DIG"></foaf:member>
+<contact:nearestAirport>
+<wn:Airport air:icao="KDCA" air:iata="DCA"></wn:Airport></contact:nearestAirport>
+<foaf:based_near rdf:parseType="Resource">
+<geo:Point>
+<geo:lat>38.975725</geo:lat>
+<geo:long>--77.066431</geo:long></geo:Point></foaf:based_near>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Dan Brickley</foaf:name>
+<foaf:mbox_sha1sum>362ce75324396f0aa2d3e5f1246f40bf3bb44401</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://rdfweb.org/people/danbri/rdfweb/danbri-foaf.rdf"></rdfs:seeAlso></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Eric Miller</foaf:name>
+<foaf:mbox_sha1sum>f94e302d5015c9e78ada17f1ba2c91bcae427db5</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://purl.org/net/eric/"></rdfs:seeAlso></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Libby Miller</foaf:name>
+<foaf:mbox_sha1sum>289d4d44325d0b0218edc856c8c3904fa3fd2875</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://swordfish.rdfweb.org/people/libby/rdfweb/webwho.xrdf"></rdfs:seeAlso></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Dan Connolly</foaf:name>
+<foaf:mbox_sha1sum>94b6eb0c835f928c5ed565dc3ed1a355ac1b41e5</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://www.w3.org/People/Connolly/home-smart.rdf"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Dean Jackson</foaf:name>
+<foaf:mbox_sha1sum>6de4ff27ef927b9ba21ccc88257e41a2d7e7d293</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://www.grorg.org/dean/foaf.rdf"></rdfs:seeAlso></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person rdf:nodeID="Tim">
+<foaf:name>Tim Berners-Lee</foaf:name>
+<foaf:mbox_sha1sum></foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://www.w3.org/People/Berners-Lee"></foaf:homepage>
+<foaf:family_name>Berners-Lee</foaf:family_name>
+<foaf:givenname>Timothy</foaf:givenname>
+<foaf:mbox rdf:resource="mailto:tbl@w3.org"></foaf:mbox>
+<rdfs:seeAlso rdf:resource="http://www.w3.org/People/Berners-Lee/card.rdf"></rdfs:seeAlso></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Jim Hendler</foaf:name>
+<foaf:mbox_sha1sum>8de055c01fb32148bd71121a55edfa91cfc61cfa</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://www.cs.umd.edu/~hendler/"></foaf:homepage></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person rdf:nodeID="DanC">
+<rdfs:seeAlso rdf:resource="http://www.w3.org/People/Connolly/home-smart.rdf"></rdfs:seeAlso>
+<foaf:mbox rdf:resource="mailto:connolly@w3.org"></foaf:mbox>
+<foaf:name>Dan Connolly</foaf:name>
+<foaf:mbox_sha1sum>94b6eb0c835f928c5ed565dc3ed1a355ac1b41e5</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://www.w3.org/People/Connolly/home-smart.rdf"></rdfs:seeAlso></foaf:Person></foaf:knows>
+
+<foaf:knows>
+<foaf:person>
+<foaf:name>Harry Halpin</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.ibiblio.org/hhalpin/foaf.rdf"></rdfs:seeAlso></foaf:person></foaf:knows>
+
+
+<foaf:knows>
+<foaf:person>
+<foaf:name>Robert Mark White</foaf:name>
+<rdfs:seeAlso rdf:resource="http://geocities.com/rmarkwhite/foaf.xml"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Lalana Kagal</foaf:name>
+<rdfs:seeAlso rdf:resource="http://people.csail.mit.edu/lkagal/foaf#me"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Peter Szolovits</foaf:name>
+<rdfs:seeAlso rdf:resource="http://people.csail.mit.edu/psz/foaf.rdf#me"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Oshani Seneviratne</foaf:name>
+<rdfs:seeAlso rdf:resource="http://people.apache.org/~oshani/foaf.rdf#me"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Henrik Nielsen</foaf:name>
+<rdfs:seeAlso rdf:resource="http://research.microsoft.com/~henrikn/foaf.xml#me"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Philippe LeHegaret</foaf:name>
+<rdfs:seeAlso rdf:resource="http://teole.jfouffa.org/People/Teole/card.rdf#me"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>mc schraefel</foaf:name>
+<rdfs:seeAlso rdf:resource="http://users.ecs.soton.ac.uk/mc/mcfoaf.rdf#me"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Yolanda Gil</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.isi.edu/~gil/foaf.rdf#me"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Ivan Herman</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.ivan-herman.net/foaf.rdf#me"></rdfs:seeAlso></foaf:person></foaf:knows>
+<foaf:knows>
+<foaf:person>
+<foaf:name>Jennifer Golbeck</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.mindswap.org/2004/owl/mindswappers#Jennifer.Golbeck"></rdfs:seeAlso></foaf:person></foaf:knows></foaf:Person></rdf:RDF>

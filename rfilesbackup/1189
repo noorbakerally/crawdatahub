@@ -1,0 +1,56 @@
+@prefix gd: <http://vocab.lenka.no/geo-deling#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+@base <http://data.lenka.no> .
+
+<http://data.lenka.no/geo/inndeling/06> gn:officialName "Buskerud"@no, "Buskerud"@se, "Buskerud"@fkv ;
+	a gd:Fylke ;
+	gd:fylkenr "06" ;
+	pos:lat "59.7484" ;
+	pos:long "10.1891" ;
+	owl:sameAs <http://sws.geonames.org/3159665/> ;
+	gn:childrenFeatures <http://data.lenka.no/geo/inndeling/06/0602>, <http://data.lenka.no/geo/inndeling/06/0604>, <http://data.lenka.no/geo/inndeling/06/0605>, <http://data.lenka.no/geo/inndeling/06/0612>, <http://data.lenka.no/geo/inndeling/06/0615>, <http://data.lenka.no/geo/inndeling/06/0616>, <http://data.lenka.no/geo/inndeling/06/0617>, <http://data.lenka.no/geo/inndeling/06/0619>, <http://data.lenka.no/geo/inndeling/06/0620>, <http://data.lenka.no/geo/inndeling/06/0621>, <http://data.lenka.no/geo/inndeling/06/0622>, <http://data.lenka.no/geo/inndeling/06/0623>, <http://data.lenka.no/geo/inndeling/06/0624>, <http://data.lenka.no/geo/inndeling/06/0625>, <http://data.lenka.no/geo/inndeling/06/0626>, <http://data.lenka.no/geo/inndeling/06/0627>, <http://data.lenka.no/geo/inndeling/06/0628>, <http://data.lenka.no/geo/inndeling/06/0631>, <http://data.lenka.no/geo/inndeling/06/0632>, <http://data.lenka.no/geo/inndeling/06/0633> .
+<http://data.lenka.no/geo/inndeling/06/0602> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0604> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0605> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0612> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0615> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0616> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0617> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0619> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0620> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0621> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0622> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0623> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0624> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0625> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0626> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0627> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0628> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0631> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0632> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/0633> gn:parentFeature <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/58733> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/58196> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/84687> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/85049> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/2710217> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/113585> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/113196> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/112669> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/332961> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/84296> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/83953> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/71769> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/71610> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/58720> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/72359> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/73371> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/60196> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/70603> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/69949> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/sted/98608> gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> .
+<http://data.lenka.no/geo/inndeling/06/data> void:inDataset <http://data.lenka.no/#dataset-geo> .

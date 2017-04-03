@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dct="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:vCard="http://www.w3.org/2006/vcard/ns#" xmlns:gr="http://purl.org/goodrelations/v1#" xmlns:cld="http://s.opencalais.com/1/linkeddata/pred/" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:org="http://www.w3.org/ns/org#" xmlns:rov="http://www.w3.org/ns/regorg#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:opencorporates="http://opencorporates.com/vocab/0.1#">
+  <rdf:Description rdf:about="https://opencorporates.com/id/companies/us_ak/124437">
+    <rdfs:label>1048 WHITNEY ROAD, ANCHORAGE, LLC</rdfs:label>
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/regorg#RegisteredOrganization"/>
+    <opencorporates:legalName>1048 WHITNEY ROAD, ANCHORAGE, LLC</opencorporates:legalName>
+    <rov:legalName>1048 WHITNEY ROAD, ANCHORAGE, LLC</rov:legalName>
+    <opencorporates:companyType>Limited Liability Company</opencorporates:companyType>
+    <rov:orgType>Limited Liability Company</rov:orgType>
+    <opencorporates:companyStatus>Good Standing</opencorporates:companyStatus>
+    <rov:orgStatus>Good Standing</rov:orgStatus>
+    <rov:registration rdf:resource="https://opencorporates.com/id/companies/us_ak/124437#id"/>
+    <vCard:adr rdf:parseType="Resource">
+      <vCard:extended-address>18000 INTERNATIONAL BLVD. SUITE 800, SEATTLE, WA 98188</vCard:extended-address>
+    </vCard:adr>
+    <org:hasRegisteredSite rdf:resource="https://opencorporates.com/id/companies/us_ak/124437#ra"/>
+  </rdf:Description>
+  <adms:Identifier rdf:about="https://opencorporates.com/id/companies/us_ak/124437#id">
+    <skos:notation>124437</skos:notation>
+    <adms:schemaAgency>Alaska Department of Commerce</adms:schemaAgency>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-13</dct:issued>
+  </adms:Identifier>
+  <org:Site rdf:about="https://opencorporates.com/id/companies/us_ak/124437#ra">
+    <org:siteAddress>
+      <locn:Address>
+        <locn:fullAddress>18000 INTERNATIONAL BLVD. SUITE 800, SEATTLE, WA 98188</locn:fullAddress>
+      </locn:Address>
+    </org:siteAddress>
+  </org:Site>
+  <rdf:Description rdf:about="https://opencorporates.com/companies/us_ak/124437">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="https://opencorporates.com/id/companies/us_ak/124437"/>
+    <dct:title>Information about 1048 WHITNEY ROAD, ANCHORAGE, LLC</dct:title>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-04-08T14:37:19Z</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-14T08:57:38Z</dct:modified>
+    <dct:hasFormat rdf:resource="https://opencorporates.com/companies/us_ak/124437.rdf"/>
+    <dct:hasFormat rdf:resource="https://opencorporates.com/companies/us_ak/124437.json"/>
+    <dct:hasFormat rdf:resource="https://opencorporates.com/companies/us_ak/124437.xml"/>
+    <dct:hasFormat rdf:resource="https://opencorporates.com/companies/us_ak/124437.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://opencorporates.com/companies/us_ak/124437.rdf">
+    <dct:isFormatOf rdf:resource="https://opencorporates.com/companies/us_ak/124437"/>
+    <foaf:primaryTopic rdf:resource="https://opencorporates.com/id/companies/us_ak/124437"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:format>application/rdf+xml</dct:format>
+    <dct:title>Linked Data in RDF format for 1048 WHITNEY ROAD, ANCHORAGE, LLC</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://opencorporates.com/companies/us_ak/124437.json">
+    <dct:isFormatOf rdf:resource="https://opencorporates.com/companies/us_ak/124437"/>
+    <foaf:primaryTopic rdf:resource="https://opencorporates.com/id/companies/us_ak/124437"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:format>application/json</dct:format>
+    <dct:title>Data in JSON format for 1048 WHITNEY ROAD, ANCHORAGE, LLC</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://opencorporates.com/companies/us_ak/124437.xml">
+    <dct:isFormatOf rdf:resource="https://opencorporates.com/companies/us_ak/124437"/>
+    <foaf:primaryTopic rdf:resource="https://opencorporates.com/id/companies/us_ak/124437"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:format>application/xml</dct:format>
+    <dct:title>Data in XML format for 1048 WHITNEY ROAD, ANCHORAGE, LLC</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://opencorporates.com/companies/us_ak/124437.html">
+    <dct:isFormatOf rdf:resource="https://opencorporates.com/companies/us_ak/124437"/>
+    <foaf:primaryTopic rdf:resource="https://opencorporates.com/id/companies/us_ak/124437"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:format>text/html</dct:format>
+    <dct:title>Data in HTML format for 1048 WHITNEY ROAD, ANCHORAGE, LLC</dct:title>
+  </rdf:Description>
+</rdf:RDF>

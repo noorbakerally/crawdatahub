@@ -1,0 +1,76 @@
+Files:
+	- jsonwithrurl:
+		- contains json file for each dataset
+		- each file contain exact link of resource and format 
+	
+	- rRepStats.json:
+		- for each resource, contains:
+			- ATriples STriples OTriples
+
+	- rlinks:
+		- contains all links for all resouces for all datasets
+
+	- sourceStatus.ttl:
+		- contains RDF description of all resources
+		- and a description about their triples (A,S,O)
+
+	- filestatus.json:
+		- a file containing the status of all files downloaded
+		- for each content type there is array of links 
+		- an error array containing links which couldn't be retrieved
+
+	- revfilestatus.json
+		- a line contains:
+			- a link for the RDF graph
+			- the format of the RDF graph
+
+generateJSON.py
+================
+	- iterate through all datasets 
+	- get example resource
+	- create json for each dataset:
+		- put example resource and format
+	- all files stored in jsondatahubio
+
+
+generateRLinks.py
+=================
+- uses jsonwithrurl and print all the url for all resources
+- the output is stdout to a file name rlinks
+
+getResourceFiles.py
+===================
+- uses rlinks file
+- for each line in rlinks
+	- it downloads the file and stores it with a filename
+	- the filename is derived based on the number of the line in the file
+- create a json file name filestatus.json with:
+	- for each content type there is array of links 
+	- an error array containing links which couldn't be retrieved
+
+reGetError.py
+==============
+- uses filestatus.json
+- try to download all files which couldn't be downloaded
+	- i.e. all files in the error array of filestatus
+- it finally updates filestatus:
+	- if a file could be retrived again, the link is removed from error
+
+revertFileStatus.py
+===================
+- uses filestatus 
+- revert the file and stores in in a revfilestatus.json file where in each like:
+	- there is a link and associated with it a mime type of how to load the graph
+
+tryLoadingGraph.py
+===================
+try to load graphs
+
+generateResult.py
+==================
+
+
+generateTTLFile.py
+==================
+- uses rRepStats.json and generate a turtle file
+- output file name is sourceStatus.ttl

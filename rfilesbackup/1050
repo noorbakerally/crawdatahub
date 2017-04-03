@@ -1,0 +1,32 @@
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix ns1:	<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101/> .
+ns1:record	foaf:primaryTopic	<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101> .
+@prefix dcat:	<http://www.w3.org/ns/dcat#> .
+@prefix ns3:	<https://nkod.opendata.cz/zdroje/katalog/> .
+ns3:NKOD	dcat:dataset	<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101>	rdf:type	dcat:Dataset .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:	<http://purl.org/dc/terms/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101>	dct:modified	"2017-03-15"^^xsd:date ;
+	dct:title	"Posudky proveden\u00E9 l\u00E9ka\u0159skou posudkovou slu\u017Ebou"@cs ;
+	dct:description	"Statistika po\u010Dtu posudk\u016F proveden\u00FDch l\u00E9ka\u0159skou posudkovou slu\u017Ebou"@cs .
+@prefix ns7:	<https://data.cssz.cz/documentation/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101>	foaf:page	ns7:posudky-provedene-lps .
+@prefix ns8:	<http://linked.opendata.cz/resource/business-entity/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101>	dct:publisher	ns8:CZ00006963 ;
+	dct:spatial	<http://ruian.linked.opendata.cz/resource/staty/1> ;
+	dct:issued	"2017-02-03"^^xsd:date ;
+	dcat:contactPoint	ns1:contact-point ;
+	dcat:distribution	<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101/12> ,
+		<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101/13> ,
+		<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101/14> .
+@prefix ns9:	<http://publications.europa.eu/resource/authority/frequency/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101>	dct:accrualPeriodicity	ns9:QUARTERLY ;
+	dct:temporal	ns1:temporal ;
+	dcat:keyword	"l\u00E9ka\u0159sk\u00E1 posudkov\u00E1 slu\u017Eba"@cs ,
+		"kraje"@cs ,
+		"statistika"@cs ;
+	dcat:theme	<http://eurovoc.europa.eu/6904> .
+@prefix ns10:	<http://linked.opendata.cz/ontology/ckan/> .
+<https://nkod.opendata.cz/zdroje/datov\u00E9-sady/165531101>	ns10:datasetID	"165531101" .

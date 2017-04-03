@@ -1,0 +1,37 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix geographis: <http://telegraphis.net/ontology/geography/geography#> .
+@prefix code: <http://telegraphis.net/ontology/measurement/code#> .
+@prefix measurement: <http://telegraphis.net/ontology/measurement/measurement#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://telegraphis.net/data/countries/GB#GB> a gn:Country;
+    gn:name "United Kingdom"@en;
+    gn:featureClass <http://www.geonames.org/ontology#A>;
+    gn:featureCode <http://www.geonames.org/ontology#A.PCL>;
+    gn:population "60943000";
+    geographis:landArea 
+      [ a measurement:Measurement;
+        measurement:quantityMeasured <http://telegraphis.net/ontology/measurement/quantity#Area>;
+        measurement:unit <http://telegraphis.net/ontology/measurement/metric#SquareKilometre>;
+        rdf:value "244820.0" ];
+    geographis:capital <http://telegraphis.net/data/capitals/GB/London#London>;
+    geographis:onContinent <http://telegraphis.net/data/continents/EU#EU>;
+    geographis:currency <http://telegraphis.net/data/currencies/GBP#GBP>;
+    geographis:isoAlpha2 "GB";
+    geographis:isoAlpha3 "GBR";
+    geographis:isoNumeric "826";
+    code:hasCode 
+      [ a code:Code;
+        code:inCodeScheme <http://telegraphis.net/data/countries/codeSchemes#iso31661al2>;
+        rdf:value "GB" ],
+      [ a code:Code;
+        code:inCodeScheme <http://telegraphis.net/data/countries/codeSchemes#iso31661al3>;
+        rdf:value "GBR" ],
+      [ a code:Code;
+        code:inCodeScheme <http://telegraphis.net/data/countries/codeSchemes#iso31661num>;
+        rdf:value "826" ],
+      [ a code:Code;
+        code:inCodeScheme <http://telegraphis.net/data/countries/codeSchemes#fips>;
+        rdf:value "UK" ];
+    owl:sameAs <http://www.geonames.org/countries/#GB>, <http://sws.geonames.org/2635167/>, <http://dbpedia.org/resource/United_Kingdom>, <http://www4.wiwiss.fu-berlin.de/factbook/resource/United_Kingdom>.
+# 0.0012829303741455 seconds

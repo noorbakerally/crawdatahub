@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF	xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'	xmlns:dc='http://purl.org/dc/elements/1.1/'	xmlns:skos='http://www.w3.org/2004/02/skos/core#'>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:zs="http://www.loc.gov/zing/srw/" rdf:about="http://nektar.oszk.hu/resource/auth/magyar_irodalom">
+	<skos:inScheme rdf:resource="http://www.oszk.hu/thesaurus/term"></skos:inScheme>
+	<dc:source>OSZK tezaurusz</dc:source>
+	<dc:type>term</dc:type>
+	<skos:prefLabel xml:lang="hu">magyar irodalom</skos:prefLabel>
+	<skos:definition xml:lang="hu">A nem szomszédos államok magyar irodalma (az "amerikai magyar irodalom" kivételével) a "határon túli magyar irodalom" és az adott állam, terület deszkriptorával osztályozandó</skos:definition>
+	<skos:definition xml:lang="hu">A szomszédos államok magyar irodalmának önálló deszkriptorai vannak</skos:definition>
+	<skos:broader rdf:resource="http://nektar.oszk.hu/resource/auth/európai_irodalom"></skos:broader>
+	<skos:broader rdf:resource="http://nektar.oszk.hu/resource/auth/finnugor_népek_irodalma"></skos:broader>
+	<skos:broader rdf:resource="http://nektar.oszk.hu/resource/auth/irodalom"></skos:broader>
+	<skos:narrower rdf:resource="http://nektar.oszk.hu/resource/auth/határon_túli_magyar_irodalom"></skos:narrower>
+	<skos:narrower rdf:resource="http://nektar.oszk.hu/resource/auth/hungarikum"></skos:narrower>
+	<skos:narrower rdf:resource="http://nektar.oszk.hu/resource/auth/régi_magyar_irodalom"></skos:narrower>
+	<skos:related rdf:resource="http://nektar.oszk.hu/resource/auth/magyar_irodalom_története"></skos:related>
+	<skos:related rdf:resource="http://nektar.oszk.hu/resource/auth/cigány_irodalom"></skos:related>
+	<skos:related rdf:resource="http://nektar.oszk.hu/resource/auth/határon_túli_magyarság"></skos:related>
+	<skos:related rdf:resource="http://nektar.oszk.hu/resource/auth/magyar_nyelv"></skos:related>
+	<skos:related rdf:resource="http://nektar.oszk.hu/resource/auth/magyarországi_idegen_nyelvű_irodalom"></skos:related>
+</skos:Concept>
+</rdf:RDF>

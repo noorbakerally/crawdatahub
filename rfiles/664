@@ -1,0 +1,215 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix fmt: <http://www.w3.org/ns/formats/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix iso: <http://purl.org/iso25964/skos-thes#> .
+@prefix luc: <http://www.ontotext.com/owlim/lucene#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rrx: <http://purl.org/r2rml-ext/> .
+@prefix schema: <http://schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vdpp: <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wv: <http://vocab.org/waiver/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+aat:300197200 a gvp:Subject , gvp:GuideTerm , iso:ThesaurusArray , skos:Collection ;
+	rdfs:label "<containers by function or context>"@en , "<houders naar functie of context>"@nl , "<contenants selon la fonction ou le contexte>"@fr , "<contenedores por función o contexto>"@es ;
+	rdfs:seeAlso <http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300197200> ;
+	dct:created "1991-09-12T00:00:00"^^xsd:dateTime ;
+	dct:modified "1999-04-28T00:00:00"^^xsd:dateTime , "1996-05-13T00:00:00"^^xsd:dateTime , "2001-07-26T22:03:39"^^xsd:dateTime , "2007-10-26T09:05:28"^^xsd:dateTime , "2010-04-23T06:27:52"^^xsd:dateTime , "2011-01-07T12:02:46"^^xsd:dateTime , "2010-04-23T06:27:56"^^xsd:dateTime , "2007-06-27T09:51:57"^^xsd:dateTime , "2007-06-27T10:27:49"^^xsd:dateTime , "2001-07-26T22:15:13"^^xsd:dateTime , "2007-10-26T09:05:49"^^xsd:dateTime , "2008-01-03T14:12:39"^^xsd:dateTime , "2011-01-07T12:02:50"^^xsd:dateTime ;
+	skos:changeNote aat_rev:5000057133 , aat_rev:5001145732 , aat_rev:5001683446 , aat_rev:5002498556 , aat_rev:5002629869 , aat_rev:5000057135 , aat_rev:5000057134 , aat_rev:5001175260 , aat_rev:5001175261 , aat_rev:5001668639 , aat_rev:5001668666 , aat_rev:5001686372 , aat_rev:5001700683 , aat_rev:5002498561 , aat_rev:5002629875 ;
+	gvp:broader aat:300197197 ;
+	gvp:broaderGenericExtended aat:300197197 , aat:300264092 , aat:300264551 , aat:300045611 ;
+	gvp:broaderExtended aat:300197197 , aat:300264092 , aat:300264551 , aat:300045611 ;
+	gvp:broaderPreferredExtended aat:300197197 , aat:300264092 , aat:300264551 , aat:300045611 ;
+	gvp:parentString "containers (receptacles), Containers (hierarchy name), Furnishings and Equipment (hierarchy name), Objects Facet" ;
+	skos:note aat_rev:5000057133 , aat_rev:5001145732 , aat_rev:5001683446 , aat_rev:5002498556 , aat_rev:5002629869 , aat_rev:5000057135 , aat_rev:5000057134 , aat_rev:5001175260 , aat_rev:5001175261 , aat_rev:5001668639 , aat_rev:5001668666 , aat_rev:5001686372 , aat_rev:5001700683 , aat_rev:5002498561 , aat_rev:5002629875 ;
+	gvp:parentStringAbbrev "containers (receptacles), Containers (hierarchy name), ... Objects Facet" ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	skosxl:prefLabel aat_term:1000197200-en , aat_term:1000498422-nl , aat_term:1000315726-fr , aat_term:1000444516-es ;
+	skos:prefLabel "<containers by function or context>"@en , "<houders naar functie of context>"@nl , "<contenants selon la fonction ou le contexte>"@fr , "<contenedores por función o contexto>"@es ;
+	gvp:broaderGeneric aat:300197197 ;
+	gvp:broaderPreferred aat:300197197 ;
+	gvp:prefLabelGVP aat_term:1000197200-en ;
+	skos:inScheme <http://vocab.getty.edu/aat/> ;
+	dct:contributor aat_contrib:10000000 , aat_contrib:10000131 , aat_contrib:10000205 , aat_contrib:10000159 ;
+	dct:source aat_source:2000048434 ;
+	dc:identifier "300197200" ;
+	skos:member aat:300197580 , aat:300220895 , aat:300230836 , aat:300080617 , aat:300311691 , aat:300081535 , aat:300199764 , aat:300197576 , aat:300391317 , aat:300215552 , aat:300198399 , aat:300225677 , aat:300264489 , aat:300198748 , aat:300198754 , aat:300303413 , aat:300196462 , aat:300197577 , aat:300220753 , aat:300375364 , aat:300197578 , aat:300262563 , aat:300215556 , aat:300264930 , aat:300197294 , aat:300198749 , aat:300197581 , aat:300198817 , aat:300251492 , aat:300391331 , aat:300311054 , aat:300186054 , aat:300404916 , aat:300215585 , aat:300375234 , aat:300198931 , aat:300197582 , aat:300199742 , aat:300395613 , aat:300215026 ;
+	iso:superOrdinate aat:300197197 ;
+	void:inDataset <http://vocab.getty.edu/dataset/aat> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	prov:wasGeneratedBy aat_rev:5000057133 .
+
+aat_rev:5000057133 a prov:Activity , prov:Create ;
+	dc:type "created" ;
+	prov:startedAtTime "1991-09-12T00:00:00"^^xsd:dateTime .
+
+aat_rev:5001145732 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2001-07-26T22:03:39"^^xsd:dateTime ;
+	dc:description "containers by function or context (1000197200);" ;
+	prov:used aat:300197200 .
+
+aat_rev:5001683446 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2007-10-26T09:05:28"^^xsd:dateTime ;
+	dc:description "contenants selon la fonction ou le contexte (1000315726);" ;
+	prov:used aat:300197200 .
+
+aat_rev:5002498556 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2010-04-23T06:27:52"^^xsd:dateTime ;
+	dc:description "contenedores por función o contexto (1000444516);" ;
+	prov:used aat:300197200 .
+
+aat_rev:5002629869 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2011-01-07T12:02:46"^^xsd:dateTime ;
+	dc:description "houders naar functie of context (1000498422);" ;
+	prov:used aat:300197200 .
+
+aat_rev:5000057135 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "1996-05-13T00:00:00"^^xsd:dateTime ;
+	prov:used aat:300197200 .
+
+aat_rev:5000057134 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "1999-04-28T00:00:00"^^xsd:dateTime ;
+	dc:description "\"fonts (religious building fixtures)\"" ;
+	prov:used aat:300197200 .
+
+aat_rev:5001175260 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2001-07-26T22:15:13"^^xsd:dateTime ;
+	dc:description "<containers by function or context> (300197200) 'related to' fonts (religious building fixtures) (300080617);" ;
+	prov:used aat:300197200 .
+
+aat_rev:5001175261 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2001-07-26T22:15:13"^^xsd:dateTime ;
+	dc:description "<containers by function or context> (300197200) 'related to' birdbaths (300081535);" ;
+	prov:used aat:300197200 .
+
+aat_rev:5001668639 a prov:Activity , prov:Modify ;
+	dc:type "relation deleted" ;
+	prov:startedAtTime "2007-06-27T09:51:57"^^xsd:dateTime ;
+	dc:description "<containers by function or context> (300197200) 'related to' fonts (religious building fixtures) (300080617);" ;
+	prov:used aat:300197200 .
+
+aat_rev:5001668666 a prov:Activity , prov:Modify ;
+	dc:type "relation deleted" ;
+	prov:startedAtTime "2007-06-27T10:27:49"^^xsd:dateTime ;
+	dc:description "<containers by function or context> (300197200) 'related to' birdbaths (300081535);" ;
+	prov:used aat:300197200 .
+
+aat_rev:5001686372 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2007-10-26T09:05:49"^^xsd:dateTime ;
+	prov:used aat:300197200 .
+
+aat_rev:5001700683 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2008-01-03T14:12:39"^^xsd:dateTime ;
+	prov:used aat:300197200 .
+
+aat_term:1000197200-en a skosxl:Label ;
+	gvp:term "containers by function or context"@en ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	skosxl:literalForm "<containers by function or context>"@en ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000000 ;
+	dct:contributor aat_contrib:10000000 ;
+	gvp:sourcePreferred aat_source:2000094828 ;
+	dct:source aat_source:2000094828 ;
+	dc:identifier "1000197200" ;
+	dct:language aat:300388277 .
+
+aat_term:1000498422-nl a skosxl:Label ;
+	gvp:term "houders naar functie of context"@nl ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	skosxl:literalForm "<houders naar functie of context>"@nl ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000205 ;
+	dct:contributor aat_contrib:10000205 ;
+	gvp:sourcePreferred aat_source:2000077523 ;
+	dct:source aat_source:2000077523 ;
+	dc:identifier "1000498422" ;
+	dct:language aat:300388256 .
+
+aat_term:1000315726-fr a skosxl:Label ;
+	gvp:term "contenants selon la fonction ou le contexte"@fr ;
+	gvp:displayOrder "3"^^xsd:positiveInteger ;
+	skosxl:literalForm "<contenants selon la fonction ou le contexte>"@fr ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000159 ;
+	dct:contributor aat_contrib:10000159 ;
+	gvp:sourcePreferred aat_source:2000048434 ;
+	dct:source aat_source:2000048434 ;
+	dc:identifier "1000315726" ;
+	dct:language aat:300388306 .
+
+aat_term:1000444516-es a skosxl:Label ;
+	gvp:term "contenedores por función o contexto"@es ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	skosxl:literalForm "<contenedores por función o contexto>"@es ;
+	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
+	gvp:contributorPreferred aat_contrib:10000131 ;
+	dct:contributor aat_contrib:10000131 ;
+	gvp:sourcePreferred aat_source:2000051034 ;
+	dct:source aat_source:2000051034 ;
+	dc:identifier "1000444516" ;
+	dct:language aat:300389311 .

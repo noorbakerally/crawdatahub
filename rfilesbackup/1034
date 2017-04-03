@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:events="http://schemas.talis.com/2009/events/"
+  xmlns:lifecycle="http://purl.org/vocab/lifecycle/schema#"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/"
+  xmlns:temp="http://lists.talis.com/schema/temp#">
+
+  <rdf:Description rdf:about="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9"/>
+    <foaf:topic rdf:resource="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9"/>
+    <dct:hasFormat rdf:resource="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9.html"/>
+    <dct:hasFormat rdf:resource="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9.json"/>
+    <dct:hasFormat rdf:resource="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9">
+    <events:hasEvents rdf:resource="http://liblists.derby.ac.uk/lists/BE706C0C-C82C-322D-641A-22CBECEAAAE9/events"/>
+    <lifecycle:state rdf:resource="http://purl.org/vocab/resourcelist/schema#status-published"/>
+    <rdf:_1 rdf:resource="http://liblists.derby.ac.uk/sections/83C2178C-DCCA-7BD1-2321-2A5349EAD5BD"/>
+    <rdf:_2 rdf:resource="http://liblists.derby.ac.uk/sections/1C094357-0003-4BDF-1B0E-93C8A44E38F4"/>
+    <rdf:_3 rdf:resource="http://liblists.derby.ac.uk/sections/4E22422C-BAE8-5CF5-4A0F-4928187B43AD"/>
+    <rdf:_4 rdf:resource="http://liblists.derby.ac.uk/sections/C5EC8CE6-D838-6B97-FC61-8E23D91D745C"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#ArchiveList"/>
+    <resourcelist:archived>2013-07-22T19:15:21+01:00</resourcelist:archived>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/0382B972-0C73-6F51-A3D6-6BBB64C471AE"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/06698887-9766-8811-220E-F31F06B51E98"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/071E3C0F-77F5-D492-13E8-0AB7CF6862D1"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/094A0692-4430-C4C2-CE60-D90A45C81A3A"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/127B3848-65DA-E7AF-DF54-ED96DFA40636"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/14399324-E5B7-9E94-7C8C-0DAFD7178B39"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/1484DAEE-087A-8600-3AC0-C2783F98B270"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/14AD9C27-A154-033E-C7C5-D98A9847FD11"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/1732DBF5-F04E-354B-6FA9-75157A37204D"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/1A7BFA42-BD52-40F9-5515-AF5C441D1FC4"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/212278A3-72E9-2131-1353-2F8A18EBAAB7"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/22C47DAA-54D8-6182-61D0-8D028386EE33"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/22D1CCC9-9714-04C8-4D20-3A53E745042F"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/26199937-578C-8F4B-FFF7-0AB998FD6094"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/2686EF9F-AAFC-93D5-0333-7C090CE1CB33"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/2A748525-8E2E-D415-151F-5CBEBCCB4B6E"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/2AA771F1-4BB9-79EA-1141-126B3506BA33"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/2F7EC94E-9179-A72C-5702-D8F41EF08617"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/362305DE-CC4E-A6BE-1D20-90E1AFA81234"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/38995D92-93D6-7598-9B5B-D33FB1C70537"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/3BD1D66D-AA7D-F817-718A-3EC81299E725"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/3F5F8D76-E671-E869-D732-0784F09984E8"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/42779415-9325-5C46-D172-976ED90AB73A"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/45E5375D-CB7D-859A-22F1-7AA3418FE36D"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/4E7BDFAE-5AA5-90C9-6258-FB24A2A32245"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/4EAAAE2D-8878-F823-D0EF-E120E5D47472"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/4F7943C3-93B1-C4D6-07E4-DD4A5B786475"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/4FDA65E9-15D3-9306-A837-5001D9504E9F"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/505F4024-A111-4712-678A-7182CDDE7943"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/52DAE335-EB73-8728-138C-CED3E530A5B0"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/581A2253-EDBE-4871-1C8E-EC30C3800EB4"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/5FF366BE-8709-6AD9-36F1-9419A2805C26"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/6244B4F5-D53C-7E05-8871-6DB6635AFB6F"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/67088BFA-3DCD-E731-741F-92045CB2B328"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/6A904E3A-C0D5-BC3A-1985-CDD5EAA55D32"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/6BE8A2B8-E0BD-EC68-47E0-1DEE5EDF481B"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/707D51F6-ECA2-27BC-3849-EF29CB0FAC94"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/7E81BDB9-080D-0489-9DA1-7A91D0A33418"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/82A61DD6-96DF-BC84-BA25-FD0AA9E52CF3"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/8A2391DE-AE2C-B8CF-2538-0883692FB683"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/8FAE839A-4C78-3291-DC12-509588A064D6"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/93819D55-0F88-2877-3452-A0EC5F623811"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/9465F582-C56B-4B5B-86DE-375C39FFFB6C"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/96CF7D93-C27F-1DF1-699C-4791C5721B14"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/981603A9-A58F-BED0-87C1-BC82B0A44D95"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/9D8963CD-8735-1075-8916-932E368F9706"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/9E313C16-33F0-A33E-3FDC-F8A4F9A7E151"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/A0A3FDCC-1E88-AC9D-A95E-FE3D55058FBA"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/A50238BE-3F81-CE8F-4752-2858E486C99E"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/A957CE58-5FD7-8488-FF89-CE19283147F1"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/AC1CE67A-A0F8-5976-86A5-77392ED12EAC"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/B1CB2690-C705-E5A9-23B3-04A0213EE884"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/B5E1F956-DBFB-D177-D861-088A4CC127E4"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/B6E2CED9-0FA6-12A8-A1BF-867DA17E529A"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/B91A3074-2C2A-25E2-9325-88DD665894AD"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/BB8FA92F-F5BE-B164-C508-37DAB840AA3D"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/C59E7DEE-9E31-4711-37F7-B67E6DB4A538"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/C5E8EF5A-6CD1-51D6-CAB1-653C4F086CBA"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/C8A4E900-9335-F380-1F9C-0D654A25F1E6"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/C9037888-1E8A-9042-3EC3-794185DCD2FD"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/CDC42C00-F4C1-81A9-663E-9263BF474DB5"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/CF908F64-A927-F1E0-4812-2F9D3DF7FB28"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/D075C07B-551F-5BEB-C36F-E319F2C5BB8A"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/D533D375-3953-FF7A-68ED-14E66F0B921A"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/DA72C86B-9BE4-923E-2A6B-0B21D0EB7A93"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/E25B0A63-4B3C-0015-F738-7BD3CB62AC92"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/E2A65C81-C611-E5F6-F739-7B6E8360F82D"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/E7FE7878-FA01-F139-CF15-AD7D52825DEA"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/EFBF88D0-B033-0A68-D807-2FB053BA6144"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/F43B473E-F01B-B288-60B9-FB04A33179A3"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/F84C8339-8176-1F17-9EFA-7B9719CFE3B8"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/F95FFDD0-125C-EB14-477C-1029B63BC191"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/items/FC007CF1-A69C-ACD0-C58E-95D3B35F7633"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/06721A5B-A12F-6560-DAB1-DD931D935E80"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/18F6E67A-E2EA-7939-FB27-406656184373"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/1C094357-0003-4BDF-1B0E-93C8A44E38F4"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/2619BA0D-1197-2DE8-38B8-DEB01A1A9DFA"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/2FAABB3A-135F-29FF-6251-4336B8002901"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/4896CFBE-53B3-B807-7180-168588ACE6C7"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/495F34AB-A7C5-7A41-BA62-FC8293D8E3F2"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/4E22422C-BAE8-5CF5-4A0F-4928187B43AD"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/581BBE1F-9873-4C07-ACAB-86C0A6A33B81"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/6E03EC31-E008-0A32-CE44-AF3EB5F81CBA"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/83C2178C-DCCA-7BD1-2321-2A5349EAD5BD"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/84B885D4-E7DC-6DE9-982B-A859B1C8C1A8"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/8D93CEBA-4B01-42C5-9C01-E7A39D728A84"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/9270DDA6-5BE4-E9D8-D89F-06972FC84102"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/C5EC8CE6-D838-6B97-FC61-8E23D91D745C"/>
+    <resourcelist:contains rdf:resource="http://liblists.derby.ac.uk/sections/F0460242-028C-9FCA-463F-0D5261A5CCBF"/>
+    <resourcelist:created>2010-09-16T13:12:47+01:00</resourcelist:created>
+    <resourcelist:lastPublished>2013-03-28T14:55:07+00:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2013-03-28T14:54:03+00:00</resourcelist:lastUpdated>
+    <spec:name>Riots and Rebels: Studies in Intercultural Dramas (6ES508)</spec:name>
+    <spec:parent_of rdf:resource="http://liblists.derby.ac.uk/sections/1C094357-0003-4BDF-1B0E-93C8A44E38F4"/>
+    <spec:parent_of rdf:resource="http://liblists.derby.ac.uk/sections/4E22422C-BAE8-5CF5-4A0F-4928187B43AD"/>
+    <spec:parent_of rdf:resource="http://liblists.derby.ac.uk/sections/83C2178C-DCCA-7BD1-2321-2A5349EAD5BD"/>
+    <spec:parent_of rdf:resource="http://liblists.derby.ac.uk/sections/C5EC8CE6-D838-6B97-FC61-8E23D91D745C"/>
+    <temp:hasRolloverCopy rdf:resource="http://liblists.derby.ac.uk/lists/5A3B3A39-CE61-F8B5-706C-1179382DC48C"/>
+    <temp:hasTimePeriod rdf:resource="http://liblists.derby.ac.uk/config/timePeriod4"/>
+  </rdf:Description>
+
+</rdf:RDF>

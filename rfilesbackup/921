@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-garnica-plywood-lider-en-la/be1aad9a-448f-4daa-8be5-2c8b806a5b4e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[TABLERO CONTRACHAPADO: Garnica Plywood, líder en la fabricación de tablero contrachapado de chopo]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p><a target="_blank" href="http://www.garnicaplywood.com/" href="http://www.garnicaplywood.com/">Garnica Plywood</a>&nbsp;es la empresa líder en la fabricación de <a target="_blank" href="http://www.garnicaplywood.com/zona_verde/idi_con.asp?id_idioma=1" href="http://www.garnicaplywood.com/zona_verde/idi_con.asp?id_idioma=1">tablero contrachapado de chopo</a>. El <strong>Grupo Garnica Plywood </strong>garantiza un tiempo de uso prolongado con la posibilidad de su posterior reciclado mediante astillado-viruta-aglomerado. La fabricación de tablero contrachapado se enmarca dentro del <strong>cultivo sostenible del chopo</strong>, considerado el árbol más ecológico de todas las especies aptas para la fabricación de contrachapado. Cabe reseñar que el <strong>Grupo Garnica Plywood</strong> tiene un fuerte compromiso de sostenibilidad y una visión medioambiental global de su gestión empresarial, tanto de sus procesos como en sus productos. Dentro del proceso de producción del <strong>tablero contrachapado</strong>, cabe reseñar que la importancia de la revalorización y la reutilización del material. Nada se tira. Así, el <strong>Grupo Garnica</strong> incorpora a su propio proceso la mayoría de los subproductos generados en el proceso, o se utilizan para la producción de energía (cogeneración) o bien se venden a fabricantes de tablero aglomerado.&nbsp;&nbsp;</p><p style="text-align: center"><img alt="" src="http://www.garnicaplywood.com/imagenes/img_zona_verde.gif" _cke_saved_src="http://www.garnicaplywood.com/imagenes/img_zona_verde.gif" style="width: 500px; height: 125px"></p><p style="text-align: center"><span style="font-size: 10px">Foto: <a target="_blank" href="http://www.garnicaplywood.com" href="http://www.garnicaplywood.com">www.garnicaplywood.com</a></span></p><p style="text-align: left; "><span style="font-size: 10px"></span><p><strong>Garnica Plywood</strong>&nbsp;es líder en Europa en la producción de&nbsp;<strong>contrachapado de chopo</strong>&nbsp;y otras especies &nbsp;tropicales. El 80% de su producción está destinado a la exportación y llega a más de 20 países. &nbsp;<strong>El&nbsp; contrachapado de Garnica Plywood</strong>&nbsp;se puede encontrar en sectores tan variados como el mobiliario; el recreativo (caravanas, yates…); o la construcción. En el Plan de Negocio de la compañía está previsto superar los 200,000 metros cúbicos en 2012.</p></p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-02-02T10:51:40+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[TABLERO CONTRACHAPADO: Garnica Plywood, líder en la fabricación de tablero contrachapado de chopo]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Nota]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/riam/" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-garnica-plywood-lider-en-la/be1aad9a-448f-4daa-8be5-2c8b806a5b4e/comentario/673bef07-d2b1-45c7-94b4-72e9ca8fa5bd" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/innovaciontecnologica" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-proceso-de-produccion-de/bb2443be-ca93-4cc8-8a44-36b6c58d4cc3" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/technologie-verte-les-enormes-gains-de-la/69cf15cc-d49f-4dd7-b16f-d814194239f9" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/cgem-lancement-de-linitiative-greco-au-maroc/51bdd606-dcc5-4635-a733-68394a79b6e6" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/establecimiento-de-una-agencia-internacional-de/aafca370-8c9b-4bcc-8b2b-35b4a08637fd" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/a-european-strategy-for-sustainable-competitive/6ed7356c-c95c-4f73-81c5-457436f61c0d" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/euro-mediterranee-competitivite-verte--/c31626c9-e3ad-4d3a-83d1-4ea3783e0e9a" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-proceso-de-produccion-de/7b2ff214-5ddc-4941-bdcb-945afee13b0b" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-proceso-de-produccion-de/f6f0f153-23dd-4a41-a37c-a3a13aadc8ac" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/le-maroc-rejoint-linitiative-mediterraneenne/2a28010a-e172-4b85-9051-7e7dde5920b5" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-proceso-de-produccion-de/6060577e-95db-4ba0-b90e-600443182b37" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/impacto-medioambiental-environmental-impact/10db2fce-1090-43c6-a7e8-5ad62a33958a" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/medio-ambiente-environment-environnement/3890fb1d-852f-4ad4-a067-a5664973e9dd" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/desarrollo-sostenible-sustainable-development/91eba8a2-6b1d-4286-b7be-513d788ebedb" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/empresas-y-organizaciones-firms-and-organizations/fa88d6ce-f116-44bf-af91-8dccb8327793" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20ambiente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/garnica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/garnica%20plywood" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/chopo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/contrachapado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/plywood" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero%20aglomerado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero%20contrachapado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/fabricaci%c3%b3n%20de%20contrachapado%20de%20chopo" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/riam/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Ricardo Alonso Maturana]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Ricardo]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Alonso Maturana]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-garnica-plywood-lider-en-la/be1aad9a-448f-4daa-8be5-2c8b806a5b4e/comentario/673bef07-d2b1-45c7-94b4-72e9ca8fa5bd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>En el terreno de la anécdota, recuerdo un reportaje de hace seis o siete años en el que se hablaba del contrachapado de chopo y sus aplicaciones en ocio. Si no me falla la memoria, Garnica Plywood era el provedor del escenario de la gira de los Rolling Stones en España. Se puede decir que Keith Richards y Mick Jagger han alternado con el diablo sobre un contrachapado de chopo 'made in La Rioja' ;-)</p>]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>En el terreno de la anécdota, recuerdo un reportaje de hace seis o siete años en el que se hablaba del contrachapado de chopo y sus aplicaciones en ocio. Si no me falla la memoria, Garnica Plywood era el provedor del escenario de la gira de los Rolling Stones en España. Se puede decir que Keith Richards y Mick Jagger han alternado con el diablo sobre un contrachapado de chopo 'made in La Rioja' ;-)</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-02-02T10:42:05+01:00</dcterms:created>
+  </sioc_t:Comment>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/innovaciontecnologica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[INNOVA: innovación tecnológica]]></rdfs:label>
+  </sioc:Space>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/greencompetitiveness">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Green Competitiveness]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/impacto-medioambiental-environmental-impact/10db2fce-1090-43c6-a7e8-5ad62a33958a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Impacto medioambiental/ Environmental impact/ Impact environnemental]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Impacto medioambiental/ Environmental impact/ Impact environnemental]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/medio-ambiente-environment-environnement/3890fb1d-852f-4ad4-a067-a5664973e9dd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Medio ambiente/ Environment/ Environnement]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Medio ambiente/ Environment/ Environnement]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/desarrollo-sostenible-sustainable-development/91eba8a2-6b1d-4286-b7be-513d788ebedb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Desarrollo sostenible/ Sustainable development/ Développement durable]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Desarrollo sostenible/ Sustainable development/ Développement durable]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resources/category/empresas-y-organizaciones-firms-and-organizations/fa88d6ce-f116-44bf-af91-8dccb8327793">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Empresas y organizaciones/ Firms and organizations/ Enterprises et organisations]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Empresas y organizaciones/ Firms and organizations/ Enterprises et organisations]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sostenibilidad]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20ambiente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[medio ambiente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tablero]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/garnica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[garnica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/garnica%20plywood">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[garnica plywood]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/chopo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[chopo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/contrachapado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contrachapado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/plywood">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[plywood]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero%20aglomerado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tablero aglomerado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero%20contrachapado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tablero contrachapado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/fabricaci%c3%b3n%20de%20contrachapado%20de%20chopo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[fabricación de contrachapado de chopo]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

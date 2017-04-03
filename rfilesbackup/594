@@ -1,0 +1,47 @@
+@prefix dc:      <http://purl.org/dc/terms/> .
+@prefix prv:     <http://purl.org/net/provenance/ns#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sp:      <http://spinrdf.org/sp#> .
+@prefix xhtml:   <http://www.w3.org/1999/xhtml/vocab/#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix d2rq:    <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix org:     <http://www.w3.org/ns/org#> .
+@prefix vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#> .
+@prefix iswc:    <http://annotation.semanticweb.org/iswc/iswc.daml#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dctype:  <http://purl.org/dc/dcmitype/> .
+@prefix prvTypes:  <http://purl.org/net/provenance/types#> .
+@prefix admin:   <http://webns.net/mvcb/> .
+@prefix d2r:     <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix swrc:    <http://swrc.ontoware.org/ontology#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix db1:     <http://www.example.org/dbserver01/db01#> .
+@prefix doap:    <http://usefulinc.com/ns/doap#> .
+
+<http://wifo5-04.informatik.uni-mannheim.de/dws-group/data/events/WWW2005_-_14th_International_World_Wide_Web_Conference_2005>
+      a       foaf:Document , prv:DataItem ;
+      rdfs:label "RDF Description of WWW2005 - 14th International World Wide Web Conference 2005" ;
+      dc:date "2017-04-01T23:29:52.925Z"^^xsd:dateTime ;
+      prv:containedBy <http://wifo5-04.informatik.uni-mannheim.de/dws-group/dataset> ;
+      void:inDataset <http://wifo5-04.informatik.uni-mannheim.de/dws-group/dataset> ;
+      admin:errorReportsTo
+              <mailto:sebastian@informatik.uni-mannheim.de> ;
+      foaf:primaryTopic <http://wifo5-04.informatik.uni-mannheim.de/dws-group/resource/events/WWW2005_-_14th_International_World_Wide_Web_Conference_2005> .
+
+<http://wifo5-04.informatik.uni-mannheim.de/dws-group/resource/publications/Publication10>
+      <http://purl.org/dc/elements/1.1/relation>
+              <http://wifo5-04.informatik.uni-mannheim.de/dws-group/resource/events/WWW2005_-_14th_International_World_Wide_Web_Conference_2005> .
+
+<http://wifo5-04.informatik.uni-mannheim.de/dws-group/resource/events/WWW2005_-_14th_International_World_Wide_Web_Conference_2005>
+      a       swrc:Conference ;
+      rdfs:isDefinedBy <http://wifo5-04.informatik.uni-mannheim.de/dws-group/data/events/WWW2005_-_14th_International_World_Wide_Web_Conference_2005> ;
+      rdfs:label "WWW2005 - 14th International World Wide Web Conference 2005"^^xsd:string ;
+      rdfs:seeAlso <http://www2005.org/> ;
+      <http://purl.org/dc/elements/1.1/date>
+              "2005-05-10"^^xsd:date ;
+      <http://purl.org/dc/elements/1.1/title>
+              "WWW2005 - 14th International World Wide Web Conference 2005"^^xsd:string ;
+      vcard:ADR <http://wifo5-04.informatik.uni-mannheim.de/dws-group/resource/addresses/Address7> ;
+      foaf:page <http://wifo5-04.informatik.uni-mannheim.de/dws-group/page/events/WWW2005_-_14th_International_World_Wide_Web_Conference_2005> .

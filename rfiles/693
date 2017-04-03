@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xmlns:og="http://ogp.me/ns#">
+<head>
+
+
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>GNOSS</title>
+
+    <link id="IMGfavicon" rel="shortcut icon" type="image/ico" />
+
+        <link rel="canonical" href="https://my.gnoss.com/login/redirect" />
+                <link rel="alternate" hreflang="es" href="https://my.gnoss.com/login/redirect" />
+                <link rel="alternate" hreflang="en" href="https://my.gnoss.com/en/login/redirect" />
+                <link rel="alternate" hreflang="pt" href="https://my.gnoss.com/pt/login/redirect" />
+                <link rel="alternate" hreflang="ca" href="https://my.gnoss.com/ca/login/redirect" />
+                <link rel="alternate" hreflang="eu" href="https://my.gnoss.com/eu/logina/redirect" />
+                <link rel="alternate" hreflang="gl" href="https://my.gnoss.com/gl/login/redirect" />
+                <link rel="alternate" hreflang="fr" href="https://my.gnoss.com/fr/login/redirect" />
+                <link rel="alternate" hreflang="de" href="https://my.gnoss.com/de/login/redirect" />
+                <link rel="alternate" hreflang="it" href="https://my.gnoss.com/it/login/redirect" />
+    
+        <meta name="robots" content="all" />
+
+
+
+    
+
+    <link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/unificado.css?v=2.3.1711a20170320" />
+
+
+    <link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/mygnoss.css?v=2.3.1711a20170320" /> 
+
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/lang/es/idioma.css?v=2.3.1711a20170320" />
+<link media="screen" type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link media="screen" type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito|Open Sans:300,400,600,700&amp;subset=latin" />
+
+
+
+    
+
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/jquery.min.js?v=2.3.1711a20170320"></script>
+
+    <script type="text/javascript" src="https://static2.gnoss.com/js/unificado.js?v=2.3.1711a20170320"></script>
+
+
+<script type="text/javascript" src="https://static2.gnoss.com/lang/es/text.js?v=2.3.1711a20170320"></script>
+
+
+
+
+    <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker = _gat._getTracker("UA-10859712-1");pageTracker._trackPageview();pageTracker._setDomainName('.gnoss.com');} catch(err) {}</script>
+
+
+
+
+
+
+</head>
+
+<body class="layout04 full operativaRegistro login  invitado">
+    
+
+
+
+    <form method="post" target="_blank" action="" name="formularioHidden" id="formularioHidden">
+        <fieldset style="display: none">
+            <legend class="nota">formularioHidden</legend>
+                <input type="hidden" id="inpt_proyID" class="inpt_proyID" value="11111111-1111-1111-1111-111111111111"/>
+                <input type="hidden" id="inpt_usuarioID" class="inpt_usuarioID" value="ffffffff-ffff-ffff-ffff-ffffffffffff"/>
+                <input type="hidden" id="inpt_bool_esMyGnoss" class="inpt_bool_esMyGnoss" value="True"/>
+                <input type="hidden" id="inpt_bool_estaEnProyecto" class="inpt_bool_estaEnProyecto" value="False"/>
+                <input type="hidden" id="inpt_bool_esUsuarioInvitado" class="inpt_bool_esUsuarioInvitado" value="True"/>
+                <input type="hidden" id="inpt_perfilID" class="inpt_perfilID" value="ffffffff-ffff-ffff-ffff-ffffffffffff"/>
+                <input type="hidden" id="inpt_identidadID" class="inpt_identidadID" value="FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF"/>
+                <input type="hidden" id="inpt_perfilOrgID" class="inpt_perfilOrgID" value="00000000-0000-0000-0000-000000000000"/>
+                <input type="hidden" id="inpt_Cookies" class="inpt_Cookies" value="True"/>
+                <input type="hidden" id="inpt_Idioma" class="inpt_Idioma" value="es"/>
+                <input type="hidden" id="inpt_baseUrlBusqueda" class="inpt_baseUrlBusqueda" value="https://my.gnoss.com"/>
+                <input type="hidden" id="inpt_baseURL" class="inpt_baseURL" value="https://my.gnoss.com"/>
+                <input type="hidden" id="inpt_baseURLContent" class="inpt_baseURLContent" value="https://content.gnoss.com"/>
+                <input type="hidden" id="inpt_baseURLStatic" class="inpt_baseURLStatic" value="https://static2.gnoss.com"/>
+                <input type="hidden" id="inpt_tablaPropiaAutoCompletar" class="inpt_tablaPropiaAutoCompletar" value="False"/>
+                <input type="hidden" id="inpt_organizacionID" class="inpt_organizacionID" value="11111111-1111-1111-1111-111111111111"/>
+                <input type="hidden" id="inpt_AdministradorOrg" class="inpt_AdministradorOrg" value="False"/>
+                <input type="hidden" id="inpt_UrlLogin" class="inpt_UrlLogin" value="https://login2.gnoss.com/login.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;redirect=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital&amp;esProyectoPrivado=true"/>
+                <input type="hidden" id="inpt_FacetasProyAutoCompBuscadorCom" class="inpt_FacetasProyAutoCompBuscadorCom" value="sioc_t:Tag|gnoss:hasnombrecompleto|foaf:firstName"/>
+                <input type="hidden" id="inpt_tipoBusquedaAutoCompl" class="inpt_tipoBusquedaAutoCompl" value=""/>
+                <input type="hidden" id="inpt_usarMasterParaLectura" class="inpt_usarMasterParaLectura" value="False"/>
+                <input type="hidden" id="inpt_UrlServicioFacetas" class="inpt_UrlServicioFacetas" value="https://facetasred.gnoss.com/CargadorFacetas"/>
+                <input type="hidden" id="inpt_UrlServicioResultados" class="inpt_UrlServicioResultados" value="https://resultadosred.gnoss.com/CargadorResultados,https://resultadosred2.gnoss.com/CargadorResultados,https://resultadosred3.gnoss.com/CargadorResultados,https://resultadosred4.gnoss.com/CargadorResultados,https://resultadosred5.gnoss.com/CargadorResultados"/>
+                <input type="hidden" id="inpt_UrlServicioContextos" class="inpt_UrlServicioContextos" value="https://resultadoshome.gnoss.com/CargadorContextoMensajes"/>
+                <input type="hidden" id="inpt_urlServicioAutocompletar" class="inpt_urlServicioAutocompletar" value="https://autocompletar.gnoss.com/AutoCompletar.asmx"/>
+                <input type="hidden" id="inpt_urlServicioAutocompletarEtiquetas" class="inpt_urlServicioAutocompletarEtiquetas" value="https://autocompletarred.gnoss.com/AutoCompletarEtiquetas.asmx"/>
+                <input type="hidden" id="inpt_urlEtiquetadoAutomatico" class="inpt_urlEtiquetadoAutomatico" value="https://etiquetado.gnoss.com/EtiquetadoAutomatico.asmx"/>
+                <input type="hidden" id="inpt_serverTime" class="inpt_serverTime" value="2017/04/02 19:05"/>
+                <input type="hidden" id="inpt_tipo" class="inpt_tipo" value="tipoBusquedaAutoCompl"/>
+                <input type="hidden" id="inpt_MantenerSesionActiva" class="inpt_MantenerSesionActiva" value="True"/>
+            <input type="submit" style="display: none;" id="enviarHidden" value="enviar" title="enviar" />
+        </fieldset>
+    </form>
+
+    <form method="post" target="_blank" action="" name="formularioRDF" id="formularioRDF">
+        <fieldset style="display: none">
+            <legend class="nota">formularioRDF</legend>
+            <input type="text" style="display: none;" title="query" name="query" id="query" />
+            <input type="text" style="display: none;" title="pagina" name="pagina" id="pagina" />
+            <input type="submit" style="display: none;" id="rdfHack" value="enviar" title="enviar" />
+        </fieldset>
+    </form>
+
+    <div style="width: 100px; height: 100px; position: absolute; display: none; left: 0px; top: 0px; z-index: 2000" class="popup">
+        <img style="border-width: 0px;" alt="Cargando..." src="https://static2.gnoss.com/img/espera.gif" />
+        <p><strong>Cargando...</strong></p>
+    </div>
+    <div style="display: none; z-index: 1999; width: 100%; top: 0px; left: 0px; position: absolute; height: 2900px;" id="mascaraBlanca"></div>
+
+    <div class="aaCabecera">
+
+        <form method="post" id="formLogin" action="https://login2.gnoss.com/login.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;redirect=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital&amp;esProyectoPrivado=true">
+            <input type="text" name="usuario" title="Usuario" id="usuario" style="display: none;" />
+            <input type="text" name="password" title="Contrase&#241;a" id="password" style="display: none;" /> 
+            <input type="text" name="clausulasRegistro" title="clausulasRegistro" id="clausulasRegistro" style="display: none;" />
+
+            <div id="formularioLoginHeader" class="formularioLoginHeader">
+                <div class="wrap">
+                    <div class="errores" style="display: none" id="errorLogin"></div>
+                    <fieldset class="mediumLabels">
+                        <legend>Login </legend>
+                        <p>
+                            <label for="txtUsuario">Email o usuario</label>
+                            <input type="text" id="txtUsuario" class="text medium" />
+                        </p>
+                        <p>
+                            <label for="txtContraseña">Contrase&#241;a</label>
+                            <input type="password" id="txtContraseña" class="text medium" />
+                        </p>
+
+                    </fieldset>
+                    <fieldset class="registroRedesSociales">
+                        <legend></legend>
+                        <p>
+                            <a href="https://my.gnoss.com/hazte-miembro">Reg&#237;strate</a>
+                        </p>
+                    </fieldset>
+                        <fieldset class="registroRedesSociales">
+                            <legend>O si lo prefieres...</legend>
+                            <ul>
+                                    <li class="iconFacebook">Con&#233;ctate con <a href="https://login2.gnoss.com/loginfacebook.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;proyectoID=11111111-1111-1111-1111-111111111111&amp;urlOrigen=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital">Facebook</a>
+                                    </li>
+                                    <li class="iconGoogle">Con&#233;ctate con <a href="https://login2.gnoss.com/logingoogle.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;proyectoID=11111111-1111-1111-1111-111111111111&amp;urlOrigen=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital">Google</a>
+                                    </li>
+                                    <li class="iconTwitter">Con&#233;ctate con <a href="https://login2.gnoss.com/logintwitter.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;proyectoID=11111111-1111-1111-1111-111111111111&amp;urlOrigen=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital">Twitter</a>
+                                    </li>
+                            </ul>
+                        </fieldset>
+                    <fieldset>
+                        <p>
+                            <input type="button" value="Iniciar sesi&#243;n" class="submit principal" id="btnEntrar" name="btnEntrar" />
+                            &nbsp;<a class="login" href="https://my.gnoss.com/olvide-password">Olvid&#233; mi contrase&#241;a</a>
+                        </p>
+                    </fieldset>
+                    <div class="tools">
+                        <p><a class="hidePanel" href="#formularioLoginHeader">cerrar </a></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div id="identidad">
+            <div class="wrapper">
+                <ul id="opciones">
+                    <li><a href="#formularioLoginHeader" class="hideShowPanel">Iniciar sesi&#243;n</a></li>
+                </ul>
+                <ul id="gnoss">
+                        <li>
+                            <a class="activo" lang="es" href="https://my.gnoss.com/login/redirect" title="Espa&#241;ol"><span>es</span></a>
+                        </li>
+                        <li>
+                            <a lang="en" href="https://my.gnoss.com/en/login/redirect" title="English"><span>en</span></a>
+                        </li>
+                        <li>
+                            <a lang="pt" href="https://my.gnoss.com/pt/login/redirect" title="Portuguese"><span>pt</span></a>
+                        </li>
+                        <li>
+                            <a lang="ca" href="https://my.gnoss.com/ca/login/redirect" title="Catal&#224;"><span>ca</span></a>
+                        </li>
+                        <li>
+                            <a lang="eu" href="https://my.gnoss.com/eu/logina/redirect" title="Euskera"><span>eu</span></a>
+                        </li>
+                        <li>
+                            <a lang="gl" href="https://my.gnoss.com/gl/login/redirect" title="Galego"><span>gl</span></a>
+                        </li>
+                        <li>
+                            <a lang="fr" href="https://my.gnoss.com/fr/login/redirect" title="Fran&#231;ais"><span>fr</span></a>
+                        </li>
+                        <li>
+                            <a lang="de" href="https://my.gnoss.com/de/login/redirect" title="Deutsch"><span>de</span></a>
+                        </li>
+                        <li>
+                            <a lang="it" href="https://my.gnoss.com/it/login/redirect" title="Italiano"><span>it</span></a>
+                        </li>
+
+                    <li class="logo">
+                        <a rel="listado-gnoss" class="enlaceDesplegable" href="https://my.gnoss.com/home">Explora</a>
+                        <div class="desplegable listado-gnoss">
+                            <ul class="listado">
+                                <li><a href="https://my.gnoss.com/home">Home</a></li>
+                                <li><a href="https://my.gnoss.com/indice">&#205;ndice</a></li>
+                                <li><a href="https://my.gnoss.com/comunidades">Comunidades</a></li>
+                                <li><a href="https://my.gnoss.com/blogs">Blogs</a></li>
+                                <li><a href="https://my.gnoss.com/personas-y-organizaciones">Personas y organizaciones</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+
+    <div id="header">
+        <div class="wrapper">
+            <p class="indentado"><a>Ir al contenido principal</a></p>
+            <div id="corporativo">
+                <div class="content" style="display: block; margin-top: 10px;">
+                    <div class="logo">
+                        <div>
+                            <h1>
+                                <a href="https://my.gnoss.com/home"><img alt="Gnoss" title="Gnoss" src="https://static2.gnoss.com/img/logo_gnoss.png" /></a>                 
+                            </h1>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+            <div id="buscador">
+                <form method="post" id="formBuscador" action="https://my.gnoss.com/login/redirect/error?errorCode=404&amp;lang=en&amp;urlAcceso=/comunidad/Biblioteca-Escolar-Digital">
+                    <fieldset style="display: block">
+                    <legend class="nota">buscador</legend>
+                    <div class="fieldsetGroup">
+                        <label for="ddlCategorias">Encuentra en</label>
+                        <select class="ddlCategorias" id="ddlCategorias">
+                        <option value="MyGNOSSMeta" selected="selected">Todo GNOSS</option>
+                        <option value="Blog">Blogs</option>
+                        <option value="Comunidad">Comunidades</option>
+                        <option value="PerYOrg">Personas y organizaciones</option>
+                        </select>
+                            <input type="hidden" value="ub_MyGNOSSMeta@https://my.gnoss.com/busqueda?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_Blog@https://my.gnoss.com/blogs?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_Comunidad@https://my.gnoss.com/comunidades?search=" class="inpt_tipo_busqueda" />
+                            <input type="hidden" value="ub_PerYOrg@https://my.gnoss.com/personas-y-organizaciones?search=" class="inpt_tipo_busqueda" />
+                                                        <input type="hidden" value="oa_PerYOrg@PerYOrg" class="inpt_OrigenAutocompletar" />
+                    </div>
+                    <!-- #buscador //-->
+                    <div class="fieldsetGroup searchGroup">
+                        <label for="criterio" class="nota">Buscar en &nbsp;</label>
+                        <input type="text" id="txtBusquedaPrincipal" class="text txtBusqueda autocompletar" />
+                        <input type="button" title="Encontrar" class="encontrar" id="btnBuscarPrincipal" />
+                    </div>
+
+                    <!-- #buscador //-->
+                    <div class="botonBuscar"></div>
+                    <input type="submit" style="display: none;" id="enviarFormBuscador" value="enviar" title="enviar" />
+                    </fieldset>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+    <div id="wrap">
+        <div id="page">
+                        
+            <div id="section">
+                <div id="content">
+                    
+
+<div id="col01" >
+    <div class="form formtheme01 formularioRegistroUsuarios">
+        <h2>
+                Login
+        </h2>
+        <div>
+            <div class="box box01">
+<form method="post" id="formPaginaLogin" action="https://login2.gnoss.com/login.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;redirect=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital&amp;esProyectoPrivado=true">
+    <div class="fieldset fieldset01">
+        <fieldset class="mediumLabels">
+            <legend>Datos de usuario</legend>
+            <div class="fieldsetContent">
+                <p>
+                    <label for="usuario_Login">Email o usuario</label>
+                    <input id="usuario_Login" name="usuario" type="text" class="text medium" />
+                </p>
+                <p>
+                    <label for="password_login">Contrase&#241;a</label>
+                    <input id="password_login" name="password" type="password" class="text medium" />
+                </p>
+
+                <div id="loginError">
+                    <div class="ko">
+                        <p id="mensajeError">El usuario o la contrase&#241;a son incorrectos. </p>
+                    </div>
+                </div>
+                <div id="loginErrorAutenticacionExterna">
+                    <div class="ko">
+                        <p>Se ha producido un error en el servicio de autenticaci&#243;n. </p>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="fieldset actionButtons fieldset03 actionButtons">
+        <fieldset>
+            <legend></legend>
+            <p>
+
+
+                <input type="submit" onclick="if(validarCampos()){MostrarUpdateProgress();}else{ $(&#39;#loginError .ko&#39;).show();return false;}" title="Iniciar sesi&#243;n" value="Iniciar sesi&#243;n" class="principal submit" />
+                <a href="https://my.gnoss.com/olvide-password">Olvid&#233; mi contrase&#241;a</a>
+            </p>
+        </fieldset>
+    </div>
+</form>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        if (ObtenerHash() == '#error') {
+            $('#loginError .ko').show();
+        }
+        else if (ObtenerHash().indexOf('&') > 0) {
+            var mensajeError = ObtenerHash().split('&')[1];
+            if(mensajeError != ''){
+                $('#mensajeError').text(mensajeError);
+                $('#loginError .ko').show();
+            }
+        }
+        if (ObtenerHash() == '#errorAutenticacionExterna') {
+            $('#loginErrorAutenticacionExterna .ko').show();
+        }
+
+        $('#formPaginaLogin').prop('action', $('#inpt_UrlLogin').val());
+        $('#usuario_Login').focus();
+        $('#usuario_Login').keydown(function (event) {
+            if (event.which || event.keyCode) { 
+                if ((event.which == 13) || (event.keyCode == 13)) { 
+                    return false; 
+                } 
+            }
+        });
+        $('#password_login').keydown(function (event) {
+            if (event.which || event.keyCode) { 
+                if ((event.which == 13) || (event.keyCode == 13)) { 
+                    if ($('#usuario_Login').val() == "" || $('#password_login').val() == ""){
+                        $('#loginError .ko').css('display', 'block');
+                        return false; 
+                    }
+                } 
+            }
+        });
+    });
+
+    function validarCampos()
+    { 
+        return ($('#usuario_Login').val() != '' && $('#password_login').val() != '')
+    }
+</script>            </div>
+            <div class="box box02">
+                <div class="fieldset fieldset04 registroRedesSociales">
+                        <fieldset>
+                            <legend></legend>
+                            <p>
+                                <a href="https://my.gnoss.com/hazte-miembro" id="hlRegistrate">Reg&#237;strate</a>
+                            </p>
+                        </fieldset>
+
+			            <fieldset id="fsPrefieresRedesSociales">
+				        <legend>O si lo prefieres...</legend>			
+				            <ul>
+                                    <li class="iconFacebook">Con&#233;ctate con <a href="https://login2.gnoss.com/loginfacebook.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;proyectoID=11111111-1111-1111-1111-111111111111&amp;urlOrigen=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital">Facebook</a>
+                                    </li>
+                                    <li class="iconGoogle">Con&#233;ctate con <a href="https://login2.gnoss.com/logingoogle.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;proyectoID=11111111-1111-1111-1111-111111111111&amp;urlOrigen=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital">Google</a>
+                                    </li>
+                                    <li class="iconTwitter">Con&#233;ctate con <a href="https://login2.gnoss.com/logintwitter.aspx?token=RBCfdFTbe95AC%252bNvGgs87eEHAC2glgEep81J7mttwvY%253d&amp;proyectoID=11111111-1111-1111-1111-111111111111&amp;urlOrigen=https%3a%2f%2fmy.gnoss.com%2ferror%3ferrorCode%3d404%26lang%3den%26urlAcceso%3d%2fcomunidad%2fBiblioteca-Escolar-Digital">Twitter</a>
+                                    </li>
+                            </ul>			
+			            </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<div id="col02">
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+        <div class="cols-5">
+            <div class="col-1">
+                <div class="box">
+                    <p class="footer-title">
+                        Acerca de Gnoss
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/recurso/GNOSS-Semantics--Social-Business-Platform/d27efdca-7e2f-4cde-b869-3813d0a006bb">&#191;Qu&#233; es Gnoss?</a>
+                        </li>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/recurso/Why-GNOSS/47603dc7-1c8f-4992-ac07-d53953788347">Ventajas de la tecnolog&#237;a GNOSS</a>
+                        </li>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/solutions">Soluciones</a>
+                        </li>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/recurso/Servicios-de-consultoria-y-soporte/eafb8972-7591-481e-82b1-a5d183515846">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="http://products.gnoss.com/comunidad/gnossproducts/busqueda-avanzada#skos:ConceptID=gnoss:4AC05978-54EC-417B-B397-37128C3A3A59">Casos de uso</a>
+                        </li>
+                        <li>
+                            <a href="http://didactalia.net/comunidad/materialeducativo/didactalia/sobre-didactalia">Didactalia: proyecto educativo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="box">
+                    <p class="footer-title">
+                        &#191;C&#243;mo usar gnoss.com?
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://101.gnoss.com">GNOSS 101</a>
+                        </li>
+                        <li>
+                            <a href="http://red.gnoss.com/comunidad/ayudayfaqs">Ayuda y FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="box">
+                    <p class="footer-title">
+                        Newsroom
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://noticias.gnoss.com">Noticias</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gnoss.com/blog/gnosslife">GNOSS Official Blog</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gnoss.com/comunidad/watermelon/recursos">Watermelon Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="box">
+                    <p class="footer-title">
+                        Herramientas
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://www.gnoss.com/herramientas-gnoss">A&#241;adir a GNOSS</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gnoss.com/widgets-gnoss">Widgets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1 last">
+                <div class="box">
+                    <p>
+
+                        Comunidad integrada en el espacio
+                        <a href="http://gnoss.com/home">
+                            <img style="width: 180px;" alt="GNOSS" src="https://static2.gnoss.com/img/logo_gnoss.png"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="cols-1">
+        <div class="cols-1">
+            <div class="box">
+                <ul>
+                    <li>
+                        <strong>
+                                © RIAM I+L Lab  2017                        </strong>
+                    </li>
+
+
+                        <li>
+                                <a href="https://my.gnoss.com//politica-privacidad">Privacidad</a>
+                        </li>
+
+                    <li>
+                            <a href="https://my.gnoss.com//condiciones-uso">Condiciones de uso de GNOSS</a>
+                    </li>
+
+
+
+                        <li>
+                                <a href="https://my.gnoss.com/politica-de-cookies" target="_blank">Pol&#237;tica de cookies</a>
+                        </li>
+
+
+
+
+                        <li>
+
+                            <a href="http://gnoss.com/identidad/equipoGNOSS/contacto" class="fin">Contacto</a>
+                        </li>
+
+                </ul>
+
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            EjecutarScriptsIniciales2();
+        });
+    </script>
+    
+
+
+
+
+
+
+
+
+</body>
+</html>

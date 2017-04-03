@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://johndrinkwater.name/updates/user/1"></maker>
+  <primaryTopic rdf:resource="http://johndrinkwater.name/updates/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://johndrinkwater.name/updates/user/1">
+  <mbox_sha1sum>434c37fe1821d7bd54e87db497f38d1d6390dae7</mbox_sha1sum>
+  <name>John Drinkwater</name>
+  <homepage rdf:resource="http://johndrinkwater.name/"></homepage>
+  <weblog rdf:resource="http://johndrinkwater.name/updates/"></weblog>
+  <bio:olb>Not the poet, he’s dead. A Web and I.T. Jack</bio:olb>
+  <based_near>
+   <geo:SpatialThing>
+    <geo:lat>52.5854700</geo:lat>
+    <geo:long>-2.1229600</geo:long>
+   </geo:SpatialThing>
+  </based_near>
+  <img>
+   <Image rdf:about="http://johndrinkwater.name/updates/avatar/1-96-20120229215949.png">
+    <thumbnail>
+     <Image rdf:about="http://johndrinkwater.name/updates/avatar/1-48-20120229215949.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://johndrinkwater.name/updates/avatar/1-24-20120229215949.png"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://johndrinkwater.name/updates/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://johndrinkwater.name/updates/"></accountServiceHomepage>
+    <accountName>johndrinkwater</accountName>
+    <accountProfilePage rdf:resource="http://johndrinkwater.name/updates/"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://johndrinkwater.name/updates/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://afternet.status.net/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://afternet.status.net/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://afternet.status.net/user/1#acct">
+    <accountName>afternet</accountName>
+    <accountProfilePage rdf:resource="http://afternet.status.net/"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://afternet.status.net/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/49">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/49#acct">
+    <accountName>johndrinkwater</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/johndrinkwater"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/49"></sioc:account_of>
+    <sioc:follows rdf:resource="http://johndrinkwater.name/updates/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/455">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/455#acct">
+    <accountName>portenkirchner</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/portenkirchner"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/455"></sioc:account_of>
+    <sioc:follows rdf:resource="http://johndrinkwater.name/updates/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

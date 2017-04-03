@@ -1,0 +1,165 @@
+@base           <http://purl.org/collections/nl/dss/dss_schema.ttl> .
+@prefix   foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix   skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix    owl: <http://www.w3.org/2002/07/owl#> .
+@prefix   rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix    rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vocopv: <vocopv/> .
+@prefix    mdb: <mdb/> .
+@prefix gzmvoc: <gzmvoc/> .
+@prefix    das: <das/> .
+
+# Named toplevel resources (44)
+
+<Chamber>
+	a rdfs:Class ;
+	rdfs:label "Chamber" .
+
+<Person>
+	a rdfs:Class ;
+	rdfs:label "Person" ;
+	rdfs:subClassOf foaf:Person .
+
+<Place>
+	a rdfs:Class ;
+	rdfs:label "Place" ;
+	rdfs:subClassOf skos:Concept .
+
+<Rank>
+	a rdfs:Class ;
+	rdfs:label "Rank" ;
+	rdfs:subClassOf skos:Concept .
+
+<Record>
+	a rdfs:Class ;
+	rdfs:comment "The most general row type in DSS" ;
+	rdfs:label "DSS Record" .
+
+<Ship>
+	a rdfs:Class ;
+	rdfs:label "Ship" .
+
+<ShipType>
+	a rdfs:Class ;
+	rdfs:label "ShipType" ;
+	rdfs:subClassOf skos:Concept .
+
+das:Chamber
+	rdfs:subClassOf <Chamber> .
+
+das:Person
+	rdfs:subClassOf <Person> .
+
+das:Place
+	rdfs:subClassOf <Place> .
+
+das:Ship
+	rdfs:subClassOf <Ship> .
+
+das:ShipType
+	rdfs:subClassOf <ShipType> .
+
+das:Voyage
+	rdfs:subClassOf <Record> .
+
+das:has_ship
+	rdfs:subPropertyOf <has_ship> .
+
+das:master
+	rdfs:subPropertyOf <has_captain> .
+
+das:typeOfShip
+	rdfs:subPropertyOf <has_shiptype> .
+
+gzmvoc:Plaats
+	rdfs:subClassOf <Place> .
+
+gzmvoc:ScheepsType
+	rdfs:subClassOf <ShipType> .
+
+gzmvoc:Schip
+	rdfs:subClassOf <Ship> .
+
+gzmvoc:Schipper
+	rdfs:subClassOf <Person> .
+
+gzmvoc:Telling
+	rdfs:subClassOf <Record> .
+
+gzmvoc:scheepstype
+	rdfs:subPropertyOf <has_shiptype> .
+
+gzmvoc:schip
+	rdfs:subPropertyOf <has_ship> .
+
+gzmvoc:schipper
+	rdfs:subPropertyOf <has_captain> .
+
+<has_captain>
+	a rdf:Property ;
+	rdfs:label "has captain" .
+
+<has_kb_link>
+	a rdf:Property ;
+	rdfs:comment "related KB article" ;
+	rdfs:label "has KB article" .
+
+<has_record>
+	a rdf:Property ;
+	rdfs:label "has record" .
+
+<has_ship>
+	a rdf:Property ;
+	rdfs:comment "link between a resource and a ship" ;
+	rdfs:label "related to ship" ;
+	rdfs:range <Ship> ;
+	owl:inverseOf <has_record> .
+
+<has_shiptype>
+	a rdf:Property ;
+	rdfs:label "has ship type" .
+
+mdb:Aanmonstering
+	rdfs:subClassOf <Record> .
+
+mdb:Persoon
+	rdfs:subClassOf <Person> .
+
+mdb:PersoonsContract
+	rdfs:subClassOf <Record> .
+
+mdb:Plaats
+	rdfs:subClassOf <Place> .
+
+mdb:Rang
+	rdfs:subClassOf <Rank> .
+
+mdb:ScheepsType
+	rdfs:subClassOf <ShipType> .
+
+mdb:Schip
+	rdfs:subClassOf <Ship> .
+
+mdb:scheepstype
+	rdfs:subPropertyOf <has_shiptype> .
+
+mdb:schip
+	rdfs:subPropertyOf <has_ship> .
+
+vocopv:BegunstigdenRecord
+	rdfs:subClassOf <Record> .
+
+vocopv:OpvarendenRecord
+	rdfs:subClassOf <Record> .
+
+vocopv:Plaats
+	rdfs:subClassOf <Place> .
+
+vocopv:Rang
+	rdfs:subClassOf <Rank> .
+
+vocopv:Schip
+	rdfs:subClassOf <Ship> .
+
+vocopv:has_schip
+	rdfs:subPropertyOf <has_ship> .

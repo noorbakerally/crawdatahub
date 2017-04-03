@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all">
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/technicalStudy">
+        <rdfs:label>List of all instances: technicalStudy</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/course">
+        <rdfs:label>List of all instances: course</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/irregularStudy">
+        <rdfs:label>List of all instances: irregularStudy</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/programmeTerm">
+        <rdfs:label>List of all instances: programmeTerm</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/faculty">
+        <rdfs:label>List of all instances: faculty</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/knowledgeGrouping">
+        <rdfs:label>List of all instances: knowledgeGrouping</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/academy">
+        <rdfs:label>List of all instances: academy</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/graduateStudy">
+        <rdfs:label>List of all instances: graduateStudy</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:label>D2R Server contents</rdfs:label>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/classType">
+        <rdfs:label>List of all instances: classType</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/division">
+        <rdfs:label>List of all instances: division</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/module">
+        <rdfs:label>List of all instances: module</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/institution">
+        <rdfs:label>List of all instances: institution</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/study">
+        <rdfs:label>List of all instances: study</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/undergraduateStudy">
+        <rdfs:label>List of all instances: undergraduateStudy</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/organization">
+        <rdfs:label>List of all instances: organization</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/polytechnic">
+        <rdfs:label>List of all instances: polytechnic</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/bachelorStudy">
+        <rdfs:label>List of all instances: bachelorStudy</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/literature">
+        <rdfs:label>List of all instances: literature</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/programme">
+        <rdfs:label>List of all instances: programme</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/person">
+        <rdfs:label>List of all instances: person</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/place">
+        <rdfs:label>List of all instances: place</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/universityStudy">
+        <rdfs:label>List of all instances: universityStudy</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/courseInstance">
+        <rdfs:label>List of all instances: courseInstance</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/profile">
+        <rdfs:label>List of all instances: profile</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/term">
+        <rdfs:label>List of all instances: term</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/courseInstanceLecturer">
+        <rdfs:label>List of all instances: courseInstanceLecturer</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://kent.zpr.fer.hr:8080/educationalProgram/all/regularStudy">
+        <rdfs:label>List of all instances: regularStudy</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+  </rdf:Description>
+</rdf:RDF>

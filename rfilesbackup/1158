@@ -1,0 +1,24 @@
+@prefix ns0:	<http://linked.opendata.cz/ontology/domain/seznam.gov.cz/rejstriky/> .
+@prefix ns1:	<http://linked.opendata.cz/resource/business-entity/> .
+ns1:CZ00006947	ns0:plneni	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201>	rdf:type	ns0:Plneni .
+@prefix gr:	<http://purl.org/goodrelations/v1#> .
+@prefix ns4:	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201>	gr:hasPriceSpecification	ns4:cena-bez-dph ,
+		ns4:cena-s-dph .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201>	dcterms:subject	"dod\u00E1n\u00ED dat z el. archivu m\u00E9di\u00ED za 2/2013 - dle sml. 332/107/2007" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201>	dcterms:issued	"2013-03-26+01:00"^^xsd:date .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201>	skos:notation	"1300000885" ;
+	ns0:agenda	"A24" ;
+	ns0:partner	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/rejstriky/business-entity/28168356> ;
+	ns0:recordId	"129906201" ;
+	ns0:schvalil	"Jindra Kvapilov\u00E1 Referent" ;
+	ns0:typDokumentu	"3" .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/zaznamy/13101>	ns0:plneni	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201> .
+@prefix void:	<http://rdfs.org/ns/void#> .
+@prefix ns9:	<http://linked.opendata.cz/resource/dataset/seznam.gov.cz/rejstriky/plneni/> .
+ns9:distribution	void:exampleResource	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/plneni/129906201> .

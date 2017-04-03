@@ -1,0 +1,109 @@
+<body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> -->
+<body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> --> -->
+</font> </font> </font> </script> </object> </blockquote> </pre>
+</table> </table> </table> </table> </table> </font> </font> </font><body bgcolor="#f0f0f8">
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#6622aa">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>&lt;type 'exceptions.IOError'&gt;</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial">Python 2.7.3: /usr/bin/python<br>Sun Apr  2 10:09:53 2017</font></td></tr></table>
+    
+<p>A problem occurred in a Python script.  Here is the sequence of
+function calls leading up to the error, in the order they occurred.</p>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home/wikier/linkedmarkmail.wikier.org/service.py">/home/wikier/linkedmarkmail.wikier.org/service.py</a> in <strong><module></strong>()</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;86</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;lmm.get_message(i)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;87</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elif&nbsp;(t&nbsp;==&nbsp;"thread"):<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;88</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;lmm.get_thread(i)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;89</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;90</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;invalid_input_error()<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>data</strong>&nbsp;= None, <strong>lmm</strong>&nbsp;= &lt;linkedmarkmail.LinkedMarkMail instance&gt;, lmm.<strong>get_thread</strong>&nbsp;= &lt;bound method LinkedMarkMail.get_thread of &lt;linkedmarkmail.LinkedMarkMail instance&gt;&gt;, <strong>i</strong>&nbsp;= 'dcue2bsyrsgbzsd5'</font></small></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home/wikier/linkedmarkmail.wikier.org/linkedmarkmail.py">/home/wikier/linkedmarkmail.wikier.org/linkedmarkmail.py</a> in <strong>get_thread</strong>(self=&lt;linkedmarkmail.LinkedMarkMail instance&gt;, key='dcue2bsyrsgbzsd5')</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;74</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;triples&nbsp;=&nbsp;len(siocThread)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;75</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(self.cache.is_dirty(siocThread)):<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;76</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.cache.update(siocThread)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;77</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logging.info("Updated&nbsp;cache&nbsp;of&nbsp;thread&nbsp;%s&nbsp;(%d&nbsp;triples)"&nbsp;%&nbsp;(key,&nbsp;triples))<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;78</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logging.info("Returning&nbsp;%d&nbsp;triples&nbsp;of&nbsp;thread&nbsp;%s"&nbsp;%&nbsp;(triples,&nbsp;key))<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>self</strong>&nbsp;= &lt;linkedmarkmail.LinkedMarkMail instance&gt;, self.<strong>cache</strong>&nbsp;= &lt;cache.Cache instance&gt;, self.cache.<strong>update</strong>&nbsp;= &lt;bound method Cache.update of &lt;cache.Cache instance&gt;&gt;, <strong>siocThread</strong>&nbsp;= &lt;swaml.Thread instance&gt;</font></small></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home/wikier/linkedmarkmail.wikier.org/cache.py">/home/wikier/linkedmarkmail.wikier.org/cache.py</a> in <strong>update</strong>(self=&lt;cache.Cache instance&gt;, item=&lt;swaml.Thread instance&gt;, force=True)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;79</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;update(self,&nbsp;item,&nbsp;force=True):<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;80</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(force):<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;81</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.write(item)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;82</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;True<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;83</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>self</strong>&nbsp;= &lt;cache.Cache instance&gt;, self.<strong>write</strong>&nbsp;= &lt;bound method Cache.write of &lt;cache.Cache instance&gt;&gt;, <strong>item</strong>&nbsp;= &lt;swaml.Thread instance&gt;</font></small></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home/wikier/linkedmarkmail.wikier.org/cache.py">/home/wikier/linkedmarkmail.wikier.org/cache.py</a> in <strong>write</strong>(self=&lt;cache.Cache instance&gt;, item=&lt;swaml.Thread instance&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;75</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;path&nbsp;=&nbsp;self.__build_path(item.get_key(),&nbsp;item.__class__)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;76</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;graph&nbsp;=&nbsp;item.get_graph()<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;77</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;serialize_graph_file(graph,&nbsp;path)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;78</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;79</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;update(self,&nbsp;item,&nbsp;force=True):<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><em>global</em> <strong>serialize_graph_file</strong>&nbsp;= &lt;function serialize_graph_file&gt;, <strong>graph</strong>&nbsp;= &lt;Graph identifier=LefMzvmh0 (&lt;class 'rdflib.graph.ConjunctiveGraph'&gt;)&gt;, <strong>path</strong>&nbsp;= 'cache/thread-dcue2bsyrsgbzsd5.rdf'</font></small></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home/wikier/linkedmarkmail.wikier.org/utils.py">/home/wikier/linkedmarkmail.wikier.org/utils.py</a> in <strong>serialize_graph_file</strong>(graph=&lt;Graph identifier=LefMzvmh0 (&lt;class 'rdflib.graph.ConjunctiveGraph'&gt;)&gt;, path='cache/thread-dcue2bsyrsgbzsd5.rdf', format='pretty-xml', encoding='utf8')</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;53</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;54</small>&nbsp;def&nbsp;serialize_graph_file(graph,&nbsp;path,&nbsp;format="pretty-xml",&nbsp;encoding="utf8"):<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;55</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f&nbsp;=&nbsp;open(path,&nbsp;"w")<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;56</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;graph.serialize(destination=f,&nbsp;format=format,&nbsp;encoding=encoding)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;57</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f.flush()<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">f <em>undefined</em>, <em>builtin</em> <strong>open</strong>&nbsp;= &lt;built-in function open&gt;, <strong>path</strong>&nbsp;= 'cache/thread-dcue2bsyrsgbzsd5.rdf'</font></small></td></tr></table><p><strong>&lt;type 'exceptions.IOError'&gt;</strong>: [Errno 2] No such file or directory: 'cache/thread-dcue2bsyrsgbzsd5.rdf'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>args&nbsp;=
+(2, 'No such file or directory')
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>errno&nbsp;=
+2
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>filename&nbsp;=
+'cache/thread-dcue2bsyrsgbzsd5.rdf'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>message&nbsp;=
+''
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>strerror&nbsp;=
+'No such file or directory'
+
+
+<!-- The above is a description of an error in a Python program, formatted
+     for a Web browser because the 'cgitb' module was enabled.  In case you
+     are not reading this in a Web browser, here is the original traceback:
+
+Traceback (most recent call last):
+  File "service.py", line 88, in &lt;module&gt;
+    data = lmm.get_thread(i)
+  File "/home/wikier/linkedmarkmail.wikier.org/linkedmarkmail.py", line 76, in get_thread
+    self.cache.update(siocThread)
+  File "/home/wikier/linkedmarkmail.wikier.org/cache.py", line 81, in update
+    self.write(item)
+  File "/home/wikier/linkedmarkmail.wikier.org/cache.py", line 77, in write
+    serialize_graph_file(graph, path)
+  File "/home/wikier/linkedmarkmail.wikier.org/utils.py", line 55, in serialize_graph_file
+    f = open(path, "w")
+IOError: [Errno 2] No such file or directory: 'cache/thread-dcue2bsyrsgbzsd5.rdf'
+
+-->
+

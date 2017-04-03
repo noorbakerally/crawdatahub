@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns="http://purl.uniprot.org/core/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:void="http://rdfs.org/ns/void#" xmlns:sd="http://www.w3.org/ns/sparql-service-description#" xmlns:faldo="http://biohackathon.org/resource/faldo#">
+<owl:Ontology rdf:about="">
+<owl:imports rdf:resource="http://purl.uniprot.org/core/"/>
+</owl:Ontology>
+<rdf:Description rdf:about="http://purl.uniprot.org/database/CTD">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Database"/>
+<abbreviation>CTD</abbreviation>
+<dcterms:identifier>140</dcterms:identifier>
+<category>Organism-specific databases</category>
+<rdfs:label>Comparative Toxicogenomics Database</rdfs:label>
+<linkIsExplicit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</linkIsExplicit>
+<citation rdf:resource="http://purl.uniprot.org/citations/18782832"/>
+<rdfs:seeAlso rdf:resource="http://ctdbase.org/"/>
+<urlTemplate>http://ctdbase.org/detail.go?type=gene&amp;db=GENE&amp;acc=%s</urlTemplate>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/citations/18782832">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Citation"/>
+<skos:exactMatch rdf:resource="http://purl.uniprot.org/pubmed/18782832"/>
+<foaf:primaryTopicOf rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/18782832"/>
+<dcterms:identifier>doi:10.1093/nar/gkn580</dcterms:identifier>
+</rdf:Description>
+</rdf:RDF>

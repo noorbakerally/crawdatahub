@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+	xmlns:cyc="http://sw.cyc.com/concept/"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:ctag="http://commontag.org/ns#"
+	xmlns:opencyc="http://sw.opencyc.org/concept/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:freebase="http://rdf.freebase.com/ns/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">
+
+<rdf:Description rdf:about="http://resource.geolba.ac.at/lithology/48">
+	<colourHexCode xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">#F24073</colourHexCode>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-19T09:47:52Z</dcterms:created>
+	<dcterms:references rdf:resource="http://resource.geolba.ac.at/ref/477"/>
+	<DataViewer xmlns="http://resource.geolba.ac.at/PoolParty/schema/GBA/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</DataViewer>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://resource.geolba.ac.at/lithology/21"/>
+	<skos:definition xml:lang="de">Grobkörniges plutonisches Gestein, welches sich aus Kalzium-Plagioklas, Pyroxen und Eisenoxid zusammensetzt. Bei erheblicher Anwesenheit von Olivin spricht man von Olivin-Gabbro. Modal definiert in QAPF-Feld 10 (Le Maitre et al., 2005).</skos:definition>
+	<skos:definition xml:lang="en">A coarse-grained plutonic rock composed essentially of calcic plagioclase, pyroxene, and iron oxides. If olivine is an essential constituent it is an olivine gabbro. Defined modally in QAPF-field 10 (Le Maitre et al., 2005).</skos:definition>
+	<skos:exactMatch rdf:resource="http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GB"/>
+	<skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gabbro"/>
+	<skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/LithologyValue/gabbro"/>
+	<skos:exactMatch rdf:resource="http://rdf.freebase.com/ns/m/03fsc"/>
+	<skos:prefLabel xml:lang="de">Gabbro</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Gabbro</skos:prefLabel>
+	<skos:related rdf:resource="http://resource.geolba.ac.at/lithology/142"/>
+	<skos:related rdf:resource="http://resource.geolba.ac.at/lithology/82"/>
+	<skos:related rdf:resource="http://resource.geolba.ac.at/lithology/96"/>
+</rdf:Description>
+
+</rdf:RDF>

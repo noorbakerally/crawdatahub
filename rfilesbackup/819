@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Aportación a nuestra CEO]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Espero que os guste, esta nueva aplicaci&oacute;n que he encontrado pululando por internet. &nbsp;Y sobre todo, que la aportaci&oacute;n sea &uacute;til.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-14T00:37:29+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Aportación a nuestra CEO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://albitacosme.wikispaces.com/Aportaci%C3%B3n+a+nuestra+CEO]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Alba-Cosme-Moreno/" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/bed4daf2-2bda-4f50-8dca-e072ee106567" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/304faebf-2e37-4b5b-a7f4-10ca23c7c9ce" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/14a64b67-6f9d-4d3d-8d2f-eac13143766d" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/ed5083c6-7602-4bd7-b2c3-8c7640fcbb0b" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/4d442e02-a45c-49fa-8979-84f610b1c07f" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/234f1c8c-005a-407f-a2c3-e7607835cac6" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/tutorial-8-para-wiki-marquesina/01644d0e-1d76-4d41-8805-1c9e4ceedca0" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/tutorial-11-poner-una-foto-como-fondo-de-pantalla/15aae81e-db92-4bfd-b757-cc8d16dc5528" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/presentacion-prezi-albita-cosme-lou-cebrian-y/d0de8722-4155-422a-a0d1-78f28f4c3cf2" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/video-para-gran1junio/866101de-2647-4519-a5ea-6b46f89742ad" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/direccion-de-wikis/b8755b1e-4190-4bca-a5b7-720554f14e65" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/video-recopilacion-de-gran1junio-albita-cosme-y/5e113220-a552-4c82-924d-e21902d2f9bd" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/tutorial-9-como-hacer-una-pagina-con-contrasea/ca892cf7-cb8d-4f5e-85d6-54c2d4172cb9" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/mpv-informes-5-7-maria-javier-y-adelina/4ff8a2f0-c2db-475a-a954-1c06354575d5" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/invitacion-evento-2012-albita-cosme-y-lou-cebrian/86a11e71-6269-40b7-9a8c-5fffd81fc82f" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/video-presentacion-de-ici/ab38df5b-c99a-4cc7-8ec5-93c9db4e6ef5" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resources/category/trabajos-extra/2421bdea-68c0-4418-88f4-7f3a3c4bdb4b" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resources/category/wiki/689c367d-d551-4cbf-9a31-ea39764cf577" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resources/category/icaro/69c9e254-0428-4d8a-a8ed-779f0a159fab" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resources/category/3-evaluacion/814c4214-2b16-4a2a-ad05-b461d58df986" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/aportaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ceo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/albitacosme" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/icaro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici%202012" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/2012" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Alba-Cosme-Moreno/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Alba-Cosme-Moreno/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Albita Cosme Moreno · IES ICARO 1GCM 2011-12]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Albita]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Cosme Moreno]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Albita Cosme Moreno]]></foaf:name>
+  </foaf:Person>
+  <foaf:Group rdf:about="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[IES ICARO 1GCM 2011-12]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[IES ICARO 1GCM 2011-12]]></foaf:name>
+    <foaf:member rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Alba-Cosme-Moreno/" />
+  </foaf:Group>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/bed4daf2-2bda-4f50-8dca-e072ee106567">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	S&iacute;, creo estamos de acuerdo en pr&aacute;cticamente todo... Lo que est&aacute; claro es que la primera vez no puede ser la mejor. esto tiene que depurarse, &iexcl;y mucho!</p>
+<p>
+	Lo del Blog es cierto, la din&aacute;mica buena es la primera. Pero habr&aacute; que ver c&oacute;mo se combina con el trabajo de apadrinaje... que tiene otras fechas. Seguro que tendr&aacute; soluci&oacute;n. Es buena puntualizaci&oacute;n.&nbsp;</p>
+<p>
+	Buenas noches!</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	S&iacute;, creo estamos de acuerdo en pr&aacute;cticamente todo... Lo que est&aacute; claro es que la primera vez no puede ser la mejor. esto tiene que depurarse, &iexcl;y mucho!</p>
+<p>
+	Lo del Blog es cierto, la din&aacute;mica buena es la primera. Pero habr&aacute; que ver c&oacute;mo se combina con el trabajo de apadrinaje... que tiene otras fechas. Seguro que tendr&aacute; soluci&oacute;n. Es buena puntualizaci&oacute;n.&nbsp;</p>
+<p>
+	Buenas noches!</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-14T01:49:10+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesora-laclasedelaura/" />
+    <sioc:reply_of rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/304faebf-2e37-4b5b-a7f4-10ca23c7c9ce" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/profesora-laclasedelaura/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Profesora · Laura colorado ortiz]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Laura]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[colorado ortiz]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/304faebf-2e37-4b5b-a7f4-10ca23c7c9ce">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Ah&iacute; va!! XD</p>
+<p>
+	Primero; es verdad que a principio de curso es dif&iacute;cil saber como somo cada uno de nosotros, pero los profes al igual que las madres (y en funci&oacute;n del tiempo que lleven ejerciendo) tienen un sexto sentido, para detectar determinadas cosas. Es verdad lo que dices de echarte la culpa, pero para eso he creado lo de los despidos XD, de manera que ese problema se pueda subsanar de alguna forma. Lo que est&aacute; claro, que amigos o no, cada uno tendr&aacute; su propia sensaci&oacute;n de como ha trabajado. Es dif&iacute;cil lo reconozco, pero lo que quiero dejar claro, es que lo que en principio parece una relaci&oacute;n ideal, en la pr&aacute;ctica se convierte en una pesadilla, entonc&eacute;s lo que hay que procurar es que la gente no se lleven por las amistades y amiguismos, porque en amistad podemos ser buenos, pero el trabajo es otra cosa diferente.</p>
+<p>
+	Segundo: Obviamente en nuestro caso eran necesarias dos personas, as&iacute; como en publicidad... Pero &iquest;dos de luces?En ese sentido, habr&iacute;a que haber especificado, ya &nbsp;que uno (Estefan&iacute;a) se dedic&oacute; a la imagen y el otro (que no fue el correspondiente, sino Carlos se dedic&oacute; a las luces). Lo que eche en falta es que el d&uacute;a se pusieran de acuerdo a la hora de trabajar, el sintonizar. Por otro lado, el tema del blog, creo (ahora lo s&eacute;) que no necesitaba de dos personas, bastaba con una. En conclusi&oacute;n, que en funci&oacute;n del cargo se necesitar&iacute;a una o varias personas.</p>
+<p>
+	Tercero:Esto lo quer&iacute;a poner con el ejemplo de una tienda vac&iacute;a. Cuando ves una tienda, en la que no entra nadie y t&uacute; te atreves de repente ves que todo el mundo entra. No pretendo que la gente explot&eacute;, sino que vean que no pasa nada por decir las cosas, (En mi caso me fall&oacute; el miedo al no saber como iba a reaccionar).&nbsp;</p>
+<p>
+	Cuarto: nada que rebatir al respecto.</p>
+<p>
+	Quinto: s&eacute; que es dif&iacute;cil, y lo har&aacute;s con la mejor intenci&oacute;n. Tampoco hab&iacute;a pensando en la gente despedida, pues en el paro no se pueden quedar XD, habria que reubicarlos o hacer terapia de grupo. Si se me ocurren m&aacute;s ideas las pondr&eacute;.</p>
+<p>
+	Sexto: Nos hubieras quitado programaci&oacute;n XDD Pues miedo me dan los del a&ntilde;o que viene... Pero supongo que tendr&aacute;n una relaci&oacute;n m&aacute;s estrecha con el apadrinado.</p>
+<p>
+	Y una cosa de &uacute;ltima hora!! Tema blog.... Procurar escribir con asiduidad, de manera que nos se quede dos semanas vac&iacute;o. Y con el establecmiento apadrina, que no se vaya de pascuas a ramos, sino de forma m&aacute;s habitual, as&iacute; estrecharemos lazos con el apadrino.</p>
+<p>
+	Espero que te guste!!!</p>
+<p>
+	A dormir!! Y buenas noches!!!</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Ah&iacute; va!! XD</p>
+<p>
+	Primero; es verdad que a principio de curso es dif&iacute;cil saber como somo cada uno de nosotros, pero los profes al igual que las madres (y en funci&oacute;n del tiempo que lleven ejerciendo) tienen un sexto sentido, para detectar determinadas cosas. Es verdad lo que dices de echarte la culpa, pero para eso he creado lo de los despidos XD, de manera que ese problema se pueda subsanar de alguna forma. Lo que est&aacute; claro, que amigos o no, cada uno tendr&aacute; su propia sensaci&oacute;n de como ha trabajado. Es dif&iacute;cil lo reconozco, pero lo que quiero dejar claro, es que lo que en principio parece una relaci&oacute;n ideal, en la pr&aacute;ctica se convierte en una pesadilla, entonc&eacute;s lo que hay que procurar es que la gente no se lleven por las amistades y amiguismos, porque en amistad podemos ser buenos, pero el trabajo es otra cosa diferente.</p>
+<p>
+	Segundo: Obviamente en nuestro caso eran necesarias dos personas, as&iacute; como en publicidad... Pero &iquest;dos de luces?En ese sentido, habr&iacute;a que haber especificado, ya &nbsp;que uno (Estefan&iacute;a) se dedic&oacute; a la imagen y el otro (que no fue el correspondiente, sino Carlos se dedic&oacute; a las luces). Lo que eche en falta es que el d&uacute;a se pusieran de acuerdo a la hora de trabajar, el sintonizar. Por otro lado, el tema del blog, creo (ahora lo s&eacute;) que no necesitaba de dos personas, bastaba con una. En conclusi&oacute;n, que en funci&oacute;n del cargo se necesitar&iacute;a una o varias personas.</p>
+<p>
+	Tercero:Esto lo quer&iacute;a poner con el ejemplo de una tienda vac&iacute;a. Cuando ves una tienda, en la que no entra nadie y t&uacute; te atreves de repente ves que todo el mundo entra. No pretendo que la gente explot&eacute;, sino que vean que no pasa nada por decir las cosas, (En mi caso me fall&oacute; el miedo al no saber como iba a reaccionar).&nbsp;</p>
+<p>
+	Cuarto: nada que rebatir al respecto.</p>
+<p>
+	Quinto: s&eacute; que es dif&iacute;cil, y lo har&aacute;s con la mejor intenci&oacute;n. Tampoco hab&iacute;a pensando en la gente despedida, pues en el paro no se pueden quedar XD, habria que reubicarlos o hacer terapia de grupo. Si se me ocurren m&aacute;s ideas las pondr&eacute;.</p>
+<p>
+	Sexto: Nos hubieras quitado programaci&oacute;n XDD Pues miedo me dan los del a&ntilde;o que viene... Pero supongo que tendr&aacute;n una relaci&oacute;n m&aacute;s estrecha con el apadrinado.</p>
+<p>
+	Y una cosa de &uacute;ltima hora!! Tema blog.... Procurar escribir con asiduidad, de manera que nos se quede dos semanas vac&iacute;o. Y con el establecmiento apadrina, que no se vaya de pascuas a ramos, sino de forma m&aacute;s habitual, as&iacute; estrecharemos lazos con el apadrino.</p>
+<p>
+	Espero que te guste!!!</p>
+<p>
+	A dormir!! Y buenas noches!!!</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-14T01:41:05+02:00</dcterms:created>
+    <sioc:attachment rdf:resource="http://gnoss.com/00000000-0000-0000-0000-000000000000" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Alba-Cosme-Moreno/" />
+    <sioc:reply_of rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/234f1c8c-005a-407f-a2c3-e7607835cac6" />
+  </sioc_t:Comment>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/234f1c8c-005a-407f-a2c3-e7607835cac6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	jo, me tarda mucho en cargar... :&acute;(</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	jo, me tarda mucho en cargar... :&acute;(</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-14T00:54:48+02:00</dcterms:created>
+    <sioc:attachment rdf:resource="http://gnoss.com/00000000-0000-0000-0000-000000000000" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesora-laclasedelaura/" />
+  </sioc_t:Comment>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/14a64b67-6f9d-4d3d-8d2f-eac13143766d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	acabo de comprobar, que la segunda vez tampoco... es la primera... prueba en la ventana de inc&oacute;gnito...</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	acabo de comprobar, que la segunda vez tampoco... es la primera... prueba en la ventana de inc&oacute;gnito...</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-14T01:21:45+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesora-laclasedelaura/" />
+    <sioc:reply_of rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/4d442e02-a45c-49fa-8979-84f610b1c07f" />
+  </sioc_t:Comment>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/4d442e02-a45c-49fa-8979-84f610b1c07f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Que raro, a m&iacute; no me tardad nada! :)</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Que raro, a m&iacute; no me tardad nada! :)</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-14T01:07:46+02:00</dcterms:created>
+    <sioc:attachment rdf:resource="http://gnoss.com/00000000-0000-0000-0000-000000000000" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/class/IES-ICARO-1GCM-2011-12/profile/Alba-Cosme-Moreno/" />
+    <sioc:reply_of rdf:resource="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/234f1c8c-005a-407f-a2c3-e7607835cac6" />
+  </sioc_t:Comment>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resource/aportacion-a-nuestra-ceo/2f90c137-1d35-4945-946a-89d771d06c5a/comentario/ed5083c6-7602-4bd7-b2c3-8c7640fcbb0b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	genial! me gusta mucho la aplicaci&oacute;n &iquest;Es Glogster? no lo veo por ninguna parte. Pero &nbsp;tarda una vida en cargar.</p>
+<p>
+	<strong>Muy interesantes tus aportaciones</strong>. Aunque algunas me parecen m&aacute;s interesantes/factibles que otras. Voy paso a paso:</p>
+<p>
+	<strong>Primero</strong>: Me temo que si formo yo los grupos, y hubiera pasado lo que ha pasado (que hubiera sucedido igual en uno u otro grupo) la culpa me la hubieras echado a m&iacute;, y lo hubiera puesto aqu&iacute; como queja. Creo que es mejor que elij&aacute;is vosotros por afinidad (as&iacute; si os equivoc&aacute;is no ten&eacute;is que echarle la culpa a otro). me hubieras odiado un poco m&aacute;s. Adem&aacute;s, yo no tengo ning&uacute;n parametro para conoceros a principio de curso, seguro que no hubiera acertado.</p>
+<p>
+	<strong>Segundo</strong>: Fue necesartio por varias razones. Primera, nuestro desconocimiento, no sab&iacute;amos como iba a ser el trabajo real. Segundo, porque un trabajo nuevo (para el alumno) es m&aacute;s f&aacute;cil cuando te sientes protegido por otro. &iquest;Est&aacute;s segura de que te hubieras ofrecido t&uacute; sola para el puesto? &iquest;Hubieras logrado, lo que has logrado, t&uacute; sola? Creo que este tema es discutible..</p>
+<p>
+	<strong>Tercero</strong>: Estoy de acuerdo, lo considerar&eacute; la pr&oacute;xima vez. Pero creo que ten&eacute;is que aprender a ser responsables de vuestros actos y es importante que aprend&aacute;is a tomar decisiones. Y m&aacute;s cuando se os dice que es lo que ser&iacute;a correcto desde el primer momento, advirtiendo que ser&aacute; peor al final. Uno aprende equivoc&aacute;ndose. Y espero que esta haya sido una de esas ocasiones. Pero lo valorar&eacute;, no digo que no. :)</p>
+<p>
+	<strong>Cuarto</strong>: Eso s&iacute; que es culpa m&iacute;a, se me fue de las manos. Lo intentar&eacute; la pr&oacute;xima vez, un interlocutor por grupo. Lo veo coherente. S&iacute;.</p>
+<p>
+	<strong>Quinto</strong>: No descarto incluir medidas de este tipo para el pr&oacute;ximo a&ntilde;o. Pero deben estar inclu&iacute;das en programaci&oacute;n y este a&ntilde;o no lo estaban. Y debe estar todo, atado y bien atado. Va a ser complicado y acepto propuestas de c&oacute;mo cre&eacute;is que deber&iacute;a manejarse una situaci&oacute;n as&iacute;. Porque, esto no es solo echar a alguien, es ver qu&eacute; se hace con ese alguien. Y si te echan por un problema que no tiene que ver con tu trabajo (despido improcedente??). Habr&iacute;a que proponer una lista de causas y un procedimiento, aviso previo, etc...</p>
+<p>
+	<strong>Sexto</strong>: estoy de acuerdo con lo de los trabajos &quot;intensivos&quot; eso es culpa de los inicios creando ICI, perdimos mucho tiempo y yo tengo la obligaci&oacute;n de cumplir una programaci&oacute;n. El pr&oacute;ximo curso no hay que hacer ese trabajo, ser&aacute; m&aacute;s f&aacute;cil repartir el trabajo. Es verdad, y lo siento. Ha sido circunstancial este curso.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Muchas gracias. Acepto contra r&eacute;plica. Y &iexcl;&iexcl;tambi&eacute;n otros pueden participar del debate!!</p>
+<p>
+	&nbsp;</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	genial! me gusta mucho la aplicaci&oacute;n &iquest;Es Glogster? no lo veo por ninguna parte. Pero &nbsp;tarda una vida en cargar.</p>
+<p>
+	<strong>Muy interesantes tus aportaciones</strong>. Aunque algunas me parecen m&aacute;s interesantes/factibles que otras. Voy paso a paso:</p>
+<p>
+	<strong>Primero</strong>: Me temo que si formo yo los grupos, y hubiera pasado lo que ha pasado (que hubiera sucedido igual en uno u otro grupo) la culpa me la hubieras echado a m&iacute;, y lo hubiera puesto aqu&iacute; como queja. Creo que es mejor que elij&aacute;is vosotros por afinidad (as&iacute; si os equivoc&aacute;is no ten&eacute;is que echarle la culpa a otro). me hubieras odiado un poco m&aacute;s. Adem&aacute;s, yo no tengo ning&uacute;n parametro para conoceros a principio de curso, seguro que no hubiera acertado.</p>
+<p>
+	<strong>Segundo</strong>: Fue necesartio por varias razones. Primera, nuestro desconocimiento, no sab&iacute;amos como iba a ser el trabajo real. Segundo, porque un trabajo nuevo (para el alumno) es m&aacute;s f&aacute;cil cuando te sientes protegido por otro. &iquest;Est&aacute;s segura de que te hubieras ofrecido t&uacute; sola para el puesto? &iquest;Hubieras logrado, lo que has logrado, t&uacute; sola? Creo que este tema es discutible..</p>
+<p>
+	<strong>Tercero</strong>: Estoy de acuerdo, lo considerar&eacute; la pr&oacute;xima vez. Pero creo que ten&eacute;is que aprender a ser responsables de vuestros actos y es importante que aprend&aacute;is a tomar decisiones. Y m&aacute;s cuando se os dice que es lo que ser&iacute;a correcto desde el primer momento, advirtiendo que ser&aacute; peor al final. Uno aprende equivoc&aacute;ndose. Y espero que esta haya sido una de esas ocasiones. Pero lo valorar&eacute;, no digo que no. :)</p>
+<p>
+	<strong>Cuarto</strong>: Eso s&iacute; que es culpa m&iacute;a, se me fue de las manos. Lo intentar&eacute; la pr&oacute;xima vez, un interlocutor por grupo. Lo veo coherente. S&iacute;.</p>
+<p>
+	<strong>Quinto</strong>: No descarto incluir medidas de este tipo para el pr&oacute;ximo a&ntilde;o. Pero deben estar inclu&iacute;das en programaci&oacute;n y este a&ntilde;o no lo estaban. Y debe estar todo, atado y bien atado. Va a ser complicado y acepto propuestas de c&oacute;mo cre&eacute;is que deber&iacute;a manejarse una situaci&oacute;n as&iacute;. Porque, esto no es solo echar a alguien, es ver qu&eacute; se hace con ese alguien. Y si te echan por un problema que no tiene que ver con tu trabajo (despido improcedente??). Habr&iacute;a que proponer una lista de causas y un procedimiento, aviso previo, etc...</p>
+<p>
+	<strong>Sexto</strong>: estoy de acuerdo con lo de los trabajos &quot;intensivos&quot; eso es culpa de los inicios creando ICI, perdimos mucho tiempo y yo tengo la obligaci&oacute;n de cumplir una programaci&oacute;n. El pr&oacute;ximo curso no hay que hacer ese trabajo, ser&aacute; m&aacute;s f&aacute;cil repartir el trabajo. Es verdad, y lo siento. Ha sido circunstancial este curso.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Muchas gracias. Acepto contra r&eacute;plica. Y &iexcl;&iexcl;tambi&eacute;n otros pueden participar del debate!!</p>
+<p>
+	&nbsp;</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-14T01:14:28+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesora-laclasedelaura/" />
+  </sioc_t:Comment>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MARKETING PUNTO DE VENTA - PROYECTO EMPRESA]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resources/category/trabajos-extra/2421bdea-68c0-4418-88f4-7f3a3c4bdb4b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Trabajos Extra]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Trabajos Extra]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resources/category/wiki/689c367d-d551-4cbf-9a31-ea39764cf577">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[WIKI]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[WIKI]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resources/category/icaro/69c9e254-0428-4d8a-a8ed-779f0a159fab">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ICARO]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[ICARO]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/resources/category/3-evaluacion/814c4214-2b16-4a2a-ad05-b461d58df986">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[3ª Evaluación]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[3ª Evaluación]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/aportaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aportación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ceo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ceo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/albitacosme">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[albitacosme]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/icaro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[icaro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ici]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/ici%202012">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ici 2012]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/MPV-APADRINA/search/tag/2012">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[2012]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

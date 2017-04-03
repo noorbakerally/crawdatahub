@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+    xmlns:coref="http://www.rkbexplorer.com/ontologies/coref#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+
+  <coref:Bundle>
+    <coref:canon rdf:resource="http://sw.opencyc.org/concept/Mx4rv_ptzZwpEbGdrcN5Y29ycA"/>
+    <coref:duplicate rdf:resource="http://sw.opencyc.org/concept/Mx4rv_ptzZwpEbGdrcN5Y29ycA" />
+    <coref:duplicate rdf:resource="http://sw.opencyc.org/2009/04/07/concept/en/Hampshire_CountyEngland" />
+    <coref:duplicate rdf:resource="http://sw.opencyc.org/2009/04/07/concept/Mx4rv_ptzZwpEbGdrcN5Y29ycA" />
+    <coref:lastUpdated>2009-04-15 18:08:40</coref:lastUpdated>
+  </coref:Bundle>
+
+</rdf:RDF>

@@ -1,0 +1,28 @@
+@prefix allars: <http://www.yso.fi/onto/allars/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix yso: <http://www.yso.fi/onto/yso/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ysa: <http://www.yso.fi/onto/ysa/> .
+
+allars:Y27583
+  skos:prefLabel "teologi"@sv ;
+  a skos:Concept ;
+  skos:narrower allars:Y46304 .
+
+allars:Y46304
+  skos:closeMatch yso:p27245 ;
+  dc:created "2014-03-20"^^xsd:date ;
+  dc:modified "2016-03-29T16:43:45+03:00"^^xsd:dateTime ;
+  skos:exactMatch ysa:Y197640 ;
+  a skos:Concept ;
+  skos:broader allars:Y27583 ;
+  skos:inScheme allars: ;
+  skos:prefLabel "filosofisk teologi"@sv .
+
+allars: a skos:ConceptScheme .
+allars:ryhma_53
+  a skos:Collection ;
+  skos:prefLabel "53 Religion. Teologi. Religionsvetenskap"@sv ;
+  skos:member allars:Y46304 .
+

@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:gnossUtils="http://gnossUtils/" xmlns:sc="http://schema.org/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:hr-xml="http://didactalia.net/Ontologia/Curriculum.owl#" xmlns:museos="http://didactalia.net/Ontologia/museos.owl#" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">69</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/coleccion-permente-de-arte-sacro/c545a2cf-cf15-4f22-afd1-8b3b097263c3" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/centro-atlantico-de-arte-moderno/413ebb3a-0f52-4c61-b609-cc39ee5d69e4" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/centro-de-arte-contemporaneo-la-fabrica/5f33ee4c-5246-4e25-afe6-9378ba04aec8" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-arte-sacra-de-vilanova-de-lourenza/c1c1e65c-7c58-4a4e-b664-9835056120ab" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-exposicion-permanente-de-arte-contemporaneo/f71accaf-a9eb-438c-8d9d-39b0f5096f4c" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/cdan---centro-de-arte-y-naturaleza/8c649369-f41a-4bc3-86c9-419cde43db85" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-arte-sacra-de-santa-maria-do-campo/34c23301-8a2c-43df-bbb3-8a447a976a20" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-arte-contemporaneo-hispano-mexicano/81318ea4-376c-4755-bca5-784f4b2aaeb7" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/instituto-aragones-de-arte-y-cultura/b90565ee-0fed-42bb-b98c-fcf0a70af5d8" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-diocesano-de-arte-sacro/56f01696-fd04-4020-b0f7-cf7e3d3c78ee" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-arte-e-historia-de-durango/a7ac844e-88f9-43ca-a208-2b03f3ca5722" />
+    <gnoss:Results rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/patio-herreriano-museo-de-arte-contemporaneo/b6d2f8d2-60a2-4d48-b640-1ebb2bc2a88b" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/coleccion-permente-de-arte-sacro/c545a2cf-cf15-4f22-afd1-8b3b097263c3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[COLECCIÓN PERMENTE DE ARTE SACRO]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:54:42+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[COLECCIÓN PERMENTE DE ARTE SACRO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[COLECCIÓN PERMENTE DE ARTE SACRO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_c545a2cf-cf15-4f22-afd1-8b3b097263c3_7c045023-ba74-41b1-8154-cd171da0c3fb" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/sacro" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/permente" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Group rdf:about="https://didactalia.net/en/organization/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo Didactalia]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo Didactalia]]></foaf:name>
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/sacro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sacro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/permente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[permente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/centro-atlantico-de-arte-moderno/413ebb3a-0f52-4c61-b609-cc39ee5d69e4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[CENTRO ATLÁNTICO DE ARTE MODERNO]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[La Colección es fruto de más de cincuenta años de coleccionismo público en Canarias. Se crea a partir del depósito de una parte significativa de los fondos de arte del siglo XX que posee el Cabildo Insular de Gran Canaria realizado en 1989, cuando se inauguró el museo. Una de las premisas iniciales del CAAM fue articular su propia colección en torno al grupo El Paso. Adquisiciones de piezas de Manolo Millares y de Martín Chirino, así como de otros representantes del informalismo como Saura, Genovés, Canogar, Viola o Serrano aportaron a la Colección un punto de partida sobre el que articularse. El concepto de tricontinentalidad, como espacio de cruce de culturas entre los tres continentes: Europa, África y América, que orienta el proyecto global del CAAM como Centro de Arte también es el eje vertebral de su colección.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:50:31+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CENTRO ATLÁNTICO DE ARTE MODERNO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CENTRO ATLÁNTICO DE ARTE MODERNO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_413ebb3a-0f52-4c61-b609-cc39ee5d69e4_45e0a1cb-0b74-47a1-bedb-c3156b63afe3" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/canarias" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/europa" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/xx" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/am%c3%a9rica" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/colecci%c3%b3n" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/%c3%a1frica" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/moderno" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/serrano" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/viola" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/atl%c3%a1ntico" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/saura" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/centro%20de%20arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/cabildo%20insular%20de%20gran%20canaria" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/genov%c3%a9s" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/el%20paso" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/manolo%20millares" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/mart%c3%adn%20chirino" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/canogar" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/caam" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/canarias">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[canarias]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/europa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[europa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/xx">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[xx]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/am%c3%a9rica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[américa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/colecci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[colección]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/%c3%a1frica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[áfrica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/moderno">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[moderno]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/serrano">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[serrano]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/viola">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[viola]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/atl%c3%a1ntico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[atlántico]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/saura">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[saura]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/centro%20de%20arte">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[centro de arte]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/cabildo%20insular%20de%20gran%20canaria">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cabildo insular de gran canaria]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/genov%c3%a9s">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[genovés]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/el%20paso">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[el paso]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/manolo%20millares">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[manolo millares]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/mart%c3%adn%20chirino">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[martín chirino]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/canogar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[canogar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/caam">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[caam]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/centro-de-arte-contemporaneo-la-fabrica/5f33ee4c-5246-4e25-afe6-9378ba04aec8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[CENTRO DE ARTE CONTEMPORÁNEO LA FÁBRICA]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:50:11+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CENTRO DE ARTE CONTEMPORÁNEO LA FÁBRICA]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CENTRO DE ARTE CONTEMPORÁNEO LA FÁBRICA.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_5f33ee4c-5246-4e25-afe6-9378ba04aec8_b0b6b590-b8c5-4716-9665-da16222d8334" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/f%c3%a1brica" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/contempor%c3%a1neo" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/f%c3%a1brica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[fábrica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/contempor%c3%a1neo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contemporáneo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-arte-sacra-de-vilanova-de-lourenza/c1c1e65c-7c58-4a4e-b664-9835056120ab">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MUSEO DE ARTE SACRA DE VILANOVA DE LOURENZÁ]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:48:33+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DE ARTE SACRA DE VILANOVA DE LOURENZÁ]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DE ARTE SACRA DE VILANOVA DE LOURENZÁ.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_c1c1e65c-7c58-4a4e-b664-9835056120ab_5df5a7a9-5144-45d3-91a8-0e5fd8a73983" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/vilanova" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/sacra" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/lourenz%c3%a1" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/vilanova">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vilanova]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/sacra">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sacra]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/lourenz%c3%a1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[lourenzá]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/museo-exposicion-permanente-de-arte-contemporaneo/f71accaf-a9eb-438c-8d9d-39b0f5096f4c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MUSEO-EXPOSICIÓN PERMANENTE DE ARTE CONTEMPORÁNEO DEL VALLE DE HECHO]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:47:56+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO-EXPOSICIÓN PERMANENTE DE ARTE CONTEMPORÁNEO DEL VALLE DE HECHO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO-EXPOSICIÓN PERMANENTE DE ARTE CONTEMPORÁNEO DEL VALLE DE HECHO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_f71accaf-a9eb-438c-8d9d-39b0f5096f4c_1125d40b-826c-4558-8a95-02c141af8d32" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/valle" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/permanente" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/contempor%c3%a1neo" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/hecho" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/valle">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[valle]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/permanente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[permanente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/hecho">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[hecho]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/cdan---centro-de-arte-y-naturaleza/8c649369-f41a-4bc3-86c9-419cde43db85">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[CDAN - CENTRO DE ARTE Y NATURALEZA]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:47:46+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CDAN - CENTRO DE ARTE Y NATURALEZA]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CDAN - CENTRO DE ARTE Y NATURALEZA.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_8c649369-f41a-4bc3-86c9-419cde43db85_32c40a6b-1aca-4128-a3d7-071c1c48b08a" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/naturaleza" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/-" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/naturaleza">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[naturaleza]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/-">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[-]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-arte-sacra-de-santa-maria-do-campo/34c23301-8a2c-43df-bbb3-8a447a976a20">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MUSEO DE ARTE SACRA DE SANTA MARÍA DO CAMPO]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:46:49+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DE ARTE SACRA DE SANTA MARÍA DO CAMPO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DE ARTE SACRA DE SANTA MARÍA DO CAMPO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_34c23301-8a2c-43df-bbb3-8a447a976a20_99d342ec-dc5a-44b0-90f1-db2608270345" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/campo" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/maria" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/santa" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/sacra" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/campo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[campo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/maria">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[maria]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/santa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[santa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-arte-contemporaneo-hispano-mexicano/81318ea4-376c-4755-bca5-784f4b2aaeb7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MUSEO DE ARTE CONTEMPORÁNEO HISPANO-MEXICANO]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:38:57+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DE ARTE CONTEMPORÁNEO HISPANO-MEXICANO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DE ARTE CONTEMPORÁNEO HISPANO-MEXICANO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_81318ea4-376c-4755-bca5-784f4b2aaeb7_8094a750-7fca-4da0-b0a7-0ef43996adc3" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/contempor%c3%a1neo" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/hispano-mexicano" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/hispano-mexicano">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[hispano-mexicano]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/instituto-aragones-de-arte-y-cultura/b90565ee-0fed-42bb-b98c-fcf0a70af5d8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[INSTITUTO ARAGONÉS DE ARTE Y CULTURA CONTEMPORÁNEOS (IAACC) PABLO SERRANO]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:38:51+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[INSTITUTO ARAGONÉS DE ARTE Y CULTURA CONTEMPORÁNEOS (IAACC) PABLO SERRANO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[INSTITUTO ARAGONÉS DE ARTE Y CULTURA CONTEMPORÁNEOS (IAACC) PABLO SERRANO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_b90565ee-0fed-42bb-b98c-fcf0a70af5d8_b57c0bd9-1b7a-4157-89ce-3044aee7fde8" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/cultura" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/pablo" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/aragon%c3%a9s" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/serrano" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/contempor%c3%a1neos" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/iaacc" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/cultura">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cultura]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/pablo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pablo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/aragon%c3%a9s">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aragonés]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/contempor%c3%a1neos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contemporáneos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/iaacc">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iaacc]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/museo-diocesano-de-arte-sacro/56f01696-fd04-4020-b0f7-cf7e3d3c78ee">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MUSEO DIOCESANO DE ARTE SACRO]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:37:02+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DIOCESANO DE ARTE SACRO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DIOCESANO DE ARTE SACRO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_56f01696-fd04-4020-b0f7-cf7e3d3c78ee_7d613952-cd1e-4e73-a62b-73770122f9d9" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/sacro" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/diocesano" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/diocesano">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[diocesano]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-arte-e-historia-de-durango/a7ac844e-88f9-43ca-a208-2b03f3ca5722">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MUSEO DE ARTE E HISTORIA DE DURANGO]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:36:31+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DE ARTE E HISTORIA DE DURANGO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO DE ARTE E HISTORIA DE DURANGO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_a7ac844e-88f9-43ca-a208-2b03f3ca5722_90c07982-6ebf-4b83-a589-10be2ae31268" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/historia" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/durango" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/historia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[historia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/durango">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[durango]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/patio-herreriano-museo-de-arte-contemporaneo/b6d2f8d2-60a2-4d48-b640-1ebb2bc2a88b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[PATIO HERRERIANO. MUSEO DE ARTE CONTEMPORÁNEO ESPAÑOL]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-16T01:35:50+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[PATIO HERRERIANO. MUSEO DE ARTE CONTEMPORÁNEO ESPAÑOL]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[PATIO HERRERIANO. MUSEO DE ARTE CONTEMPORÁNEO ESPAÑOL.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_b6d2f8d2-60a2-4d48-b640-1ebb2bc2a88b_904fff6d-d72a-4e45-a014-076fd15fe241" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/espa%c3%b1ol" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/contempor%c3%a1neo" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/herreriano" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[museo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/espa%c3%b1ol">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[español]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/herreriano">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[herreriano]]></rdfs:label>
+  </sioc_t:Tag>
+<Museum rdf:about="http://didactalia.net/items/Museum_c545a2cf-cf15-4f22-afd1-8b3b097263c3_7c045023-ba74-41b1-8154-cd171da0c3fb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/2513947" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_c545a2cf-cf15-4f22-afd1-8b3b097263c3_eabe0178-e4b0-4ff0-aa85-9ff511d4cfad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_413ebb3a-0f52-4c61-b609-cc39ee5d69e4_45e0a1cb-0b74-47a1-bedb-c3156b63afe3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/2515270" />
+    <museos:province rdf:resource="http://geonames.org/2515271" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_413ebb3a-0f52-4c61-b609-cc39ee5d69e4_4deb40c6-8bd0-4ad9-a241-0adaa5497e59">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_5f33ee4c-5246-4e25-afe6-9378ba04aec8_b0b6b590-b8c5-4716-9665-da16222d8334">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3131113" />
+    <museos:province rdf:resource="http://geonames.org/3114530" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_5f33ee4c-5246-4e25-afe6-9378ba04aec8_c941f1e8-0801-4169-94b1-20dc779cc913">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_c1c1e65c-7c58-4a4e-b664-9835056120ab_5df5a7a9-5144-45d3-91a8-0e5fd8a73983">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3118084" />
+    <museos:province rdf:resource="http://geonames.org/3117813" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_c1c1e65c-7c58-4a4e-b664-9835056120ab_b26670e4-22b3-4fd2-999e-86d7fdd30583">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_f71accaf-a9eb-438c-8d9d-39b0f5096f4c_1125d40b-826c-4558-8a95-02c141af8d32">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3120867" />
+    <museos:province rdf:resource="http://geonames.org/3120513" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_f71accaf-a9eb-438c-8d9d-39b0f5096f4c_1316e36f-fa38-4bc7-b5e2-987eff5c7f79">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_8c649369-f41a-4bc3-86c9-419cde43db85_32c40a6b-1aca-4128-a3d7-071c1c48b08a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/2516548" />
+    <museos:province rdf:resource="http://geonames.org/3120513" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_8c649369-f41a-4bc3-86c9-419cde43db85_fde95b21-901b-439c-a986-cdd77df37142">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_34c23301-8a2c-43df-bbb3-8a447a976a20_99d342ec-dc5a-44b0-90f1-db2608270345">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3119841" />
+    <museos:province rdf:resource="http://geonames.org/3119840" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_34c23301-8a2c-43df-bbb3-8a447a976a20_e33059d6-e261-45a6-92a8-206cc96289b3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_81318ea4-376c-4755-bca5-784f4b2aaeb7_8094a750-7fca-4da0-b0a7-0ef43996adc3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3104324" />
+    <museos:province rdf:resource="http://geonames.org/3104323" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_81318ea4-376c-4755-bca5-784f4b2aaeb7_6f50e653-915d-4e59-aa5c-9a4d089952f5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_b90565ee-0fed-42bb-b98c-fcf0a70af5d8_b57c0bd9-1b7a-4157-89ce-3044aee7fde8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3104324" />
+    <museos:province rdf:resource="http://geonames.org/3104323" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_b90565ee-0fed-42bb-b98c-fcf0a70af5d8_48f6817f-7471-47b1-a24f-c7b788d7f502">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_56f01696-fd04-4020-b0f7-cf7e3d3c78ee_7d613952-cd1e-4e73-a62b-73770122f9d9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3128026" />
+    <museos:province rdf:resource="http://geonames.org/3104469" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_56f01696-fd04-4020-b0f7-cf7e3d3c78ee_6cb32391-39f8-4ede-a17e-2ccc210a7791">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_a7ac844e-88f9-43ca-a208-2b03f3ca5722_90c07982-6ebf-4b83-a589-10be2ae31268">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3123773" />
+    <museos:province rdf:resource="http://geonames.org/3104469" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_a7ac844e-88f9-43ca-a208-2b03f3ca5722_d9db73cf-002f-4078-8d4b-2b7888ef3c81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+
+<Museum rdf:about="http://didactalia.net/items/Museum_b6d2f8d2-60a2-4d48-b640-1ebb2bc2a88b_904fff6d-d72a-4e45-a014-076fd15fe241">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:city rdf:resource="http://geonames.org/3106672" />
+    <museos:province rdf:resource="http://geonames.org/3106671" />
+  </Museum>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_b6d2f8d2-60a2-4d48-b640-1ebb2bc2a88b_afd5db28-a3b0-47f6-b4c5-cd8e3161072b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+  </geo:Point>
+</rdf:RDF>

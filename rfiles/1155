@@ -1,0 +1,3 @@
+@prefix void:	<http://rdfs.org/ns/void#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/dataset/coi.cz/zajisteni/> .
+ns1:distribution	void:exampleResource	<http://linked.opendata.cz/resource/domain/coi.cz/confiscation/17117> .

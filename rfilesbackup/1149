@@ -1,0 +1,19 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/domain/vavai/aktivita/> .
+@prefix ns2:	<http://linked.opendata.cz/resource/domain/vavai/> .
+ns1:AA	rdf:type	ns2:Aktivita .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+ns1:AA	dcterms:title	"Increase of the level of labour safety in mines and elimination of danger with respect to methane leaking from closed mining areas"@en ,
+		"Zv\u00FD\u0161en\u00ED \u00FArovn\u011B bezpe\u010Dnosti pr\u00E1ce v dolech a eliminace nebezpe\u010D\u00ED od unikaj\u00EDc\u00EDho metanu z uzav\u0159en\u00FDch d\u016Fln\u00EDch prostor"@cs .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns1:AA	skos:notation	"AA" .
+@prefix ns5:	<http://linked.opendata.cz/ontology/domain/vavai/cea/pgm/> .
+ns1:AA	ns5:XD_PGM	"22" ;
+	ns5:cilAktivity	"The aim is to acquire scientifically processed basic entering supporting documents for the compilation of legal rules and regulations, amending the sphere of labor safety and safety of the operation in mining industry, as well as for the performance of its own professional supervision by the state mining authority."@en ,
+		"C\u00EDlem je z\u00EDsk\u00E1n\u00ED v\u011Bdecky zpracovan\u00FDch z\u00E1kladn\u00EDch vstupn\u00EDch podklad\u016F pro tvorbu pr\u00E1vn\u00EDch p\u0159edpis\u016F, upravuj\u00EDc\u00EDch bezpe\u010Dnost prace i bezpe\u010Dnost provozu v hornictv\u00ED a tak\u00E9 pro prov\u00E1d\u011Bn\u00ED vlastn\u00EDho odborn\u00E9ho dozoru st\u00E1tn\u00ED b\u00E1\u0148sk\u00E9 spr\u00E1vy"@cs ;
+	ns5:rokUkonceni	<http://reference.data.gov.uk/id/gregorian-year/2008> ;
+	ns5:rokZahajeni	<http://reference.data.gov.uk/id/gregorian-year/1999> .
+@prefix ns6:	<http://linked.opendata.cz/ontology/domain/vavai/cea/pgm/typAktivity/> .
+ns1:AA	ns5:typAktivity	ns6:Z .
+@prefix ns7:	<http://linked.opendata.cz/resource/domain/vavai/resort/> .
+ns1:AA	ns5:resort	ns7:CBU .

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:nuts="http://nuts.geovocab.org/id/"
+         xmlns:ramon="http://rdfdata.eionet.europa.eu/ramon/ontology/"
+         xmlns:ramon_geo="http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#"
+         xmlns:fao="http://aims.fao.org/aos/geopolitical.owl#"
+         xmlns:ngeo="http://geovocab.org/geometry#"
+         xmlns:spatial="http://geovocab.org/spatial#"
+         xmlns:gml="http://www.opengis.net/gml"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:ogr="http://ogr.maptools.org/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <rdf:Description rdf:about="http://nuts.geovocab.org/id/LV">
+      <rdf:type rdf:resource="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion"/>
+      <rdf:type rdf:resource="http://geovocab.org/spatial#Feature"/>
+      <ngeo:geometry rdf:resource="http://nuts.geovocab.org/id/LV_geometry"/>
+      <rdfs:label>LV - LATVIJA</rdfs:label>
+      <ramon:name>LATVIJA</ramon:name>
+      <ramon:level rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ramon:level>
+      <ramon:code>LV</ramon:code>
+      <spatial:EC rdf:resource="http://nuts.geovocab.org/id/EE"/>
+      <spatial:EC rdf:resource="http://nuts.geovocab.org/id/LT"/>
+      <spatial:PPi rdf:resource="http://dbpedia.org/resource/Daugavpils"/>
+      <owl:sameAs rdf:resource="http://rdfdata.eionet.europa.eu/ramon/nuts2008/LV"/>
+      <owl:sameAs rdf:resource="http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/LV"/>
+      <owl:sameAs rdf:resource="http://nuts.psi.enakting.org/id/LV"/>
+      <owl:sameAs rdf:resource="http://estatwrap.ontologycentral.com/dic/geo#LV"/>
+      <owl:sameAs rdf:resource="http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Latvia"/>
+      <owl:sameAs rdf:resource="http://aims.fao.org/aos/geopolitical.owl#Latvia"/>
+      <owl:sameAs rdf:resource="http://dbpedia.org/resource/Latvia"/>
+      <owl:sameAs rdf:resource="http://ec.europa.eu/eurostat/ramon/rdfdata/countries/LV"/>
+      <owl:sameAs rdf:resource="http://sws.geonames.org/458258/"/>
+      <owl:sameAs rdf:resource="http://rod.eionet.europa.eu/spatial/21"/>
+      <owl:sameAs rdf:resource="http://rdfdata.eionet.europa.eu/iso3166/countries/LV"/>
+      <owl:sameAs rdf:resource="http://rdfdata.eionet.europa.eu/ramon/nuts2008/LV"/>
+      <owl:sameAs rdf:resource="http://rdfdata.eionet.europa.eu/ramon/nuts2003/LV"/>
+   </rdf:Description>
+</rdf:RDF>

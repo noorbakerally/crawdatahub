@@ -1,0 +1,82 @@
+@prefix : <https://sns.uba.de/umthes/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/spec/>.
+@prefix iqvoc: <http://try.iqvoc.net/schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://sns.uba.de/umthes/schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#>.
+@prefix sns: <http://data.uba.de/sns/schema#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+:_00100428 skos:prefLabel "Mitteleuropa"@de.
+:_00100700 skos:prefLabel "Südeuropa"@de.
+:_00100490 skos:prefLabel "Nordeuropa"@de.
+:_00101153 skos:prefLabel "Osteuropa"@de.
+:_00101238 skos:prefLabel "Westeuropa"@de.
+:_00101665 skos:prefLabel "Ostseeraum"@de.
+:_00601711 skos:prefLabel "Monaco"@de.
+:_00649633 skos:prefLabel "Mazedonien"@de.
+:_00650774 skos:prefLabel "MOE-Staaten"@de.
+:_00050384 skos:prefLabel "Europäische Union"@de.
+:_b20b564c skos:prefLabel "Eurasien"@de.
+:_00657246 skos:prefLabel "EUMENA-Region"@de.
+:_00100180 skos:prefLabel "EU-Länder"@de.
+:_00101508 skos:prefLabel "Flüsse [Europa]"@de.
+:_00049830 skos:prefLabel "Kontinent"@de.
+:_00100204 a skos:Concept;
+           schema:memberOf :GES;
+           skos:inScheme :scheme;
+           skosxl:altLabel :TH_00029009;
+           skos:altLabel "Europäisches Umweltprogramm"@de;
+           skosxl:altLabel :TH_00603572;
+           skos:altLabel "EU-Programm"@de;
+           skosxl:altLabel :TH_00603573;
+           skos:altLabel "Europäisches Umweltschutzprogramm"@de;
+           skosxl:prefLabel :TH_00100204;
+           skos:prefLabel "Europa"@de;
+           skosxl:altLabel :TH_00614366;
+           skos:altLabel "Europe"@en;
+           skosxl:altLabel :TH_00100205;
+           skos:altLabel "europäisch"@de;
+           skosxl:altLabel :TH_00100241;
+           skos:altLabel "Gesamteuropa"@de;
+           skosxl:altLabel :TH_00608722;
+           skos:altLabel "europaweit"@de;
+           skos:narrower :_00100428;
+           skos:narrower :_00100700;
+           skos:narrower :_00100490;
+           skos:narrower :_00101153;
+           skos:narrower :_00101238;
+           skos:narrower :_00101665;
+           skos:narrower :_00601711;
+           skos:narrower :_00649633;
+           skos:narrower :_00650774;
+           skos:related :_00050384;
+           skos:related :_b20b564c;
+           skos:related :_00657246;
+           skos:narrower :_00100180;
+           skos:narrower :_00101508;
+           skos:broader :_00049830;
+           sns:changeNote [
+    dct:created "1990-09-07";
+    dct:creator "foba"
+];
+           sns:changeNote [
+    dct:creator "foba";
+    dct:modified "2005-02-15"
+];
+           sns:changeNote [
+    dct:creator "Joachim Fock";
+    dct:modified "2016-06-15T10:10:11+02:00"
+];
+           sns:exportNote [
+    sns:source "aDisBMS";
+    sns:thsisn "100204";
+    dct:date "2016-05-06"
+];
+           sns:sourceNote "GEMETID2992"@de;
+           skos:closeMatch <http://www.eionet.europa.eu/gemet/concept/2992>.

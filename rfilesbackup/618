@@ -1,0 +1,201 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cube: <http://purl.org/linked-data/cube#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sparql-service-description: <http://www.w3.org/ns/sparql-service-description#> .
+
+<http://fao.270a.info/dataset/GLOBAL_PRODUCTION.ttl> rdf:type foaf:Document ,
+                                                              dctype:Text ;
+                                                     foaf:primaryTopic <http://fao.270a.info/dataset/GLOBAL_PRODUCTION> ;
+                                                     dct:hasFormat <http://fao.270a.info/dataset/GLOBAL_PRODUCTION.rdf> ,
+                                                                   <http://fao.270a.info/dataset/GLOBAL_PRODUCTION.html> ,
+                                                                   <http://fao.270a.info/dataset/GLOBAL_PRODUCTION.json> ;
+                                                     foaf:topic <http://fao.270a.info/dataset/GLOBAL_PRODUCTION> .
+
+<http://fao.270a.info/dataset/GLOBAL_PRODUCTION.rdf> rdf:type dctype:Text ,
+                                                              foaf:Document ;
+                                                     dc:format "application/rdf+xml" ;
+                                                     rdfs:label "RDF/XML" .
+
+<http://fao.270a.info/dataset/GLOBAL_PRODUCTION.html> rdf:type dctype:Text ,
+                                                               foaf:Document ;
+                                                      dc:format "text/html" ;
+                                                      rdfs:label "HTML" .
+
+<http://fao.270a.info/dataset/GLOBAL_PRODUCTION.json> rdf:type dctype:Text ,
+                                                               foaf:Document ;
+                                                      dc:format "application/json" ;
+                                                      rdfs:label "JSON" .
+
+<http://rdfs.org/ns/void#propertyPartition> rdfs:label "property partition" .
+
+<http://csarven.ca/#i> rdfs:label "Sarven Capadisli"@en .
+
+<http://fao.270a.info/structure/PRODUCTION_DATASTRUCTURE> skos:prefLabel "PRODUCTION_DATASTRUCTURE"@en .
+
+<http://purl.org/dc/terms/creator> rdfs:label "Creator"@en .
+
+<http://fao.270a.info/provenance/activity/20140305073249> rdfs:label "Transformed GLOBAL_PRODUCTION data"@en .
+
+<http://rdfs.org/ns/void#Dataset> rdfs:label "dataset" .
+
+<http://rdfs.org/ns/void#triples> rdfs:label "number of triples" .
+
+<http://www.w3.org/ns/prov#wasAttributedTo> rdfs:label "wasAttributedTo" .
+
+<http://purl.org/dc/terms/issued> rdfs:label "Date Issued"@en .
+
+<http://fao.270a.info/provenance/activity/20140305073520> rdfs:label "Transformed GLOBAL_PRODUCTION data"@en .
+
+<http://creativecommons.org/publicdomain/zero/1.0/> rdfs:label "CC0 1.0 Universal"@en .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rdfs:label "type" .
+
+<http://www.w3.org/ns/prov#generatedAtTime> rdfs:label "generatedAtTime" .
+
+<http://purl.org/dc/terms/> dct:title "DCMI Metadata Terms - other"@en .
+
+<http://rdfs.org/ns/void#vocabulary> rdfs:label "vocabulary" .
+
+<http://rdfs.org/ns/void#classes> rdfs:label "classes" .
+
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> rdfs:label "seeAlso" .
+
+<http://fao.270a.info/provenance/activity/20140305073327> rdfs:label "Transformed GLOBAL_PRODUCTION data"@en .
+
+<http://www.w3.org/ns/prov#wasDerivedFrom> rdfs:label "wasDerivedFrom" .
+
+<http://rdfs.org/ns/void#entities> rdfs:label "number of entities" .
+
+<http://fao.270a.info/dataset/GLOBAL_PRODUCTION> rdf:type cube:DataSet ,
+                                                          void:Dataset ,
+                                                          prov:Entity ,
+                                                          sparql-service-description:Graph ;
+                                                 rdfs:seeAlso <http://fao.270a.info/data/fao.observations.ttl> ;
+                                                 dct:creator <http://csarven.ca/#i> ;
+                                                 dct:identifier "GLOBAL_PRODUCTION" ;
+                                                 dct:issued "2014-03-05T07:35:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                            "2014-03-05T07:34:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                            "2014-03-05T07:32:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                            "2014-03-05T07:32:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                            "2014-03-05T07:33:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                            "2014-03-05T07:34:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                            "2014-03-05T07:35:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                                 dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+                                                 dct:title "Global Capture Production"@en ;
+                                                 cube:structure <http://fao.270a.info/structure/PRODUCTION_DATASTRUCTURE> ;
+                                                 void:classPartition _:mor58e0988db4110 ,
+                                                                     _:mor58e0988db41a9 ,
+                                                                     _:mor58e0988db4206 ,
+                                                                     _:mor58e0988db425c ,
+                                                                     _:mor58e0988db42b3 ,
+                                                                     _:mor58e0988db4308 ,
+                                                                     _:mor58e0988db435e ;
+                                                 void:classes "7"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+                                                 void:entities "778605"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+                                                 void:observation _:mor58e0988db43de ,
+                                                                  _:mor58e0988db4432 ;
+                                                 void:properties "29"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+                                                 void:propertyPartition _:mor58e0988db449d ,
+                                                                        _:mor58e0988db44f2 ,
+                                                                        _:mor58e0988db4548 ,
+                                                                        _:mor58e0988db459f ,
+                                                                        _:mor58e0988db45f7 ,
+                                                                        _:mor58e0988db464d ,
+                                                                        _:mor58e0988db46a6 ,
+                                                                        _:mor58e0988db46fc ,
+                                                                        _:mor58e0988db4755 ,
+                                                                        _:mor58e0988db47ad ,
+                                                                        _:mor58e0988db4805 ,
+                                                                        _:mor58e0988db4860 ,
+                                                                        _:mor58e0988db48ba ,
+                                                                        _:mor58e0988db4913 ,
+                                                                        _:mor58e0988db496d ,
+                                                                        _:mor58e0988db49c5 ,
+                                                                        _:mor58e0988db4a1f ,
+                                                                        _:mor58e0988db4a79 ,
+                                                                        _:mor58e0988db4ad3 ,
+                                                                        _:mor58e0988db4b2d ,
+                                                                        _:mor58e0988db4b87 ,
+                                                                        _:mor58e0988db4be2 ,
+                                                                        _:mor58e0988db4c3c ,
+                                                                        _:mor58e0988db4c98 ,
+                                                                        _:mor58e0988db4cf5 ,
+                                                                        _:mor58e0988db4d52 ,
+                                                                        _:mor58e0988db4db0 ,
+                                                                        _:mor58e0988db4e0d ,
+                                                                        _:mor58e0988db4e69 ;
+                                                 void:triples "6228880"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+                                                 void:vocabulary <http://fao.270a.info/dimension/0.1/GENERAL_CONCEPT_SCHEME/> ,
+                                                                 <http://purl.org/dc/terms/> ,
+                                                                 <http://fao.270a.info/measure/0.1/GENERAL_CONCEPT_SCHEME/> ,
+                                                                 <http://www.w3.org/2000/01/rdf-schema> ,
+                                                                 <http://purl.org/linked-data/cube> ,
+                                                                 <http://www.w3.org/ns/prov> ,
+                                                                 <http://fao.270a.info/dimension/1.0/CS_FISHSTAT/> ,
+                                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+                                                 prov:generatedAtTime "2014-03-05T07:35:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                                      "2014-03-05T07:34:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                                      "2014-03-05T07:34:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                                      "2014-03-05T07:32:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                                      "2014-03-05T07:32:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                                      "2014-03-05T07:35:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ,
+                                                                      "2014-03-05T07:33:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                                 prov:wasAttributedTo <http://csarven.ca/#i> ;
+                                                 prov:wasDerivedFrom <http://fao.270a.info/data/GLOBAL_PRODUCTION.1965.1969.xml> ,
+                                                                     <http://fao.270a.info/data/GLOBAL_PRODUCTION.1950.1954.xml> ,
+                                                                     <http://fao.270a.info/data/GLOBAL_PRODUCTION.1955.1959.xml> ,
+                                                                     <http://fao.270a.info/data/GLOBAL_PRODUCTION.1975.1979.xml> ,
+                                                                     <http://fao.270a.info/data/GLOBAL_PRODUCTION.1970.1974.xml> ,
+                                                                     <http://fao.270a.info/data/GLOBAL_PRODUCTION.1980.1984.xml> ,
+                                                                     <http://fao.270a.info/data/GLOBAL_PRODUCTION.1960.1964.xml> ;
+                                                 prov:wasGeneratedBy <http://fao.270a.info/provenance/activity/20140305073208> ,
+                                                                     <http://fao.270a.info/provenance/activity/20140305073442> ,
+                                                                     <http://fao.270a.info/provenance/activity/20140305073405> ,
+                                                                     <http://fao.270a.info/provenance/activity/20140305073249> ,
+                                                                     <http://fao.270a.info/provenance/activity/20140305073327> ,
+                                                                     <http://fao.270a.info/provenance/activity/20140305073558> ,
+                                                                     <http://fao.270a.info/provenance/activity/20140305073520> ;
+                                                 sparql-service-description:graph <http://fao.270a.info/dataset/GLOBAL_PRODUCTION> ;
+                                                 sparql-service-description:name <http://fao.270a.info/graph/GLOBAL_PRODUCTION> .
+
+<http://rdfs.org/ns/void#properties> rdfs:label "number of properties" .
+
+<http://purl.org/linked-data/cube#DataSet> rdfs:label "Data set"@en .
+
+<http://fao.270a.info/provenance/activity/20140305073208> rdfs:label "Transformed GLOBAL_PRODUCTION data"@en .
+
+<http://purl.org/linked-data/cube#structure> rdfs:label "structure"@en .
+
+<http://purl.org/dc/terms/license> rdfs:label "License"@en .
+
+<http://purl.org/dc/terms/title> rdfs:label "Title"@en .
+
+<http://fao.270a.info/provenance/activity/20140305073558> rdfs:label "Transformed GLOBAL_PRODUCTION data"@en .
+
+<http://purl.org/dc/terms/identifier> rdfs:label "Identifier"@en .
+
+<http://www.w3.org/ns/prov#Entity> rdfs:label "Entity" .
+
+<http://purl.org/linked-data/cube> rdfs:label "The data cube vocabulary" ;
+                                   dct:title "Vocabulary for multi-dimensional (e.g. statistical) data publishing" .
+
+<http://rdfs.org/ns/void#classPartition> rdfs:label "class partition" .
+
+<http://www.w3.org/ns/prov#wasGeneratedBy> rdfs:label "wasGeneratedBy" .
+
+<http://www.w3.org/ns/sparql-service-description#name> rdfs:label "name" .
+
+<http://fao.270a.info/provenance/activity/20140305073405> rdfs:label "Transformed GLOBAL_PRODUCTION data"@en .
+
+<http://www.w3.org/ns/sparql-service-description#graph> rdfs:label "graph" .
+
+<http://www.w3.org/ns/sparql-service-description#Graph> rdfs:label "Graph" .
+
+<http://fao.270a.info/provenance/activity/20140305073442> rdfs:label "Transformed GLOBAL_PRODUCTION data"@en .

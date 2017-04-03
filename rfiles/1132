@@ -1,0 +1,16 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/business-entity/> .
+@prefix s:	<http://schema.org/> .
+ns1:CZ27800890	rdf:type	s:Organization .
+@prefix gr:	<http://purl.org/goodrelations/v1#> .
+ns1:CZ27800890	rdf:type	gr:BusinessEntity ;
+	gr:legalName	"GALVANIKA \u0160ternberk s.r.o." ;
+	s:address	<http://linked.opendata.cz/resource/domain/cenia.cz/organizace/27800890/adresa/2009> ,
+		<http://linked.opendata.cz/resource/domain/cenia.cz/organizace/27800890/adresa/2010> ,
+		<http://linked.opendata.cz/resource/domain/cenia.cz/organizace/27800890/adresa/2011> ,
+		<http://linked.opendata.cz/resource/domain/cenia.cz/organizace/27800890/adresa/2012> .
+@prefix adms:	<http://www.w3.org/ns/adms#> .
+ns1:CZ27800890	adms:identifier	<http://linked.opendata.cz/resource/business-entity/CZ27800890/identifier/cenia.cz> ;
+	s:name	"GALVANIKA \u0160ternberk s.r.o." .
+@prefix ns5:	<http://linked.opendata.cz/resource/domain/cenia.cz/provozovny/> .
+ns1:CZ27800890	s:hasPOS	ns5:CZ0000124E .

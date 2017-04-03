@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY jisc "http://www.rkbexplorer.com/ontologies/jisc#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:jisc="&jisc;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:24:40</dcterms:created>
+		<dc:source rdf:resource="http://jisc.rkbexplorer.com/id/project-1355"/>
+		<coref:coreferenceData rdf:resource="http://jisc.rkbexplorer.com/crs/project-1355" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://jisc.rkbexplorer.com/id/project-1355">
+		<jisc:has-output rdf:resource="http://jisc.rkbexplorer.com/id/output-2601"/>
+		<jisc:institution rdf:resource="http://jisc.rkbexplorer.com/id/org-130"/>
+		<jisc:participant rdf:resource="http://jisc.rkbexplorer.com/id/contact-1161-1355"/>
+		<jisc:participant rdf:resource="http://jisc.rkbexplorer.com/id/contact-1223-1355"/>
+		<jisc:end-date>30/11/2009</jisc:end-date>
+		<jisc:start-date>01/06/2009</jisc:start-date>
+		<jisc:status>Running</jisc:status>
+		<jisc:homepage>http://www.dotac.info/</jisc:homepage>
+		<jisc:workpackage>Rapid Innovation JISCRI</jisc:workpackage>
+		<jisc:description>This project will develop a prototype demonstrator that synthesises research information from heterogeneous sources (institutional repositories and research council information systems), resolves name co-reference issues between the sources, and presents it to research-focussed end users through an interface that will allow them to explore the state of the research landscape in UKHE.</jisc:description>
+		<jisc:short-name>dotAC</jisc:short-name>
+		<jisc:name>dotAC: Exploring the UK research landscape</jisc:name>
+		<jisc:programme rdf:resource="http://jisc.rkbexplorer.com/id/programme-122"/>
+		<rdf:type rdf:resource="&jisc;Project"/>
+		<jisc:governance rdf:resource="http://jisc.rkbexplorer.com/id/governance-7"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://jisc.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://jisc.rkbexplorer.com/id/project-1355"/>
+	</rdf:Description>
+</rdf:RDF>

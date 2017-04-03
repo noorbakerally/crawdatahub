@@ -1,0 +1,50 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ovm-agendy:	<http://linked.opendata.cz/ontology/domain/seznam.gov.cz/agendy/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/A385/2011-12-21>	rdf:type	ovm-agendy:Agenda .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/A385/2011-12-21>	rdf:type	skos:Concept .
+@prefix ns3:	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/A385/2011-12-21>	skos:inScheme	ns3:AgendyConceptScheme ;
+	skos:prefLabel	"Da\u0148ov\u00E9 \u0159\u00EDzen\u00ED vykon\u00E1van\u00E9 \u00FAzemn\u00EDmi finan\u010Dn\u00EDmi org\u00E1ny" ;
+	skos:notation	"A385" .
+@prefix ns4:	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/cinnosti/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/A385/2011-12-21>	ovm-agendy:cinnost	ns4:CR319 ,
+		ns4:CR320 ,
+		ns4:CR321 ,
+		ns4:CR322 ,
+		ns4:CR323 ,
+		ns4:CR324 ,
+		ns4:CR325 .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/A385/2011-12-21>	ovm-agendy:datumRegistrace	"2011-12-22+01:00"^^xsd:date ;
+	ovm-agendy:nazevOVM	"Ministerstvo financ\u00ED" .
+@prefix ns6:	<http://linked.opendata.cz/resource/business-entity/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/A385/2011-12-21>	ovm-agendy:ohlasovatelAgendy	ns6:CZ00006947 ;
+	ovm-agendy:ostatniPredpisText	"Na\u0159\u00EDzen\u00ED Rady (EU) o spr\u00E1vn\u00ED spolupr\u00E1ci a boji proti podvod\u016Fm v oblasti dan\u011B z p\u0159idan\u00E9 hodnoty" ;
+	ovm-agendy:platnostDo	"2012-05-30+02:00"^^xsd:date ;
+	ovm-agendy:platnostOd	"2011-12-21+01:00"^^xsd:date ;
+	ovm-agendy:pravniZaklad	<http://linked.opendata.cz/resource/legislation/cz/act/1990/531-1990> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2000/253-2000> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2001/119-2001> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1993/238-1993> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2004/235-2004> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1993/207-1993> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1993/146-1993> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1969/2-1969> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2003/353-2003> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2008/412-2008> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1992/338-1992> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1992/586-1992> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1969/2-1969/section/4/1> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2003/353-2003/section/140/2> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2003/353-2003/section/140/1> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2009/280-2009> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2004/191-2004> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1992/337-1992> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/1993/12-1993> ,
+		<http://linked.opendata.cz/resource/legislation/cz/act/2000/243-2000> .
+@prefix ns7:	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/typyOVM/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/A385/2011-12-21>	ovm-agendy:typOVM	ns7:finanční-úřady ,
+		ns7:finanční-ředitelství ;
+	ovm-agendy:vykonava	ns6:CZ00006947 ,
+		ns6:CZ72080043 .

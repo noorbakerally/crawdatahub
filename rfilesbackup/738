@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="ROBOTS" content="INDEX,FOLLOW"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RLUK Linked Open Data - The European Library</title>
+<link rel="shortcut icon" href="../../img/favicon.png"/>
+
+<link rel="stylesheet" type="text/css" href="../../wro/base.css"/>
+<!--[if IE 7 ]>
+	<link rel="stylesheet" type="text/css" href="../../css/style-ie7.css"/>
+	<![endif]-->
+<!--[if IE 8 ]>
+	<link rel="stylesheet" type="text/css" href="../../css/style-ie8.css"/>
+	<![endif]-->
+<!--[if IE 9 ]>
+	<link rel="stylesheet" type="text/css" href="../../css/style-ie9.css"/>
+	<![endif]-->
+<script type="text/javascript">var ctx = "/tel4";
+</script>
+<script type="text/javascript" src="../../wro/jquery.js"></script>
+<!-- <script type="text/javascript">
+var addthis_config = { data_use_cookies:false }
+</script> -->
+<script type="text/javascript">
+/*<![CDATA[*/
+
+var addthis_config = addthis_config||{};
+addthis_config.data_use_cookies = false;
+
+/*]]>*/
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+		var _gaq = _gaq || [];
+		_gaq.push([ '_setAccount', 'UA-344236-1' ]);
+		_gaq.push([ '_setDomainName', 'theeuropeanlibrary.org' ]);
+		_gaq.push([ '_trackPageview' ]);
+
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+					: 'http://www')
+					+ '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	
+/*]]>*/
+</script>
+<link rel="stylesheet" type="text/css" href="../../dss/SearchPanel-ver-4F535CF64A313D6D7F45C0CABF5B9A72.css" />
+<script type="text/javascript" src="../../djs/SearchPanel-ver-D00AF45B6944523E021159BCB8D2F0D2.js"></script>
+<script type="text/javascript" src="../../djs/LanguageSelection-ver-E2B8EFAD609FBBECF22EF9683AE40F7A.js"></script>
+<script type="text/javascript" src="../../djs/Breadcrumbs-ver-A399ED2A658993547BAFD955688A4AC4.js"></script>
+<script type="text/javascript" src="../../djs/PortalWebPage-ver-E80AC5D68D845A50DAB4228259B0DC0C.js"></script>
+<script type="text/javascript" src="../../djs/ProductPage-ver-9BFF96A5CE199CB91F4B658AA9D078D1.js"></script>
+</head>
+<body>
+
+	
+	<div id="header">
+
+		<div class="container_16">
+			<div class="grid_4" style="z-index: 10;">
+				<div class="branding">
+					<a href="/tel4" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid="><img src="../../img/logo-book.png" alt="Home"/></a>
+				</div>
+			</div>
+			<div id="header-top" class="grid_12">
+				<div class="grid_6 alpha"
+					style="white-space: nowrap; overflow: hidden;">
+					<a href="/tel4/aboutus" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" title="Get details about The European Library">About</a> <a href="/tel4/membership" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" title="For Libraries and content providers to join The European Library">Membership</a> <a href="http://www.theeuropeanlibrary.org/confluence/display/partner/Home" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" title="Collaboration space for partners. ">For Current Partners</a>
+					<!-- <a href="#" title="Confluence service is temporarily unavailable. Sorry for inconvenience."><img src="img/under-construction.png"
+						alt="Confluence service is temporarily unavailable!" style="margin-top:6px; height:24px; width:24px;"/></a> -->
+				</div>
+				<div class="grid_3"
+					style="text-align: right; white-space: nowrap; overflow: hidden;">
+					<a style="color: #10A1FF; margin-right: 5px;" id="loginname" href="/tel4/myresearch" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" title="Access the registered user area, where you can save searches and much more."></a> <a id="log-in" style="display: none; margin-right: 0px;" href="/tel4/login?targeturl=/access/data/lod%3Fid%3Dlod" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid="><span>Log in</span></a> <a id="log-out" style="display: none; margin-right: 0px;" href="/tel4/j_spring_security_logout" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid="><span>Log out</span></a>
+						<!-- <a href="#" title="Authentication service is temporarily unavailable. Sorry for inconvenience."><img src="img/under-construction.png"
+						alt="Authentication service is temporarily unavailable!" style="margin-top:6px; height:24px; width:24px;"/></a> -->
+				</div>
+
+				
+    <div style="float:right" class="grid2 omega" id="language-select">
+        <div style="float:right" class="select-container">
+            <select id="language-selection" name="lang"><option value="/tel4/access/data/lod?id=lod&amp;locale=az">Azərbaycan Dili (az)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=bg">Български (bg)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=bs">Bosanski (bs)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=cs">Čeština (cs)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=da">Dansk (da)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=de">Deutsch (de)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=el">Ελληνικά (el)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod" selected>English (en)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=es">Español (es)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=et">Eesti (et)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=fi">Suomi (fi)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=fr">Français (fr)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=ga">Gaeilge (ga)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=hr">Hrvatski (hr)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=hu">Magyar (hu)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=hy">Հայերէն (hy)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=is">Íslenska (is)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=it">Italiano (it)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=ka">ქართული (ka)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=lt">Lietuvių Kalba (lt)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=lv">Latviešu (lv)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=mk">Македонски (mk)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=mt">Malti (mt)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=nl">Nederlands (nl)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=no">Norsk (no)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=pl">Polski (pl)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=pt">Português (pt)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=ro">Română (ro)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=ru">Русский (ru)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=sk">Slovenčina (sk)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=sl">Slovenščina (sl)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=sq">Shqip (sq)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=sr">Српски (sr)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=sv">Svenska (sv)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=tr">Türkçe (tr)&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="/tel4/access/data/lod?id=lod&amp;locale=uk">Українська (uk)&nbsp;&nbsp;&nbsp;&nbsp;</option></select>
+        </div>
+    </div>
+
+			</div>
+			<div id="search">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.18.custom.css">  -->
+    <div id="search-panel" class="grid_12 prefix_4">
+       <form id="search-form" name="form-search" method="get" onsubmit="window.location=&#039;/tel4/search?query=&#039; + getSearchString() + &#039;&#039;;return false" action="/tel4/search">
+           <input id="search-textbox" name="query" type="text" maxlength="200" title="Search all European Library content..."/>
+           <input type="submit" id="submit" value="GO"/> 
+           
+          <span class="advanced-search-link"> <a href="/tel4/advancedsearch" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">Advanced search</a></span>
+        </form>
+	</div>
+</div>
+
+			<div class="grid_12" id="header-bot">
+				<a href="/tel4" class="grid_3 alpha" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">Home</a> <a href="/tel4/discover" class="grid_3" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">Discover</a> 
+<!-- 						<a wicket:id="menuItemServices" -->
+<!-- 					href="services.html" class="grid_6 omega" style="margin-right: 0;"><wicket:message -->
+<!-- 						key="mainMenu.ServiceForResearchers.link" title="" /></a> -->
+						<a href="/tel4/access" class="grid_6 omega" style="margin-right: 0;" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">Access our Data</a>
+			</div>
+		</div>
+	</div>
+	<div id="header2"></div>
+	<div class="clear"></div>
+
+
+	
+
+	<div id="main">
+		<div class="container_16">
+			
+ <div class="grid_16" >
+    <div id="breadcrumbs" style="visibility:hidden">
+    	<span class="HOME"><a href="/tel4" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" title="Home">Home</a><span class="crumb"></span></span><span class="ACCESSDATA"><a href="/tel4/access" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" title="Access our Data">Access our Data</a><span class="crumb"></span></span><span class="ACCESSDATAAPI" id="last-breadcrumb-item"><a href="/tel4/access/data/lod?id=lod" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" title="RLUK Linked Open Data">RLUK Linked Open Data</a></span>
+    </div>
+</div>
+
+			
+    <title>TEL NEW DESIGN - DISCOVER</title>
+    <link rel="shortcut icon" href="../../img/favicon.png"/>
+    
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/base.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/list-group.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/media.css"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+<div id="api" class="grid_16">
+    <div class="container_16">
+        <div class="grid_12 alpha omega">
+        <div class="grid_12">
+            <h1 class="title">Research Libraries UK Linked Open Data&nbsp;<i class="fa fa-gears fa-blue"></i></h1>
+            <div class="container_12">
+                <div class="grid_6 alpha">
+                    <p><h1><strong>From 31 December 2016 ‘The European Library’ services will no longer be available and this portal will be frozen with no subsequent updates. </strong></h1> 
+<p>For further information please visit this <a href="http://www.cenl.org/wp-content/uploads/20161213-TEL-closure-press-release-final.pdf">press release</a> on the CENL (Conference of European National Librarians) website at <a href="http://www.cenl.org">www.cenl.org</a> or contact CENL by emailing <a href="mailto:cenl@bl.uk">cenl@bl.uk</a></p> 
+<p>-------------------------------------------------------------------------------------------------------</p> 
+<p>The RLUK Database is an established Union Catalogue provided by <a href="http://www.rluk.ac.uk/">Research Libraries UK</a>. This is a subset of the RLUK database comprising nearly 20 million bibliographic records from 34 UK libraries. The dataset is published in RDF, and linked to external datasets available as Linked Open Data. </p> 
+<p>In the full documentation, more information can be found regarding the data, including the different access mechanisms provided at The European Library, the data model and vocabularies in the representation of the RLUK dataset in RDF, and some statistical information regarding the usage of data elements and links to external datasets. </p> 
+<p><strong>Obtaining the dataset</strong></p> 
+<p><strong> <br /> </strong></p> 
+<p> The dataset is available in for download. A complete data dump of the dataset is available in two RDF representations: <a href="http://www.w3.org/TR/REC-rdf-syntax/"> <em>RDF</em> </a> <a href="http://www.w3.org/TR/REC-rdf-syntax/">/</a> <a href="http://www.w3.org/TR/REC-rdf-syntax/"> <em>XML</em> </a> <a href="http://www.w3.org/TR/REC-rdf-syntax/"> Syntax</a>, and <a href="http://www.w3.org/TeamSubmission/turtle/"> <em>Turtle</em> </a> <a href="http://www.w3.org/TeamSubmission/turtle/"> - Terse </a> <a href="http://www.w3.org/TeamSubmission/turtle/"> <em>RDF</em> </a> <a href="http://www.w3.org/TeamSubmission/turtle/"> Triple Language</a>. Smaller samples of the data are also provided to provide hackathon participants with a practical way of starting to explore the dataset.</p> 
+<p> The data can be obtained in the following locations and form:</p> 
+<ul> 
+ <li> <strong>Complete dataset files</strong> 
+  <ul> 
+   <li>In Turtle (text/turtle) - <a href="http://data.theeuropeanlibrary.org/download/rluk/a1195-complete.ttl.gz">a1195-complete.ttl.gz</a> (6.1 GB)</li> 
+   <li>In <em>RDF</em>/<em>XML</em> (application/rdf+xml) - <a href="http://data.theeuropeanlibrary.org/download/rluk/a1195-complete.rdf.gz">a1195-complete.rdf.gz</a> (6.9 GB)</li> 
+  </ul></li> 
+ <li><strong>Samples of 1 million records</strong> 
+  <ul> 
+   <li>In Turtle (text/turtle) - <a href="http://data.theeuropeanlibrary.org/download/rluk/a1195-sample-1million.ttl.gz">a1195-sample-1million.ttl.gz</a> (335 MB)</li> 
+   <li>In <em>RDF</em>/<em>XML</em> (application/rdf+xml) - <a href="http://data.theeuropeanlibrary.org/download/rluk/a1195-sample-1million.rdf.gz">a1195-sample-1million.rdf.gz</a> (381 MB)</li> 
+  </ul></li> 
+ <li> <strong>Samples of 1 thousand records</strong> 
+  <ul> 
+   <li>In Turtle (text/turtle) - <a href="http://data.theeuropeanlibrary.org/download/rluk/a1195-sample-1thousand.ttl.gz">a1195-sample-1thousand.ttl.gz</a> (349 KB)</li> 
+   <li> In <em>RDF</em>/<em>XML</em> (application/rdf+xml) - <a href="http://data.theeuropeanlibrary.org/download/rluk/a1195-sample-1thousand.rdf.gz">a1195-sample-1thousand.rdf.gz</a> (387 KB)</li> 
+  </ul></li> 
+</ul></p>
+                    <a class="btn btn-primary" target="_blank" download="" href="http://www.theeuropeanlibrary.org/confluence/download/attachments/8880494/LOD+at+The+European+Library+-+General+Information.pdf" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">Download the full documentation <i class="fa fa-download fa-white"></i></a>
+                </div>
+                <div class="grid_6 omega">
+                    <dl class="dl-horizontal">
+                        <dt>Coverage</dt>
+                        <dd><p>Approximately 20 million bibliographical records from 34 UK Libraries.</p></dd>
+                        
+                        
+                        <dt>Format(s)</dt>
+                        <dd><span><span class="label label-warning">RDF</span>&nbsp;</span></dd>
+                        
+                        <dt>Version</dt>
+                        <dd><span> 1</span></dd>
+                        
+                        <dt>Date Published</dt>
+                        <dd><p><span style="color: rgb(0,0,0);">April 2014</span></p></dd>
+                    </dl>
+                </div>
+				<div class="grid_12 alpha"><p></p></div>
+                
+                
+            </div>
+        </div>
+</div>
+        <div class="grid_4 alpha">
+	      	<div class="grid_4">
+	<div class="grid_4 alpha">
+      <div class="list-group">
+          <a class="list-group-item" href="/tel4/login?targeturl=/access/data/lod%3Fid%3Dlod" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">
+              <div class="media">
+                  <span class="pull-left">
+                       <div class="media-icon api"><i class="fa fa-unlock"></i></div>
+                  </span>
+                  <div class="media-body">
+                      <h3 class="media-heading">Get access / login</h3>
+                      <p>You will need to register with The European library to get access to the apis and datasets.</p>
+                  </div>
+              </div>
+          </a>
+          <a target="_blank" class="list-group-item" href="http://www.theeuropeanlibrary.org/confluence/download/attachments/8880494/TheEuropeanLibrary_API_V2+0.pdf" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">
+              <div class="media">
+                  <span class="pull-left">
+                      <div class="media-icon api"><i class="fa fa-gears"></i></div>
+                  </span>
+                  <div class="media-body">
+                      <h3 class="media-heading">About APIs</h3>
+
+                      <p>Access the general API documentation here.</p>
+                  </div>
+              </div>
+          </a>
+          <a target="_blank" class="list-group-item" href="https://groups.google.com/forum/#!forum/the-european-library-data-forum" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">
+              <div class="media">
+                  <span class="pull-left">
+                      <span class="media-icon api"><i class="fa fa-google-plus-square"></i></span>
+                  </span>
+                  <div class="media-body">
+                      <h3 class="media-heading">The European Library Data Forum</h3>
+
+                      <p>Questions? Visit our forum.</p>
+                  </div>
+              </div>
+          </a>
+      </div>
+  </div>
+</div>
+			<div class="grid_4">
+    <h2 class="b-top">Current News</h2>
+    <ul class="list normal">
+    	<li>
+            <a class="newsitem-title" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" href="/tel4/newsitem/10000"> Europe’s national libraries and CENL commit to collaboration and mutual support as they build on the legacy of The European Library </a>
+            <div class="newsitem-meta"><span>13.12.2016</span></div>
+        </li><li>
+            <a class="newsitem-title" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" href="/tel4/newsitem/9900">The European Library&#039;s Deduplication Case Study</a>
+            <div class="newsitem-meta"><span>31.05.2016</span></div>
+        </li><li>
+            <a class="newsitem-title" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" href="/tel4/newsitem/9850">  CSEEE Project Workshop, Belgrade, 11-12 May 2016  </a>
+            <div class="newsitem-meta"><span>25.05.2016</span></div>
+        </li><li>
+            <a class="newsitem-title" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" href="/tel4/newsitem/9800">The European Library Open Dataset updated</a>
+            <div class="newsitem-meta"><span>20.04.2016</span></div>
+        </li>
+    </ul>
+</div>
+		</div>
+    </div>
+</div>
+
+<!--##################################################################################################################### -->
+<!-- NEW JS
+<!--##################################################################################################################### -->
+
+<script>
+/*<![CDATA[*/
+
+    $(window).load(function() {
+        equalheight('.media-items .media');
+    });
+
+/*]]>*/
+</script>
+
+<!--##################################################################################################################### -->
+
+
+
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container_16">
+			<div class="grid_4 branding">
+				<a href="/tel4" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid="><img src="../../img/logo-book.png" alt="Home"/></a>
+			</div>
+			<div class="grid_8 prefix_2">
+				<div class="grid_3 alpha">
+					<ul class="list">
+						<li><a href="/tel4/faq" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">FAQs</a></li>
+						<li><a href="/tel4/sitemap" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">Sitemap</a></li>
+						<li><a href="/tel4/policy" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">Policies</a></li>
+						<li><a href="/tel4/termsofservice" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=">Terms of Service</a></li>
+					</ul>
+				</div>
+				<div class="grid_4">
+					<p>
+						Connect with us:
+					</p>
+					<div class="icons">
+						<a rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid=" href="https://plus.google.com/101865493619208326400"><img src="../../img/icon-google.png" alt="Google+"/></a> <a href="http://www.facebook.com/europeanlibrary" target="_blank" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid="><img src="../../img/icon-facebook.png" alt="Facebook"/></a> <a href="http://twitter.com/europeanlibrary" target="_blank" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid="><img src="../../img/icon-twitter.png" alt="Twitter"/></a> <a href="http://www.linkedin.com/groups?gid=134928&amp;trk=hb_side_g" target="_blank" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid="><img src="../../img/icon-linkedin.png" alt="LinkedIn"/></a>
+					</div>
+					<ul class="list">
+						<li><a href="mailto:info@theeuropeanlibrary.org"
+							class="current">info@theeuropeanlibrary.org</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid_2 branding">
+				<a href="http://www.europeana.eu" target="_blank" rel="actiontype=internallink&amp;recordid=&amp;collectionid=&amp;providerid="><img src="../../img/logo-europeana.png" alt="Europeana"/></a>
+			</div>
+			<div class="clear"></div>
+			<div class="grid_16">
+				<div id="copyright">
+					&copy; 2005-2013 The European Library
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

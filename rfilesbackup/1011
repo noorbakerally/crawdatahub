@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.0="http://iflastandards.info/ns/fr/frbr/frbrer/"
+    xmlns:j.1="http://iflastandards.info/ns/isbd/elements/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://cultura.linkeddata.es/data/BNE/resource/C1003/F3343969">
+    <rdfs:label>RDF description of F3343969</rdfs:label>
+    <foaf:primaryTopic>
+      <j.0:C1003 rdf:about="http://cultura.linkeddata.es/BNE/resource/C1003/F3343969">
+        <owl:sameAs rdf:resource="http://cultura.linkeddata.es/BNE/resource/C1003/F3343969"/>
+        <j.1:P1042>Bibliografía: p. 195-209. Índice</j.1:P1042>
+        <j.1:P1165>978-0-8387-5655-3</j.1:P1165>
+        <j.1:P1054>222 p.</j.1:P1054>
+        <j.1:P1163>222 p. 24 cm</j.1:P1163>
+        <j.1:P1016>Lewisburg</j.1:P1016>
+        <j.1:P1162>Lewisburg Bucknell University Press [2007]</j.1:P1162>
+        <j.1:P1154>978-0-8387-5655-3</j.1:P1154>
+        <j.1:P1174>Cervantes and modernity</j.1:P1174>
+        <j.1:P1004>Cervantes and modernity</j.1:P1004>
+        <j.1:P1169>Bucknell University Press</j.1:P1169>
+        <j.1:P1168>Lewisburg</j.1:P1168>
+        <j.1:P1146>222 p.</j.1:P1146>
+        <j.1:P1159>Cervantes and modernity : four essays on Don Quijote E.C. Graf</j.1:P1159>
+        <j.1:P1007>E.C. Graf</j.1:P1007>
+        <j.1:P1017>Bucknell University Press</j.1:P1017>
+        <j.1:P1022>222 p.</j.1:P1022>
+        <j.1:P1018>[2007]</j.1:P1018>
+        <j.1:P1024>24 cm</j.1:P1024>
+        <j.1:P1032>978-0-8387-5655-3</j.1:P1032>
+        <j.1:P1137>Cervantes and modernity</j.1:P1137>
+      </j.0:C1003>
+    </foaf:primaryTopic>
+  </rdf:Description>
+</rdf:RDF>

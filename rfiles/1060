@@ -1,0 +1,1044 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix fra:     <http://kaiko.getalp.org/dbnary/fra/> .
+@prefix dbnary:  <http://kaiko.getalp.org/dbnary#> .
+@prefix lemon:   <http://www.monnetproject.eu/lemon#> .
+
+fra:__tr_tgl_110_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "tgl" ;
+      dbnary:writtenForm "talatinígan" .
+
+fra:__tr_hye_78_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "hye" ;
+      dbnary:usage "R=baŕagirk’" ;
+      dbnary:writtenForm "բառագիրք" .
+
+fra:__tr_swa_64_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "swa" ;
+      dbnary:writtenForm "kamusi" .
+
+fra:encyclopédie
+      a       dbnary:vocable .
+
+fra:__tr_scn_59_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "scn" ;
+      dbnary:writtenForm "dizziunariu" .
+
+fra:__tr_spa_21_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "spa" ;
+      dbnary:writtenForm "diccionario" .
+
+fra:__tr_nor_97_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "nor" ;
+      dbnary:writtenForm "ordbok" .
+
+fra:__tr_zho_15_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "zho" ;
+      dbnary:usage "R=zìdiǎn" ;
+      dbnary:writtenForm "字典" .
+
+fra:__tr_lit_90_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "lit" ;
+      dbnary:writtenForm "žodynas" .
+
+fra:__tr_cos_18_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "cos" ;
+      dbnary:writtenForm "dizziunariu" .
+
+fra:__tr_ido_39_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ido" ;
+      dbnary:writtenForm "vortaro" .
+
+fra:__tr_grn_33_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "grn" ;
+      dbnary:writtenForm "ñeʼẽndy" .
+
+fra:__tr_sqi_2_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "sqi" ;
+      dbnary:writtenForm "fjalor" .
+
+fra:encomium
+      a       dbnary:vocable .
+
+fra:__tr_cor_17_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "cor" ;
+      dbnary:writtenForm "gérlyver" .
+
+fra:__tr_nld_95_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "nld" ;
+      dbnary:writtenForm "woordenboek" .
+
+fra:usuel
+      a       dbnary:vocable .
+
+fra:__tr_urd_101_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "urd" ;
+      dbnary:usage "R=qāmws" ;
+      dbnary:writtenForm "قاموس" .
+
+fra:__ws_10_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "Vocabulaire, ensemble des mots dont se sert un écrivain."@fr
+              ] .
+
+fra:__tr_pan_102_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "pan" ;
+      dbnary:writtenForm "ਸ਼ਬਦਾ" .
+
+fra:lexique
+      a       dbnary:vocable .
+
+fra:__tr_heb_35_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "heb" ;
+      dbnary:usage "R=milawn" ;
+      dbnary:writtenForm "מילון" .
+
+fra:__tr_ltz_50_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ltz" ;
+      dbnary:writtenForm "Wierderbuch" .
+
+fra:__tr_mlt_93_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "mlt" ;
+      dbnary:writtenForm "dizzjunarju" .
+
+fra:__tr_hsb_34_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "hsb" ;
+      dbnary:writtenForm "słownik" .
+
+fra:__tr_kur_87_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "kur" ;
+      dbnary:writtenForm "loghet" .
+
+fra:__ws_9_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "Personne de grande érudition, qui a des connaissances étendues et qui les communique aisément."@fr
+              ] .
+
+fra:__tr_epo_22_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "epo" ;
+      dbnary:writtenForm "vortaro" .
+
+fra:__tr_bos_10_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "bos" ;
+      dbnary:writtenForm "rječnik" .
+
+fra:__tr_que_105_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "que" ;
+      dbnary:writtenForm "rimayqillqa" .
+
+fra:__tr_hye_6_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "hye" ;
+      dbnary:usage "R=baŕaran" ;
+      dbnary:writtenForm "բառարան" .
+
+fra:__tr_ara_76_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ara" ;
+      dbnary:usage "R=qāmws" ;
+      dbnary:writtenForm "قاموس" .
+
+fra:__tr_eng_4_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "eng" ;
+      dbnary:writtenForm "dictionary" .
+
+fra:__ws_2_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "une définition, un sens"@fr
+              ] .
+
+fra:__tr_kur_47_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "kur" ;
+      dbnary:writtenForm "khebernivis" .
+
+fra:__tr_por_55_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "por" ;
+      dbnary:writtenForm "dicionário" .
+
+fra:__tr_kor_16_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "kor" ;
+      dbnary:usage "R=sajeon" ;
+      dbnary:writtenForm "사전" .
+
+fra:__tr_ssw_65_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ssw" ;
+      dbnary:writtenForm "sí-chazamagâma" .
+
+fra:__ws_8_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "Livre, recueil de pensées, d’opinions, d’un auteur, publié dans un ordre alphabétique."@fr
+              ] .
+
+fra:thesaurus
+      a       dbnary:vocable .
+
+fra:__tr_bre_11_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "bre" ;
+      dbnary:writtenForm "geriadur" .
+
+fra:__tr_ita_43_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ita" ;
+      dbnary:writtenForm "dizionario" .
+
+fra:__tr_cat_13_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "cat" ;
+      dbnary:writtenForm "diccionari" .
+
+fra:__tr_zho_14_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "zho" ;
+      dbnary:usage "R=cídiǎn|tradi=詞典" ;
+      dbnary:writtenForm "词典" .
+
+fra:__tr_oci_98_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "oci" ;
+      dbnary:writtenForm "diccionari" .
+
+fra:thésaurus
+      a       dbnary:vocable .
+
+fra:__tr_swe_63_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "swe" ;
+      dbnary:writtenForm "ordbok" .
+
+fra:__tr_guj_86_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "guj" ;
+      dbnary:writtenForm "શબ્દ-કોષ" .
+
+fra:__tr_ltz_49_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ltz" ;
+      dbnary:writtenForm "Dictionnaire" .
+
+fra:__tr_jpn_45_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "jpn" ;
+      dbnary:usage "R=jiten" ;
+      dbnary:writtenForm "辞典" .
+
+fra:__tr_tha_70_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "tha" ;
+      dbnary:usage "R=potjananukrom" ;
+      dbnary:writtenForm "พจนานุกรม" .
+
+fra:__tr_smo_108_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "smo" ;
+      dbnary:writtenForm "fefiloi" .
+
+fra:__tr_eus_9_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "eus" ;
+      dbnary:writtenForm "hiztegi" .
+
+fra:dico
+      a       dbnary:vocable .
+
+fra:__tr_hrv_19_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "hrv" ;
+      dbnary:writtenForm "rječnik" .
+
+fra:__tr_spa_83_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "spa" ;
+      dbnary:writtenForm "léxico" .
+
+fra:__tr_ces_69_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ces" ;
+      dbnary:writtenForm "slovník" .
+
+fra:__tr_jpn_44_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "jpn" ;
+      dbnary:usage "R=jisho" ;
+      dbnary:writtenForm "辞書" .
+
+fra:__tr_msa_91_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "msa" ;
+      dbnary:writtenForm "kamus" .
+
+fra:dictionnaire__nom__1
+      a       lemon:Word ;
+      dbnary:hypernym fra:glossaire , fra:lexique ;
+      dbnary:hyponym fra:dictionnaire_mots_croisés , fra:Wiktionnaire , fra:dictionnaire_des_rimes , fra:dictionnaire_des_synonymes , fra:dictionnaire_en_ligne ;
+      dbnary:partOfSpeech "-nom-" ;
+      dbnary:synonym fra:lexique , fra:glossaire , fra:dico , fra:usuel , fra:thesaurus , fra:thésaurus , fra:encyclopédie , fra:index , fra:vocabulaire , fra:encomium , fra:trésor ;
+      lexinfo:partOfSpeech
+              lexinfo:noun ;
+      lemon:canonicalForm
+              [ lexinfo:pronunciation
+                        "dik.sjɔ.nɛʁ"@fr-fonipa ;
+                lemon:writtenRep "dictionnaire"@fr
+              ] ;
+      lemon:language "fr" ;
+      lemon:sense fra:__ws_8_dictionnaire__nom__1 , fra:__ws_9_dictionnaire__nom__1 , fra:__ws_3_dictionnaire__nom__1 , fra:__ws_7_dictionnaire__nom__1 , fra:__ws_6_dictionnaire__nom__1 , fra:__ws_10_dictionnaire__nom__1 , fra:__ws_5_dictionnaire__nom__1 , fra:__ws_4_dictionnaire__nom__1 , fra:__ws_2_dictionnaire__nom__1 , fra:__ws_1_dictionnaire__nom__1 .
+
+fra:__tr_smo_107_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "smo" ;
+      dbnary:writtenForm "lolomi" .
+
+fra:__tr_fao_85_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "fao" ;
+      dbnary:writtenForm "orðabók" .
+
+fra:__tr_oci_99_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "oci" ;
+      dbnary:writtenForm "diccionari" .
+
+fra:__tr_san_109_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "san" ;
+      dbnary:usage "R=nighantu" ;
+      dbnary:writtenForm "निघण्टु" .
+
+fra:__tr_som_62_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "som" ;
+      dbnary:writtenForm "qaamuus" .
+
+fra:__ws_1_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "Ouvrage de référence qui répertorie des mots dans un ordre convenu (alphabétique en général) pour leur associer par exemple :"@fr
+              ] .
+
+fra:__tr_kur_46_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "kur" ;
+      dbnary:writtenForm "ferheng" .
+
+fra:__tr_cym_30_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "cym" ;
+      dbnary:writtenForm "geiriadur" .
+
+fra:__tr_fas_104_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "fas" ;
+      dbnary:usage "R=" ;
+      dbnary:writtenForm "لغتنامه" .
+
+fra:__tr_ast_7_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ast" ;
+      dbnary:writtenForm "diccionariu" .
+
+fra:__tr_dan_20_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "dan" ;
+      dbnary:writtenForm "ordbog" .
+
+fra:__tr_glg_28_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "glg" ;
+      dbnary:writtenForm "dicionario" .
+
+fra:__tr_mar_51_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "mar" ;
+      dbnary:writtenForm "शब्दकोष" .
+
+fra:__tr_uig_100_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "uig" ;
+      dbnary:writtenForm "لۇغەت" .
+
+fra:__tr_ina_41_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ina" ;
+      dbnary:writtenForm "dictionario" .
+
+fra:__tr_srp_58_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "srp" ;
+      dbnary:usage "R=rečnik" ;
+      dbnary:writtenForm "речник" .
+
+fra:__tr_spa_82_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "spa" ;
+      dbnary:writtenForm "vocabulario" .
+
+fra:__tr_aze_80_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "aze" ;
+      dbnary:writtenForm "lüğət" .
+
+fra:__tr_ind_40_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ind" ;
+      dbnary:writtenForm "kamus" .
+
+fra:__tr_lin_89_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "lin" ;
+      dbnary:writtenForm "bagó" .
+
+fra:__tr_fao_84_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "fao" ;
+      dbnary:writtenForm "orðbók" .
+
+fra:__tr_nld_96_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "nld" ;
+      dbnary:writtenForm "dictionaire" .
+
+fra:dictionnaire
+      a       dbnary:vocable ;
+      dbnary:refersTo fra:dictionnaire__nom__1 .
+
+fra:__tr_slk_60_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "slk" ;
+      dbnary:writtenForm "slovník" .
+
+fra:__tr_ron_106_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ron" ;
+      dbnary:writtenForm "dicționar" .
+
+fra:__tr_ukr_72_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ukr" ;
+      dbnary:usage "R=slovnyk" ;
+      dbnary:writtenForm "словник" .
+
+fra:Wiktionnaire
+      a       dbnary:vocable .
+
+fra:__tr_hin_37_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "hin" ;
+      dbnary:writtenForm "शब्दकोष" .
+
+fra:__tr_eng_75_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "eng" ;
+      dbnary:writtenForm "vocabulary" .
+
+fra:__tr_hin_36_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "hin" ;
+      dbnary:writtenForm "शब्दकोश" .
+
+fra:__tr_vie_73_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "vie" ;
+      dbnary:writtenForm "từ điển" .
+
+fra:__tr_hun_38_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "hun" ;
+      dbnary:writtenForm "szótár" .
+
+fra:__tr_san_57_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "san" ;
+      dbnary:usage "R=śābdakośāḥ" ;
+      dbnary:writtenForm "शब्दकोश" .
+
+fra:__tr_wln_74_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "wln" ;
+      dbnary:writtenForm "diccionaire" .
+
+fra:__tr_nld_52_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "nld" ;
+      dbnary:writtenForm "woordenboek" .
+
+fra:vocabulaire
+      a       dbnary:vocable .
+
+fra:__tr_fin_25_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "fin" ;
+      dbnary:writtenForm "sanakirja" .
+
+fra:glossaire
+      a       dbnary:vocable .
+
+fra:__tr_pol_54_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "pol" ;
+      dbnary:writtenForm "słownik" .
+
+fra:__ws_7_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "Recueil fait par ordre alphabétique sur des matières de littérature, de sciences ou d’arts."@fr
+              ] .
+
+fra:__tr_arg_5_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "arg" ;
+      dbnary:writtenForm "dizionario" .
+
+fra:__tr_glg_29_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "glg" ;
+      dbnary:writtenForm "diccionario" .
+
+fra:__tr_bul_81_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "bul" ;
+      dbnary:usage "R=retchnik" ;
+      dbnary:writtenForm "речник" .
+
+fra:dictionnaire_des_rimes
+      a       dbnary:vocable .
+
+fra:__tr_hye_77_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "hye" ;
+      dbnary:usage "R=baŕgirk’" ;
+      dbnary:writtenForm "բառգիրք" .
+
+fra:__tr_tur_71_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "tur" ;
+      dbnary:writtenForm "sözlük" .
+
+fra:__tr_kat_31_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "kat" ;
+      dbnary:writtenForm "ლექსიკონი" .
+
+fra:__ws_4_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "une étymologie"@fr
+              ] .
+
+fra:__tr_oci_53_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "oci" ;
+      dbnary:writtenForm "diccionari" .
+
+fra:__tr_aym_79_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "aym" ;
+      dbnary:writtenForm "pirwa" .
+
+fra:__tr_bul_12_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "bul" ;
+      dbnary:usage "R=retshnik" ;
+      dbnary:writtenForm "речник" .
+
+fra:__tr_rus_56_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "rus" ;
+      dbnary:writtenForm "словарь" .
+
+fra:__tr_lit_48_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "lit" ;
+      dbnary:writtenForm "žodynas" .
+
+fra:dictionnaire_mots_croisés
+      a       dbnary:vocable .
+
+fra:__tr_deu_3_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "deu" ;
+      dbnary:writtenForm "Wörterbuch" .
+
+fra:__tr_fao_24_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "fao" ;
+      dbnary:writtenForm "orðabók" .
+
+fra:__ws_5_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "et/ou une traduction."@fr
+              ] .
+
+fra:__tr_tat_68_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "tat" ;
+      dbnary:writtenForm "süzlek" .
+
+fra:__tr_glv_94_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "glv" ;
+      dbnary:writtenForm "focklioar" .
+
+fra:__tr_isl_42_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "isl" ;
+      dbnary:writtenForm "orðabók" .
+
+fra:__tr_lav_88_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "lav" ;
+      dbnary:writtenForm "vārdnīca" .
+
+fra:__tr_mlg_92_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "mlg" ;
+      dbnary:writtenForm "diksionera" .
+
+fra:__tr_pan_103_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "pan" ;
+      dbnary:writtenForm "ਕੋਸ਼" .
+
+fra:__ws_6_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "Il peut se contenter d’attester la simple existence d’un mot de façon normative, sans donner aucune autre information."@fr
+              ] .
+
+fra:index
+      a       dbnary:vocable .
+
+fra:__tr_ell_32_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "ell" ;
+      dbnary:usage "R=lexikó" ;
+      dbnary:writtenForm "λεξικό" .
+
+fra:__tr_tgl_66_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "tgl" ;
+      dbnary:writtenForm "diksiyunáriyo" .
+
+fra:dictionnaire_en_ligne
+      a       dbnary:vocable .
+
+fra:__ws_3_dictionnaire__nom__1
+      a       lemon:LexicalSense ;
+      dbnary:senseNumber "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      lemon:definition
+              [ lemon:value "un ou plusieurs synonymes, antonymes, etc."@fr
+              ] .
+
+fra:__tr_afr_1_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "afr" ;
+      dbnary:writtenForm "woordeboek" .
+
+fra:__tr_slv_61_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "slv" ;
+      dbnary:writtenForm "slovar" .
+
+fra:__tr_est_23_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "est" ;
+      dbnary:writtenForm "sõnaraamat" .
+
+fra:__tr_tam_67_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "tam" ;
+      dbnary:usage "R=akarāti" ;
+      dbnary:writtenForm "அகராதி" .
+
+fra:__tr_aym_8_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "aym" ;
+      dbnary:writtenForm "aru" .
+
+fra:__tr_fry_26_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "fry" ;
+      dbnary:writtenForm "wurdboek" .
+
+fra:dictionnaire_des_synonymes
+      a       dbnary:vocable .
+
+fra:__tr_gla_27_dictionnaire__nom__1
+      a       dbnary:Equivalent ;
+      dbnary:isTranslationOf
+              fra:dictionnaire__nom__1 ;
+      dbnary:targetLanguage
+              "gla" ;
+      dbnary:writtenForm "faclair" .
+
+fra:trésor
+      a       dbnary:vocable .

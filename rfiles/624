@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns0="http://rdfs.org/ns/void#"
+  xmlns:ns1="http://www.w3.org/2000/10/swap/pim/contact#"
+  xmlns:ns2="http://semanticscience.org/resource/"
+  xmlns:ns3="http://purl.org/dc/terms/"
+  xmlns:ns4="http://www.w3.org/ns/prov#"
+  xmlns:ns5="http://open.vocab.org/terms/"
+  xmlns:ns6="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/vocab/enhancement/1/">
+
+  <rdf:Description rdf:about="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/version/2010-Jun-25/conversion/enhancement/1">
+    <ns0:exampleResource rdf:resource="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/venue/eurovis/year/1999/submitted"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/version/2010-Jun-25/thing_2">
+    <ns1:preferredURI rdf:resource="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/venue/eurovis/year/1999/submitted"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/venue/eurovis/year/1999/submitted">
+    <rdf:type rdf:resource="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/vocab/AcceptanceRateTally"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <ns0:inDataset rdf:resource="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/version/2010-Jun-25"/>
+    <ns2:count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</ns2:count>
+    <ns3:date rdf:datatype="http://www.w3.org/TR/xmlschema-2/#gYear">1999</ns3:date>
+    <ns4:specializationOf rdf:resource="http://ieeevis.tw.rpi.edu/id/venue/eurovis/1999"/>
+    <ns5:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns5:csvRow>
+    <ns3:isReferencedBy rdf:resource="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/version/2010-Jun-25"/>
+    <ns6:type rdf:resource="http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates/value-of/type/submitted"/>
+  </rdf:Description>
+
+</rdf:RDF>

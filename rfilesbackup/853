@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cidoc="http://purl.org/NET/cidoc-crm/core/" xmlns:gnossEdu="http://gnossEdu/" xmlns:dbpprop="http://dbpedia.org/property/" xmlns:gnossUtils="http://gnossUtils/" xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:dbpediaowl="http://dbpedia.org/ontology/" xmlns:hr-xml="http://didactalia.net/Ontologia/Curriculum.owl#" xmlns:obraarte="http://didactalia.net/Ontologia/ontologiaobradearte.owl#" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://mismuseos.net/comunidad/museos/recurso/guernica/cac61948-81db-4f01-a505-8718e92bb414">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Guernica]]></rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-05-06T19:06:53+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Guernica]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Guernica.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Obra_de_arte_cac61948-81db-4f01-a505-8718e92bb414_36a6b063-6b61-483c-be8d-b27e4162d93a" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:has_space rdf:resource="http://mismuseos.net/comunidad/museos" />
+    <sioc:topic rdf:resource="http://mismuseos.net/comunidad/museos/recursos/categoria/pintura/83036175-934d-4aa4-a982-603691cebc19" />
+    <sioc:topic rdf:resource="http://mismuseos.net/comunidad/museos/busqueda/tag/guernica" />
+    <sioc:topic rdf:resource="http://mismuseos.net/comunidad/museos/busqueda/tag/guerra%20civil%20espa%c3%b1ola" />
+    <sioc:topic rdf:resource="http://mismuseos.net/comunidad/museos/busqueda/tag/bombardeo%20de%20guernica" />
+    <sioc:topic rdf:resource="http://mismuseos.net/comunidad/museos/busqueda/tag/historia%20de%20espa%c3%b1a" />
+    <sioc:topic rdf:resource="http://mismuseos.net/comunidad/museos/busqueda/tag/espa%c3%b1a" />
+    <sioc:topic rdf:resource="http://mismuseos.net/comunidad/museos/busqueda/tag/pa%c3%ads%20vasco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/comunidad/museos/busqueda/tag/vizcaya" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Group rdf:about="https://didactalia.net/organizacion/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo Didactalia]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo Didactalia]]></foaf:name>
+  </foaf:Group>
+  <sioc:Space rdf:about="http://mismuseos.net/comunidad/museos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Mis Museos]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://mismuseos.net/comunidad/museos/recursos/categoria/pintura/83036175-934d-4aa4-a982-603691cebc19">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Pintura]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Pintura]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/comunidad/museos/busqueda/tag/guernica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[guernica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/comunidad/museos/busqueda/tag/guerra%20civil%20espa%c3%b1ola">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[guerra civil española]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/comunidad/museos/busqueda/tag/bombardeo%20de%20guernica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bombardeo de guernica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/comunidad/museos/busqueda/tag/historia%20de%20espa%c3%b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[historia de españa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/comunidad/museos/busqueda/tag/espa%c3%b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[españa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/comunidad/museos/busqueda/tag/pa%c3%ads%20vasco">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[país vasco]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/comunidad/museos/busqueda/tag/vizcaya">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vizcaya]]></rdfs:label>
+  </sioc_t:Tag>
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/Obra_de_arte_cac61948-81db-4f01-a505-8718e92bb414_36a6b063-6b61-483c-be8d-b27e4162d93a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <dc:references rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Málaga, 1881-Mougins, Francia, 1973]]></dc:references>
+    <obraarte:link rdf:resource="http://www.museoreinasofia.es/coleccion/autores-obras.html?id=322" />
+    <cidoc:P32_used_general_technique rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Óleo]]></cidoc:P32_used_general_technique>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[1937]]></dc:issued>
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Colección on line del Museo Nacional Centro de Arte Reina Sofia]]></dc:source>
+    <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[DE00050]]></dc:identifier>
+    <dbpediaowl:movement rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Cubismo ]]></dbpediaowl:movement>
+    <dc:temporal rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Siglo XX. Segundo cuarto]]></dc:temporal>
+    <obraarte:object rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Pintura]]></obraarte:object>
+    <dc:medium rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Lienzo]]></dc:medium>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Guernica]]></dc:title>
+    <dc:creator rdf:resource="http://gnoss.com/items/Artist_b6c96d0c-e03c-402e-aae5-55fc2e74307b_f341fdf5-6399-4f40-914a-88d20e12801d" />
+    <dc:extent rdf:resource="http://didactalia.net/items/Dimension_cac61948-81db-4f01-a505-8718e92bb414_39f31379-e7ea-427c-9496-59ce374e9484" />
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/Localizacion_cac61948-81db-4f01-a505-8718e92bb414_d310e842-39dc-4a46-bcc4-ade5ded66a90" />
+  </cidoc:E1_CRM_Entity>
+  <cidoc:E54_Dimension rdf:about="http://didactalia.net/items/Dimension_cac61948-81db-4f01-a505-8718e92bb414_39f31379-e7ea-427c-9496-59ce374e9484">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E54_Dimension]]></rdfs:label>
+    <obraarte:width rdf:datatype="http://www.w3.org/2001/XMLSchema#float">776.6</obraarte:width>
+  </cidoc:E54_Dimension>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/Localizacion_cac61948-81db-4f01-a505-8718e92bb414_d310e842-39dc-4a46-bcc4-ade5ded66a90">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+    <vcard:country rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[España]]></vcard:country>
+    <dc:isPartOf rdf:resource="http://gnoss.com/items/Museum_5be587a8-823b-4061-b5f3-cbb44cf96fcd_8f12a4bb-87fc-43de-a8a4-c549df0e27d3" />
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://gnoss.com/items/Museum_5be587a8-823b-4061-b5f3-cbb44cf96fcd_8f12a4bb-87fc-43de-a8a4-c549df0e27d3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+  </Museum>
+  <Author rdf:about="http://gnoss.com/items/Artist_b6c96d0c-e03c-402e-aae5-55fc2e74307b_f341fdf5-6399-4f40-914a-88d20e12801d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Author]]></rdfs:label>
+  </Author>
+</rdf:RDF>

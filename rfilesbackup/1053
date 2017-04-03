@@ -1,0 +1,180 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16> <http://opendata.epa.gov/rcra/schema/receivedReportOn> "20160212" ;
+	<http://opendata.epa.gov/rcra/schema/reportType> <http://opendata.epa.gov/rcra/report-type/N> ;
+	a <http://opendata.epa.gov/rcra/schema/Activity> ;
+	<http://opendata.epa.gov/rcra/schema/has_current_owner> <http://opendata.epa.gov/rcra/owners/tennesseevalleyauthority> ;
+	<http://opendata.epa.gov/rcra/schema/hasCertification> <http://opendata.epa.gov/rcra/certifications/AL8640015410/AL/N/16/1> ;
+	<http://opendata.epa.gov/rcra/schema/reportsWasteType> <http://opendata.epa.gov/rcra/waste_type/HQ/F002> , <http://opendata.epa.gov/rcra/waste_type/HQ/F003> , <http://opendata.epa.gov/rcra/waste_type/HQ/F005> , <http://opendata.epa.gov/rcra/waste_type/HQ/F001> , <http://opendata.epa.gov/rcra/waste_type/HQ/U210> , <http://opendata.epa.gov/rcra/waste_type/HQ/U154> , <http://opendata.epa.gov/rcra/waste_type/HQ/U080> , <http://opendata.epa.gov/rcra/waste_type/HQ/U002> , <http://opendata.epa.gov/rcra/waste_type/HQ/U159> , <http://opendata.epa.gov/rcra/waste_type/HQ/D037> , <http://opendata.epa.gov/rcra/waste_type/HQ/U044> , <http://opendata.epa.gov/rcra/waste_type/HQ/U121> , <http://opendata.epa.gov/rcra/waste_type/HQ/U122> , <http://opendata.epa.gov/rcra/waste_type/HQ/U134> , <http://opendata.epa.gov/rcra/waste_type/HQ/U151> , <http://opendata.epa.gov/rcra/waste_type/HQ/U220> , <http://opendata.epa.gov/rcra/waste_type/HQ/U240> , <http://opendata.epa.gov/rcra/waste_type/HQ/U133> , <http://opendata.epa.gov/rcra/waste_type/HQ/U201> , <http://opendata.epa.gov/rcra/waste_type/HQ/U003> , <http://opendata.epa.gov/rcra/waste_type/HQ/U107> , <http://opendata.epa.gov/rcra/waste_type/HQ/U093> , <http://opendata.epa.gov/rcra/waste_type/HQ/U207> ;
+	rdfs:seeAlso <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16.json> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16.rdf> , <https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16.ttl> ;
+	<http://opendata.epa.gov/rcra/schema/has_naics> <http://opendata.epa.gov/naics/221113> ;
+	<http://opendata.epa.gov/rcra/schema/state_activity> <http://opendata.epa.gov/rcra/state-activities/SQHUB> , <http://opendata.epa.gov/rcra/state-activities/SQHUL> , <http://opendata.epa.gov/rcra/state-activities/SQHUW> , <http://opendata.epa.gov/rcra/state-activities/UOG> , <http://opendata.epa.gov/rcra/state-activities/UOGOG> .
+
+<http://opendata.epa.gov/rcra/report-type/N> rdfs:comment "The handler has registered the facility with the EPA." ;
+	a <http://opendata.epa.gov/rcra/schema/ReportType> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "Registration" .
+
+<http://opendata.epa.gov/rcra/schema/Activity> rdfs:comment "A RCRA Subtitle C Activity" ;
+	rdfs:label "Activity" ;
+	a owl:Class ;
+	rdfs:seeAlso "http://www.epa.gov/region02/waste/csummary.htm" ;
+	rdfs:isDefinedBy <http://opendata.epa.gov/rcra/schema/> .
+
+<http://opendata.epa.gov/rcra/owners/tennesseevalleyauthority> rdfs:label "TENNESSEE VALLEY AUTHORITY" , "TENNESSEE  VALLEY AUTHORITY" ;
+	<http://www.w3.org/2006/vcard/ns#hasAddress> <http://opendata.epa.gov/addresses/1010reservationroadpobox1010mpb1kmmuscleshoalsal35662> , <http://opendata.epa.gov/addresses/24455alhwy101towncreekal356729864us> , <http://opendata.epa.gov/addresses/alhwy133nmuscleshoalsal356621010us> , <http://opendata.epa.gov/addresses/pobox1010csc1cmmuscleshoalsal356621010us> , <http://opendata.epa.gov/addresses/pobox1010csc1cmmuscleshoalsal35662us> , <http://opendata.epa.gov/addresses/pobox1010csc1cmuscleshoalsal356621010us> , <http://opendata.epa.gov/addresses/pobox1010muscleshoalsal356621010> , <http://opendata.epa.gov/addresses/pobox1010muscleshoalsal356621010us> , <http://opendata.epa.gov/addresses/pobox1010muscleshoalsal35662us> , <http://opendata.epa.gov/addresses/pobox1010osw1ammuscleshoalsal356621010us> , <http://opendata.epa.gov/addresses/pobox2000decatural356092000us> , <http://opendata.epa.gov/addresses/pobox2000decatural35609us> , <http://opendata.epa.gov/addresses/pobox2000hollywoodal357522000us> , <http://opendata.epa.gov/addresses/pobox399snowpointroadguntersvilleal35976us> , <http://opendata.epa.gov/addresses/1101marketstreetchattanoogatn374022801us> , <http://opendata.epa.gov/addresses/13246statert176ste10drakesboroky42337us> , <http://opendata.epa.gov/addresses/1363markcobbroaddekalbms39328us> , <http://opendata.epa.gov/addresses/1101marketstreetchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1101marketstreeteb3gcchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1101marketstreetpsc1fcchattanoogatn374022801us> , <http://opendata.epa.gov/addresses/1101marketstreetrac1acchattanoogatn374022801us> , <http://opendata.epa.gov/addresses/1101marketstreetrac1acchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1302topsideroadlouisvilletn37777us> , <http://opendata.epa.gov/addresses/1499steamplantroadgallatintn370668714us> , <http://opendata.epa.gov/addresses/1499steamplantroadgallatintn37066us> , <http://opendata.epa.gov/addresses/2574plantroadmemphistn38109us> , <http://opendata.epa.gov/addresses/400westsummithilldriveknoxvilletn379021419us> , <http://opendata.epa.gov/addresses/400westsummithilldriveknoxvilletn37902us> , <http://opendata.epa.gov/addresses/611oldhighway70rogersvilletn37857us> , <http://opendata.epa.gov/addresses/611oldhighway70southrogersvilletn378575401us> , <http://opendata.epa.gov/addresses/815cumberlandcityrdbox200cumberlandcitytn37050us> , <http://opendata.epa.gov/addresses/850carolinalanecouncetn383269737us> , <http://opendata.epa.gov/addresses/753samsoniteboulevardmurfreesborotn37129us> , <http://opendata.epa.gov/addresses/1166janesmillroadgleasontn38229us> , <http://opendata.epa.gov/addresses/1101marketstchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1101marketstlp5dchattanoogatn374022801> , <http://opendata.epa.gov/addresses/400westsummitdriveknoxvilletn37902us> , <http://opendata.epa.gov/addresses/400wsummitdrknoxvilletn37902> , <http://opendata.epa.gov/addresses/pobox509mayfieldky42066> , <http://opendata.epa.gov/addresses/beaverdamroadmorganfieldky42437> , <http://opendata.epa.gov/addresses/1101oldpryorsburgroadmayfieldky42066> , <http://opendata.epa.gov/addresses/1101marketstreetbr4xchattanoogatn374022801us> , <http://opendata.epa.gov/addresses/1101marketstreetchattanoogatn37402> , <http://opendata.epa.gov/addresses/753samsoniteblvdmurfreesborotn37129> , <http://opendata.epa.gov/addresses/pobox280paristn38242> , <http://opendata.epa.gov/addresses/3701gaultavefortpayneal35967us> , <http://opendata.epa.gov/addresses/pobox328huntsvilleal358040328> , <http://opendata.epa.gov/addresses/26901powellroadmadisonal35758us> , <http://opendata.epa.gov/addresses/1101marketsp4cchattanoogatn374022801> , <http://opendata.epa.gov/addresses/1101marketstmr4kchattanoogatn37402> , <http://opendata.epa.gov/addresses/pobox1737southavenms38671us> , <http://opendata.epa.gov/addresses/1101marketstchattanoogatn37402> , <http://opendata.epa.gov/addresses/1280cityparkdrivelenoircitytn37772us> , <http://opendata.epa.gov/addresses/1101marketstlp3kcchattanoogatn374022801> , <http://opendata.epa.gov/addresses/1101marketstlp3kcchattanoogatn374022801us> , <http://opendata.epa.gov/addresses/1101marketstlp5hchattanaoogatn37402> , <http://opendata.epa.gov/addresses/1101marketstreetlp3kcchattanoogatn374022801us> , <http://opendata.epa.gov/addresses/1101marketstreetlp50cchattanoogatn374022801> , <http://opendata.epa.gov/addresses/1101marketstreetlp5dcchattanoogatn374022801us> , <http://opendata.epa.gov/addresses/1101marketstreetlp5dchattanoogatn374022801us> , <http://opendata.epa.gov/addresses/1101marketstreetlp5scchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1101marketstreetroygalyonchattanoogatn37402> , <http://opendata.epa.gov/addresses/201summerplacebuildingknoxvilletn37902> , <http://opendata.epa.gov/addresses/24455alhwy101towncreekal356621010us> , <http://opendata.epa.gov/addresses/386shiledsroadhuntsvilleal35811us> , <http://opendata.epa.gov/addresses/400westsummithilldriveknoxvilletn379021401> , <http://opendata.epa.gov/addresses/400westsummithilldriveknoxvilletn379021401us> , <http://opendata.epa.gov/addresses/400wsummithillwt8bknoxvilletn379021499> , <http://opendata.epa.gov/addresses/5alhwy101towncreekal356621010us> , <http://opendata.epa.gov/addresses/601westsummithilldriveknoxvilleletn379021499> , <http://opendata.epa.gov/addresses/601westsummithilldriveknoxvilletn379021499> , <http://opendata.epa.gov/addresses/pobox1010muscleshoalsal35662> , <http://opendata.epa.gov/addresses/pobox1010muscleshoalsal3566us> , <http://opendata.epa.gov/addresses/pobox1010riverroadmuscleshoalsal356621010> , <http://opendata.epa.gov/addresses/pobox1010riverroadmuscleshoalsal356621010us> , <http://opendata.epa.gov/addresses/pobox1010riverroadriverroadmuscleshoalsal356621010us> , <http://opendata.epa.gov/addresses/pobox2000decatural35609> , <http://opendata.epa.gov/addresses/pobox2000hollywoodal357522000> , <http://opendata.epa.gov/addresses/pobox2000pec1ddecatural356092000> , <http://opendata.epa.gov/addresses/reservationroadcomplexdmuscleshoalsal35662us> , <http://opendata.epa.gov/addresses/reservationroadcsc1cmmuscleshoalsal35662us> , <http://opendata.epa.gov/addresses/reservationroadmuscleshoalsal356611010us> , <http://opendata.epa.gov/addresses/reservationroadmuscleshoalsal35661us> , <http://opendata.epa.gov/addresses/reservationroadmuscleshoalsal356621010us> , <http://opendata.epa.gov/addresses/reservationroadmuscleshoalsal35662us> , <http://opendata.epa.gov/addresses/shawrdatnuclearplantroadathensal35611us> , <http://opendata.epa.gov/addresses/shawroadnuclearplantathensal35611> , <http://opendata.epa.gov/addresses/shawroadnuclearplantroadathensal35611us> , <http://opendata.epa.gov/addresses/tvamailroomknoxvilletn37902> , <http://opendata.epa.gov/addresses/datanotrequesteddatanotrequestedsd99999> , <http://opendata.epa.gov/addresses/1101marketstreetetv1acchattanoogatn37402> , <http://opendata.epa.gov/addresses/1101marketstreetetv1acchattanoogatn374022881us> , <http://opendata.epa.gov/addresses/1101marketstreetetv1acchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1101marketstreetetviacchattanoogatn37402> , <http://opendata.epa.gov/addresses/1101marketstreethih1amrnchattanoogatn374022881us> , <http://opendata.epa.gov/addresses/1101marketstreethih1amrnchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1101marketstreetpp1alctchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1101marketstreetrac1acchattanoogatn374022881us> , <http://opendata.epa.gov/addresses/1101marketstreetsmw1ckchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1101marketstreetsmw1cketv1acchattanoogatn37402us> , <http://opendata.epa.gov/addresses/1280cityparkdrivelenoircitytn37777us> , <http://opendata.epa.gov/addresses/1302topsideroadlouisvilletn37777> , <http://opendata.epa.gov/addresses/1499steamplantroadgallatintn370668714> , <http://opendata.epa.gov/addresses/400westsummithilldriveknoxvilletn37902> , <http://opendata.epa.gov/addresses/400wsummithilldrknoxvilletn37902us> , <http://opendata.epa.gov/addresses/450powerhouserdlouisvilletn37777us> , <http://opendata.epa.gov/addresses/450powerhouseroadrutledgetn378614967us> , <http://opendata.epa.gov/addresses/450powerhouseroadrutledgetn37861us> , <http://opendata.epa.gov/addresses/4605amnicolahighwaychattanoogatn37406> , <http://opendata.epa.gov/addresses/611oldhighway70rogersvilletn37857> , <http://opendata.epa.gov/addresses/611oldhighway70srogersvilletn37857us> , <http://opendata.epa.gov/addresses/815cumberlandcityrdbox200cumberlandcitytn37050> , <http://opendata.epa.gov/addresses/815cumberlandcityrdcumberlandcitytn37050> , <http://opendata.epa.gov/addresses/815cumberlandcityroadcumberlandcitytn37050us> , <http://opendata.epa.gov/addresses/850carolinalanecouncetn383269737> , <http://opendata.epa.gov/addresses/marketstreetchattanoogatn37402> , <http://opendata.epa.gov/addresses/pobox1010riverroadmuscleshoalsal35662> , <http://opendata.epa.gov/addresses/sequoyahaccessroadsoddydaisytn37379us> , <http://opendata.epa.gov/addresses/sequoyahaccessroadsoddydaisytn37384> , <http://opendata.epa.gov/addresses/sequoyahaccessroadsoddydaisytn37384us> , <http://opendata.epa.gov/addresses/westsummithilldriveknoxvilletn37902> , <http://opendata.epa.gov/addresses/753samsoniteboulevardmurfreesborotn37129> , <http://opendata.epa.gov/addresses/pobox34bigsandytn38221> , <http://opendata.epa.gov/addresses/1101marketstreetlp3kcchattanoogatn37402us> , <http://opendata.epa.gov/addresses/400westsummithilldrknoxvilletn37902us> .
+
+<http://opendata.epa.gov/rcra/certifications/AL8640015410/AL/N/16/1> a <http://opendata.epa.gov/rcra/schema/Certification> ;
+	<http://opendata.epa.gov/rcra/schema/certifiedOn> "20160209" ;
+	<http://opendata.epa.gov/rcra/schema/hasCertificationSequence> "1"^^xsd:Integer ;
+	<http://opendata.epa.gov/rcra/schema/hasPOC> <http://opendata.epa.gov/rcra/certifications/AL8640015410/AL/N/16/1/bfnsitevicepresidentstevebono> .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/F002> rdfs:label "The Following Spent Halogenated Solvents: Tetrachloroethylene, Methylene Chloride, Trichloroethylene, 1,1,1-Trichloroethane, Chlorobenzene, 1,1,2-Trichloro-1,2,2-Trifluoroethane, Ortho-Dichlorobenzene, Trichlorofluoromethane, and 1,1,2, Trichloroethane; All Spent Solvent Mixtures/Blends Containing, Before Use, A Total Of Ten Percent or More By Volume Of One or More Of The Above Halogenated Solvents or Those Solvents Listed In F001, F004, and F005; and Still Bottoms From The Recovery Of These Spent Solvents and Spent Solvent Mixtures." ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/F003> rdfs:label "The Following Spent Nonhalogenated Solvents: Xylene, Acetone, Ethyl Acetate, Ethyl Benzene, Ethyl Ether, Methyl Isobutyl Ketone, N-Butyl Alcohol, Cyclohexanone, and Methanol; All Spent Solvent Mixtures/Blends Containing, Before Use, Only The Above Spent Nonhalogenated Solvents; and All Spent Solvent Mixtures/Blends Containing, Before Use, One or More Of The Above Nonhalogenated Solvents, and A Total Of Ten Percent or More By Volume Of One or More Of Those Solvents Listed In F001, F002, F004, and F005; and Still Bottoms From The Recovery Of These Spent Solvents and Spent Solvent Mixtures." ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/F005> rdfs:label "The Following Spent Nonhalogenated Solvents: Toluene, Methyl Ethyl Ketone, Carbon Disulfide, Isobutanol, Pyridine, Benzene, 2-Ethoxyethanol, and 2-Nitropropane; All Spent Solvent Mixtures/Blends Containing, Before Use, A Total Of Ten Percent or More By Volume Of One or More Of The Above Nonhalogenated Solvents or Those Solvents Listed In F001, F002, or F004; and Still Bottoms From The Recovery Of These Spent Solvents and Spent Solvent Mixtures." ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/F001> rdfs:label "The Following Spent Halogenated Solvents Used In Degreasing: Tetrachloroethylene, Trichlorethylene, Methylene Chloride, 1,1,1-Trichloroethane, Carbon Tetrachloride and Chlorinated Fluorocarbons; All Spent Solvent Mixtures/Blends Used In Degreasing Containing, Before Use, A Total Of Ten Percent or More By Volume Of One or More Of The Above Halogenated Solvents or Those Solvents Listed In F002, F004, and F005; and Still Bottoms From The Recovery Of These Spent Solvents and Spent Solvent Mixtures." ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U210> rdfs:label "Ethene, Tetrachloro- or Tetrachloroethylene" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U154> rdfs:label "Methanol I or Methyl Alcohol I" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U080> rdfs:label "Methane, Dichloro- or Methylene Chloride" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U002> rdfs:label "2-Propanone I or Acetone I" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U159> rdfs:label "2-Butanone I,T or Methyl Ethyl Ketone Mek I,T" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/D037> rdfs:label "Pentachlorophenol" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U044> rdfs:label "Chloroform or Methane, Trichloro-" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U121> rdfs:label "Methane, Trichlorofluoro- or Trichloromonofluoromethane" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U122> rdfs:label "Formaldehyde" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U134> rdfs:label "Hydrofluoric Acid C,T or Hydrogen Fluoride C,T" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U151> rdfs:label "Mercury" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U220> rdfs:label "Benzene, Methyl- or Toluene" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U240> rdfs:label "2,4-D, Salts + Esters or Acetic Acid, 2,4-Dichlorophenoxy-, Salts + Esters or Dichlorophenoxyacetic Acid 2,4-D" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U133> rdfs:label "Hydrazine R,T" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U201> rdfs:label "1,3-Benzenediol or Resorcinol" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U003> rdfs:label "Acetonitrile I,T" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U107> rdfs:label "1,2-Benzenedicarboxylic Acid, Dioctyl Ester or Di-N-Octyl Phthalate" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U093> rdfs:label "Benzenamine, N,N-Dimethyl-4-Phenylazo- or P-Dimethylaminoazobenzene" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<http://opendata.epa.gov/rcra/waste_type/HQ/U207> rdfs:label "1,2,4,5-Tetrachlorobenzene or Benzene, 1,2,4,5-Tetrachloro-" ;
+	a <http://opendata.epa.gov/rcra/schema/WasteType> ;
+	<http://opendata.epa.gov/rcra/schema/hasRegulator> <http://opendata.epa.gov/epa_regions/HQ> ;
+	<http://opendata.epa.gov/rcra/schema/isActive> "TRUE"^^xsd:Boolean .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16.json> <http://purl.org/dc/terms/format> "application/ld+json" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16.rdf> <http://purl.org/dc/terms/format> "application/rdf+xml" .
+
+<https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16.ttl> <http://purl.org/dc/terms/format> "text/turtle" .
+
+<http://opendata.epa.gov/naics/221113> <http://opendata.epa.gov/rcra/schema/active_status> "TRUE"^^xsd:Boolean ;
+	rdfs:comment "Nuclear Electric Power Generation" ;
+	rdfs:label "221113" ;
+	<http://opendata.epa.gov/rcra/schema/naics_cycle> "2002" .
+
+<http://opendata.epa.gov/rcra/state-activities/SQHUB> <http://opendata.epa.gov/rcra/schema/active_status> "TRUE"^^xsd:Boolean ;
+	rdfs:comment "Small Quantity Handler Of Universal Waste Batteries" ;
+	rdfs:label "SQHUB" .
+
+<http://opendata.epa.gov/rcra/state-activities/SQHUL> <http://opendata.epa.gov/rcra/schema/active_status> "TRUE"^^xsd:Boolean ;
+	rdfs:comment "Small Quantity Handler Of Universal Waste Lamps" ;
+	rdfs:label "SQHUL" .
+
+<http://opendata.epa.gov/rcra/state-activities/SQHUW> <http://opendata.epa.gov/rcra/schema/active_status> "TRUE"^^xsd:Boolean ;
+	rdfs:comment "Small Quantity Handler Of Universal Waste" ;
+	rdfs:label "SQHUW" .
+
+<http://opendata.epa.gov/rcra/state-activities/UOG> <http://opendata.epa.gov/rcra/schema/active_status> "TRUE"^^xsd:Boolean ;
+	rdfs:comment "Used Oil Generator" ;
+	rdfs:label "UOG" .
+
+<http://opendata.epa.gov/rcra/state-activities/UOGOG> <http://opendata.epa.gov/rcra/schema/active_status> "TRUE"^^xsd:Boolean ;
+	rdfs:comment "Used Oil Generator Collector On Site Generation Only" ;
+	rdfs:label "UOGOG" .

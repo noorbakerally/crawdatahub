@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/conservar-como-actuar-a-favor-de-los-espacios/0e1feaa0-789e-4f4e-b418-927113d6d504" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/el-blog-de-juanjo-gabia-prospectiva-y-estrategia/fc1fc3e2-afeb-42de-b8c3-715c1dd1d880" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-garnica-plywood-lider-en-la/be1aad9a-448f-4daa-8be5-2c8b806a5b4e" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/crisis-energetica---respuestas-a-los-retos/7626677c-4dd7-4079-b7de-a80328efb42f" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/green-strategy-2010el-factor-medioambiental/7c76823d-e676-4cda-8455-2b055e5f0840" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/jornada-gestion-responsable-del-territorio/c5cc439d-8c0e-451f-a358-5aa8212e9ff8" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/puma-y-pnuma-play-for-life/277303fd-7f1f-42a7-8038-2c68b3404db6" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/acuerdo-no-protocolo-vinculante/697cc9bd-d572-4567-a298-4cfd8de9d027" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/resource/ecourbanorg-educacion-ambiental-sostenibilidad-y/fadd1d03-ce96-4ca2-891a-b6911f88c5dd" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/conservar-como-actuar-a-favor-de-los-espacios/0e1feaa0-789e-4f4e-b418-927113d6d504">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[CONSERVAR. Cómo actuar a favor de los espacios naturales]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p><span><span>Interesante guía escrita en <a target="_blank"  href="http://translate.google.es/#ca|es" href="http://translate.google.es/#ca|es">catalán</a> que puede ser de utilidad para <strong>educación medioambiental</strong>, para inculcar en los jóvenes la cultura del <strong>desarrollo sostenible.&nbsp;</strong></span></span>Es 'un trampolín de ideas a partir de casos sugerentes y procedimientos legales para estimular el compromiso activo y creativo'.</p><p><br></p><p><strong><a target="_blank"  href="http://www.idtweb.org/images/stories/IDT/imatges-noticies/coberta_conservar_v2_baixa.jpg" href="http://www.idtweb.org/images/stories/IDT/imatges-noticies/coberta_conservar_v2_baixa.jpg"><img src="http://www.idtweb.org/images/stories/IDT/imatges-noticies/coberta_conservar_v2_baixa.jpg" _cke_saved_src="http://www.idtweb.org/images/stories/IDT/imatges-noticies/coberta_conservar_v2_baixa.jpg" alt="alt" width="80" height="113"></a>&nbsp;&nbsp;</strong><span><span>Su título original es&nbsp;</span></span><strong><em>CONSERVAR. Com actuar a favor dels espais naturals;&nbsp;</em></strong><span>es 'una</span>&nbsp;<span>herramienta</span>&nbsp;<span>de</span>&nbsp;<span>aplicación</span>&nbsp;<span>práctica</span>&nbsp;<span>para actuar</span><span>,</span>&nbsp;<span>como ciudadanos</span><span>,</span>&nbsp;<span>entidades o</span>&nbsp;<span>empresas</span><span>,</span>&nbsp;<span>por la</span>&nbsp;<span>salvaguarda de los</span>&nbsp;<span>espacios&nbsp;</span><span>naturales</span><span>, que aún</span>&nbsp;<span>quedan</span>&nbsp;<span>en nuestras tierras y</span>&nbsp;<span>que tienen un valor</span>&nbsp;<span>incalculable</span><span>.</span>&nbsp;<span>El estudio</span>&nbsp;<span>y</span>&nbsp;<span>la publicación</span>&nbsp;<span>han sido</span>&nbsp;<span>impulsados</span>&nbsp;<span>​​desde el</span>&nbsp;<a target="_blank"  href="http://www15.gencat.cat/cads/AppPHP/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=4" href="http://www15.gencat.cat/cads/AppPHP/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=4"><span>Consejo</span>&nbsp;<span>Asesor</span>&nbsp;<span>para el&nbsp;</span><span>Desarrollo Sostenible de</span>&nbsp;</a><span><a target="_blank"  href="http://www15.gencat.cat/cads/AppPHP/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=4" href="http://www15.gencat.cat/cads/AppPHP/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=4">Cataluña</a> y el <a target="_blank"  href="http://www.idtweb.org/" href="http://www.idtweb.org/">Instituto</a></span><a target="_blank"  href="http://www.idtweb.org/" href="http://www.idtweb.org/">&nbsp;<span>del Territorio</span>&nbsp;<span>de la Comunidad Valen</span>ciana</a>'.</p><p><br></p><p>Este recurso fué publicado originalmente en la comunidad <a href="http://didactalia.net/comunidad/materialeducativo">Didactalia: material educativo</a>.</p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Consejo Asesor para el Desarrollo Sostenible de Cataluña]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Instituto del Territorio de la Comunidad Valenciana]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-08-10T12:52:57+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CONSERVAR. Cómo actuar a favor de los espacios naturales]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www15.gencat.cat/cads/AppPHP/images/stories/publicacions/altrespublicacions/2010/conservar_maqueta_web.pdf" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desarrollo%20sostenible" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20ambiente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medioambiente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/environment" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sustainable%20development" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educaci%c3%b3n%20medioambiental" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sustainability" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/environmental%20education" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/conservation" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/conservar" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/espacios%20naturales" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desenvolupament%20sostenible" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medi%20ambient" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/espais%20naturals" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educaci%c3%b3%20mediambiental" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilitat" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/natural%20areas" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://my.gnoss.com/en/organization/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo GNOSS]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo GNOSS]]></foaf:name>
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desarrollo%20sostenible">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[desarrollo sostenible]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20ambiente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[medio ambiente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medioambiente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[medioambiente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/environment">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[environment]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sustainable%20development">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sustainable development]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educaci%c3%b3n%20medioambiental">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación medioambiental]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sustainability">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sustainability]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/environmental%20education">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[environmental education]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/conservation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[conservation]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/conservar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[conservar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/espacios%20naturales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[espacios naturales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desenvolupament%20sostenible">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[desenvolupament sostenible]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medi%20ambient">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[medi ambient]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/espais%20naturals">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[espais naturals]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educaci%c3%b3%20mediambiental">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educació mediambiental]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilitat">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sostenibilitat]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/natural%20areas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[natural areas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/el-blog-de-juanjo-gabia-prospectiva-y-estrategia/fc1fc3e2-afeb-42de-b8c3-715c1dd1d880">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[El Blog de Juanjo Gabiña: prospectiva y estrategia aplicada al desarrollo sostenible]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>	Blog de Juanjo Gabi&ntilde;a dedicado a <strong>prospectiva y estrategia orientada al desarrollo sostenible</strong>.</p><p>	<strong>Juanjo Gabi&ntilde;a, </strong>nacido en San Sebasti&aacute;n, es ingeniero industrial y se ha especializado en diversas ramas de la econom&iacute;a y sociolog&iacute;a con aplicaci&oacute;n en el an&aacute;lisis de reducci&oacute;n de riesgos e incertidumbres inherentes a la <strong>planificaci&oacute;n estrat&eacute;gica</strong> cl&aacute;sica. Ha desarrollado y aplicado con &eacute;xito los m&eacute;todos prospectivo-estrat&eacute;gicos en numerosos trabajos para organizaciones privadas y p&uacute;blicas,a nivel gubernamental, empresarial y territorial, por todo el mundo. Es pionero aplicando una nueva t&eacute;cnica que combina la<strong> Prospectiva-Estrat&eacute;gica</strong> con los conceptos de <strong>Sostenibilidad, Innovaci&oacute;n y Competitividad Estrat&eacute;gicas.</strong></p><p>	Es fundador y director de Prospektiker &mdash;Instituto Europeo de Prospectiva y Estrategia&mdash; empresa miembro de Futuribles International y de World Future Society,Prospektiker Europa Consulting, Prospektiker Am&eacute;rica, Sustainable World Prospective Institute y Estrategia y Sostenibilidad.</p><p>	Es autor de los libros &quot;Euskadi y su futuro&quot;, &quot;El futuro revisitado&quot;, &quot;Utop&iacute;a en el siglo XXI&quot;, &quot;El conspirador del futuro&quot;, &quot;Su xahutzailea&quot;, &ldquo;El presente desde el futuro&rdquo; y &ldquo;El eslab&oacute;n perdido de la Proto-historia&rdquo;, de numerosos art&iacute;culos y conferencias y desempe&ntilde;a un papel activo en la divulgaci&oacute;n de los m&eacute;todos de an&aacute;lisis prospectivo a escala local e internacional.</p><p>	&nbsp;</p><p>	<em>&ldquo;De que nos sirve estar orgullosos de nuestro pasado si no luchamos por estarlo tambien de nuestro futuro.&rdquo;</em> Juanjo Gabi&ntilde;a</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-02-14T08:55:57+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[El Blog de Juanjo Gabiña: prospectiva y estrategia aplicada al desarrollo sostenible]]></dcterms:title>
+    <dcterms:source rdf:resource="http://juanjogabina.com/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/mariaortega/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desarrollo%20sostenible" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/prospectiva" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/innovaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/estrategia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/blog" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/prospektiker" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/prospectiva%20territorial" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/gabi%c3%b1a" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/juanjo%20gabi%c3%b1a" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/competitividad%20estrat%c3%a9gicas" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/mariaortega/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[María Ortega Martínez-Losa]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[María]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Ortega Martínez-Losa]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/prospectiva">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prospectiva]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/innovaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[innovación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/estrategia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[estrategia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/blog">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[blog]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/prospektiker">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prospektiker]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/prospectiva%20territorial">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prospectiva territorial]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/gabi%c3%b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gabiña]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/juanjo%20gabi%c3%b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[juanjo gabiña]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/competitividad%20estrat%c3%a9gicas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[competitividad estratégicas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/tablero-contrachapado-garnica-plywood-lider-en-la/be1aad9a-448f-4daa-8be5-2c8b806a5b4e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[TABLERO CONTRACHAPADO: Garnica Plywood, líder en la fabricación de tablero contrachapado de chopo]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p><a target="_blank" href="http://www.garnicaplywood.com/" href="http://www.garnicaplywood.com/">Garnica Plywood</a>&nbsp;es la empresa líder en la fabricación de <a target="_blank" href="http://www.garnicaplywood.com/zona_verde/idi_con.asp?id_idioma=1" href="http://www.garnicaplywood.com/zona_verde/idi_con.asp?id_idioma=1">tablero contrachapado de chopo</a>. El <strong>Grupo Garnica Plywood </strong>garantiza un tiempo de uso prolongado con la posibilidad de su posterior reciclado mediante astillado-viruta-aglomerado. La fabricación de tablero contrachapado se enmarca dentro del <strong>cultivo sostenible del chopo</strong>, considerado el árbol más ecológico de todas las especies aptas para la fabricación de contrachapado. Cabe reseñar que el <strong>Grupo Garnica Plywood</strong> tiene un fuerte compromiso de sostenibilidad y una visión medioambiental global de su gestión empresarial, tanto de sus procesos como en sus productos. Dentro del proceso de producción del <strong>tablero contrachapado</strong>, cabe reseñar que la importancia de la revalorización y la reutilización del material. Nada se tira. Así, el <strong>Grupo Garnica</strong> incorpora a su propio proceso la mayoría de los subproductos generados en el proceso, o se utilizan para la producción de energía (cogeneración) o bien se venden a fabricantes de tablero aglomerado.&nbsp;&nbsp;</p><p style="text-align: center"><img alt="" src="http://www.garnicaplywood.com/imagenes/img_zona_verde.gif" _cke_saved_src="http://www.garnicaplywood.com/imagenes/img_zona_verde.gif" style="width: 500px; height: 125px"></p><p style="text-align: center"><span style="font-size: 10px">Foto: <a target="_blank" href="http://www.garnicaplywood.com" href="http://www.garnicaplywood.com">www.garnicaplywood.com</a></span></p><p style="text-align: left; "><span style="font-size: 10px"></span><p><strong>Garnica Plywood</strong>&nbsp;es líder en Europa en la producción de&nbsp;<strong>contrachapado de chopo</strong>&nbsp;y otras especies &nbsp;tropicales. El 80% de su producción está destinado a la exportación y llega a más de 20 países. &nbsp;<strong>El&nbsp; contrachapado de Garnica Plywood</strong>&nbsp;se puede encontrar en sectores tan variados como el mobiliario; el recreativo (caravanas, yates…); o la construcción. En el Plan de Negocio de la compañía está previsto superar los 200,000 metros cúbicos en 2012.</p></p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-02-02T10:51:40+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[TABLERO CONTRACHAPADO: Garnica Plywood, líder en la fabricación de tablero contrachapado de chopo]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Nota]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/riam/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20ambiente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/garnica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/garnica%20plywood" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/chopo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/contrachapado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/plywood" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero%20aglomerado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero%20contrachapado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/fabricaci%c3%b3n%20de%20contrachapado%20de%20chopo" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/riam/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Ricardo Alonso Maturana]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Ricardo]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Alonso Maturana]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tablero]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/garnica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[garnica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/garnica%20plywood">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[garnica plywood]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/chopo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[chopo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/contrachapado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contrachapado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/plywood">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[plywood]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero%20aglomerado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tablero aglomerado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tablero%20contrachapado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tablero contrachapado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/fabricaci%c3%b3n%20de%20contrachapado%20de%20chopo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[fabricación de contrachapado de chopo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/crisis-energetica---respuestas-a-los-retos/7626677c-4dd7-4079-b7de-a80328efb42f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Crisis Energética - Respuestas a los retos energéticos del SXXI]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Interesante noticia acerca del irremediable peso de las energ&iacute;as f&oacute;siles en el horizonte 2035, lo que da una mediocre se&ntilde;al a una apuesta desmedida por las energ&iacute;as renovables. A debate.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2010-11-15T08:37:36+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Crisis Energética - Respuestas a los retos energéticos del SXXI]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.crisisenergetica.org/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/jdc55/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/cambio%20clim%c3%a1tico" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/crisis" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/econom%c3%ada%20verde" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/aie" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/crisis%20global" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/crisis%20energ%c3%a9tica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/energ%c3%adas%20f%c3%b3siles" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/superar%20la%20crisis" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/energie" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/jdc55/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Juan Antonio de Castro de Arespacochaga]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Juan Antonio]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[de Castro de Arespacochaga]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/cambio%20clim%c3%a1tico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cambio climático]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Climate_change" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0cs9q" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/crisis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[crisis]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Crisis" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.02gyy_" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/econom%c3%ada%20verde">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[economía verde]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Ecological_economics" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0183m8" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/aie">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aie]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Academy_of_Interactive_Entertainment" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0bx46d" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/crisis%20global">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[crisis global]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/crisis%20energ%c3%a9tica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[crisis energética]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Energy_crisis" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.01ms6r" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/energ%c3%adas%20f%c3%b3siles">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[energías fósiles]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Fossil_fuel" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0cx6y" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/superar%20la%20crisis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[superar la crisis]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/energie">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[energie]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/green-strategy-2010el-factor-medioambiental/7c76823d-e676-4cda-8455-2b055e5f0840">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Green Strategy 2010_El factor Medioambiental]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Se trata de una convocatoria para unas Jornadas a celebrar en Londres en noviembre.</p><p>Lo que llama la atenci&oacute;n es la importancia que dan a la sostenibilidad y al medio ambiente en las estrategias de negocio.&nbsp;Pretenden conjugar&nbsp;Innovaci&oacute;n-Medio Ambiente y Ventajas competitivas.</p><p>El enunciado de las &aacute;reas de inter&eacute;s y beneficios que se pretenden ya supone un punto de reflexi&oacute;n.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2010-08-19T11:33:09+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Green Strategy 2010_El factor Medioambiental]]></dcterms:title>
+    <dcterms:source rdf:resource="http://red.gnoss.com/VisualizarDocumento.aspx?tipo=BaseRecursos&amp;doc=7c76823d-e676-4cda-8455-2b055e5f0840&amp;nombre=Green+Strategy+2010.doc&amp;ext=.doc&amp;org=11111111-1111-1111-1111-111111111111&amp;proy=03af7af5-1eca-43b4-af0b-d2b6e2fd9457&amp;dscr=true" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/CosasdeLuis/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20ambiente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/estrategias%20de%20negocio" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/profile/CosasdeLuis/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/CosasdeLuis/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Luis Irasarri Arregui]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Luis]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Irasarri Arregui]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/estrategias%20de%20negocio">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[estrategias de negocio]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/jornada-gestion-responsable-del-territorio/c5cc439d-8c0e-451f-a358-5aa8212e9ff8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Jornada "Gestión responsable del territorio mediante Google Earth y la plataforma IDERIOJA"]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Jornada que tendr&aacute; lugar el 10 de Febrero de 2010 , donde se expondr&aacute; un ejemplo de visualizaci&oacute;n y explotaci&oacute;n de la <strong>informaci&oacute;n geogr&aacute;fica</strong> de la Comunidad Aut&oacute;noma de La Rioja (ESPA&Ntilde;A) a trav&eacute;s de <strong>Google Earth</strong>.</p><p><br />Temas que se tratar&aacute;n:<br />- Capas disponibles de informaci&oacute;n del <strong>IDERIOJA</strong> utilizables por <strong>Google Earth</strong>.<br />- Visualizaci&oacute;n de la informaci&oacute;n en <strong>Google Earth</strong> en ordenadores y dispositivos m&oacute;viles.<br />- Generaci&oacute;n de nueva informaci&oacute;n a partir de la existente.<br />- C&oacute;mo compartir la informaci&oacute;n con nuevos usuarios.</p><p>Se enmarca dentro de las acciones del <strong>Proyecto r+r</strong> del Gobierno de La Rioja, confinanciado por el Fondo Social Europeo a trav&eacute;s del Programa &quot;Emplea Verde&quot; de la Fundaci&oacute;n Biodiversidad.</p><p><br />&ldquo;R+R Reserva m&aacute;s responsable es un proyecto que trata de implantar un sistema que fomente la cultura de la sostenibilidad en aquellas actividades econ&oacute;micas que se desarrollen en la Reserva de la Biosfera de los valles del Leza, Jubera, Cidacos y Alhama, un territorio declarado en 2003 por la UNESCO y que ocupa el 24% de la superficie de La Rioja&rdquo;.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2010-01-28T12:50:32+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Jornada "Gestión responsable del territorio mediante Google Earth y la plataforma IDERIOJA"]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.larioja.org/npRioja/default/defaultpage.jsp?idtab=499710&amp;IdDoc=506811" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/monicam/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/google%20earth" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/jornada" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/iderioja" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/proyecto%20r%2br" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/emplea%20verde" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/monicam/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Mónica Medina Yuste]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Mónica]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Medina Yuste]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/google%20earth">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[google earth]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/jornada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[jornada]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/iderioja">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iderioja]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/proyecto%20r%2br">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[proyecto r+r]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/emplea%20verde">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[emplea verde]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/puma-y-pnuma-play-for-life/277303fd-7f1f-42a7-8038-2c68b3404db6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[PUMA Y PNUMA: “Play for life”]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>El A&ntilde;o Internacional de la Biodiversidad es una iniciativa global lanzada para el 2010 por las Naciones Unidas para ayudar a aumentar la conciencia sobre la importancia de la biodiversidad e incentivar la acci&oacute;n mundial para conservar la flora y fauna y el medio ambiente en el que habitan.</p>
+<p>&nbsp;</p>
+<p>El PNUMA advierte de la urgencia de llegar a un acuerdo entre los diferentes Estados para proteger el medio ambiente y acabar as&iacute; con la p&eacute;rdida de diversas especies y por ello ha hecho un llamamiento urgente para proteger la biodiversidad del Planeta. Este recordatorio se hace con motivo de la presentaci&oacute;n del a&ntilde;o 2010 como A&ntilde;o Internacional de la Biodiversidad.</p>
+<p>&nbsp;</p>
+<p>El director ejecutivo de PNUMA, Achim Steiner, ha explicado la necesidad urgente de un pacto que proteja la biodiversidad e insta a los gobiernos a tomar medidas para revertir el ritmo de p&eacute;rdida de especies y es que por primera vez, tenemos una crisis ambiental acoplada a un proceso de salida de una crisis econ&oacute;mica global. Para &eacute;l, &eacute;ste es el momento para reflexionar y modificar la econom&iacute;a, para establecer una relaci&oacute;n de respeto y crecimiento con el medio ambiente.</p>
+<p>&nbsp;</p>
+<p>Por este motivo, una conocida marca de ropa deportiva, PUMA, ha anunciado su colaboraci&oacute;n con el PNUMA y la selecci&oacute;n nacional de Camer&uacute;n. Con 12 equipos africanos de f&uacute;tbol auspiciados por la marca y una historia de innovaci&oacute;n en &Aacute;frica, PUMA se encuentra en una posici&oacute;n privilegiada para ayudar a impulsar este esfuerzo junto con PNUMA. La campa&ntilde;a &ldquo;Play for Life&rdquo; surge para dar a conocer y concienciar del A&ntilde;o Internacional de la Biodiversidad entre los fans del f&uacute;tbol (millones en todo el mundo), y el p&uacute;blico general.</p>
+<p>&nbsp;</p>
+<p>La campa&ntilde;a se enfoca en &Aacute;frica, un continente que alberga una biodiversidad excepcional incluyendo a dos de las cinco &aacute;reas silvestres m&aacute;s importantes de la Tierra &ndash; la Cuenca del Congo y los Bosques y Sabana de Miombo-Mopane. Nueve de los treinta y cinco puntos clave de la biodiversidad del planeta, los m&aacute;s ricos y las reservas de flora y fauna m&aacute;s amenazadas del planeta est&aacute;n tambi&eacute;n en &Aacute;frica.<br />
+&nbsp;</p>
+<p>&nbsp;</p>
+<p>_</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2010-01-18T23:27:41+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[PUMA Y PNUMA: “Play for life”]]></dcterms:title>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/jrcampos/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desarrollo%20sostenible" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20ambiente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/cambio%20clim%c3%a1tico" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/cooperaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desarrollo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/pnue" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/pnuma" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/jrcampos/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Javier Rodriguez Campos]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Javier]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Rodriguez Campos]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/cooperaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cooperación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desarrollo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[desarrollo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/pnue">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pnue]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/pnuma">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pnuma]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/acuerdo-no-protocolo-vinculante/697cc9bd-d572-4567-a298-4cfd8de9d027">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA["Acuerdo, NO PROTOCOLO VINCULANTE"]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>&nbsp;</p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: small"><span style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tras dos semanas de debates, discusiones, e incidentes, l</span>o &uacute;nico que se logr&oacute; en la fallida reuni&oacute;n, fue la redacci&oacute;n de un texto de car&aacute;cter<span style="mso-spacerun: yes">&nbsp; </span><b style="mso-bidi-font-weight: normal">no vinculante</b> elaborado casi por completo por los dos pa&iacute;ses m&aacute;s contaminantes del mundo: China y Estados Unidos.</span><o:p></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><o:p><span style="font-size: small">&nbsp;</span></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: small"><span style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>El primero, principal productor de carb&oacute;n para generar electricidad y cemento y n&uacute;mero uno como emisor de CO2, ni tuvo el valor de defenderlo en el pleno de la reuni&oacute;n. Y el segundo, que produce m&aacute;s del 30 por ciento de los gases contaminantes y que eludi&oacute; el Protocolo de Kyoto. Es decir, lo que propongan los que m&aacute;s da&ntilde;o hacen al planeta es lo que se debe aceptar. </span><o:p></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><o:p><span style="font-size: small">&nbsp;</span></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: small"><span style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>El criticado acuerdo tambi&eacute;n ser&aacute; recordado porque representa la poca importancia que los pa&iacute;ses del primer mundo le dan a los efectos negativos que sobre la atm&oacute;sfera provocan los desechos<span style="mso-spacerun: yes">&nbsp; </span>de los procesos industriales de las empresas asentadas en sus tierras realizan: uso desmedido de combustibles f&oacute;siles, centrales t&eacute;rmicas, etc.</span><o:p></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><o:p><span style="font-size: small">&nbsp;</span></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dos partes destacables, por una parte no se fijaron objetivos de reducci&oacute;n de gases contaminantes para futuro. Esto es, se puede seguir contaminando sin que nadie pueda objetarlo y tienen las manos libres para producir m&aacute;s poluci&oacute;n si quieren.</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><o:p><span style="font-size: small">&nbsp;</span></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por otra, se han aprobado 30 mil millones de d&oacute;lares en tres a&ntilde;os para que los pa&iacute;ses en desarrollo, para que afronten y se adapten <span style="mso-spacerun: yes">&nbsp;</span>a las consecuencias que la contaminaci&oacute;n de otros van a provocar el clima en general. Unas cantidades irrisorias. Adem&aacute;s, la corrupci&oacute;n que va a provocar&nbsp;con estos fondos por parte de los funcionarios encargados de ejecutarlos, ya que carecen de un marco jur&iacute;dico adecuado para&nbsp;el uso&nbsp;de &eacute;stos&nbsp;hacia obras o proyectos. </span><o:p></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><o:p><span style="font-size: small">&nbsp;</span></o:p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: small"><span style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><strong><span style="mso-tab-count: 1">Claro est&aacute;,&nbsp;la</span></strong><b style="mso-bidi-font-weight: normal"> cumbre de Copenhague ha sido un fracaso.</b></span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: small"><b style="mso-bidi-font-weight: normal"><o:p>&nbsp;</o:p></b></span><b style="mso-bidi-font-weight: normal"><o:p></o:p></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: small"><b style="mso-bidi-font-weight: normal">_</b></span><b style="mso-bidi-font-weight: normal"><o:p></o:p></b></p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2009-12-22T11:44:38+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA["Acuerdo, NO PROTOCOLO VINCULANTE"]]></dcterms:title>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/jrcampos/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/competitividad%20verde" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20ambiente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/green%20competitiveness" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/cooperaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/pnue" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/copenhague" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/pnuma" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/competitividad%20verde">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[competitividad verde]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/green%20competitiveness">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[green competitiveness]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/copenhague">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[copenhague]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/resource/ecourbanorg-educacion-ambiental-sostenibilidad-y/fadd1d03-ce96-4ca2-891a-b6911f88c5dd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Ecourban.org: Educación Ambiental,  Sostenibilidad y TIC]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Ecourban es un programa colaborativo de <strong>Educaci&oacute;n ambiental </strong>para la <strong>sostenibilidad</strong> en <strong>medio urbano</strong> con recursos para profesores y alumnos de secundaria.</p>
+
+<p>Como describen sus promotores &quot; Esta web surge como proyecto educativo m&aacute;s amplio realizado por <a href="http://www.ecourban.org/quienessomos/curriculum/index.html">Fernando Ojeda Barcel&oacute;</a> dentro de sus estudios de doctorado en Educaci&oacute;n Ambiental y dirigido por los Profs. Drs.: Jos&eacute; Gutierrez y Fco. Javier Perales del <a href="http://www.ugr.es/%7Ediccexp/" target="_blank">Dpto. de Did&aacute;ctica de las Ciencias Experimentales de la Universidad de Granada</a>.<br />
+<br />
+El proyecto ECOURBAN es una propuesta que plantea la creaci&oacute;n de una <strong>base de recursos educativos </strong>relacionados con la Educaci&oacute;n para la Sostenibilidad y el uso de las <strong>TICs</strong>.&quot;</p>
+
+<p>Los contenidos que puedes encontrar son (conceptuales, procedimentales y actitudinales):</p>
+
+<p style="margin-left:40px"><strong>Conceptuales</strong></p>
+
+<ul>
+	<li style="margin-left: 40px;">Ecolog&iacute;a Urbana</li>
+	<li style="margin-left: 40px;">Consumo energ&eacute;tico y revoluci&oacute;n industrial.</li>
+	<li style="margin-left: 40px;">Recursos naturales: renovables y no renovables. Desarrollo sostenible.</li>
+	<li style="margin-left: 40px;">Interacciones con el medio.</li>
+	<li style="margin-left: 40px;">Impactos y riesgos en el agua, el aire y el suelo.</li>
+	<li style="margin-left: 40px;">Disminuci&oacute;n de la biodiversidad.</li>
+	<li style="margin-left: 40px;">Transporte y consumo.</li>
+	<li style="margin-left: 40px;">Alteraciones del paisaje.</li>
+	<li style="margin-left: 40px;">Residuos y contaminaci&oacute;n.</li>
+	<li style="margin-left: 40px;">Alteraciones del clima: efecto invernadero y disminuci&oacute;n de la capa de ozono.</li>
+	<li style="margin-left: 40px;">La gesti&oacute;n del medio.</li>
+	<li style="margin-left: 40px;">Estrategias de conservaci&oacute;n. Legislaci&oacute;n</li>
+	<li style="margin-left: 40px;">Soluciones a algunos problemas. Consumo y Huella ecol&oacute;gica</li>
+	<li style="margin-left: 40px;">Comunidades humanas y sostenibilidad</li>
+</ul>
+
+<p style="margin-left:40px"><strong>Procedimentales</strong></p>
+
+<ul>
+	<li style="margin-left: 40px;">Realizaci&oacute;n de ejercicios y actividades para evaluar distintas acciones y sus consecuencias en el medio.</li>
+	<li style="margin-left: 40px;">Resoluci&oacute;n de problemas que permitan contrastar algunas explicaciones emitidas sobre determinadas acciones y sus impactos ambientales.</li>
+	<li style="margin-left: 40px;">Utilizaci&oacute;n e interpretaci&oacute;n de gr&aacute;ficos sobre poblaciones y la utilizaci&oacute;n de recursos.</li>
+	<li style="margin-left: 40px;">Emitir hip&oacute;tesis ante un problema determinado.</li>
+	<li style="margin-left: 40px;">Planificaci&oacute;n y realizaci&oacute;n de actividades para contrastar las causas de los cambios en el medio natural.</li>
+	<li style="margin-left: 40px;">Predicci&oacute;n de las posibles consecuencias de una determinada acci&oacute;n sobre el medio.</li>
+	<li style="margin-left: 40px;">Elaboraci&oacute;n y difusi&oacute;n en el aula, el centro o la localidad, de las conclusiones obtenidas en estudios e investigaciones.</li>
+	<li style="margin-left: 40px;">Interpretaci&oacute;n de im&aacute;genes, tablas de datos y gr&aacute;ficas.</li>
+	<li style="margin-left: 40px;">Detecci&oacute;n y control de variables en un problema o investigaci&oacute;n determinados.</li>
+	<li style="margin-left: 40px;">Predicci&oacute;n de las posibles consecuencias debidas a cambios originados en un ecosistema.</li>
+	<li style="margin-left: 40px;">Interpretaci&oacute;n de la evoluci&oacute;n de una poblaci&oacute;n a partir de su gr&aacute;fica de crecimiento.</li>
+	<li style="margin-left: 40px;">Elaboraci&oacute;n de hip&oacute;tesis.</li>
+	<li style="margin-left: 40px;">Representaci&oacute;n de gr&aacute;ficas a partir de datos.</li>
+	<li style="margin-left: 40px;">Estudio de ecosistemas terrestres y acu&aacute;ticos.</li>
+	<li style="margin-left: 40px;">Interpretaci&oacute;n de mapas de distribuci&oacute;n.</li>
+</ul>
+
+<p style="margin-left:40px"><br />
+<strong>Actitudinales</strong></p>
+
+<ul>
+	<li style="margin-left: 40px;">Valoraci&oacute;n de la importancia del equilibrio din&aacute;mico en el medio.</li>
+	<li style="margin-left: 40px;">Reconocimiento de los riesgos que implican para la biosfera determinados estilos de vida.</li>
+	<li style="margin-left: 40px;">Valoraci&oacute;n de la aplicaci&oacute;n de sistemas preventivos para evitar graves impactos en el medio.</li>
+	<li style="margin-left: 40px;">Valoraci&oacute;n del di&aacute;logo como m&eacute;todo de b&uacute;squeda de soluciones para los problemas planteados.</li>
+	<li style="margin-left: 40px;">Adquisici&oacute;n de actitudes de cuidado y respeto por el mantenimiento del medio f&iacute;sico y de la vida como parte esencial del entorno humano.</li>
+	<li style="margin-left: 40px;">Reconocimiento y valoraci&oacute;n de la complejidad de las relaciones que existen entre los diversos componentes del medio.</li>
+	<li style="margin-left: 40px;">Comprender la importancia de un consumo responsable.</li>
+	<li style="margin-left: 40px;">Inter&eacute;s por la aplicaci&oacute;n de sistemas preventivos como medida para favorecer el equilibrio del medio.</li>
+	<li style="margin-left: 40px;">Concienciaci&oacute;n de la necesidad de cuidado y respeto del medio f&iacute;sico y de la vida como elementos esenciales del entorno humano.</li>
+	<li style="margin-left: 40px;">Reconocimiento y valoraci&oacute;n de la complejidad de las relaciones que se establecen entre los diversos componentes de un ecosistema</li>
+</ul>
+
+<p>&nbsp;</p>
+<p>Este recurso fué publicado originalmente en la comunidad <a href="http://didactalia.net/comunidad/materialeducativo">Didactalia: material educativo</a>.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2014-03-28T13:44:58+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ecourban.org: Educación Ambiental,  Sostenibilidad y TIC]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.magrama.gob.es/es/ceneam/programas-de-educacion-ambiental/programas-de-otras-entidades/ecourban.aspx" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/desarrollo%20sostenible" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/sostenibilidad" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tics" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20tecnolog%c3%adas%20de%20la%20informaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/mediosustainability" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educacion%20ambiental" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ecourban" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ecourban.org" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/recursos%20para%20medio%20urbano" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ecoescuelas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ecolog%c3%ada%20urbana" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/environmental%20education" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/actividades%20educaci%c3%b3n%20ambiental" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educaci%c3%b3n%20ambiental%20agua" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20ceneam" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20desarrollo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20desarrollo%20sostenible" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20desarrollo%20sostenible%20educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambientales" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiente%20desarrollo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiente%20educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educaci%c3%b3n%20ambiental" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/profesores" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/tics">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tics]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/medio%20tecnolog%c3%adas%20de%20la%20informaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[medio tecnologías de la información]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/mediosustainability">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[mediosustainability]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiental]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educacion%20ambiental">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educacion ambiental]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ecourban">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ecourban]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ecourban.org">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ecourban.org]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/recursos%20para%20medio%20urbano">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recursos para medio urbano]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ecoescuelas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ecoescuelas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ecolog%c3%ada%20urbana">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ecología urbana]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/actividades%20educaci%c3%b3n%20ambiental">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[actividades educación ambiental]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educaci%c3%b3n%20ambiental%20agua">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación ambiental agua]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20ceneam">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiental ceneam]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20desarrollo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiental desarrollo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20desarrollo%20sostenible">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiental desarrollo sostenible]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20desarrollo%20sostenible%20educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiental desarrollo sostenible educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiental%20educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiental educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambientales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambientales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiente%20desarrollo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiente desarrollo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/ambiente%20educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ambiente educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/educaci%c3%b3n%20ambiental">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación ambiental]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/greencompetitiveness/search/tag/profesores">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[profesores]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

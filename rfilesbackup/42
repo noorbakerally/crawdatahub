@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:lvont="http://lexvo.org/ontology#"
+  xmlns:lexvo="http://lexvo.org/id/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2008/05/skos#" 
+  xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" >
+
+<!--
+This data file is a part of
+
+Lexvo
+http://www.lexvo.org/
+Gerard de Melo, 2008-2016
+
+For information about the data sources and the respective
+copyrights, please see:
+http://www.lexvo.org/linkeddata/sources.html
+
+This information is available under an open source license.
+For detailed license information, please refer to:
+http://www.lexvo.org/legal.html
+-->
+
+<rdf:Description rdf:about="http://lexvo.org/id/iso639-3/spa">
+  <rdf:type rdf:resource="lvont:Language" />
+  <rdfs:comment rdf:datatype="xsd:string" xml:lang="en">Spanish or Castilian is a Romance language in the Ibero-Romance group that evolved from several dialects of spoken Latin in central-northern Iberia around the ninth century and gradually spread with the expansion of the Kingdom of Castile (present northern Spain) into central and southern Iberia during the later Middle Ages.</rdfs:comment>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="aa">Spanish</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ace">Bahsa Seupanyo</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="af">Spaans</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="agq">Sɨ̀kpanìs</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="aii">ܠܫܢܐ ܐܣܦܢܝܐ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ak">Spain kasa</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="am">ስፓኒሽ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ang">Spēonisc sprǣc</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ar">الإسبانية</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ar">لغة إسبانية</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="an">Idioma castellán</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="arz">لغه اسبانى</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="asa">Kihithpania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ast">Castellanu</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ast">español</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ay">Kastilla aru</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="az-Cyrl">испанҹа</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="az">İspan dili</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="az">ispanca</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bm">esipaɲolkan</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bar">Schbanisch</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bas">Hɔp u panyā</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bcl">Tataramon na Espanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="be-tarask">Гішпанская мова</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="be">Іспанская мова</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="be">іспанская</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bem">Ichi Spanishi</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bn">স্পেনীয় ভাষা</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bn">স্পেনীয়</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bez">Hihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bo">ཞི་པན་ཡའི།</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bo">སེ་པན་སྐད།</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bs-Cyrl">шпански</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bs">Španski jezik</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bs">španjolski</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="br">Spagnoleg</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="br">spagnoleg</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="brx">स्पैनिश</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bg">Испански език</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="bg">испански</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="byn">ስፓኒሽ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ca">Castellà</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ca">espanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ceb">Kinatsila</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="cs">Španělština</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="cs">španělština</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="cgg">Orusupaani</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ce">Ispanhoyn mott</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="chr">ᏍᏆᏂ ᎧᏬᏂᎯᏍᏗ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="chr">ᏍᏆᏂ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="cv">Испан чĕлхи</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="cmn-Hant">西班牙文</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="cmn">西班牙文</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kw">Spaynek</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="co">Lingua spagnola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="crh">İspan tili</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="cy">Sbaeneg</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="da">Spansk</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="da">spansk</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="dav">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="de">Spanisch</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="de">Spanische Sprache</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="dv">އިސްޕެނިޝް</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="dje">Espaaɲe senni</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="dsb">Špańšćina</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="dyo">español</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="dz">ཨིས་པེ་ནིཤ་ཁ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ebu">Kĩhispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="el">Ισπανικά</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="el">Ισπανική γλώσσα</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="en-Dsrt">������������������������������������</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="en">Castilian</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="en">Spanish language</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="en">Spanish</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="eo">Hispana lingvo</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="eo">hispana</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="et">Hispaania keel</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="et">hispaania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="eu">Gaztelania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="eu">gaztelania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ee">Spangbe</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ee">spaniagbe</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ewo">ǹkɔ́bɔ kpənyá</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ext">Luenga española</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fo">Spanskt mál</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fo">spanskt</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fa">اسپانیایی</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fa">زبان اسپانیایی</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fa">هسپانوی</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fil">Espanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fi">Espanjan kieli</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fi">espanja</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fr">Espagnol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fr">espagnol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="frp">Castilyan</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fy">Spaansk</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ff">Español</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fur">Lenghe spagnole</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="fur">spagnûl</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gag">İspan dili</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gan">西班牙語</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gd">Spàinntis</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ga">An Spáinnis</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ga">Spáinnis</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gl">Lingua castelá</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gl">español</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gv">Spaainish</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="got">������������������������������������������������������������/Heispansks</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gn">Karaiñe'ẽ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gsw-FR">Spanische Sprache</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gsw">Schpanisch</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="gu">સ્પેનિશ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="guz">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hak">Sî-pân-ngà-ngî</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ht">Panyòl</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ha">Ispaniyanci</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="haw">Paniolo</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="haw">‘Ōlelo Sepania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sh">Španski jezik</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="he">ספרדית</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hif">Spanish bhasa</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hi">स्पेनिश भाषा</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hi">स्पेनिश</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hr">Španjolski jezik</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hr">španjolski</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hsb">Španišćina</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hu">Spanyol nyelv</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hu">spanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="hy">Իսպաներեն</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ig">Panya</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="io">Hispaniana linguo</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ii">ꑭꀠꑸꉙ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="iu">ᓯᐸᐃᓂᑎᑐᑦ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ilo">Pagsasao nga Espaniol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ia">Lingua espaniol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ia">espaniol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="id">Bahasa Spanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="id">Spanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="is">Spænska</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="is">spænska</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="it">Lingua spagnola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="it">spagnolo</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="jv">Basa Spanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="jbo">sanbau</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="jmc">Kyihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ja">スペイン語</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kab">Taspenyulit</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kl">Spanskisut</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kl">spanskisut</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kam">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kn">ಸ್ಪ್ಯಾನಿಷ್ ಭಾಷೆ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kn">ಸ್ಪ್ಯಾನಿಷ್</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ks">سپینِش</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ka">ესპანური ენა</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ka">ესპანური</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kk">Испан тілі</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kk">испан тілі</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kbd">Эспаныбзэ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kde">Chihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kea">spanhol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="km">ភាសាអេស្ប៉ាញ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="km">អេស្ប៉ាញ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="khq">Espaaɲe senni</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ki">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="rw">Icyesipanyole</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="rw">Icyesipanyolo</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ky">испанча</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kln">kutitab Espianik</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="knn">स्पानिष</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kv">Испан кыв</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="kg">Kispanya</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ko">스페인어</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="krc">Испан тил</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ksb">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ksf">rikpanyá</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ksh">Schpaanesch</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ku">Zimanê spanî</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lad">Lingua castilyana</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lag">Kɨhispánia</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lo">ແອສປາໂຍນ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="la">Lingua Hispanica</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lv">Spāņu valoda</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lv">spāņu</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lij">Lengua spagnòlla</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="li">Castiliaans</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ln">Lispanyoli</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ln">lisipanye</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lt-x">Ėspanu kalba</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lt">Ispanų kalba</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lt">ispanų</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lmo">Lengua spagnöla</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lb">Spuenesch</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lu">Lihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lg">Lusipanya</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="luo">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="luy">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="lzh">L:西班牙語</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ml">സ്പാനിഷ്</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ml">സ്പാനിഷ്‌ ഭാഷ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mr">स्पॅनिश भाषा</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mr">स्पॅनिश</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mas">nkʉtʉ́k ɔ́ɔ̄ lspania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mdf">Испанонь кяль</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mer">Kĩspĩni</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mfe">espagnol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mgh">Ihispaniola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mhr">Испан йылме</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mk">Шпански јазик</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mk">шпански</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mg">Espaniola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mg">Fiteny espaniola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mt">Lingwa Spanjola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mt">Spanjol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mn">Испани хэл</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mi">Reo Pāniora</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ms">Bahasa Sepanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mua">Espaniya</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="mwl">Lhéngua castelhana</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="my">စပိန်</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nah">Caxtillāntlahtōlli</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nan">Se-pan-gâ-gí</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="naq">Spaans</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nv">Naakaii bizaad</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nd">isi-Sipeyini</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nds">Spaans</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nds">Spaansche Spraak</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ne">स्पेनी भाषा</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ne">स्प्यानिश</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nl">Spaans</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nmg">Paŋá</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nn">Spansk</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nn">spansk</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nb">spansk</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="no">Spansk</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nov">Spanum</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nus">Thok i̱thpaaniani</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="nyn">Orusupaani</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="oc">Espanhòu</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="or">ସ୍ପାନିସ୍</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="om">Afaan Ispeen</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="os">Испайнаг æвзаг</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="os">испайнаг</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pam">Castila</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pa">ਸਪੇਨਿਸ਼</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pa">ਸਪੈਨਿਸ਼ ਭਾਸ਼ਾ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pap">Spaño</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pms">Lenga spagneula</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pnb">ہسپانوی</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pl">Język hiszpański</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pl">hiszpański</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pt">Língua castelhana</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="pt">espanhol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ps">هسپانوي</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="qu">Kastilla simi</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="rof">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="rm">Lingua spagnola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="rm">spagnol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ro">Limba spaniolă</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ro">spaniolă</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="rue">Шпанєльскый язык</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="rn">Icesipanyolo</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ru">Испанский язык</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ru">испанский</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="rwk">Kyihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sg">Espanyöl</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sah">Испаан тыла</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sah">Ыспаанныы</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sa">स्पैनिश भाषा</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="saq">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sbp">Ishihisipaniya</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="scn">Lingua spagnola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sco">Spainyie leid</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="seh">espanhol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ses">Espaaɲe senni</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="shi-Latn">tasbnyulit</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="shi">ⵜⴰⵙⴱⵏⵢⵓⵍⵉⵜ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="si">ස්පාඤ්ඤ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sk">Španielčina</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sk">španielčina</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sl">Španščina</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sl">španščina</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="se">Spánskagiella</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="se">spánskkagiella</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sm">Gagana spaniolo</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sn">chiSpanish</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="so">Isbaanish</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="st">Sespain</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="es">Idioma español</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="es">español</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sq">Gjuha spanjolle</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sq">Spanjisht</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sc">Limba ispagnola</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sr-Latn">Španski</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sr">Шпански језик</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sr">Шпански</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ss">Sipanishi</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="stq">Spoanisk</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sw">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="swc">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sv">Spanska</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="sv">spanska</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="swh">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="szl">Szpańelsko godka</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ty">Reo Paniora</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ta">எசுப்பானியம்</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ta">ஸ்பானிஷ்</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tt">Испан теле</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="te">స్పానిష్ భాష</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="te">స్పానిష్</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="teo">Kihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tet">Lia-español</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tg">Забони испанӣ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tg">Испанӣ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tl">Wikang Kastila</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="th">ภาษาสเปน</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="th">สเปน</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tig">ስፓኒሽ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ti">ስፓኒሽ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="to">lea fakasīpenisi</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tpi">Tok Spen</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tn">Spanish</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ts">Xi spain</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tr">İspanyolca</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="twq">Espaaɲe senni</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="tzm">tasbelyunit</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="udm">Испан кыл</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ug">ئىسپان تىلى</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="uk">Іспанська мова</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="uk">іспанська</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ur">ہسپانوی زبان</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="ur">ہسپانوی</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="uz">Ispan tili</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="uzn-Latn">ispancha</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="uzn">Испанча</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="vai-Latn">Panyɛĩ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="vai">ꕐꘊꔧ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="vec">Łéngoa spagnoła</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="vi">Tiếng Tây Ban Nha</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="vls">Spoans</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="vo">Spanyänapük</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="vro">Hispaania kiil</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="vun">Kyihispania</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="wae">Schpaniš</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="wal">ስፓኒሽ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="war">Kinatsila</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="wa">Espagnol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="wuu">西班牙语</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="xal">Эспанмудин келн</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="xh">Isi-Spanish</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="xmf">ესპანური ნინა</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="xog">Olusipanya</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="yav">nuɛspanyɔ́lɛ</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="yi">שפאניש</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="yo">Èdè Sipanisi</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="yo">Èdè Spéìn</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="yue">西班牙話</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="zh">西班牙语</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="zsm">Sepanyol</rdfs:label>
+  <rdfs:label rdf:datatype="xsd:string" xml:lang="zu">isiSpeyini</rdfs:label>
+  <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Spanish_language" />
+  <rdfs:seeAlso rdf:resource="http://wals.info/languoid/lect/wals_code_spa" />
+  <rdfs:seeAlso rdf:resource="http://wals.info/languoid/lect/wals_code_spc" />
+  <rdfs:seeAlso rdf:resource="http://www.ethnologue.com/show_language.asp?code=spa" />
+  <rdfs:seeAlso rdf:resource="http://www.llmap.org/languages/spa.html" />
+  <owl:sameAs rdf:resource="http://dbpedia.org/resource/Spanish_language" />
+  <owl:sameAs rdf:resource="http://downlode.org/rdf/iso-639/languages#es" />
+  <owl:sameAs rdf:resource="http://lexvo.org/id/iso639-1/es" />
+  <owl:sameAs rdf:resource="http://lexvo.org/id/wordnet/30/noun/Spanish_1_10_00" />
+  <owl:sameAs rdf:resource="http://psi.oasis-open.org/iso/639/#spa" />
+  <owl:sameAs rdf:resource="http://www.lingvoj.org/lang/es" />
+  <owl:sameAs rdf:resource="http://www.mpii.de/yago/resource/Spanish_language" />
+  <owl:sameAs rdf:resource="info:lc/vocabulary/languages/spa" />
+  <lvont:broader rdf:resource="http://lexvo.org/id/iso639-5/roa" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/abrumaren" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/agobiareis" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/amenizan" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/apachare" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/apresurar%C3%ADamos" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/caus%C3%A1remos" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/derrap%C3%A1semos" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/difract%C3%B3" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/distancio" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/enlodasen" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/esclareciesen" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/evalu%C3%A9is" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/extraviaba" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/ficar%C3%ADan" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/floreces" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/insensibilizando" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/llameante" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/orde%C3%B1ar%C3%ADan" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/personalizabas" />
+  <lvont:hasMember rdf:resource="http://lexvo.org/id/term/spa/sobornare" />
+  <lvont:isFocusOf rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa" />
+  <lvont:iso6392BCode rdf:datatype="xsd:string">spa</lvont:iso6392BCode>
+  <lvont:iso6392TCode rdf:datatype="xsd:string">spa</lvont:iso6392TCode>
+  <lvont:iso639P1Code rdf:datatype="xsd:string">es</lvont:iso639P1Code>
+  <lvont:iso639P3PCode rdf:datatype="xsd:string">spa</lvont:iso639P3PCode>
+  <lvont:label rdf:resource="http://lexvo.org/id/term/aar/Spanish" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ace/Bahsa%20Seupanyo" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/afr/Spaans" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/agq/S%C9%A8%CC%80kpan%C3%ACs" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/aii/%DC%A0%DC%AB%DC%A2%DC%90%20%DC%90%DC%A3%DC%A6%DC%A2%DC%9D%DC%90" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/aka/Spain%20kasa" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/amh/%E1%88%B5%E1%8D%93%E1%8A%92%E1%88%BD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ang/Sp%C4%93onisc%20spr%C7%A3c" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ara/%D8%A7%D9%84%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A9" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ara/%D9%84%D8%BA%D8%A9%20%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A9" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/arg/Idioma%20castell%C3%A1n" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/arz/%D9%84%D8%BA%D9%87%20%D8%A7%D8%B3%D8%A8%D8%A7%D9%86%D9%89" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/asa/Kihithpania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ast/Castellanu" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ast/espa%C3%B1ol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/aym/Kastilla%20aru" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/aze-Cyrl/%D0%B8%D1%81%D0%BF%D0%B0%D0%BD%D2%B9%D0%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/aze/%C4%B0span%20dili" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/aze/ispanca" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bam/esipa%C9%B2olkan" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bar/Schbanisch" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bas/H%C9%94p%20u%20pany%C4%81" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bcl/Tataramon%20na%20Espanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bel-tarask/%D0%93%D1%96%D1%88%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B2%D0%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bel/%D0%86%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B2%D0%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bel/%D1%96%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bem/Ichi%20Spanishi" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ben/%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC%20%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ben/%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bez/Hihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bod/%E0%BD%9E%E0%BD%B2%E0%BC%8B%E0%BD%94%E0%BD%93%E0%BC%8B%E0%BD%A1%E0%BD%A0%E0%BD%B2%E0%BC%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bod/%E0%BD%A6%E0%BD%BA%E0%BC%8B%E0%BD%94%E0%BD%93%E0%BC%8B%E0%BD%A6%E0%BE%90%E0%BD%91%E0%BC%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bos-Cyrl/%D1%88%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bos/%C5%A0panski%20jezik" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bos/%C5%A1panjolski" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bre/Spagnoleg" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bre/spagnoleg" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/brx/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%88%E0%A4%A8%E0%A4%BF%E0%A4%B6" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bul/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%20%D0%B5%D0%B7%D0%B8%D0%BA" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/bul/%D0%B8%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/byn/%E1%88%B5%E1%8D%93%E1%8A%92%E1%88%BD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/cat/Castell%C3%A0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/cat/espanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ceb/Kinatsila" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ces/%C5%A0pan%C4%9Bl%C5%A1tina" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ces/%C5%A1pan%C4%9Bl%C5%A1tina" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/cgg/Orusupaani" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/che/Ispanhoyn%20mott" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/chr/%E1%8F%8D%E1%8F%86%E1%8F%82%20%E1%8E%A7%E1%8F%AC%E1%8F%82%E1%8E%AF%E1%8F%8D%E1%8F%97" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/chr/%E1%8F%8D%E1%8F%86%E1%8F%82" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/chv/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%20%D1%87%C4%95%D0%BB%D1%85%D0%B8" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/cmn-Hant/%E8%A5%BF%E7%8F%AD%E7%89%99%E6%96%87" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/cmn/%E8%A5%BF%E7%8F%AD%E7%89%99%E6%96%87" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/cor/Spaynek" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/cos/Lingua%20spagnola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/crh/%C4%B0span%20tili" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/cym/Sbaeneg" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/dan/Spansk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/dan/spansk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/dav/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/deu/Spanische%20Sprache" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/deu/Spanisch" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/div/%DE%87%DE%A8%DE%90%DE%B0%DE%95%DE%AC%DE%82%DE%A8%DE%9D%DE%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/dje/Espaa%C9%B2e%20senni" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/dsb/%C5%A0pa%C5%84%C5%A1%C4%87ina" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/dyo/espa%C3%B1ol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/dzo/%E0%BD%A8%E0%BD%B2%E0%BD%A6%E0%BC%8B%E0%BD%94%E0%BD%BA%E0%BC%8B%E0%BD%93%E0%BD%B2%E0%BD%A4%E0%BC%8B%E0%BD%81" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ebu/K%C4%A9hispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ell/%CE%99%CF%83%CF%80%CE%B1%CE%BD%CE%B9%CE%BA%CE%AC" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ell/%CE%99%CF%83%CF%80%CE%B1%CE%BD%CE%B9%CE%BA%CE%AE%20%CE%B3%CE%BB%CF%8E%CF%83%CF%83%CE%B1" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/eng-Dsrt/%F0%90%90%9D%F0%90%90%B9%F0%90%90%B0%F0%90%91%8C%F0%90%90%AE%F0%90%91%87" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/eng/Castilian" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/eng/Spanish%20language" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/eng/Spanish" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/epo/Hispana%20lingvo" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/epo/hispana" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/est/Hispaania%20keel" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/est/hispaania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/eus/Gaztelania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/eus/gaztelania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ewe/Spangbe" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ewe/spaniagbe" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ewo/%C7%B9k%C9%94%CC%81b%C9%94%20kp%C9%99ny%C3%A1" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ext/Luenga%20espa%C3%B1ola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fao/Spanskt%20m%C3%A1l" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fao/spanskt" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fas/%D8%A7%D8%B3%D9%BE%D8%A7%D9%86%DB%8C%D8%A7%DB%8C%DB%8C" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fas/%D8%B2%D8%A8%D8%A7%D9%86%20%D8%A7%D8%B3%D9%BE%D8%A7%D9%86%DB%8C%D8%A7%DB%8C%DB%8C" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fas/%D9%87%D8%B3%D9%BE%D8%A7%D9%86%D9%88%DB%8C" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fil/Espanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fin/Espanjan%20kieli" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fin/espanja" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fra/Espagnol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fra/espagnol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/frp/Castilyan" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fry/Spaansk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ful/Espa%C3%B1ol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fur/Lenghe%20spagnole" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/fur/spagn%C3%BBl" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/gag/%C4%B0span%20dili" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/gan/%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AA%9E" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/gla/Sp%C3%A0inntis" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/gle/An%20Sp%C3%A1innis" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/gle/Sp%C3%A1innis" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/glg/Lingua%20castel%C3%A1" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/glg/espa%C3%B1ol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/glv/Spaainish" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/got/%F0%90%8C%B7%F0%90%8C%B4%F0%90%8C%B9%F0%90%8D%83%F0%90%8D%80%F0%90%8C%B0%F0%90%8C%BD%F0%90%8D%83%F0%90%8C%BA%F0%90%8D%83%2FHeispansks" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/grn/Karai%C3%B1e'%E1%BA%BD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/gsw-FR/Spanische%20Sprache" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/gsw/Schpanisch" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/guj/%E0%AA%B8%E0%AB%8D%E0%AA%AA%E0%AB%87%E0%AA%A8%E0%AA%BF%E0%AA%B6" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/guz/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hak/S%C3%AE-p%C3%A2n-ng%C3%A0-ng%C3%AE" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hat/Pany%C3%B2l" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hau/Ispaniyanci" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/haw/%E2%80%98%C5%8Clelo%20Sepania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/haw/Paniolo" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hbs/%C5%A0panski%20jezik" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/heb/%D7%A1%D7%A4%D7%A8%D7%93%D7%99%D7%AA" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hif/Spanish%20bhasa" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hin/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%B6%20%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hin/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%B6" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hrv/%C5%A0panjolski%20jezik" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hrv/%C5%A1panjolski" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hsb/%C5%A0pani%C5%A1%C4%87ina" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hun/Spanyol%20nyelv" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hun/spanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/hye/%D4%BB%D5%BD%D5%BA%D5%A1%D5%B6%D5%A5%D6%80%D5%A5%D5%B6" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ibo/Panya" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ido/Hispaniana%20linguo" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/iii/%EA%91%AD%EA%80%A0%EA%91%B8%EA%89%99" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/iku/%E1%93%AF%E1%90%B8%E1%90%83%E1%93%82%E1%91%8E%E1%91%90%E1%91%A6" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ilo/Pagsasao%20nga%20Espaniol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ina/Lingua%20espaniol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ina/espaniol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ind/Bahasa%20Spanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ind/Spanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/isl/Sp%C3%A6nska" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/isl/sp%C3%A6nska" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ita/Lingua%20spagnola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ita/spagnolo" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/jav/Basa%20Spanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/jbo/sanbau" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/jmc/Kyihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/jpn/%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3%E8%AA%9E" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kab/Taspenyulit" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kal/Spanskisut" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kal/spanskisut" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kam/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kan/%E0%B2%B8%E0%B3%8D%E0%B2%AA%E0%B3%8D%E0%B2%AF%E0%B2%BE%E0%B2%A8%E0%B2%BF%E0%B2%B7%E0%B3%8D%20%E0%B2%AD%E0%B2%BE%E0%B2%B7%E0%B3%86" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kan/%E0%B2%B8%E0%B3%8D%E0%B2%AA%E0%B3%8D%E0%B2%AF%E0%B2%BE%E0%B2%A8%E0%B2%BF%E0%B2%B7%E0%B3%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kas/%D8%B3%D9%BE%DB%8C%D9%86%D9%90%D8%B4" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kat/%E1%83%94%E1%83%A1%E1%83%9E%E1%83%90%E1%83%9C%E1%83%A3%E1%83%A0%E1%83%98%20%E1%83%94%E1%83%9C%E1%83%90" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kat/%E1%83%94%E1%83%A1%E1%83%9E%E1%83%90%E1%83%9C%E1%83%A3%E1%83%A0%E1%83%98" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kaz/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%20%D1%82%D1%96%D0%BB%D1%96" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kaz/%D0%B8%D1%81%D0%BF%D0%B0%D0%BD%20%D1%82%D1%96%D0%BB%D1%96" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kbd/%D0%AD%D1%81%D0%BF%D0%B0%D0%BD%D1%8B%D0%B1%D0%B7%D1%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kde/Chihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kea/spanhol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/khm/%E1%9E%97%E1%9E%B6%E1%9E%9F%E1%9E%B6%E1%9E%A2%E1%9F%81%E1%9E%9F%E1%9F%92%E1%9E%94%E1%9F%89%E1%9E%B6%E1%9E%89" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/khm/%E1%9E%A2%E1%9F%81%E1%9E%9F%E1%9F%92%E1%9E%94%E1%9F%89%E1%9E%B6%E1%9E%89" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/khq/Espaa%C9%B2e%20senni" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kik/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kin/Icyesipanyole" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kin/Icyesipanyolo" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kir/%D0%B8%D1%81%D0%BF%D0%B0%D0%BD%D1%87%D0%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kln/kutitab%20Espianik" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/knn/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B7" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kom/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%20%D0%BA%D1%8B%D0%B2" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kon/Kispanya" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kor/%EC%8A%A4%ED%8E%98%EC%9D%B8%EC%96%B4" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/krc/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%20%D1%82%D0%B8%D0%BB" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ksb/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ksf/rikpany%C3%A1" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ksh/Schpaanesch" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/kur/Ziman%C3%AA%20span%C3%AE" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lad/Lingua%20castilyana" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lag/K%C9%A8hisp%C3%A1nia" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lao/%E0%BB%81%E0%BA%AD%E0%BA%AA%E0%BA%9B%E0%BA%B2%E0%BB%82%E0%BA%8D%E0%BA%99" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lat/Lingua%20Hispanica" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lav/Sp%C4%81%C5%86u%20valoda" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lav/sp%C4%81%C5%86u" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lij/Lengua%20spagn%C3%B2lla" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lim/Castiliaans" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lin/Lispanyoli" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lin/lisipanye" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lit-x-samogitian/%C4%96spanu%20kalba" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lit/Ispan%C5%B3%20kalba" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lit/ispan%C5%B3" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lmo/Lengua%20spagn%C3%B6la" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ltz/Spuenesch" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lub/Lihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lug/Lusipanya" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/luo/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/luy/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/lzh/L%3A%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AA%9E" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mal/%E0%B4%B8%E0%B5%8D%E0%B4%AA%E0%B4%BE%E0%B4%A8%E0%B4%BF%E0%B4%B7%E0%B5%8D%E2%80%8C%20%E0%B4%AD%E0%B4%BE%E0%B4%B7" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mal/%E0%B4%B8%E0%B5%8D%E0%B4%AA%E0%B4%BE%E0%B4%A8%E0%B4%BF%E0%B4%B7%E0%B5%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mar/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%85%E0%A4%A8%E0%A4%BF%E0%A4%B6%20%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mar/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%85%E0%A4%A8%E0%A4%BF%E0%A4%B6" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mas/nk%CA%89t%CA%89%CC%81k%20%C9%94%CC%81%C9%94%CC%84%20lspania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mdf/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%BE%D0%BD%D1%8C%20%D0%BA%D1%8F%D0%BB%D1%8C" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mer/K%C4%A9sp%C4%A9ni" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mfe/espagnol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mgh/Ihispaniola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mhr/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%20%D0%B9%D1%8B%D0%BB%D0%BC%D0%B5" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mkd/%D0%A8%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%20%D1%98%D0%B0%D0%B7%D0%B8%D0%BA" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mkd/%D1%88%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mlg/Espaniola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mlg/Fiteny%20espaniola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mlt/Lingwa%20Spanjola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mlt/Spanjol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mon/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%20%D1%85%D1%8D%D0%BB" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mri/Reo%20P%C4%81niora" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/msa/Bahasa%20Sepanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mua/Espaniya" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mwl/Lh%C3%A9ngua%20castelhana" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/mya/%E1%80%85%E1%80%95%E1%80%AD%E1%80%94%E1%80%BA" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nah/Caxtill%C4%81ntlaht%C5%8Dlli" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nan/Se-pan-g%C3%A2-g%C3%AD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/naq/Spaans" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nav/Naakaii%20bizaad" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nde/isi-Sipeyini" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nds/Spaansche%20Spraak" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nds/Spaans" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nep/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%87%E0%A4%A8%E0%A5%80%20%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nep/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B6" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nld/Spaans" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nmg/Pa%C5%8B%C3%A1" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nno/Spansk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nno/spansk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nob/spansk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nor/Spansk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nov/Spanum" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nus/Thok%20i%CC%B1thpaaniani" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/nyn/Orusupaani" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/oci/Espanh%C3%B2u" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ori/%E0%AC%B8%E0%AD%8D%E0%AC%AA%E0%AC%BE%E0%AC%A8%E0%AC%BF%E0%AC%B8%E0%AD%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/orm/Afaan%20Ispeen" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/oss/%D0%98%D1%81%D0%BF%D0%B0%D0%B9%D0%BD%D0%B0%D0%B3%20%C3%A6%D0%B2%D0%B7%D0%B0%D0%B3" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/oss/%D0%B8%D1%81%D0%BF%D0%B0%D0%B9%D0%BD%D0%B0%D0%B3" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pam/Castila" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pan/%E0%A8%B8%E0%A8%AA%E0%A9%87%E0%A8%A8%E0%A8%BF%E0%A8%B8%E0%A8%BC" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pan/%E0%A8%B8%E0%A8%AA%E0%A9%88%E0%A8%A8%E0%A8%BF%E0%A8%B8%E0%A8%BC%20%E0%A8%AD%E0%A8%BE%E0%A8%B8%E0%A8%BC%E0%A8%BE" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pap/Spa%C3%B1o" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pms/Lenga%20spagneula" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pnb/%DB%81%D8%B3%D9%BE%D8%A7%D9%86%D9%88%DB%8C" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pol/J%C4%99zyk%20hiszpa%C5%84ski" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pol/hiszpa%C5%84ski" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/por/L%C3%ADngua%20castelhana" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/por/espanhol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/pus/%D9%87%D8%B3%D9%BE%D8%A7%D9%86%D9%88%D9%8A" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/que/Kastilla%20simi" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/rof/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/roh/Lingua%20spagnola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/roh/spagnol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ron/Limba%20spaniol%C4%83" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ron/spaniol%C4%83" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/rue/%D0%A8%D0%BF%D0%B0%D0%BD%D1%94%D0%BB%D1%8C%D1%81%D0%BA%D1%8B%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/run/Icesipanyolo" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/rus/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/rus/%D0%B8%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/rwk/Kyihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sag/Espany%C3%B6l" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sah/%D0%98%D1%81%D0%BF%D0%B0%D0%B0%D0%BD%20%D1%82%D1%8B%D0%BB%D0%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sah/%D0%AB%D1%81%D0%BF%D0%B0%D0%B0%D0%BD%D0%BD%D1%8B%D1%8B" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/san/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%88%E0%A4%A8%E0%A4%BF%E0%A4%B6%20%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/saq/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sbp/Ishihisipaniya" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/scn/Lingua%20spagnola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sco/Spainyie%20leid" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/seh/espanhol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ses/Espaa%C9%B2e%20senni" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/shi-Latn/tasbnyulit" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/shi/%E2%B5%9C%E2%B4%B0%E2%B5%99%E2%B4%B1%E2%B5%8F%E2%B5%A2%E2%B5%93%E2%B5%8D%E2%B5%89%E2%B5%9C" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sin/%E0%B7%83%E0%B7%8A%E0%B6%B4%E0%B7%8F%E0%B6%A4%E0%B7%8A%E0%B6%A4" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/slk/%C5%A0paniel%C4%8Dina" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/slk/%C5%A1paniel%C4%8Dina" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/slv/%C5%A0pan%C5%A1%C4%8Dina" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/slv/%C5%A1pan%C5%A1%C4%8Dina" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sme/Sp%C3%A1nskagiella" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sme/sp%C3%A1nskkagiella" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/smo/Gagana%20spaniolo" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sna/chiSpanish" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/som/Isbaanish" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sot/Sespain" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/spa/Idioma%20espa%C3%B1ol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/spa/espa%C3%B1ol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sqi/Gjuha%20spanjolle" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/sqi/Spanjisht" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/srd/Limba%20ispagnola" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/srp-Latn/%C5%A0panski" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/srp/%D0%A8%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%20%D1%98%D0%B5%D0%B7%D0%B8%D0%BA" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/srp/%D0%A8%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ssw/Sipanishi" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/stq/Spoanisk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/swa/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/swc/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/swe/Spanska" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/swe/spanska" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/swh/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/szl/Szpa%C5%84elsko%20godka" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tah/Reo%20Paniora" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tam/%E0%AE%8E%E0%AE%9A%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%A9%E0%AE%BF%E0%AE%AF%E0%AE%AE%E0%AF%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tam/%E0%AE%B8%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%A9%E0%AE%BF%E0%AE%B7%E0%AF%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tat/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%20%D1%82%D0%B5%D0%BB%D0%B5" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tel/%E0%B0%B8%E0%B1%8D%E0%B0%AA%E0%B0%BE%E0%B0%A8%E0%B0%BF%E0%B0%B7%E0%B1%8D%20%E0%B0%AD%E0%B0%BE%E0%B0%B7" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tel/%E0%B0%B8%E0%B1%8D%E0%B0%AA%E0%B0%BE%E0%B0%A8%E0%B0%BF%E0%B0%B7%E0%B1%8D" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/teo/Kihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tet/Lia-espa%C3%B1ol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tgk/%D0%97%D0%B0%D0%B1%D0%BE%D0%BD%D0%B8%20%D0%B8%D1%81%D0%BF%D0%B0%D0%BD%D3%A3" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tgk/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D3%A3" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tgl/Wikang%20Kastila" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tha/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%99" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tha/%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%99" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tig/%E1%88%B5%E1%8D%93%E1%8A%92%E1%88%BD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tir/%E1%88%B5%E1%8D%93%E1%8A%92%E1%88%BD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ton/lea%20fakas%C4%ABpenisi" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tpi/Tok%20Spen" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tsn/Spanish" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tso/Xi%20spain" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tur/%C4%B0spanyolca" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/twq/Espaa%C9%B2e%20senni" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/tzm/tasbelyunit" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/udm/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%20%D0%BA%D1%8B%D0%BB" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/uig/%D8%A6%D9%89%D8%B3%D9%BE%D8%A7%D9%86%20%D8%AA%D9%89%D9%84%D9%89" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ukr/%D0%86%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BC%D0%BE%D0%B2%D0%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/ukr/%D1%96%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/urd/%DB%81%D8%B3%D9%BE%D8%A7%D9%86%D9%88%DB%8C%20%D8%B2%D8%A8%D8%A7%D9%86" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/urd/%DB%81%D8%B3%D9%BE%D8%A7%D9%86%D9%88%DB%8C" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/uzb/Ispan%20tili" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/uzn-Latn/ispancha" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/uzn/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%87%D0%B0" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/vai-Latn/Pany%C9%9B%C4%A9" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/vai/%EA%95%90%EA%98%8A%EA%94%A7" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/vec/%C5%81%C3%A9ngoa%20spagno%C5%82a" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/vie/Ti%E1%BA%BFng%20T%C3%A2y%20Ban%20Nha" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/vls/Spoans" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/vol/Spany%C3%A4nap%C3%BCk" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/vro/Hispaania%20kiil" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/vun/Kyihispania" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/wae/Schpani%C5%A1" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/wal/%E1%88%B5%E1%8D%93%E1%8A%92%E1%88%BD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/war/Kinatsila" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/wln/Espagnol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/wuu/%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/xal/%D0%AD%D1%81%D0%BF%D0%B0%D0%BD%D0%BC%D1%83%D0%B4%D0%B8%D0%BD%20%D0%BA%D0%B5%D0%BB%D0%BD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/xho/Isi-Spanish" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/xmf/%E1%83%94%E1%83%A1%E1%83%9E%E1%83%90%E1%83%9C%E1%83%A3%E1%83%A0%E1%83%98%20%E1%83%9C%E1%83%98%E1%83%9C%E1%83%90" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/xog/Olusipanya" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/yav/nu%C9%9Bspany%C9%94%CC%81l%C9%9B" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/yid/%D7%A9%D7%A4%D7%90%D7%A0%D7%99%D7%A9" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/yor/%C3%88d%C3%A8%20Sipanisi" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/yor/%C3%88d%C3%A8%20Sp%C3%A9%C3%ACn" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/yue/%E8%A5%BF%E7%8F%AD%E7%89%99%E8%A9%B1" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/zho/%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/zsm/Sepanyol" />
+  <lvont:label rdf:resource="http://lexvo.org/id/term/zul/isiSpeyini" />
+  <lvont:marcCode rdf:datatype="xsd:string">spa</lvont:marcCode>
+  <lvont:nearlySameAs rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa" />
+  <lvont:nearlySameAs rdf:resource="http://www.glottolog.org/resource/languoid/id/stan1288" />
+  <lvont:usedIn rdf:resource="geo:28.0;-15.58" />
+  <lvont:usedIn rdf:resource="geo:40.0;-4.0" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/AD" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/AI" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/AN" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/AR" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/AU" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/AW" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/BE" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/BO" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/BZ" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/CA" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/CH" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/CL" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/CO" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/CR" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/CU" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/DE" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/DO" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/EA" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/EC" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/ES" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/FI" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/FR" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/GI" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/GQ" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/GT" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/HN" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/IC" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/IL" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/JM" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/KY" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/MA" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/MX" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/NI" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/NO" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/PA" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/PE" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/PH" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/PR" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/PY" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/SE" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/SV" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/TT" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/US" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/UY" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/VE" />
+  <lvont:usedIn rdf:resource="http://lexvo.org/id/iso3166/VI" />
+  <lvont:usesScript rdf:resource="http://lexvo.org/id/script/Latn" />
+  <skos:prefLabel rdf:datatype="xsd:string" xml:lang="en">Spanish</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>

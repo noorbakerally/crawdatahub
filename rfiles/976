@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000020"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000020">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Specimen</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological specimen</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological specimen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<rdfs:label>DNA samples from Alzheimer's patients</rdfs:label>
+	<has_related_disease xmlns="http://eagle-i.org/ont/app/1.0/" rdf:resource="http://purl.obolibrary.org/obo/DOID_10652"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/has_related_disease">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related Disease</preferredLabel>
+	<rdfs:label xml:lang="en">has_related_disease</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10652">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alzheimer's disease</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<ERO_0001517 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://global.eagle-i.net/i/Homo_sapiens"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001517">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source Organism Type</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from organism</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives_from_organism</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://global.eagle-i.net/i/Homo_sapiens">
+	<rdfs:label>Homo sapiens</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">Collected from patients with Alzheimer's Disease as well as healthy cohorts.</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://ohsu.eagle-i.net/i/0000012e-5e3c-d067-4106-535b80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-5e3c-d067-4106-535b80000000">
+	<rdfs:label>Quinn, Joseph, M.D.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://ohsu.eagle-i.net/i/0000012e-5e3e-32f2-4106-535b80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-5e3e-32f2-4106-535b80000000">
+	<rdfs:label>Kramer, Patricia, Ph.D.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<RO_0001025 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://ohsu.eagle-i.net/i/0000012e-5e3a-7084-4106-535b80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</preferredLabel>
+	<rdfs:label xml:lang="en">located_in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-5e3a-7084-4106-535b80000000">
+	<rdfs:label>Layton Alzheimer's Disease Center Biomarkers &amp; Genetics Core Lab</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<rdfs:label xml:lang="en">located in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-28T16:08:58.772-06:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://ohsu.eagle-i.net/i/00000129-f7a5-d4ce-6ba4-5e0780000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/00000129-f7a5-d4ce-6ba4-5e0780000000">
+	<rdfs:label>pjakobs (Petra Jakobs)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-02T18:28:27.764-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://ohsu.eagle-i.net/i/0000012b-1232-827f-79a3-373680000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012b-1232-827f-79a3-373680000000">
+	<rdfs:label>shoffmann (Scott Hoffmann)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://ohsu.eagle-i.net/i/0000012b-2187-e681-79a3-373680000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012b-2187-e681-79a3-373680000000">
+	<rdfs:label>nvasilevsky (Nicole Vasilevsky)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ohsu.eagle-i.net/i/0000012e-6e50-64c5-4106-535b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

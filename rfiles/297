@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>OpenlyLocal has retired</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="stylesheets/cover.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="http://talkaboutlocal.org.uk">Talk About Local</a></li>
+                  <li><a href="https://OpenCorporates.com">OpenCorporates</a></li>
+                  <li><a href="http://OpenCharities.org">OpenCharities</a></li>
+                  <li><a href="https://github.com/CountCulture/openlylocal">OpenlyLocal code</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">OpenlyLocal has retired</h1>
+            <p class="lead">Sadly, OpenlyLocal is no more. The team behind it are now fully tied up making <a href="https://opencorporates.com/">OpenCorporates</a> <a href="https://opencorporates.com/">the largest open database of companies in the world</a>. The code for OpenlyLocal is available at <a href="https://github.com/CountCulture/openlylocal">Github under an open licence</a>. Have fun and do good work.</p>
+            <p class="lead">The Hyperlocal Directory has been taken on by <a href="http://talkaboutlocal.org.uk/" title="Talk About Local">Talk About Local</a> and is now available at <a href="http://localweblist.net/">LocalWebList.net</a></p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--    <script src="../../dist/js/bootstrap.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>

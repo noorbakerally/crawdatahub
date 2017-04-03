@@ -1,0 +1,552 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#" xmlns:alacom-core="http://jelenajovanovic.net/ontologies/loco/alocom-core/ns/" xmlns:expo="http://expo.sourceforge.net/" xmlns:sc="http://schema.org/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:hr-xml="http://gnoss.com/Ontologia/Curriculum.owl#" xmlns:ptic="http://gnoss.com/Ontologia/preguntaTIC.owl#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterm="http://purl.org/dc/terms/">
+  <gnoss:ResultSet rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/TIC?rdf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">327</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/diapositiva1/00389d55-21d2-4630-ae96-50586e7e6660" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/comprension-lectora/503fa550-44a8-49d0-8ad6-eb77239fb9ee" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/discussion/el-uso-de-las-tic-en-educacion-fisica/af100bce-a29a-4442-847c-899ff633805c" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/c243mo-puede-implementar-las-tic-en-la-educacion-d/c409b7bc-bb13-4676-8447-687feee3268e" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/animacion-con-photopuppet/50e01fda-00f0-4690-826d-416176dae68b" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/sessiones-informativas-y-webinars/c486cd88-16c4-4760-8494-522508404fdf" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/tutoriales-y-videos-de-ayuda/1ad1201b-f4d5-4380-815d-8352587d0fb4" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/primeros-pasos-con-additio-app/e7780b37-cbca-430b-a6b4-5ad254cae90d" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/que-entendemos-por-educacion/d7fae45f-f8d6-4d0b-8728-ee07614bfc1b" />
+    <gnoss:Results rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resource/por-que-es-necesario-ensear-programacion-en-el-aul/bf624008-8480-4329-9de7-ac495c635b0f" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/diapositiva1/00389d55-21d2-4630-ae96-50586e7e6660">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Diapositiva1]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Un docente que trasforma:</p>
+
+<p>tiene la capacidad de &nbsp;crear, la capacidad para modificar o transformar el mundo, de generar nuevas ideas o conceptos o nuevas asociaciones entre los ya conocidos tiene otra connotaci&oacute;n. El profesor creativo TIC usa las tecnolog&iacute;as como un medio &uacute;til para conseguir un fin pero de forma simult&aacute;nea con m&eacute;todos efectivos hasta ahora, adaptando unos y otros para crear una nueva forma de docencia.</p>
+
+<p>El docente creativo, modifica su entorno, lo adapta en su beneficio y en el de sus fines. Fruto de ese ejercicio en su mente nacen nuevas t&eacute;cnicas y materiales cuya versatilidad le permite apoyarse en diferentes plataformas, aplicaciones o pr&aacute;cticas, sin depender expl&iacute;citamente de una u otra tecnolog&iacute;a.</p>
+
+<p>El profesor trasformador &nbsp;se adapta, y lo hace porque tiene capacidad para enfrentarse a los imprevistos, no se le ponen los pelos de punta cuando se va la luz y acepta e integra al momento un texto que un alumno ha obtenido de internet en el que cuestiona aquello que el d&iacute;a anterior ense&ntilde;&oacute; en clase. En palabras de David S&aacute;nchez-Barbudo Miranda, un entusiasta de la creatividad en la ense&ntilde;anza, el docente creativo, conoce al alumno, le saca una sonrisa, no es individualista, nunca lleva la clase cerrada, promueve la participaci&oacute;n, es colaborador y es generoso con sus materiales porque no los considera suyos, sino una evoluci&oacute;n de lo que otros crearon para &eacute;l.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2017-03-05T21:34:37+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Diapositiva1]]></dcterms:title>
+    <dcterms:source rdf:resource="http://content1.ineverycrea.net/imagenes/Documentos/00/0038/00389d55-21d2-4630-ae96-50586e7e6660/00389d55-21d2-4630-ae96-50586e7e6660.jpg" />
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/martha-varg1/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/niveles-educativos/8200363a-3de1-4a40-9ad8-6205d35538a2" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/diapositiva1" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/david%20s%c3%a1nchez-barbudo%20miranda" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Image" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://ineverycrea.net/en/community/ineverycrea/profile/martha-varg1/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Martha Vargas]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Martha]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Vargas]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/niveles-educativos/8200363a-3de1-4a40-9ad8-6205d35538a2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Niveles educativos]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Niveles educativos]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/diapositiva1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[diapositiva1]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tic]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/david%20s%c3%a1nchez-barbudo%20miranda">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[david sánchez-barbudo miranda]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/comprension-lectora/503fa550-44a8-49d0-8ad6-eb77239fb9ee">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Comprension lectora]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>&#191;Pueden hacerme el favor de enviar actividades de comprension lectora en las que se pueda  trabajar con el apoyo de las TIC?</p><p></p><p>mil gracaias por su atencion a esta solicitud.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2017-02-21T07:10:50+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Comprension lectora]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Comprension lectora.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://gnoss.com/items/PreguntaTIC_503fa550-44a8-49d0-8ad6-eb77239fb9ee_4272f0f1-cd90-420d-9e13-316d87a9d30e" />
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/juan-carlo80/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/preguntas-y-ayuda/81ae7392-5604-4bcc-b6d6-2f35793e97dd" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/lectora" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/comprension" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/hacerme" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/favor" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/enviar" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/actividades" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/trabajar" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/apoyo" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/gracaias" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://ineverycrea.net/en/community/ineverycrea/profile/juan-carlo80/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[JUAN CARLOS GOMEZ OLALDE]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[JUAN CARLOS]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[GOMEZ OLALDE]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/preguntas-y-ayuda/81ae7392-5604-4bcc-b6d6-2f35793e97dd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Preguntas y ayuda]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Preguntas y ayuda]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/lectora">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[lectora]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/comprension">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[comprension]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/hacerme">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[hacerme]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/favor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[favor]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/enviar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[enviar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/actividades">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[actividades]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/trabajar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[trabajar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/apoyo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[apoyo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/gracaias">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gracaias]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Post rdf:about="http://ineverycrea.net/en/community/ineverycrea/discussion/el-uso-de-las-tic-en-educacion-fisica/af100bce-a29a-4442-847c-899ff633805c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[El uso de las TIC en educación física]]></rdfs:label>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[El uso de las TIC en educación física]]></dcterms:title>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Los alumnos con los grandes cambios que la sociedad genera en la actualidad los alumnos deben de tener una gran relaci&oacute;n entre su educaci&oacute;n, formaci&oacute;n y personalidad adecu&aacute;ndonos al uso de la tecnolog&iacute;a como una herramienta de uso cotidiano para una mayor participaci&oacute;n involucramiento y tener los conocimientos necesarios para esta nueva generaci&oacute;n de tecnolog&iacute;as y herramientas did&aacute;cticas.<iframe frameborder="0" height="390" src="http://www.youtube.com/embed/ZsDed9VmVzk?rel=0" title="YouTube video player" type="text/html" width="480"></iframe></p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2017-02-02T01:55:31+01:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/octavio-díaz/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/consultora-tic/28bdd833-db39-475a-abe6-4eac99ec9ff0" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/areas-de-conocimiento/474385f8-0b1b-448a-8609-fbdc2fd771ef" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/niveles-educativos/8200363a-3de1-4a40-9ad8-6205d35538a2" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/tipo-de-recurso/9dadd605-56bd-4ea2-a853-4c5887024777" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/uso" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/f%c3%adsica" />
+  </sioc:Post>
+  <foaf:Person rdf:about="http://ineverycrea.net/en/community/ineverycrea/profile/octavio-díaz/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Octavio Díaz Zuloaga]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Octavio]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Díaz Zuloaga]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/consultora-tic/28bdd833-db39-475a-abe6-4eac99ec9ff0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Consultora TIC]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Consultora TIC]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/areas-de-conocimiento/474385f8-0b1b-448a-8609-fbdc2fd771ef">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Áreas de conocimiento]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Áreas de conocimiento]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/tipo-de-recurso/9dadd605-56bd-4ea2-a853-4c5887024777">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Tipo de recurso]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Tipo de recurso]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/uso">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[uso]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/f%c3%adsica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[física]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/c243mo-puede-implementar-las-tic-en-la-educacion-d/c409b7bc-bb13-4676-8447-687feee3268e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[C&#243;mo puede implementar las TIC en la educacion de las Matem&#225;ticas]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Utilizando las herramientas TIC podemos ense&#241;ar a los estudiantes  de una manera mas motivadora pues nuestros estudiantes son muy dados a utilizar o querer utilizar estas herramientas, asi que quisiera tener mayor conocimiento sobre estas.</p><p>Muchas gracias por la atenci&#243;n dispensada.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2017-01-11T04:13:35+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[C&#243;mo puede implementar las TIC en la educacion de las Matem&#225;ticas]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Cómo puede implementar las TIC en la educacion de las Matemáticas.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://gnoss.com/items/PreguntaTIC_c409b7bc-bb13-4676-8447-687feee3268e_1bb51773-fe26-4702-9200-c2c54a6d6d95" />
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/henry-acuña-/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/preguntas-y-ayuda/81ae7392-5604-4bcc-b6d6-2f35793e97dd" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/implementar" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/educacion" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/matem%c3%a1ticas" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/utilizando" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/herramientas" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/ense%c3%b1ar" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/estudiantes" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/manera" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/motivadora" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/dados" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/utilizar" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/asi" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://ineverycrea.net/en/community/ineverycrea/profile/henry-acuña-/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Henry Acuña Herazo]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Henry]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Acuña Herazo]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/implementar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[implementar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/educacion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educacion]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/matem%c3%a1ticas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[matemáticas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/utilizando">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[utilizando]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/herramientas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[herramientas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/ense%c3%b1ar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[enseñar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/estudiantes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[estudiantes]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/manera">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[manera]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/motivadora">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[motivadora]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/dados">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[dados]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/utilizar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[utilizar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/asi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[asi]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/animacion-con-photopuppet/50e01fda-00f0-4690-826d-416176dae68b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Animación con PhotoPuppet]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>*PHOTOPUPPET es una sencilla aplicaci&oacute;n de IOS que os ayudar&aacute; a darle vida a vuestras historias . Las ventajas de esta aplicaci&oacute;n son: Te permite trabajar con las ilustraciones de tu alumnado, no necesitas conocimientos t&eacute;cnicos de animaci&oacute;n , es una aplicaci&oacute;n muy sencilla y en unos minutos aprender&aacute;s a usarla .</p>
+
+<p>Una nota importante: Cuando fotograf&iacute;es o captures las ilustraciones , rec&oacute;rtalas previamente y col&oacute;calas sobre un fondo contrastado para que sea m&aacute;s sencillo separar la figura del fondo .</p>
+
+<p>Os dejo dos ejemplos de animaciones realizadas por mi alumnado con este aplicaci&oacute;n.</p>
+
+<p>Ver ENLACE:&nbsp;<a href="https://animacioneducacionplastica.blogspot.com.es/2016/11/animacion-con-photopuppet-hd.html" target="_blank">https://animacioneducacionplastica.blogspot.com.es/2016/11/animacion-con-photopuppet-hd.html</a></p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-11-22T23:58:03+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Animación con PhotoPuppet]]></dcterms:title>
+    <dcterms:source rdf:resource="http://framebyframe.hol.es/dispositivos/photopuppet.html" />
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/Luz--Beloso/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/eso/13ae3208-d939-4e57-977f-76d96b6e2514" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/software/1ccf8934-67b0-438d-86d0-06c3ced1ecce" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/galego/43a9c506-4432-4df6-adc5-fc925cd12a7a" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/castellano/56eb19ec-10f9-4852-9c01-6afe7d0054f9" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/recursos-transversales/5b0ed91e-df6c-49d9-811c-375c0d1ac264" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/tutorial/8d190f16-18df-4da4-b12b-e64b8d49d025" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/app/b4950254-4017-4431-961f-7bda97df8e59" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/experimentopractica/c253fe45-0e23-4199-9143-d6db79b05846" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/artes-plasticas/c383bedb-5c30-40e2-bdca-ade1569935d4" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/recursos-tic/e4e9a4c9-b02c-4d91-9e7b-798510ef5b49" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/lengua-y-literatura/fc7d041d-772e-4f87-95b0-85a53bb2ed88" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/animaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/recursos" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/animaci%c3%b3n2d" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/dibujo" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/arte%20%20dibujo" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/Luz--Beloso/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://ineverycrea.net/en/community/ineverycrea/profile/Luz--Beloso/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Luz  Beloso]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Luz ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Beloso]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/eso/13ae3208-d939-4e57-977f-76d96b6e2514">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ESO]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[ESO]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/software/1ccf8934-67b0-438d-86d0-06c3ced1ecce">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Software]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Software]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/galego/43a9c506-4432-4df6-adc5-fc925cd12a7a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Galego]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Galego]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/castellano/56eb19ec-10f9-4852-9c01-6afe7d0054f9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Castellano]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Castellano]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/recursos-transversales/5b0ed91e-df6c-49d9-811c-375c0d1ac264">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Recursos transversales]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Recursos transversales]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/tutorial/8d190f16-18df-4da4-b12b-e64b8d49d025">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Tutorial]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Tutorial]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/app/b4950254-4017-4431-961f-7bda97df8e59">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[App]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[App]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/experimentopractica/c253fe45-0e23-4199-9143-d6db79b05846">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Experimento/Práctica]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Experimento/Práctica]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/artes-plasticas/c383bedb-5c30-40e2-bdca-ade1569935d4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Artes Plásticas]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Artes Plásticas]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/recursos-tic/e4e9a4c9-b02c-4d91-9e7b-798510ef5b49">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Recursos TIC]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Recursos TIC]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/lengua-y-literatura/fc7d041d-772e-4f87-95b0-85a53bb2ed88">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Lengua y Literatura]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Lengua y Literatura]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/animaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[animación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/recursos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recursos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/animaci%c3%b3n2d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[animación2d]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/dibujo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[dibujo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/arte%20%20dibujo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[arte  dibujo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/sessiones-informativas-y-webinars/c486cd88-16c4-4760-8494-522508404fdf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Sessiones informativas y webinars]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>En nuestro canal de Youtube encontrar&eacute;is recursos para sacar el mayor rendimiento a Additio App:</p>
+
+<p>No os perd&eacute;is las sesiones informativas y&nbsp;los videotutoriales para utilizar la app en espa&ntilde;ol y en ingl&eacute;s. Adem&aacute;s, &iexcl;hacemos&nbsp;sesiones informativos en directo, donde podr&eacute;is preguntar lo que quer&aacute;is!&nbsp;</p>
+
+<p>Desc&uacute;bralo aqu&iacute;: https://www.youtube.com/channel/UCYmHFLzI7xcnSUYqfzyVSDQ</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-11-18T11:28:04+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Sessiones informativas y webinars]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://www.youtube.com/channel/UCYmHFLzI7xcnSUYqfzyVSDQ]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/judit-de-add/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/consultora-tic/28bdd833-db39-475a-abe6-4eac99ec9ff0" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/herramientas-20/29fe54f0-bc5f-4471-8d67-50fb89f8827c" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/areas-de-conocimiento/474385f8-0b1b-448a-8609-fbdc2fd771ef" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/iniciativas-crea/4a31bce4-2961-4964-95b5-8e6bf74745ef" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/niveles-educativos/8200363a-3de1-4a40-9ad8-6205d35538a2" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/tipo-de-recurso/9dadd605-56bd-4ea2-a853-4c5887024777" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/aprendizaje%20con%20tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/%23additioapp" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://ineverycrea.net/en/community/ineverycrea/profile/judit-de-add/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Judit de Additio App]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Judit]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[de Additio App]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/herramientas-20/29fe54f0-bc5f-4471-8d67-50fb89f8827c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Herramientas 2.0]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Herramientas 2.0]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/iniciativas-crea/4a31bce4-2961-4964-95b5-8e6bf74745ef">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Iniciativas Crea]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Iniciativas Crea]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/aprendizaje%20con%20tic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aprendizaje con tic]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/%23additioapp">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[#additioapp]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/tutoriales-y-videos-de-ayuda/1ad1201b-f4d5-4380-815d-8352587d0fb4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Tutoriales y vídeos de ayuda]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Nuestra intenci&oacute;n es facilitaros el trabajo de evaluaci&oacute;n por este motivo, hemos creado un conjunto de recursos para sacar el mayor rendimiento a Additio App.&nbsp;</p>
+
+<p>En nuestra p&aacute;gina de soporte encontrar&eacute;is un conjunto de tutoriales y videotutoriales que os servir&aacute;n para conocer todas las funcionalidades y sacar provecho a cada una de ellas.&nbsp;</p>
+
+<p>Desc&uacute;bralo aqu&iacute;:&nbsp;https://additioapp.zendesk.com/hc/es</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-11-18T11:30:45+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Tutoriales y vídeos de ayuda]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://additioapp.zendesk.com/hc/es]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/judit-de-add/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/consultora-tic/28bdd833-db39-475a-abe6-4eac99ec9ff0" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/herramientas-20/29fe54f0-bc5f-4471-8d67-50fb89f8827c" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/areas-de-conocimiento/474385f8-0b1b-448a-8609-fbdc2fd771ef" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/iniciativas-crea/4a31bce4-2961-4964-95b5-8e6bf74745ef" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/niveles-educativos/8200363a-3de1-4a40-9ad8-6205d35538a2" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/tipo-de-recurso/9dadd605-56bd-4ea2-a853-4c5887024777" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/aprendizaje%20con%20tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/%23additioapp" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/primeros-pasos-con-additio-app/e7780b37-cbca-430b-a6b4-5ad254cae90d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Primeros pasos con Additio App]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>&iquest;Est&aacute;s empezando a utilizar la app? No te procupes, aqu&iacute; te dejamos un documento donde encontrar&aacute;s los primeros pasos para empezar a configurar tus grupos y poner las primeras notas. En este documento encontrar&aacute;s la siguiente informaci&oacute;n:&nbsp;</p>
+
+<p>1. Introducci&oacute;n</p>
+
+<p>2. C&oacute;mo registrarse y descargar Additio App</p>
+
+<p>3. Crear el primer grupo-clase</p>
+
+<p>4. Importar alumnos</p>
+
+<p>5. Poner las primeras notas/calificaciones</p>
+
+<p>6. Resumen</p>
+
+<p><img alt="" src="http://content1.ineverycrea.net/imagenes/usuarios/ImagenesCKEditor/e9ece7c5-b11e-4de3-920e-b87029b2c1b1/d4220045-39ed-4796-92f1-548105d9eb04.png" style="height:250px; opacity:0.9; width:500px" /></p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-11-18T11:42:16+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Primeros pasos con Additio App]]></dcterms:title>
+    <dcterms:source rdf:resource="http://ineverycrea.net/VisualizarDocumento.aspx?tipo=BaseRecursos&amp;doc=e7780b37-cbca-430b-a6b4-5ad254cae90d&amp;nombre=PrimerosPasosAdditioApp-ProyectoCrea.pdf&amp;ext=.pdf&amp;org=11111111-1111-1111-1111-111111111111&amp;proy=2bde630b-a1ff-4286-9975-9b953a3449b1&amp;dscr=true" />
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/judit-de-add/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/consultora-tic/28bdd833-db39-475a-abe6-4eac99ec9ff0" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/herramientas-20/29fe54f0-bc5f-4471-8d67-50fb89f8827c" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/areas-de-conocimiento/474385f8-0b1b-448a-8609-fbdc2fd771ef" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/iniciativas-crea/4a31bce4-2961-4964-95b5-8e6bf74745ef" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/niveles-educativos/8200363a-3de1-4a40-9ad8-6205d35538a2" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/tipo-de-recurso/9dadd605-56bd-4ea2-a853-4c5887024777" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/aprendizaje%20con%20tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/%23additioapp" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/que-entendemos-por-educacion/d7fae45f-f8d6-4d0b-8728-ee07614bfc1b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[¿Qué entendemos por educación?]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>La educaci&oacute;n implica el desarrollo integral del ser humano en todas sus facetas a lo&nbsp;largo de su vida con un fin atemporal.&nbsp;As&iacute;, la educaci&oacute;n supone&nbsp;<strong>el desarrollo integral del individuo porque abarca la plena evoluci&oacute;n de la persona en sus distintas vertientes, tanto f&iacute;sica, mental como intelectual</strong>. Sin hablar de un fin concreto, se orienta la ra&iacute;z hacia la perfecci&oacute;n personal, hacia la mejora del individuo...</p>
+
+<p>Si deseas leer m&aacute;s no dudes en consultar el art&iacute;culo :)<img alt="" src="http://content1.ineverycrea.net/imagenes/usuarios/ImagenesCKEditor/9fa3bf75-7465-4a37-b179-8a83c6884579/393ee2ba-daee-4755-bf89-b92f2d3c0a11.jpg" /></p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-11-02T11:38:16+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[¿Qué entendemos por educación?]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://yosoytuprofe.com/2016/02/25/que-entendemos-por-educacion/]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/miguel-áng27/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/eso/13ae3208-d939-4e57-977f-76d96b6e2514" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/castellano/56eb19ec-10f9-4852-9c01-6afe7d0054f9" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/articulo/64614fd4-6d19-42a7-b56c-6b12cb228f63" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/fp/a3047d66-0293-41e0-80db-52d2eab19092" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/bachillerato/bcf6e2a1-f9be-4b1d-9381-bd25940a17b8" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/blog/d27257d4-8fc0-4974-a932-068c3852def6" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/estudios-superiores/decde9db-2cf2-4496-97c1-40c990cf924e" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/ciencias-de-la-educacion/f678c314-f044-4e78-9c51-2e07cf9eb921" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/definici%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/desarrollo" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/miguel-áng27/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://ineverycrea.net/en/community/ineverycrea/profile/miguel-áng27/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Miguel Ángel Ruiz Domínguez]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Miguel Ángel]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Ruiz Domínguez]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/articulo/64614fd4-6d19-42a7-b56c-6b12cb228f63">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Artículo]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Artículo]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/fp/a3047d66-0293-41e0-80db-52d2eab19092">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[FP]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[FP]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/bachillerato/bcf6e2a1-f9be-4b1d-9381-bd25940a17b8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bachillerato]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bachillerato]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/blog/d27257d4-8fc0-4974-a932-068c3852def6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Blog]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Blog]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/estudios-superiores/decde9db-2cf2-4496-97c1-40c990cf924e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Estudios Superiores]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Estudios Superiores]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/ciencias-de-la-educacion/f678c314-f044-4e78-9c51-2e07cf9eb921">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Ciencias de la Educación]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ciencias de la Educación]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/definici%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[definición]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/desarrollo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[desarrollo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://ineverycrea.net/en/community/ineverycrea/resource/por-que-es-necesario-ensear-programacion-en-el-aul/bf624008-8480-4329-9de7-ac495c635b0f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[¿Por qué es necesario enseñar programación en el aula?]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>El sistema educativo actual est&aacute; sometido a profundos cambios en consonancia con las demandas sociales a las que se enfrenta. En un mundo globalizado,&nbsp;<strong>las tecnolog&iacute;as de la informaci&oacute;n y la comunicaci&oacute;n</strong>&nbsp;(TIC) suponen al mismo tiempo, un reto y una herramienta fundamental en este proceso. El profesorado afronta as&iacute; un nuevo desaf&iacute;o en su formaci&oacute;n permanente, debiendo integrar a sus conocimientos estos nuevos avances que faciliten la educaci&oacute;n centrada en el alumno, ense&ntilde;ando a estudiar, incentivando el &ldquo;aprender a aprender&rdquo; en manos del alumnado para desarrollar las capacidades y competencias en estos.</p>
+
+<p>Las nuevas generaciones....</p>
+
+<p>Si deseas leer m&aacute;s no dudes en consultar la web.&nbsp;</p>
+
+<p>:)</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2016-10-28T10:52:47+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[¿Por qué es necesario enseñar programación en el aula?]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[https://yosoytuprofe.com/2016/08/28/por-que-es-necesario-ensenar-programacion-en-el-aula/]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/miguel-áng27/" />
+    <sioc:has_space rdf:resource="http://ineverycrea.net/en/community/ineverycrea" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/eso/13ae3208-d939-4e57-977f-76d96b6e2514" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/tecnologia/3a3a023c-dc3b-4194-8bf0-0a6f795f5380" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/articulo/64614fd4-6d19-42a7-b56c-6b12cb228f63" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/bachillerato/bcf6e2a1-f9be-4b1d-9381-bd25940a17b8" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/resources/category/ciencias-de-la-educacion/f678c314-f044-4e78-9c51-2e07cf9eb921" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tic" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/tecnolog%c3%ada" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/programaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/scratch" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/necesario" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/ense%c3%b1ar" />
+    <sioc:topic rdf:resource="http://ineverycrea.net/en/community/ineverycrea/search/tag/aula" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://ineverycrea.net/en/community/ineverycrea/profile/miguel-áng27/" />
+  </sioc:Item>
+  <skos:Concept rdf:about="http://ineverycrea.net/en/community/ineverycrea/resources/category/tecnologia/3a3a023c-dc3b-4194-8bf0-0a6f795f5380">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Tecnología]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Tecnología]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/tecnolog%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tecnología]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/programaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[programación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/scratch">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[scratch]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/necesario">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[necesario]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://ineverycrea.net/en/community/ineverycrea/search/tag/aula">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aula]]></rdfs:label>
+  </sioc_t:Tag>
+<PreguntaTIC rdf:about="http://gnoss.com/items/PreguntaTIC_503fa550-44a8-49d0-8ad6-eb77239fb9ee_4272f0f1-cd90-420d-9e13-316d87a9d30e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[PreguntaTIC]]></rdfs:label>
+  </PreguntaTIC>
+
+<PreguntaTIC rdf:about="http://gnoss.com/items/PreguntaTIC_c409b7bc-bb13-4676-8447-687feee3268e_1bb51773-fe26-4702-9200-c2c54a6d6d95">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[PreguntaTIC]]></rdfs:label>
+  </PreguntaTIC>
+</rdf:RDF>

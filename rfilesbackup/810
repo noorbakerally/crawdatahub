@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY ns0 "http://triplestore.aktors.org/direct/#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:34:14</dcterms:created>
+		<dc:source rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E5.Event">
+		<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+		<rdf:type rdf:resource="&rdfs;Resource"/>
+		<rdf:type rdf:resource="&rdfs;Class"/>
+		<ns0:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E4.Period"/>
+		<rdfs:comment>This class comprises changes of states in cultural, social or physical systems, regardless of scale, brought about by a series or group of coherent physical, cultural, technological or legal phenomena. Such changes of state will affect instances of E77 Persistent Item or its subclasses.
+The distinction between an E5 Event and an E4 Period is partly a question of the scale of observation. Viewed at a coarse level of detail, an E5 Event is an ‘instantaneous’ change of state. At a fine level, the E5 Event can be analysed into its component phenomena within a space and time frame, and as such can be seen as an E4 Period. The reverse is not necessarily the case: not all instances of E4 Period give rise to a noteworthy change of state.
+"@e</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E4.Period"/>
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E2.Temporal_Entity"/>
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E1.CRM_Entity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E7.Activity">
+		<ns0:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E63.Beginning_of_Existence">
+		<ns0:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E64.End_of_Existence">
+		<ns0:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E7.Activity">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E63.Beginning_of_Existence">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E64.End_of_Existence">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/P11F.had_participant">
+		<rdfs:domain rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/P11B.participated_in">
+		<rdfs:range rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/P12F.occurred_in_the_presence_of">
+		<rdfs:domain rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/P12B.was_present_at">
+		<rdfs:range rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/P20F.had_specific_purpose">
+		<rdfs:range rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/P20B.was_purpose_of">
+		<rdfs:domain rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E5.Event">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E87.Curation_Activity">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E86.Leaving">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E85.Joining">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E81.Transformation">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E69.Death">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E68.Dissolution">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E67.Birth">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E66.Formation">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E65.Creation">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E13.Attribute_Assignment">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E12.Production">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E11.Modification">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E10.Transfer_of_Custody">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E9.Move">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E8.Acquisition">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E6.Destruction">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/bm-extensions/EX.Discovery">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/bm-extensions/EX.Exhibition">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E83.Type_Creation">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E80.Part_Removal">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E79.Part_Addition">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E17.Type_Assignment">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E16.Measurement">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E15.Identifier_Assignment">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/E14.Condition_Assessment">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://crm.rkbexplorer.com/id/bm-extensions/EX.Repair">
+		<rdfs:subClassOf rdf:resource="http://crm.rkbexplorer.com/id/E5.Event"/>
+	</rdf:Description>
+</rdf:RDF>

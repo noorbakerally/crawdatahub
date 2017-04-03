@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><foaf:homepage xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.toronto.ca/open/"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><n0pred:status xmlns:n0pred="http://data.fundacionctic.org/vocab/catalog/datasets#" rdf:resource="http://data.fundacionctic.org/vocab/catalog/datasets#status-nonProprietaryFormat"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:type xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.fundacionctic.org/vocab/catalog/datasets#official"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><rdf:type rdf:resource="http://data.fundacionctic.org/vocab/catalog/datasets#Catalog"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><rdfs:label rdf:nodeID="b48320"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:title xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Toronto Open Catalog</dcterms:title></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><rdfs:label xml:lang="en">Toronto Open Catalog</rdfs:label></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:identifier xmlns:dcterms="http://purl.org/dc/terms/">toronto.ca</dcterms:identifier></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:description xmlns:dcterms="http://purl.org/dc/terms/" rdf:nodeID="b48322"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:description xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Toronto.ca/Open... building a city that thinks like the web&quot;</dcterms:description></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:title xmlns:dcterms="http://purl.org/dc/terms/" rdf:nodeID="b48321"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:nodeID="b48323"/></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-01</dcterms:issued></rdf:Description>
+<rdf:Description rdf:about="http://data.fundacionctic.org/dataset-catalog/toronto.ca"><dcterms:language xmlns:dcterms="http://purl.org/dc/terms/">en</dcterms:language></rdf:Description>
+</rdf:RDF>

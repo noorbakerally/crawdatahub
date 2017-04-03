@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html id="top" xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta charset=utf-8 />
+		<script type="text/javascript">
+	    var BASE_URL = '';
+		</script>
+		<!--[if lt IE 9]>
+		<script src="/assets/scripts/html5.js"></script>
+		<![endif]-->
+		<script src="/assets/scripts/mootools-core-1.4.5-full-nocompat.js"></script>
+		<script src="/assets/scripts/mootools-more-1.4.0.1.js"></script>
+		<script src="/assets/scripts/openskos.js"></script>
+		<script src="/assets/scripts/forms.js"></script>
+		<link rel="stylesheet" href="/assets/styles/default.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="/assets/styles/forms.css" type="text/css" media="screen" />
+		<link rel="shortcut icon" href="/assets/images/favicon.ico" />
+		<title>Zwerver, Ron</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>
+				<img src="/assets/images/logo-open-skos.png" alt="OpenSKOS logo"/>
+				<span>OpenSKOS: Simple Knowledge Organization System Repository</span>
+			</h1>
+				    </header>
+	    <section id="content">
+   		
+                <h2>Zwerver, Ron</h2>
+<dl>
+    <dt>Institution:</dt>
+    <dd>
+        <a href="/api/institutions/beng.html">
+            Nederlands Instituut voor Beeld en Geluid        </a>
+    </dd>
+    
+        
+                    <dt>Set:</dt>
+        <dd>
+                    <a href="/api/collections/beng:gtaa.html">
+                Gemeenschappelijke Thesaurus Audiovisuele Archieven            </a>
+                </dd>
+        <dt>URI:</dt>
+    <dd>
+        <a rel="external" href="http://data.beeldengeluid.nl/gtaa/173390">http://data.beeldengeluid.nl/gtaa/173390</a>
+    </dd>
+    <dt>SKOS Class:</dt>
+    <dd>
+        <a rel="external" href="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a>
+    </dd>
+</dl>
+
+        <h3>inScheme</h3>
+    <ul>
+                    <li>Persoonsnamen</li>
+            </ul>
+
+    <h3>LexicalLabels</h3>
+        
+                                    <h4>
+                skos:hiddenLabel            </h4>
+
+            <ul>
+                                    <li>
+                                                    <span class="label" xml:lang="nl">Ron Zwerver</span>
+                            <span class="lang nl">(nl)</span>
+                                            </li>
+                            </ul>
+                                <h4>
+                skos:prefLabel            </h4>
+
+            <ul>
+                                    <li>
+                                                    <span class="label" xml:lang="nl">Zwerver, Ron</span>
+                            <span class="lang nl">(nl)</span>
+                                            </li>
+                            </ul>
+                <h3>Notations</h3>
+        
+                        <h4>
+                skos:notation            </h4>
+
+            <ul>
+                                    <li>
+                                                    173390                                            </li>
+                            </ul>
+                <h3>DocumentationProperties</h3>
+        
+                                                                        <h4>
+                skos:historyNote            </h4>
+
+            <ul>
+                                    <li>
+                                                    <span class="label" xml:lang="nl">Goedgekeurd door: NAA</span>
+                            <span class="lang nl">(nl)</span>
+                                            </li>
+                            </ul>
+                                            <h4>
+                skos:scopeNote            </h4>
+
+            <ul>
+                                    <li>
+                                                    <span class="label" xml:lang="nl">volleyballer, trainer</span>
+                            <span class="lang nl">(nl)</span>
+                                            </li>
+                            </ul>
+                
+    <h3>SemanticRelations</h3>
+        
+                                                                                                                                <h3>MappingProperties</h3>
+        
+                                                                                                                            
+<h3>Alternative formats</h3>
+<ul>
+    <li><a class="rdf" href="/gtaa/6521eecd-aa2a-18b7-17cf-761230a5a841.rdf">RDF</a></li>
+    <li><a class="json" href="/gtaa/6521eecd-aa2a-18b7-17cf-761230a5a841.json">JSON</a></li>
+    <li><a class="jsonp" href="/gtaa/6521eecd-aa2a-18b7-17cf-761230a5a841.jsonp?callback=callback">JSONP</a></li>
+</ul>		</section>
+		<footer>
+			<p id="colofon">
+				<a href="/">OpenSKOS</a> is a <a rel="external" href="http://www.catchplus.nl/">CATCHPlus</a> project
+			</p>
+			<p id="copyright">
+                Copyright 2011-2016 <a href="http://www.picturae.com" target="_blank">Picturae</a>, distributed under the terms of the <a href="http://www.gnu.org/licenses/gpl-3.0.txt" target="_blank">GNU General Public License v3</a>.
+			</p>
+		</footer>
+	</body>
+</html>

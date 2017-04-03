@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+  xmlns:ol="http://openlibrary.org/type/edition#"
+  xmlns:owl='http://www.w3.org/2002/07/owl#'
+  xmlns:bibo='http://purl.org/ontology/bibo/'
+  xmlns:rdvocab='http://RDVocab.info/elements/'
+  xmlns:rdrel='http://RDVocab.info/RDARelationshipsWEMI/'
+  xmlns:dcterms='http://purl.org/dc/terms/'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+  xmlns:dcam='http://purl.org/dc/dcam/'
+  xmlns:foaf='http://xmlns.com/foaf/0.1/'
+  xmlns:ov='http://open.vocab.org/terms/'
+>
+
+    <rdf:Description rdf:about="http://openlibrary.org/books/OL6807502M">
+        <rdrel:workManifested rdf:resource="http://openlibrary.org/works/OL6037025W"/>
+        
+        <!-- authors -->
+        <bibo:authorList rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://openlibrary.org/authors/OL1518080A">
+            <foaf:name>Lawrence Lessig</foaf:name>
+        </rdf:Description>
+        </bibo:authorList>
+        
+        <!-- bibliographic description -->
+            <dcterms:title>Code: and other laws of cyberspace</dcterms:title>
+    
+
+            <dcterms:publisher>Basic Books</dcterms:publisher>
+
+            <rdvocab:placeOfPublication>New York</rdvocab:placeOfPublication>
+
+            <dcterms:issued>1999</dcterms:issued>
+    
+
+            <dcterms:extent>xii, 297 p.</dcterms:extent>
+    
+
+        
+        
+        <!-- subjects -->
+            <dc:subject>Information superhighway -- Law and legislation</dc:subject>
+    <dc:subject>Computers -- Law and legislation</dc:subject>
+    <dc:subject>Electronic commerce -- Law and legislation</dc:subject>
+    <dc:subject>Freedom of information</dc:subject>
+    <dc:subject>Privacy, Right of</dc:subject>
+
+      <dcterms:subject>
+          <rdf:Description>
+              <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DDC"/>
+              <rdf:value>303.48/33</rdf:value>
+          </rdf:Description>
+      </dcterms:subject>
+      <dcterms:subject>
+          <rdf:Description>
+              <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+              <rdf:value>K564.C6 L47 1999</rdf:value>
+          </rdf:Description>
+      </dcterms:subject>
+      <!-- description -->
+          <dcterms:description>Examines the relation between cyberspace and government, particularly the government&#39;s ability to regulate. Contrary to popular belief, cyberspace can be regulated through architecture and its representation as code.  Government and commerce are working to regulate cyberspace, although each in a different way and for different reasons.  In the opposite direction, cyberspace challenges the basic assumptions underlying American governance.</dcterms:description>
+    
+
+          <rdvocab:note>Includes bibliographical references (p. [241]-288) and index.</rdvocab:note>
+    
+
+      <dcterms:language>eng</dcterms:language>
+      <!-- identifiers -->
+          <dcterms:identifier>/books/OL6807502M</dcterms:identifier>
+    
+
+          <bibo:oclcnum>42860053</bibo:oclcnum>
+
+          <bibo:lccn>00271772</bibo:lccn>
+
+          <bibo:isbn10>046503912X</bibo:isbn10>
+
+      
+    </rdf:Description>
+    <!-- administrative -->
+    <rdf:Description rdf:about="">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-25T08:04:54.607126</dcterms:modified>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T03:28:50.625462</dcterms:created>
+        <ov:versionnumber>21</ov:versionnumber>
+    </rdf:Description>
+</rdf:RDF>

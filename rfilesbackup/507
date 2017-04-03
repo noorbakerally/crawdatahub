@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:cc="http://creativecommons.org/ns#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:gn="http://www.geonames.org/ontology#" xmlns:txn="http://lod.taxonconcept.org/ontology/txn.owl#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:time="http://www.w3.org/2006/time#">
+  <!-- Description of RDF Document -->
+  <bibo:Document rdf:about="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf">
+    <rdfs:label>RDF for Occurrence of Taxus baccata se:IL2k3 at TDWG Woods Hole BioBlitz from 2010-09-29 to 2010-09-29</rdfs:label>
+    <dcterms:publisher rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TaxonConcept_Knowledge_Base_Project"/>
+    <dcterms:creator rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+    <dcterms:identifier>http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <cc:license rdf:resource="http://www.opendatacommons.org/licenses/by/"/>
+    <cc:attributionURL rdf:resource="http://lod.taxonconcept.org"/>
+    <dcterms:created>2010-10-28T00:00:00-0500</dcterms:created>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Occurrence"/>
+    <foaf:topic rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Individual"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Identification_0001"/>
+    <foaf:topic rdf:resource="geo:41.52578112,-70.67256398;u=10"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.html"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/6255149/"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/6254926/"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/4929772/"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </bibo:Document>
+  <!-- Occurrence -->
+  <txn:Occurrence rdf:about="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Occurrence">
+    <rdf:type rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.rdf#Occurrence"/>
+    <rdfs:label>Occurrence of Taxus baccata se:IL2k3 at TDWG Woods Hole BioBlitz from 2010-09-29 to 2010-09-29</rdfs:label>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TDWG2010_BioBlitz"/>
+    <dcterms:identifier>http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Occurrence</dcterms:identifier>
+    <cc:license rdf:resource="http://www.opendatacommons.org/licenses/by/"/>
+    <cc:attributionURL rdf:resource="http://lod.taxonconcept.org/people/tdwg2010bioblitz.rdf#BioBlitz_User"/>
+    <cc:attributionName>BioBlitz User</cc:attributionName>
+    <dcterms:created>2010-10-28T00:00:00-0500</dcterms:created>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <txn:occurrenceHasSpeciesConcept rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <txn:occurrenceHasIndividual rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Individual"/>
+    <txn:kingdom>Plantae</txn:kingdom>
+    <txn:phylum>Pinophyta</txn:phylum>
+    <txn:class>Pinopsida</txn:class>
+    <txn:order>Pinales</txn:order>
+    <txn:family>Taxaceae</txn:family>
+    <txn:genus>Taxus</txn:genus>
+    <txn:scientificName>Taxus baccata</txn:scientificName>
+    <txn:commonName>English Yew</txn:commonName>
+    <txn:continent>North America</txn:continent>
+    <txn:countryCode>US</txn:countryCode>
+    <txn:country>United States</txn:country>
+    <txn:stateProvince>Massachusetts</txn:stateProvince>
+    <txn:county>Barnstable</txn:county>
+    <txn:localityText>Woods Hole</txn:localityText>
+    <txn:locationName>TDWG Woods Hole BioBlitz</txn:locationName>
+    <txn:occurrenceInContinent rdf:resource="http://sws.geonames.org/6255149/"/>
+    <txn:occurrenceInStateProvince rdf:resource="http://sws.geonames.org/6254926/"/>
+    <txn:occurrenceInCounty rdf:resource="http://sws.geonames.org/4929772/"/>
+    <txn:occurrenceHasArea rdf:resource="geo:41.52578112,-70.67256398;u=10"/>
+    <geo:lat>41.52578112</geo:lat>
+    <geo:long>-70.67256398</geo:long>
+    <txn:georeferenceProtocol rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#GeoProtocol_GPS"/>
+    <txn:georeferenceVerificationStatus rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#GeoVerifiedByCollector"/>
+    <!-- The dates should be refactored into a standard date vocabulary -->
+    <txn:startDate>2010-09-29</txn:startDate>
+    <txn:endDate>2010-09-29</txn:endDate>
+    <time:dayOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">272</time:dayOfYear>
+    <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</time:year>
+    <txn:samplingProtocol rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#SamplingProtocol_IndividualObservation"/>
+    <!-- hasCollector and recordedBy should be foaf:Person -->
+    <txn:hasCollector rdf:resource="http://lod.taxonconcept.org/people/tdwg2010bioblitz.rdf#BioBlitz_User"/>
+    <txn:recordedBy rdf:resource="http://lod.taxonconcept.org/people/tdwg2010bioblitz.rdf#BioBlitz_User"/>
+    <txn:basisOfRecord rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#BasisOfRecord_StillImage"/>
+    <foaf:depiction rdf:resource="http://assets.taxonconcept.org/tdwg2010bioblitz/7508.jpg"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </txn:Occurrence>
+  <!-- Area -->
+  <txn:Area rdf:about="geo:41.52578112,-70.67256398;u=10">
+    <rdfs:label>41.52578112, -70.67256398 Radius 10 meters</rdfs:label>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TDWG2010_BioBlitz"/>
+    <dcterms:identifier>geo:41.52578112,-70.67256398;u=10</dcterms:identifier>
+    <dcterms:created>2010-10-28T00:00:00-0500</dcterms:created>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <geo:lat>41.52578112</geo:lat>
+    <geo:long>-70.67256398</geo:long>
+    <txn:radius>10</txn:radius>
+    <txn:continent>North America</txn:continent>
+    <txn:countryCode>US</txn:countryCode>
+    <txn:country>United States</txn:country>
+    <txn:stateProvince>Massachusetts</txn:stateProvince>
+    <txn:county>Barnstable</txn:county>
+    <txn:localityText>Woods Hole</txn:localityText>
+    <txn:locationName>TDWG Woods Hole BioBlitz</txn:locationName>
+    <txn:areaHasOccurrence rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Occurrence"/>
+    <txn:areaHasObservedSpeciesConcept rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <txn:areaHasIndividual rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Individual"/>
+    <txn:areaInStateProvince rdf:resource="http://sws.geonames.org/6254926/"/>
+    <txn:areaWithInFeature rdf:resource="http://sws.geonames.org/4929772/"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </txn:Area>
+  <!-- SpeciesConcept -->
+  <txn:SpeciesConcept rdf:about="http://lod.taxonconcept.org/ses/IL2k3.html#Species">
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TDWG2010_BioBlitz"/>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <txn:speciesConceptHasObservedArea rdf:resource="geo:41.52578112,-70.67256398;u=10"/>
+    <txn:speciesConceptHasOcccurrence rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Occurrence"/>
+    <foaf:depiction rdf:resource="http://assets.taxonconcept.org/tdwg2010bioblitz/7508.jpg"/>
+    <txn:isExpectedIn rdf:resource="http://sws.geonames.org/6255149/"/>
+    <txn:isExpectedIn rdf:resource="http://sws.geonames.org/6254926/"/>
+    <txn:isExpectedIn rdf:resource="http://sws.geonames.org/4929772/"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </txn:SpeciesConcept>
+  <!-- Individual -->
+  <txn:SpeciesIndividual rdf:about="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Individual">
+    <rdf:type rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.rdf#Individual"/>
+    <rdfs:label>Individual Organism http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Individual</rdfs:label>
+    <owl:sameAs rdf:resource="urn:uuid:d53f1b0c-46c2-4d2f-b00a-8a336cbec2c0"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TDWG2010_BioBlitz"/>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <txn:scientificName>Taxus baccata</txn:scientificName>
+    <txn:individualHasOccurrence rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Occurrence"/>
+    <txn:individualHasSpeciesConcept rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <txn:individualHasCurrrentIdentificationAssertion rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Identification_0001"/>
+    <foaf:depiction rdf:resource="http://assets.taxonconcept.org/tdwg2010bioblitz/7508.jpg"/>
+    <!-- hasCollector should be foaf:Person -->
+    <txn:hasCollector rdf:resource="http://lod.taxonconcept.org/people/tdwg2010bioblitz.rdf#BioBlitz_User"/>
+    <!-- The literals below should be replaced with URI's -->
+    <txn:institutionCode>TDWG</txn:institutionCode>
+    <txn:collectionCode>BioBlitz2010</txn:collectionCode>
+    <txn:catalogCode>7508</txn:catalogCode>
+    <txn:individualStatus rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl.rdf#IndividualStatus_Unknown"/>
+    <txn:basisOfRecord rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#BasisOfRecord_StillImage"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </txn:SpeciesIndividual>
+  <!-- Identification_0001 -->
+  <txn:Identification rdf:about="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Identification_0001">
+    <rdf:type rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Identification"/>
+    <rdfs:label>Identification #0001</rdfs:label>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TDWG2010_BioBlitz"/>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <cc:attributionURL rdf:resource="http://lod.taxonconcept.org/people/tdwg2010bioblitz.rdf#The_Biofinity_Project"/>
+    <cc:attributionName>The Biofinity Project</cc:attributionName>
+    <txn:scientificName>Taxus baccata</txn:scientificName>
+    <txn:identificationHasOccurrence rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Occurrence"/>
+    <txn:identificationHasSpeciesConcept rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <txn:identificationOfIndividual rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Individual"/>
+    <!-- identificationDate should have a standard type for year -->
+    <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</time:year>
+    <txn:identificationMethod rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#HumanSightRecognition"/>
+    <!-- Should have URI to the Identification Reference Below -->
+    <txn:identificationReferenceUsed rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#ID_Reference_NoneCited"/>
+    <foaf:depiction rdf:resource="http://assets.taxonconcept.org/tdwg2010bioblitz/7508.jpg"/>
+    <!-- identifiedBy should be foaf:Person -->
+    <txn:identifiedBy rdf:resource="http://lod.taxonconcept.org/people/tdwg2010bioblitz.rdf#The_Biofinity_Project"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </txn:Identification>
+  <!-- Information about the Continent -->
+  <gn:Feature rdf:about="http://sws.geonames.org/6255149/">
+    <txn:hasExpectationOf rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </gn:Feature>
+  <!-- Information about the State or Province -->
+  <gn:Feature rdf:about="http://sws.geonames.org/6254926/">
+    <txn:hasExpectationOf rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </gn:Feature>
+  <!-- Information about the County -->
+  <gn:Feature rdf:about="http://sws.geonames.org/4929772/">
+    <txn:hasExpectationOf rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </gn:Feature>
+  <!-- Description of HTML Document -->
+  <bibo:Webpage rdf:about="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.html">
+    <rdfs:label>HTML for Occurrence of Taxus baccata se:IL2k3 at TDWG Woods Hole BioBlitz from 2010-09-29 to 2010-09-29</rdfs:label>
+    <dcterms:publisher rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TaxonConcept_Knowledge_Base_Project"/>
+    <dcterms:creator rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+    <dcterms:identifier>http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.html</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:created>2010-10-28T00:00:00-0500</dcterms:created>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Occurrence"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.html"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+    <foaf:topic rdf:resource="http://lod.taxonconcept.org/ses/IL2k3.html#Species"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Individual"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf#Identification_0001"/>
+    <foaf:topic rdf:resource="geo:41.52578112,-70.67256398;u=10"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/6255149/"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/6254926/"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/4929772/"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"/>
+  </bibo:Webpage>
+</rdf:RDF>

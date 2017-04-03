@@ -1,0 +1,23 @@
+@prefix ns0:	<http://linked.opendata.cz/ontology/domain/seznam.gov.cz/rejstriky/> .
+@prefix ns1:	<http://linked.opendata.cz/resource/business-entity/> .
+ns1:CZ00283924	ns0:smlouva	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803>	rdf:type	ns0:Smlouva .
+@prefix gr:	<http://purl.org/goodrelations/v1#> .
+@prefix ns4:	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803>	gr:hasPriceSpecification	ns4:cena-bez-dph ,
+		ns4:cena-s-dph .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803>	dcterms:subject	"Smlouva o poskytnut\u00ED neinvesti\u010Dn\u00ED dotace" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803>	dcterms:issued	"2015-02-19+01:00"^^xsd:date .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803>	skos:notation	"2500 15 0058" ;
+	ns0:partner	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/rejstriky/business-entity/67028144> ;
+	ns0:recordId	"260167803" ;
+	ns0:schvalil	"Bc. Kate\u0159ina Francov\u00E1, n\u00E1m\u011Bstkyn\u011B prim\u00E1tora statut\u00E1rn\u00EDho m\u011Bsta Zl\u00EDna" ;
+	ns0:typDokumentu	"1" .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/zaznamy/88384>	ns0:smlouva	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803> .
+@prefix void:	<http://rdfs.org/ns/void#> .
+@prefix ns9:	<http://linked.opendata.cz/resource/dataset/seznam.gov.cz/rejstriky/smlouvy/> .
+ns9:distribution	void:exampleResource	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/smlouvy/260167803> .

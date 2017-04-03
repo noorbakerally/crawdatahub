@@ -1,0 +1,40 @@
+@prefix realfagstermer: <http://data.ub.uio.no/realfagstermer/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+realfagstermer:c027219
+  skos:prefLabel "Fjellrev : Barnelitteratur"@nb ;
+  skos:broader realfagstermer:c012676 ;
+  skos:broaderTransitive realfagstermer:c012676 .
+
+realfagstermer:c012676
+  skos:prefLabel "Fjellrev"@nn, "Fjellrev"@nb, "Vulpes lagopus"@la, "Arctic fox"@en ;
+  skos:altLabel "Kvitrev"@nn, "Polarrev"@nb, "Polarrev"@nn, "Blårev"@nn, "Blårev"@nb, "Hvitrev"@nb, "Alopex lagopus"@la ;
+  skos:broaderTransitive realfagstermer:c013293 ;
+  a skos:Concept, <http://data.ub.uio.no/onto#Topic> ;
+  skos:narrower realfagstermer:c027219, realfagstermer:c020224 ;
+  dc:identifier "REAL012676" ;
+  skos:narrowerTransitive realfagstermer:c027219, realfagstermer:c020224 ;
+  skos:broader realfagstermer:c013293 ;
+  dc:modified "2015-05-13T11:13:40+00:00"^^xsd:dateTime ;
+  dc:created "2014-08-25T00:00:00+00:00"^^xsd:dateTime ;
+  skos:inScheme realfagstermer: .
+
+<http://data.ub.uio.no/onto#Topic> rdfs:label "Topic"@en, "Innholdsbeskrivende emne"@nb .
+realfagstermer:
+  rdfs:label "Realfagstermer"@nb ;
+  void:exampleResource realfagstermer:c012676 .
+
+realfagstermer:c020224
+  skos:prefLabel "Fjellrev : Svalbard"@nb ;
+  skos:broader realfagstermer:c012676 ;
+  skos:broaderTransitive realfagstermer:c012676 .
+
+realfagstermer:c013293
+  skos:prefLabel "Revar"@nn, "Vulpini"@la, "Rever"@nb ;
+  skos:narrowerTransitive realfagstermer:c012676 ;
+  skos:narrower realfagstermer:c012676 .
+

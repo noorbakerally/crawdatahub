@@ -1,0 +1,54 @@
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:bibo="http://purl.org/ontology/bibo/"
+xmlns:gold="http://purl.org/linguistics/gold/"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+xmlns:void="http://rdfs.org/ns/void#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+xmlns:frbr="http://purl.org/vocab/frbr/core#"
+xmlns:dctype="http://purl.org/dc/dcmitype/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+xmlns:lexvo="http://lexvo.org/ontology#">
+    <rdf:Description rdf:about="http://glottolog.org/resource/reference/id/39524">
+        <void:inDataset rdf:resource="http://glottolog.org/"/>
+        <rdfs:label xml:lang="en">Arnold, Thierry 1977</rdfs:label>
+        <skos:prefLabel xml:lang="en">Arnold, Thierry 1977</skos:prefLabel>
+            <skos:scopeNote xml:lang="x-clld">source</skos:scopeNote>
+        <skos:altLabel xml:lang="x-clld">39524</skos:altLabel>
+        <dcterms:title xml:lang="en">Arnold, Thierry 1977</dcterms:title>
+        <dcterms:description xml:lang="en">Une spécificité de la grammaire du kinyarwanda: la conjugaison composée comme auxialisation du temps</dcterms:description>
+        
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+
+    <dcterms:language rdf:resource="http://glottolog.org/resource/languoid/id/kiny1244"/>
+    <dcterms:bibliographicCitation>
+        Arnold, Thierry. 1977. Une spécificité de la grammaire du kinyarwanda: la conjugaison composée comme auxialisation du temps. Etudes rwandaises 10. 76-99.
+    </dcterms:bibliographicCitation>
+    <dcterms:modified>2017-03-23 21:34:06.086172+01:00</dcterms:modified>
+    <dcterms:description>Une spécificité de la grammaire du kinyarwanda: la conjugaison composée comme auxialisation du temps</dcterms:description>
+    <dcterms:isPartOf rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+        <dcterms:title>Etudes rwandaises</dcterms:title>
+    </dcterms:isPartOf>
+    <bibo:number>2</bibo:number>
+    <bibo:volume>10</bibo:volume>
+    <dcterms:date>1977</dcterms:date>
+    <foaf:name>Arnold, Thierry 1977</foaf:name>
+    <dcterms:title>Une spécificité de la grammaire du kinyarwanda: la conjugaison composée comme auxialisation du temps</dcterms:title>
+    <dcterms:creator rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <foaf:name>Arnold, Thierry</foaf:name>
+    </dcterms:creator>
+    <bibo:pages>76-99</bibo:pages>
+    <dcterms:subject>;eaf;rwn;lng;grm;tam;bnt;j.d.61;</dcterms:subject>
+
+        
+    </rdf:Description>
+    
+</rdf:RDF>

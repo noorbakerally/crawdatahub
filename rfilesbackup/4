@@ -1,0 +1,295 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dnbt: <http://d-nb.info/standards/elementset/dnb#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://d-nb.info/gnd/11850553X> a gndo:DifferentiatedPerson ;
+	foaf:page <http://de.wikipedia.org/wiki/Johann_Sebastian_Bach> ;
+	owl:sameAs <http://dbpedia.org/resource/Johann_Sebastian_Bach> , <http://viaf.org/viaf/12304462> ;
+	gndo:gndIdentifier "11850553X" ;
+	gndo:oldAuthorityNumber "(DE-588a)11850553X" , "(DE-588a)187498210" , "(DE-588a)1015719538" , "(DE-588a)1016885857" , "(DE-588a)160530571" , "(DE-588a)141848316" , "(DE-588a)134318897" , "(DE-588a)131201948" , "(DE-588a)130989215" , "(DE-588a)128118016" , "(DE-588a)128027622" , "(DE-101c)310008891" , "(DE-588c)4004110-4" ;
+	gndo:variantNameForThePerson "Bach" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531421 .
+
+_:node1ba4e0n3bx4531421 gndo:personalName "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, G. S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531422 .
+
+_:node1ba4e0n3bx4531422 gndo:forename "G. S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Iogann Sebastʹjan" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531423 .
+
+_:node1ba4e0n3bx4531423 gndo:forename "Iogann Sebastʹjan" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Joh. Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531424 .
+
+_:node1ba4e0n3bx4531424 gndo:forename "Joh. Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Giov. Sebast." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531425 .
+
+_:node1ba4e0n3bx4531425 gndo:forename "Giov. Sebast." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Jean Sebastien" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531426 .
+
+_:node1ba4e0n3bx4531426 gndo:forename "Jean Sebastien" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Jean Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531427 .
+
+_:node1ba4e0n3bx4531427 gndo:forename "Jean Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, J. Seb." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531428 .
+
+_:node1ba4e0n3bx4531428 gndo:forename "J. Seb." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Sebastiano" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531429 .
+
+_:node1ba4e0n3bx4531429 gndo:forename "Sebastiano" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, John Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531430 .
+
+_:node1ba4e0n3bx4531430 gndo:forename "John Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Iogann S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531431 .
+
+_:node1ba4e0n3bx4531431 gndo:forename "Iogann S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Iogann Sebast'jan" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531432 .
+
+_:node1ba4e0n3bx4531432 gndo:forename "Iogann Sebast'jan" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Giovanni Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531433 .
+
+_:node1ba4e0n3bx4531433 gndo:forename "Giovanni Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Johan Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531434 .
+
+_:node1ba4e0n3bx4531434 gndo:forename "Johan Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Joannes Sebastianus" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531435 .
+
+_:node1ba4e0n3bx4531435 gndo:forename "Joannes Sebastianus" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Giov. Seb." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531436 .
+
+_:node1ba4e0n3bx4531436 gndo:forename "Giov. Seb." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Giovanni S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531437 .
+
+_:node1ba4e0n3bx4531437 gndo:forename "Giovanni S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bāḵ, Jōhān Sebaṣtī'ān" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531438 .
+
+_:node1ba4e0n3bx4531438 gndo:forename "Jōhān Sebaṣtī'ān" ;
+	gndo:surname "Bāḵ" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, I. S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531439 .
+
+_:node1ba4e0n3bx4531439 gndo:forename "I. S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, J.-S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531440 .
+
+_:node1ba4e0n3bx4531440 gndo:forename "J.-S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Giovanni Sebastiano" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531441 .
+
+_:node1ba4e0n3bx4531441 gndo:forename "Giovanni Sebastiano" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Jean-Sebastien" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531442 .
+
+_:node1ba4e0n3bx4531442 gndo:forename "Jean-Sebastien" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531443 .
+
+_:node1ba4e0n3bx4531443 gndo:forename "Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Jan Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531444 .
+
+_:node1ba4e0n3bx4531444 gndo:forename "Jan Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, J. S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531445 .
+
+_:node1ba4e0n3bx4531445 gndo:forename "J. S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Johann-Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531446 .
+
+_:node1ba4e0n3bx4531446 gndo:forename "Johann-Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Jean S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531447 .
+
+_:node1ba4e0n3bx4531447 gndo:forename "Jean S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Johannes S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531448 .
+
+_:node1ba4e0n3bx4531448 gndo:forename "Johannes S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Johannes Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531449 .
+
+_:node1ba4e0n3bx4531449 gndo:forename "Johannes Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Joh. Seb." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531450 .
+
+_:node1ba4e0n3bx4531450 gndo:forename "Joh. Seb." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Joh.-Seb." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531451 .
+
+_:node1ba4e0n3bx4531451 gndo:forename "Joh.-Seb." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Joh. Sebas." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531452 .
+
+_:node1ba4e0n3bx4531452 gndo:forename "Joh. Sebas." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Johann Seb." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531453 .
+
+_:node1ba4e0n3bx4531453 gndo:forename "Johann Seb." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Joh. Sebast." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531454 .
+
+_:node1ba4e0n3bx4531454 gndo:forename "Joh. Sebast." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Johann S." ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531455 .
+
+_:node1ba4e0n3bx4531455 gndo:forename "Johann S." ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Iogann Sebastjan" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531456 .
+
+_:node1ba4e0n3bx4531456 gndo:forename "Iogann Sebastjan" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Jean Sébastien" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531457 .
+
+_:node1ba4e0n3bx4531457 gndo:forename "Jean Sébastien" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Jean-Sébastien" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531458 .
+
+_:node1ba4e0n3bx4531458 gndo:forename "Jean-Sébastien" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Johann" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531459 .
+
+_:node1ba4e0n3bx4531459 gndo:forename "Johann" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bach, Iogann Sebastʹjan" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531460 .
+
+_:node1ba4e0n3bx4531460 gndo:forename "Iogann Sebastʹjan" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:variantNameForThePerson "Bakh, Iogann Sebastian" ;
+	gndo:variantNameEntityForThePerson _:node1ba4e0n3bx4531461 .
+
+_:node1ba4e0n3bx4531461 gndo:forename "Iogann Sebastian" ;
+	gndo:surname "Bakh" .
+
+<http://d-nb.info/gnd/11850553X> gndo:preferredNameForThePerson "Bach, Johann Sebastian" ;
+	gndo:preferredNameEntityForThePerson _:node1ba4e0n3bx4531462 .
+
+_:node1ba4e0n3bx4531462 gndo:forename "Johann Sebastian" ;
+	gndo:surname "Bach" .
+
+<http://d-nb.info/gnd/11850553X> gndo:familialRelationship <http://d-nb.info/gnd/132249634> , <http://d-nb.info/gnd/135569516> , <http://d-nb.info/gnd/123526566> , <http://d-nb.info/gnd/139616365> , <http://d-nb.info/gnd/128732369> , <http://d-nb.info/gnd/118505548> , <http://d-nb.info/gnd/118505505> , <http://d-nb.info/gnd/118505491> , <http://d-nb.info/gnd/135772559> , <http://d-nb.info/gnd/135754968> , <http://d-nb.info/gnd/118651471> , <http://d-nb.info/gnd/118505521> , <http://d-nb.info/gnd/124534767> , <http://d-nb.info/gnd/116025360> , <http://d-nb.info/gnd/135754933> , <http://d-nb.info/gnd/1019315636> ;
+	gndo:professionalRelationship <http://d-nb.info/gnd/1067084886> ;
+	gndo:affiliation <http://d-nb.info/gnd/1002954-0> , <http://d-nb.info/gnd/2107783-6> , <http://d-nb.info/gnd/1002956-4> , <http://d-nb.info/gnd/2014878-1> ;
+	gndo:professionOrOccupation <http://d-nb.info/gnd/4032009-1> ;
+	gndo:gndSubjectCategory <http://d-nb.info/standards/vocab/gnd/gnd-sc#14.4p> ;
+	gndo:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+	gndo:biographicalOrHistoricalInformation "Komponist"@de ;
+	gndo:placeOfBirth <http://d-nb.info/gnd/4014013-1> ;
+	gndo:placeOfDeath <http://d-nb.info/gnd/4035206-7> ;
+	gndo:placeOfActivity <http://d-nb.info/gnd/4040466-3> , <http://d-nb.info/gnd/4065105-8> , <http://d-nb.info/gnd/4031616-6> , <http://d-nb.info/gnd/4035206-7> ;
+	owl:sameAs <http://www.filmportal.de/person/6F6CC0D87B7647B0B21E93F0B735E640> ;
+	gndo:gender <http://d-nb.info/standards/vocab/gnd/gender#male> ;
+	gndo:dateOfBirth "1685-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	gndo:dateOfDeath "1750-07-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+

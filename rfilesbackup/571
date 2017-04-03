@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:temp="http://lists.talis.com/schema/temp#"
+  xmlns:lifecycle="http://purl.org/vocab/lifecycle/schema#"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/"
+  xmlns:events="http://schemas.talis.com/2009/events/">
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19"/>
+    <foaf:topic rdf:resource="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19"/>
+    <dct:hasFormat rdf:resource="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19.html"/>
+    <dct:hasFormat rdf:resource="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19.json"/>
+    <dct:hasFormat rdf:resource="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19">
+    <temp:hasRolloverCopy rdf:resource="http://www.readinglists.manchester.ac.uk/lists/87A3EC82-8EBA-BD21-1329-D52B4E26533D"/>
+    <temp:hasTimePeriod rdf:resource="http://www.readinglists.manchester.ac.uk/config/timePeriod1"/>
+    <lifecycle:state rdf:resource="http://purl.org/vocab/resourcelist/schema#status-published"/>
+    <resourcelist:anticipatedStudentNumbers>25</resourcelist:anticipatedStudentNumbers>
+    <resourcelist:archived>2012-09-21T12:14:19+01:00</resourcelist:archived>
+    <resourcelist:created>2011-09-08T15:23:24+01:00</resourcelist:created>
+    <resourcelist:description>Strategic Management Reading List - GA</resourcelist:description>
+    <resourcelist:hasOwner rdf:resource="http://www.readinglists.manchester.ac.uk/users/D0BC6912-7A8D-5234-F28F-BB9AA4443E51"/>
+    <resourcelist:isCopyOf rdf:resource="http://www.readinglists.manchester.ac.uk/lists/CD980F96-2656-6E59-C6FC-A292C19FB2CD"/>
+    <resourcelist:lastPublished>2012-08-23T16:18:43+01:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2012-08-23T16:18:38+01:00</resourcelist:lastUpdated>
+    <spec:has_creator rdf:resource="http://www.readinglists.manchester.ac.uk/users/3EC42104-0610-AE39-9B9A-9E72183DA5B0"/>
+    <spec:name>MBSW60749 Strategic Management</spec:name>
+    <events:hasEvents rdf:resource="http://www.readinglists.manchester.ac.uk/lists/CD980F96-2656-6E59-C6FC-A292C19FB2CD/events"/>
+    <events:hasEvents rdf:resource="http://www.readinglists.manchester.ac.uk/lists/FD6BA99A-C760-8AF7-1617-8EB5D2C15E19/events"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#ArchiveList"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+
+</rdf:RDF>

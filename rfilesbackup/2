@@ -1,0 +1,34 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dnbt: <http://d-nb.info/standards/elementset/dnb#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://d-nb.info/gnd/4190055-8> a gndo:SubjectHeadingSensoStricto ;
+	skos:broadMatch <http://zbw.eu/stw/descriptor/12172-4> ;
+	gndo:gndIdentifier "4190055-8" ;
+	gndo:oldAuthorityNumber "(DE-588c)4190055-8" ;
+	gndo:relatedDdcWithDegreeOfDeterminacy2 <http://dewey.info/class/330.0285/> ;
+	gndo:preferredNameForTheSubjectHeading "Wirtschaftsinformatiker" ;
+	gndo:broaderTermGeneral <http://d-nb.info/gnd/4139395-8> ;
+	gndo:relatedTerm <http://d-nb.info/gnd/7634408-3> ;
+	gndo:gndSubjectCategory <http://d-nb.info/standards/vocab/gnd/gnd-sc#10.2a> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#30> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#9.4ab> .
+

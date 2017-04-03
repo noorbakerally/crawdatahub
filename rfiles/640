@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/5136"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/5136"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/5136">
+  <name>Makita Hundén (Dogé)</name>
+  <weblog rdf:resource="https://social.umeahackerspace.se/makitadoge"></weblog>
+  <bio:olb>Makitadoge is the mascot of Umeå Hackerspace! https://social.umeahackerspace.se/group/umehack&#13;
+&#13;
+I like walks on the beach. And in the woods. And in the city. Walks on all places. People are the best there is. Dogs are the best there is. What are cats? I AM MASTER AND THE KING OF STICKS! MY KINGDOM IS FOREVER! I love food, especially cheese! Patting me on the stomach - now the tug of war! - Now got someone else! - Hello again! - THERE IS A STICK!</bio:olb>
+  <img>
+   <Image rdf:about="https://social.umeahackerspace.se/avatar/5136-original-20160315173233.jpeg">
+    <thumbnail>
+     <Image rdf:about="https://social.umeahackerspace.se/avatar/5136-96-20160315173233.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="https://social.umeahackerspace.se/avatar/5136-48-20160315173233.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="https://social.umeahackerspace.se/avatar/5136-24-20160315173236.jpeg"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/5136#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>makitadoge</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/makitadoge"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/5136"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/3#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/4#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/114834#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/114099#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2368#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/111931#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://sn.theru.org/index.php/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/113454#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/114798#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://indy.im/user/721303#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://sn.jonkman.ca/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://sn.chromic.org/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://status.vinilox.eu/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/245#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/1947#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/115474#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/2327#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://loadaverage.org/user/2836#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://sn.jonkman.ca/user/3268#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/3945#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://fresh.federati.net/user/54#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://status.vinilox.eu/user/18922#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/3999#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/116496#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/117025#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://sn.cyberunions.org/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://fediverse.com/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://unblog.in/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/117633#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5836#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5965#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5969#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/117766#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/117814#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/115368#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://chirp.cooleysekula.net/user/3#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/118554#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/3#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://s.morphtown.de/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://status.vinilox.eu/user/110970#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/122993#acct"></sioc:follows>
+    <sioc:follows rdf:resource="acct:mmn@social.umeakulturhus.se#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://social.bka.li/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://social.bka.li/user/159#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/7067#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/127168#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/1512#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/1582#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.zone/user/3487#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/4654#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/7960#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://herds.eu/user/2232#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://lamatriz.org/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/138179#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://javi.cf/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/10290#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/3533#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quit.im/user/16#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/973#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/10559#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/10732#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://loadaverage.org/user/22151#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quit.im/user/103#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://wherethedogsare.com/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://wherethedogsare.com/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/139878#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quit.im/user/175#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/1554#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/140030#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://loadaverage.org/user/341751#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quit.im/user/557#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/12371#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.bitcast.info/user/360#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://quitter.se/user/149873#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://anonymous.wtf/user/3#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://gnusocial.cf/index.php/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/14105#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://monkeystew.social/profile/thrrgilag#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gs.morphtown.de/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gs.sdf.org/user/62#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/27992#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/29933#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/28875#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://shitposter.club/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/28543#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnutan.xyz/user/20#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/27934#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://community.highlandarrow.com/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.es/user/16087#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://kwitter.club/user/121#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gs.monkeystew.net/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/Gargron#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://s.libreden.net/user/3#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.se/user/179528#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quit.im/user/2603#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.is/user/35623#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/josefnpat#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/fermuch#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/noahedwardhall#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gs.sdf.org/user/5318#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/hoodie#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/228943#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/walid#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/229359#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.no/user/20882#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.se/user/201627#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://fresh.federati.net/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/sl#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gs.smuglo.li/user/27384#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://nu.federati.net/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/nev#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://mastodon.social/users/masklayer#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://social.daemons.it/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://quitter.no/user/23681#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/2"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/3"></knows>
+  <knows rdf:resource="http://quitter.se/user/4"></knows>
+  <knows rdf:resource="http://quitter.se/user/114099"></knows>
+  <knows rdf:resource="http://quitter.se/user/111931"></knows>
+  <knows rdf:resource="http://quitter.se/user/113454"></knows>
+  <knows rdf:resource="http://sn.jonkman.ca/user/2"></knows>
+  <knows rdf:resource="http://oracle.skilledtests.com/user/2"></knows>
+  <knows rdf:resource="http://sn.chromic.org/user/1"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/245"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/2327"></knows>
+  <knows rdf:resource="http://sn.jonkman.ca/user/3268"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/3945"></knows>
+  <knows rdf:resource="https://fresh.federati.net/user/54"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/3999"></knows>
+  <knows rdf:resource="http://quitter.se/user/116496"></knows>
+  <knows rdf:resource="https://sn.cyberunions.org/user/1"></knows>
+  <knows rdf:resource="https://fediverse.com/user/1"></knows>
+  <knows rdf:resource="http://unblog.in/user/1"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5836"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5965"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5969"></knows>
+  <knows rdf:resource="http://quitter.se/user/117766"></knows>
+  <knows rdf:resource="http://quitter.se/user/117814"></knows>
+  <knows rdf:resource="http://quitter.se/user/115368"></knows>
+  <knows rdf:resource="http://quitter.se/user/118554"></knows>
+  <knows rdf:resource="https://status.vinilox.eu/user/110970"></knows>
+  <knows rdf:resource="acct:mmn@social.umeakulturhus.se"></knows>
+  <knows rdf:resource="http://social.bka.li/user/1"></knows>
+  <knows rdf:resource="http://social.bka.li/user/159"></knows>
+  <knows rdf:resource="https://social.umeahackerspace.se/user/7067"></knows>
+  <knows rdf:resource="http://quitter.se/user/127168"></knows>
+  <knows rdf:resource="https://quitter.es/user/1"></knows>
+  <knows rdf:resource="https://quitter.is/user/1512"></knows>
+  <knows rdf:resource="https://quitter.es/user/1582"></knows>
+  <knows rdf:resource="https://quitter.zone/user/3487"></knows>
+  <knows rdf:resource="https://quitter.es/user/4654"></knows>
+  <knows rdf:resource="https://quitter.es/user/7960"></knows>
+  <knows rdf:resource="https://lamatriz.org/user/2"></knows>
+  <knows rdf:resource="http://quitter.se/user/138179"></knows>
+  <knows rdf:resource="http://javi.cf/user/1"></knows>
+  <knows rdf:resource="https://quitter.es/user/10290"></knows>
+  <knows rdf:resource="https://quitter.is/user/3533"></knows>
+  <knows rdf:resource="https://quit.im/user/16"></knows>
+  <knows rdf:resource="https://quitter.is/user/973"></knows>
+  <knows rdf:resource="https://quitter.es/user/10559"></knows>
+  <knows rdf:resource="https://quitter.es/user/10732"></knows>
+  <knows rdf:resource="https://quit.im/user/103"></knows>
+  <knows rdf:resource="https://wherethedogsare.com/user/2"></knows>
+  <knows rdf:resource="https://wherethedogsare.com/user/1"></knows>
+  <knows rdf:resource="http://quitter.se/user/139878"></knows>
+  <knows rdf:resource="https://gnusocial.de/user/1554"></knows>
+  <knows rdf:resource="https://quitter.es/user/12371"></knows>
+  <knows rdf:resource="https://social.bitcast.info/user/360"></knows>
+  <knows rdf:resource="http://quitter.se/user/149873"></knows>
+  <knows rdf:resource="https://anonymous.wtf/user/3"></knows>
+  <knows rdf:resource="http://gnusocial.cf/index.php/user/1"></knows>
+  <knows rdf:resource="https://quitter.es/user/14105"></knows>
+  <knows rdf:resource="https://monkeystew.social/profile/thrrgilag"></knows>
+  <knows rdf:resource="https://gs.morphtown.de/user/1"></knows>
+  <knows rdf:resource="https://gs.sdf.org/user/62"></knows>
+  <knows rdf:resource="https://quitter.is/user/27992"></knows>
+  <knows rdf:resource="https://quitter.is/user/29933"></knows>
+  <knows rdf:resource="https://quitter.is/user/28875"></knows>
+  <knows rdf:resource="https://shitposter.club/user/1"></knows>
+  <knows rdf:resource="https://quitter.is/user/28543"></knows>
+  <knows rdf:resource="https://gnutan.xyz/user/20"></knows>
+  <knows rdf:resource="https://quitter.is/user/27934"></knows>
+  <knows rdf:resource="https://community.highlandarrow.com/user/1"></knows>
+  <knows rdf:resource="https://quitter.es/user/16087"></knows>
+  <knows rdf:resource="https://kwitter.club/user/121"></knows>
+  <knows rdf:resource="https://mastodon.social/users/Gargron"></knows>
+  <knows rdf:resource="https://s.libreden.net/user/3"></knows>
+  <knows rdf:resource="https://quitter.se/user/179528"></knows>
+  <knows rdf:resource="https://quit.im/user/2603"></knows>
+  <knows rdf:resource="https://quitter.is/user/35623"></knows>
+  <knows rdf:resource="https://mastodon.social/users/josefnpat"></knows>
+  <knows rdf:resource="https://mastodon.social/users/fermuch"></knows>
+  <knows rdf:resource="https://mastodon.social/users/noahedwardhall"></knows>
+  <knows rdf:resource="https://gs.sdf.org/user/5318"></knows>
+  <knows rdf:resource="https://mastodon.social/users/hoodie"></knows>
+  <knows rdf:resource="https://mastodon.social/users/walid"></knows>
+  <knows rdf:resource="https://gnusocial.de/user/229359"></knows>
+  <knows rdf:resource="https://quitter.no/user/20882"></knows>
+  <knows rdf:resource="https://quitter.se/user/201627"></knows>
+  <knows rdf:resource="https://fresh.federati.net/user/2"></knows>
+  <knows rdf:resource="https://mastodon.social/users/sl"></knows>
+  <knows rdf:resource="https://nu.federati.net/user/2"></knows>
+  <knows rdf:resource="https://mastodon.social/users/nev"></knows>
+  <knows rdf:resource="https://mastodon.social/users/masklayer"></knows>
+  <knows rdf:resource="https://social.daemons.it/user/1"></knows>
+ </Agent>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/2">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/2#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>mmn</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/mmn"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/mmn/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/mmn/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/2"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/2"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/3">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/3#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>pettter</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/pettter"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/3"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/pettter/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/pettter/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/3"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/3"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://quitter.se/user/4">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/4#acct">
+    <accountName>hannes2peer</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/hannes2peer"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/4"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/114834">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/114834#acct">
+    <accountName>deactivatedgiammi</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/deactivatedgiammi"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/114834"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/114099">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/114099#acct">
+    <accountName>ghostdancer</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/ghostdancer"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/114099"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://oracle.skilledtests.com/user/2368">
+  <account>
+   <OnlineAccount rdf:about="http://oracle.skilledtests.com/user/2368#acct">
+    <accountName>mk</accountName>
+    <accountProfilePage rdf:resource="http://oracle.skilledtests.com/mk"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://oracle.skilledtests.com/user/2368"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/111931">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/111931#acct">
+    <accountName>inscius</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/inscius"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/111931"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://sn.theru.org/index.php/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://sn.theru.org/index.php/user/1#acct">
+    <accountName>backuptheru</accountName>
+    <accountProfilePage rdf:resource="http://sn.theru.org/index.php/backuptheru"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://sn.theru.org/index.php/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/113454">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/113454#acct">
+    <accountName>mcscx</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/mcscx"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/113454"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/114798">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/114798#acct">
+    <accountName>grmpyoldman</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/grmpyoldman"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/114798"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://indy.im/user/721303">
+  <account>
+   <OnlineAccount rdf:about="https://indy.im/user/721303#acct">
+    <accountName>zoowar</accountName>
+    <accountProfilePage rdf:resource="https://indy.im/zoowar"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://indy.im/user/721303"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://sn.jonkman.ca/user/2">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://sn.jonkman.ca/user/2#acct">
+    <accountName>bobjonkman</accountName>
+    <accountProfilePage rdf:resource="http://sn.jonkman.ca/bobjonkman"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://sn.jonkman.ca/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://oracle.skilledtests.com/user/2">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://oracle.skilledtests.com/user/2#acct">
+    <accountName>question</accountName>
+    <accountProfilePage rdf:resource="http://oracle.skilledtests.com/question"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://oracle.skilledtests.com/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://sn.chromic.org/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://sn.chromic.org/user/1#acct">
+    <accountName>chimo</accountName>
+    <accountProfilePage rdf:resource="http://sn.chromic.org/chimo"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://sn.chromic.org/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://status.vinilox.eu/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://status.vinilox.eu/user/1#acct">
+    <accountName>vinilox</accountName>
+    <accountProfilePage rdf:resource="https://status.vinilox.eu/vinilox"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.vinilox.eu/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/245">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/245#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>tomas</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/tomas"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/245"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/tomas/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/tomas/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/245"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/245"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/1947">
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/1947#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>anotheruser</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/anotheruser"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/1947"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/anotheruser/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/anotheruser/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/1947"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/1947"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://quitter.se/user/115474">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/115474#acct">
+    <accountName>howcanuhavemybackup</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/howcanuhavemybackup"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/115474"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/2327">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/2327#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>zash</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/zash"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/2327"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/zash/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/zash/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/2327"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/2327"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="https://loadaverage.org/user/2836">
+  <account>
+   <OnlineAccount rdf:about="https://loadaverage.org/user/2836#acct">
+    <accountName>cmhobbs</accountName>
+    <accountProfilePage rdf:resource="https://loadaverage.org/cmhobbs"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://loadaverage.org/user/2836"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://sn.jonkman.ca/user/3268">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://sn.jonkman.ca/user/3268#acct">
+    <accountName>firehose</accountName>
+    <accountProfilePage rdf:resource="http://sn.jonkman.ca/firehose"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://sn.jonkman.ca/user/3268"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/3945">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/3945#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>catninja</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/catninja"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/3945"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/catninja/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/catninja/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/3945"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/3945"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="https://fresh.federati.net/user/54">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://fresh.federati.net/user/54#acct">
+    <accountName>lnxw48</accountName>
+    <accountProfilePage rdf:resource="https://fresh.federati.net/lnxw48"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://fresh.federati.net/user/54"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://status.vinilox.eu/user/18922">
+  <account>
+   <OnlineAccount rdf:about="https://status.vinilox.eu/user/18922#acct">
+    <accountName>moshpiritdisabled</accountName>
+    <accountProfilePage rdf:resource="https://status.vinilox.eu/moshpiritdisabled"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.vinilox.eu/user/18922"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/3999">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/3999#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>fnadde42</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/fnadde42"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/3999"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/fnadde42/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/fnadde42/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/3999"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/3999"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://quitter.se/user/116496">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/116496#acct">
+    <accountName>almadelibertade</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/almadelibertade"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/116496"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/117025">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/117025#acct">
+    <accountName>heathenman</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/heathenman"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/117025"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://sn.cyberunions.org/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://sn.cyberunions.org/user/1#acct">
+    <accountName>marxistvegan</accountName>
+    <accountProfilePage rdf:resource="https://sn.cyberunions.org/marxistvegan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://sn.cyberunions.org/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://fediverse.com/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://fediverse.com/user/1#acct">
+    <accountName>erkan</accountName>
+    <accountProfilePage rdf:resource="https://fediverse.com/erkan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://fediverse.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://unblog.in/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://unblog.in/user/1#acct">
+    <accountName>hosh</accountName>
+    <accountProfilePage rdf:resource="http://unblog.in/hosh"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://unblog.in/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/117633">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/117633#acct">
+    <accountName>pavs</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/pavs"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/117633"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/5836">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/5836#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>haffu</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/haffu"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/5836"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/haffu/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/haffu/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/5836"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/5836"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/5965">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/5965#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>wcdotter</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/wcdotter"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/5965"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/wcdotter/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/wcdotter/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/5965"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/5965"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/5969">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/5969#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>dogelover33</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/dogelover33"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/5969"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/dogelover33/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/dogelover33/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/5969"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/5969"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://quitter.se/user/117766">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/117766#acct">
+    <accountName>smultrontott</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/smultrontott"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/117766"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/117814">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/117814#acct">
+    <accountName>ericj</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/ericj"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/117814"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/115368">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/115368#acct">
+    <accountName>backupgaloisghost</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/backupgaloisghost"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/115368"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://chirp.cooleysekula.net/user/3">
+  <account>
+   <OnlineAccount rdf:about="https://chirp.cooleysekula.net/user/3#acct">
+    <accountName>steve</accountName>
+    <accountProfilePage rdf:resource="https://chirp.cooleysekula.net/steve"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://chirp.cooleysekula.net/user/3"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/118554">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/118554#acct">
+    <accountName>shintakezou</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/shintakezou"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/118554"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/3">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/3#acct">
+    <accountName>vinzv</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/vinzv"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/3"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://s.morphtown.de/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://s.morphtown.de/user/1#acct">
+    <accountName>morph</accountName>
+    <accountProfilePage rdf:resource="http://s.morphtown.de/morph"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://s.morphtown.de/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://status.vinilox.eu/user/110970">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://status.vinilox.eu/user/110970#acct">
+    <accountName>mcscx2old</accountName>
+    <accountProfilePage rdf:resource="https://status.vinilox.eu/mcscx2old"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.vinilox.eu/user/110970"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/122993">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/122993#acct">
+    <accountName>nordfrisiske</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/nordfrisiske"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/122993"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="acct:mmn@social.umeakulturhus.se">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="acct:mmn@social.umeakulturhus.se#acct">
+    <accountName>mmn</accountName>
+    <accountProfilePage rdf:resource="https://social.umeakulturhus.se/mmn"></accountProfilePage>
+    <sioc:account_of rdf:resource="acct:mmn@social.umeakulturhus.se"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://social.bka.li/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://social.bka.li/user/1#acct">
+    <accountName>kromonos</accountName>
+    <accountProfilePage rdf:resource="http://social.bka.li/kromonos"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://social.bka.li/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://social.bka.li/user/159">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://social.bka.li/user/159#acct">
+    <accountName>follower</accountName>
+    <accountProfilePage rdf:resource="http://social.bka.li/follower"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://social.bka.li/user/159"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.umeahackerspace.se/user/7067">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.umeahackerspace.se/user/7067#acct">
+    <accountServiceHomepage rdf:resource="https://social.umeahackerspace.se/"></accountServiceHomepage>
+    <accountName>mrw00t</accountName>
+    <accountProfilePage rdf:resource="https://social.umeahackerspace.se/mrw00t"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.umeahackerspace.se/user/7067"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="https://social.umeahackerspace.se/mrw00t/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="https://social.umeahackerspace.se/mrw00t/foaf">
+  <maker rdf:resource="https://social.umeahackerspace.se/user/7067"></maker>
+  <primaryTopic rdf:resource="https://social.umeahackerspace.se/user/7067"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://quitter.se/user/127168">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/127168#acct">
+    <accountName>drymervieja</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/drymervieja"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/127168"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/1#acct">
+    <accountName>perro</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/perro"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/1512">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/1512#acct">
+    <accountName>hundur</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/hundur"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/1512"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/1582">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/1582#acct">
+    <accountName>leviatan89</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/leviatan89"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/1582"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.zone/user/3487">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.zone/user/3487#acct">
+    <accountName>zonemmn</accountName>
+    <accountProfilePage rdf:resource="https://quitter.zone/zonemmn"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.zone/user/3487"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/4654">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/4654#acct">
+    <accountName>mcrx</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/mcrx"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/4654"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/7960">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/7960#acct">
+    <accountName>laveratabarata</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/laveratabarata"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/7960"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://herds.eu/user/2232">
+  <account>
+   <OnlineAccount rdf:about="https://herds.eu/user/2232#acct">
+    <accountName>connector</accountName>
+    <accountProfilePage rdf:resource="https://herds.eu/connector"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://herds.eu/user/2232"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://lamatriz.org/user/2">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://lamatriz.org/user/2#acct">
+    <accountName>manuel</accountName>
+    <accountProfilePage rdf:resource="https://lamatriz.org/manuel"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://lamatriz.org/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/138179">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/138179#acct">
+    <accountName>gus</accountName>
+    <accountProfilePage rdf:resource="https://quitter.se/gus"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/138179"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://javi.cf/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://javi.cf/user/1#acct">
+    <accountName>jj</accountName>
+    <accountProfilePage rdf:resource="http://javi.cf/jj"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://javi.cf/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/10290">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/10290#acct">
+    <accountName>xamuel</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/xamuel"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/10290"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/3533">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/3533#acct">
+    <accountName>toloco</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/toloco"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/3533"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quit.im/user/16">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quit.im/user/16#acct">
+    <accountName>mmn</accountName>
+    <accountProfilePage rdf:resource="https://quit.im/mmn"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quit.im/user/16"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/973">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/973#acct">
+    <accountName>niechta</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/niechta"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/973"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/10559">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/10559#acct">
+    <accountName>panki</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/panki"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/10559"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/10732">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/10732#acct">
+    <accountName>moshpirit</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/moshpirit"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/10732"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://loadaverage.org/user/22151">
+  <account>
+   <OnlineAccount rdf:about="https://loadaverage.org/user/22151#acct">
+    <accountName>ericxdu23</accountName>
+    <accountProfilePage rdf:resource="https://loadaverage.org/ericxdu23"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://loadaverage.org/user/22151"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quit.im/user/103">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quit.im/user/103#acct">
+    <accountName>nilgiri</accountName>
+    <accountProfilePage rdf:resource="https://quit.im/nilgiri"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quit.im/user/103"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://wherethedogsare.com/user/2">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://wherethedogsare.com/user/2#acct">
+    <accountName>arthur</accountName>
+    <accountProfilePage rdf:resource="https://wherethedogsare.com/arthur"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://wherethedogsare.com/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://wherethedogsare.com/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://wherethedogsare.com/user/1#acct">
+    <accountName>bigdog</accountName>
+    <accountProfilePage rdf:resource="https://wherethedogsare.com/bigdog"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://wherethedogsare.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/139878">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/139878#acct">
+    <accountName>lettibax</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/lettibax"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/139878"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quit.im/user/175">
+  <account>
+   <OnlineAccount rdf:about="https://quit.im/user/175#acct">
+    <accountName>lettibax</accountName>
+    <accountProfilePage rdf:resource="https://quit.im/lettibax"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quit.im/user/175"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/1554">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/1554#acct">
+    <accountName>fedbot</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/fedbot"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/1554"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/140030">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/140030#acct">
+    <accountName>wx1gdave</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/wx1gdave"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/140030"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://loadaverage.org/user/341751">
+  <account>
+   <OnlineAccount rdf:about="https://loadaverage.org/user/341751#acct">
+    <accountName>lanodangs</accountName>
+    <accountProfilePage rdf:resource="https://loadaverage.org/lanodangs"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://loadaverage.org/user/341751"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quit.im/user/557">
+  <account>
+   <OnlineAccount rdf:about="https://quit.im/user/557#acct">
+    <accountName>moshpiritim</accountName>
+    <accountProfilePage rdf:resource="https://quit.im/moshpiritim"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quit.im/user/557"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/12371">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/12371#acct">
+    <accountName>nidron</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/nidron"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/12371"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.bitcast.info/user/360">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.bitcast.info/user/360#acct">
+    <accountName>hikerus</accountName>
+    <accountProfilePage rdf:resource="https://social.bitcast.info/hikerus"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.bitcast.info/user/360"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/149873">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/149873#acct">
+    <accountName>jcaktiv</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/jcaktiv"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/149873"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://anonymous.wtf/user/3">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://anonymous.wtf/user/3#acct">
+    <accountName>pingspike</accountName>
+    <accountProfilePage rdf:resource="https://anonymous.wtf/pingspike"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://anonymous.wtf/user/3"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://gnusocial.cf/index.php/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://gnusocial.cf/index.php/user/1#acct">
+    <accountName>modemjunkie</accountName>
+    <accountProfilePage rdf:resource="http://gnusocial.cf/index.php/modemjunkie"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://gnusocial.cf/index.php/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/14105">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/14105#acct">
+    <accountName>askan</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/askan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/14105"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://monkeystew.social/profile/thrrgilag">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://monkeystew.social/profile/thrrgilag#acct">
+    <accountName>thrrgilag</accountName>
+    <accountProfilePage rdf:resource="https://monkeystew.social/profile/thrrgilag"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://monkeystew.social/profile/thrrgilag"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gs.morphtown.de/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://gs.morphtown.de/user/1#acct">
+    <accountName>morph</accountName>
+    <accountProfilePage rdf:resource="https://gs.morphtown.de/morph"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gs.morphtown.de/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gs.sdf.org/user/62">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://gs.sdf.org/user/62#acct">
+    <accountName>schiller</accountName>
+    <accountProfilePage rdf:resource="https://gs.sdf.org/schiller"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gs.sdf.org/user/62"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/27992">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/27992#acct">
+    <accountName>joebardo</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/joebardo"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/27992"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/29933">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/29933#acct">
+    <accountName>asriel</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/asriel"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/29933"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/28875">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/28875#acct">
+    <accountName>itachi</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/itachi"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/28875"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://shitposter.club/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://shitposter.club/user/1#acct">
+    <accountName>moonman</accountName>
+    <accountProfilePage rdf:resource="https://shitposter.club/moonman"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://shitposter.club/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/28543">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/28543#acct">
+    <accountName>foxes</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/foxes"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/28543"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnutan.xyz/user/20">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://gnutan.xyz/user/20#acct">
+    <accountName>chc4</accountName>
+    <accountProfilePage rdf:resource="https://gnutan.xyz/chc4"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnutan.xyz/user/20"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/27934">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/27934#acct">
+    <accountName>eris</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/eris"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/27934"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://community.highlandarrow.com/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://community.highlandarrow.com/user/1#acct">
+    <accountName>maiyannah</accountName>
+    <accountProfilePage rdf:resource="https://community.highlandarrow.com/maiyannah"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://community.highlandarrow.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.es/user/16087">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.es/user/16087#acct">
+    <accountName>sharedworld</accountName>
+    <accountProfilePage rdf:resource="https://quitter.es/sharedworld"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.es/user/16087"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://kwitter.club/user/121">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://kwitter.club/user/121#acct">
+    <accountName>zine</accountName>
+    <accountProfilePage rdf:resource="https://kwitter.club/zine"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://kwitter.club/user/121"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gs.monkeystew.net/user/1">
+  <account>
+   <OnlineAccount rdf:about="https://gs.monkeystew.net/user/1#acct">
+    <accountName>thrrgilaggs</accountName>
+    <accountProfilePage rdf:resource="https://gs.monkeystew.net/thrrgilaggs"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gs.monkeystew.net/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/Gargron">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/Gargron#acct">
+    <accountName>gargron</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/@Gargron"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/Gargron"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://s.libreden.net/user/3">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://s.libreden.net/user/3#acct">
+    <accountName>collector</accountName>
+    <accountProfilePage rdf:resource="https://s.libreden.net/collector"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://s.libreden.net/user/3"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.se/user/179528">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.se/user/179528#acct">
+    <accountName>zorrito</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/zorrito"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.se/user/179528"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quit.im/user/2603">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quit.im/user/2603#acct">
+    <accountName>grmpyoldman</accountName>
+    <accountProfilePage rdf:resource="https://quit.im/grmpyoldman"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quit.im/user/2603"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/35623">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/35623#acct">
+    <accountName>anonsfreeworld</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/anonsfreeworld"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/35623"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/josefnpat">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/josefnpat#acct">
+    <accountName>josefnpat</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/users/josefnpat"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/josefnpat"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/fermuch">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/fermuch#acct">
+    <accountName>fermuch</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/users/fermuch"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/fermuch"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/noahedwardhall">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/noahedwardhall#acct">
+    <accountName>noahedwardhall</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/users/noahedwardhall"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/noahedwardhall"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gs.sdf.org/user/5318">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://gs.sdf.org/user/5318#acct">
+    <accountName>hobbsc</accountName>
+    <accountProfilePage rdf:resource="https://gs.sdf.org/hobbsc"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gs.sdf.org/user/5318"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/hoodie">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/hoodie#acct">
+    <accountName>hoodie</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/@hoodie"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/hoodie"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/228943">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/228943#acct">
+    <accountName>luigi</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/luigi"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/228943"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/walid">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/walid#acct">
+    <accountName>walid</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/users/walid"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/walid"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/229359">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/229359#acct">
+    <accountName>rtsn</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/rtsn"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/229359"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.no/user/20882">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.no/user/20882#acct">
+    <accountName>mcscx2</accountName>
+    <accountProfilePage rdf:resource="https://quitter.no/mcscx2"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.no/user/20882"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.se/user/201627">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://quitter.se/user/201627#acct">
+    <accountName>kun</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/kun"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.se/user/201627"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://fresh.federati.net/user/2">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://fresh.federati.net/user/2#acct">
+    <accountName>lnxw48</accountName>
+    <accountProfilePage rdf:resource="https://fresh.federati.net/lnxw48"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://fresh.federati.net/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/sl">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/sl#acct">
+    <accountName>sl</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/users/sl"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/sl"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gs.smuglo.li/user/27384">
+  <account>
+   <OnlineAccount rdf:about="https://gs.smuglo.li/user/27384#acct">
+    <accountName>sonyam</accountName>
+    <accountProfilePage rdf:resource="https://gs.smuglo.li/sonyam"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gs.smuglo.li/user/27384"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://nu.federati.net/user/2">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://nu.federati.net/user/2#acct">
+    <accountName>lnxw48a1</accountName>
+    <accountProfilePage rdf:resource="https://nu.federati.net/lnxw48a1"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://nu.federati.net/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/nev">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/nev#acct">
+    <accountName>nev</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/@nev"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/nev"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://mastodon.social/users/masklayer">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://mastodon.social/users/masklayer#acct">
+    <accountName>masklayer</accountName>
+    <accountProfilePage rdf:resource="https://mastodon.social/@masklayer"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://mastodon.social/users/masklayer"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.daemons.it/user/1">
+  <knows rdf:resource="https://social.umeahackerspace.se/user/5136"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://social.daemons.it/user/1#acct">
+    <accountName>drymer</accountName>
+    <accountProfilePage rdf:resource="https://social.daemons.it/drymer"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.daemons.it/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.no/user/23681">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.no/user/23681#acct">
+    <accountName>k3a</accountName>
+    <accountProfilePage rdf:resource="https://quitter.no/k3a"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.no/user/23681"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/56636">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/56636#acct">
+    <accountName>quittermmn</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/quittermmn"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/56636"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://sn-steamers.rhcloud.com/user/2">
+  <account>
+   <OnlineAccount rdf:about="https://sn-steamers.rhcloud.com/user/2#acct">
+    <accountName>howcanuhavemyusername</accountName>
+    <accountProfilePage rdf:resource="http://sn-steamers.rhcloud.com/howcanuhavemyusername"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://sn-steamers.rhcloud.com/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://pags.to/user/38">
+  <account>
+   <OnlineAccount rdf:about="https://pags.to/user/38#acct">
+    <accountName>pagsconnector</accountName>
+    <accountProfilePage rdf:resource="https://pags.to/pagsconnector"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://pags.to/user/38"></sioc:account_of>
+    <sioc:follows rdf:resource="https://social.umeahackerspace.se/user/5136#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

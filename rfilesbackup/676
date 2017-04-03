@@ -1,0 +1,62 @@
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix schemaOrg: <http://schema.org/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix gov:   <http://gov.genealogy.net/ontology.owl#> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://gov.genealogy.net/SCHERGJO54EJ>
+        a                      gov:GovObject ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                "http://gov.genealogy.net/SCHERGJO54EJ/about.rdf" ;
+        gov:hasName            [ a             gov:PropertyName ;
+                                 gov:language  "deu"^^xsd:string ;
+                                 gov:value     "Schönberg"^^xsd:string
+                               ] ;
+        gov:hasPopulation      [ a              gov:PropertyForObject ;
+                                 gov:source     [ a              gov:SourceReference ;
+                                                  gov:page       "110"^^xsd:string ;
+                                                  gov:sourceRef  <http://gov.genealogy.net/source_1081178>
+                                                ] ;
+                                 gov:timeBegin  "1961-06-06"^^xsd:string ;
+                                 gov:timeEnd    "1961-06-06"^^xsd:string ;
+                                 gov:value      "3483"^^xsd:string
+                               ] ;
+        gov:hasPostalCode      [ a              gov:PropertyForObject ;
+                                 gov:timeBegin  "1993-07-01"^^xsd:string ;
+                                 gov:value      "24217"^^xsd:string
+                               ] ;
+        gov:hasPostalCode      [ a            gov:PropertyForObject ;
+                                 gov:timeEnd  "1993-06-30"^^xsd:string ;
+                                 gov:value    "W2306"^^xsd:string
+                               ] ;
+        gov:hasType            [ a         gov:PropertyType ;
+                                 gov:type  <http://gov.genealogy.net/types.owl#68>
+                               ] ;
+        gov:isPartOf           [ a        gov:Relation ;
+                                 gov:ref  <http://gov.genealogy.net/object_149289>
+                               ] ;
+        gov:isPartOf           [ a        gov:Relation ;
+                                 gov:ref  <http://gov.genealogy.net/object_319886>
+                               ] ;
+        gov:isPartOf           [ a           gov:Relation ;
+                                 gov:ref     <http://gov.genealogy.net/object_185251> ;
+                                 gov:source  [ a              gov:SourceReference ;
+                                               gov:sourceRef  <http://gov.genealogy.net/source_149287>
+                                             ]
+                               ] ;
+        gov:position           [ a          wgs84:Point ;
+                                 wgs84:lat  "54.3936"^^xsd:double ;
+                                 wgs84:lon  "10.3707"^^xsd:double
+                               ] ;
+        gov:positionPrecision  gov:PositionSpecified ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://sws.geonames.org/2836925/> .
+
+<http://gov.genealogy.net/SCHERGJO54EJ/about.rdf>
+        cc:attributionName  "Verein für Computergenealogie"^^xsd:string ;
+        cc:attributionURL   "http://gov.genealogy.net/SCHERGJO54EJ" ;
+        cc:license          <http://creativecommons.org/licenses/by-sa/4.0/> ;
+        dc:modified         "2015-09-02"^^xsd:date ;
+        foaf:primaryTopic   <http://gov.genealogy.net/SCHERGJO54EJ> .

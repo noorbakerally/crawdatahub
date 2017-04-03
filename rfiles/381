@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY courseware "http://courseware.rkbexplorer.com/ontologies/courseware#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:ns0="&ns0;"
+	xmlns:akt="&akt;"
+	xmlns:courseware="&courseware;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:26:10</dcterms:created>
+		<dc:source rdf:resource="http://curriculum.rkbexplorer.com/id/course-4.01"/>
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://curriculum.rkbexplorer.com/id/course-4.01">
+		<rdf:type rdf:resource="&courseware;Course"/>
+		<courseware:has-title>Advanced Probability and Statistics</courseware:has-title>
+		<courseware:has-author rdf:resource="http://curriculum.rkbexplorer.com/id/person-01af6173b9067d75d169d5fb3ab3a1c7"/>
+		<courseware:submitted-by rdf:resource="http://curriculum.rkbexplorer.com/id/person-7594d174d5510e546091f81c1da92357"/>
+		<courseware:number-of-credits>6</courseware:number-of-credits>
+		<courseware:course-objectives>The purpose of this course is to provide a methodical advanced background of probability, stochastic processes, and statistics needed to the students to address modelling and assessment issues in resilient computing.</courseware:course-objectives>
+		<courseware:detailed-description>
+Introduction
+    Discrete Random Variables
+    Continuous Random Variables
+    Expectation
+    Conditional Distribution and Expectation
+    Bayesian probability and inference
+    Stochastic Processes
+</courseware:detailed-description>
+		<courseware:has-courseware rdf:resource="http://curriculum.rkbexplorer.com/id/book-b445690de6c8322dc9ec559d866e39e2"/>
+		<courseware:has-courseware rdf:resource="http://curriculum.rkbexplorer.com/id/online-fc04561d9a538321ce293156fd91f66a"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Dependability-And-Security"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Dependability"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Dependence"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Attribute-Of-Dependable-Systems"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Availability"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Integrity"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Maintainability"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Reliability"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Safety"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Robustness"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Security"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Attribute-Of-Secure-Systems"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Confidentiality"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Means-To-Attain-Dependable-And-Secure-Systems"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Fault-Forecasting"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Ordinal-Evaluation"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Probabilistic-Evaluation"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Modelling"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Performability"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Dependability-And-Security-Benchmarks"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Fault-Tolerance"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Coverage"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Error-And-Fault-Handling-Coverage"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Failure-Mode-Coverage"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Assumption-Coverage"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Threats-To-Dependable-And-Secure-Systems"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Error-Consequences"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Minor-Error"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Catastrophic-Error"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Failure"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Failure-Consequence"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Catastrophic-Failure"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Minor-Failure"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#System-Boundaries"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Internal-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#External-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Phenomenological-Cause-Of-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Fault-Dimension"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Hardware-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Software-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Fault-Objective"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Malicious-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Malicious-Logic-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Trojan-Horse"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Logic-Bomb"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Trapdoor"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Virus"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Worm"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Zombie"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Intrusion-Attempt"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Non-Malicious-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Accidental-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Fault-Persistence"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Permanent-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Transient-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Physical-Fault"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Dependability-And-Security-Analysis"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Entity"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#System"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#System-Life-Cycle"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Development-Phase"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Use-Phase"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Service-Delivery"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Service-Outage"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Service-Shutdown"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Maintenance"/>
+		<akt:addresses-research-area rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#System-Boundary"/>
+		<akt:has-web-address rdf:resource="http://resist.isti.cnr.it/home.php?target=advanced"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://curriculum.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://curriculum.rkbexplorer.com/id/course-4.01"/>
+	</rdf:Description>
+</rdf:RDF>

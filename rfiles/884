@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:coo="http://purl.org/coo/ns/"
+    xmlns:db="http://greek-lod.math.auth.gr:2023/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:map="file:/C:/d2r-server-0.7/kalikratis.n3#"
+    xmlns:kalikratis="http://localhost:2020/kalikratis/resource/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xml:base="http://greek-lod.math.auth.gr:2023/" > 
+<rdf:Description rdf:about="municipalities/9024">
+    <dcterms:isPartOf rdf:resource="http://greek-lod.math.auth.gr/kalikratis/resource/regions/2"/>
+    <kalikratis:municipalities_regionLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Περιφέρεια Κεντρικής Μακεδονίας</kalikratis:municipalities_regionLabel>
+    <dcterms:isPartOf rdf:resource="http://greek-lod.math.auth.gr/kalikratis/resource/regional_units/201"/>
+    <kalikratis:municipalities_regional_unitLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Περιφερειακή Ενότητα Ημαθίας</kalikratis:municipalities_regional_unitLabel>
+    <dcterms:isPartOf rdf:resource="http://greek-lod.math.auth.gr/kalikratis/resource/decentralized_administrations/5"/>
+    <kalikratis:municipalities_decentralized_administrationLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Αποκεντρωμένη Διοίκηση Μακεδονίας – Θράκης</kalikratis:municipalities_decentralized_administrationLabel>
+    <foaf:mbox rdf:resource="mailto:veria@otenet.gr"/>
+    <kalikratis:municipalities_name_en>Veria</kalikratis:municipalities_name_en>
+    <kalikratis:municipalities_seat_en>Veria</kalikratis:municipalities_seat_en>
+    <rdfs:label>Δήμος Βέροιας</rdfs:label>
+    <kalikratis:municipalities_mayor>ΟΥΣΟΥΤΖΟΓΛΟΥ ΧΑΡΟΥΛΑ</kalikratis:municipalities_mayor>
+    <kalikratis:municipalities_name>Δήμος Βέροιας</kalikratis:municipalities_name>
+    <kalikratis:municipalities_code>9024</kalikratis:municipalities_code>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.202999</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.526054</geo:lat>
+    <kalikratis:municipalities_seat>Βέροια</kalikratis:municipalities_seat>
+    <kalikratis:municipalities_fax>23310-22330</kalikratis:municipalities_fax>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/organization"/>
+    <rdf:type rdf:resource="http://greek-lod.math.auth.gr/kalikratis/resource/municipalities"/>
+    <owl:sameAs rdf:resource="http://el.dbpedia.org/resource/Δήμος_Βέροιας"/>
+    <skos:hasTopConcept rdf:resource="http://el.dbpedia.org/resource/Κατηγορία:Καλλικρατικοί_δήμοι"/>
+    <foaf:homepage rdf:resource="http://www.veria.gr/"/>
+    <foaf:phone>23313-50500</foaf:phone>
+    <kalikratis:municipalities_historical_seat>Βεργίνα</kalikratis:municipalities_historical_seat>
+    <kalikratis:municipalities_address>ΜΗΤΡΟΠΟΛΕΩΣ 44</kalikratis:municipalities_address>
+    <foaf:phone>23313-50507</foaf:phone>
+    <gn:postalCode>59100</gn:postalCode>
+    <owl:sameAs rdf:resource="http://www.freebase.com/view/en/veria"/>
+  </rdf:Description>

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000016">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical trial</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trial</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdfs:label>Bortezomib and combination chemotherapy in treating younger patients with recurrent, refractory, or secondary acute myeloid leukemia</rdfs:label>
+	<has_intervention xmlns="http://eagle-i.org/ont/app/1.0/" rdf:resource="http://hawaii.eagle-i.net/i/00000131-6794-1a5c-107d-d35580000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/has_intervention">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000600">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug intervention</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/has_intervention">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention Type</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000600">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug intervention</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/has_intervention">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1a5c-107d-d35580000000">
+	<rdfs:label>Etoposide/cytarabine</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000600">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1a5c-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000600"/>
+	<rdfs:label>Etoposide/cytarabine</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000347">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1a5c-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000347"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">planned process</IAO_0000111>
+	<rdfs:label xml:lang="en">planned process</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1a5c-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+	<rdfs:label xml:lang="en">process</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1a5c-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+	<rdfs:label>occurrent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1a5c-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1a5c-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<has_intervention xmlns="http://eagle-i.org/ont/app/1.0/" rdf:resource="http://hawaii.eagle-i.net/i/00000131-678f-5610-107d-d35580000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000600">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug intervention</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug intervention</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-678f-5610-107d-d35580000000">
+	<rdfs:label>Bortezomib</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000600">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-678f-5610-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000600"/>
+	<rdfs:label>Bortezomib</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000347">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-678f-5610-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000347"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">planned process</IAO_0000111>
+	<rdfs:label xml:lang="en">planned process</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-678f-5610-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+	<rdfs:label xml:lang="en">process</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-678f-5610-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+	<rdfs:label>occurrent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-678f-5610-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-678f-5610-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<has_intervention xmlns="http://eagle-i.org/ont/app/1.0/" rdf:resource="http://hawaii.eagle-i.net/i/00000131-6794-1627-107d-d35580000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000600">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug intervention</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug intervention</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1627-107d-d35580000000">
+	<rdfs:label>Idarubicin/cytarabine</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000600">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1627-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000600"/>
+	<rdfs:label>Idarubicin/cytarabine</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000347">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervention</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1627-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000347"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">planned process</IAO_0000111>
+	<rdfs:label xml:lang="en">planned process</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1627-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+	<rdfs:label xml:lang="en">process</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1627-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+	<rdfs:label>occurrent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1627-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000131-6794-1627-107d-d35580000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://hawaii.eagle-i.net/i/00000130-a08a-0fe4-eee5-4adc80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-a08a-0fe4-eee5-4adc80000000">
+	<rdfs:label>Berenberg, Jeffrey</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<ERO_0000022 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://hawaii.eagle-i.net/i/00000130-b986-b5f0-eee5-4adc80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000022">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PI</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has PI</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_PI</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-b986-b5f0-eee5-4adc80000000">
+	<rdfs:label>Wilkinson, Robert, M.D.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<ERO_0000234 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/DOID_9119"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000234">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topic</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has topic</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_topic</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_9119">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute myeloid leukemia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<ERO_0000597 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://hawaii.eagle-i.net/i/00000130-b987-fc14-eee5-4adc80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000597">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funded by</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">funded by</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">funded_by</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-b987-fc14-eee5-4adc80000000">
+	<rdfs:label>Children's Oncology Group</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<ERO_0001518 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.org/net/OCRe/study_design.owl#Phase_2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001518">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/OCRe/study_design.owl#Phase_2">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase 2 clinical trial</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001518">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has phase</IAO_0000111>
+	<rdfs:label>has_phase</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/OCRe/study_design.owl#Phase_2">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<ERO_0001521 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://hawaii.eagle-i.net/i/00000130-492c-c443-cec9-714480000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001521">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/">Performed by</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human study performed by</IAO_0000111>
+	<rdfs:label>human_study_performed_by</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-492c-c443-cec9-714480000000">
+	<rdfs:label>Clinical Protocol &amp; Data Management Shared Resource</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<CTurl xmlns="http://eagle-i.org/ont/app/1.0/">http://www.clinicaltrial.gov/ct2/show/NCT00666588?term=Phase+II+Pilot+Study+of+Bortezomib+and+Reinduction+Chemotherapy+in+Younger+Patients+With+Recurrent%2C+Refractory%2C+or+Secondary+Acute+Myeloid+Leukemia&amp;rank=1</CTurl>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/CTurl">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClinicalTrials.gov url</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClinicalTrials.gov url</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTurl</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<ERO_0000480 xmlns="http://purl.obolibrary.org/obo/">http://www.cancer.gov/clinicaltrials/search/view?cdrid=660550&amp;version=healthprofessional</ERO_0000480>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000480">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Website(s)</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has URL</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_url</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<has_subject_area xmlns="http://eagle-i.org/ont/app/1.0/">antineoplastic combination chemotherapy</has_subject_area>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/has_subject_area">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Topic(s)</preferredLabel>
+	<rdfs:label>has_subject_area</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">The primary objectives of this study are to determine the toxicities and tolerability of bortezomib in combination with standard-relapse acute myeloid leukemia (AML) therapy (idarubicin/cytarabine or etoposide/high-dose cytarabine) in pediatric and young adult patients with relapsed or primary-refractory or secondary AML, and to estimate the complete response rate to the Arm A and Arm B regimens.
+
+This is a multicenter, dose-escalation study of bortezomib. Patients are stratified according to anthracycline-equivalent cumulative exposure (≤ 400 mg/m² vs &gt; 400 mg/m²). Patients are assigned to 1 of 2 groups.
+
+Group 1 (efficacy phase, patients with ≤ 400 mg/m² anthracycline-equivalent cumulative exposure): Patients receive idarubicin IV over 15 minutes on days 1-3, low-dose cytarabine IV continuously over days 1-7, and bortezomib IV on days 1, 4, and 8.
+
+Group 2 (dose-finding phase and efficacy phase, patients with &gt; 400 mg/m² anthracycline-equivalent cumulative exposure): Patients receive etoposide IV over 1 hour on days 1-5, high-dose cytarabine IV over 1 hour twice daily on days 1-5, and bortezomib IV on days 1, 4, and 8.
+    All patients receive intrathecal cytarabine prior to courses 1 and 2.
+
+In both arms, treatment repeats every 28 days for up to 2 courses in the absence of disease progression or unacceptable toxicity.
+
+After completion of study therapy, patients are followed periodically for at least 5 years.</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<synonym xmlns="http://eagle-i.org/ont/app/1.0/">Phase II Pilot Study of Bortezomib (PS-341, Velcade) Combined With Reinduction Chemotherapy in Children and Young Adults With Recurrent, Refractory or Secondary Acute Myeloid Leukemi</synonym>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/synonym">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Name</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eagle-i_synonym</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<ERO_0000424 xmlns="http://purl.obolibrary.org/obo/">90 males and females 1 to 21 years of age.</ERO_0000424>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000424">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study Population</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study population</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_study_population</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-22T20:25:42.899-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://hawaii.eagle-i.net/i/00000129-f7a5-c5a1-d8db-7bf880000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000129-f7a5-c5a1-d8db-7bf880000000">
+	<rdfs:label>awendicke (Annemarie Wendicke)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-23T10:52:44.509-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://hawaii.eagle-i.net/i/00000129-f7a5-c5ac-d8db-7bf880000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000129-f7a5-c5ac-d8db-7bf880000000">
+	<rdfs:label>mwilson (Melanie Wilson)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://hawaii.eagle-i.net/i/0000012b-2184-7fac-06c2-9c7f80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/0000012b-2184-7fac-06c2-9c7f80000000">
+	<rdfs:label>nvasilevsky</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/OCRe/research.owl#Interventional_study">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interventional study</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000014"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000014">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research project</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research project</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000015">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Study</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human study</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human study</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">planned process</IAO_0000111>
+	<rdfs:label xml:lang="en">planned process</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/OCRe/research.owl#Quantitative_human_study">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative human study</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+	<rdfs:label xml:lang="en">process</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+	<rdfs:label>occurrent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://hawaii.eagle-i.net/i/00000130-ba17-c839-eee5-4adc80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

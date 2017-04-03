@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://mulestable.net/user/18"></maker>
+  <primaryTopic rdf:resource="http://mulestable.net/user/18"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://mulestable.net/user/18">
+  <mbox_sha1sum>6c6616c6ad76b437c41ba822fb2cd06749a6271b</mbox_sha1sum>
+  <name>Mark Nordio</name>
+  <weblog rdf:resource="http://mulestable.net/nords"></weblog>
+  <account>
+   <OnlineAccount rdf:about="http://mulestable.net/user/18#acct">
+    <accountServiceHomepage rdf:resource="http://mulestable.net/"></accountServiceHomepage>
+    <accountName>nords</accountName>
+    <accountProfilePage rdf:resource="http://mulestable.net/nords"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://mulestable.net/user/18"></sioc:account_of>
+    <sioc:follows rdf:resource="http://mulestable.net/index.php/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <knows rdf:resource="http://mulestable.net/index.php/user/2"></knows>
+ </Agent>
+ <Agent rdf:about="http://mulestable.net/index.php/user/2">
+  <knows rdf:resource="http://mulestable.net/user/18"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://mulestable.net/index.php/user/2#acct">
+    <accountServiceHomepage rdf:resource="http://mulestable.net/"></accountServiceHomepage>
+    <accountName>stableboy</accountName>
+    <accountProfilePage rdf:resource="http://mulestable.net/stableboy"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://mulestable.net/index.php/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="http://mulestable.net/user/18#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://mulestable.net/stableboy/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://mulestable.net/stableboy/foaf">
+  <maker rdf:resource="http://mulestable.net/index.php/user/2"></maker>
+  <primaryTopic rdf:resource="http://mulestable.net/index.php/user/2"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://mulestable.net/index.php/user/3">
+  <account>
+   <OnlineAccount rdf:about="http://mulestable.net/index.php/user/3#acct">
+    <accountServiceHomepage rdf:resource="http://mulestable.net/"></accountServiceHomepage>
+    <accountName>sean</accountName>
+    <accountProfilePage rdf:resource="http://mulestable.net/sean"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://mulestable.net/index.php/user/3"></sioc:account_of>
+    <sioc:follows rdf:resource="http://mulestable.net/user/18#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://mulestable.net/sean/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://mulestable.net/sean/foaf">
+  <maker rdf:resource="http://mulestable.net/index.php/user/3"></maker>
+  <primaryTopic rdf:resource="http://mulestable.net/index.php/user/3"></primaryTopic>
+ </PersonalProfileDocument>
+</rdf:RDF>

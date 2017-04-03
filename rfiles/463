@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns3="http://eu.dbpedia.org/property/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:ns5="http://www.w3.org/ns/prov#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Rafael_Mendiluce">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Santi_Auzmendi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Agurne_Anasagasti">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ainhoa_Arteta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Aitzol_Aramaio">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alboka_(taldea)">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alex_Angulo">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alfredo_Landa">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Amets_Arzallus">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Anabel_Alonso">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Anastasio_Arrinda">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Andres_Urdaneta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Angel_Landa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Anje_Duhalde">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Anjel_Lertxundi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Anne_Igartiburu">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antonio_Maria_Labaien">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antton_Valverde">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Arantza_Quiroga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Arnaldo_Otegi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Arturo_Kanpion">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Aurelio_Arteta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Axular">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Balentin_Berriotxoa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Benito_Lertxundi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bernardo_Atxaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bernart_Etxepare">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bide_Ertzean">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bixente_Lizarazu">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Blas_Lezo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Carlos_Garaikoetxea_Urriza">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Carlos_Sobera">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Carmelo_Bernaola">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Cesar_Saratxu">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Cosme_Damian_Txurruka">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Dionisio_Txoperena">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Dolores_Ibarruri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/EH">
+    <dbpedia-owl:wikiPageDisambiguates rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Edurne_Pasaban">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eider_Rubio">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Emma_García">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eraikin_Singularra">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Errobi_(taldea)">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Erromintxel">
+    <dbpedia-owl:region rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euskal_Herria">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <rdfs:label xml:lang="eu">Euskal Herria</rdfs:label>
+    <rdfs:comment xml:lang="eu">Artikulu hau euskal herritarron herrialdeari buruzkoa da; beste esanahietarako, ikus «Euskal Herria (argipena)». Euskal Herria Europako herrialde bat da. Historikoki euskaldunen eta euskararen lurraldea da, Pirinio mendien mendebaldean kokatua, Frantzia eta Espainiaren arteko muga egiten duen mendilerroan, eta Bizkaiko golkorantz zabaltzen dena. Zazpi herrialde edo probintzia hauek barne hartzen ditu: Araba, Bizkaia, Gipuzkoa, Lapurdi, Nafarroa Beherea, Nafarroa Garaia eta Zuberoa.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://eu.dbpedia.org/resource/Kategoria:Euskal_Herria" />
+    <dcterms:subject rdf:resource="http://eu.dbpedia.org/resource/Kategoria:Euskal_Herriaren_izendapenak" />
+    <dcterms:subject rdf:resource="http://eu.dbpedia.org/resource/Kategoria:Europako_herriak" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Nafarroako_alderdi_politikoen_aurkibidea" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Nagusia" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Nabarmendutako_artikulua" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Estatugabe_infotaula" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Eu" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Kokapen_geografikoa" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Es" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Erreferentzia_zerrenda" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Europako_estaturik_gabeko_herrialdeak" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_hiri_handienak" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_eskualde_aurkibidea" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_lurralde_aurkibidea" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_atariak" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_hiriburuen_atariak" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Koord" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Argitzeko" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Sakontzeko" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Wikiztegia" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Fr" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Aipu" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_historia_aurkibidea" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_mitologia_aurkibidea" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskadiko_alderdi_politikoen_aurkibidea" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_autobide_aurkibidea" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_aireportu_aurkibidea" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Image_label_small" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Image_label_end" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:En" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Erdi-babestua" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Commonskat" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Atari" />
+    <ns3:wikiPageUsesTemplate rdf:resource="http://eu.dbpedia.org/resource/Txantiloi:Euskal_Herriko_ibilbide_luzeak" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.uema.org/" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.udalbiltza.net/" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.muturzikin.com/EHmapa38.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.muturzikin.com/carte.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.atlasa.net/" />
+    <dbpedia-owl:thumbnail rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Basque_Country.svg?width=300" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3367</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4739381</dbpedia-owl:wikiPageRevisionID>
+    <ns5:wasDerivedFrom rdf:resource="http://eu.wikipedia.org/wiki/Euskal_Herria?oldid=4739381" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://eu.wikipedia.org/wiki/Euskal_Herria" />
+    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Basque_Country.svg" />
+    <dbpedia-owl:abstract xml:lang="eu">Artikulu hau euskal herritarron herrialdeari buruzkoa da; beste esanahietarako, ikus «Euskal Herria (argipena)». Euskal Herria Europako herrialde bat da. Historikoki euskaldunen eta euskararen lurraldea da, Pirinio mendien mendebaldean kokatua, Frantzia eta Espainiaren arteko muga egiten duen mendilerroan, eta Bizkaiko golkorantz zabaltzen dena. Zazpi herrialde edo probintzia hauek barne hartzen ditu: Araba, Bizkaia, Gipuzkoa, Lapurdi, Nafarroa Beherea, Nafarroa Garaia eta Zuberoa. Guztira, Euskal Herriak 20.950,3 km² ditu, eta 3.005.670 bizilagun zituen 2006an.Iruñea hiriburutzat jo ohi da, arrazoi historikoak direla kausa, nahiz eta izendapen ofizialik ez den. Halaxe iritzi zion XVIII. mendearen hasieran Joanes Etxeberri Sarakoak: «Iruiñea eskualdunen hiri buruzagia».Euskal Herriko biztanleei euskal herritar edo —egun gutxiago erabiltzen den izena— euskotar deritze; lurraldeari izena eman dion hizkuntza dakitenei, berriz, euskaldun.</dbpedia-owl:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euskara">
+    <dbpedia-owl:region rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Fermin_Muguruza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Filomena_Matute_Merino">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Fito_Cabrales">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Flora_de_la_Torre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Francisca_García_Torres">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Frantzisko_Apalategi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Helena_Resano">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Hilarion_Eslaba">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Hiru_Truku">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ibon_Koteron">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ignacio_Ellakuria">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iker_Jiménez">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iker_Muniain">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Imanol_Elias">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Inazio_Eizmendi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Inozentzio_Olea">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iruñeko_Udala">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iruñeko_zitadela">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ixaka_Lopez">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Izatefaltsua">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iñaki_Perurena">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iñigo_Iturrate">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Javier_Armentia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Javier_Clemente">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jean_Haritxelhar">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jesus_Guridi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joan_Mari_Irigoien">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jorge_Oteiza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Antonio_Muñagorri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Gonzalo_Zulaika">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Manterola">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Maria_Bakero">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Maria_Belaustegigoitia">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Maria_Iparragirre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Migel_Barandiaran">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joseba_Elosegi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joxe_Azurmendi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Ajuriagerra_Otxandiano">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Sebastian_Elkano">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juanito_Oiarzabal">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Karlos_Argiñano">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Karmele_Errazti">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Karmele_Jaio">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Karra_Elejalde">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kategoria:Euskal_Herria">
+    <skos:subject rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kepa_Junkera">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kirmen_Uribe">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Koldo_Mitxelena">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kortatu">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Laura_Mintegi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Lazkao_Txiki">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Les_Mecaniciens">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Lope_Agirre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Lourdes_Iriondo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Luis_Mariano">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/M-ak">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Maider_Egues">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_Almunia">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_Iradier">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_Irujo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Maria_Otxoa_Laiana">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mariano_Izeta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Marie_Darrieussecq">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Marivi_Bilbao">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Marta_Etura">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Migel_Joakin_Eleizegi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mikel_Laboa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mikel_Urmeneta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mikel_Zalbide">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Miren_Ibarguren">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Montxo_Armendariz">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Morau_ta_Agotak">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nestor_Basterretxea">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Niko_Etxart">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Oier_Aizpurua">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Orixe">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Oskorri">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pedro_Miguel_Etxenike">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pedro_Vallana">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pernando_Amezketarra">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Piarres_Lartzabal">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pierre_Loti">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Plazida_Insausti">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Potato">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Rafael_Moreno">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramiro_Pinilla">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramon_Artola">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramón_García">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Resurreccion_Maria_Azkue">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Roberto_Laiseka">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Tasio_Erkizia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Telesforo_Monzón">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/The_Solanos">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Toti_Martinez_de_Lezea">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Txantxillo">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Txillardegi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Txomin_Artola">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/We_Are_Standard">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xabier_Gereño">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xabier_Lete">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xabier_Lizardi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xalbador">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Álex_de_la_Iglesia">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Adela_González">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Adela_Úcar">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ainhoa_Garmendia">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Aitor_Aldalur">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alain_Eizmendi">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alberto_López_Fernández">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alberto_Morgado_Liberal">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alejandro_Alberdi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ana_Blanco">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ana_Urrutia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Andoni_Arotzena">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Andrés_Espinosa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Angel_Sukia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Angel_Zabala">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antonina_de_los_Reyes_Erreka">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antonio_Soraluze">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antxon_Bandres">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Arantza_Sinobas">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Arkaitz_Pérez">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Aurora_Arnaiz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Begoña_del_Teso">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Blanca_Sarasua">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bruno_Oteiza">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Carlos_Etaio">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Carlos_Pumares">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Cecilia_García_Gilarte">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Consuelo_Herrera_Menta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Demetrio_Jauregialtzo_Albisu">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Diego_Borika">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Domingo_Martinez_de_Irala">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Domingo_Unanue">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eduardo_Iturralde">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/El_Drogas">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eneko_Eizmendi">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eroritakoen_monumentua_(Iruñea)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Esne_Beltza">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eugenio_Imatz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euken_Ostolaza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Felix_Arkarazo">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Fernando_Mendizabal">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Foruen_monumentua">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Francisco_Ibarra">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Frantzisko_Xabier_Mina">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Félix_Linares">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/George_Gissing">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Gladys_del_Estal">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Goizuetako_eliza">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:location rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Goizuetako_udaletxea">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:location rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Goizuetako_zubia">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:location rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Imanol_Plaza">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Inazio_Mari_Atxukarro">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iosu_Esnaola">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iosu_Ozkoidi">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iruñeko_planetarioa">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Isidro_Ansorena">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iñaki_Alkiza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iñigo_Rodríguez">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iñigo_Segurola">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Javier_Gurrutxaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Javier_Ros">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jean_Laffite">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jesus_Altuna">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jesus_Aranguren">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joan_Areitzaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joanes_Antxieta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joaquin_Laria">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joaquín_Luqui">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jon_Errasti">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jorge_González_Aranguren">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Aranburu_Aramendi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Bizente_Etxegarai">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Ignazio_Orbegozo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Luis_Orbegozo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joseba_Beitia">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Josefa_Molera">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Josu_Urrutia">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/José_Fernández_de_la_Sota">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/José_Sanjurjo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joxemari_Mendizabal">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Arza">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Carlos_Egillor">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_María_Amiano">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juana_Tejedor_Garrastazu">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Julen_Castañeda">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Julen_Colinas">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kepa_Derteano">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kristian_Pielhoff">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kristobal_Oñate">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/La_Orquesta_Mondragón">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Leire_Martínez">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Leire_Salaberria">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Lezo_Urreztieta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Luis_Arana_Goiri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Luis_Pedro_Peña_Santiago">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Maite_Esparza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_Egileor">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_de_la_Sota">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mari_Abrego">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Maria_Jesus_Esteban">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Martxel_Tillous">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mikel_Orbegozo">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Miren_Leanizbarrutia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nemesio_Otaño">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nikolas_Lekuona">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pablo_González_de_Langarika">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pablo_Gorosabel">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Patxi_Astibia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pedro_Mari_Zabalza">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pedro_Ziga_Maio">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pierre_Laffite">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pilar_Zubiaurre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Polentzi_Gezala">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pomada_(musika_taldea)">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Raimundo_Sarriegi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramon_Latasa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramon_de_la_Sota">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramón_Trecet">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Remedios_Ultra_Lacruz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Resurrección_Hernández_Gil">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Roge_Blasco">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Rubén_Ruiz_Ibarruri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Serafín_Zubiri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Tachia_Quintanar">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Telesforo_Aranzadi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Telmo_Aldaz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Teresa_Mendizabal">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Tomas_Bilbao">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Tres_Reyes_hotela">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Txomin_Ziluaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Txumari_Alfaro">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xabi_Aburruzaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xabier_Otaegi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Zeferino_Jemein">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Zuhaitz_Gurrutxaga">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Óscar_de_Paula">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Amaia_Montero">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Amaia_Zubiria">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antonia_Anaut">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ate_berria">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Frantziako_atea">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Gatillazo">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iñaki_Pikabea">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Josetxo_Lizartza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/José_Arrue">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Antonio_Urbeltz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Jose_Narbaiza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Karlos_III.a_hiribidea">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Lucien_Lelong">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Martin_Garziarena">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Migel_Irazusta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mikel_Markez">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mixel_Thikoipe">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nafarreria_kalea">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nafarroako_Comptos_Ganbera_(egoitza)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nafarroako_errege-erreginen_jauregia">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nafarroako_jauregia">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/San_Nikolas_eliza_(Iruñea)">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Seber_Ormaza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Serge_Smulevic">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/The_Kagas">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/The_Meas">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/The_Uski&#39;s">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Txan_magoa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Txarango_(musika_taldea)">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ubaldo_Uhalde">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alain_Oiartzun">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antonio_Izagirre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antxon_Agirre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Carlos_París">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/César_Azkarate">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Estafetako_bihurgunea">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Feliciano_Beobide">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Fernando_Telletxea">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Goienetxe_jauregia_(Iruñea)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Gonzalo_Goikoetxea">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Gregorio_Maidagan">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iruñeko_Gotzain_Jauregia">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Isidoro_Gaztañaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jesus_Morras_Santamaria">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Maria_Garate">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/José_Luis_Etxebarria_Goiri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joxe_Jabier_Uresberueta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kondestablearen_jauregia">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/La_Agrícola_eraikina">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Leon_Lasa">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Merkatarien_kalea_(Iruñea)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pako_Iriondo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/San_Agustin_eliza_(Iruñea)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/San_Lorentzo_eliza_(Iruñea)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Santo_Domingo_eliza_(Iruñea)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Adolfo_Arejita">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Aitor_Francos">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Alipio_Larrauri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antonio_Arroyo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antonio_Maria_Uranga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Antonio_Oliden">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Asier_Zurinaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Baionako_zitadela">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Batista_Oliden">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bernard_Delhom">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bianako_Printzearen_plaza">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bibiano_Etxabe">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bienvenido_Zilbeti_Urkia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Boni_Fernandez">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Bruno_Hezeta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Buenaventura_Zapirain">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Carmen_Baroja">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Claudio_Etxeberria">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/David_Olaizola">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Diego_Vasallo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Dj_Makala">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Dolores_Redondo">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Domingo_Mitxelena">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Dominika_Etxart">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eduardo_Arriaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eli_Tolaretxipi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Elvira_Azkarate_Etxebarria">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Estanislao_Arantzadi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Faustino_Azpiazu">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Felix_Arteta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Foruen_plaza_(Iruñea)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Frantzisko_Arregi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Frantzisko_Zubiaurre_%22Kiriko%22">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Gotzon_Bidaurratzaga_Lazpita">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Idoia_Agirre">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ignacio_Rotaetxe">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ignacio_Untzeta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Inazio_Sarasua">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Irene_Paredes">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Izortz_Zabala">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iñaki_Beti">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iñaki_Garmendia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jan_Piarre_Soudre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Javier_Eskalza">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jesus_Doxandabaratz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jesus_Solaun">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jon_Manteca">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Angel_Ascunce">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Angel_Lujanbio">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Arrandiaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Ignacio_Olaizola">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Juan_Santesteban">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Luis_Orella">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Maria_Knörr">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joseba_Amunarriz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Josu_Bereziartua">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/José_Antonio_Gasca">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/José_Juan_Bautista_Merino_Urrutia">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joxe_Aierbe">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joxe_Mari_Soraluze">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joxe_Mari_Urbieta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joxe_Ramon_Agirre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Joxe_Urbieta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Antonio_Usparitza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Carlos_Fontan">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Carlos_Unzue">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Lizarralde_%22Altxerri%22">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Mari_Larrañaga_%22Txiki%22">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Mari_Lujanbio">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Maria_Urdangarin">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Ramon_Viles">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_Thalamas_Labandibar">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juanjo_Mena">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Julen_Rodriguez_Zubiaurre">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Julia_Otxoa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Karmele_Esnal">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kaxildo_Alkorta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Koldo_Urtiaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Lino_Plaza">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Luis_Karril">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_Arantzadi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_Arrillaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_Melchor_Irure">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manuel_Olaizola_Lertxundi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Maria_Dolores_Fernández_Prados">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Martin_Oihartzabal">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Maurice_Abeberri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Maurizio_Elizalde">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Merindadeen_plaza">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Michel_Sendrez">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mikel_Azpiroz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mikel_Isasi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mikel_Olaziregi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Miren_Etxezarreta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nagore_Osoro">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nikolas_Soraluze">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nikolasa_Atxika-Allende">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Norberto_Torres">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Olatz_Aldalur">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pedro_Ispizua">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pedro_Soraluze">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Pilar_Prieto_Rubio">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Rafael_Pikabea">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramon_Bikuña">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramon_Roteta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramon_Zubizarreta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramon_de_la_Sota_Aburto">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Rodeznoko_Kondearen_plaza">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Rufino_Arrola">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Sabin_Zubiri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Santiago_Alda">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Txema_Vitoria">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Unai_Emery">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Urko_Aristi">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Vicente_Larrinaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Victor_Eusa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xabier_Alvarez_de_Eulate">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xabier_Eskurza">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xebe_Diez">
+    <dbpedia-owl:birthPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xutik!">
+    <dbpedia-owl:hometown rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ziriako_Llodio">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Álvaro_de_Laiglesia">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euskal_Herria_(argipena)">
+    <dbpedia-owl:wikiPageDisambiguates rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ricardo_Becerro_de_Bengoa">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euskal_Herri">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euskal_herri">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euskal_herria">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euskalerria">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Oier_Sanjurjo">
+    <dbpedia-owl:country rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org:81/data/Euskal_Herria.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+    <foaf:primaryTopic rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Eli_Gallastegi">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Euskal_herritar">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Miguel_Beñaran_«Argala»">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Kandido_Saseta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Manu_Leguineche">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Martín_Fiz">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Jose_Luis_Oriol">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Ramon_Goikoetxea">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Rikardo_Ugarte">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.wikipedia.org/wiki/Euskal_Herria">
+    <foaf:primaryTopic rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Koldo_Zabala">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Xabier_Aranburu_Sagarzazu">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Juan_José_Benítez">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Banco_de_España_eraikina_(Iruñea)">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Carlos_Blanco_Aginaga">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Concha_Chaos">
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Gorka_Aranberri">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Inder_Paredes">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Iruñeko_Pablo_Sarasate_Musika_Kontserbatorio_Profesionala">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/La_Perla_hotela">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Mari_Karmen_Alzueta">
+    <dbpedia-owl:citizenship rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:deathPlace rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+    <dbpedia-owl:nationality rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nafarroako_Filmoteka">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Nafarroako_Liburutegia">
+    <dbpedia-owl:city rdf:resource="http://eu.dbpedia.org/resource/Euskal_Herria" />
+  </rdf:Description>
+</rdf:RDF>

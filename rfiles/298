@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/net/provenance/ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.1="http://art.uniroma2.it/ontologies/vocbench#"
+    xmlns:j.2="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:j.3="http://rdfs.org/ns/void#"
+    xmlns:j.4="http://purl.org/dc/terms/"
+    xmlns:j.5="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.6="http://spinrdf.org/sp#"
+    xmlns:j.7="http://purl.org/net/provenance/types#"
+    xmlns:j.8="http://aims.fao.org/aos/agrontology#"
+    xmlns:j.9="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <j.5:Concept rdf:about="http://aims.fao.org/aos/agrovoc/c_2724">
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_sk_1299522426263"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_cs_1299522425501"/>
+    <j.4:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2015-08-18T21:42:10Z</j.4:modified>
+    <j.5:narrower rdf:resource="http://aims.fao.org/aos/agrovoc/c_2448"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ja_1299522425931"/>
+    <j.5:exactMatch rdf:resource="http://id.loc.gov/authorities/sh85045631#concept"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_pl_1299522426037"/>
+    <j.5:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/2992"/>
+    <j.5:exactMatch rdf:resource="http://stitch.cs.vu.nl/vocabularies/rameau/ark:/12148/cb11931301w"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_en_1299522425539"/>
+    <j.5:exactMatch rdf:resource="http://zbw.eu/stw/descriptor/16815-3"/>
+    <j.5:prefLabel xml:lang="cs">Evropa</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="mo">Europa</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="it">Europa</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="es">Europa</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="pt">Europa</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="de">Europa</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="pl">Europa</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="fr">Europe</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="en">Europe</j.5:prefLabel>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ko_1299522425963"/>
+    <j.5:prefLabel xml:lang="ja">ヨーロッパ</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="lo">ເອີຣົບ</j.5:prefLabel>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ru_1299522426110"/>
+    <j.5:exactMatch rdf:resource="http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Europe"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_es_1299522425560"/>
+    <j.5:exactMatch rdf:resource="http://eurovoc.europa.eu/909"/>
+    <j.5:prefLabel xml:lang="fa">اروپا</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="te">ఐరోపా</j.5:prefLabel>
+    <j.1:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Published</j.1:hasStatus>
+    <j.5:prefLabel xml:lang="tr">Avrupa</j.5:prefLabel>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_it_1299522425902"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_pt_1299522426073"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_zh_1299522426344"/>
+    <j.4:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2012-02-03T16:32:29Z</j.4:created>
+    <j.5:narrower rdf:resource="http://aims.fao.org/aos/agrovoc/c_29176"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_hu_1299522425874"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_te_2724_1328257949280"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_fa_1299522425800"/>
+    <j.5:exactMatch rdf:resource="http://lod.nal.usda.gov/nalt/5987"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_mo_f7e8f9e7"/>
+    <j.8:isPartOfSubvocabulary rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Geographical above country level</j.8:isPartOfSubvocabulary>
+    <j.5:prefLabel xml:lang="hu">Európa</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="sk">Európa</j.5:prefLabel>
+    <j.5:narrower rdf:resource="http://aims.fao.org/aos/agrovoc/c_1385366309787"/>
+    <j.5:narrower rdf:resource="http://aims.fao.org/aos/agrovoc/c_8364"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_th_1299522426302"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_tr_2724_1321790919422"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_lo_1299522425997"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_hi_1299522425849"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_de_1299522425520"/>
+    <j.8:spatiallyIncludes rdf:resource="http://aims.fao.org/aos/agrovoc/c_2726"/>
+    <j.5:broader rdf:resource="http://aims.fao.org/aos/agrovoc/c_2723"/>
+    <j.5:exactMatch rdf:resource="http://cat.aii.caas.cn/concept/c_33872"/>
+    <j.5:closeMatch rdf:resource="http://dbpedia.org/resource/Europe"/>
+    <j.5:prefLabel xml:lang="ru">европа</j.5:prefLabel>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_fr_1299522425826"/>
+    <j.5:prefLabel xml:lang="hi">यूरोप</j.5:prefLabel>
+    <j.3:inDataset rdf:resource="http://aims.fao.org/aos/agrovoc/void.ttl%23Agrovoc"/>
+    <j.5:prefLabel xml:lang="zh">欧洲</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="th">ยุโรป</j.5:prefLabel>
+    <j.5:prefLabel xml:lang="ar">أوروبا</j.5:prefLabel>
+    <j.5:inScheme rdf:resource="http://aims.fao.org/aos/agrovoc"/>
+    <j.9:prefLabel rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ar_1299522425484"/>
+    <j.5:prefLabel xml:lang="ko">유럽</j.5:prefLabel>
+  </j.5:Concept>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/data/c_2724?output=xml">
+    <rdfs:label>RDF description of c_2724</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://aims.fao.org/aos/agrovoc/c_2724"/>
+  </rdf:Description>
+  <j.2:Graph rdf:nodeID="A0">
+    <j.0:createdBy>
+      <j.0:DataCreation>
+        <j.0:usedData>
+          <j.2:Graph>
+            <j.0:createdBy>
+              <j.7:QueryExecution>
+                <j.0:usedGuideline>
+                  <j.6:Describe>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DESCRIBE &lt;http://aims.fao.org/aos/agrovoc/c_2724&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+                  </j.6:Describe>
+                </j.0:usedGuideline>
+                <j.0:usedData rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc"/>
+                <j.0:performedBy>
+                  <j.7:DataCreatingService rdf:nodeID="A1">
+                    <rdfs:seeAlso rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc"/>
+                  </j.7:DataCreatingService>
+                </j.0:performedBy>
+              </j.7:QueryExecution>
+            </j.0:createdBy>
+            <j.0:retrievedBy>
+              <j.0:DataAccess>
+                <j.0:accessedService rdf:nodeID="A1"/>
+                <j.0:performedBy>
+                  <j.0:DataProvidingService rdf:nodeID="A2">
+                    <rdfs:seeAlso rdf:resource="http://aims.fao.org/aos/"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#DataCreatingService"/>
+                  </j.0:DataProvidingService>
+                </j.0:performedBy>
+                <j.0:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2017-04-02T16:26:28.895Z</j.0:performedAt>
+              </j.0:DataAccess>
+            </j.0:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+          </j.2:Graph>
+        </j.0:usedData>
+        <j.0:performedBy rdf:nodeID="A2"/>
+        <j.0:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-04-02T16:26:28.895Z</j.0:performedAt>
+      </j.0:DataCreation>
+    </j.0:createdBy>
+    <foaf:topic rdf:nodeID="A0"/>
+    <foaf:primaryTopic rdf:resource="http://aims.fao.org/aos/agrovoc/c_2724"/>
+  </j.2:Graph>
+</rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl='http://www.w3.org/2002/07/owl#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:loius='http://sw.unime.it/loius/schema/'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+  xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+>
+  <loius:Faculty rdf:about="http://sw.unime.it/loius/dimension/faculty/143">
+    <dc:title xml:lang="it">Universita' degli studi di Verona, Facolta' Scienze Motorie</dc:title>
+    <rdfs:label xml:lang="it">Universita' degli studi di Verona, Facolta' Scienze Motorie</rdfs:label>
+    <owl:sameas rdf:resource="http://sw.unime.it/swiup/resource/univr/scienze_motorie"/>
+  </loius:Faculty>
+</rdf:RDF>

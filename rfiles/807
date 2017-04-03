@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:foaf="&foaf;"
+	xmlns:akt="&akt;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:34:11</dcterms:created>
+		<dc:source rdf:resource="http://digitaleconomy.rkbexplorer.com/id/person-J.G.Lumby"/>
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://digitaleconomy.rkbexplorer.com/id/person-J.G.Lumby">
+		<akt:has-affiliation rdf:resource="http://digitaleconomy.rkbexplorer.com/id/unit-1811704d9a04e02cab3f8d0824c8b01d"/>
+		<foaf:homepage>http://www.multidisciplinary.soton.ac.uk/profile/J.G.Lumby/</foaf:homepage>
+		<foaf:familyName>Lumby</foaf:familyName>
+		<foaf:givenName>Jacky</foaf:givenName>
+		<foaf:name>Jacky Lumby</foaf:name>
+	</rdf:Description>
+</rdf:RDF>

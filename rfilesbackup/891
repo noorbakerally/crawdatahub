@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns7="http://www.rechercheisidore.fr/property/"
+	xmlns:ore="http://www.openarchives.org/ore/terms/" >
+  <rdf:Description rdf:about="http://orcid.org/0000-0002-9619-1002">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+    <owl:sameAs rdf:resource="http://isni.org/isni/0000000416375245" />
+    <owl:sameAs rdf:resource="http://www.idref.fr/197349692" />
+    <owl:sameAs rdf:resource="https://cv.archives-ouvertes.fr/stephanepouyllau" />
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/304925076" />
+    <foaf:name>pouyllau, stéphane</foaf:name>
+    <foaf:name>Pouyllau, Stéphane</foaf:name>
+    <foaf:name>POUYLLAU, Stéphane</foaf:name>
+    <foaf:name>POUYLLAU, Stephane</foaf:name>
+    <foaf:givenName>stéphane</foaf:givenName>
+    <foaf:givenName>Stéphane</foaf:givenName>
+    <foaf:givenName>Stephane</foaf:givenName>
+    <foaf:familyName>POUYLLAU</foaf:familyName>
+    <foaf:familyName>Pouyllau</foaf:familyName>
+    <foaf:familyName>pouyllau</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rechercheisidore.fr/resource/10670/1.f2v6vz">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation" />
+    <rdf:type rdf:resource="http://www.rechercheisidore.fr/class/BibliographicalResource" />
+    <rdfs:seeAlso rdf:resource="http://www.rechercheisidore.fr/resource/10670/1.wvbyso" />
+    <dc:description xml:lang="fr">Gare de Djibouti (chemin de fer Djibouto-Ethiopien). Composée de deux bâtiments principaux, l&#39;un administratif, l&#39;autre dédié aux voyageurs, elle est située dans l&#39;agglomération de Djibouti. Au coeur de la ville de Djibouti, la gare est un lieu social important pour les populations urbaines de Djibouti.</dc:description>
+    <dc:language></dc:language>
+    <dc:date>2009-11-12</dc:date>
+    <dc:rights>http://creativecommons.org/licenses/by-sa/</dc:rights>
+    <dc:source>Photography. http://hdl.handle.net/10670/1.f2v6vz, Djibouti, Djibouti. 2009</dc:source>
+    <dc:source>https://medihal.archives-ouvertes.fr/medihal-00617651</dc:source>
+    <dc:type>Photos</dc:type>
+    <dc:type>info:eu-repo/semantics/other</dc:type>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-11-12T00:00:00</dcterms:date>
+    <dcterms:provenance rdf:resource="https://medihal.archives-ouvertes.fr" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85137170" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb11955444t" />
+    <dcterms:subject rdf:resource="http://datos.bne.es/resource/XX527130" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb119308418" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh00005919" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb11971502m" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh99004819" />
+    <dcterms:subject rdf:resource="http://ark.frantiq.fr/ark:/26678/pcrtzQcj7ySt1K" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/8834" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/8563" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/544" />
+    <dcterms:subject rdf:resource="http://datos.bne.es/resource/XX527140" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb12540479h" />
+    <dcterms:subject rdf:resource="http://datos.bne.es/resource/XX532326" />
+    <dcterms:subject rdf:resource="http://ark.frantiq.fr/ark:/26678/pcrthOtrQhBIUG" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb11933792m" />
+    <dcterms:subject rdf:resource="http://ark.frantiq.fr/ark:/26678/pcrtPZB1uLhkJZ" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb11956587m" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh99004820" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb11933740c" />
+    <dcterms:subject rdf:resource="http://GeoEthno#DJIBOUTI" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh99003907" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/8606" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85110904" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb133184590" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/8073" />
+    <dcterms:subject rdf:resource="http://GeoEthno#ETHIOPIE" />
+    <dcterms:subject rdf:resource="http://ark.frantiq.fr/ark:/26678/pcrtPPPS9ErMrW" />
+    <dcterms:subject rdf:resource="http://datos.bne.es/resource/XX527053" />
+    <dcterms:subject rdf:resource="http://datos.bne.es/resource/XX524677" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85026130" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb11932646x" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb119311736" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb122687226" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85059633" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh96010384" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/8820" />
+    <dcterms:subject rdf:resource="http://ark.frantiq.fr/ark:/26678/pcrtijLWlSgWtZ" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85002183" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/1421" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/8797" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb119440955" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/170" />
+    <dcterms:subject rdf:resource="http://ark.frantiq.fr/ark:/26678/pcrtIRH5iJi8zy" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/11269" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb11934482q" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/3646" />
+    <dcterms:subject rdf:resource="http://datos.bne.es/resource/XX4576342" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85141338" />
+    <dcterms:subject rdf:resource="http://ark.frantiq.fr/ark:/26678/pcrtN5zGcqx0YR" />
+    <dcterms:subject rdf:resource="http://GeoEthno#AFRIQUE" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh99001412" />
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb11977149m" />
+    <dcterms:subject rdf:resource="http://GeoEthno#VILLE_DE_DJIBOUTI" />
+    <dcterms:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/1065" />
+    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85028954" />
+    <dcterms:creator rdf:resource="http://orcid.org/0000-0002-9619-1002" />
+    <dc:publisher rdf:nodeID="b8191788" />
+    <dcterms:type rdf:resource="http://www.rechercheisidore.fr/ontology#other" />
+    <dcterms:type rdf:resource="http://www.rechercheisidore.fr/ontology#image" />
+    <sioc:topic rdf:resource="http://aurehal.archives-ouvertes.fr/subject/shs.anthro-se" />
+    <sioc:topic rdf:resource="http://aurehal.archives-ouvertes.fr/subject/shs.geo" />
+    <sioc:topic rdf:resource="http://aurehal.archives-ouvertes.fr/subject/shs.hist" />
+    <dcterms:coverage rdf:resource="http://sws.geonames.org/6255146/" />
+    <dcterms:coverage rdf:resource="http://sws.geonames.org/223817/" />
+    <dcterms:coverage rdf:resource="http://sws.geonames.org/223816/" />
+    <dcterms:coverage rdf:resource="http://sws.geonames.org/337996/" />
+    <dcterms:identifier>https://medihal.archives-ouvertes.fr/medihal-00617651</dcterms:identifier>
+    <dcterms:identifier>10670/1.f2v6vz</dcterms:identifier>
+    <dc:contributor rdf:nodeID="b8191787" />
+    <ns7:scope rdf:resource="http://www.rechercheisidore.fr/subject/primaires" />
+    <dcterms:title>République de Djibouti : gare ferroviaire de Djibouti</dcterms:title>
+    <ore:isAggregatedBy rdf:resource="http://www.rechercheisidore.fr/resource/10670/2.hlil75" />
+    <dc:subject xml:lang="fr">géographie</dc:subject>
+    <dc:subject xml:lang="fr">gare ferroviaire</dc:subject>
+    <dc:subject xml:lang="fr">chemins de fer</dc:subject>
+    <dc:subject xml:lang="fr">population urbaine</dc:subject>
+    <dc:subject xml:lang="fr">marchandises</dc:subject>
+    <dc:subject xml:lang="fr">urbanisation</dc:subject>
+    <dc:subject xml:lang="fr">Éthiopie</dc:subject>
+    <dc:subject xml:lang="fr">Afrique de l&#39;Est</dc:subject>
+    <dc:subject xml:lang="fr">commerce</dc:subject>
+    <dc:subject xml:lang="fr">train</dc:subject>
+    <dc:subject xml:lang="fr">ville</dc:subject>
+    <dc:subject xml:lang="fr">Djibouti</dc:subject>
+    <dc:subject xml:lang="">[SHS.ANTHRO-SE] Humanities and Social Sciences/Social Anthropology and ethnology</dc:subject>
+    <dc:subject xml:lang="fr">transports ferroviaires</dc:subject>
+    <dc:subject xml:lang="fr">zone ferroviaire</dc:subject>
+    <dc:subject xml:lang="">[SHS.GEO] Humanities and Social Sciences/Geography</dc:subject>
+    <dc:subject xml:lang="fr">zone urbaine</dc:subject>
+    <dc:subject xml:lang="fr">Afrique</dc:subject>
+    <dc:coverage>Djibouti, Djibouti</dc:coverage>
+    <ore:aggregates rdf:resource="https://medihal.archives-ouvertes.fr/medihal-00617651/image" />
+    <ore:aggregates rdf:resource="https://medihal.archives-ouvertes.fr/medihal-00617651" />
+    <ore:aggregates rdf:resource="https://medihal.archives-ouvertes.fr/medihal-00617651/file/DEV-N33456_2009-11.jpg" />
+    <ore:similarTo rdf:resource="http://www.rechercheisidore.fr/medihal-00617651" />
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b8191787">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+    <foaf:name>Centre national pour la numérisation de sources visuelles (CN2SV) ; Centre National de la Recherche Scientifique (CNRS)</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b8191788">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+    <foaf:name>HAL CCSD</foaf:name>
+  </rdf:Description>
+</rdf:RDF>

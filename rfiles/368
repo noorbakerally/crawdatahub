@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://status.otbm.fr/index.php/user/1"></maker>
+  <primaryTopic rdf:resource="http://status.otbm.fr/index.php/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://status.otbm.fr/index.php/user/1">
+  <name>enky</name>
+  <weblog rdf:resource="http://status.otbm.fr/index.php/enky"></weblog>
+  <img>
+   <Image rdf:about="http://status.otbm.fr/avatar/1-300-20160105224649.jpeg">
+    <thumbnail>
+     <Image rdf:about="http://status.otbm.fr/avatar/1-96-20160105224649.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.otbm.fr/avatar/1-48-20160105230906.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.otbm.fr/avatar/1-24-20160105230906.jpeg"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://status.otbm.fr/index.php/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://status.otbm.fr/"></accountServiceHomepage>
+    <accountName>enky</accountName>
+    <accountProfilePage rdf:resource="http://status.otbm.fr/index.php/enky"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.otbm.fr/index.php/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.imirhil.fr/index.php/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://status.vinilox.eu/user/120531#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://gnusocial.de/user/214170#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://status.imirhil.fr/index.php/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://status.imirhil.fr/index.php/user/1#acct">
+    <accountName>aeris</accountName>
+    <accountProfilePage rdf:resource="https://status.imirhil.fr/aeris"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.imirhil.fr/index.php/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://status.vinilox.eu/user/120531">
+  <account>
+   <OnlineAccount rdf:about="https://status.vinilox.eu/user/120531#acct">
+    <accountName>tcit</accountName>
+    <accountProfilePage rdf:resource="https://status.vinilox.eu/tcit"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.vinilox.eu/user/120531"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/214170">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/214170#acct">
+    <accountName>amarok</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/amarok"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/214170"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.se/user/158373">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.se/user/158373#acct">
+    <accountName>thequittist</accountName>
+    <accountProfilePage rdf:resource="https://quitter.se/thequittist"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.se/user/158373"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.otbm.fr/index.php/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

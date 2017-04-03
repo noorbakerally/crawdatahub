@@ -1,0 +1,22 @@
+@prefix void:	<http://rdfs.org/ns/void#> .
+@prefix individuo:	<http://www.cnr.it/ontology/cnr/individuo/> .
+<http://data.cnr.it/dataset/>	void:exampleResource	individuo:CNR .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns3:	<http://data.cnr.it/dataset/> .
+ns3:prodotti	dc:publisher	individuo:CNR .
+ns3:persone	dc:publisher	individuo:CNR .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix persone:	<http://www.cnr.it/ontology/cnr/persone.owl#> .
+individuo:CNR	rdf:type	persone:Organizzazione .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+individuo:CNR	rdf:type	foaf:Organization .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+individuo:CNR	rdfs:label	"Italian National Research Council"@en ,
+		"Consiglio Nazionale delle Ricerche"@it .
+@prefix suddivisioni:	<http://www.cnr.it/ontology/cnr/suddivisioni.owl#> .
+individuo:CNR	suddivisioni:haParte	individuo:retescientifica ;
+	foaf:logo	"//www.cnr.it/documenti/logo/logo.zip" ;
+	foaf:homepage	"//www.cnr.it" .
+ns3:ricerca	dc:publisher	individuo:CNR .
+individuo:retescientifica	suddivisioni:parteDi	individuo:CNR .
+ns3:strutture	dc:publisher	individuo:CNR .

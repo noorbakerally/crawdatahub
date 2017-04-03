@@ -1,0 +1,601 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix fmt: <http://www.w3.org/ns/formats/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix iso: <http://purl.org/iso25964/skos-thes#> .
+@prefix luc: <http://www.ontotext.com/owlim/lucene#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rrx: <http://purl.org/r2rml-ext/> .
+@prefix schema: <http://schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vdpp: <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wv: <http://vocab.org/waiver/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tgn:7002252 a gvp:Subject , skos:Concept , gvp:AdminPlaceConcept ;
+	rdfs:label "Berea" , "Ḥalab" , "Halman" , "Halab" , "Haleb" , "Halep" , "حلب" , "Aleppo"@en , "Alep" , "Beroea" , "Aleppe" , "Yamkhad" , "Madīnat Ḩalab" , "Halapa" , "Chalybon" , "Khalepion" ;
+	rdfs:seeAlso <http://www.getty.edu/vow/TGNFullDisplay?find=&place=&nation=&subjectid=7002252> ;
+	dct:created "1991-09-13T06:28:00"^^xsd:dateTime ;
+	dct:modified "2014-07-26T08:32:06"^^xsd:dateTime , "2016-02-23T13:48:35"^^xsd:dateTime , "2016-03-30T14:22:14"^^xsd:dateTime , "2014-07-04T21:46:08"^^xsd:dateTime , "2014-07-26T08:32:05"^^xsd:dateTime , "2014-07-26T08:35:38"^^xsd:dateTime , "2016-02-23T13:57:33"^^xsd:dateTime , "2016-02-23T13:57:34"^^xsd:dateTime , "2014-07-26T08:35:37"^^xsd:dateTime , "2015-05-21T11:16:46"^^xsd:dateTime ;
+	skos:changeNote tgn_rev:5000036050 , tgn_rev:5019044159 , tgn_rev:5022662263 , tgn_rev:5026042837 , tgn_rev:5019033264 , tgn_rev:5022662261 , tgn_rev:5019044150 , tgn_rev:5019044153 , tgn_rev:5019044161 , tgn_rev:5019044168 , tgn_rev:5019044170 , tgn_rev:5019044176 , tgn_rev:5022662267 , tgn_rev:5022662277 , tgn_rev:5019044145 , tgn_rev:5019044160 , tgn_rev:5020867728 , tgn_rev:5022662260 , tgn_rev:5022662266 , tgn_rev:5026042836 ;
+	gvp:broader tgn:1002052 ;
+	gvp:broaderPartitiveExtended tgn:6000039 , tgn:1000004 , tgn:1002052 , tgn:7001526 , tgn:1000140 , tgn:7029392 ;
+	gvp:broaderExtended tgn:6000039 , tgn:1000004 , tgn:1002052 , tgn:7001526 , tgn:1000140 , tgn:7029392 ;
+	gvp:broaderPreferredExtended tgn:1000004 , tgn:1002052 , tgn:1000140 , tgn:7029392 ;
+	gvp:parentString "Ḩalab, Sūrīyah, Asia, World" ;
+	skos:note tgn_scopeNote:33281 , tgn_rev:5000036050 , tgn_rev:5019044159 , tgn_rev:5022662263 , tgn_rev:5026042837 , tgn_rev:5019033264 , tgn_rev:5022662261 , tgn_rev:5019044150 , tgn_rev:5019044153 , tgn_rev:5019044161 , tgn_rev:5019044168 , tgn_rev:5019044170 , tgn_rev:5019044176 , tgn_rev:5022662267 , tgn_rev:5022662277 , tgn_rev:5019044145 , tgn_rev:5019044160 , tgn_rev:5020867728 , tgn_rev:5022662260 , tgn_rev:5022662266 , tgn_rev:5026042836 ;
+	gvp:parentStringAbbrev "Ḩalab, Sūrīyah, ... World" ;
+	gvp:displayOrder "21"^^xsd:positiveInteger ;
+	gvp:placeType aat:300008347 , aat:300387218 , aat:300008389 , aat:300264742 , aat:300387235 , aat:300387220 , aat:300000833 , aat:300387285 , aat:300387286 , aat:300235101 , aat:300000776 ;
+	skosxl:prefLabel tgn_term:85877-en ;
+	skos:prefLabel "Aleppo"@en ;
+	skosxl:altLabel tgn_term:85876 , tgn_term:172152 , tgn_term:140058 , tgn_term:184279 , tgn_term:139582 , tgn_term:1002201915 , tgn_term:1002201916 , tgn_term:171894 , tgn_term:1002201920 , tgn_term:1005666055 , tgn_term:166090 , tgn_term:324938 , tgn_term:328505 , tgn_term:328506 , tgn_term:1002201919 ;
+	skos:altLabel "Berea" , "Ḥalab" , "Halman" , "Halab" , "Haleb" , "Halep" , "حلب" , "Alep" , "Beroea" , "Aleppe" , "Yamkhad" , "Madīnat Ḩalab" , "Halapa" , "Chalybon" , "Khalepion" ;
+	gvp:broaderPartitive tgn:1002052 ;
+	gvp:broaderPreferred tgn:1002052 ;
+	skos:broader tgn:1002052 ;
+	iso:broaderPartitive tgn:1002052 ;
+	gvp:prefLabelGVP tgn_term:85876 ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:scopeNote tgn_scopeNote:33281 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000003 ;
+	dct:source tgn_source:9006561 , tgn_source:2009008541-subject-7002252 , tgn_source:9006253-subject-7002252 , tgn_source:9006449-subject-7002252 , tgn_source:9006549-subject-7002252 , tgn_source:9005423-subject-7002252 , tgn_source:9006447-subject-7002252 , tgn_source:9006548-subject-7002252 ;
+	gvp:placeTypePreferred aat:300008347 ;
+	gvp:placeTypeNonPreferred aat:300387218 , aat:300008389 , aat:300264742 , aat:300387235 , aat:300387220 , aat:300000833 , aat:300387285 , aat:300387286 , aat:300235101 , aat:300000776 ;
+	dc:identifier "7002252" ;
+	skos:broaderTransitive tgn:6000039 , tgn:1000004 , tgn:1002052 , tgn:7001526 , tgn:1000140 ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	void:inDataset <http://vocab.getty.edu/dataset/tgn> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	prov:wasGeneratedBy tgn_rev:5000036050 ;
+	foaf:focus tgn:7002252-place ;
+	gvp:tgn3101_adjacent_to tgn:7002266 .
+
+tgn_rev:5000036050 a prov:Activity , prov:Create ;
+	dc:type "created" ;
+	prov:startedAtTime "1991-09-13T06:28:00"^^xsd:dateTime .
+
+tgn_rev:5019044159 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2014-07-26T08:32:06"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5022662263 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2016-02-23T13:48:35"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5026042837 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2016-03-30T14:22:14"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019033264 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2014-07-04T21:46:08"^^xsd:dateTime ;
+	dc:description "Ḥalab (7002252) 'near/adjacent to' Tell Mardikh (7002266);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5022662261 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2016-02-23T13:48:35"^^xsd:dateTime ;
+	dc:description "Ḥalab (7002252) 'located on' Silk Road (7031416);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019044150 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2014-07-26T08:32:05"^^xsd:dateTime ;
+	dc:description "Aleppe (1002201915);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019044153 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2014-07-26T08:32:05"^^xsd:dateTime ;
+	dc:description "لب (1002201914);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019044161 a prov:Activity , prov:Modify ;
+	dc:type "term deleted" ;
+	prov:startedAtTime "2014-07-26T08:35:38"^^xsd:dateTime ;
+	dc:description "Berea (324939);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019044168 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2014-07-26T08:35:38"^^xsd:dateTime ;
+	dc:description "Berea (1002201916);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019044170 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2014-07-26T08:35:38"^^xsd:dateTime ;
+	dc:description "Madīnat Ḩalab (1002201920);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019044176 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2014-07-26T08:35:38"^^xsd:dateTime ;
+	dc:description "Khalepion (1002201919);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5022662267 a prov:Activity , prov:Modify ;
+	dc:type "term deleted" ;
+	prov:startedAtTime "2016-02-23T13:57:33"^^xsd:dateTime ;
+	dc:description "لب (1002201914);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5022662277 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2016-02-23T13:57:34"^^xsd:dateTime ;
+	dc:description "حلب (1005666055);" ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019044145 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2014-07-26T08:32:05"^^xsd:dateTime ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5019044160 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2014-07-26T08:35:37"^^xsd:dateTime ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5020867728 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-05-21T11:16:46"^^xsd:dateTime ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5022662260 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-02-23T13:48:35"^^xsd:dateTime ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5022662266 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-02-23T13:57:33"^^xsd:dateTime ;
+	prov:used tgn:7002252 .
+
+tgn_rev:5026042836 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-03-30T14:22:14"^^xsd:dateTime ;
+	prov:used tgn:7002252 .
+
+tgn_source:2009008541-subject-7002252 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008541 ;
+	bibo:locator "I, 237" .
+
+tgn_source:9006253-subject-7002252 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006253 ;
+	bibo:locator "plate 34" .
+
+tgn_source:9006449-subject-7002252 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006449 ;
+	bibo:locator "29" .
+
+tgn_source:9006549-subject-7002252 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006549 ;
+	bibo:locator "78" .
+
+tgn_source:9005423-subject-7002252 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9005423 ;
+	bibo:locator "90; 91" .
+
+tgn_source:9006447-subject-7002252 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "I, 20" .
+
+tgn_source:9006548-subject-7002252 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006548 ;
+	bibo:locator "336; 338; 344; 360" .
+
+tgn_scopeNote:33281 a gvp:ScopeNote ;
+	rdf:value "Aleppo developed on a crossroads of caravan routes. It was taken by Hittites 2000 BCE, and was Assyrian from 853 BCE. It was taken by Muslims in 638 CE, and became a major site along the Silk Road. The city was recovered by the Greeks 969, and besieged by Crusaders in 1118, 1124. Later, it was sacked by Mongols in 1260, captured by Ottomans 1517, and eventually taken by British and Arabs in 1918."@en ;
+	dct:contributor tgn_contrib:10000000 ;
+	dct:source tgn_source:9000010 ;
+	dc:identifier "33281" ;
+	dct:language aat:300388277 .
+
+tgn_term:85877-en a skosxl:Label ;
+	gvp:term "Aleppo"@en ;
+	gvp:displayOrder "5"^^xsd:positiveInteger ;
+	skosxl:literalForm "Aleppo"@en ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termKind <http://vocab.getty.edu/term/kind/SiteName> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000003 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 , tgn_contrib:10000003 ;
+	gvp:sourcePreferred tgn_source:2009007563-term-85877 ;
+	dct:source tgn_source:9006449-term-85877 , tgn_source:2009007563-term-85877 ;
+	dc:identifier "85877" ;
+	dct:language aat:300388277 .
+
+tgn_source:9006449-term-85877 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006449 ;
+	bibo:locator "29" .
+
+tgn_source:2009007563-term-85877 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007563 ;
+	bibo:locator "37SCA3468407837 " .
+
+tgn_term:85876 a skosxl:Label ;
+	gvp:term "Ḥalab" ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	skosxl:literalForm "Ḥalab" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	gvp:contributorPreferred tgn_contrib:10000000 ;
+	dct:contributor tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007563 , tgn_source:9006253-term-85876 , tgn_source:9006549-term-85876 ;
+	gvp:sourceNonPreferred tgn_source:2009007563 ;
+	dc:identifier "85876" .
+
+tgn_term:172152 a skosxl:Label ;
+	gvp:term "Halab" ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	skosxl:literalForm "Halab" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006548-term-172152 ;
+	dc:identifier "172152" .
+
+tgn_term:140058 a skosxl:Label ;
+	gvp:term "Haleb" ;
+	gvp:displayOrder "3"^^xsd:positiveInteger ;
+	skosxl:literalForm "Haleb" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007563 , tgn_source:9006549-term-140058 ;
+	gvp:sourceNonPreferred tgn_source:2009007563 ;
+	dc:identifier "140058" .
+
+tgn_term:184279 a skosxl:Label ;
+	gvp:term "Halep" ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	skosxl:literalForm "Halep" ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009008541-term-184279 ;
+	dc:identifier "184279" .
+
+tgn_term:139582 a skosxl:Label ;
+	gvp:term "Alep" ;
+	gvp:displayOrder "6"^^xsd:positiveInteger ;
+	skosxl:literalForm "Alep" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006561 , tgn_source:2009007563 , tgn_source:9006548-term-139582 ;
+	gvp:sourceNonPreferred tgn_source:2009007563 ;
+	dc:identifier "139582" .
+
+tgn_term:1002201915 a skosxl:Label ;
+	gvp:term "Aleppe" ;
+	gvp:displayOrder "7"^^xsd:positiveInteger ;
+	skosxl:literalForm "Aleppe" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007563 ;
+	gvp:sourceNonPreferred tgn_source:2009007563 ;
+	dc:identifier "1002201915" .
+
+tgn_term:1002201916 a skosxl:Label ;
+	gvp:term "Berea" ;
+	gvp:displayOrder "8"^^xsd:positiveInteger ;
+	skosxl:literalForm "Berea" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006447 , tgn_source:2009007563 ;
+	gvp:sourceNonPreferred tgn_source:9006447 , tgn_source:2009007563 ;
+	dc:identifier "1002201916" .
+
+tgn_term:171894 a skosxl:Label ;
+	gvp:term "Yamkhad" ;
+	gvp:displayOrder "9"^^xsd:positiveInteger ;
+	skosxl:literalForm "Yamkhad" ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006548-term-171894 ;
+	dc:identifier "171894" .
+
+tgn_term:1002201920 a skosxl:Label ;
+	gvp:term "Madīnat Ḩalab" ;
+	gvp:displayOrder "10"^^xsd:positiveInteger ;
+	skosxl:literalForm "Madīnat Ḩalab" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007563 ;
+	gvp:sourceNonPreferred tgn_source:2009007563 ;
+	dc:identifier "1002201920" .
+
+tgn_term:1005666055 a skosxl:Label ;
+	gvp:term "حلب" ;
+	gvp:displayOrder "11"^^xsd:positiveInteger ;
+	skosxl:literalForm "حلب" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007563-term-1005666055 ;
+	gvp:sourceNonPreferred tgn_source:2009007563-term-1005666055 ;
+	dc:identifier "1005666055" .
+
+tgn_term:166090 a skosxl:Label ;
+	rdfs:comment "ancient, 306-280 BC" ;
+	gvp:term "Beroea" ;
+	gvp:displayOrder "12"^^xsd:positiveInteger ;
+	gvp:estStart "-0306"^^xsd:gYear ;
+	gvp:estEnd "-0280"^^xsd:gYear ;
+	skosxl:literalForm "Beroea" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007563 , tgn_source:9006548-term-166090 ;
+	gvp:sourceNonPreferred tgn_source:2009007563 ;
+	dc:identifier "166090" .
+
+tgn_term:324938 a skosxl:Label ;
+	gvp:term "Halman" ;
+	gvp:displayOrder "13"^^xsd:positiveInteger ;
+	skosxl:literalForm "Halman" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006447-term-324938 ;
+	dc:identifier "324938" .
+
+tgn_term:328505 a skosxl:Label ;
+	gvp:term "Halapa" ;
+	gvp:displayOrder "14"^^xsd:positiveInteger ;
+	skosxl:literalForm "Halapa" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9005423-term-328505 ;
+	dc:identifier "328505" .
+
+tgn_term:328506 a skosxl:Label ;
+	gvp:term "Chalybon" ;
+	gvp:displayOrder "15"^^xsd:positiveInteger ;
+	skosxl:literalForm "Chalybon" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9005423-term-328506 ;
+	dc:identifier "328506" .
+
+tgn_term:1002201919 a skosxl:Label ;
+	gvp:term "Khalepion" ;
+	gvp:displayOrder "16"^^xsd:positiveInteger ;
+	skosxl:literalForm "Khalepion" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007563 ;
+	gvp:sourceNonPreferred tgn_source:2009007563 ;
+	dc:identifier "1002201919" .
+
+tgn_source:9006253-term-85876 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006253 ;
+	bibo:locator "plate 34" .
+
+tgn_source:9006549-term-85876 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006549 ;
+	bibo:locator "78" .
+
+tgn_source:9006548-term-172152 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006548 ;
+	bibo:locator "344" .
+
+tgn_source:9006549-term-140058 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006549 ;
+	bibo:locator "78" .
+
+tgn_source:2009008541-term-184279 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008541 ;
+	bibo:locator "I, 237" .
+
+tgn_source:9006548-term-139582 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006548 ;
+	bibo:locator "336" .
+
+tgn_source:9006548-term-171894 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006548 ;
+	bibo:locator "360" .
+
+tgn_source:2009007563-term-1005666055 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007563 ;
+	bibo:locator "accessed 23 February 2016" .
+
+tgn_source:9006548-term-166090 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006548 ;
+	bibo:locator "338" .
+
+tgn_source:9006447-term-324938 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "I, 20" .
+
+tgn_source:9005423-term-328505 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9005423 ;
+	bibo:locator "91" .
+
+tgn_source:9005423-term-328506 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9005423 ;
+	bibo:locator "90" .
+
+tgn_rel:7002252-tgn3101_adjacent_to-7002266 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:tgn3101_adjacent_to ;
+	rdf:object tgn:7002266 .
+
+tgn_rel:7002252-placeType-300008347 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypePreferred ;
+	rdf:object aat:300008347 ;
+	rdfs:comment "was a very ancient center" ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "-3000"^^xsd:gYear .
+
+tgn_rel:7002252-placeType-300008389 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300008389 ;
+	gvp:displayOrder "2"^^xsd:positiveInteger .
+
+tgn_rel:7002252-placeType-300387220 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387220 ;
+	gvp:displayOrder "3"^^xsd:positiveInteger .
+
+tgn_rel:7002252-placeType-300264742 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300264742 ;
+	gvp:displayOrder "4"^^xsd:positiveInteger .
+
+tgn_rel:7002252-placeType-300000833 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300000833 ;
+	gvp:displayOrder "5"^^xsd:positiveInteger .
+
+tgn_rel:7002252-placeType-300387218 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387218 ;
+	rdfs:comment "of kingdom 2000 BC" ;
+	gvp:displayOrder "6"^^xsd:positiveInteger ;
+	gvp:estStart "-2000"^^xsd:gYear ;
+	gvp:estEnd "-0800"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7002252-placeType-300235101 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300235101 ;
+	rdfs:comment "of Hittites until 853 BC" ;
+	gvp:displayOrder "7"^^xsd:positiveInteger ;
+	gvp:estStart "-2000"^^xsd:gYear ;
+	gvp:estEnd "-0853"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7002252-placeType-300000776 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300000776 ;
+	rdfs:comment "of French mandate, 1920" ;
+	gvp:displayOrder "8"^^xsd:positiveInteger ;
+	gvp:estStart "1920"^^xsd:gYear ;
+	gvp:estEnd "1925"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7002252-placeType-300387286 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387286 ;
+	rdfs:comment "flourished in 16th cen." ;
+	gvp:displayOrder "9"^^xsd:positiveInteger ;
+	gvp:estStart "1500"^^xsd:gYear ;
+	gvp:estEnd "1600"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7002252-placeType-300387285 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387285 ;
+	rdfs:comment "of Middle East, 16th cen." ;
+	gvp:displayOrder "10"^^xsd:positiveInteger ;
+	gvp:estStart "1500"^^xsd:gYear ;
+	gvp:estEnd "1600"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7002252-placeType-300387235 a rdf:Statement ;
+	rdf:subject tgn:7002252 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387235 ;
+	gvp:displayOrder "11"^^xsd:positiveInteger ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn:7002252-place a schema:Place , wgs:SpatialThing ;
+	wgs:lat "36.201241"^^xsd:decimal ;
+	wgs:long "37.161173"^^xsd:decimal ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	void:inDataset <http://vocab.getty.edu/dataset/tgn> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	schema:geo tgn:7002252-geometry .
+
+tgn:7002252-geometry a schema:GeoCoordinates ;
+	schema:latitude "36.201241"^^xsd:decimal ;
+	schema:longitude "37.161173"^^xsd:decimal .

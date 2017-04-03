@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:events="http://schemas.talis.com/2009/events/"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/"
+  xmlns:temp="http://lists.talis.com/schema/temp#">
+
+  <rdf:Description rdf:about="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070"/>
+    <foaf:topic rdf:resource="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070"/>
+    <dct:hasFormat rdf:resource="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070.html"/>
+    <dct:hasFormat rdf:resource="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070.json"/>
+    <dct:hasFormat rdf:resource="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070">
+    <events:hasEvents rdf:resource="http://liblists.sussex.ac.uk/lists/5F51F368-635F-ADB1-5968-F8A8D8471070/events"/>
+    <rdf:_1 rdf:resource="http://liblists.sussex.ac.uk/sections/8CB7BA93-99A6-4E43-0AAA-BF00D93CE9CE"/>
+    <rdf:_10 rdf:resource="http://liblists.sussex.ac.uk/sections/DA01EF29-BE44-ACA9-F3AD-FA32595A02F1"/>
+    <rdf:_2 rdf:resource="http://liblists.sussex.ac.uk/sections/ABC3A25A-780D-C00D-628B-00FF3F22C9F1"/>
+    <rdf:_3 rdf:resource="http://liblists.sussex.ac.uk/sections/9BCD3C77-3E5D-6948-1A93-5C1A424052BA"/>
+    <rdf:_4 rdf:resource="http://liblists.sussex.ac.uk/sections/439A2FAD-206D-721D-31CF-22883FBB4618"/>
+    <rdf:_5 rdf:resource="http://liblists.sussex.ac.uk/sections/13A51462-AFCC-B165-06DF-B85E811539D8"/>
+    <rdf:_6 rdf:resource="http://liblists.sussex.ac.uk/sections/0F0B2F50-305B-6E10-3A18-733D18D87FD4"/>
+    <rdf:_7 rdf:resource="http://liblists.sussex.ac.uk/sections/3A746C91-853F-F659-AE20-3822B109DA00"/>
+    <rdf:_8 rdf:resource="http://liblists.sussex.ac.uk/sections/00B9AC3C-7612-E4A3-E8D0-8065E93B67B5"/>
+    <rdf:_9 rdf:resource="http://liblists.sussex.ac.uk/sections/06A9EDD4-022E-7043-0727-90F0D1EA395F"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#ArchiveList"/>
+    <resourcelist:anticipatedStudentNumbers>80</resourcelist:anticipatedStudentNumbers>
+    <resourcelist:archived>2013-07-04T17:14:30+01:00</resourcelist:archived>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/00138926-FF99-4699-0A66-538F31B48D8F"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/05380CE6-1651-8961-0AFA-6290012A6F9C"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/0F3FDEC1-2174-B20E-ADD3-05FAEEA7AA70"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/11F4ED0D-D5DF-C91A-1CCD-8110DBB71FE2"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/12EAD5AC-2CF2-0D21-64E3-BF8F0AD77FA2"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/13152AB2-CDFB-2E53-463E-449234D64978"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/17272F59-9664-071D-2BED-FA35F8300AE5"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/18EFEF3E-8C7C-DF07-59A3-209BEC87C63F"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/1AC4C13D-9F01-FE90-1144-1C359118662C"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/1BBE3054-1C76-0E0F-8123-FD041DF7E9A8"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/211C5164-1738-0BEF-44FB-6252DC0BA038"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/27E91595-2A8A-3E7D-5ECC-BD289A257E95"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/28F845A1-FE9F-5F72-496C-808C8318E91F"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/2B3A875E-2C53-4C45-3CF7-0C1343E41EE3"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/307B78DD-48BC-2D1E-9705-C0E0EAE4CF9F"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/43903C17-8249-6D85-0AD4-1C1B5CAEEFD0"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/440929CA-8EAF-491E-19C0-3D0E4AD80F78"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/4C79B0D1-0AFC-4F65-BB5B-0ADCA6D75949"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/528FA702-7785-DEBC-1E68-65816224A584"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/531183E8-5B55-0486-ACE0-56161C021D4C"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/53476444-9A14-F610-2355-B69ABF681C06"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/545CA2E5-91C2-663E-B300-31BE6F76F0A4"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/55B2335A-0F35-FCEE-9371-F2EE0AEA0B6E"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/583CC3EA-05E0-ED40-AC0A-87971A603576"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/5C90EF79-48E9-1335-7758-195F14078157"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/5E817905-52CB-59B2-6123-138455C87A13"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/60C05636-2F91-9B1E-7003-35B5A8E09B4B"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/624F0847-75FE-5F96-5138-8697D7957798"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/6292513C-A7B3-B223-8314-1FB0BD47C256"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/6380E5E3-F72C-4A69-C58E-6019DCBA2CA3"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/673E0308-25B5-F3EB-9190-52882328E4FD"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/6824E757-EF32-D2AA-9536-5C853A3468B8"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/691F16A4-510B-86CF-AFD3-C7C0B864F991"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/6B723204-CC6A-FEEC-B7BC-32C2FDFDA3F8"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/6F91EB62-DE77-03BB-C2EE-496500EF0D4F"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/70369B8B-807D-4A2A-C7E7-13227C41DC89"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/75B347AA-480B-2F04-DC6E-630EDACCC210"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/76CACB01-403D-68EF-149B-FDDD40F628CF"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/7878D732-8DF2-8884-2494-A4AD94998BAB"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/9358A41D-ADF7-3263-4308-5330200E4A44"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/973747FA-B8F7-092C-BF70-14458C53B3C3"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/9DEFCCF5-6474-CA68-4DF3-B6E9CD36934D"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/A1087DEB-A176-5339-AA00-87E20FCF33E3"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/A895F636-0C4C-AC9C-F1F6-94A085478945"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/A8A8093D-A1AF-C304-9EAB-DF89583692D8"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/A9F62B4C-592E-A150-4C76-C35097797839"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/B0024934-D67B-D3F7-DA29-661A456E4FE5"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/B1D5049A-D170-5CEA-A458-2942EE24EAA6"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/B9BA128C-37FE-B0AB-95C3-43EF3EF769A1"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/B9F6284B-3E09-AB0E-B8AF-4D3782816684"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/BD6A0955-263F-5E19-6762-AFBC45CC94E2"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/BD9E6F74-164F-F390-A2A4-ACA0DE6AFE88"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/C3AF9004-C09E-8E12-8AD6-4C777F7256D0"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/C40E892E-FDF7-A98F-71E9-CD42FA67466E"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/C5406C46-199F-E9FB-9EA7-8985E0E19ED4"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/C6503020-7DF8-80E4-5F45-5BED42576DCC"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/CB961394-19B8-CC5C-0A37-9B56A051DCA9"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/D3165D0C-0B1A-E0CF-F9A5-CE95B2743F55"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/D6D34336-3AE4-C49E-F735-9AB95BE790E3"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/DC6464FA-0DB4-1186-3B6D-EB2B32E4EAED"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/DFBACC26-5D1E-1261-BB17-289A9E3D38D7"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/E048B040-53D0-4887-88A6-A81C5CBA71FB"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/E6BB457E-B00E-7476-C838-B9395D877996"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/E7856465-A020-5646-674E-91EA144D99B6"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/E99B436F-2A61-8F03-003D-64E0934C806E"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/E99FC8BB-4CEF-0754-F25B-5E493E41522F"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/EEAF9008-68A4-22AA-0AC1-2509EE2102E2"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/EFCDC432-82D6-0080-6993-A500FF2B0DC6"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/F4F45BEC-5E3B-C7F0-3CA0-B45A7BC0A641"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/F5A98669-F129-5AA8-93E8-E37F57D39F99"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/FA2BB5CF-F688-41EE-1A90-9F6F9CF27C24"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/items/FB8EB8B2-A81D-FE90-C2B0-9EC2750E3423"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/00B9AC3C-7612-E4A3-E8D0-8065E93B67B5"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/06A9EDD4-022E-7043-0727-90F0D1EA395F"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/0C2511CD-CBE4-9183-4EBE-C173EB2055FF"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/0F0B2F50-305B-6E10-3A18-733D18D87FD4"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/13A51462-AFCC-B165-06DF-B85E811539D8"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/245C562F-B400-4A50-5B15-8390C52AB350"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/2AEC462A-9AD7-FA46-1B98-DFCDE0796224"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/36071235-E6A1-870B-B3FA-DC5DA4486F44"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/3A746C91-853F-F659-AE20-3822B109DA00"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/40C3113C-61EC-27B0-0B8B-770A8095DED4"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/41E2A06C-E559-D742-90C6-D95AFDB045F9"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/439A2FAD-206D-721D-31CF-22883FBB4618"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/6BA1490B-58C8-D28B-12AD-FD9B257AD658"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/7133D735-3788-EE84-B7DD-23D6504DCAEC"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/73AAD17D-8800-1B69-47B3-509B5FA9446A"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/767A31BE-1F02-27BD-2EAA-AAA1EAFA04C9"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/7BF5CBA1-7BDD-B472-B5C9-A3E6E58FF814"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/7FEDB781-7839-816D-C22A-CE876EA60CCD"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/8CB7BA93-99A6-4E43-0AAA-BF00D93CE9CE"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/959292A7-E28E-1F65-DC1F-5A2DB4AFD823"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/9BCD3C77-3E5D-6948-1A93-5C1A424052BA"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/9BD5FED2-E801-A2FE-AE1E-538F911E3818"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/ABC3A25A-780D-C00D-628B-00FF3F22C9F1"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/BB11083D-220D-B473-EC45-F485E80321B5"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/D5376FC0-285C-D597-9375-50647CE94F73"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/DA01EF29-BE44-ACA9-F3AD-FA32595A02F1"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/DFD77686-D433-6BEB-9669-89F69E0E3584"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/E3D2CAA4-84AD-67D4-5C76-8F1E92EC00FC"/>
+    <resourcelist:contains rdf:resource="http://liblists.sussex.ac.uk/sections/F8E51F39-D728-17B0-F4AB-C7F8E47DDCAF"/>
+    <resourcelist:created>2011-03-21T11:15:43+00:00</resourcelist:created>
+    <resourcelist:lastPublished>2012-03-26T13:44:25+01:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2012-03-26T13:36:25+01:00</resourcelist:lastUpdated>
+    <spec:has_creator rdf:resource="http://liblists.sussex.ac.uk/users/AF151C59-3100-38E4-526F-588BB7C58B0C"/>
+    <spec:name>The Look of America - T7002 - Daniel Kane</spec:name>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/00B9AC3C-7612-E4A3-E8D0-8065E93B67B5"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/06A9EDD4-022E-7043-0727-90F0D1EA395F"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/0F0B2F50-305B-6E10-3A18-733D18D87FD4"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/13A51462-AFCC-B165-06DF-B85E811539D8"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/3A746C91-853F-F659-AE20-3822B109DA00"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/439A2FAD-206D-721D-31CF-22883FBB4618"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/8CB7BA93-99A6-4E43-0AAA-BF00D93CE9CE"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/9BCD3C77-3E5D-6948-1A93-5C1A424052BA"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/ABC3A25A-780D-C00D-628B-00FF3F22C9F1"/>
+    <spec:parent_of rdf:resource="http://liblists.sussex.ac.uk/sections/DA01EF29-BE44-ACA9-F3AD-FA32595A02F1"/>
+    <temp:hasTimePeriod rdf:resource="http://liblists.sussex.ac.uk/config/timePeriod6"/>
+  </rdf:Description>
+
+</rdf:RDF>

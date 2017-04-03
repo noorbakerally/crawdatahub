@@ -1,0 +1,23 @@
+@prefix ns0:	<http://linked.opendata.cz/ontology/domain/seznam.gov.cz/rejstriky/> .
+@prefix ns1:	<http://linked.opendata.cz/resource/business-entity/> .
+ns1:CZ70891508	ns0:objednavka	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601>	rdf:type	ns0:Objednavka .
+@prefix gr:	<http://purl.org/goodrelations/v1#> .
+@prefix ns4:	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601>	gr:hasPriceSpecification	ns4:cena-s-dph ,
+		ns4:cena-bez-dph .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601>	dcterms:subject	"Obnoven\u00ED slu\u017Eeb technick\u00E9 podpory" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601>	dcterms:issued	"2013-02-18+01:00"^^xsd:date .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601>	skos:notation	"OBJ/181/2013" ;
+	ns0:partner	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/rejstriky/business-entity/61498483> ;
+	ns0:recordId	"122565601" ;
+	ns0:schvalil	"Ing. Pavel Tvrzn\u00EDk" ;
+	ns0:typDokumentu	"2" .
+<http://linked.opendata.cz/resource/domain/seznam.gov.cz/zaznamy/11925>	ns0:objednavka	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601> .
+@prefix void:	<http://rdfs.org/ns/void#> .
+@prefix ns9:	<http://linked.opendata.cz/resource/dataset/seznam.gov.cz/rejstriky/objednavky/> .
+ns9:distribution	void:exampleResource	<http://linked.opendata.cz/resource/domain/seznam.gov.cz/objednavky/122565601> .

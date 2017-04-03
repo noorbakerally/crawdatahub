@@ -1,0 +1,18 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+
+<http://skos.um.es/unescothes/C01194> rdf:type skos:Concept ;
+                                      skos:prefLabel "Образование"@ru ,
+                                                     "Educación"@es ,
+                                                     "Éducation"@fr ,
+                                                     "Education"@en ;
+                                      skos:inScheme <http://skos.um.es/unescothes/CS000> ;
+                                      skos:topConceptOf <http://skos.um.es/unescothes/CS000> ;
+                                      skos:related <http://skos.um.es/unescothes/C03974> ,
+                                                   <http://skos.um.es/unescothes/C02240> ;
+                                      skos:scopeNote "Процесс, способствующий развитию способностей, отношений и других форм поведения, воспринимаемых обществом как достоинство. В необходимых случаях используйте более точный дескриптор."@ru ,
+                                                     "Mise en oeuvre de moyens par lesquels l'on développe des capacités, des attitudes et autres formes de comportements valorisés par la société dans laquelle on vit. Utiliser un descripteur plus précis."@fr ,
+                                                     "Proceso por el cual uno desarrolla habilidades, actitudes y otras formas de comportamiento valoradas por la sociedad en la que vive. Utilizar un descriptor más preciso."@es ;
+                                      uneskos:memberOf <http://skos.um.es/unescothes/COL105> ;
+                                      uneskos:mainConceptOf <http://skos.um.es/unescothes/COL105> .

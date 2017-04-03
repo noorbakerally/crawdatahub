@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:n="http://km.aifb.kit.edu/projects/numbers/number#">
+  <n:NaturalNumber rdf:about="http://km.aifb.kit.edu/projects/numbers/n7">
+    <rdfs:label>7</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://km.aifb.kit.edu/projects/numbers/web/n7" />
+    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</rdf:value>
+    <n:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</n:value>
+    <n:previous rdf:resource="http://km.aifb.kit.edu/projects/numbers/n6" />
+    <n:next rdf:resource="http://km.aifb.kit.edu/projects/numbers/n8" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/7_(number)" />
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="en">seven</rdfs:label>
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="de">sieben</rdfs:label>
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="es">siete</rdfs:label>
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="it">sette</rdfs:label>
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="fr">sept</rdfs:label>
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="lt">septyni</rdfs:label>
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="pt">sete</rdfs:label>
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="cs">sedm</rdfs:label>
+<br />
+<b>Notice</b>:  Undefined variable: this in <b>/usr/share/php/Numbers/Words.php</b> on line <b>97</b><br />
+    <rdfs:label xml:lang="et">seitse</rdfs:label>
+    <n:roman rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VII</n:roman>
+    <n:log rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9459101490553</n:log>
+    <n:primefactor rdf:resource="http://km.aifb.kit.edu/projects/numbers/n7" />
+  </n:NaturalNumber>
+</rdf:RDF>

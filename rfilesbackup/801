@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:34:06</dcterms:created>
+		<dc:source rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+		<coref:coreferenceData rdf:resource="http://irit.rkbexplorer.com/crs/person-585de894e4e4fd038791313df83045a8" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8">
+		<akt:full-name>Philippe Palanque</akt:full-name>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<rdf:type rdf:resource="&akt;Generic-Agent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/unpublished-b511e99e214e545810d1bbafdc51f978">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/unpublished-82c26457d0275935091c2558d38479c1">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/unpublished-25560666e8161a32d411a48824ab9754">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-2c63f10650e8eab896d5edca35d73a69">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-0513ecb9fd28d4c965f5d87f2b3d5375">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-1ccf4567a1b680a6af49020b9022eb4f">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-e6fc1592336c73472a9f713b34875505">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid199.f8055090c2f0b23">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-96ababadaebba68fe47bbf717387f661">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-cbb0aa8c40af00c789512ab37f909847">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-6133d72414ee56084d3f8b5b2fe9a14b">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-80d8cdfd2b42ba469d1fae530c970f8d">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-48170a63e1c5b7428895f6c558835d5c">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-6df0cc36081767b9fdaa9e570840dd9b">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/book-section-c6e8adb0f9fa70847a0f3932ae9059df">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/book-section-e844f90b9b2412021ff5db0941ec6980">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/article-89a67cca12832b14ef43f14ad76916af">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/proceedings-c295eb907f37fcb7ccb6a4f152fdf4b2">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-3718efb9340fc43320a3eadad27c8318">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-4ee999a99756e5a0c24933dc62d06a1b">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-d7da91d4098f060eb7e4c2c85bca7cf2">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-fe1f1b5aef1093b76f9486fb06c2a8ac">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-f884bef3c833ac1300ff53b2d563b037">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-8e14c4410f071e81a31b9eaf44885832">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/unpublished-5c659a330aea8091c32e015f668836cb">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-af76751492182f3cf5837867ae4604b3">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-f22df00f57f40a6a486f5643670fa7ea">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-f4f6bf201b611480a1336515b39e4aae">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-5dab61c7228210f36baeb2cd20bf49bb">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-8f6c8fa4d68c74636afea5d9702b6955">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-a0df68a6837a2addb08f7789519f37ac">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-b8c84d868f98513658c53b502d189b63">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/book-section-3f7bbbb116e1ca5068746807b365193a">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/article-4dcfa4c67ad4d24438b893ae76628b4c">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/proceedings-7b680eda66fbc2a98afdd1bfddf64bca">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/misc-a9e7e1e0ed0c18dc1ce43fd811c64815">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-8a053170c962153336b8f963806b44ec">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-08f0df6c6a326f50d47fa53bccf0c580">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-e6534a9dbcb71592cdd222d00413268d">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-e0bbec79819860a394c14b2cfb8681b9">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-615e36c26b82bb86c819c07da9f47111">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-360c29f896c5f87688255f47404832b4">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-38d4792b0ffdf336eb12aa6bb7c7c886">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-1e200bddca8fbbce6412f9332856a369">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/article-abb0342170b0f29e69a669ebdf8794ba">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/article-280c4b0b9015ad6339844549ff4042f5">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-992ee1476b6db3f2b1ca5feb3be81444">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid77.ed26a94f78bdaba">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-c96534cb8f863275b7bbffa5585fa06a">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-dbca45b845658a25080984729f8af47a">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid74.ed26a94f78bdaba">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-3f3558d08425ca5673539cf874bca42d">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-84d149d36c9a816e7b71a78f2a2091f2">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid63.ed26a94f78bdaba">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-b555ef6b78505bb9f387328c34c8ff41">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-985b1aa54b5ff55958d857dae976fa21">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-c72186bce760bc2727009d0a7503159a">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/proceedings-e5a50f46ad8239fba41a76cdb87c868d">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/proceedings-3219bcba896e46405926b054fdc100c8">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-cb3affaa81d0b87ec6ab7379b15d415c">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-1928ef7ff881f9c7cf450abcce8d1716">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-68f703a4620347e6134701dc06b2c5e7">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-e578e1ffe678cf86c610812aaf739366">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-593909e5f7b75b9af14f3cff5ee36767">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-fee6655996bdfc97537150efb423f76b">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-c62b7daad2550788a02ca29348f5ad2e">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid205.f2f6fc4ecc7b24c">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-bec7018a7aadf4e31ced6a1f8ebabcff">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-ea059d07c390c498419de9d3e049cc6b">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/book-section-57c332f2c80a99993b4869c96e955c79">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-9c33541dd3cf41dcec572ea4f65c68bc">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-26cc20ea5c3b0aae46d7d34a5dd1bb0e">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-83ecffa242ff6b8b40cf3eb525aba3e3">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-0669a77a0d0b38e68a92e81710f56d4c">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-72479a49861792ccb87a01095658ac2b">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid27.c85d9ef7f918eb3">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-be012ffddab170bec76dcbb816feba07">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid26.c85d9ef7f918eb3">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-7ed104e9cebd830d5d6fc188905ad865">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/book-section-9f283c48c79492ceb7d4a46d101d7b4d">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/article-bdf209431e0d1ac0c228a124f5846a69">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/proceedings-5ff521000776c5a683ae75190061ed02">
+		<akt:edited-by rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-ff5a5d4696431b42e7c1b875a3960232">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/unpublished-b8a66fae57a805d214e0e6924961a559">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-a901c7f1ca6e7ec1c260ddf4825855ba">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-fdf1bc70e056300896ede94b5881cd60">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-db4543071894788e978c6f09353e1c7b">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-cc2145bc8c5ac509dafcef2a2395ca0b">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-98d8e1351f808b0d0df4bf0d667219f6">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-ead501020a6aa1eb8ad047b5a547d826">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-088215beadceb88da341e643e5408bcd">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/inproceedings-b579dee7b7f6935f19e1dd37217a6ba7">
+		<akt:has-author rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://irit.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"/>
+	</rdf:Description>
+</rdf:RDF>

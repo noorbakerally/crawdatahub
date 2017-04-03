@@ -1,0 +1,7 @@
+
+<http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-rank-2007/E01020886> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2007 IMD rank, Wear Valley 006E" ;
+	<http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-rank-2007> ;
+	<http://opendatacommunities.org/def/ontology/geography/refArea> <http://opendatacommunities.org/id/geography/administration/lsoa/E01020886> ;
+	<http://opendatacommunities.org/def/ontology/time/refPeriod> <http://reference.data.gov.uk/id/year/2007> ;
+	<http://opendatacommunities.org/def/ontology/societal-wellbeing/deprivation/imdRank> 10346.0 .

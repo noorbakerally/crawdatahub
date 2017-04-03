@@ -1,0 +1,49 @@
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xl="http://www.w3.org/2008/05/skos-xl#"
+  xmlns:rda="http://RDVocab.info/ElementsGr2/"
+  xmlns:frbrent="http://RDVocab.info/uri/schema/FRBRentitiesRDA/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ndl="http://ndl.go.jp/dcndl/terms/"
+  xmlns:dct="http://purl.org/dc/terms/"
+>
+<skos:Concept rdf:about="http://id.ndl.go.jp/auth/ndlsh/01017771">
+	<dct:modified>2011-07-12T09:22:23</dct:modified>
+	<dct:created>2005-11-16</dct:created>
+	<xl:prefLabel>
+		<rdf:Description>
+			<xl:literalForm>セマンティックウェブ</xl:literalForm>
+			<ndl:transcription xml:lang="ja-Kana">セマンティックウェブ</ndl:transcription>
+			<ndl:transcription xml:lang="ja-Latn">Semantikkuebu</ndl:transcription>
+		</rdf:Description>
+	</xl:prefLabel>
+	<rdfs:label>セマンティックウェブ</rdfs:label>
+	<dct:source>セマンティックWeb / 斎藤信男, 萩野達也 監訳 ; Dieter Fensel, James Hendler, Henry Lieberman, Wolfgang Wahlster 編</dct:source>
+	<dct:source>goo辞書 (200511)</dct:source>
+	<skos:inScheme rdf:resource="http://id.ndl.go.jp/auth#topicalTerms"/>
+	<xl:altLabel>
+		<rdf:Description>
+			<xl:literalForm>セマンティクウェブ</xl:literalForm>
+		</rdf:Description>
+	</xl:altLabel>
+	<xl:altLabel>
+		<rdf:Description>
+			<xl:literalForm>Semantic Web</xl:literalForm>
+		</rdf:Description>
+	</xl:altLabel>
+	<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh2002000569"/>
+	<skos:relatedMatch rdf:resource="http://id.ndl.go.jp/class/ndlc/DK341"/>
+	<skos:relatedMatch rdf:resource="http://id.ndl.go.jp/class/ndlc/ND633"/>
+	<skos:relatedMatch rdf:resource="http://id.ndl.go.jp/class/ndc9/547.483"/>
+	<skos:relatedMatch rdf:resource="http://id.ndl.go.jp/class/ndc9/694.5"/>
+	<skos:related rdf:resource="http://id.ndl.go.jp/auth/ndlsh/01017770" rdfs:label="オントロジー (情報科学)"/>
+	<skos:related rdf:resource="http://id.ndl.go.jp/auth/ndlsh/00981806" rdfs:label="メタデータ"/>
+	<skos:related rdf:resource="http://id.ndl.go.jp/auth/ndlsh/00575010" rdfs:label="情報検索"/>
+	<skos:broader rdf:resource="http://id.ndl.go.jp/auth/ndlsh/00841024" rdfs:label="インターネット"/>
+	<owl:sameAs rdf:resource="http://id.ndl.go.jp/auth/ndlsh/セマンティックウェブ"/>
+</skos:Concept>
+</rdf:RDF>
+

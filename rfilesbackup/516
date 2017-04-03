@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://status.alexandrefranke.com/user/2"></maker>
+  <primaryTopic rdf:resource="http://status.alexandrefranke.com/user/2"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://status.alexandrefranke.com/user/2">
+  <mbox_sha1sum>bc42b2539b653fda66c856165c975a9c35c31884</mbox_sha1sum>
+  <name>Alexandre Franke</name>
+  <homepage rdf:resource="http://www.alexandrefranke.com/"></homepage>
+  <weblog rdf:resource="http://status.alexandrefranke.com/afranke"></weblog>
+  <based_near>
+   <geo:SpatialThing>
+    <geo:lat>48.5834200</geo:lat>
+    <geo:long>7.7429600</geo:long>
+   </geo:SpatialThing>
+  </based_near>
+  <img>
+   <Image rdf:about="http://status.alexandrefranke.com/avatar/2-96-20111207182346.jpeg">
+    <thumbnail>
+     <Image rdf:about="http://status.alexandrefranke.com/avatar/2-48-20111207182346.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.alexandrefranke.com/avatar/2-24-20111207182346.jpeg"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://status.alexandrefranke.com/user/2#acct">
+    <accountServiceHomepage rdf:resource="http://status.alexandrefranke.com/"></accountServiceHomepage>
+    <accountName>afranke</accountName>
+    <accountProfilePage rdf:resource="http://status.alexandrefranke.com/afranke"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.alexandrefranke.com/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="http://identi.ca/user/37258#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/199580#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/546358#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/61870#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/196535#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/156044#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/7#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/133692#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/3873#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/2471#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/3142#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/38280#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/109042#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/32536#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/21090#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/27616#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/259271#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/14733#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/37891#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/60488#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/34502#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/28677#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/61866#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/23648#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/71371#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/71718#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/71719#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/47426#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/18400#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/169966#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/115565#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/43933#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/266759#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/55751#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/18123#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/131007#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/332745#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/67590#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/206545#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/128530#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/63863#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/482204#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/67901#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://update.status.net/user/1#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/54416#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/55523#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/332880#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/3081#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/209517#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/310315#acct"></sioc:follows>
+    <sioc:follows rdf:resource="https://status.telecomix.org/user/43668#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://identi.ca/user/79134#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <knows rdf:resource="https://status.telecomix.org/user/43668"></knows>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/37258">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/37258#acct">
+    <accountName>ptitours</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/ptitours"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/37258"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/199580">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/199580#acct">
+    <accountName>garfieldairlines</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/garfieldairlines"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/199580"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/546358">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/546358#acct">
+    <accountName>formidableinc</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/formidableinc"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/546358"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/61870">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/61870#acct">
+    <accountName>aprilorg</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/aprilorg"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/61870"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/196535">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/196535#acct">
+    <accountName>juuu</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/juuu"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/196535"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/156044">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/156044#acct">
+    <accountName>quentintheuret</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/quentintheuret"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/156044"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/7">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/7#acct">
+    <accountName>bkuhn</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/bkuhn"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/7"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/133692">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/133692#acct">
+    <accountName>didrocks</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/didrocks"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/133692"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/3873">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/3873#acct">
+    <accountName>ogmaciel</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/ogmaciel"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/3873"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/2471">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/2471#acct">
+    <accountName>kenvandine</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/kenvandine"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/2471"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/3142">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/3142#acct">
+    <accountName>prcutler</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/prcutler"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/3142"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/38280">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/38280#acct">
+    <accountName>zhangsen</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/zhangsen"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/38280"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/109042">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/109042#acct">
+    <accountName>nearyd</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/nearyd"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/109042"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/32536">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/32536#acct">
+    <accountName>fcrozat</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/fcrozat"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/32536"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/21090">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/21090#acct">
+    <accountName>jzb</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/jzb"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/21090"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/27616">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/27616#acct">
+    <accountName>gnome</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/gnome"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/27616"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/259271">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/259271#acct">
+    <accountName>andreklapper</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/andreklapper"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/259271"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/14733">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/14733#acct">
+    <accountName>kaz</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/kaz"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/14733"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/37891">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/37891#acct">
+    <accountName>baptistemm</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/baptistemm"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/37891"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/60488">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/60488#acct">
+    <accountName>shaunm</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/shaunm"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/60488"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/34502">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/34502#acct">
+    <accountName>andreasn</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/andreasn"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/34502"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/28677">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/28677#acct">
+    <accountName>vdepizzol</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/vdepizzol"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/28677"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/61866">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/61866#acct">
+    <accountName>stephhh</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/stephhh"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/61866"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/23648">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/23648#acct">
+    <accountName>foresight</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/foresight"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/23648"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/71371">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/71371#acct">
+    <accountName>ploum</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/ploum"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/71371"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/71718">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/71718#acct">
+    <accountName>cassidy</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/cassidy"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/71718"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/71719">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/71719#acct">
+    <accountName>bigon</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/bigon"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/71719"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/47426">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/47426#acct">
+    <accountName>staz</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/staz"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/47426"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/18400">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/18400#acct">
+    <accountName>wjt</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/wjt"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/18400"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/169966">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/169966#acct">
+    <accountName>joindiaspora</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/joindiaspora"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/169966"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/115565">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/115565#acct">
+    <accountName>johanmoreau</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/johanmoreau"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/115565"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/43933">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/43933#acct">
+    <accountName>bug</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/bug"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/43933"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/266759">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/266759#acct">
+    <accountName>totophe</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/totophe"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/266759"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/55751">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/55751#acct">
+    <accountName>fcouchet</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/fcouchet"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/55751"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/18123">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/18123#acct">
+    <accountName>lessig</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/lessig"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/18123"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/131007">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/131007#acct">
+    <accountName>guadec</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/guadec"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/131007"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/332745">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/332745#acct">
+    <accountName>spydemon</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/spydemon"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/332745"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/67590">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/67590#acct">
+    <accountName>tsfoo</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/tsfoo"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/67590"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/206545">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/206545#acct">
+    <accountName>radiormll</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/radiormll"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/206545"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/128530">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/128530#acct">
+    <accountName>vinylourson</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/vinylourson"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/128530"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/63863">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/63863#acct">
+    <accountName>bl4n</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/bl4n"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/63863"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/482204">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/482204#acct">
+    <accountName>misc</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/misc"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/482204"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/67901">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/67901#acct">
+    <accountName>lukc</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/lukc"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/67901"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://update.status.net/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://update.status.net/user/1#acct">
+    <accountName>update</accountName>
+    <accountProfilePage rdf:resource="http://update.status.net/"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://update.status.net/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/54416">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/54416#acct">
+    <accountName>balise</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/balise"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/54416"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/55523">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/55523#acct">
+    <accountName>bcollet</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/bcollet"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/55523"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/332880">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/332880#acct">
+    <accountName>yanjost</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/yanjost"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/332880"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/3081">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/3081#acct">
+    <accountName>mairin</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/mairin"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/3081"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/209517">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/209517#acct">
+    <accountName>rdicosmo</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/rdicosmo"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/209517"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/310315">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/310315#acct">
+    <accountName>pomadamor</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/pomadamor"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/310315"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://status.telecomix.org/user/43668">
+  <knows rdf:resource="http://status.alexandrefranke.com/user/2"></knows>
+  <account>
+   <OnlineAccount rdf:about="https://status.telecomix.org/user/43668#acct">
+    <accountName>garfieldairlines</accountName>
+    <accountProfilePage rdf:resource="https://status.telecomix.org/garfieldairlines"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.telecomix.org/user/43668"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.alexandrefranke.com/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/79134">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/79134#acct">
+    <accountName>oberger</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/oberger"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/79134"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://stream.macno.org/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://stream.macno.org/user/1#acct">
+    <accountName>macno</accountName>
+    <accountProfilePage rdf:resource="http://stream.macno.org/macno"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://stream.macno.org/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.alexandrefranke.com/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://status.vinilox.eu/user/6506">
+  <account>
+   <OnlineAccount rdf:about="https://status.vinilox.eu/user/6506#acct">
+    <accountName>1g0r</accountName>
+    <accountProfilePage rdf:resource="https://status.vinilox.eu/1g0r"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.vinilox.eu/user/6506"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.alexandrefranke.com/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://oracle.skilledtests.com/user/2">
+  <account>
+   <OnlineAccount rdf:about="http://oracle.skilledtests.com/user/2#acct">
+    <accountName>question</accountName>
+    <accountProfilePage rdf:resource="http://oracle.skilledtests.com/question"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://oracle.skilledtests.com/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.alexandrefranke.com/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://fediverse.com/user/1">
+  <account>
+   <OnlineAccount rdf:about="https://fediverse.com/user/1#acct">
+    <accountName>erkan</accountName>
+    <accountProfilePage rdf:resource="https://fediverse.com/erkan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://fediverse.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.alexandrefranke.com/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://status.vinilox.eu/user/120470">
+  <account>
+   <OnlineAccount rdf:about="https://status.vinilox.eu/user/120470#acct">
+    <accountName>lepoissonlibre</accountName>
+    <accountProfilePage rdf:resource="https://status.vinilox.eu/lepoissonlibre"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.vinilox.eu/user/120470"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.alexandrefranke.com/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/3533">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/3533#acct">
+    <accountName>toloco</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/toloco"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/3533"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.alexandrefranke.com/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

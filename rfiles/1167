@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://localhost:8080/resource/"
+    xmlns:bicy="http://transporte.linkeddata.es/ontology/"
+    xmlns:ir="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:yago="http://localhost:8080/class/yago/"
+    xmlns:geoes="http://geo.linkeddata.es/ontology/"
+    xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:geo-ont="http://www.oeg-upm.net/ontologies/geo#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:p="http://localhost:8080/property/"
+    xmlns:scovo="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:pheno="http://phenomenontology.linkeddata.es/ontology/"
+    xmlns:j.0="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/transporte#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:city-ont="http://transporte.linkeddata.es/def/City#"
+    xmlns:ssn="http://purl.oclc.org/NET/ssnx/ssn#">
+  <j.0:LineaCercanias rdf:about="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Linea/C-2">
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/10"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/51"/>
+    <j.0:terminalLinea rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/18"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/65"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/59"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/81"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/3"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/2"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/45"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/71"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/18"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/12"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/38"/>
+    <j.0:cabeceraLinea rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/2"/>
+    <owl:sameAs rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Linea/C-2"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/87"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/90"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/11"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/75"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/22"/>
+    <j.0:cabeceraLinea rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/38"/>
+    <j.0:parada rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Parada/106"/>
+  </j.0:LineaCercanias>
+  <rdf:Description rdf:about="http://crtm.linkeddata.es/data/recurso/urbanismo-infraestructuras/transporte/Cercanias/Linea/C-2">
+    <rdfs:label>RDF description of C-2</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://crtm.linkeddata.es/recurso/urbanismo-infraestructuras/transporte/Cercanias/Linea/C-2"/>
+  </rdf:Description>
+</rdf:RDF>

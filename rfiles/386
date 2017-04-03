@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+	xmlns:cyc="http://sw.cyc.com/concept/"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:ctag="http://commontag.org/ns#"
+	xmlns:opencyc="http://sw.opencyc.org/concept/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:freebase="http://rdf.freebase.com/ns/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">
+
+<rdf:Description rdf:about="http://resource.geolba.ac.at/GeologicUnit/291">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-06T14:30:11Z</dcterms:created>
+	<dcterms:references rdf:resource="http://resource.geolba.ac.at/ref/545"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="de">Sanderfläche</skos:altLabel>
+	<skos:broader rdf:resource="http://resource.geolba.ac.at/GeologicUnit/289"/>
+	<skos:definition xml:lang="de">Breite, leicht abfallende, tafelförmige, fluvioglaziale Ablagerung (überwiegend Sand und Kies), welche durch Schmelzwasserströme aus Gletschern abgelagert wurde und aus sich verbindenden Sanderkegeln gebildet wurde (Neuendorf et al., 2005).</skos:definition>
+	<skos:definition xml:lang="en">A broad, gently sloping plain made up of sheet-like fluvioglacial deposits (mainly sand and gravel) formed by meltwater streams flowing in front of  a glacier, and by coalescing outwash fans/cones (Neuendorf et al., 2005).</skos:definition>
+	<skos:exactMatch rdf:resource="http://dbpedia.org/resource/Outwash_plain"/>
+	<skos:narrower rdf:resource="http://resource.geolba.ac.at/GeologicUnit/292"/>
+	<skos:prefLabel xml:lang="de">Sander</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Outwash plain</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>

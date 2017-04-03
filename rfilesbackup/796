@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:34:00</dcterms:created>
+		<dc:source rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+		<coref:coreferenceData rdf:resource="http://roma.rkbexplorer.com/crs/person-00001" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/person-00001">
+		<akt:full-name>Roberto Baldoni</akt:full-name>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<rdf:type rdf:resource="&akt;Generic-Agent"/>
+		<akt:has-affiliation rdf:resource="http://roma.rkbexplorer.com/id/dis"/>
+		<akt:has-affiliation-to-unit rdf:resource="http://roma.rkbexplorer.com/id/midlab"/>
+		<akt:has-telephone-number>+39 (0)6 49918480</akt:has-telephone-number>
+		<akt:has-web-address>http://www.dis.uniroma1.it/~baldoni</akt:has-web-address>
+		<akt:has-email-address>baldoni@dis.uniroma1.it</akt:has-email-address>
+		<akt:family-name>Baldoni</akt:family-name>
+		<akt:given-name>Roberto</akt:given-name>
+		<rdf:type rdf:resource="&akt;Full-Professor"/>
+		<rdf:type rdf:resource="&akt;Affiliated-Person"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniHRT00">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/RodriguesBAR00">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MelideoMBM00">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniHR00">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MarchettiMVB00">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/PrakashB04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/ScannapiecoVMMB04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/Baldoni04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniBPV04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMP04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaehniBGP04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniBQV04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/ContentiTMB04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MarchettiPCQBB04">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniM02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniR02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/PereiraB02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMPV02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMT02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniSPT02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniVP02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniCMT02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMP02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MecellaSVBCB02">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MarchettiVB03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniHRT03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MecellaSVBCB03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/HelaryRMB03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BeraldiB03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMV03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/CimminoMB03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniCPV03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniM03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/ContentiTMB03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniCV03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/VirgillitoBB03">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniHMR01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniHR01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniCHR01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniQR01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMVZ01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniZ01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MarchettiVMB01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniM01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniB01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MarchettiVB01">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/MarchettiBTV06">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMP06">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniSP06">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/Baldoni06">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniCMQPV06">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniBRQPV06">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/TariBZB05">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniBPV05">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/ContentiMTB05">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniQVJP05">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMSP05">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BeraldiQB05">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniMVV05">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/publications/BaldoniCM05">
+		<akt:has-author rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://roma.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://roma.rkbexplorer.com/id/person-00001"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:sioc="http://rdfs.org/sioc/ns#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns="http://eunis.eea.europa.eu/rdf/species-schema.rdf#" xml:base="http://eunis.eea.europa.eu/">
+
+<SpeciesSynonym rdf:about="species/4055">
+ <speciesCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4055</speciesCode>
+ <foaf:isPrimaryTopicOf rdf:resource="species/4055/general"/>
+ <binomialName>Limonium revolutum</binomialName>
+ <validName rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</validName>
+ <eunisPrimaryName rdf:resource="species/4055"/>
+ <taxonomicRank>Species</taxonomicRank>
+ <taxonomy rdf:resource="taxonomy/2845"/>
+ <dwc:scientificNameAuthorship>Erben, 1978</dwc:scientificNameAuthorship>
+ <dwc:scientificName>Limonium revolutum</dwc:scientificName>
+ <rdfs:label>Limonium revolutum Erben, 1978</rdfs:label>
+ <dwc:genus>Limonium</dwc:genus>
+ <speciesGroup rdf:resource="speciesgroup/12"/>
+ <dwc:nameAccordingToID rdf:resource="references/1604"/>
+ <ignoreOnNameMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ignoreOnNameMatch>
+</SpeciesSynonym>
+<rdf:Description rdf:about="species/4055">
+</rdf:Description>
+<bibo:Document rdf:about="">
+ <rdfs:label>EUNIS RDF file</rdfs:label>
+ <dcterms:creator>Søren Roug</dcterms:creator>
+ <dcterms:licence rdf:resource="http://creativecommons.org/licenses/by/2.5/dk/"/>
+</bibo:Document>
+</rdf:RDF>

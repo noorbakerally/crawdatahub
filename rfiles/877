@@ -1,0 +1,10 @@
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:payment="http://reference.data.gov.uk/def/payment#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:qb="http://purl.org/linked-data/cube#">
+	<payment:ExpenditureLine rdf:about="http://spending.lichfielddc.gov.uk/spend/8654106">
+		<rdfs:label>Payment number 8654106</rdfs:label>
+		<payment:expenditureCategory rdf:resource="http://spending.lichfielddc.gov.uk/costcentre/central-procurement-holding-account" />
+		<payment:expenditureCategory rdf:resource="http://spending.lichfielddc.gov.uk/type/supplies-services" />
+		<payment:expenditureCategory rdf:resource="http://spending.lichfielddc.gov.uk/subjective/mobile-phones-pagers" />
+		<payment:payment rdf:resource="http://spending.lichfielddc.gov.uk/invoice/8679" />
+		<payment:netAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1619.20</payment:netAmount>
+		<qb:dataSet rdf:resource="http://spending.lichfielddc.gov.uk/download#2010-04-v1" />
+	</payment:ExpenditureLine></rdf:RDF>

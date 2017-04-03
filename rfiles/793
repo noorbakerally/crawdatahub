@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ecrm="http://erlangen-crm.org/120111/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:gnd="http://d-nb.info/gnd/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:relationship="http://purl.org/vocab/relationship/"
+         xmlns:rdaGr2="http://RDVocab.info/ElementsGr2/">
+    <rdf:Description rdf:about="http://ta.sandrart.net/-person-2162">
+        <foaf:isPrimaryTopicOf rdf:resource="http://ta.sandrart.net/-person-2162.html"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+		<rdf:type rdf:resource="http://erlangen-crm.org/120111/E21_Person"/>
+		<rdf:type rdf:resource="http://umbel.org/umbel/sc/Artist_Visual"/>
+		<owl:sameAs rdf:resource="http://d-nb.info/gnd/118643525"/>
+		<owl:sameAs rdf:resource="http://viaf.org/viaf/41957298"/>
+		<foaf:name>Aachen, Hans von</foaf:name>
+		<ecrm:P131_is_identified_by>
+            <ecrm:E82_Actor_Appellation>
+                <ecrm:P3_has_note>Aachen, Hans von</ecrm:P3_has_note>
+            </ecrm:E82_Actor_Appellation>
+        </ecrm:P131_is_identified_by>
+		<relationship:spouseOf rdf:resource="http://ta.sandrart.net/-person-3180" />
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2866" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-1225" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-4248" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-570" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-3802" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2854" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2863" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2825" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2896" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2826" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-4666" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2895" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2862" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2894" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-3753" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-3061" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2996" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2892" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P14i_performed>
+            <ecrm:E12_Production>
+                <ecrm:P108_has_produced rdf:resource="http://ta.sandrart.net/-artwork-2893" />
+            </ecrm:E12_Production>
+        </ecrm:P14i_performed>
+		<ecrm:P62i_is_depicted_by rdf:resource="http://ta.sandrart.net/-artwork-1138" />
+		<ecrm:P62i_is_depicted_by rdf:resource="http://ta.sandrart.net/-artwork-4860" />
+		<ecrm:P62i_is_depicted_by rdf:resource="http://ta.sandrart.net/-artwork-3802" />
+		<ecrm:P62i_is_depicted_by rdf:resource="http://ta.sandrart.net/-artwork-5090" />
+		<ecrm:P62i_is_depicted_by rdf:resource="http://ta.sandrart.net/-artwork-2996" />
+		<ecrm:P62i_is_depicted_by rdf:resource="http://ta.sandrart.net/-artwork-1488" />
+		<rdaGr2:biographicalInformation xml:lang="de">Deutscher Maler, Zeichner und Entwerfer für Stiche, geb. 1552 in Köln, gest. 1615 in Prag; vgl. AKL, Bd. I, S. 2–5.</rdaGr2:biographicalInformation>
+    </rdf:Description>
+</rdf:RDF>

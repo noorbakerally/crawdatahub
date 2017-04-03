@@ -1,0 +1,14 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <rdf:Description rdf:about="http://id.esd.org.uk/service/13">
+    <dc:identifier>13</dc:identifier>
+    <skos:prefLabel>Primary school places</skos:prefLabel>
+    <dc:description>Dealing with requests for places at primary schools from parents of prospective pupils. Allocation of school places according to education authority policy.</dc:description>
+    <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-03</dc:created>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-03</dc:modified>
+    <skos:historyNote>Added scope notes in version 2.02. Term name changed from 'Primary school places' to 'Schools - places - primary' in version 3.00.  Term name changed to 'Primary school places' in version 4.00.</skos:historyNote>
+    <rdf:type rdf:resource="http://def.esd.org.uk/Service" />
+    <skos:inScheme rdf:resource="http://id.esd.org.uk/list/services" />
+    <skos:inScheme rdf:resource="http://id.esd.org.uk/list/englishAndWelshServices" />
+    <skos:inScheme rdf:resource="http://id.esd.org.uk/list/scottishServices" />
+  </rdf:Description>
+</rdf:RDF>

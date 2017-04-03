@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY resex "http://resex.rkbexplorer.com/ontologies/resex#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:resex="&resex;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:21:07</dcterms:created>
+		<dc:source rdf:resource="http://resex.rkbexplorer.com/id/resilience-mechanism-65b5cef4"/>
+		<coref:coreferenceData rdf:resource="http://resex.rkbexplorer.com/crs/resilience-mechanism-65b5cef4" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://resex.rkbexplorer.com/id/resilience-mechanism-65b5cef4">
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Inconsistent-Error"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Consistent-Error"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Timing-Error"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Content-Error"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Fault-Masking"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Compensation"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Concurrent-Detection"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Robustness"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Reliability"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Integrity"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Availability"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Unsignalled-Failure"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Transient-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Timing-Failure"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Software-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Permanent-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Omission-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Non-Malicious-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Non-Deliberate-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Malicious-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Inconsistent-Failures"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Incompetence-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Human-Made-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Hardware-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Halt-Failure"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Development-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Deliberate-Fault"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Content-And-Timing-Failure"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Consistent-Failures"/>
+		<resex:addresses-threat-to-resilience rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Accidental-Fault"/>
+		<resex:has-additional-requirements>The mechanism needs to make a synchrony assumption in order to provide liveness; otherwise it could be used to implement consensus in an asynchronous system, which is not possible. Liveness is guaranteed, i.e., clients eventually receive replies to their requests, provided at most floor((n-1)/3)  replicas are faulty and delay(t) does not grow faster than t indefinitely. Here, delay(t) is the time between the moment t when a message is sent for the first time and the moment when it is received by its destination (assuming the sender keeps retransmitting the message until it is received). This is a rather weak synchrony assumption that is likely to be true in any real system provided network faults are eventually repaired, yet it enables the mechanism to circumvent the impossibility result.</resex:has-additional-requirements>
+		<resex:has-knowledge-requirement rdf:resource="http://resex.rkbexplorer.com/id/knowledge-5f6756ea"/>
+		<resex:has-knowledge-requirement rdf:resource="http://resex.rkbexplorer.com/id/knowledge-597e821d"/>
+		<resex:has-knowledge-requirement rdf:resource="http://resex.rkbexplorer.com/id/knowledge-a41bb914"/>
+		<resex:applies-to-technology rdf:resource="http://resex.rkbexplorer.com/id/technology-bc9403e1"/>
+		<resex:has-related-mechanism rdf:resource="http://resex.rkbexplorer.com/id/"/>
+		<resex:has-related-mechanism rdf:resource="http://resex.rkbexplorer.com/id/resilience-mechanism-ca383a29"/>
+		<resex:has-related-mechanism rdf:resource="http://resex.rkbexplorer.com/id/resilience-mechanism-59726624"/>
+		<resex:has-component rdf:resource="http://resex.rkbexplorer.com/id/technology-29334252"/>
+		<resex:has-component rdf:resource="http://resex.rkbexplorer.com/id/technology-1731f1ce"/>
+		<resex:has-component rdf:resource="http://resex.rkbexplorer.com/id/technology-830ab2bf"/>
+		<resex:has-component rdf:resource="http://resex.rkbexplorer.com/id/technology-bc9403e1"/>
+		<resex:has-component rdf:resource="http://resex.rkbexplorer.com/id/technology-5f6756ea"/>
+		<resex:has-component rdf:resource="http://resex.rkbexplorer.com/id/technology-87fd6ba4"/>
+		<resex:relates-to-concept rdf:resource="http://resex.rkbexplorer.com/id/resilience-concept-b6fb8914"/>
+		<resex:relates-to-concept rdf:resource="http://resex.rkbexplorer.com/id/resilience-concept-5ea14f41"/>
+		<resex:relates-to-concept rdf:resource="http://resex.rkbexplorer.com/id/resilience-concept-45a75e44"/>
+		<resex:relates-to-concept rdf:resource="http://resex.rkbexplorer.com/id/resilience-concept-3df9b5c7"/>
+		<resex:relates-to-concept rdf:resource="http://resex.rkbexplorer.com/id/resilience-concept-c7c29966"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.7.6"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.7.4"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.3.2"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.7.2"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.3.1"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.1.3"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.2.6"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.2.5"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.7.0"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.1.0"/>
+		<resex:has-application-domain rdf:resource="http://acm.rkbexplorer.com/ontologies/acm#J.2.0"/>
+		<resex:has-mechanism-category rdf:resource="http://resex.rkbexplorer.com/id/mechanism-category-5c57c5d5"/>
+		<resex:has-mechanism-category rdf:resource="&resex;Resilience-Architecture"/>
+		<resex:has-mechanism-category rdf:resource="http://resex.rkbexplorer.com/id/mechanism-category-cc11ff2f"/>
+		<resex:diversity-comment>In order to cope with Byzantine failure modes, a consensus-based system requires 3m+1 replicas in order to tolerate m independent faults. Various forms of diversity and replication can be used to ensure that faults are independent, depending on the fault hypothesis, but in the worst case, both software and hardware diversity is needed in order to cope with malicious faults.</resex:diversity-comment>
+		<resex:relates-to-new-wg rdf:resource="http://wiki.rkbexplorer.com/id/resist_wg_divers"/>
+		<resex:relates-to-old-wg rdf:resource="http://wiki.rkbexplorer.com/id/resist_wg_algo"/>
+		<resex:detailed-description-pub rdf:resource="http://citeseer.rkbexplorer.com/id/resource-CS184040"/>
+		<resex:detailed-description>This paper describes a new replication algorithm that is able to tolerate Byzantine faults. We believe that Byzantine-fault-tolerant algorithms will be increasingly important in the future because malicious attacks and software errors are increasingly common and can cause faulty nodes to exhibit arbitrary behavior. Whereas previous algorithms assumed a synchronous system or were too slow to be used in practice, the algorithm described in this paper is practical: it works in asynchronous environments like the Internet and incorporates several important optimizations that improve the response time of previous algorithms by more than an order of magnitude. We implemented a Byzantine-fault-tolerant NFS service using our algorithm and measured its performance. The results show that our service is only 3% slower than a standard unreplicated NFS.</resex:detailed-description>
+		<resex:mechanism-objectives>A practical implementation of Byzantine Fault Tolerance that can be used in asynchronous environments like the Internet. The mechanism guarantees safety, but needs to make a weak synchrony assumption in order to guarantee liveness.</resex:mechanism-objectives>
+		<akt:has-author rdf:resource="http://acm.rkbexplorer.com/id/person-200128-3b7962988fd78fa92ed235c4cc789aa8"/>
+		<akt:has-author rdf:resource="http://acm.rkbexplorer.com/id/person-25647-8d39e35de6dfbdb9bd6572180cd22e92"/>
+		<resex:submitted-by rdf:resource="http://wiki.rkbexplorer.com/id/robert_stroud"/>
+		<akt:has-title>BFT - Practical Byzantine Fault Tolerance</akt:has-title>
+		<rdf:type rdf:resource="&resex;Resilience-Mechanism"/>
+		<resex:has-associated-project rdf:resource="http://wiki.rkbexplorer.com/id/resist"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Inconsistent-Failures"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Single-Error"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Malicious-Fault"/>
+		<akt:addressess-generic-area-of-interest rdf:resource="http://resex.rkbexplorer.com/ontologies/resist#Non-Malicious-Fault"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://resex.rkbexplorer.com/id/resilience-mechanism-5ea14f41">
+		<resex:has-related-mechanism rdf:resource="http://resex.rkbexplorer.com/id/resilience-mechanism-65b5cef4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://resex.rkbexplorer.com/id/resilience-mechanism-ca383a29">
+		<resex:has-related-mechanism rdf:resource="http://resex.rkbexplorer.com/id/resilience-mechanism-65b5cef4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://resex.rkbexplorer.com/id/resilience-mechanism-156d9270">
+		<resex:has-related-mechanism rdf:resource="http://resex.rkbexplorer.com/id/resilience-mechanism-65b5cef4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://resex.rkbexplorer.com/id/resilience-mechanism-59726624">
+		<resex:has-related-mechanism rdf:resource="http://resex.rkbexplorer.com/id/resilience-mechanism-65b5cef4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://resex.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://resex.rkbexplorer.com/id/resilience-mechanism-65b5cef4"/>
+	</rdf:Description>
+</rdf:RDF>

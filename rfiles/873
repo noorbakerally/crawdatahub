@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:_7="http://rdfs.org/sioc/types#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:mvcb="http://webns.net/mvcb/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+>
+  <foaf:Document rdf:about="http://linkedmarkmail.wikier.org/message/5wfms7w5opja4a2y">
+    <foaf:primaryTopic>
+      <_7:MailMessage rdf:about="http://linkedmarkmail.wikier.org/message/5wfms7w5opja4a2y#message">
+        <dct:title>Re: Standardizing linked data - was Re: URI Comparisons: RFC 2616  vs.  RDF - Nathan - org.w3.public-lod - MarkMail</dct:title>
+        <sioc:id>5wfms7w5opja4a2y</sioc:id>
+        <sioc:link rdf:resource="http://markmail.org/message/5wfms7w5opja4a2y"/>
+        <sioc:content>Subject:Re: Standardizing linked data - was Re: URI Comparisons: RFC 2616  vs.  RDFFrom:Nathan (nat...@webr3.org)Date:Jan 20, 2011  2:39:23 pmList:org.w3.public-lodNathan wrote:
+Dave Reynolds wrote:
+All this presupposes some work to formalize and specify linked data. 
+Is there anything like that planned?  In some ways Linked Data is an 
+engineering experiment and benefits from that freedom to experiment. 
+On the other hand interoperability eventually needs clear specifications.
+
+Unsure, but I'll also ask the question, is there anything planned? I'd 
+certainly +1 standardization and do anything I could to help the process 
+along.
+
+or perhaps an IG/XG follow up to the SWEO, taking in to account Read 
+Write Web of Data, hopefully with a some protocol or best practice 
+report giving a migration path to standardization?
+
+There are certainly plenty of other groups to take in to account and 
+consider in all of this, like the WebID XG.
+
+Best,
+
+Nathan
+
+</sioc:content>
+        <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+      </_7:MailMessage>
+    </foaf:primaryTopic>
+    <rdfs:label>RDF version of the message '5wfms7w5opja4a2y' retrieved from MarkMail API</rdfs:label>
+    <mvcb:generatorAgent rdf:resource="http://swaml.berlios.de/doap#swaml"/>
+  </foaf:Document>
+</rdf:RDF>
+
+

@@ -1,0 +1,262 @@
+{
+  "@graph" : [ {
+    "@id" : "http://viaf.org/viaf/40280446",
+    "@type" : "schema:Person",
+    "identifier" : "40280446",
+    "alternateName" : [ "勞倫斯·雷席格", "劳伦斯·莱斯格", "لورانس ليسيج", "로런스 레식", "Λώρενς Λέσιγκ", "로렌스 레식", "Lawrence Lessig", "Лоуренс Лессиг", "ローレンス・レッシグ", "Лоуренс Лессіг", "Лорэнс Лесіг", "לורנס לסיג", "Rōrensu Resshigu", "Лорънс Лесиг", "ลอว์เรนซ์ เลสสิก", "லோறன்ஸ் லெசிக்", "Rōrensu Resshigu", "ലോറൻസ് ലെസിഗ്", "لارنس لسیگ", "Лоренс Лесиг", "লরেন্স লেসিগ", "ローレンス レッシグ", "Autor:Lawrence Lessig" ],
+    "birthDate" : "1961-06-03",
+    "familyName" : [ "Resshigu", "レッシグ", "레식", "Лессиг" ],
+    "gender" : "http://www.wikidata.org/entity/Q6581097",
+    "givenName" : [ "Rōrensu", "Лоуренс", "로렌스", "Rōrensu", "로런스", "ローレンス" ],
+    "name" : [ {
+      "@language" : "no-no",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "ca-es",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "ja-jp",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "hr-hr",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "nl-nl",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "pl-pl",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "de-de",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "en-kr",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "cs-cz",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "lv-lv",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "en-us",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "en",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "fr-fr",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "da-dk",
+      "@value" : "Lawrence Lessig"
+    }, "Lawrence Lessig" ],
+    "sameAs" : [ "http://dbpedia.org/resource/Lawrence_Lessig", "http://isni.org/isni/000000011963719X", "http://id.ndl.go.jp/auth/entity/00839943", "http://www.idref.fr/082573379/id", "http://www.wikidata.org/entity/Q217790", "http://alpha.bn.org.pl/record=a17838733", "http://id.loc.gov/authorities/names/no99044097", "http://d-nb.info/gnd/123211476", "http://data.bnf.fr/ark:/12148/cb15010515g#foaf:Person" ],
+    "comment" : [ {
+      "@language" : "en",
+      "@value" : "Warning: skos:prefLabels are not ensured against change!"
+    }, "BCP47 tag for 'NII|DA13126362' is undetermined. Name is 'Lawrence Lessig'.", "BCP47 tag for 'NII' is undetermined. Name is 'Lawrence Lessig'." ],
+    "prefLabel" : [ {
+      "@language" : "lv-lv",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "fr-fr",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "da-dk",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "en-us",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "no-no",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "ca-es",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "ja-jp",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "hr-hr",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "nl-nl",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "pl-pl",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "de-de",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "en-kr",
+      "@value" : "Lawrence Lessig"
+    }, {
+      "@language" : "cs-cz",
+      "@value" : "Lawrence Lessig"
+    } ]
+  }, {
+    "@id" : "http://viaf.org/viaf/40280446/",
+    "@type" : [ "genont:InformationResource", "foaf:Document" ],
+    "inDataset" : "http://viaf.org/viaf/data",
+    "primaryTopic" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/BIBSYS%7C33850#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/BIBSYS",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/BNC%7Ca11575931#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/BNC",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/BNF%7C15010515#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/BNF",
+    "prefLabel" : "Lessig, Lawrence, 1961-",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/DBC%7C87097968626234#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/DBC",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/DNB%7C123211476#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/DNB",
+    "prefLabel" : "Lessig, Lawrence, 1961-",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/ISNI%7C000000011963719X#skos:Concept",
+    "@type" : "skos:Concept",
+    "altLabel" : [ "لورانس ليسيج", "ローレンス・レッシグ", "Lawrence Lessig Abogado y profesor de Derecho en la Universidad Stanford, especializado en derecho informático. Fundador del Centro para Internet y la Sociedad de la universidad, además de la iniciativa Creative Commons", "Лоренс Лесиг американски академик и политички деец", "Lawrence Lessig amerykański prawnik", "Лорънс Лесиг", "레식, 로런스 1961-", "Lawrence Lessig a Stanford Egyetem jogászprofesszora", "勞倫斯·雷席格", "Autor:Lawrence Lessig", "Λώρενς Λέσιγκ", "レッシグ, ローレンス", "레식, 로렌스 1961-", "ലോറൻസ് ലെസിഗ്", "லோறன்ஸ் லெசிக்", "Lawrence Lessig Amerikaans jurist", "로런스 레식", "ลอว์เรนซ์ เลสสิก", "লরেন্স লেসিগ", "لارنس لسیگ", "Lawrence Lessig giurista statunitense", "לורנס לסיג", "Resshigu, Rōrensu", "Лессиг, Лоуренс 1961-", "Лоуренс Лессиг", "Lawrence Lessig US-amerikanischer Jurist, Professor für Rechtswissenschaft, Gründer der Creative Commons-Initiative", "Лоуренс Лессіг", "劳伦斯·莱斯格", "Lawrence Lessig Juriste américain de notoriété internationale. Il est professeur de droit (C. Wendell and Edith M. Carlsmith Professor of Law) à Stanford Law School (Université Stanford, Californie) où il a fondé le  Center for Internet and Society" ],
+    "inScheme" : "http://viaf.org/authorityScheme/ISNI",
+    "prefLabel" : "Lessig, Lawrence, 1961-",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/KRNLK%7CKAC200205052#skos:Concept",
+    "@type" : "skos:Concept",
+    "altLabel" : [ "레식, 로렌스 1961-", "레식, 로런스 1961-" ],
+    "inScheme" : "http://viaf.org/authorityScheme/KRNLK",
+    "prefLabel" : "Lessig, Lawrence, 1961-",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/LC%7Cno+99044097#skos:Concept",
+    "@type" : "skos:Concept",
+    "altLabel" : "Resshigu, Rōrensu",
+    "inScheme" : "http://viaf.org/authorityScheme/LC",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/LNB%7CLNC10-000132075#skos:Concept",
+    "@type" : "skos:Concept",
+    "altLabel" : "Лессиг, Лоуренс, 1961-",
+    "inScheme" : "http://viaf.org/authorityScheme/LNB",
+    "prefLabel" : "Lessig, Lawrence, 1961-",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/NDL%7C00839943#skos:Concept",
+    "@type" : "skos:Concept",
+    "altLabel" : "レッシグ, ローレンス",
+    "inScheme" : "http://viaf.org/authorityScheme/NDL",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/NII%7CDA13126362#skos:Concept",
+    "@type" : "skos:Concept",
+    "altLabel" : "レッシグ, ローレンス",
+    "inScheme" : "http://viaf.org/authorityScheme/NII",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/NKC%7Cjs20081001001#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/NKC",
+    "prefLabel" : "Lessig, Lawrence, 1961-",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/NLP%7Ca17838733#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/NLP",
+    "prefLabel" : "Lessig, Lawrence, 1961-",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/NSK%7C000374744#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/NSK",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/NTA%7C191978124#skos:Concept",
+    "@type" : "skos:Concept",
+    "url" : "http://opc4.kb.nl/PPN?PPN=191978124",
+    "inScheme" : "http://viaf.org/authorityScheme/NTA",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/NUKAT%7Cn+2003045532#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/NUKAT",
+    "prefLabel" : "Lessig, Lawrence, 1961-",
+    "focus" : "http://viaf.org/viaf/40280446"
+  }, {
+    "@id" : "http://viaf.org/viaf/sourceID/SUDOC%7C082573379#skos:Concept",
+    "@type" : "skos:Concept",
+    "inScheme" : "http://viaf.org/authorityScheme/SUDOC",
+    "prefLabel" : "Lessig, Lawrence",
+    "focus" : "http://viaf.org/viaf/40280446"
+  } ],
+  "@context" : {
+    "url" : "http://schema.org/url",
+    "focus" : {
+      "@id" : "http://xmlns.com/foaf/0.1/focus",
+      "@type" : "@id"
+    },
+    "prefLabel" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "primaryTopic" : {
+      "@id" : "http://xmlns.com/foaf/0.1/primaryTopic",
+      "@type" : "@id"
+    },
+    "inDataset" : {
+      "@id" : "http://rdfs.org/ns/void#inDataset",
+      "@type" : "@id"
+    },
+    "altLabel" : "http://www.w3.org/2004/02/skos/core#altLabel",
+    "sameAs" : {
+      "@id" : "http://schema.org/sameAs",
+      "@type" : "@id"
+    },
+    "alternateName" : "http://schema.org/alternateName",
+    "familyName" : "http://schema.org/familyName",
+    "identifier" : "http://purl.org/dc/terms/identifier",
+    "comment" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "name" : "http://schema.org/name",
+    "givenName" : "http://schema.org/givenName",
+    "gender" : {
+      "@id" : "http://schema.org/gender",
+      "@type" : "@id"
+    },
+    "birthDate" : "http://schema.org/birthDate",
+    "schema" : "http://schema.org/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "genont" : "http://www.w3.org/2006/gen/ont#",
+    "umbel" : "http://umbel.org/umbel#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "void" : "http://rdfs.org/ns/void#",
+    "pto" : "http://www.productontology.org/id/",
+    "bgn" : "http://bibliograph.net/",
+    "re" : "http://oclcsrw.google.code/redirect",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "dcterms" : "http://purl.org/dc/terms/"
+  }
+}

@@ -1,0 +1,49 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dnbt: <http://d-nb.info/standards/elementset/dnb#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://d-nb.info/gnd/10140798-1> a gndo:CorporateBody ;
+	foaf:page <http://de.wikipedia.org/wiki/Deutsche_Nationalbibliothek> ;
+	gndo:gndIdentifier "10140798-1" ;
+	gndo:oldAuthorityNumber "(DE-588)1072888688" ;
+	owl:sameAs <http://d-nb.info/gnd/1072888688> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/1072888688" ;
+	gndo:oldAuthorityNumber "(DE-588)1068094001" ;
+	owl:sameAs <http://d-nb.info/gnd/1068094001> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/1068094001" ;
+	gndo:oldAuthorityNumber "(DE-588)7532309-6" ;
+	owl:sameAs <http://d-nb.info/gnd/7532309-6> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/7532309-6" ;
+	gndo:oldAuthorityNumber "(DE-588c)7532309-6" , "(DE-588b)10140798-1" ;
+	gndo:variantNameForTheCorporateBody "Nationalbibliothek (Deutschland)" , "DNB" , "German National Library (Deutsche Nationalbibliothek)" , "Deutsche Nationalbibliothek. Sachgebiet 1.1.2." ;
+	gndo:preferredNameForTheCorporateBody "Deutsche Nationalbibliothek" ;
+	gndo:precedingCorporateBody <http://d-nb.info/gnd/2115538-0> ;
+	gndo:broaderTermInstantial <http://d-nb.info/gnd/4171211-0> ;
+	gndo:gndSubjectCategory <http://d-nb.info/standards/vocab/gnd/gnd-sc#6.7> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#2.2> ;
+	gndo:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> , <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-SN> , <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-HE> ;
+	gndo:homepage <http://www.dnb.de> ;
+	gndo:definition "bespr. Dr. Niggemann; juristischer (Haupt-)Sitz lt. Gesetz: Frankfurt, Main"@de ;
+	gndo:dateOfEstablishment "29.06.2006" ;
+	gndo:placeOfBusiness <http://d-nb.info/gnd/4018118-2> , <http://d-nb.info/gnd/4035206-7> ;
+	gndo:spatialAreaOfActivity <http://d-nb.info/gnd/4011882-4> .
+

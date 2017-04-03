@@ -1,0 +1,7 @@
+<br />
+<b>Warning</b>:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=937256&amp;api_key=3993920ee83ce2d266fd8c9408bf4971): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in <b>/home/rdfize_lastfm/lastfm.rdfize.com/lib.php</b> on line <b>107</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/home/rdfize_lastfm/lastfm.rdfize.com/lib.php</b> on line <b>128</b><br />
+<br />
+<b>Fatal error</b>:  Call to a member function children() on null in <b>/home/rdfize_lastfm/lastfm.rdfize.com/lib.php</b> on line <b>142</b><br />

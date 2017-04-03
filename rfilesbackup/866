@@ -1,0 +1,51 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://data.bnf.fr/ark:/12148/cb11930945x>
+        skos:prefLabel  "Architecture islamique"@fr .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063216/concept>
+        skos:prefLabel  "Arkitektura musulmana"@eu .
+
+<http://id.sgcb.mcu.es/Autoridades/conceptScheme>
+        skos:prefLabel  "Lista de encabezamientos de materia"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201011739/concept>
+        skos:prefLabel  "Mezquitas"@es .
+
+<http://lemac.sgcb.mcu.es/Autoridades/LEMAC201201895/concept>
+        skos:prefLabel  "Arquitectura islàmica"@ca .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201000849/concept>
+        skos:prefLabel  "Arquitectura musulmana-España"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201000917/concept>
+        skos:prefLabel  "Arte musulmán"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/subjectsNames>
+        skos:prefLabel  "Encabezamientos de materia"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201000857/concept>
+        skos:prefLabel  "Arquitectura religiosa"@es .
+
+<http://id.loc.gov/authorities/sh85006804#concept>
+        skos:prefLabel  "Islamic architecture"@en .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201000848/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:32:38+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Arquitectura islámica"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201000917/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000857/concept> ;
+        skos:closeMatch   <http://data.bnf.fr/ark:/12148/cb11930945x> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201201895/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063215/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063216/concept> , <http://id.loc.gov/authorities/sh85006804#concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201000849/concept> ;
+        skos:prefLabel    "Arquitectura musulmana"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201011739/concept> .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063215/concept>
+        skos:prefLabel  "Arquitectura musulmana"@es .

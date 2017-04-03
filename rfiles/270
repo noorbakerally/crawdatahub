@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/"
+	xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:freebase="http://rdf.freebase.com/ns/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:opencyc="http://sw.opencyc.org/concept/"
+	xmlns:cyc="http://sw.cyc.com/concept/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ctag="http://commontag.org/ns#">
+
+<rdf:Description rdf:about="http://vocabulary.semantic-web.at/OpenData/CKAN">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-16T20:36:03Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="de">Comprehensive Knowledge Archive Network</skos:altLabel>
+	<skos:altLabel xml:lang="en">Comprehensive Knowledge Archive Network</skos:altLabel>
+	<skos:broader rdf:resource="http://vocabulary.semantic-web.at/OpenData/open_data_catalogues"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.semantic-web.at/OpenData/data_market"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.semantic-web.at/OpenData/open_data_catalogues"/>
+	<skos:definition xml:lang="en">CKAN is the Comprehensive Knowledge Archive Network, a registry of open knowledge packages and projects (and a few closed ones).
+
+CKAN makes it easy to find, share and reuse open content and data, especially in ways that are machine automatable.</skos:definition>
+	<skos:exactMatch rdf:resource="http://dbpedia.org/resource/Comprehensive_Knowledge_Archive_Network"/>
+	<skos:exactMatch rdf:resource="http://vocabulary.semantic-web.at/semweb/926"/>
+	<skos:prefLabel xml:lang="de">CKAN</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">CKAN</skos:prefLabel>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/OpenData/OKF"/>
+	<foaf:homepage rdf:resource="http://ckan.net/"/>
+</rdf:Description>
+
+</rdf:RDF>

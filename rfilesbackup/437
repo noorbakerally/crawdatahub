@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://semantic-web-grundlagen.de/wiki/Spezial:URIResolver/'>
+	<!ENTITY property 'http://semantic-web-grundlagen.de/wiki/Spezial:URIResolver/Property-3A'>
+	<!ENTITY wikiurl 'http://semantic-web-grundlagen.de/wiki/'>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:property="&property;">
+	<!-- Ontology header -->
+	<owl:Ontology rdf:about="">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-02T01:26:47+02:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0" />
+	</owl:Ontology>
+	<!-- exported page data -->
+	<swivt:Subject rdf:about="&wiki;Praxisvortrag_(14._Vorlesung_SWebT1_WS12/13)">
+		<rdfs:label>Praxisvortrag (14. Vorlesung SWebT1 WS12/13)</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Praxisvortrag_(14._Vorlesung_SWebT1_WS12/13)"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Praxisvortrag_(14._Vorlesung_SWebT1_WS12/13)"/>
+		<rdf:type rdf:resource="&wiki;Kategorie-3AVorlesung"/>
+		<property:Datum rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-06T00:00:00</property:Datum>
+		<property:Dozent rdf:resource="&wiki;Michael_Meier"/>
+		<property:Endzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-06T13:00:00</property:Endzeit>
+		<property:Ort rdf:resource="&wiki;Geb-C3-A4ude_11.40_Raum_231"/>
+		<property:Serie rdf:resource="&wiki;SWebT1_WS12/13"/>
+		<property:Startzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-06T11:30:00</property:Startzeit>
+		<property:Titel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applications</property:Titel>
+	</swivt:Subject>
+	<!-- auxilliary definitions -->
+	<owl:DatatypeProperty rdf:about="&property;Titel">
+		<rdfs:label>Titel</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Titel"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Property:Titel"/>
+	</owl:DatatypeProperty>
+	<owl:DatatypeProperty rdf:about="&property;Startzeit">
+		<rdfs:label>Startzeit</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Startzeit"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Property:Startzeit"/>
+	</owl:DatatypeProperty>
+	<swivt:Subject rdf:about="&wiki;SWebT1_WS12/13">
+		<rdfs:label>SWebT1 WS12/13</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;SWebT1_WS12/13"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/SWebT1_WS12/13"/>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="&property;Serie">
+		<rdfs:label>Serie</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Serie"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Property:Serie"/>
+	</owl:ObjectProperty>
+	<swivt:Subject rdf:about="&wiki;Geb-C3-A4ude_11.40_Raum_231">
+		<rdfs:label>Gebäude 11.40 Raum 231</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Geb%C3%A4ude_11.40_Raum_231"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Geb%C3%A4ude_11.40_Raum_231"/>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="&property;Ort">
+		<rdfs:label>Ort</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Ort"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Property:Ort"/>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="&property;Endzeit">
+		<rdfs:label>Endzeit</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Endzeit"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Property:Endzeit"/>
+	</owl:DatatypeProperty>
+	<swivt:Subject rdf:about="&wiki;Michael_Meier">
+		<rdfs:label>Michael Meier</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Michael_Meier"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Michael_Meier"/>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="&property;Dozent">
+		<rdfs:label>Dozent</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Dozent"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Property:Dozent"/>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="&property;Datum">
+		<rdfs:label>Datum</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Datum"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Property:Datum"/>
+	</owl:DatatypeProperty>
+	<owl:Class rdf:about="&wiki;Kategorie-3AVorlesung">
+		<rdfs:label>Vorlesung</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Kategorie:Vorlesung"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Spezial:ExportRDF/Kategorie:Vorlesung"/>
+	</owl:Class>
+	<!-- References to the SWiVT Ontology, see http://semantic-mediawiki.org/swivt/ -->
+	<owl:AnnotationProperty rdf:about="&swivt;page">
+		<rdfs:isDefinedBy rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:AnnotationProperty>
+	<owl:AnnotationProperty rdf:about="&swivt;creationDate">
+		<rdfs:isDefinedBy rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:AnnotationProperty>
+	<owl:Class rdf:about="&swivt;Subject">
+		<rdfs:isDefinedBy rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Class>
+	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org -->
+</rdf:RDF>

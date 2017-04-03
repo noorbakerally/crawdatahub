@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000410"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000410">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmid</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">recombinant plasmid</IAO_0000111>
+	<rdfs:label xml:lang="en">recombinant plasmid</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdfs:label>pCAX-APP-delta1-FLAG</rdfs:label>
+	<has_part_construct_insert xmlns="http://eagle-i.org/ont/app/1.0/" rdf:resource="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/has_part_construct_insert">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Construct Insert</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000404">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Construct insert</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/has_part_construct_insert">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has part construct insert</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000404">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construct insert</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/has_part_construct_insert">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part_construct_insert</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000">
+	<rdfs:label>APP-delta1-FLAG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000404">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construct insert</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000404"/>
+	<rdfs:label>APP-delta1-FLAG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://global.eagle-i.net/i/Homo_sapiens">
+	<rdfs:label>Homo sapiens</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000">
+	<construct_organism xmlns="http://eagle-i.org/ont/app/1.0/" rdf:resource="http://global.eagle-i.net/i/Homo_sapiens"/>
+	<ERO_0000407 xmlns="http://purl.obolibrary.org/obo/">FLAG C-terminal</ERO_0000407>
+	<ERO_0000236 xmlns="http://purl.obolibrary.org/obo/">351</ERO_0000236>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">processed material</IAO_0000111>
+	<rdfs:label xml:lang="en">processed material</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-a503-5617-794280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<synonym xmlns="http://eagle-i.org/ont/app/1.0/">APP-delta1-FLAG</synonym>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/synonym">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Name</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eagle-i_synonym</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<ERO_0000403 xmlns="http://purl.obolibrary.org/obo/">pCAX</ERO_0000403>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000403">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Construct Backbone</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construct backbone</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construct_backbone</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<RO_0001025 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://harvard.eagle-i.net/i/0000012a-2511-4669-5617-794280000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</preferredLabel>
+	<rdfs:label xml:lang="en">located_in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4669-5617-794280000000">
+	<rdfs:label>Young-Pearse Laboratory</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<rdfs:label xml:lang="en">located in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-07-30T15:36:07.945-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://harvard.eagle-i.net/i/00000129-f7a4-e21a-1728-b1bd80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/00000129-f7a4-e21a-1728-b1bd80000000">
+	<rdfs:label>rpearse (Richard Pearse)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-28T16:19:46.779-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://harvard.eagle-i.net/i/00000129-f7a4-e227-1728-b1bd80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/00000129-f7a4-e227-1728-b1bd80000000">
+	<rdfs:label>tjohnson (Tenille Johnson)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<mediator xmlns="http://purl.org/dc/terms/" rdf:resource="http://harvard.eagle-i.net/i/00000129-f7a4-e22a-1728-b1bd80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/00000129-f7a4-e22a-1728-b1bd80000000">
+	<rdfs:label>etl</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000285"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000285">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Construct</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construct</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construct</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000006">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reagent</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reagent</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reagent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">processed material</IAO_0000111>
+	<rdfs:label xml:lang="en">processed material</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

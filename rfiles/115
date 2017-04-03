@@ -1,0 +1,899 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:category="http://dbpedia.org/resource/Category:"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:ngeo="http://geovocab.org/geometry#"
+    xmlns:akt="http://www.aktors.org/ontology/portal#"
+    xmlns:pext="http://www.ontotext.com/proton/protonext#"
+    xmlns:kalikratis="http://greek-lod.math.auth.gr/kalikratis/resource/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:geonames="http://sws.geonames.org/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:fb="http://rdf.freebase.com/ns/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:comm="http://vocab.resc.info/communication#"
+    xmlns:schema="http://schema.org"
+    xmlns:dbpedia="http://el.dbpedia.org/resource/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geof="http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#"
+    xmlns:crime="http://crime.psi.enakting.org/id/"
+    xmlns:diavgeia="http://diavgeia.math.auth.gr/resource/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:p="http://dbpedia.org/property/"
+    xmlns:map="file:/C:/d2r-server-0.7/police.n3#"
+    xmlns:nuts="http://nuts.geovocab.org/id/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dctype="http://purl.org/dc/dcmitype/"
+    xmlns:tl="http://purl.org/NET/c4dm/timeline.owl#"
+    xmlns:eurostat="http://www4.wiwiss.fu-berlin.de/eurostat/resource/"
+    xmlns:police="http://greek-lod.math.auth.gr/police/resource/"
+    xmlns:place="http://purl.org/ontology/places#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://greek-lod.math.auth.gr/police/data/gad/10?output=rdfxml">
+    <rdfs:label>RDF Description of GENERAL DISTRICT POLICE HEADQUARTERS IONIAN ISLANDS</rdfs:label>
+    <dc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <dc:rights rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <dc:creator>Ioannis Parapontis</dc:creator>
+    <foaf:maker rdf:resource="http://greek-lod.math.auth.gr/IoannisParapontis/foaf.rdf"/>
+    <dc:format>application/n3</dc:format>
+    <dcterms:publisher rdf:resource="http://greek-lod.math.auth.gr/IoannisParapontis/foaf.rdf"/>
+    <rdfs:comment>My Custom Doc Metadata</rdfs:comment>
+    <dc:title>MINISTRY OF PUBLIC ORDER &amp; CITIZEN PROTECTION: Hellenic Police LOD Server</dc:title>
+    <dc:date>2011-12-17</dc:date>
+    <dc:description>Describes a D2RQ mapping from the Hellenic Police DB at Greek LOD to RDF.</dc:description>
+    <foaf:primaryTopic>
+      <police:gad rdf:about="http://greek-lod.math.auth.gr/police/resource/gad/10">
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2847"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8991"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1613"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4682"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8376"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5322"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/381"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3474"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10326"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7151"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4713"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6543"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9011"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8382"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5307"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2228"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4073"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3480"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10931"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10332"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8986"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4677"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11534"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2234"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1000"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3469"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10300"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7146"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6538"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9006"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4683"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5906"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8377"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5922"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11540"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4068"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3475"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10926"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6544"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2229"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4074"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10932"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5295"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7773"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1626"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4069"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/394"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7164"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7768"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8999"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2834"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7170"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1600"/>
+        <rdfs:comment>Λ. ΑΛΕΞΑΝΔΡΑΣ 19, ΚΕΡΚΥΡΑ, ΤΚ 49100</rdfs:comment>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11547"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7774"/>
+        <police:gad_ADDRESS>Λ. ΑΛΕΞΑΝΔΡΑΣ 19, ΚΕΡΚΥΡΑ, ΤΚ 49100</police:gad_ADDRESS>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/389"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10313"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7159"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4696"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5935"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11553"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/395"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1023"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6557"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10939"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7165"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4710"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5941"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5304"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4700"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10308"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10945"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1008"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3456"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6525"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/405"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5310"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11548"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2231"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3462"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10314"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10913"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6531"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/994"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5936"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2216"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4061"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2862"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7760"/>
+        <rdfs:subClassOf>
+          <rdf:Description rdf:about="http://umbel.org/umbel/rc/PoliceOrganization">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fumbel.org%2Fumbel%2Frc%2FPoliceOrganization%3E"/>
+          </rdf:Description>
+        </rdfs:subClassOf>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3457"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6526"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/989"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5292"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5910"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7787"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://diavgeia.math.auth.gr/resource/units/914">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdiavgeia.math.auth.gr%2Fresource%2Funits%2F914%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10914"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2857"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/995"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1623"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7755"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2863"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4707"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1608"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8392"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5317"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7761"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8996"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2831"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/376"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5323"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2244"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/382"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1010"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10327"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7152"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9016"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4693"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8387"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11550"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11529"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2250"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7756"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3485"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4708"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6554"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4678"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8393"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5318"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5917"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11535"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2239"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4084"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10942"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/377"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1005"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10301"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7147"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6539"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/402"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5907"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5923"/>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >19.91962400</geo:long>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2245"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4090"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1011"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10927"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9017"/>
+        <foaf:isPrimaryTopicOf>
+          <rdf:Description rdf:about="http://el.wikipedia.org/wiki/Ελληνική_Αστυνομία">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fel.wikipedia.org%2Fwiki%2F%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE_%CE%91%CF%83%CF%84%CF%85%CE%BD%CE%BF%CE%BC%CE%AF%CE%B1%3E"/>
+          </rdf:Description>
+        </foaf:isPrimaryTopicOf>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1636"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8388"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4079"/>
+        <foaf:homepage>
+          <rdf:Description rdf:about="http://www.astynomia.gr/index.php?option=ozo_content&amp;perform=view&amp;id=4753&amp;Itemid=52&amp;lang=">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.astynomia.gr%2Findex.php%3Foption%3Dozo_content%26perform%3Dview%26id%3D4753%26Itemid%3D52%26lang%3D%3E"/>
+          </rdf:Description>
+        </foaf:homepage>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5918"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2844"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1610"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7784"/>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >39.61941000</geo:lat>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2850"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1637"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11563"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7769"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7175"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2839"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8983"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1605"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4097"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2845"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1018"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8404"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1611"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9003"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4680"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8374"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5320"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11558"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3472"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1024"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10324"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4711"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6541"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8380"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11564"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5305"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2226"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4071"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10330"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8984"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10309"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4675"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8369"/>
+        <police:regions rdf:resource="http://greek-lod.math.auth.gr/police/resource/regions/10"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11532"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2232"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4098"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1019"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3467"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8405"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6536"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9004"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4681"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8375"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5920"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4066"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3473"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10924"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6542"/>
+        <police:gad_LABEL_GR>ΓΑΔΠ ΙΟΝΙΩΝ ΝΗΣΩΝ</police:gad_LABEL_GR>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2227"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4072"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10930"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1618"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5293"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7771"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2858"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1624"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4067"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/392"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7162"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7766"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2832"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8997"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6560"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1619"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4688"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5328"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11545"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7772"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/387"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10311"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7157"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6549"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4694"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5933"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11551"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2255"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/393"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1021"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10937"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7163"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6555"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5302"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4085"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1006"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10943"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3454"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10306"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6523"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4689"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/403"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5928"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11546"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3460"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7158"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10312"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10911"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/992"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5934"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7790"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10938"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2860"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3449"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10298"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7779"/>
+        <owl:equivalentClass>
+          <rdf:Description rdf:about="http://rdf.freebase.com/ns/base.crime.police_department/">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Frdf.freebase.com%2Fns%2Fbase.crime.police_department%2F%3E"/>
+          </rdf:Description>
+        </owl:equivalentClass>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3455"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6524"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/987"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5290"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7785"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10912"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2855"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/993"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1621"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7753"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2861"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4705"/>
+        <police:gad_NAME_GR>ΓΕΝΙΚΗ ΑΣΤΥΝΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ ΠΕΡΙΦΕΡΕΙΑΣ ΙΟΝΙΩΝ ΝΗΣΩΝ</police:gad_NAME_GR>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1606"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8390"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5315"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10299"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10319"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8994"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/374"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7144"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5321"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11559"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2242"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10325"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/380"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7150"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9014"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8385"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11527"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7754"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3483"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4706"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6552"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7139"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9020"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8391"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4676"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5316"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5915"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11533"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2237"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4082"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3468"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10940"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/375"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1003"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10919"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7145"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6537"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9009"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/400"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5905"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5921"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2243"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2868"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10925"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9015"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1634"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11528"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4077"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1640"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5298"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5916"/>
+        <foaf:homepage>
+          <rdf:Description rdf:about="http://www.astynomia.gr/">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.astynomia.gr%2F%3E"/>
+          </rdf:Description>
+        </foaf:homepage>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2842"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1629"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2869"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1635"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8398"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11561"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7767"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7173"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2837"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8981"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1603"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5299"/>
+        <owl:equivalentClass>
+          <rdf:Description rdf:about="http://schema.org/PoliceStation">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fschema.org%2FPoliceStation%3E"/>
+          </rdf:Description>
+        </owl:equivalentClass>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5329"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4095"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/388"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2843"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1016"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8402"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9001"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4699"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8372"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11556"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1022"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3470"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10322"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7168"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8399"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5944"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11562"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5303"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2224"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10948"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8982"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10307"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/408"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8367"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5929"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11530"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2230"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4096"/>
+        <police:gad_CODE_GAD rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >10</police:gad_CODE_GAD>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1017"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://sws.geonames.org/6697805">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F6697805%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3465"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8403"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6534"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9002"/>
+        <police:gad_NAME>GENERAL DISTRICT POLICE HEADQUARTERS IONIAN ISLANDS</police:gad_NAME>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8373"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2219"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4064"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3471"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10922"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6540"/>
+        <foaf:depiction>
+          <rdf:Description rdf:about="http://www.astynomia.gr/images/stories/photo20090_Organograma.jpg">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.astynomia.gr%2Fimages%2Fstories%2Fphoto20090_Organograma.jpg%3E"/>
+          </rdf:Description>
+        </foaf:depiction>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2225"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4070"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5291"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/988"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1616"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8368"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2856"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1622"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4691"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4065"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/390"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10335"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8989"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7160"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7764"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8995"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2830"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1617"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4686"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5326"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11543"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/385"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3478"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7155"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6547"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4692"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8386"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5931"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2253"/>
+        <foaf:isPrimaryTopicOf>
+          <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Hellenic_Police">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHellenic_Police%3E"/>
+          </rdf:Description>
+        </foaf:isPrimaryTopicOf>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/391"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3484"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10935"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7161"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6553"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5300"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11538"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2238"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4083"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3452"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10941"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1004"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10304"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6521"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4687"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/401"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5926"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11544"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7782"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3479"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10310"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7156"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6548"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/990"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5932"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4078"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10936"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3447"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10296"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7777"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3453"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6522"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/985"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7783"/>
+        <police:gad_LABEL>GDPH IONIAN ISLANDS</police:gad_LABEL>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2853"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10910"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/398"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/991"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7751"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4703"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2838"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7174"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1604"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5313"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10297"/>
+        <skos:hasTopConcept>
+          <rdf:Description rdf:about="http://diavgeia.math.auth.gr/resource/organizations/19/">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdiavgeia.math.auth.gr%2Fresource%2Forganizations%2F19%2F%3E"/>
+          </rdf:Description>
+        </skos:hasTopConcept>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7778"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/372"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10317"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7142"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5939"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11557"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2240"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/399"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10323"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7169"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4714"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9012"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8383"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5945"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5308"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11525"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7752"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10949"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4704"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7137"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6529"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/409"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5314"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5913"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11531"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2235"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4080"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/373"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1001"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3466"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10318"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10917"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7143"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6535"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9007"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/998"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8378"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2241"/>
+        <rdfs:subClassOf>
+          <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23ConceptScheme%3E"/>
+          </rdf:Description>
+        </rdfs:subClassOf>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10923"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2866"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1632"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11526"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7138"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5296"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5914"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7770"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10918"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2840"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/999"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1627"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7759"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2867"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1633"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8396"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7765"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2835"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7171"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1601"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5297"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5327"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2248"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4093"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/386"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2841"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1014"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8400"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4697"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8370"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11554"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2254"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1020"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10320"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6558"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8397"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5942"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11560"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5301"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11539"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2222"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4088"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10946"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1009"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10305"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/406"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8365"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5927"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2249"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4094"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1015"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3463"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8401"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6532"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9000"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8371"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2217"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4062"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10920"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3448"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2223"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4089"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2848"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8992"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/986"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1614"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8366"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7788"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2854"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1620"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10333"/>
+        <rdfs:label>GENERAL DISTRICT POLICE HEADQUARTERS IONIAN ISLANDS</rdfs:label>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3481"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8987"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6550"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1609"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7762"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2849"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8993"/>
+        <rdfs:label>ΓΕΝΙΚΗ ΑΣΤΥΝΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ ΠΕΡΙΦΕΡΕΙΑΣ ΙΟΝΙΩΝ ΝΗΣΩΝ</rdfs:label>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1615"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4684"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5324"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11541"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3476"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10328"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/383"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7153"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4715"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6545"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9013"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4690"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5330"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8384"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5309"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2251"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4075"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10933"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10334"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3482"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8988"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6551"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4679"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11536"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2236"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4081"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1002"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3450"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10302"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7148"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9008"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4685"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5908"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8379"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5924"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11542"/>
+        <rdfs:subClassOf>
+          <rdf:Description rdf:about="http://schema.org/EmergencyService">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fschema.org%2FEmergencyService%3E"/>
+          </rdf:Description>
+        </rdfs:subClassOf>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7780"/>
+        <skos:prefLabel>GENERAL DISTRICT POLICE HEADQUARTERS IONIAN ISLANDS</skos:prefLabel>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3477"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10928"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6546"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5930"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4076"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10934"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3445"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7775"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3451"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6520"/>
+        <owl:equivalentClass>
+          <rdf:Description rdf:about="http://umbel.org/umbel/rc/PoliceStation">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fumbel.org%2Fumbel%2Frc%2FPoliceStation%3E"/>
+          </rdf:Description>
+        </owl:equivalentClass>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1628"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7781"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2851"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/396"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7166"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7172"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4701"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2836"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8980"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1602"/>
+        <rdfs:subClassOf>
+          <rdf:Description rdf:about="http://umbel.org/umbel/rc/EmergencyServicesOrganization">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fumbel.org%2Fumbel%2Frc%2FEmergencyServicesOrganization%3E"/>
+          </rdf:Description>
+        </rdfs:subClassOf>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10295"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5311"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11549"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7776"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/370"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10315"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7140"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4698"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5937"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11555"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6559"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1025"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/397"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10321"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7167"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4712"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9010"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5943"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8381"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5306"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7750"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10947"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4702"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3458"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7135"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6527"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/407"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5312"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5911"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2233"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4099"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3464"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/371"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10316"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10915"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7141"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6533"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9005"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/996"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5938"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2218"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4063"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2864"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10921"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1630"/>
+        <skos:altLabel>ΓΕΝΙΚΗ ΑΣΤΥΝΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ ΠΕΡΙΦΕΡΕΙΑΣ ΙΟΝΙΩΝ ΝΗΣΩΝ</skos:altLabel>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2870"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3459"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7136"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6528"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5294"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5912"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7789"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2859"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10916"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1625"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/997"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7757"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2865"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4709"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1631"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8394"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5319"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7763"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2833"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8998"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/378"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5325"/>
+        <skos:hasTopConcept>
+          <rdf:Description rdf:about="http://www.ontotext.com/proton/protonext#Ministry">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.ontotext.com%2Fproton%2Fprotonext%23Ministry%3E"/>
+          </rdf:Description>
+        </skos:hasTopConcept>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2246"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4091"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1012"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/384"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10329"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4100"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7154"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9018"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4695"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8389"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11552"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2252"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7758"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6556"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8395"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5940"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5919"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11537"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2220"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4086"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1007"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10944"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/379"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10303"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7149"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/404"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5909"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/5925"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2247"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4092"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3461"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10950"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1013"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10929"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/6530"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/9019"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/410"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1638"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2215"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4060"/>
+        <rdfs:subClassOf>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Greek_police">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FGreek_police%3E"/>
+          </rdf:Description>
+        </rdfs:subClassOf>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/3446"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2221"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/4087"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2846"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8990"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1612"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/7786"/>
+        <skos:hasTopConcept>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Ministry_(government_department)">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/police/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMinistry_%28government_department%29%3E"/>
+          </rdf:Description>
+        </skos:hasTopConcept>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/2852"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1639"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/11565"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/10331"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/8985"/>
+        <police:crimes rdf:resource="http://greek-lod.math.auth.gr/police/resource/crimes/1607"/>
+        <akt:address-street>Λ. ΑΛΕΞΑΝΔΡΑΣ 19, ΚΕΡΚΥΡΑ, ΤΚ 49100</akt:address-street>
+      </police:gad>
+    </foaf:primaryTopic>
+  </rdf:Description>
+</rdf:RDF>

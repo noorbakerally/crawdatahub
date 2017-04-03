@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Básicos de Internet. The Internet Services Disruption. Ray Ozzie]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Es interesante revisar este documento de <strong>Ray Ozzie</strong>, ahora que, según <a target="_blank" href="http://www.microsoft.com/presspass/press/2010/oct10/10-18steveb-mail.mspx" href="http://www.microsoft.com/presspass/press/2010/oct10/10-18steveb-mail.mspx">ha confirmado Steve Ballmer</a>, éste abandona sus responsabilidades en la definición de estrategias, para pasar al área de entretenimiento.</p><p>Al margen de lo que pueda sorprender éste movimiento, hay que señalar que Ray Ozzie fue contratado para <strong>dirigir a Microsoft hacia una arquitectura de servicios Cloud</strong>, esfuerzo que se ha visto plasmado especialmente en la línea de productos y servicios Live, Exchange, Sharepoint y Azure.</p><p>El público del documento, cuyo título&nbsp;podríamos traducir como "La ruptura de los Servicios de Internet", era&nbsp;originalmente el <em>staff</em>&nbsp;de ejecutivos de Microsoft. El momento de publicación queda definido en el primer párrafo:</p><p>"It is an exciting time, as we’re at the beginning of the biggest product cycle in the company’s history. In a week we ship <strong>new versions of Visual Studio, SQL Server and BizTalk Server</strong>. Later this month we ship <strong>Xbox 360</strong>. Next year we have a double barreled release of our two largest products with Windows <strong>Vista </strong>and <strong>Office “12”</strong>. It’s a great time for customers, our partners, and for those at Microsoft who have put so much of themselves into these products."</p><p>Sin embargo, a pesar de los resultados positivos que esos lanzamientos auguraban, el informe advierte de algunos cambios potenciales que hoy, cinco años después podemos constatar (las cursivas están en el documento original):</p><p>"<em>And while we continue to make good progress on these many fronts, a set of very strong and determined competitors is laser-focused on internet services and service-enabled softwar</em>e. Google is obviously the most visible here, although given the hype level it is difficult to ascertain which of their myriad initiatives are simply adjuncts intended to drive scale for their advertising business, or which might ultimately grow to substantively challenge our offerings." (Facebook, que podía ser considerada una de esas iniciativas, sólo llevaba un año en funcionamiento).</p><p>Los principios claves que dirigirían los cambios anunciados eran:</p><ol><li>La potencia del modelo económico basado en anuncios.</li><li>La efectividad de un nuevo modelo de distribución y uso de software.</li><li>La demanda de experiencias de usuario integradas e irresistibles que, simplemente, funcionan.</li></ol>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-07-26T14:19:35+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Básicos de Internet. The Internet Services Disruption. Ray Ozzie]]></dcterms:title>
+    <dcterms:source rdf:resource="http://ozzie.net/docs/the-internet-services-disruption/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/organizacion/equipoGNOSS/" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/comunidad/nextweb" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/gnoss-pairs-up-open-data-corporate-social/1cb6f628-a567-44d9-aff8-a2e3134ea437" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/el-mito-del-garum-jose-ignacio-goirigolzarri-ex/aa6c4ac9-e793-469d-83dc-eb1d82d09d1d" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/crear-sitio-web-con-php-y-mysql-paso-a-paso/04537852-789e-42b5-a083-f00f843a02a3" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/proyecto-gnoss-universidad-20/8e8a0f45-3d1b-499b-a844-0e8e58b0c69e" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/reportaje-sobre-gnosscom-en-el-programa-de-eitb/fb88e970-3c4a-4261-997e-cad3fdaaf79c" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/gnosscom-lanza-el-primer-buscador-social/c65925d8-3c7e-413f-bf28-4df8d7ceef2b" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/dolores-reig-dinamizacion-de-comunidades-redes/ea2b5c7c-9f1b-4e94-8a5e-b3f28a9265f3" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/eduard-punset-que-nos-pasa-por-dentro-charla-de/c5f99204-a29c-43cd-88aa-e712aa709f62" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/google-twitter-and-facebook-build-the-semantic/a94f385b-955c-4a3a-945a-f40c368661fe" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/nextweb/recurso/foro-de-la-innovacion-la-rioja-noviembre-dias-24/80255855-5a50-4099-b1ef-99935e16fd9d" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/personas/72ae461e-eee6-47cf-a1a8-5712d175147a" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/el-negocio-en-internet/b4d88c3b-a808-4012-a80d-81f914df65d3" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/empresas-y-organizaciones/b977cedd-b5d1-4fcd-9d0a-e2da28fee619" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/web-30/bb320c69-adf5-4ca3-ab36-abd5bb11b4ae" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/web-social/cb7dd00e-1bdc-4a50-bf83-ba78a2e7ff4a" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/futuro-de-internet/d7240d4f-4bea-41d7-a5c7-2d7c5fe1ddaa" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/referentes-en-web-30/df392428-7e94-4d0c-b2dd-cfd891da33cc" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/microsoft" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/steve%20ballmer" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/seattle" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/redmond" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/internet%20services" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/ray%20ozzie" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/disruption" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/cloud%20services" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://my.gnoss.com/organizacion/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo GNOSS]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo GNOSS]]></foaf:name>
+  </foaf:Group>
+  <sioc:Space rdf:about="http://red.gnoss.com/comunidad/nextweb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Next Web: web 3.0, web semántica y el futuro de internet]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/personas/72ae461e-eee6-47cf-a1a8-5712d175147a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Personas]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Personas]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/el-negocio-en-internet/b4d88c3b-a808-4012-a80d-81f914df65d3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[El negocio en internet]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[El negocio en internet]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/empresas-y-organizaciones/b977cedd-b5d1-4fcd-9d0a-e2da28fee619">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Empresas y organizaciones]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Empresas y organizaciones]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/web-30/bb320c69-adf5-4ca3-ab36-abd5bb11b4ae">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Web 3.0]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Web 3.0]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/web-social/cb7dd00e-1bdc-4a50-bf83-ba78a2e7ff4a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Web Social]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Web Social]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/futuro-de-internet/d7240d4f-4bea-41d7-a5c7-2d7c5fe1ddaa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Futuro de internet]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Futuro de internet]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/referentes-en-web-30/df392428-7e94-4d0c-b2dd-cfd891da33cc">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Referentes en Web 3.0]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Referentes en Web 3.0]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/microsoft">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[microsoft]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/steve%20ballmer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[steve ballmer]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/seattle">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[seattle]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/redmond">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[redmond]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/internet%20services">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[internet services]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/ray%20ozzie">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ray ozzie]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/disruption">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[disruption]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/nextweb/busqueda/tag/cloud%20services">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cloud services]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

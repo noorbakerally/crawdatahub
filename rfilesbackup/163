@@ -1,0 +1,15 @@
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix naptan: <http://transport.data.gov.uk/def/naptan/> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://transport.data.gov.uk/id/airport/LHR>
+        naptan:iataRef  "LHR"^^naptan:IataCode ;
+        skos:prefLabel  "London Heathrow Airport"@en .
+
+<http://transport.data.gov.uk/doc/airport/LHR.ttl>
+        a                            api:ItemEndpoint , api:Page ;
+        api:definition               <http://transport.data.gov.uk/meta/doc/airport/_code.ttl> ;
+        api:extendedMetadataVersion  <http://transport.data.gov.uk/doc/airport/LHR.ttl?_metadata=all> ;
+        foaf:primaryTopic            <http://transport.data.gov.uk/id/airport/LHR> .

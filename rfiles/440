@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://somsants.net/user/299"></maker>
+  <primaryTopic rdf:resource="http://somsants.net/user/299"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://somsants.net/user/299">
+  <mbox_sha1sum>20ab8c11af6ba833bd8c8705f7f9f9212e61f4d1</mbox_sha1sum>
+  <name>Sergi Kalàix Nikov</name>
+  <weblog rdf:resource="http://somsants.net/maulet1714"></weblog>
+  <based_near>
+   <geo:SpatialThing>
+    <geo:lat>41.3887900</geo:lat>
+    <geo:long>2.1589900</geo:long>
+   </geo:SpatialThing>
+  </based_near>
+  <img>
+   <Image rdf:about="http://somsants.net/avatar/299-191-20121202214344.png">
+    <thumbnail>
+     <Image rdf:about="http://somsants.net/avatar/299-96-20121202214344.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://somsants.net/avatar/299-48-20121202214344.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://somsants.net/avatar/299-24-20121202214344.png"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://somsants.net/user/299#acct">
+    <accountServiceHomepage rdf:resource="http://somsants.net/"></accountServiceHomepage>
+    <accountName>maulet1714</accountName>
+    <accountProfilePage rdf:resource="http://somsants.net/maulet1714"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://somsants.net/user/299"></sioc:account_of>
+    <sioc:follows rdf:resource="http://somsants.net/user/291#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://somsants.net/user/292#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://somsants.net/user/294#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://somsants.net/user/297#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://somsants.net/user/298#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://somsants.net/user/301#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <knows rdf:resource="http://somsants.net/user/291"></knows>
+  <knows rdf:resource="http://somsants.net/user/292"></knows>
+  <knows rdf:resource="http://somsants.net/user/297"></knows>
+  <knows rdf:resource="http://somsants.net/user/301"></knows>
+ </Agent>
+ <Agent rdf:about="http://somsants.net/user/291">
+  <knows rdf:resource="http://somsants.net/user/299"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://somsants.net/user/291#acct">
+    <accountServiceHomepage rdf:resource="http://somsants.net/"></accountServiceHomepage>
+    <accountName>xavifree</accountName>
+    <accountProfilePage rdf:resource="http://somsants.net/xavifree"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://somsants.net/user/291"></sioc:account_of>
+    <sioc:follows rdf:resource="http://somsants.net/user/299#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://somsants.net/xavifree/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://somsants.net/xavifree/foaf">
+  <maker rdf:resource="http://somsants.net/user/291"></maker>
+  <primaryTopic rdf:resource="http://somsants.net/user/291"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://somsants.net/user/292">
+  <knows rdf:resource="http://somsants.net/user/299"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://somsants.net/user/292#acct">
+    <accountServiceHomepage rdf:resource="http://somsants.net/"></accountServiceHomepage>
+    <accountName>hydoyen</accountName>
+    <accountProfilePage rdf:resource="http://somsants.net/hydoyen"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://somsants.net/user/292"></sioc:account_of>
+    <sioc:follows rdf:resource="http://somsants.net/user/299#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://somsants.net/hydoyen/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://somsants.net/hydoyen/foaf">
+  <maker rdf:resource="http://somsants.net/user/292"></maker>
+  <primaryTopic rdf:resource="http://somsants.net/user/292"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://somsants.net/user/294">
+  <account>
+   <OnlineAccount rdf:about="http://somsants.net/user/294#acct">
+    <accountServiceHomepage rdf:resource="http://somsants.net/"></accountServiceHomepage>
+    <accountName>endavant</accountName>
+    <accountProfilePage rdf:resource="http://somsants.net/endavant"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://somsants.net/user/294"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://somsants.net/endavant/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://somsants.net/endavant/foaf">
+  <maker rdf:resource="http://somsants.net/user/294"></maker>
+  <primaryTopic rdf:resource="http://somsants.net/user/294"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://somsants.net/user/297">
+  <knows rdf:resource="http://somsants.net/user/299"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://somsants.net/user/297#acct">
+    <accountServiceHomepage rdf:resource="http://somsants.net/"></accountServiceHomepage>
+    <accountName>jota</accountName>
+    <accountProfilePage rdf:resource="http://somsants.net/jota"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://somsants.net/user/297"></sioc:account_of>
+    <sioc:follows rdf:resource="http://somsants.net/user/299#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://somsants.net/jota/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://somsants.net/jota/foaf">
+  <maker rdf:resource="http://somsants.net/user/297"></maker>
+  <primaryTopic rdf:resource="http://somsants.net/user/297"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://somsants.net/user/298">
+  <account>
+   <OnlineAccount rdf:about="http://somsants.net/user/298#acct">
+    <accountServiceHomepage rdf:resource="http://somsants.net/"></accountServiceHomepage>
+    <accountName>arran</accountName>
+    <accountProfilePage rdf:resource="http://somsants.net/arran"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://somsants.net/user/298"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://somsants.net/arran/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://somsants.net/arran/foaf">
+  <maker rdf:resource="http://somsants.net/user/298"></maker>
+  <primaryTopic rdf:resource="http://somsants.net/user/298"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://somsants.net/user/301">
+  <knows rdf:resource="http://somsants.net/user/299"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://somsants.net/user/301#acct">
+    <accountServiceHomepage rdf:resource="http://somsants.net/"></accountServiceHomepage>
+    <accountName>evies</accountName>
+    <accountProfilePage rdf:resource="http://somsants.net/evies"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://somsants.net/user/301"></sioc:account_of>
+    <sioc:follows rdf:resource="http://somsants.net/user/299#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://somsants.net/evies/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://somsants.net/evies/foaf">
+  <maker rdf:resource="http://somsants.net/user/301"></maker>
+  <primaryTopic rdf:resource="http://somsants.net/user/301"></primaryTopic>
+ </PersonalProfileDocument>
+</rdf:RDF>

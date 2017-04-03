@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+
+<rdf:RDF xmlns="http://disi.unitn.it/~knowdive/dataset/delicious/tags2con#"
+    xmlns:ctag="http://commontag.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags#"
+    xmlns:tags2con="http://disi.unitn.it/~knowdive/dataset/delicious/tags2con#">
+
+    <ComposedTag rdf:about="#">
+        <hasTokens rdf:resource="#hostel"/>
+        <hasTokens rdf:resource="#youth"/>
+        <dc:source rdf:resource="http://www.delicious.com/tag/youth_hostels"/>
+        <dcterms:isPartOf rdf:resource="http://disi.unitn.it/~knowdive/dataset/delicious//tags2con_dataset.rdf"/>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+        <sioc:has_owner rdf:resource="http://disi.unitn.it/~knowdive/dataset/delicious/user/526849/526849"/>
+        <tags:isTagOf rdf:resource="http://www.bootsnall.com/"/>
+        <tags:tagName>youth_hostels</tags:tagName>
+    </ComposedTag>
+
+    <Token rdf:about="#hostel">
+        <ctag:means rdf:resource="http://disi.unitn.it/~knowdive/dataset/delicious/concept/hostel-NOUN-317064"/>
+        <partOfTag rdf:resource="#"/>
+        <position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</position>
+        <dcterms:isPartOf rdf:resource="http://disi.unitn.it/~knowdive/dataset/delicious//tags2con_dataset.rdf"/>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+        <skos:prefLabel xml:lang="en">hostel</skos:prefLabel>
+    </Token>
+
+    <Token rdf:about="#youth">
+        <partOfTag rdf:resource="#"/>
+        <position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</position>
+        <dcterms:isPartOf rdf:resource="http://disi.unitn.it/~knowdive/dataset/delicious//tags2con_dataset.rdf"/>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+        <skos:prefLabel xml:lang="en">youth</skos:prefLabel>
+    </Token>
+</rdf:RDF>

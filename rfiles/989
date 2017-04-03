@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protocol</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">Protocol</IAO_0000111>
+	<rdfs:label xml:lang="en">protocol</rdfs:label>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">protocol</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<rdfs:label>Peptide Desalting with HyperSep SPE C18 Column</rdfs:label>
+	<ERO_0000480 xmlns="http://purl.obolibrary.org/obo/">http://www.ccrtd.cau.edu/CoreFacilities/Proteomics.aspx</ERO_0000480>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000480">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Website(s)</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has URL</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_url</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">The protocol gives a detain operation steps for peptide desalting with HyperSep SPE C18 column.</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<ERO_0000460 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://cau.eagle-i.net/i/00000136-557e-043e-982a-4eef80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000460">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related Publication or Documentation</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has documentation</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_documentation</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-557e-043e-982a-4eef80000000">
+	<rdfs:label>Peptide fractionation with SCX column in HPLC</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<ERO_0000460 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://cau.eagle-i.net/i/00000136-558d-9dbe-982a-4eef80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-558d-9dbe-982a-4eef80000000">
+	<rdfs:label>Single wavelength absorbance measurement</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<ERO_0000232 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000232">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Author</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has author</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_author</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000">
+	<rdfs:label>Zou, Jin, Ph.D.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<ERO_0000038 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/OBI_0000443"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000038">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uses</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000443">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyte assay</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000038">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specifies the use of</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000443">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analyte assay</IAO_0000111>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000038">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specifies_the_use_of</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000443">
+	<rdfs:label xml:lang="en">analyte assay</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<ERO_0000070 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000070">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used by</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">used by</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">used_by</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000">
+	<rdfs:label>CCRTD-Proteomics</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000">
+	<rdfs:label>Zou, Jin, Ph.D.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T14:03:55.972-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000">
+	<rdfs:label>jzou (Jin  Zou)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T15:07:42.815-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000">
+	<rdfs:label>sgarner</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Document</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">document</IAO_0000111>
+	<rdfs:label xml:lang="en">document</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">information content entity</IAO_0000111>
+	<rdfs:label xml:lang="en">information content entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+	<rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

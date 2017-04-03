@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://oracle.skilledtests.com/user/2589"></maker>
+  <primaryTopic rdf:resource="http://oracle.skilledtests.com/user/2589"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://oracle.skilledtests.com/user/2589">
+  <homepage rdf:resource="https://en.wikipedia.org/wiki/Noam_Chomsky"></homepage>
+  <weblog rdf:resource="http://oracle.skilledtests.com/chomskybot"></weblog>
+  <bio:olb>monologues only :-) later more</bio:olb>
+  <img>
+   <Image rdf:about="http://oracleav.skilledtests.com/avatar/2589-223-20130926033135.jpeg">
+    <thumbnail>
+     <Image rdf:about="http://oracleav.skilledtests.com/avatar/2589-96-20130926033135.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://oracleav.skilledtests.com/avatar/2589-48-20130926033135.jpeg"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://oracleav.skilledtests.com/avatar/2589-24-20130926033135.jpeg"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://oracle.skilledtests.com/user/2589#acct">
+    <accountServiceHomepage rdf:resource="http://oracle.skilledtests.com/"></accountServiceHomepage>
+    <accountName>chomskybot</accountName>
+    <accountProfilePage rdf:resource="http://oracle.skilledtests.com/chomskybot"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://oracle.skilledtests.com/user/2589"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <knows rdf:resource="http://oracle.skilledtests.com/user/2"></knows>
+ </Agent>
+ <Agent rdf:about="http://oracle.skilledtests.com/user/2">
+  <knows rdf:resource="http://oracle.skilledtests.com/user/2589"></knows>
+  <account>
+   <OnlineAccount rdf:about="http://oracle.skilledtests.com/user/2#acct">
+    <accountServiceHomepage rdf:resource="http://oracle.skilledtests.com/"></accountServiceHomepage>
+    <accountName>question</accountName>
+    <accountProfilePage rdf:resource="http://oracle.skilledtests.com/question"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://oracle.skilledtests.com/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://oracle.skilledtests.com/question/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://oracle.skilledtests.com/question/foaf">
+  <maker rdf:resource="http://oracle.skilledtests.com/user/2"></maker>
+  <primaryTopic rdf:resource="http://oracle.skilledtests.com/user/2"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://oracle.skilledtests.com/user/2374">
+  <account>
+   <OnlineAccount rdf:about="http://oracle.skilledtests.com/user/2374#acct">
+    <accountServiceHomepage rdf:resource="http://oracle.skilledtests.com/"></accountServiceHomepage>
+    <accountName>mbjunior</accountName>
+    <accountProfilePage rdf:resource="http://oracle.skilledtests.com/mbjunior"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://oracle.skilledtests.com/user/2374"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://oracle.skilledtests.com/mbjunior/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://oracle.skilledtests.com/mbjunior/foaf">
+  <maker rdf:resource="http://oracle.skilledtests.com/user/2374"></maker>
+  <primaryTopic rdf:resource="http://oracle.skilledtests.com/user/2374"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://mini.alochana.net/index.php/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://mini.alochana.net/index.php/user/1#acct">
+    <accountName>lohang</accountName>
+    <accountProfilePage rdf:resource="http://mini.alochana.net/"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://mini.alochana.net/index.php/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://micro.fragdev.com/user/8056">
+  <account>
+   <OnlineAccount rdf:about="http://micro.fragdev.com/user/8056#acct">
+    <accountName>patrickniedzielski</accountName>
+    <accountProfilePage rdf:resource="http://micro.fragdev.com/patrickniedzielski"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://micro.fragdev.com/user/8056"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/115860">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/115860#acct">
+    <accountName>svti</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/svti"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/115860"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/116803">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/116803#acct">
+    <accountName>hermesgabriel</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/hermesgabriel"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/116803"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/116496">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/116496#acct">
+    <accountName>almadelibertade</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/almadelibertade"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/116496"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://fediverse.com/user/1">
+  <account>
+   <OnlineAccount rdf:about="https://fediverse.com/user/1#acct">
+    <accountName>erkan</accountName>
+    <accountProfilePage rdf:resource="https://fediverse.com/erkan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://fediverse.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://status.vinilox.eu/user/73259">
+  <account>
+   <OnlineAccount rdf:about="https://status.vinilox.eu/user/73259#acct">
+    <accountName>anonim</accountName>
+    <accountProfilePage rdf:resource="https://status.vinilox.eu/anonim"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://status.vinilox.eu/user/73259"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/118107">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/118107#acct">
+    <accountName>potrito</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/potrito"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/118107"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://social.bka.li/user/159">
+  <account>
+   <OnlineAccount rdf:about="http://social.bka.li/user/159#acct">
+    <accountName>follower</accountName>
+    <accountProfilePage rdf:resource="http://social.bka.li/follower"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://social.bka.li/user/159"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/126330">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/126330#acct">
+    <accountName>pimenta</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/pimenta"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/126330"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/121125">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/121125#acct">
+    <accountName>xbaldio</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/xbaldio"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/121125"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/125826">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/125826#acct">
+    <accountName>edierabeh</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/edierabeh"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/125826"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/117996">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/117996#acct">
+    <accountName>soloojos</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/soloojos"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/117996"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/125877">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/125877#acct">
+    <accountName>darknet</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/darknet"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/125877"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/131233">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/131233#acct">
+    <accountName>rudepau</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/rudepau"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/131233"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/137564">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/137564#acct">
+    <accountName>edwin</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/edwin"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/137564"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://fediverse.com/user/6016">
+  <account>
+   <OnlineAccount rdf:about="https://fediverse.com/user/6016#acct">
+    <accountName>satura</accountName>
+    <accountProfilePage rdf:resource="https://fediverse.com/satura"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://fediverse.com/user/6016"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://s.alabs.org/user/1854">
+  <account>
+   <OnlineAccount rdf:about="https://s.alabs.org/user/1854#acct">
+    <accountName>bancodelecturas</accountName>
+    <accountProfilePage rdf:resource="https://s.alabs.org/bancodelecturas"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://s.alabs.org/user/1854"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://loadaverage.org/user/341346">
+  <account>
+   <OnlineAccount rdf:about="https://loadaverage.org/user/341346#acct">
+    <accountName>massimoebooks</accountName>
+    <accountProfilePage rdf:resource="https://loadaverage.org/massimoebooks"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://loadaverage.org/user/341346"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.no/user/3851">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.no/user/3851#acct">
+    <accountName>labelpapinyan</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.no/labelpapinyan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.no/user/3851"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.no/user/11484">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.no/user/11484#acct">
+    <accountName>mashi</accountName>
+    <accountProfilePage rdf:resource="https://quitter.no/mashi"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.no/user/11484"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/115823">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/115823#acct">
+    <accountName>taknamay</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/taknamay"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/115823"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://lamatriz.org/user/2814">
+  <account>
+   <OnlineAccount rdf:about="https://lamatriz.org/user/2814#acct">
+    <accountName>jordila</accountName>
+    <accountProfilePage rdf:resource="https://lamatriz.org/jordila"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://lamatriz.org/user/2814"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.no/user/12243">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.no/user/12243#acct">
+    <accountName>mrrobot</accountName>
+    <accountProfilePage rdf:resource="https://quitter.no/mrrobot"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.no/user/12243"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://lamatriz.org/user/5346">
+  <account>
+   <OnlineAccount rdf:about="https://lamatriz.org/user/5346#acct">
+    <accountName>albertoalmeida</accountName>
+    <accountProfilePage rdf:resource="https://lamatriz.org/albertoalmeida"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://lamatriz.org/user/5346"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.no/user/17159">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.no/user/17159#acct">
+    <accountName>br4d</accountName>
+    <accountProfilePage rdf:resource="https://quitter.no/br4d"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.no/user/17159"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://sealion.club/user/5393">
+  <account>
+   <OnlineAccount rdf:about="https://sealion.club/user/5393#acct">
+    <accountName>layakhan</accountName>
+    <accountProfilePage rdf:resource="https://sealion.club/layakhan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://sealion.club/user/5393"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/34609">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/34609#acct">
+    <accountName>sloka</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/sloka"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/34609"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.ukulilandia.lol/user/1">
+  <account>
+   <OnlineAccount rdf:about="https://social.ukulilandia.lol/user/1#acct">
+    <accountName>tomitoivio</accountName>
+    <accountProfilePage rdf:resource="https://social.ukulilandia.lol/tomitoivio"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.ukulilandia.lol/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/137743">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/137743#acct">
+    <accountName>ximoberna</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/ximoberna"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/137743"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.is/user/37427">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.is/user/37427#acct">
+    <accountName>leafypod</accountName>
+    <accountProfilePage rdf:resource="https://quitter.is/leafypod"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.is/user/37427"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/1554">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/1554#acct">
+    <accountName>fedbot</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/fedbot"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/1554"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://social.consumium.org/user/435">
+  <account>
+   <OnlineAccount rdf:about="https://social.consumium.org/user/435#acct">
+    <accountName>potter</accountName>
+    <accountProfilePage rdf:resource="https://social.consumium.org/potter"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://social.consumium.org/user/435"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/115788">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/115788#acct">
+    <accountName>steinkampf</accountName>
+    <accountProfilePage rdf:resource="https://quitter.se/steinkampf"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/115788"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.se/user/205909">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.se/user/205909#acct">
+    <accountName>rosariotech</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/rosariotech"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.se/user/205909"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.no/user/23421">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.no/user/23421#acct">
+    <accountName>recope</accountName>
+    <accountProfilePage rdf:resource="https://quitter.no/recope"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.no/user/23421"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://gnusocial.de/user/232561">
+  <account>
+   <OnlineAccount rdf:about="https://gnusocial.de/user/232561#acct">
+    <accountName>ao</accountName>
+    <accountProfilePage rdf:resource="https://gnusocial.de/ao"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://gnusocial.de/user/232561"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://quitter.se/user/207869">
+  <account>
+   <OnlineAccount rdf:about="https://quitter.se/user/207869#acct">
+    <accountName>crowdwerbung</accountName>
+    <accountProfilePage rdf:resource="https://quitter.se/crowdwerbung"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://quitter.se/user/207869"></sioc:account_of>
+    <sioc:follows rdf:resource="http://oracle.skilledtests.com/user/2589#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

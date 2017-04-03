@@ -1,0 +1,7 @@
+
+<http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-education-rank-la-2010/E07000139> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Local authorities ranked by average 2010 IMD education rank, North Kesteven" ;
+	<http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-education-rank-la-2010> ;
+	<http://opendatacommunities.org/def/ontology/geography/refArea> <http://opendatacommunities.org/id/geography/administration/nmd/E07000139> ;
+	<http://opendatacommunities.org/def/ontology/time/refPeriod> <http://reference.data.gov.uk/id/year/2010> ;
+	<http://opendatacommunities.org/def/ontology/societal-wellbeing/deprivation/imdEducationRank> 221 .

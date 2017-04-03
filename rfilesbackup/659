@@ -1,0 +1,508 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix fmt: <http://www.w3.org/ns/formats/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix iso: <http://purl.org/iso25964/skos-thes#> .
+@prefix luc: <http://www.ontotext.com/owlim/lucene#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rrx: <http://purl.org/r2rml-ext/> .
+@prefix schema: <http://schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vdpp: <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wv: <http://vocab.org/waiver/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tgn:7015574 a gvp:Subject , skos:Concept , gvp:AdminPlaceConcept ;
+	rdfs:label "Machupicchu" , "Machu Picchu" , "Macchu Picchu" , "Machu Pikchu" , "Machupichu, Ruinas" , "Machupicchu, Ruinas" , "Machupiccho" ;
+	rdfs:seeAlso <http://www.getty.edu/vow/TGNFullDisplay?find=&place=&nation=&subjectid=7015574> ;
+	dct:created "1991-09-13T07:55:00"^^xsd:dateTime ;
+	dct:modified "2007-11-20T15:12:16"^^xsd:dateTime , "2008-03-25T09:04:26"^^xsd:dateTime , "2014-08-05T22:22:14"^^xsd:dateTime , "2004-08-02T10:38:58"^^xsd:dateTime , "2004-07-29T11:27:03"^^xsd:dateTime , "2004-07-29T11:35:58"^^xsd:dateTime , "2004-07-29T11:39:30"^^xsd:dateTime , "2006-03-06T16:49:10"^^xsd:dateTime , "2006-03-06T16:54:47"^^xsd:dateTime , "2014-08-05T22:18:15"^^xsd:dateTime , "2014-08-05T23:09:04"^^xsd:dateTime , "2003-11-11T12:16:06"^^xsd:dateTime , "2003-11-11T12:46:29"^^xsd:dateTime , "2004-07-29T11:18:26"^^xsd:dateTime , "2004-07-29T11:28:39"^^xsd:dateTime , "2004-07-29T11:36:53"^^xsd:dateTime , "2004-07-29T11:50:51"^^xsd:dateTime , "2004-07-29T11:51:40"^^xsd:dateTime , "2004-07-29T13:23:24"^^xsd:dateTime , "2004-07-29T15:58:43"^^xsd:dateTime , "2004-08-02T10:38:44"^^xsd:dateTime , "2006-03-06T16:49:36"^^xsd:dateTime , "2007-04-02T15:20:01"^^xsd:dateTime , "2007-04-02T15:20:51"^^xsd:dateTime , "2008-11-05T16:09:42"^^xsd:dateTime , "2014-08-05T22:18:14"^^xsd:dateTime , "2014-08-05T23:09:03"^^xsd:dateTime , "2015-06-19T15:11:36"^^xsd:dateTime ;
+	skos:changeNote tgn_rev:5000008042 , tgn_rev:5008446997 , tgn_rev:5008448212 , tgn_rev:5004609403 , tgn_rev:5019048775 , tgn_rev:5004609341 , tgn_rev:5004609345 , tgn_rev:5004609352 , tgn_rev:5004609353 , tgn_rev:5004609354 , tgn_rev:5005526463 , tgn_rev:5005526472 , tgn_rev:5019048767 , tgn_rev:5019048824 , tgn_rev:5004603668 , tgn_rev:5004603683 , tgn_rev:5004609339 , tgn_rev:5004609340 , tgn_rev:5004609342 , tgn_rev:5004609343 , tgn_rev:5004609347 , tgn_rev:5004609349 , tgn_rev:5004609358 , tgn_rev:5004609359 , tgn_rev:5004609362 , tgn_rev:5004609393 , tgn_rev:5004609401 , tgn_rev:5004609402 , tgn_rev:5005526462 , tgn_rev:5005526470 , tgn_rev:5005526471 , tgn_rev:5006438625 , tgn_rev:5006438627 , tgn_rev:5008446998 , tgn_rev:5008448213 , tgn_rev:5009358802 , tgn_rev:5019048766 , tgn_rev:5019048821 , tgn_rev:5020875661 ;
+	gvp:broader tgn:1000584 , tgn:6002741 ;
+	gvp:broaderPartitiveExtended tgn:1000584 , tgn:1000002 , tgn:6002741 , tgn:1000056 , tgn:7029392 ;
+	gvp:broaderExtended tgn:1000584 , tgn:1000002 , tgn:6002741 , tgn:1000056 , tgn:7029392 ;
+	gvp:broaderPreferredExtended tgn:1000584 , tgn:1000002 , tgn:1000056 , tgn:7029392 ;
+	gvp:parentString "Cusco, Perú, South America, World" ;
+	skos:note tgn_scopeNote:31420 , tgn_rev:5000008042 , tgn_rev:5008446997 , tgn_rev:5008448212 , tgn_rev:5004609403 , tgn_rev:5019048775 , tgn_rev:5004609341 , tgn_rev:5004609345 , tgn_rev:5004609352 , tgn_rev:5004609353 , tgn_rev:5004609354 , tgn_rev:5005526463 , tgn_rev:5005526472 , tgn_rev:5019048767 , tgn_rev:5019048824 , tgn_rev:5004603668 , tgn_rev:5004603683 , tgn_rev:5004609339 , tgn_rev:5004609340 , tgn_rev:5004609342 , tgn_rev:5004609343 , tgn_rev:5004609347 , tgn_rev:5004609349 , tgn_rev:5004609358 , tgn_rev:5004609359 , tgn_rev:5004609362 , tgn_rev:5004609393 , tgn_rev:5004609401 , tgn_rev:5004609402 , tgn_rev:5005526462 , tgn_rev:5005526470 , tgn_rev:5005526471 , tgn_rev:5006438625 , tgn_rev:5006438627 , tgn_rev:5008446998 , tgn_rev:5008448213 , tgn_rev:5009358802 , tgn_rev:5019048766 , tgn_rev:5019048821 , tgn_rev:5020875661 ;
+	gvp:parentStringAbbrev "Cusco, Perú, ... World" ;
+	gvp:displayOrder "20"^^xsd:positiveInteger ;
+	gvp:placeType aat:300008347 , aat:300167671 , aat:300000810 , aat:300008057 , aat:300017326 , aat:300263063 ;
+	skosxl:prefLabel tgn_term:100782 ;
+	skos:prefLabel "Machupicchu" ;
+	skosxl:altLabel tgn_term:168914 , tgn_term:1001179169 , tgn_term:1002202878 , tgn_term:1001179171 , tgn_term:1001179170 , tgn_term:1001179172 ;
+	skos:altLabel "Machu Picchu" , "Macchu Picchu" , "Machu Pikchu" , "Machupichu, Ruinas" , "Machupicchu, Ruinas" , "Machupiccho" ;
+	gvp:broaderPartitive tgn:1000584 , tgn:6002741 ;
+	gvp:broaderPreferred tgn:1000584 ;
+	skos:broader tgn:1000584 , tgn:6002741 ;
+	iso:broaderPartitive tgn:1000584 , tgn:6002741 ;
+	gvp:broaderNonPreferred tgn:6002741 ;
+	gvp:prefLabelGVP tgn_term:100782 ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:scopeNote tgn_scopeNote:31420 ;
+	dct:contributor tgn_contrib:10000000 ;
+	dct:source tgn_source:9006561 , tgn_source:2009007283 , tgn_source:9006447-subject-7015574 , tgn_source:9006548-subject-7015574 , tgn_source:2009007178-subject-7015574 , tgn_source:2009007043-subject-7015574 ;
+	gvp:placeTypePreferred aat:300167671 ;
+	gvp:placeTypeNonPreferred aat:300008347 , aat:300000810 , aat:300008057 , aat:300017326 , aat:300263063 ;
+	skos:related tgn:1024607 ;
+	dc:identifier "7015574" ;
+	gvp:tgn3001_distinguished_from tgn:1024607 ;
+	skos:broaderTransitive tgn:1000584 , tgn:1000002 , tgn:6002741 , tgn:1000056 ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	void:inDataset <http://vocab.getty.edu/dataset/tgn> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	prov:wasGeneratedBy tgn_rev:5000008042 ;
+	foaf:focus tgn:7015574-place .
+
+tgn_rev:5000008042 a prov:Activity , prov:Create ;
+	dc:type "created" ;
+	prov:startedAtTime "1991-09-13T07:55:00"^^xsd:dateTime .
+
+tgn_rev:5008446997 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2007-11-20T15:12:16"^^xsd:dateTime ;
+	dc:description "Language: " ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5008448212 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2008-03-25T09:04:26"^^xsd:dateTime ;
+	dc:description "Language: " ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609403 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2004-08-02T10:38:58"^^xsd:dateTime ;
+	dc:description "Machupicchu (7015574) 'distinguished from' Machupicchu (1024607);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5019048775 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2014-08-05T22:22:14"^^xsd:dateTime ;
+	dc:description "Machupicchu (7015574) 'formerly identified as' Tampu Tocco (7031911);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609341 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2004-07-29T11:27:03"^^xsd:dateTime ;
+	dc:description "Tampu Tocco (1001179168);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609345 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2004-07-29T11:35:58"^^xsd:dateTime ;
+	dc:description "Macchu Picchu (1001179169);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609352 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2004-07-29T11:39:30"^^xsd:dateTime ;
+	dc:description "Machupichu, Ruinas (1001179171);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609353 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2004-07-29T11:39:30"^^xsd:dateTime ;
+	dc:description "Machupicchu, Ruinas (1001179170);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609354 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2004-07-29T11:39:30"^^xsd:dateTime ;
+	dc:description "Machupiccho (1001179172);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5005526463 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2006-03-06T16:49:10"^^xsd:dateTime ;
+	dc:description "Machupicchu deserted settlement (1001183810);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5005526472 a prov:Activity , prov:Modify ;
+	dc:type "term deleted" ;
+	prov:startedAtTime "2006-03-06T16:54:47"^^xsd:dateTime ;
+	dc:description "Machupicchu deserted settlement (1001183810);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5019048767 a prov:Activity , prov:Modify ;
+	dc:type "term deleted" ;
+	prov:startedAtTime "2014-08-05T22:18:15"^^xsd:dateTime ;
+	dc:description "Tampu Tocco (1001179168);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5019048824 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2014-08-05T23:09:04"^^xsd:dateTime ;
+	dc:description "Machu Pikchu (1002202878);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004603668 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-11-11T12:16:06"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004603683 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-11-11T12:46:29"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609339 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T11:18:26"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609340 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T11:27:03"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609342 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T11:28:39"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609343 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T11:35:58"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609347 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T11:36:53"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609349 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T11:39:30"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609358 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T11:50:51"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609359 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T11:51:40"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609362 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T13:23:24"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609393 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-29T15:58:43"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609401 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-08-02T10:38:44"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5004609402 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-08-02T10:38:58"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5005526462 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2006-03-06T16:49:10"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5005526470 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2006-03-06T16:49:36"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5005526471 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2006-03-06T16:54:47"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5006438625 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2007-04-02T15:20:01"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5006438627 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2007-04-02T15:20:51"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5008446998 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2007-11-20T15:12:16"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5008448213 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2008-03-25T09:04:26"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5009358802 a prov:Activity , prov:Modify ;
+	dc:type "parent added" ;
+	prov:startedAtTime "2008-11-05T16:09:42"^^xsd:dateTime ;
+	dc:description "Inca Empire (historical region) (6002741);" ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5019048766 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2014-08-05T22:18:14"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5019048821 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2014-08-05T23:09:03"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_rev:5020875661 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-06-19T15:11:36"^^xsd:dateTime ;
+	prov:used tgn:7015574 .
+
+tgn_source:9006447-subject-7015574 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:545" .
+
+tgn_source:9006548-subject-7015574 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006548 ;
+	bibo:locator "349" .
+
+tgn_source:2009007178-subject-7015574 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007178 ;
+	bibo:locator "accessed 29 July 2004" .
+
+tgn_source:2009007043-subject-7015574 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007043 ;
+	bibo:locator "accessed 29 July 2004; \"Machu Picchu,\" accessed 29 July 2004" .
+
+tgn_scopeNote:31420 a gvp:ScopeNote ;
+	rdf:value "Located on a high ridge between two sharp peaks, Machu Picchu (Old Peak) and Huayna Picchu (New Peak), overlook the Urubamba river valley. It was formerly believed to be Tampu Tocco, the \"lost city of the Incas,\" but now is generally thought to have been the royal retreat of Inca emperor Pachacuti. It declined after the Spanish Conquest. The site was brought to the attention of scholars by archaeologist Hiram Bingham in 1911."@en ;
+	dct:contributor tgn_contrib:10000000 ;
+	dct:source tgn_source:9006908 , tgn_source:9006447-scopeNote-31420 , tgn_source:2009007043-scopeNote-31420 ;
+	dc:identifier "31420" ;
+	dct:language aat:300388277 .
+
+tgn_source:9006447-scopeNote-31420 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:545" .
+
+tgn_source:2009007043-scopeNote-31420 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007043 ;
+	bibo:locator "accessed 12 January 2003" .
+
+tgn_term:100782 a skosxl:Label ;
+	gvp:term "Machupicchu" ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	skosxl:literalForm "Machupicchu" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	gvp:contributorPreferred tgn_contrib:10000000 ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:sourcePreferred tgn_source:9006447-term-100782 ;
+	dct:source tgn_source:9006561 , tgn_source:2009007664 , tgn_source:9006447-term-100782 ;
+	gvp:sourceNonPreferred tgn_source:9006561 , tgn_source:2009007664 ;
+	dc:identifier "100782" .
+
+tgn_source:9006447-term-100782 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:545" .
+
+tgn_term:168914 a skosxl:Label ;
+	gvp:term "Machu Picchu" ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	skosxl:literalForm "Machu Picchu" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	gvp:sourcePreferred tgn_source:2009007043-term-168914 ;
+	dct:source tgn_source:9006548-term-168914 , tgn_source:2009007043-term-168914 ;
+	dc:identifier "168914" .
+
+tgn_term:1001179169 a skosxl:Label ;
+	gvp:term "Macchu Picchu" ;
+	gvp:displayOrder "3"^^xsd:positiveInteger ;
+	skosxl:literalForm "Macchu Picchu" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007043-term-1001179169 ;
+	gvp:sourceNonPreferred tgn_source:2009007043-term-1001179169 ;
+	dc:identifier "1001179169" .
+
+tgn_term:1002202878 a skosxl:Label ;
+	gvp:term "Machu Pikchu" ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	skosxl:literalForm "Machu Pikchu" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007664 ;
+	gvp:sourceNonPreferred tgn_source:2009007664 ;
+	dc:identifier "1002202878" .
+
+tgn_term:1001179171 a skosxl:Label ;
+	gvp:term "Machupichu, Ruinas" ;
+	gvp:displayOrder "5"^^xsd:positiveInteger ;
+	skosxl:literalForm "Machupichu, Ruinas" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007178 ;
+	gvp:sourceNonPreferred tgn_source:2009007178 ;
+	dc:identifier "1001179171" .
+
+tgn_term:1001179170 a skosxl:Label ;
+	gvp:term "Machupicchu, Ruinas" ;
+	gvp:displayOrder "6"^^xsd:positiveInteger ;
+	skosxl:literalForm "Machupicchu, Ruinas" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	gvp:sourcePreferred tgn_source:2009007178-term-1001179170 ;
+	dct:source tgn_source:2009007178-term-1001179170 ;
+	dc:identifier "1001179170" .
+
+tgn_term:1001179172 a skosxl:Label ;
+	gvp:term "Machupiccho" ;
+	gvp:displayOrder "7"^^xsd:positiveInteger ;
+	skosxl:literalForm "Machupiccho" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007178 ;
+	gvp:sourceNonPreferred tgn_source:2009007178 ;
+	dc:identifier "1001179172" .
+
+tgn_source:9006548-term-168914 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006548 ;
+	bibo:locator "349" .
+
+tgn_source:2009007043-term-168914 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007043 ;
+	bibo:locator "accessed 29 July 2004" .
+
+tgn_source:2009007043-term-1001179169 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007043 ;
+	bibo:locator "\"Machu Picchu,\" accessed 29 July 2004" .
+
+tgn_source:2009007178-term-1001179170 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007178 ;
+	bibo:locator "accessed 29 July 2004" .
+
+tgn_rel:7015574-tgn3001_distinguished_from-1024607 a rdf:Statement ;
+	rdf:subject tgn:7015574 ;
+	rdf:predicate gvp:tgn3001_distinguished_from ;
+	rdf:object tgn:1024607 .
+
+tgn_rel:7015574-placeType-300167671 a rdf:Statement ;
+	rdf:subject tgn:7015574 ;
+	rdf:predicate gvp:placeTypePreferred ;
+	rdf:object aat:300167671 ;
+	rdfs:comment "construction of settlement started ca. 1440; was inhabited until the Spanish conquest of Peru in 1532" ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "1400"^^xsd:gYear ;
+	gvp:estEnd "1600"^^xsd:gYear .
+
+tgn_rel:7015574-placeType-300000810 a rdf:Statement ;
+	rdf:subject tgn:7015574 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300000810 ;
+	gvp:displayOrder "2"^^xsd:positiveInteger .
+
+tgn_rel:7015574-placeType-300008057 a rdf:Statement ;
+	rdf:subject tgn:7015574 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300008057 ;
+	gvp:displayOrder "3"^^xsd:positiveInteger .
+
+tgn_rel:7015574-placeType-300263063 a rdf:Statement ;
+	rdf:subject tgn:7015574 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300263063 ;
+	gvp:displayOrder "4"^^xsd:positiveInteger .
+
+tgn_rel:7015574-placeType-300008347 a rdf:Statement ;
+	rdf:subject tgn:7015574 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300008347 ;
+	gvp:displayOrder "5"^^xsd:positiveInteger ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7015574-placeType-300017326 a rdf:Statement ;
+	rdf:subject tgn:7015574 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300017326 ;
+	gvp:displayOrder "6"^^xsd:positiveInteger ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn:7015574-place a schema:Place , wgs:SpatialThing ;
+	wgs:lat "-13.15"^^xsd:decimal ;
+	wgs:long "-72.5167"^^xsd:decimal ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	void:inDataset <http://vocab.getty.edu/dataset/tgn> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	schema:geo tgn:7015574-geometry ;
+	wgs:alt "2350.008"^^xsd:decimal .
+
+tgn:7015574-geometry a schema:GeoCoordinates ;
+	schema:latitude "-13.15"^^xsd:decimal ;
+	schema:longitude "-72.5167"^^xsd:decimal ;
+	schema:elevation "2350.008"^^xsd:decimal .

@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:gnossUtils="http://gnossUtils/" xmlns:sc="http://schema.org/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:hr-xml="http://didactalia.net/Ontologia/Curriculum.owl#" xmlns:museos="http://didactalia.net/Ontologia/museos.owl#" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/museo-nacional-del-prado/c9b9b89c-0281-491b-8631-656ddd504be5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MUSEO NACIONAL DEL PRADO]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Situado en el edificio de Villanueva, construido en 1785 para Museo de Ciencias Naturales, alberga una colección de pintura desde los siglos XIII al XIX, configurada por las Escuelas Holandesa, Flamenca, Italiana y Española; tiene también colecciones importantes de dibujos, grabados, monedas, medallas y casi dos mil piezas de artes suntuarias o decorativas. La escultura a su vez está representada por más de setecientas piezas y por una cantidad menor de fragmentos escultóricos. Con la culminación del proyecto de Rafael Moneo en torno al área de los Jerónimos, el Museo del Prado completa la ampliación más significativa de sus casi doscientos años de existencia. Un proyecto que incorpora nuevas salas de exposición, la restauración del claustro de los Jerónimos y que prevé la incorporación al Prado de distintos edificios de su entorno como son el Casón del Buen Retiro y el Salón de Reinos. Así se dota la museo de las instalaciones, espacios y servicios que la pinacoteca precisaba para adaptarse a las necesidades del público del siglo XXI.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-15T14:03:19+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO NACIONAL DEL PRADO]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO NACIONAL DEL PRADO.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_c9b9b89c-0281-491b-8631-656ddd504be5_8321220d-7d29-4507-82c0-d5e54bfe29de" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:has_space rdf:resource="http://museos.gnoss.com/en/community/mismuseos" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-thyssen-bornemisza/23ec81cb-a6b8-4c16-b6fa-445f0b959fe4" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-nacional-colegio-de-san-gregorio/106280f7-3627-4d59-ad43-dd4c4469b6ec" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-nacional-de-ceramica-y-de-las-artes/ca51c66b-3458-4175-a164-9df24fe29b85" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museu-nacional-dart-de-catalunya/55cc04b7-56f5-45c9-8d87-b8c4c6e0506b" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-del-greco/2198fc79-fcc5-4f0f-a93a-18bc5b52a481" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-bellas-artes-de-murcia/817496a8-57b9-4f1f-b8cb-c54b0e68e7f0" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-conventual-de-las-carmelitas-descalzas-de/ff8bb81a-594c-4ddf-a948-d7a32218db98" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-la-fundacion-lazaro-galdiano/45bde9d9-6498-4326-9f86-68ab23933956" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/monasterio-de-santa-maria-la-real-de-las-huelgas/6d30ec25-3ff1-46b5-9e01-174f033f4e87" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-de-la-real-armeria/f389b62c-28e3-4c9f-a4bc-40c6209c323a" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resources/category/bellas-artes/97c4e5c9-3040-4af5-83f5-814d28d67f2d" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo%20del%20prado" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/nacional" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/espa%c3%b1ola" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/prado" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/xix" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/xxi" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/villanueva" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/flamenca" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/italiana" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/xiii" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo%20de%20ciencias%20naturales" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/jer%c3%b3nimos" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/escuelas%20holandesa" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/rafael%20moneo" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/cas%c3%b3n%20del%20buen%20retiro" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/sal%c3%b3n%20de%20reinos" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo%20destacado" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Group rdf:about="https://didactalia.net/en/organization/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo Didactalia]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo Didactalia]]></foaf:name>
+  </foaf:Group>
+  <sioc:Space rdf:about="http://museos.gnoss.com/en/community/mismuseos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[museos]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://museos.gnoss.com/en/community/mismuseos/resources/category/bellas-artes/97c4e5c9-3040-4af5-83f5-814d28d67f2d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Bellas Artes]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bellas Artes]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo%20del%20prado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[museo del prado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/nacional">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[nacional]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/espa%c3%b1ola">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[española]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/prado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/xix">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[xix]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/xxi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[xxi]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/villanueva">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[villanueva]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/flamenca">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[flamenca]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/italiana">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[italiana]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/xiii">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[xiii]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo%20de%20ciencias%20naturales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[museo de ciencias naturales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/jer%c3%b3nimos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[jerónimos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/escuelas%20holandesa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escuelas holandesa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/rafael%20moneo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[rafael moneo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/cas%c3%b3n%20del%20buen%20retiro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[casón del buen retiro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/sal%c3%b3n%20de%20reinos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[salón de reinos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo%20destacado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[museo destacado]]></rdfs:label>
+  </sioc_t:Tag>
+<Museum rdf:about="http://didactalia.net/items/Museum_c9b9b89c-0281-491b-8631-656ddd504be5_8321220d-7d29-4507-82c0-d5e54bfe29de">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:accessType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Libre]]></museos:accessType>
+    <museos:management rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Estatal. Ministerio de Cultura]]></museos:management>
+    <vcard:email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[museo.nacional@museodelprado.es]]></vcard:email>
+    <vcard:fax rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[91 3302856]]></vcard:fax>
+    <museos:typology rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Bellas Artes]]></museos:typology>
+    <vcard:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Pº. del Prado, s/n]]></vcard:address>
+    <museos:ownership rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Estatal. Ministerio de Cultura]]></museos:ownership>
+    <museos:activities rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Visitas guiadas, exposiciones temporales, cursos y seminarios, conferencias, proyecciones, conciertos, actividades infantiles y con otros públicos.]]></museos:activities>
+    <museos:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[General: 8 euros. Reducida: 4 euros]]></museos:rate>
+    <dc:references rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Alcolea Blanch, S.(1991),  Museo del Prado , Barcelona: Ediciones Polígrafa. Pérez Sánchez, A.E.(1994),  Museo del Prado , Barcelona: Océano. AA.VV. (1985),  Catálogo de pinturas. Museo del Prado , Madrid: Museo del Prado]]></dc:references>
+    <museos:homepage rdf:resource="http://www.museodelprado.es" />
+    <vcard:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28014</vcard:postalCode>
+    <museos:schedule rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[De martes a domingo y festivos: 9 - 20 h. 24 y 31 de diciembre y 6 de enero: 9 - 14 h. Cerrado: lunes, 1 de enero, 1 de mayo, 25 de diciembre y Viernes Santo.]]></museos:schedule>
+    <museos:advanceRequest rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Grupos]]></museos:advanceRequest>
+    <vcard:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[91 3302800]]></vcard:tel>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Situado en el edificio de Villanueva, construido en 1785 para Museo de Ciencias Naturales, alberga una colección de pintura desde los siglos XIII al XIX, configurada por las Escuelas Holandesa, Flamenca, Italiana y Española; tiene también colecciones importantes de dibujos, grabados, monedas, medallas y casi dos mil piezas de artes suntuarias o decorativas. La escultura a su vez está representada por más de setecientas piezas y por una cantidad menor de fragmentos escultóricos. Con la culminación del proyecto de Rafael Moneo en torno al área de los Jerónimos, el Museo del Prado completa la ampliación más significativa de sus casi doscientos años de existencia. Un proyecto que incorpora nuevas salas de exposición, la restauración del claustro de los Jerónimos y que prevé la incorporación al Prado de distintos edificios de su entorno como son el Casón del Buen Retiro y el Salón de Reinos. Así se dota la museo de las instalaciones, espacios y servicios que la pinacoteca precisaba para adaptarse a las necesidades del público del siglo XXI.]]></dc:description>
+    <museos:interventions rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ampliación arquitectónica]]></museos:interventions>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO NACIONAL DEL PRADO]]></dc:title>
+    <vcard:country rdf:resource="http://geonames.org/2510769" />
+    <vcard:region rdf:resource="http://geonames.org/3117732" />
+    <museos:attachedImage rdf:resource="http://didactalia.net/items/AttachedImage_c9b9b89c-0281-491b-8631-656ddd504be5_fc4862d1-660b-4904-a384-f78256bef082" />
+    <museos:city rdf:resource="http://geonames.org/3117735" />
+    <geo:location rdf:resource="http://didactalia.net/items/wgs84_pos#Point_c9b9b89c-0281-491b-8631-656ddd504be5_d31ebf6a-bc4b-4a9e-b127-6b5b1939d3b2" />
+    <museos:province rdf:resource="http://geonames.org/6355233" />
+  </Museum>
+  <AttachedImage rdf:about="http://didactalia.net/items/AttachedImage_c9b9b89c-0281-491b-8631-656ddd504be5_fc4862d1-660b-4904-a384-f78256bef082">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[AttachedImage]]></rdfs:label>
+    <museos:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[imagenes/Documentos/ImagenesSemanticas/c9b9b89c-0281-491b-8631-656ddd504be5/1090a30c-f741-48cc-b44e-02bee3ab7cbe.jpg]]></museos:image>
+  </AttachedImage>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_c9b9b89c-0281-491b-8631-656ddd504be5_d31ebf6a-bc4b-4a9e-b127-6b5b1939d3b2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-3.702559947967529</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.41650009155273</geo:lat>
+  </geo:Point>
+</rdf:RDF>

@@ -1,0 +1,733 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">61</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/the-university-of-2020-predicting-the-future-of/7bac483e-acc7-442f-9caa-f6907907b7b8" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/delivering-tomorrow-logistics-2050-deutsche-post/e2b0ebf5-abd4-48a8-90b4-039d107b3f16" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/looking-ahead-shells-scenarios/0cdee680-4f54-4e03-8a27-2f1494ba763e" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/futuristspeakercom-a-study-of-future-trends-and/4c55d64e-4457-4dcf-9463-a851028c8d9d" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/efp---european-foresight-platform/5519d00d-efee-4d01-a3da-3e13cfab8eda" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/the-future-of-computing-bits-the-new-york-times/e5edc1c5-4b72-434e-a5fc-8e5a09296646" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/the-future-of-science-2021-a-multiverse-of/60c733ed-9556-438d-9193-7e7916925b77" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/future-trends-creating-the-environment-for/69246ae1-27ba-44bc-bb9e-360540433d36" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/the-world-in-2050-quantifying-the-shift-in-the/a9f44dad-2850-4263-bdc1-f4c1ae25b694" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/resource/airbus-cabin-of-the-future/48e80bf3-d53e-4e27-803e-abdc2297354c" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/the-university-of-2020-predicting-the-future-of/7bac483e-acc7-442f-9caa-f6907907b7b8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[The university of 2020: predicting the future of higher education (The Guardian)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	<strong>The Guardian</strong> analiza <strong>el futuro de la educaci&oacute;n universitaria</strong> a partir de una encuesta del <strong>Pew Institute</strong>. Recoge tendencias sobre m&eacute;todos, financiaci&oacute;n, internacionalizaci&oacute;n...</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-10-22T09:43:42+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[The university of 2020: predicting the future of higher education (The Guardian)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.guardian.co.uk/higher-education-network/blog/2012/aug/24/higher-education-in-2020" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/2020" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/predicting" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/the%20guardian" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/higher%20education" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/university" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/pew%20institute" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/recoge" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/el%20futuro%20de%20la%20educaci%c3%b3n%20universitaria" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Group rdf:about="http://my.gnoss.com/en/organization/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo GNOSS]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo GNOSS]]></foaf:name>
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/2020">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[2020]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/predicting">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[predicting]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/the%20guardian">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[the guardian]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/higher%20education">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[higher education]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/university">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[university]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/pew%20institute">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pew institute]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futuro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/recoge">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[recoge]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/el%20futuro%20de%20la%20educaci%c3%b3n%20universitaria">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[el futuro de la educación universitaria]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/delivering-tomorrow-logistics-2050-deutsche-post/e2b0ebf5-abd4-48a8-90b4-039d107b3f16">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Delivering Tomorrow: Logistics 2050 (© Deutsche Post DHL)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="http://www.z-punkt.de/uploads/pics/titel_Studie_en.jpg" style="width: 310px; height: 198px; " title="" />En una &eacute;poca de creciente incertidumbre, con cada vez niveles m&aacute;s altos de complejidad y una continua globalizaci&oacute;n e inseguridad, es vital que la log&iacute;stica funcione correctamente. El <strong>estudio de prospectiva&nbsp;</strong><a href="http://www.z-punkt.de/logistik2050_en.html" target="_blank">&quot;2050:Scenarios for the World of Global Logistics&quot;</a>&nbsp;publicado por&nbsp;<strong>Deutsche Post DHL</strong>&nbsp;realiza un amplio y detallado&nbsp;an&aacute;lisis del futuro a largo plazo del comercio, la econom&iacute;a y la sociedad.</p>
+<p>
+	&copy; Deutsche Post DHL</p>
+<div>
+	<div>
+		<div>
+			<p>
+				La consultora<a href="http://www.z-punkt.de/288.html" target="_blank"> Z_punkt</a> ha dise&ntilde;ado y supervisado el proceso de cosntrucci&oacute;n de los <strong>escenarios de futuro</strong>, acompa&ntilde;ado por un panel internacional de expertos, y ha desarrollado los escenarios sobre la base de un an&aacute;lisis a largo plazo de la definici&oacute;n de un conjunto de factores-clave que van desde el cambio clim&aacute;tico a los nuevos patrones de comercio y consumo. Como resultado se han identificado los escenarios siguientes:</p>
+			<div>
+				<ul style="margin-left: 40px; ">
+					<li>
+						<p>
+							<a href="http://www.z-punkt.de/865.html" target="_blank">Scenario 1: Untamed Economy &ndash; Impending Collapse</a></p>
+					</li>
+					<li>
+						<p>
+							<a href="http://www.z-punkt.de/864.html" target="_blank">Scenario 2: Megaefficiency in Megacities</a></p>
+					</li>
+					<li>
+						<p>
+							<a href="http://www.z-punkt.de/863.html" target="_blank">Scenario 3:&nbsp;Customized Lifestyles</a></p>
+					</li>
+					<li>
+						<p>
+							<a href="http://www.z-punkt.de/862.html" target="_blank">Scenario 4: Paralyzing Protectionism</a></p>
+					</li>
+					<li>
+						<p>
+							<a href="http://www.z-punkt.de/861.html" target="_blank">Scenario 5: Global Resilience &ndash; Local Adaptation</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p>
+			Para mayor informaci&oacute;n, consultar la siguiente&nbsp;<a href="http://www.z-punkt.de/logistik2050_en.html" target="_blank">web</a>.</p>
+	</div>
+</div>
+<p>
+	&nbsp;</p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[deutsche post dhl]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-11T22:44:05+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Delivering Tomorrow: Logistics 2050 (© Deutsche Post DHL)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.z-punkt.de/fileadmin/be_user/englisch/D_Newsletter/E_2012_03_Newsletter/szenario-study-logistics-2050-en.pdf" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva%20tecnol%c3%b3gica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/scenarios" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/videos" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/climate%20change" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/trade" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/logistics" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/2050" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/economy" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/deutsche%20post%20dhl" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/z_punkt" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/perspectives" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/according" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20economy" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/untamed%20economy" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20resilience" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/local%20adaptation" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/frank%20appel" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/ceo%20of%20deutsche%20post%20ag" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/mr%20appel" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/scenario%20study" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/megaefficiency%20in%20megacities" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/customized%20lifestyles" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/paralyzing%20protectionism" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/escenarios%202050" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva%20tecnol%c3%b3gica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prospectiva tecnológica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/scenarios">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[scenarios]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/videos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[videos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/climate%20change">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[climate change]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/trade">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[trade]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[foresight]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/logistics">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[logistics]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/2050">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[2050]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/economy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[economy]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/deutsche%20post%20dhl">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[deutsche post dhl]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/z_punkt">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[z_punkt]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/perspectives">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[perspectives]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/according">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[according]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20economy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[global economy]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/untamed%20economy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[untamed economy]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20resilience">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[global resilience]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/local%20adaptation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[local adaptation]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/frank%20appel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[frank appel]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/ceo%20of%20deutsche%20post%20ag">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ceo of deutsche post ag]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/mr%20appel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[mr appel]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/scenario%20study">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[scenario study]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/megaefficiency%20in%20megacities">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[megaefficiency in megacities]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/customized%20lifestyles">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[customized lifestyles]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/paralyzing%20protectionism">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[paralyzing protectionism]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/escenarios%202050">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escenarios 2050]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/looking-ahead-shells-scenarios/0cdee680-4f54-4e03-8a27-2f1494ba763e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Looking ahead: Shell´s scenarios]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	La empresa <a href="http://www.shell.com" target="_blank">Shell</a> es un referente mundial en el <strong>uso de la metodolog&iacute;a de los&nbsp;escenarios para explorar&nbsp;el futuro en el &aacute;mbito empresarial</strong>.&nbsp;En su p&aacute;gina web dedican un espacio espec&iacute;fico a su programa de escenarios donde se puede encontrar abundante documentaci&oacute;n sobre esta metodolog&iacute;a y sobre los estudios realizados por la empresa a lo largo de los a&ntilde;os aplicando la metodolog&iacute;a de los escenarios para explorar el<strong> futuro de la energ&iacute;a</strong>. Entre otros documentos, en la web de Shell podeis encontrar &nbsp;el resumen sobre que son&nbsp;<a href="http://www.shell.com/home/content/aboutshell/our_strategy/shell_global_scenarios/what_are_scenarios/" target="_blank">los escenarios para Shell</a>&nbsp;o la presentaci&oacute;n de los&nbsp;<a href="http://www.shell.com/home/content/aboutshell/our_strategy/shell_global_scenarios/shell_energy_scenarios_2050/" target="_blank">Shell energy scenarios to 2050</a>&nbsp;o&nbsp;<a href="http://www.shell.com/home/content/aboutshell/our_strategy/shell_global_scenarios/scenarios_videos/video/" target="_blank">los videos</a>&nbsp;de los escenarios, o el informe&nbsp;<a href="http://www-static.shell.com/static/public/downloads/brochures/corporate_pkg/scenarios/explorers_guide.pdf" target="_blank">Scenarios: An Explorer&rsquo;s Guide&quot;</a>. Tambi&eacute;n est&aacute; disponible su &uacute;ltimo informe&nbsp;<a href="http://www.shell.com/home/content/aboutshell/our_strategy/shell_global_scenarios/signals_signposts/" target="_blank">Signals and Signposts</a>.</p>
+<p>
+	<em>Shell uses scenarios to explore the future. Our scenarios are not mechanical forecasts. They recognise that people hold beliefs and make choices that can lead down different paths. They reveal different possible futures that are plausible and challenge people&rsquo;s assumptions.&nbsp;</em></p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-03-01T20:05:31+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Looking ahead: Shell´s scenarios]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.shell.com/home/content/aboutshell/our_strategy/shell_global_scenarios/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva%20tecnol%c3%b3gica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futures" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/scenarios" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/energ%c3%ada" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/energy" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/possible%20futures" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/forecasts" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/shell" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/2050" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/crisis%20econ%c3%b3mica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/escenarios%20de%20futuro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20economic" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/shell%20energy%20scenarios" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/shell%20energy" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro%20de%20la%20energ%c3%ada" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futures">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futures]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/energ%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[energía]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/energy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[energy]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/possible%20futures">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[possible futures]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/forecasts">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[forecasts]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/shell">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[shell]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/crisis%20econ%c3%b3mica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[crisis económica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/escenarios%20de%20futuro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escenarios de futuro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20economic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[global economic]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/shell%20energy%20scenarios">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[shell energy scenarios]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/shell%20energy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[shell energy]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro%20de%20la%20energ%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futuro de la energía]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/futuristspeakercom-a-study-of-future-trends-and/4c55d64e-4457-4dcf-9463-a851028c8d9d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[FuturistSpeaker.com: A Study of Future Trends and Predictions by Futurist Thomas Frey]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	<span><strong>Futurist Speaker blog</strong> is produced by Google&#39;s top rated futurist speaker,<strong> Thomas Frey</strong>. He speaks on a variety of unique and thought provoking topics based in the trials and tribulations of now, while trailblazing landmark future forward perspectives. He is also the Senior Futurist at DaVinci Institute, a non-profit futurist think tank in Colorado.<span> </span></span></p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-02-17T23:13:01+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[FuturistSpeaker.com: A Study of Future Trends and Predictions by Futurist Thomas Frey]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.futuristspeaker.com/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/blog" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/think%20tank" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/predictions" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futurist" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/study" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future%20trends" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/thomas%20frey" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/speaker" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/colorado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/google%27s" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futurist%20speaker" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futurist%20thomas%20frey" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futurist%20speaker%20blog" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/senior%20futurist" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/davinci%20institute" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/blog">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[blog]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/think%20tank">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[think tank]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/predictions">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[predictions]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futurist">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futurist]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/study">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[study]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future%20trends">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[future trends]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/thomas%20frey">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[thomas frey]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/speaker">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[speaker]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/colorado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[colorado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/google%27s">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[google's]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futurist%20speaker">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futurist speaker]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futurist%20thomas%20frey">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futurist thomas frey]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futurist%20speaker%20blog">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futurist speaker blog]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/senior%20futurist">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[senior futurist]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/davinci%20institute">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[davinci institute]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/efp---european-foresight-platform/5519d00d-efee-4d01-a3da-3e13cfab8eda">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[EFP - European Foresight Platform]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	La<strong> </strong>Plataforma&nbsp;Prospectiva&nbsp;Europea (EFP)&nbsp;es un&nbsp;programa para la construcci&oacute;n de una <strong>red sobre prospectiva</strong> financiado por el VII Programa Marco de la&nbsp;&nbsp;Comisi&oacute;n Europea.&nbsp;Su objetivo es&nbsp;la construcci&oacute;n de una&nbsp;red mundial de&nbsp;redes que re&uacute;nan a&nbsp;diferentes comunidades&nbsp;y profesionales&nbsp;individuales&nbsp;para compartir&nbsp;sus conocimientos acerca de&nbsp;la previsi&oacute;n, predicci&oacute;n&nbsp;y otros m&eacute;todos de&nbsp;estudios&nbsp;futuros.&nbsp;Su p&aacute;gina web recopila numerosa y variada informaci&oacute;n sobre los proyectos&nbsp;de prospectiva&nbsp;actuales y pasados​​, conferencias, talleres de trabajo, art&iacute;culos de prensa&nbsp;y dem&aacute;s informaci&oacute;n sobre estudios de&nbsp;futuro y prospectiva.</p>
+<div>
+	<div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<div aria-label="Valorar traducción" data-tooltip="Valorar traducción" data-tooltip-align="t,c">
+				<div aria-haspopup="true" role="button" tabindex="0" title="">
+					<div>
+						<div>
+							<div>
+								<em>The&nbsp;<strong>European Foresight Platform (EFP)</strong>&nbsp;is a network building program supported by the European Commission&rsquo;s (Framework Programme 7). It aims at building a global network of networks bringing together different communities and individual professionals to share their knowledge about foresight, forecasting and other future studies methods.&nbsp;</em><em>On this homepage of the foresight platform, you find information about current and past foresight projects, conferences, workshops, press articles and other future studies information.</em></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<p>
+	&nbsp;</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-02-03T21:23:39+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[EFP - European Foresight Platform]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.foresight-platform.eu/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuros" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva%20tecnol%c3%b3gica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/escenarios%20futuros" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/european%20commission" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/efp" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight%20platform" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/framework%20programme%207" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/european%20foresight%20platform" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/an%c3%a1lisis%20prospectivo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future%20studies%20information" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight%20projects" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[prospectiva]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuros">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futuros]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/escenarios%20futuros">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escenarios futuros]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/european%20commission">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[european commission]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/efp">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[efp]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight%20platform">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[foresight platform]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/framework%20programme%207">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[framework programme 7]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/european%20foresight%20platform">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[european foresight platform]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20future">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[global future]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/an%c3%a1lisis%20prospectivo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[análisis prospectivo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future%20studies%20information">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[future studies information]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight%20projects">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[foresight projects]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/the-future-of-computing-bits-the-new-york-times/e5edc1c5-4b72-434e-a5fc-8e5a09296646">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[The Future of Computing (Bits-The New York Times)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Ejercicio prospectivo sobre el futuro de la informática de <strong>The New York Times</strong>. Artículos:&nbsp;</p><ul><li><a target="_blank" href="http://www.nytimes.com/2011/12/06/science/china-scrambles-for-high-tech-dominance.html?ref=science" href="http://www.nytimes.com/2011/12/06/science/china-scrambles-for-high-tech-dominance.html?ref=science" >Power in Numbers: China Aims for High-Tech Primacy</a><br><br></li><li><a target="_blank" href="http://www.nytimes.com/2011/12/06/science/creating-artificial-intelligence-based-on-the-real-thing.html?ref=science" href="http://www.nytimes.com/2011/12/06/science/creating-artificial-intelligence-based-on-the-real-thing.html?ref=science" >Creating Artificial Intelligence Based on the Real Thing</a><br><br></li><li><a target="_blank" href="http://www.nytimes.com/2011/12/06/science/fertile-ground-in-africa-for-computer-science-to-take-root.html?ref=science" href="http://www.nytimes.com/2011/12/06/science/fertile-ground-in-africa-for-computer-science-to-take-root.html?ref=science" >Vast and Fertile Ground in Africa for Science to Take Root</a><br><br></li><li><a target="_blank" href="http://www.nytimes.com/2011/12/06/science/lean-start-ups-reach-beyond-silicon-valleys-turf.html?ref=science" href="http://www.nytimes.com/2011/12/06/science/lean-start-ups-reach-beyond-silicon-valleys-turf.html?ref=science" >With a Leaner Model, Start-Ups Reach Further Afield</a><br><br></li><li><a target="_blank" href="http://www.nytimes.com/2011/12/06/science/silicons-possible-successors-include-carbon-nanotubes.html?ref=science" href="http://www.nytimes.com/2011/12/06/science/silicons-possible-successors-include-carbon-nanotubes.html?ref=science" >A High-Stakes Search Continues for Silicon’s Successor</a><br><br></li><li><a target="_blank" href="http://www.nytimes.com/2011/12/06/science/out-of-neal-stephensons-imagination-came-a-new-online-world.html?ref=science" href="http://www.nytimes.com/2011/12/06/science/out-of-neal-stephensons-imagination-came-a-new-online-world.html?ref=science" >Out of a Writer’s Imagination Came an Interactive World</a><br><br></li><li><a target="_blank" href="http://www.nytimes.com/2011/12/06/science/george-dyson-looking-backward-to-put-new-technology-in-focus.html?ref=science" href="http://www.nytimes.com/2011/12/06/science/george-dyson-looking-backward-to-put-new-technology-in-focus.html?ref=science" >Looking Backward to Put New Technologies in Focus</a><br><br></li><li><a target="_blank" href="http://www.nytimes.com/interactive/2011/12/06/science/1206-world.html" href="http://www.nytimes.com/interactive/2011/12/06/science/1206-world.html" >Interactive Map</a><br><br><br></li></ul>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-08T16:58:19+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[The Future of Computing (Bits-The New York Times)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://bits.blogs.nytimes.com/2011/12/06/the-future-of-computing/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/artificial%20intelligence" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/china" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/inform%c3%a1tica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/intelligence" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/science" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/next%20web" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/nytimes.com" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/the%20new%20york%20times" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/new" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/interactive" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/search" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/computing" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/technologies" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/real" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/bits" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/new%20technologies" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/artificial%20intelligence">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[artificial intelligence]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/china">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[china]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/inform%c3%a1tica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[informática]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/intelligence">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[intelligence]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/science">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[science]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/next%20web">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[next web]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/nytimes.com">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[nytimes.com]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/the%20new%20york%20times">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[the new york times]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/new">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[new]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/interactive">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[interactive]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/search">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[search]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/computing">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[computing]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/technologies">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[technologies]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/real">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[real]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/bits">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bits]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/new%20technologies">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[new technologies]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/the-future-of-science-2021-a-multiverse-of/60c733ed-9556-438d-9193-7e7916925b77">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[The Future of Science 2021: A Multiverse of Exploration (by IFTF)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p><a target="_blank"  href="http://newsletters.clearsignals.org/zoom_it/IFTF_SR-1454A_FutureofScience_Map_lg.jpg" href="http://newsletters.clearsignals.org/zoom_it/IFTF_SR-1454A_FutureofScience_Map_lg.jpg"><img src="http://www.iftf.org/system/files/images/IFTF_SR-1454A_FutureofScience_Mapside_onlyMed1.preview.jpg" _cke_saved_src="http://www.iftf.org/system/files/images/IFTF_SR-1454A_FutureofScience_Mapside_onlyMed1.preview.jpg" alt="Future of Science map - click to view large image" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 375px; height: 250px; "></a>&nbsp;<em style="font-size: 9px; ">(Fuente:&nbsp;<a target="_blank"  href="http://www.iftf.org/" href="http://www.iftf.org/">Institute for the Future</a>&nbsp;- IFTF)</em></p><p><em><a target="_blank"  href="http://www.iftf.org/system/files/feature/IFTF_SR1454A_FutureofScience_rdr.pdf" >´The Future of Science 2021: A Multiverse of Exploration`</a>&nbsp;</em>&nbsp;publicado por el&nbsp;&nbsp;<a target="_blank"  href="http://www.iftf.org/" href="http://www.iftf.org/">Institute for the Future</a>&nbsp;(IFTF) aborda los<strong> horizontes de futuro</strong> de los programas de <strong>tecnología e investigación científica</strong>. Para su elaboración han contado con un destacado grupo de científicos de diferentes universidades y centros de investigación públicos y privados americanos (Universidades de Berkeley, Stanford, UC Santa Cruz, Scripps Research Institute y SETI Institute). <br></p><p>En el citado&nbsp;<a target="_blank"  href="http://www.iftf.org/system/files/feature/IFTF_SR1454A_FutureofScience_rdr.pdf" >informe</a> se&nbsp;identifican seis grandes áreas que la ciencia priorizará en la próxima década:</p><ul><li>Descifrar el cerebro y la modelización del pensamiento complejo&nbsp;</li><li>Exploración del espacio extraterrestre</li><li>Tratamiento masivo multiparticipante de datos "<em>Massively Multiplayer Data</em>"</li><li>Futuro de los océanos y sus posibilidades</li><li>Naturaleza de las materias "extrañas" o raras</li><li>Desarrollo de la ingeniería biológica</li></ul><p>Estos <strong>horizontes de futuro</strong> y las <strong>prioridades de la investigación científica</strong> para la próxima década se recogen en un mapa con una propuesta prospectiva del<strong> futuro de la ciencia para el año 2021</strong>.&nbsp;</p><p>Más información en&nbsp;<a target="_blank"  href="http://www.iftf.org/futureofscience" href="http://www.iftf.org/futureofscience">IFTF website</a><a target="_blank"  href="http://newsletters.clearsignals.org/zoom_it/IFTF_SR-1454A_FutureofScience_Map_lg.jpg" href="http://newsletters.clearsignals.org/zoom_it/IFTF_SR-1454A_FutureofScience_Map_lg.jpg"></a>.</p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Institute for the Future - IFTF]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-11-19T10:34:35+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[The Future of Science 2021: A Multiverse of Exploration (by IFTF)]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[www.iftf.org/system/files/feature/IFTF_SR1454A_FutureofScience_rdr.pdf]]></dcterms:source>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/cerebro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/investigaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/tecnolog%c3%ada" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva%20tecnol%c3%b3gica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/ciencia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/science" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/informe" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro%20de%20la%20ciencia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/iftf" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/tratamiento%20de%20datos" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/scien%20future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/institute%20for%20the%20future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/ingenier%c3%ada%20biol%c3%b3gica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/massively%20multiplayer%20data" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro%20de%20los%20oc%c3%a9anos" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/cerebro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cerebro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/investigaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[investigación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/tecnolog%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tecnología]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/ciencia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ciencia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/informe">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[informe]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro%20de%20la%20ciencia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futuro de la ciencia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/iftf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iftf]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/tratamiento%20de%20datos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tratamiento de datos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/scien%20future">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[scien future]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/institute%20for%20the%20future">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[institute for the future]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/ingenier%c3%ada%20biol%c3%b3gica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ingeniería biológica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/massively%20multiplayer%20data">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[massively multiplayer data]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/futuro%20de%20los%20oc%c3%a9anos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[futuro de los océanos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/future-trends-creating-the-environment-for/69246ae1-27ba-44bc-bb9e-360540433d36">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Future Trends: Creating the environment for eco-innovation evolution (by EIO, december 2010)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<div><div><div><p><span><span><img alt="FutureTrends-Cover" src="http://www.eco-innovation.eu/images/stories/Images/FutureTrends-Cover.png" _cke_saved_src="http://www.eco-innovation.eu/images/stories/Images/FutureTrends-Cover.png" style="margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; float: left; width: 200px; height: 255px; "></span></span><br> <span><strong><em>'Future Trends - Creating the environment for eco-innovation evolution' </em></strong>es el primer Horizon Scanning Report del Observatorio de eco-innovación-EOI,&nbsp;</span><span>punto de partida de una</span><span> larga cadena de</span> <span>actividades de prospectiva</span> perfectamente <span>definidas por el </span> <span>EIO</span><span>-</span><span>consorcio</span></p><ul style="margin-left: 80px; "><li><span lang="es"><span>Fase 1: Horizon scanning</span></span></li><li><span lang="es"><span>Fase 2: Delphi</span></span></li><li><span lang="es"><span>Fase 3: Escenarios</span></span></li><li><span lang="es"><span>Fase 4: Roadmaps y análisis de impactos</span></span></li></ul><p><span lang="es">Su objetivo ha sido<strong> captar&nbsp;<span>las tendencias tecnológicas futuras</span> <span>y emergentes</span></strong><span> </span>en eco-innovación, las cuales servirán para elaborar la encuesta&nbsp;<strong><span>Delphi</span></strong><span></span><span>,</span> <span>técnica de recogida de</span> <span>datos de expertos</span> <span>de</span> <span>los <strong>futuros escenarios</strong></span> <span>siguientes</span><span>,</span> <span>y</span> <span>aún más</span> <span>para</span> <span>los planes de trabajo</span> <span>y las actividades de</span> <span>análisis de impacto</span><span>.</span>&nbsp;</span></p><p><br></p><p><br></p><p>Así lo explican en su página<a target="_blank"  href="http://www.eco-innovation.eu/index.php?option=com_content&amp;view=article&amp;id=291:the-horizon-scanning-report-future-trends-is-now-published-and-available-to-download&amp;catid=24:announcements" href="http://www.eco-innovation.eu/index.php?option=com_content&amp;view=article&amp;id=291:the-horizon-scanning-report-future-trends-is-now-published-and-available-to-download&amp;catid=24:announcements"> web</a>:&nbsp;</p><p><em><span>This report is one piece in a long chain of foresight activities described by the&nbsp;EIO activities. Horizon scanning is a starting point to various foresight activities that will follow, and as a starting point it is not meant to be exhaustive. Because&nbsp;various foresight activities will be undertaken continuously during the project, the extensiveness of the reports will increase in the two years to come. This approach allows the team to learn from and expand on the initial efforts as the project evolves.</span></em></p><p><em><span>The activity of grasping future trends, emerging technology fields and eco-innovations will provide information for the upcoming Delphi-technique, used to collect expert data for the following future scenarios, and further for the roadmapping and impact analysis activities.</span></em></p><p><br></p></div></div></div>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Jarmo Vehmas]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Minttu Jaakkola]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Anne Karjalainen]]></dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Leena Saarinen]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-09-09T19:07:12+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Future Trends: Creating the environment for eco-innovation evolution (by EIO, december 2010)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://red.gnoss.com/VisualizarDocumento.aspx?tipo=BaseRecursos&amp;doc=69246ae1-27ba-44bc-bb9e-360540433d36&amp;nombre=FutureTrends+enviroment.pdf&amp;ext=.pdf&amp;org=11111111-1111-1111-1111-111111111111&amp;proy=ca2a9db6-3f10-4478-9245-4f49f9273644&amp;dscr=true" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva%20tecnol%c3%b3gica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/technology" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/comisi%c3%b3n%20europea" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/environment" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/report" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/eoi" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/eco-innovaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/horizon%20scanning" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight%20activities" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/eco-innovation%20observatory" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/technology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[technology]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/comisi%c3%b3n%20europea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[comisión europea]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/environment">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[environment]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/report">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[report]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/eoi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[eoi]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/eco-innovaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[eco-innovación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/horizon%20scanning">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[horizon scanning]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/foresight%20activities">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[foresight activities]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/eco-innovation%20observatory">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[eco-innovation observatory]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/the-world-in-2050-quantifying-the-shift-in-the/a9f44dad-2850-4263-bdc1-f4c1ae25b694">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[The world in 2050: Quantifying the shift in the global economy (by HSBS Global Research, January 2011)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<div><div><img alt="ateneo naider" src="http://www.ateneonaider.com/sites/default/files/imagecache/documento_full/documentos/Top2050_1.jpg" _cke_saved_src="http://www.ateneonaider.com/sites/default/files/imagecache/documento_full/documentos/Top2050_1.jpg" title="" height="96" width="150"></div></div><div><p>En enero de 2011, <a target="_blank"  href="http://www.hsbcnet.com/hsbc/research" >HSBS Global Research</a> publicó su visión sobre la <strong>economía mundial&nbsp;</strong><span lang="es"><strong><span title="Haz clic para obtener otras posibles traducciones">en 2050</span></strong><span title="Haz clic para obtener otras posibles traducciones"> y&nbsp; cuantificó el</span> <span title="Haz clic para obtener otras posibles traducciones">cambio </span><span title="Haz clic para obtener otras posibles traducciones">que prevé en ésta.<br></span></span></p><p><strong></strong>En palabras de<strong> Karen Ward</strong>, <em></em>Senior Global Economist de HSBC<em>, </em><em>" With the rapid growth of the emerging markets, the global economy is experiencing a seismic shift. In this piece, we argue that this shift is set to continue. By 2050, the collective size of the economies we currently deem 'emerging' will have increased five-fold and will be larger than the developed world. And 19 of the 30 largest economies will be from the emerging world. At the same time, there will be a marked decline in the economic might - and potentially the political clout - of many small population, ageing, rich economies in Europe."</em></p></div>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[HSBS Global Research]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-07-16T10:56:48+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[The world in 2050: Quantifying the shift in the global economy (by HSBS Global Research, January 2011)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.ateneonaider.com/sites/default/files/documentos/RDV.pdf" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/prospectiva" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/globalizaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/trends" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/econom%c3%ada%20mundial" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/2050" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future%20trends" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global%20economy" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/an%c3%a1lisis%20econ%c3%b3mico" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/globalizaci%c3%b3n%20econ%c3%b3mica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/factor%c3%ada%20econ%c3%b3mica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/hsbs%20global%20research" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/world%202050" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/hsbc" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/globalizaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[globalización]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/trends">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[trends]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/global">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[global]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/econom%c3%ada%20mundial">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[economía mundial]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/an%c3%a1lisis%20econ%c3%b3mico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[análisis económico]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/globalizaci%c3%b3n%20econ%c3%b3mica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[globalización económica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/factor%c3%ada%20econ%c3%b3mica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[factoría económica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/hsbs%20global%20research">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[hsbs global research]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/world%202050">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[world 2050]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/hsbc">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[hsbc]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/resource/airbus-cabin-of-the-future/48e80bf3-d53e-4e27-803e-abdc2297354c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Airbus Cabin of the Future]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>	La compa&ntilde;&iacute;a <strong>Airbus</strong> ha presentado un <strong>prototipo de avi&oacute;n para el a&ntilde;o 2050</strong>, acompa&ntilde;ando las explicaciones t&eacute;cnicas con un <strong>v&iacute;deo</strong> descriptivo sobre las caracter&iacute;sticas de la aeronave. <strong>La cabina ser&aacute; transparente</strong>, construida con una membrana que evitar&aacute; el uso de los cables que vertebran exhaustivamente los actuales aviones. Un &aacute;rea estar&aacute; dedicada expresamente a cualquier tipo de <strong>entretenimiento virtual</strong>, sin dejar de lado la parte ecol&oacute;gica.</p><p>	En concreto, el prototipo tendr&aacute; tres espacios dedicado: la zona &lsquo;Vitalising&rsquo; ser&aacute; <strong>para</strong> <strong>la relajaci&oacute;n de los pasajeros</strong>, con sillones de masaje y otras comodidades, mientras que el &aacute;rea &lsquo;Smart-Tech&rsquo; estar&aacute; <strong>destinada a los amantes de la tecnolog&iacute;a</strong>, que dispondr&aacute;n de conexiones y otras facilidades para utilizar unos dispositivos que con toda seguridad ser&aacute;n un complemento m&aacute;s de las personas en el a&ntilde;o 2050. Por &uacute;ltimo, la zona &lsquo;Interactiva&rsquo; estar&aacute; orientada al <strong>entretenimiento virtual</strong>, cualquier tipo, desde practicar deportes y actividades hasta realizar compras.</p><p>	El prototipo <strong>reducir&aacute; las emisiones de CO2 y la contaminaci&oacute;n ac&uacute;stica</strong>. Los materiales con los que estar&aacute; fabricado el avi&oacute;n ser&aacute;n reciclables y est&aacute; previsto que se aproveche el calor que desprende el cuerpo de cada pasajero para producir energ&iacute;a.</p><p>	El vicepresidente ejecutivo de la divisi&oacute;n de ingenier&iacute;a de Airbus, Charles Champion, <a href="http://www.elmundo.es/elmundo/2011/06/14/economia/1308003349.html" rel="nofollow" target="_blank">apunta los motivos</a> que han llevado a planificar este prototipo: &ldquo;Nuestras investigaciones muestran que los pasajeros del 2050 querr&aacute;n vivir una experiencia placentera durante su viaje, al mismo tiempo que exigir&aacute;n que los aviones sean respetuosos con el medio ambiente.&rdquo;</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-06-14T17:34:46+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Airbus Cabin of the Future]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=a-ds2UjeKuA&amp;feature=player_embedded" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/future" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/2050" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/contaminacion%20acustica" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/airbus" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/cabin" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/avi%c3%b3n%20de%20futuro" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/avi%c3%b3n%20ecol%c3%b3gico" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/membrana%20transparente" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/entretenimiento%20virtual" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/contaminacion%20acustica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contaminacion acustica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/airbus">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[airbus]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/cabin">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cabin]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/avi%c3%b3n%20de%20futuro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[avión de futuro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/avi%c3%b3n%20ecol%c3%b3gico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[avión ecológico]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/membrana%20transparente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[membrana transparente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/prospectivatecnologica/search/tag/entretenimiento%20virtual">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[entretenimiento virtual]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

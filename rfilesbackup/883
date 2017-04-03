@@ -1,0 +1,2322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <meta name="ROBOTS" content="NONE" />
+    <meta name="ROBOTS" content="NOINDEX,NOFOLLOW" />
+    <meta name="ROBOTS" content="NOARCHIVE" />
+    
+    <link rel="shortcut icon" href="/static/images/favicon_kakenhi.ico" type="image/vnd.microsoft.ico" />
+    <link rel="icon" href="/static/images/favicon_kakenhi.ico" type="image/vnd.microsoft.ico" />
+    <!-- Bootstrap core CSS -->
+    <link id="switch_style" href="/static/css/bootstrap-modal.css?1484286455" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="/static/css/cinii.css?1484286455" rel="stylesheet" />
+    <link href="/static/css/dropzone.css?1484286455" rel="stylesheet" />
+    <link href="/static/css/font-awesome.css?1484286455" rel="stylesheet" />
+    <link href="/static/css/jquery-ui.min.css?1484286455" rel="stylesheet" />
+    <link href="/static/css/box-flex.css?1484286455" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/js/html5shiv.js?1484286455"></script>
+    <script type="text/javascript" src="/static/js/respond.min.js?1484286455"></script>
+    <![endif]-->
+    <script type="text/javascript">
+    //<![CDATA[
+    var static_url="/static/";
+    //]]>
+
+    if(navigator.userAgent.match(/(iPad)/)){
+        document.write('<meta name="viewport" content="width=980">');
+    }
+    else{
+        document.write('<meta name="viewport" content="width=device-width">');
+    }
+   </script>
+    <script type="text/javascript" src="/static/js/jquery-1.10.2.min.js?1484286455"></script>
+    <script type="text/javascript" src="/static/js/common.js?1484286455"></script>
+
+    <!-- <script type="text/javascript" src="/static/js/changeDisplayMode.js?1484286455"></script>
+ -->
+    <script type="text/javascript" src="/static/js/jquery-ui.min.js?1484286455"></script>
+    <script type="text/javascript" src="/static/js/search.js?1490918851"></script>
+    <!--[if IE 8.0]>
+      <link href="/static/css/cinii-ie8.css?1484286455" rel="stylesheet" type="text/css" />
+    <![endif]-->
+  <title>Database of Grants-in-Aid for Scientific Research&nbsp;&mdash;&nbsp;Researcher Number: 80143551</title>
+  </head>
+  <body class="kakenhi grants topscreen with_sidenavi en">
+  
+<div id="content">
+  <form id="search" method="post" action="." autoclass="form-signin" class="form-vertical">
+  <input type="hidden" name="lang" id="lang" value="en" />
+  <input type="hidden" name="url_lang" id="url_lang" value="" />
+    
+    <!--<input type="hidden" name="csrfmiddlewaretoken" value="" />-->
+    <nav class="navbar navbar-header">
+      <div class="navbar-topcontent">
+        <!--ブランド名 ロゴ名の表示-->
+        <a href="/index/" class="navbar-brand headerlogo"></a>
+        <!--トグルボタンの設置-->
+        <button type="button" class="navbar-toggle button-menu collapsed" data-toggle="collapse" data-target="#nav-content">
+          メニュー
+        </button>
+        <button type="button" class="navbar-toggle button-search collapsed" data-toggle="collapse" data-target="#searchbox">
+          Search
+        </button>
+        <div id="nav-content" class="collapse navbar-collapse headermenu">
+          <ul class="nav navbar-nav menu-utility-list btn-group">
+            
+            
+                <li class="menu-utility-item">
+                  <select class="form-control" name="lang" id="lang" onchange="return changeLang(this);">
+                  
+                    <option value="ja">Japanese</option>
+                  
+                    <option value="en" selected="selected">English</option>
+                  
+                  </select>
+                </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+<div class="container body-wrap">
+
+<div id="searchbox" class="searchbox lower-page">
+  <div class="kakenhi_search">
+    <div class="searchformcontents container-fluid">
+      <div class="searchboxheader col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-12">
+          
+        </div>
+      </div>
+      <div class="form-tabcontent form-kakenhi col-xs-12 col-sm-9">
+        <div class="col-xs-12 col-sm-6">
+          <div class="row row-textform">
+            <div class="col-xs-9 col-sm-9 col-form">
+              <input id="text_kywd_0" name="kw" type="text" class="main_srchterm searchforminput" placeholder="Free word" value="" onkeydown="return enterEvent(event.keyCode, 'simple', 'search');" />
+            </div>
+            <div class="col-xs-3 col-sm-3">
+              <input type="button" class="btn searchbtn" value="Search" onclick="return searchClick('simple', 'search');" />
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 fulltext-area">
+          <div class="col-sm-11 col-sm-offset-1">
+              <label class="fulltext" for="ftext"><input id="ftext" type="checkbox" name="ftext" value="1"  />&nbsp;Full-Text Search</label>
+              <a class="link-page underline" href="javascript:searchAdvanced();"><i class="fa fa-chevron-right"></i> Advanced Search</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div id="results">
+    <div id="result-wrapper">
+      <div class="container">
+          
+          <p><a class="collapse-facet-toggle collapsed" data-toggle="collapse" href="#collapse-facet">Facet</a></p>
+          <div id="collapse-facet" class="panel-collapse collapse">
+            <div id="facet-wrapper">
+              <div class="facet">
+              <div class="sidebar">
+<div class="facet-title hidden-xs"><i class="fa fa-filter"></i> Refine your search</div>
+
+
+ <div class="panel panel-default" id="facet_ca"></div><!-- panel panel-default -->
+ <script type="text/javascript">
+  get_facet_data('ca');
+ </script>
+
+
+
+ <div class="panel panel-default" id="facet_al"></div><!-- panel panel-default -->
+ <script type="text/javascript">
+  get_facet_data('al');
+ </script>
+
+
+
+ <div class="panel panel-default" id="facet_in"></div><!-- panel panel-default -->
+ <script type="text/javascript">
+  get_facet_data('in');
+ </script>
+
+
+
+ <div class="panel panel-default" id="facet_pt"></div><!-- panel panel-default -->
+ <script type="text/javascript">
+  get_facet_data('pt');
+ </script>
+
+
+
+<div class="panel-default" id="facet_fy">
+  <h3>Project Period (FY)</h3>
+  <div class="panel-body award-year">
+    <div id="chart"></div>
+    <div id="slider-wrap">
+      <div id="slider"></div>
+      <div class="form-inline">
+        <div class="form-group"><input type="text" id="startYear" class="form-control" maxlength="4"></div> - <div class="form-group"><input type="text" id="endYear" class="form-control" maxlength="4"></div>
+        <div class="form-group">
+          <input type="button" class="btn btn-sm btn-default update" value="&#xf021;" onclick="return facetYear('search');" />
+          <input type="button" class="btn btn-sm btn-default clear" value="Clear" onclick="return facetYear('clear');" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="/static/js/d3.min.js"></script>
+<script type="text/javascript">
+var margin = {top: 10, right: 5, bottom: 0, left: 5},
+    width = 255 - margin.left - margin.right,
+    height = 80 - margin.top - margin.bottom;
+
+var bisectYear = d3.bisector(function(d) { return d.year; }).left;
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var line = d3.svg.line()
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.value); });
+
+var area = d3.svg.area()
+    .x(function(d) { return x(d.year); })
+    .y0(height)
+    .y1(function(d) { return y(d.value); });
+
+var tooltip = d3.select("#chart").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 1e-6);
+
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var cur_url = location.pathname;
+var lang = $("#lang").val();
+var st_num = 0;
+if (cur_url.indexOf("/search") > -1) {
+	st_num = cur_url.indexOf("/search");
+	cur_url = cur_url.slice(st_num);
+    cur_url = cur_url.replace(/\/search/, "/year");
+    if (cur_url.slice(-1) != "/") {
+	    cur_url += "/";
+	}
+    cur_url += location.search;
+} else if (cur_url.indexOf("/opensearch") > -1) {
+	st_num = cur_url.indexOf("/opensearch");
+	cur_url = cur_url.slice(st_num);
+    cur_url = cur_url.replace(/\/opensearch/, "/year");
+    if (cur_url.slice(-1) != "/") {
+        cur_url += "/";
+    }
+    cur_url += location.search;
+}
+if (cur_url.indexOf("/") < 0) {
+    cur_url = "/" + cur_url;
+}
+cur_url = "/" + lang + cur_url;
+
+d3.json(cur_url, function(error, data) {
+
+    data.forEach(function(d) {
+      d.year = d.year;
+      d.value = +d.value;
+    });
+
+    data.sort(function(a, b) {
+      return a.year - b.year;
+    });
+
+    x.domain([data[0].year, data[data.length - 1].year]);
+    y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+
+    var clip = svg.append("defs").append("svg:clipPath")
+        .attr("id", "clip")
+        .append("svg:rect")
+        .attr("id", "clip-rect")
+        .attr("x", "0")
+        .attr("y", "0")
+        .attr("width", width)
+        .attr("height", height);
+
+
+    svg.append("path")
+        .datum(data)
+        .attr("class", "line")
+        .attr("clip-path", "url(#clip)")
+        .attr("d", line);
+
+    svg.append("path")
+        .datum(data)
+        .attr("class", "area")
+        .attr("clip-path", "url(#clip)")
+        .attr("d", area);
+
+    var focus = svg.append("g")
+        .attr("class", "focus")
+        .style("display", "none");
+
+    focus.append("circle")
+        .attr("r", 4.5);
+
+    svg.append("rect")
+        .attr("class", "overlay")
+        .attr("width", width)
+        .attr("height", height)
+        .on("mouseover", function() {
+          focus.style("display", null);
+          tooltip.transition()
+          .duration(500)
+          .style("opacity", 1);
+        })
+        .on("mouseout", function() {
+          focus.style("display", "none");
+          tooltip.transition()
+          .duration(500)
+          .style("opacity", 1e-6);
+        })
+        .on("mousemove", mousemove);
+
+    function mousemove() {
+      var x0 = x.invert(d3.mouse(this)[0]),
+          i = bisectYear(data, x0, 1),
+          d0 = data[i - 1],
+          d1 = data[i],
+          d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+      focus.attr("transform", "translate(" + x(d.year) + "," + y(d.value) + ")");
+
+      tooltip.text(d.year + "(" + d.value + ")")
+      .style("left", x(d.year) + "px")
+      .style("top", y(d.value) - 25 + "px");
+    }
+});
+
+// slider
+$(function() {
+
+  $.getJSON(cur_url,function(data){
+
+    var startYear = Number(data[0].year),
+        endYear = Number(data[data.length-1].year);
+
+    $("#startYear").val(startYear);
+    $("#endYear").val(endYear);
+
+    $( "#slider" ).slider({
+      range: true,
+      min: startYear,
+      max: endYear,
+      values: [startYear,endYear],
+      slide: function( event, ui ) {
+
+        var maxv = d3.min([ui.values[1], data.length]);
+        var minv = d3.max([ui.values[0], 0]);
+
+        x.domain([ui.values[0], ui.values[1]]);
+
+        svg.transition().duration(750)
+        .select(".area").attr("d", area);
+
+        svg.transition().duration(750)
+        .select(".focus").attr("d", line(data));
+
+        svg.transition().duration(750)
+        .select(".line").attr("d", line(data));
+
+        // facet search
+        search(ui.values[0],ui.values[1]);
+
+      }
+    });
+  });
+});
+
+function search(start,end){
+  $("#startYear").val(start);
+  $("#endYear").val(end);
+}
+</script>
+
+
+
+ <div class="panel panel-default" id="facet_tc"></div><!-- panel panel-default -->
+ <script type="text/javascript">
+  get_facet_data('tc');
+ </script>
+
+
+
+ <div class="panel panel-default" id="facet_st"></div><!-- panel panel-default -->
+ <script type="text/javascript">
+  get_facet_data('st');
+ </script>
+
+
+
+ <div class="panel panel-default" id="facet_kw"></div><!-- panel panel-default -->
+ <script type="text/javascript">
+  get_facet_data('kw');
+ </script>
+
+
+
+ <div class="panel panel-default" id="facet_fn"></div><!-- panel panel-default -->
+ <script type="text/javascript">
+  get_facet_data('fn');
+ </script>
+
+
+</div><!-- .sidebar -->
+              </div><!-- .facet -->
+            </div><!-- #facet-wrapper -->
+          </div>
+          
+          <div id="result-list">
+            <div class="listings">
+              <div class="block-info clearfix">
+                <p class="search-term-selected">Search Results：46results / Researcher Number: 80143551</p>
+                <div class="pagenumber">
+                  
+                  <div class="paging paging-top">
+                    <ul class="paginglist">
+                    
+                      
+                        
+                          <li class="pagingitem"><span class="btn pagingbtn currentpage">1</span></li>
+                        
+                      
+                    
+                      
+                        
+                          <li class="pagingitem hidden-xs"><a class="btn pagingbtn" onclick="return pageChange('21');"><span class="short_normal">2</span></a></li>
+                        
+                      
+                    
+                      
+                        
+                          <li class="pagingitem hidden-xs"><a class="btn pagingbtn" onclick="return pageChange('41');"><span class="short_normal">3</span></a></li>
+                        
+                      
+                    
+                      
+                        <li class="pagingitem"><a class="btn pagingbtn" onclick="return pageChange('21');"><span aria-hidden="true">
+                        
+                        &rsaquo;</span><span class="sr-only">Next
+                        
+                        </span></a></li>
+                      
+                    
+                      
+                        <li class="pagingitem"><a class="btn pagingbtn" onclick="return pageChange('41');"><span aria-hidden="true">
+                        
+                        &raquo;</span><span class="sr-only">End
+                        
+                        </span></a></li>
+                      
+                    
+                    </ul>
+                  </div><!-- .paging paging-top -->
+                  
+                </div><!-- .pagenumber -->
+                <div class="pull-left pagenumber">
+                  <input type="checkbox" id="chk_group" class="checkAll">
+                  
+                    <select class="form-control" name="ct" id="ct" style="width: 100px !important; vertical-align: top !important;">
+                    
+                      <option value="all" selected="selected">Select All</option>
+                    
+                      <option value="page">Select Page</option>
+                    
+                    </select>
+                  
+                  
+                  <select class="form-control" name="ot" id="ot" style="width: 100px !important; vertical-align: top !important; margin-left: 10px;">
+                    
+                    <option value="xml">Export as XML</option>
+                    
+                    <option value="csv">Export as Text (CSV)</option>
+                    
+                  </select>
+                  
+                  <input type="button" class="btn" id="file_btn" value="Execute" onclick="downloadFile('0', '');" />
+                </div><!-- .pull-left .pagenumber -->
+                <div class="pull-left pageinfo">
+                  
+                  <strong>Display&nbsp;:&nbsp;</strong>
+                    <select class="form-control" name="rw" id="rw" onchange="dispChange(this);">
+                      
+                      <option value="20" selected="selected">20</option>
+                      
+                      <option value="50">50</option>
+                      
+                      <option value="100">100</option>
+                      
+                      <option value="200">200</option>
+                      
+                      <option value="500">500</option>
+                      
+                    </select>
+                  
+                </div>
+                <div class="pull-right">
+                  
+                  <select class="form-control" name="od" id="od" onchange="sortChange(this);">
+                    
+                        <option value="1">Relevance</option>
+                    
+                        <option value="2" selected="selected">Project Start Year(Newest)</option>
+                    
+                        <option value="3">Project Start Year(Oldest)</option>
+                    
+                        <option value="4">Total Budget Amount:Dsc</option>
+                    
+                        <option value="5">Total Budget Amount:Asc</option>
+                    
+                  </select>
+                  
+                </div>
+              </div><!-- block-info clearfix -->
+              
+              <div class="listContainer">
+                <ul>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-24300097" value="KAKENHI-PROJECT-24300097" />
+                          <span class="row-number"> 1. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-24300097/">Implementation of an Integrated System for Editing Meta Data Using Machine Learning Techniques</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Integrated%20Science%20and%20Innovative%20Science/Comprehensive%20Fields/Informatics/Library%20and%20information%20science/Humanistic%20social%20informatics" class="link-page underline">Library and information science/Humanistic social informatics</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=80143551">ADACHI&nbsp;Jun</a></span>
+                           国立情報学研究所, コンテンツ科学研究系, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2012-04-01&nbsp;&ndash;&nbsp;2015-03-31</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=%E6%9B%B8%E8%AA%8C%E3%83%91%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0" class="link-page underline">書誌パージング</a> / <a href="/search/?qf=%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF" class="link-page underline">メタデータ</a> / <a href="/search/?qf=%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9" class="link-page underline">コーパス</a> / <a href="/search/?qf=CRF" class="link-page underline">CRF</a> / <a href="/search/?qf=%E6%A9%9F%E9%96%A2%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA" class="link-page underline">機関リポジトリ</a> / <a href="/search/?qf=%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0" class="link-page underline">テキストマイニング</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Outline of Final Research Achievements</th>
+                          <td>The purpose of this study is to implement a system which extracts meta data from digital documents to edit and identify the meta data accurately by ma&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="planned">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PLANNED-18049073" value="KAKENHI-PLANNED-18049073" />
+                          <span class="row-number"> 2. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PLANNED-18049073/">Design and Development of Advanced IT Research Platform for Information Explosion Era</a>
+                          </div>
+                          
+                          <div class="ptype planned"><p>Planned</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20on%20Priority%20Areas" class="link-page underline">Grant-in-Aid for Scientific Research on Priority Areas</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=80143551">ADACHI&nbsp;Jun</a></span>
+                           National Institute of Informatics, コンテンツ科学研究系, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2006&nbsp;&ndash;&nbsp;2010</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%A9%E3%83%96%E3%83%AB%E8%A8%88%E7%AE%97%E5%9F%BA%E7%9B%A4" class="link-page underline">スケーラブル計算基盤</a> / <a href="/search/?qf=%E6%83%85%E5%A0%B1%E3%83%AA%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%B8" class="link-page underline">情報リンケージ</a> / <a href="/search/?qf=%E5%A4%A7%E8%A6%8F%E6%A8%A1%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9" class="link-page underline">大規模コーパス</a> / <a href="/search/?qf=%E5%AE%9F%E4%B8%96%E7%95%8C%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3" class="link-page underline">実世界インタラクション</a> / <a href="/search/?qf=%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0" class="link-page underline">センサールーム</a> / <a href="/search/?qf=%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC" class="link-page underline">センサー</a> / <a href="/search/?qf=%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89" class="link-page underline">クラウド</a> / <a href="/search/?qf=%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA" class="link-page underline">ソフトウェアライブラリ</a> / <a href="/search/?qf=%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86" class="link-page underline">自然言語処理</a> / <a href="/search/?qf=%E7%94%9F%E4%BD%93%E8%A8%88%E6%B8%AC" class="link-page underline">生体計測</a> / <a href="/search/?qf=%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF" class="link-page underline">センサーネットワーク</a> / <a href="/search/?qf=%E7%94%9F%E6%85%8B%E8%A8%88%E6%B8%AC" class="link-page underline">生態計測</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>This project implemented a common research infrastructure for all the research groups participating in this priority-area research initiative, accordi&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Area</th>
+                          <td><a href="/grant/KAKENHI-AREA-456/" class="link-page underline">情報爆発時代に向けた新しいIT基盤技術の研究</a></td>
+                        </tr>
+                        
+                      </table>
+                      
+                      <div id="area_KAKENHI-PLANNED-18049073"></div>
+                      <script type="text/javascript">
+                        getSubProduct('en', 'kakenhi', 'KAKENHI\u002DPLANNED\u002D18049073', 'Design and Development of Advanced IT Research Platform for Information Explosion Era');
+                      </script>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="planned">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PLANNED-18049069" value="KAKENHI-PLANNED-18049069" />
+                          <span class="row-number"> 3. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PLANNED-18049069/">Infrastructure for Information Retrieval in Information Explosion Era</a>
+                          </div>
+                          
+                          <div class="ptype planned"><p>Planned</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20on%20Priority%20Areas" class="link-page underline">Grant-in-Aid for Scientific Research on Priority Areas</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=80143551">ADACHI&nbsp;Jun</a></span>
+                           国立情報学研究所, コンテンツ科学研究系, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2006&nbsp;&ndash;&nbsp;2010</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=%E6%83%85%E5%A0%B1%E6%A4%9C%E7%B4%A2" class="link-page underline">情報検索</a> / <a href="/search/?qf=%E6%83%85%E5%A0%B1%E3%83%AA%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%B8" class="link-page underline">情報リンケージ</a> / <a href="/search/?qf=%E5%A4%A7%E8%A6%8F%E6%A8%A1%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9" class="link-page underline">大規模コーパス</a> / <a href="/search/?qf=%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E5%87%A6%E7%90%86" class="link-page underline">テキスト処理</a> / <a href="/search/?qf=%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92" class="link-page underline">機械学習</a> / <a href="/search/?qf=%E6%83%85%E5%A0%B1%E6%A4%9C%E5%AF%9F" class="link-page underline">情報検察</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>This research focused on fundamental techniques for information linkage to enable users to quickly identify and learn necessary information in a chaot&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Area</th>
+                          <td><a href="/grant/KAKENHI-AREA-456/" class="link-page underline">情報爆発時代に向けた新しいIT基盤技術の研究</a></td>
+                        </tr>
+                        
+                      </table>
+                      
+                      <div id="area_KAKENHI-PLANNED-18049069"></div>
+                      <script type="text/javascript">
+                        getSubProduct('en', 'kakenhi', 'KAKENHI\u002DPLANNED\u002D18049069', 'Infrastructure for Information Retrieval in Information Explosion Era');
+                      </script>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-18046017" value="KAKENHI-PROJECT-18046017" />
+                          <span class="row-number"> 4. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-18046017/">電気関連技術に関わるマルチメディア技術史アーカイブの情報発信方法の研究</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20on%20Priority%20Areas" class="link-page underline">Grant-in-Aid for Scientific Research on Priority Areas</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=40016316">末松&nbsp;安晴</a></span>
+                           National Institute of Informatics, 大学共同利用機関等の部局等, 顧問</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2006&nbsp;&ndash;&nbsp;2007</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84" class="link-page underline">コンテンツ</a> / <a href="/search/?qf=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9" class="link-page underline">データベース</a> / <a href="/search/?qf=%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2" class="link-page underline">マルチメディア</a> / <a href="/search/?qf=%E3%82%A6%E3%82%A7%E3%83%96" class="link-page underline">ウェブ</a> / <a href="/search/?qf=%E9%9B%BB%E6%B0%97%E6%8A%80%E8%A1%93" class="link-page underline">電気技術</a> / <a href="/search/?qf=%E9%9B%BB%E5%AD%90%E6%8A%80%E8%A1%93" class="link-page underline">電子技術</a> / <a href="/search/?qf=%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93" class="link-page underline">情報技術</a> / <a href="/search/?qf=%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%83%BB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96" class="link-page underline">コンテンツ・アーカイブ</a> / <a href="/search/?qf=%E5%B9%B4%E8%A1%A8" class="link-page underline">年表</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>本研究では、日本が過去に蓄積してきた電気関連技術を、WEB技術・検索技術を中心とする先端IT技術を活用して、若年層を含む一般者にも技術の専門家にも、分かりやすく情報発信する方法を研究開発することを目的とした。この目的を達成するために、電気電子・情報関連の5学会(※)と国立情報学研究所(NII)が連係&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="organizer">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-ORGANIZER-17077001" value="KAKENHI-ORGANIZER-17077001" />
+                          <span class="row-number"> 5. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-ORGANIZER-17077001/">New IT Infrastructure for the Information-explosion Era</a>
+                          </div>
+                          
+                          <div class="ptype organizer"><p>Organizer</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20on%20Priority%20Areas" class="link-page underline">Grant-in-Aid for Scientific Research on Priority Areas</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=The%20University%20of%20Tokyo" class="link-page underline">The University of Tokyo</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=40161509">KITSUREGAWA&nbsp;Masaru</a></span>
+                           東京大学, 生産技術研究所, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2005&nbsp;&ndash;&nbsp;2011</span><span class="pstatus">Adopted</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=%E6%83%85%E5%A0%B1%E7%AE%A1%E7%90%86" class="link-page underline">情報管理</a> / <a href="/search/?qf=%E6%83%85%E5%A0%B1%E8%9E%8D%E5%90%88" class="link-page underline">情報融合</a> / <a href="/search/?qf=%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84" class="link-page underline">コンテンツ</a> / <a href="/search/?qf=%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E5%9F%BA%E7%9B%A4" class="link-page underline">情報技術基盤</a> / <a href="/search/?qf=%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3" class="link-page underline">セキュリティ</a> / <a href="/search/?qf=%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9" class="link-page underline">ヒューマンインタフェース</a> / <a href="/search/?qf=%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3" class="link-page underline">インタラクション</a> / <a href="/search/?qf=%E7%9F%A5%E8%AD%98%E7%A4%BE%E4%BC%9A%E5%BD%A2%E6%88%90%E3%82%AC%E3%83%90%E3%83%8A%E3%83%B3%E3%82%B9" class="link-page underline">知識社会形成ガバナンス</a> / <a href="/search/?qf=%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%A4" class="link-page underline">ヒューマンイ</a> / <a href="/search/?qf=%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9" class="link-page underline">ンタフェース</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>Information created by people has increased rapidly since the year 2000, and now we are in a time which we could call the &#34;information-explosion era.&#34;&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        <tr>
+                          <th>Current Status of Research Progress</th>
+                          <td>1&nbsp;:&nbsp;&nbsp;Research has progressed more than it was originally planned.</td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Area</th>
+                          <td><a href="/grant/KAKENHI-AREA-456/" class="link-page underline">情報爆発時代に向けた新しいIT基盤技術の研究</a></td>
+                        </tr>
+                        
+                      </table>
+                      
+                      <div id="area_KAKENHI-ORGANIZER-17077001"></div>
+                      <script type="text/javascript">
+                        getSubProduct('en', 'kakenhi', 'KAKENHI\u002DORGANIZER\u002D17077001', 'New IT Infrastructure for the Information\u002Dexplosion Era');
+                      </script>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-16360196" value="KAKENHI-PROJECT-16360196" />
+                          <span class="row-number"> 6. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-16360196/">New flexible software platform to overcome ubiquitous NW complexity</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Science%20and%20Engineering/Engineering/Electrical%20and%20electronic%20engineering/Communication/Network%20engineering" class="link-page underline">Communication/Network engineering</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics (NII)</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=60280533">MARUYAMA&nbsp;Katsumi</a></span>
+                           National Institute of Informatics・Information Systems Architecture Science Research Division, Professor, アーキテクチャ科学研究系, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2004&nbsp;&ndash;&nbsp;2006</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=micro-kernel" class="link-page underline">micro-kernel</a> / <a href="/search/?qf=Distributed%20processing" class="link-page underline">Distributed processing</a> / <a href="/search/?qf=Operating%20system" class="link-page underline">Operating system</a> / <a href="/search/?qf=L4" class="link-page underline">L4</a> / <a href="/search/?qf=Plan9" class="link-page underline">Plan9</a> / <a href="/search/?qf=Object-oriented" class="link-page underline">Object-oriented</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>Computer systems are requested to collaborate/federate smoothly in ubiquitous age. Followings are major research results of this project.</td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-15300084" value="KAKENHI-PROJECT-15300084" />
+                          <span class="row-number"> 7. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-15300084/">A Study on Integration of Bibliographic Information from Multiple Information Sources</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Integrated%20Science%20and%20Innovative%20Science/Comprehensive%20Fields/Informatics/%E6%83%85%E5%A0%B1%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%AD%A6%E3%83%BB%E4%BA%BA%E6%96%87%E7%A4%BE%E4%BC%9A%E6%83%85%E5%A0%B1%E5%AD%A6" class="link-page underline">情報図書館学・人文社会情報学</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=90216648">TAKASU&nbsp;Atsuhiro</a></span>
+                           National Institute of Informatics, Research Center for Testbeds and Prototyping, Professor, President, 実証研究センター, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2003&nbsp;&ndash;&nbsp;2005</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Digital%20Library" class="link-page underline">Digital Library</a> / <a href="/search/?qf=Bibliographic%20Matching" class="link-page underline">Bibliographic Matching</a> / <a href="/search/?qf=Record%20Linkage" class="link-page underline">Record Linkage</a> / <a href="/search/?qf=Document%20Image%20Analysis" class="link-page underline">Document Image Analysis</a> / <a href="/search/?qf=Approximate%20String%20Matching" class="link-page underline">Approximate String Matching</a> / <a href="/search/?qf=Information%20Extraction" class="link-page underline">Information Extraction</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>This study aims at developing a bibliographic information integration system which provides with an analysis method for bibliographic information obta&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-15300039" value="KAKENHI-PROJECT-15300039" />
+                          <span class="row-number"> 8. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-15300039/">Digital Methods for Building and Presenting Technology Archives</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Integrated%20Science%20and%20Innovative%20Science/Comprehensive%20Fields/Informatics/Media%20informatics/Database" class="link-page underline">Media informatics/Database</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=40016316">SUEMATSU&nbsp;Yasuharu</a></span>
+                           National Institute of Informatics, Adviser, 顧問</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2003&nbsp;&ndash;&nbsp;2005</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=technology%20archive" class="link-page underline">technology archive</a> / <a href="/search/?qf=digital%20archive" class="link-page underline">digital archive</a> / <a href="/search/?qf=digital%20contents" class="link-page underline">digital contents</a> / <a href="/search/?qf=technological%20heritage" class="link-page underline">technological heritage</a> / <a href="/search/?qf=contents%20management" class="link-page underline">contents management</a> / <a href="/search/?qf=history%20of%20technology" class="link-page underline">history of technology</a> / <a href="/search/?qf=innovation" class="link-page underline">innovation</a> / <a href="/search/?qf=technological%20innovation" class="link-page underline">technological innovation</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>This project aimed at promoting science and technology with investigating digital methods for building and presenting technology archives. This projec&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-13558039" value="KAKENHI-PROJECT-13558039" />
+                          <span class="row-number"> 9. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-13558039/">Development of a Multilingual Metadata Registry for Dublin Core</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Multidisciplinary%20Fields/%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6/%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%AD%A6%28%E5%90%AB%E6%83%85%E5%A0%B1%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%AD%A6%29" class="link-page underline">情報システム学(含情報図書館学)</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=University%20of%20Library%20and%20Information%20Science" class="link-page underline">University of Tsukuba (Institute of Library and Information Science)</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=40154489">SUGIMOTO&nbsp;Shigeo</a></span>
+                           University of Tsukuba, Institute of Library and Information Science, Professor, 図書館情報学系, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2001&nbsp;&ndash;&nbsp;2002</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Digital%20Library" class="link-page underline">Digital Library</a> / <a href="/search/?qf=Electronic%20Library" class="link-page underline">Electronic Library</a> / <a href="/search/?qf=Dublin%20Core%20Metadata%20Element%20Set" class="link-page underline">Dublin Core Metadata Element Set</a> / <a href="/search/?qf=Metadata" class="link-page underline">Metadata</a> / <a href="/search/?qf=Resource%20Description%20Framework%20%28RDF%29" class="link-page underline">Resource Description Framework (RDF)</a> / <a href="/search/?qf=Metadata%20Registry" class="link-page underline">Metadata Registry</a> / <a href="/search/?qf=Metadata%20Schema" class="link-page underline">Metadata Schema</a> / <a href="/search/?qf=Multilingual%20Metadata%20Registry" class="link-page underline">Multilingual Metadata Registry</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>In the Internet environment, there are a number of communities which defines metadata schema based on their community-specific requirements. On the ot&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-13555112" value="KAKENHI-PROJECT-13555112" />
+                          <span class="row-number"> 10. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-13555112/">Research on an extensible real-time operating system to support integrated distributed services</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Engineering/Electrical%20and%20electronic%20engineering/%E6%83%85%E5%A0%B1%E9%80%9A%E4%BF%A1%E5%B7%A5%E5%AD%A6" class="link-page underline">情報通信工学</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=60280533">MARUYAMA&nbsp;Katsumi</a></span>
+                           National Institute of Informatics, Professor, ソフトウェア研究系, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2001&nbsp;&ndash;&nbsp;2003</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Extensible%20OS" class="link-page underline">Extensible OS</a> / <a href="/search/?qf=Micro%20kernel" class="link-page underline">Micro kernel</a> / <a href="/search/?qf=Component" class="link-page underline">Component</a> / <a href="/search/?qf=L4" class="link-page underline">L4</a> / <a href="/search/?qf=Minix" class="link-page underline">Minix</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>Programming development is becoming the neck of new network service deployments. Network system programs are required to offer high efficiency, compli&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-13224087" value="KAKENHI-PROJECT-13224087" />
+                          <span class="row-number"> 11. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-13224087/">Study on Information Utilization System for Heterogeneous Contents</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20on%20Priority%20Areas" class="link-page underline">Grant-in-Aid for Scientific Research on Priority Areas</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=80143551">ADACHI&nbsp;Jun</a></span>
+                           National Institute of Informatics, Software Research Division, Professor, ソフトウェア研究系, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2001&nbsp;&ndash;&nbsp;2005</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Informatics" class="link-page underline">Informatics</a> / <a href="/search/?qf=Information%20Retrieval" class="link-page underline">Information Retrieval</a> / <a href="/search/?qf=Text%20Processing" class="link-page underline">Text Processing</a> / <a href="/search/?qf=Text%20Mining" class="link-page underline">Text Mining</a> / <a href="/search/?qf=Multimedia%20Processing" class="link-page underline">Multimedia Processing</a> / <a href="/search/?qf=Data%20Engineering" class="link-page underline">Data Engineering</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>This project aims at developing technology for utilizing the heterogeneous contents. We studied link and structural analysis of Webs, cross-media proc&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-13223001" value="KAKENHI-PROJECT-13223001" />
+                          <span class="row-number"> 12. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-13223001/">Information Studies for the Foundation of IT Evolution</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20on%20Priority%20Areas" class="link-page underline">Grant-in-Aid for Scientific Research on Priority Areas</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=Keio%20University" class="link-page underline">Keio University</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=40051875">ANZAI&nbsp;Yuichiro</a></span>
+                           Keio University, Faculty of Science and Technology, Professor, President, 理工学部, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">2001&nbsp;&ndash;&nbsp;2005</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Informatics" class="link-page underline">Informatics</a> / <a href="/search/?qf=Information%20System" class="link-page underline">Information System</a> / <a href="/search/?qf=Information%20%EF%BC%86%20Communication%20Engineering" class="link-page underline">Information ＆ Communication Engineering</a> / <a href="/search/?qf=Information%20Network" class="link-page underline">Information Network</a> / <a href="/search/?qf=Security" class="link-page underline">Security</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>Since October 2001, Priority Area &#39;Informatics&#34; conducted fundamental studies on informatics with the 6 research topics: advanced software, digital co&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-11691160" value="KAKENHI-PROJECT-11691160" />
+                          <span class="row-number"> 13. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-11691160/">Field Research on Development of Digital Scholarly Contents Analysis of Intermational Trend of Evolution of Scholarly Digital Libraries</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28A%29" class="link-page underline">Grant-in-Aid for Scientific Research (A)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Multidisciplinary%20Fields/%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6/%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%AD%A6%28%E5%90%AB%E6%83%85%E5%A0%B1%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%AD%A6%29" class="link-page underline">情報システム学(含情報図書館学)</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=90114602">NEGISHI&nbsp;Masamitsu</a></span>
+                           National Institute of Informatics Research Information Research Div, Director, 学術研究情報研究系・研究主幹, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">1999&nbsp;&ndash;&nbsp;2001</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Electronic%20Libraries" class="link-page underline">Electronic Libraries</a> / <a href="/search/?qf=Scholarly%20Information" class="link-page underline">Scholarly Information</a> / <a href="/search/?qf=Electronic%20Journal" class="link-page underline">Electronic Journal</a> / <a href="/search/?qf=Research%20Evaluation" class="link-page underline">Research Evaluation</a> / <a href="/search/?qf=Standardization" class="link-page underline">Standardization</a> / <a href="/search/?qf=Metadata" class="link-page underline">Metadata</a> / <a href="/search/?qf=Resear%20Trend" class="link-page underline">Resear Trend</a> / <a href="/search/?qf=Japanese%20Information" class="link-page underline">Japanese Information</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>Networking of scholarly information activities and digitization of scholarly contents are internationally in the rapid process of advancement, and thi&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-11680432" value="KAKENHI-PROJECT-11680432" />
+                          <span class="row-number"> 14. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-11680432/">A study on multi-Iingual information retrieval with structured index</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28C%29" class="link-page underline">Grant-in-Aid for Scientific Research (C)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Multidisciplinary%20Fields/%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6/%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%AD%A6%28%E5%90%AB%E6%83%85%E5%A0%B1%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%AD%A6%29" class="link-page underline">情報システム学(含情報図書館学)</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Institute of Informatics</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=80143551">ADACHI&nbsp;Jum</a></span>
+                           National Institute of Informatics, Research Center for Information Research Director, 情報学資源研究センター, センター長</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">1999&nbsp;&ndash;&nbsp;2001</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=informnation%20retrieval" class="link-page underline">informnation retrieval</a> / <a href="/search/?qf=structured%20index" class="link-page underline">structured index</a> / <a href="/search/?qf=morphological%20analysis" class="link-page underline">morphological analysis</a> / <a href="/search/?qf=test%20collection" class="link-page underline">test collection</a> / <a href="/search/?qf=cross-lingual%20retrieval" class="link-page underline">cross-lingual retrieval</a> / <a href="/search/?qf=binary%20tree" class="link-page underline">binary tree</a> / <a href="/search/?qf=dependency%20relationship%20between%20words" class="link-page underline">dependency relationship between words</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>In this research, we have investigated the potentiality of a novel information retrieval method which is named &#34;Structured Index.&#34; In this method, we &nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-09558043" value="KAKENHI-PROJECT-09558043" />
+                          <span class="row-number"> 15. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-09558043/">Research on integrated multimedia data systems to support the humanities research</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Multidisciplinary%20Fields/%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6/%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%AD%A6%28%E5%90%AB%E6%83%85%E5%A0%B1%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%AD%A6%29" class="link-page underline">情報システム学(含情報図書館学)</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Center for Scientific Information Systems</a>(1998)<br /><a href="/search/?qe=National%20Institute%20of%20Japanese%20Literature" class="link-page underline">National Institute of Japanese Literature</a>(1997)</td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=60280533">MARUYAMA&nbsp;Katsumi</a></span>
+                           NACSIS, Professor, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">1997&nbsp;&ndash;&nbsp;1998</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Object-oriented" class="link-page underline">Object-oriented</a> / <a href="/search/?qf=Database" class="link-page underline">Database</a> / <a href="/search/?qf=Hyper%20Text" class="link-page underline">Hyper Text</a> / <a href="/search/?qf=Digital%20Library" class="link-page underline">Digital Library</a> / <a href="/search/?qf=SGML" class="link-page underline">SGML</a> / <a href="/search/?qf=ODBMS" class="link-page underline">ODBMS</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>To support the humanity researches, an integrated and hyperlinked database system has been studied and implemented. The system contains databases on a&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-09041133" value="KAKENHI-PROJECT-09041133" />
+                          <span class="row-number"> 16. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-09041133/">Field Research on the Development of Digital Libraries Analysis of the International Trend and Implications to Scientific Information Utilization.</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20international%20Scientific%20Research" class="link-page underline">Grant-in-Aid for international Scientific Research</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Multidisciplinary%20Fields/%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6/%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%AD%A6%28%E5%90%AB%E6%83%85%E5%A0%B1%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%AD%A6%29" class="link-page underline">情報システム学(含情報図書館学)</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Center for Science Information Systems (NACSIS)</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=90114602">NEGISHI&nbsp;Masamitsu</a></span>
+                           NACSIS,Research &amp; Development Dept., Professor, 研究開発部, 研究主幹</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">1997&nbsp;&ndash;&nbsp;1998</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Electronic%20Libraries" class="link-page underline">Electronic Libraries</a> / <a href="/search/?qf=Scientific%20Information" class="link-page underline">Scientific Information</a> / <a href="/search/?qf=Full%20Text%20Database" class="link-page underline">Full Text Database</a> / <a href="/search/?qf=SGML" class="link-page underline">SGML</a> / <a href="/search/?qf=Standardization" class="link-page underline">Standardization</a> / <a href="/search/?qf=Metadata" class="link-page underline">Metadata</a> / <a href="/search/?qf=Research%20Trend" class="link-page underline">Research Trend</a> / <a href="/search/?qf=Japanese%20Information" class="link-page underline">Japanese Information</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>Many electronic / digital library systems aiming at practical applications are recently being constructed. and their usage is internationally spreadin&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-08458091" value="KAKENHI-PROJECT-08458091" />
+                          <span class="row-number"> 17. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-08458091/">A Study on resource discovery mechanism in distributed information networks</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Multidisciplinary%20Fields/%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6/%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%AD%A6%28%E5%90%AB%E6%83%85%E5%A0%B1%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%AD%A6%29" class="link-page underline">情報システム学(含情報図書館学)</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Center for Science Information Systems</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=80143551">ADACHI&nbsp;Jun</a></span>
+                           National Center for Science Information Systems, Professor, 研究開発部, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">1996&nbsp;&ndash;&nbsp;1997</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=name%20management" class="link-page underline">name management</a> / <a href="/search/?qf=WWW" class="link-page underline">WWW</a> / <a href="/search/?qf=URL" class="link-page underline">URL</a> / <a href="/search/?qf=Multimedia%20Database" class="link-page underline">Multimedia Database</a> / <a href="/search/?qf=Database" class="link-page underline">Database</a> / <a href="/search/?qf=HTTP" class="link-page underline">HTTP</a> / <a href="/search/?qf=Digital%20library" class="link-page underline">Digital library</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>The aim of this research was to investigate methods for managing, identifying and locating information which is distributed over a wide-area network, &nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-08451095" value="KAKENHI-PROJECT-08451095" />
+                          <span class="row-number"> 18. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-08451095/">Research on Digital Library system for supporting the humanities research and information circuration</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28B%29" class="link-page underline">Grant-in-Aid for Scientific Research (B)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Literature/Literature/%E5%9B%BD%E6%96%87%E5%AD%A6" class="link-page underline">国文学</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Center for Scientific Information Systems</a>(1998)<br /><a href="/search/?qe=National%20Institute%20of%20Japanese%20Literature" class="link-page underline">National Institute of Japanese Literature</a>(1996-1997)</td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=60280533">MARUYAMA&nbsp;Katsumi</a></span>
+                           NACSIS, Professor, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">1996&nbsp;&ndash;&nbsp;1998</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Digital%20Library" class="link-page underline">Digital Library</a> / <a href="/search/?qf=SGML" class="link-page underline">SGML</a> / <a href="/search/?qf=Full-text%20search%20engine" class="link-page underline">Full-text search engine</a> / <a href="/search/?qf=Hyper%20link" class="link-page underline">Hyper link</a> / <a href="/search/?qf=Object-oriented%20Database" class="link-page underline">Object-oriented Database</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>To support the humanity researches, where a lot of efforts are spent on data retrieval and filings, we have studied and implemented humanity-database &nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-08244104" value="KAKENHI-PROJECT-08244104" />
+                          <span class="row-number"> 19. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-08244104/">Multi-media Information Base</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=%E9%87%8D%E7%82%B9%E9%A0%98%E5%9F%9F%E7%A0%94%E7%A9%B6" class="link-page underline">重点領域研究</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=Nara%20Institute%20of%20Science%20and%20Technology" class="link-page underline">Nara Institute of Science and Technology</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=00203480">UEMURA&nbsp;Shunsuke</a></span>
+                           Nara Institute of Science and Technology, Graduate School of Information Science, Professor, 情報科学研究科, 教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">1996&nbsp;&ndash;&nbsp;1998</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=multi-media%20data%20model" class="link-page underline">multi-media data model</a> / <a href="/search/?qf=multimedia%20database" class="link-page underline">multimedia database</a> / <a href="/search/?qf=digital%20media" class="link-page underline">digital media</a> / <a href="/search/?qf=continuous%20media" class="link-page underline">continuous media</a> / <a href="/search/?qf=spatiotemporal%20database" class="link-page underline">spatiotemporal database</a> / <a href="/search/?qf=video%20database" class="link-page underline">video database</a> / <a href="/search/?qf=distributed%20object" class="link-page underline">distributed object</a> / <a href="/search/?qf=News%20on%20demand" class="link-page underline">News on demand</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>The whole project has been divided into three major subprojects, and core technologies for each subprojects were identified. First half of the researc&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                  
+                  <li class="project">
+                    <div class="listitem xfolkentry">
+                      <h3 class="item_mainTitle">
+                        <div class="title">
+                          <input type="checkbox" class="chk_group" name="chk[]" id="chk_KAKENHI-PROJECT-07558053" value="KAKENHI-PROJECT-07558053" />
+                          <span class="row-number"> 20. </span><i class="fa fa-clipboard"></i> <a class="link-page" href="/grant/KAKENHI-PROJECT-07558053/">動画像ライブラリ・システムの開発</a>
+                          </div>
+                          
+                          <div class="ptype project"><p>Research Project</p></div>
+                          
+                      </h3>
+
+                      <table class="summary-table">
+                      
+                      <tr>
+                       <th>Research Category</th>
+                       <td>
+                        
+                        <p> 
+                              
+                              
+                              <a href="/search/?qc=Grant-in-Aid%20for%20Scientific%20Research%20%28A%29" class="link-page underline">Grant-in-Aid for Scientific Research (A)</a>
+                            
+                        </p>
+                       </td>
+                      </tr>
+                      
+                      
+                        <tr>
+                          <th>Research Field</th>
+                          <td>
+                          <a href="/search/?qd=Multidisciplinary%20Fields/%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6/%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%AD%A6%28%E5%90%AB%E6%83%85%E5%A0%B1%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%AD%A6%29" class="link-page underline">情報システム学(含情報図書館学)</a>
+                          </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Institution</th>
+                          <td><a href="/search/?qe=National%20Institute%20of%20Informatics" class="link-page underline">National Center for Science Information Systems</a></td>
+                        </tr>
+                        
+                        
+                        
+                         <tr>
+                          <th>Principal Investigator</th>
+                          <td><h4>
+                          <span><a href="/search/?qm=40172853">HHASHIZUME&nbsp;Hiromichi</a></span>
+                           HHASHIZUME,Hiromichi, 研究開発部, 助教授</h4></td>
+                         </tr>
+                         
+                        
+                        
+                        
+                        
+                        <tr>
+                          <th>Project Period (FY)</th>
+                          <td><span class="fiscal_year">1995&nbsp;&ndash;&nbsp;1996</span><span class="pstatus">Completed</span></td>
+                        </tr>
+                        
+                       
+                        
+                        
+                        <tr>
+                          <th>Keywords</th>
+                          <td><a href="/search/?qf=Database" class="link-page underline">Database</a> / <a href="/search/?qf=Multimedia%20Database" class="link-page underline">Multimedia Database</a> / <a href="/search/?qf=Video%20on%20Demand" class="link-page underline">Video on Demand</a></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                          <th>Research Abstract</th>
+                          <td>In 1995-1996 as the last year of this research we focused on creating a source video using the video edit system introduced last year, and bring it in&nbsp;<span class="paragraph_more">...</span></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                      </table>
+                      
+                    </div><!-- .listitem xfolkentry -->
+                  </li>
+                  
+                </ul>
+              </div><!-- .listContainer -->
+
+              
+              <div class="paging paging-top">
+                <ul class="paginglist">
+                
+                  
+                  
+                  <li class="pagingitem hidden-xs"><span class="btn pagingbtn currentpage">1</span></li>
+                  
+                  
+                
+                  
+                  
+                  <li class="pagingitem hidden-xs"><a class="btn pagingbtn" onclick="return pageChange('21');"><span class="short_normal">2</span></a></li>
+                  
+                  
+                
+                  
+                  
+                  <li class="pagingitem hidden-xs"><a class="btn pagingbtn" onclick="return pageChange('41');"><span class="short_normal">3</span></a></li>
+                  
+                  
+                
+                  
+                  <li class="pagingitem hidden-xs">
+                    <a class="btn pagingbtn" onclick="return pageChange('21');"><span aria-hidden="true">
+                    
+                    &rsaquo;</span><span class="sr-only">Next
+                    
+                    </span></a>
+                  </li>
+                  
+                
+                  
+                  <li class="pagingitem hidden-xs">
+                    <a class="btn pagingbtn" onclick="return pageChange('41');"><span aria-hidden="true">
+                    
+                    &raquo;</span><span class="sr-only">End
+                    
+                    </span></a>
+                  </li>
+                  
+                
+                </ul>
+              </div><!-- .paging paging-top -->
+              
+            </div><!-- .listings -->
+          </div><!-- #result-list -->
+      </div><!-- .container -->
+    </div><!-- #result-wrapper -->
+  </div><!-- #results -->
+
+  
+
+</div><!-- .body-wrap -->
+<input type="hidden" name="st" value="1" />
+<input type="hidden" name="rw" value="20" />
+
+
+ </form>
+</div><!-- #content --> 
+
+  
+<div class="footer">
+  <div class="footer-wrap">
+      <div class="row">
+          <div class="col-sm-8 col-xs-12">
+              <p class="footer-links">
+               
+                  <a href="https://support.nii.ac.jp/kaken/" onclick="return winOpen(this.href);" class="active">Information</a>
+               
+                  <a href="https://support.nii.ac.jp/kaken/faq/general" onclick="return winOpen(this.href);">FAQ</a>
+               
+                  <a href="https://support.nii.ac.jp/news/kaken" onclick="return winOpen(this.href);">News</a>
+               
+                  <a href="https://support.nii.ac.jp/kaken/about/terms" onclick="return winOpen(this.href);">Terms of Use</a>
+               
+              </p>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+             <a class="pull-right" href="http://www.nii.ac.jp/"><strong>Powered by NII</strong></a>
+             <a class="pull-right kakenhi-footer-logo" href="https://www.jsps.go.jp/"><img src="/static/images/kaken_footer_logo_en.png" alt="kakenhi" width="100" height="43" class="kakenhi logo" /></a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js?1484286455"></script>
+<script type="text/javascript" src="/static/js/jquery.flot.js?1484286455"></script>
+<script type="text/javascript" src="/static/js/dropzone.js?1484286455"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+    $(".checkAll").on("change", function() {
+        $("." + this.id).prop("checked", this.checked);
+        if ($(".chk_group:checked").length == 0) {
+        	$("#file_btn").addClass("invisible");
+        } else {
+        	$("#file_btn").removeClass("invisible");
+        }
+    });
+    
+    $(".chk_group").on("change", function() {
+		if ($(".chk_group:checked").length == 0) {
+        	$("#file_btn").addClass("invisible");
+        } else {
+        	$("#file_btn").removeClass("invisible");
+        }
+    });
+    
+    if ($("select[name=ct]").val() == 'all') {
+		$(".chk_group").prop('checked', false);
+		$(".checkAll").prop('checked', false);
+		$(".chk_group").prop("disabled", true);
+		$(".checkAll").prop("disabled", true);
+		$("#file_btn").removeClass("invisible");
+    }
+    
+    $("#ct").on("change", function() {
+    	if ($("select[name=ct]").val() == 'all') {
+    		$(".chk_group").prop('checked', false);
+    		$(".checkAll").prop('checked', false);
+    		$(".chk_group").prop("disabled", true);
+    		$(".checkAll").prop("disabled", true);
+    		$("#file_btn").removeClass("invisible");
+	    } else {
+	        $(".chk_group").prop("disabled", false);
+	        $(".checkAll").prop("disabled", false);
+	        if ($(".chk_group:checked").length == 0) {
+	        	$("#file_btn").addClass("invisible");
+	        }
+	    }
+    });
+});
+//]]>
+</script>
+
+
+
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-52342835-1', 'auto');
+      ga('send', 'pageview');
+  </script>
+
+  </body>
+</html>

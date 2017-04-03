@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:j.0="http://geo.linkedopendata.gr/gag/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://geo.linkedopendata.gr/gag/data/id/923604">
+    <rdfs:label>RDF description of ΔHMOTIKH ΕNOTHTA ΝΕΑΣ ΤΙΡΥΝΘΑΣ</rdfs:label>
+    <foaf:primaryTopic>
+      <j.0:Δημοτική_Ενότητα rdf:about="http://geo.linkedopendata.gr/gag/id/923604">
+        <j.0:έχει_κωδικό rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >923604</j.0:έχει_κωδικό>
+        <j.0:έχει_πληθυσμό rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >3680</j.0:έχει_πληθυσμό>
+        <j.0:έχει_επίσημο_όνομα>ΔHMOTIKH ΕNOTHTA ΝΕΑΣ ΤΙΡΥΝΘΑΣ</j.0:έχει_επίσημο_όνομα>
+        <rdfs:label>ΔHMOTIKH ΕNOTHTA ΝΕΑΣ ΤΙΡΥΝΘΑΣ</rdfs:label>
+        <j.0:ανήκει_σε rdf:resource="http://geo.linkedopendata.gr/gag/id/9236"/>
+      </j.0:Δημοτική_Ενότητα>
+    </foaf:primaryTopic>
+  </rdf:Description>
+</rdf:RDF>

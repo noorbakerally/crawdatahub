@@ -1,0 +1,24 @@
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://data.unl.edu.ec/academic-offer/schema#University>.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://data.unl.edu.ec/academic-offer/schema#University>.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://xmlns.com/foaf/0.1/name>	"UNIVERSIDAD NACIONAL DE LOJA".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://xmlns.com/foaf/0.1/name>	"UNIVERSIDAD NACIONAL DE LOJA".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://xmlns.com/foaf/0.1/homepage>	<http://www.unl.edu.ec/>.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://xmlns.com/foaf/0.1/homepage>	<http://www.unl.edu.ec/>.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://data.unl.edu.ec/academic-offer/schema#phone>	"072547252".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://data.unl.edu.ec/academic-offer/schema#phone>	"072547252".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://www.w3.org/2006/vcard/ns#email>	"comunicacion@unl.edu.ec".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://www.w3.org/2006/vcard/ns#email>	"comunicacion@unl.edu.ec".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://www.w3.org/2006/vcard/ns#category>	"B".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://www.w3.org/2006/vcard/ns#category>	"B".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://www.w3.org/2006/vcard/ns#street-address>	"AV. PIO JARAMILLO ALVARADO Y REINALDO ESPINOSA, LA ARGELIA".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://www.w3.org/2006/vcard/ns#street-address>	"AV. PIO JARAMILLO ALVARADO Y REINALDO ESPINOSA, LA ARGELIA".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://dbpedia.org/ontology/type>	"PÚBLICA".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://dbpedia.org/ontology/type>	"PÚBLICA".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://data.unl.edu.ec/academic-offer/schema#acronym>	"UNL".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://data.unl.edu.ec/academic-offer/schema#acronym>	"UNL".
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://dbpedia.org/ontology/chancellor>	<http://data.unl.edu.ec/academic-offer/resource/Teacher/GUSTAVO_ENRIQUE_VILLACIS_RIVAS>.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://dbpedia.org/ontology/chancellor>	<http://data.unl.edu.ec/academic-offer/resource/Teacher/GUSTAVO_ENRIQUE_VILLACIS_RIVAS>.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNL>	<http://dbpedia.org/ontology/chancellor>	<http://data.unl.edu.ec/academic-offer/resource/Teacher/MARTHA_ESTHER_REYES_CORONEL>.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://dbpedia.org/ontology/chancellor>	<http://data.unl.edu.ec/academic-offer/resource/Teacher/MARTHA_ESTHER_REYES_CORONEL>.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://purl.org/dc/elements/1.1/description>	"Este es un comentario o descripcion de la unl."@es.
+<http://data.unl.edu.ec/academic-offer/resource/University/UNIVERSIDAD_NACIONAL_DE_LOJA>	<http://xmlns.com/foaf/0.1/depiction>	<http://data.unl.edu.ec:8080/academic-offer/static/banner-unl.jpg>.

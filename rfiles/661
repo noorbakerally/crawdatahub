@@ -1,0 +1,6 @@
+
+<http://vocab.getty.edu/tgn/3000034-geometry> a <http://schema.org/GeoShape> , <http://schema.org/GeoCoordinates> ;
+	<http://schema.org/box> "-92.016,43.156 -92.016,48.812 -82.491,48.812 -82.491,43.156 -92.016,43.156" ;
+	<http://schema.org/latitude> "45"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	<http://schema.org/longitude> "-85"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	<http://schema.org/elevation> "183.184"^^<http://www.w3.org/2001/XMLSchema#decimal> .

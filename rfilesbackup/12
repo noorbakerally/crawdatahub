@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf  = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs = "http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl  = "http://www.w3.org/2002/07/owl#"
+>
+
+  <!-- the URI http://ieee.rkbexplorer.com/id/person-21757c2767705194600b55ff6b0ef692-1e427d6bbb6d2bb2aa5434059d6c58f4 has been deprecated, see following alternative. -->
+
+  <rdf:Description rdf:about="http://ieee.rkbexplorer.com/id/person-21757c2767705194600b55ff6b0ef692-1e427d6bbb6d2bb2aa5434059d6c58f4">
+    <rdfs:seeAlso rdf:resource="http://ieee.rkbexplorer.com/id/person-21757c2767705194600b55ff6b0ef692-8e31fda3b228612b025d4309d150465d" />
+    <owl:sameAs rdf:resource="http://ieee.rkbexplorer.com/id/person-21757c2767705194600b55ff6b0ef692-8e31fda3b228612b025d4309d150465d" />
+  </rdf:Description>
+
+</rdf:RDF>

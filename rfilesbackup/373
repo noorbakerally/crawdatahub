@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:26:04</dcterms:created>
+		<dc:source rdf:resource="http://italy.rkbexplorer.com/id/person-dsi-791ee4e9a5072fc1718f93265f87d072"/>
+		<coref:coreferenceData rdf:resource="http://italy.rkbexplorer.com/crs/person-dsi-791ee4e9a5072fc1718f93265f87d072" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://italy.rkbexplorer.com/id/person-dsi-791ee4e9a5072fc1718f93265f87d072">
+		<rdf:type rdf:resource="&akt;Affiliated-Person"/>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<rdf:type rdf:resource="&akt;Professor-In-Academia"/>
+		<akt:full-name>Andrea Bondavalli</akt:full-name>
+		<akt:given-name>Andrea</akt:given-name>
+		<akt:family-name>Bondavalli</akt:family-name>
+		<akt:has-appelation rdf:resource="&akt;Prof"/>
+		<akt:has-email-address>bondavalli@unifi.it</akt:has-email-address>
+		<akt:has-web-address>http://rcl.dsi.unifi.it/aboutus/andrea.php</akt:has-web-address>
+		<akt:has-telephone-number>+39 055 4237457</akt:has-telephone-number>
+		<akt:has-affiliation-to-unit rdf:resource="http://italy.rkbexplorer.com/id/dsi"/>
+		<akt:has-affiliation rdf:resource="http://italy.rkbexplorer.com/id/unifi"/>
+		<akt:has-postal-address rdf:resource="http://italy.rkbexplorer.com/address-50134"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://italy.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://italy.rkbexplorer.com/id/person-dsi-791ee4e9a5072fc1718f93265f87d072"/>
+	</rdf:Description>
+</rdf:RDF>

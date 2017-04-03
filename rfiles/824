@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdaGr2="http://RDVocab.info/ElementsGr2/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns# http://europeanalabs.eu/svn/europeana/trunk/ROOT/src/main/webapp/schemas/edm/EDM.xsd">
+<edm:Agent rdf:about="http://www.larramendi.es/aut/POLI20090013964">
+<skos:prefLabel>Sánchez, Francisco (1550-1623)</skos:prefLabel>
+<owl:sameAs rdf:resource="http://dbpedia.org/page/Francisco_Sanches" />
+<owl:sameAs rdf:resource="http://id.worldcat.org/fast/138875" />
+<owl:sameAs rdf:resource="http://viaf.org/viaf/100902578" />
+<skos:altLabel>El Escéptico (1550-1623)</skos:altLabel>
+<skos:altLabel>Sánches, Francisco (1550-1623)</skos:altLabel>
+<skos:altLabel>Sánchez, Francisco, el Escéptico (1550-1623)</skos:altLabel>
+<skos:altLabel>Sánchez, Francisco, el Tudense (1550-1623)</skos:altLabel>
+<skos:altLabel>Sánchez, Franciscus (1550-1623)</skos:altLabel>
+<skos:altLabel>El Tudense (1550-1623)</skos:altLabel>
+<skos:altLabel>Sanches, Francisco (ca 1551-1623)</skos:altLabel>
+<skos:altLabel>Le Sceptique</skos:altLabel>
+<skos:altLabel>Lusitanus, Franciscus Sanchez</skos:altLabel>
+<skos:altLabel>O cético</skos:altLabel>
+<skos:altLabel>Sanches, Francisco</skos:altLabel>
+<skos:altLabel>Sanches, Francisco (ca 1550-ca 1623)</skos:altLabel>
+<skos:altLabel>Sanches, Francisco (ca. 1550-ca. 1623)</skos:altLabel>
+<skos:altLabel>Sanches, Francisco (1550-1623)</skos:altLabel>
+<skos:altLabel>Sanches, Francisco (1550?-1623)</skos:altLabel>
+<skos:altLabel>Sanches, Franciscus (1551-1623)</skos:altLabel>
+<skos:altLabel>Sanchez Lusitanus, Franciscus</skos:altLabel>
+<skos:altLabel>Sanchez, Francisco</skos:altLabel>
+<skos:altLabel>Sanchez, Francisco, El Escéptico</skos:altLabel>
+<skos:altLabel>Sanchez, Francisco, Le Sceptique</skos:altLabel>
+<skos:altLabel>Sanchez, Francisco, O Cético</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus, El Escéptico</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus, Le Sceptique</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus, Lusitanus</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus, O Cético</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus (ca 1550-ca 1623)</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus (ca. 1550-ca. 1623)</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus (1550-1623)</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus (1550?-1623)</skos:altLabel>
+<skos:altLabel>Sanchez, Franciscus (1551-1623)</skos:altLabel>
+<skos:altLabel>Sanchez, Franz (1550-1623)</skos:altLabel>
+<skos:altLabel>Sanchez, François, médecin</skos:altLabel>
+<skos:altLabel>Sanctius, Franciscus</skos:altLabel>
+<skos:altLabel>Sanctius, Franciscus, El Escéptico</skos:altLabel>
+<skos:altLabel>Sanctius, Franciscus, Le Sceptique</skos:altLabel>
+<skos:altLabel>Sanctius, Franciscus, O Cético</skos:altLabel>
+<skos:altLabel>Sanctius, Franciscus (1550-1623)</skos:altLabel>
+<skos:altLabel>Sanctius, Franciscus (1550?-1623)</skos:altLabel>
+<skos:altLabel>Santo, Francisco (1550-1623)</skos:altLabel>
+<skos:altLabel>Sánches, Francisco, O Cético</skos:altLabel>
+<skos:altLabel>Sánchez, F. (Francisco) (ca. 1550-ca. 1623)</skos:altLabel>
+<skos:altLabel>Sánchez François (ca. 1550-ca. 1623)</skos:altLabel>
+<skos:altLabel>Sánchez, Francisco, médecin</skos:altLabel>
+<skos:altLabel>Sánchez, François (ca 1550-ca 1623)</skos:altLabel>
+<skos:altLabel>Sánchez, François (ca. 1550-ca. 1623)</skos:altLabel>
+<skos:altLabel>Sánchez (Francisco), el Escéptico, F. (ca. 1550-ca. 1623)</skos:altLabel>
+<skos:altLabel>Sánchez, el Escéptico (1551-1623)</skos:altLabel>
+<skos:altLabel>Sánchez, Francisco (1550?-1623)</skos:altLabel>
+<skos:altLabel>Sánchez, Francisco, ; 1550-1623</skos:altLabel>
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/FILA20120004030" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/FILA20120003101" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/FILA20120002876" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/FILA20120003132" />
+<skos:note xml:lang="es">Escepticismo</skos:note>
+<skos:note xml:lang="es">Bibliotecas Virtuales FHL. Edición 2008. Madrid : Fundación Ignacio Larramendi, 2008, p. 171</skos:note>
+<skos:note xml:lang="es">Catálogo de autoridades de la Biblioteca Nacional de España (BNE19900610838). Visitado el 9 de febrero de 2010</skos:note>
+<skos:note xml:lang="es">The Virtual International Authority File. - VIAF ID: 100902578 (Personal) . - http://viaf.org/viaf/100902578</skos:note>
+<skos:note xml:lang="es">Library of Congress Name Authority File. - Sánchez, Francisco, ca. 1550-ca. 1623. - http://id.loc.gov/authorities/names/n84179270</skos:note>
+<skos:note xml:lang="es">Scholasticon (Visitado el 9 de febrero de 2012). - Sanches, Francisco . - http://www.scholasticon.fr/Database/Scholastiques_fr.php?ID=1129</skos:note>
+<skos:note xml:lang="es">Ferrater Mora, José. Diccionario de Filosofía Española (1980). Tomo 4. pp. 2923-2924. - Sánchez [Sanches], Francisco</skos:note>
+<skos:note xml:lang="es">Díaz Díaz, Gonzalo. Hombres y Documentos de la Filosofía Española (2003). Tomo VII. pp. 96-101. - Sánchez, Francisco</skos:note>
+<skos:note xml:lang="es">Diccionario Biográfico Español. Real Academia de la Historia. Visitado el 9 de febrero de 2012. - Sánchez, Francisco. El Escéptico. Lugar de nacimiento:Tuy (Pontevedra), Fecha: 1550. Lugar de muerte: Toulouse (Francia), Fecha	XI.1623.</skos:note>
+<skos:note xml:lang="es">Diccionario Enciclopedia do Pensamento Galego (2008). </skos:note>
+<rdaGr2:biographicalInformation xml:lang="es">Filósofo y médico. Figura antiaristotelista, de importancia excepcional en la Historia de la Filosofía internacional.Ejerció la docencia en la Facultad de Medicina de la Universidad de Toulouse.
+
+Representante de la corriente filosófica denominada escepticismo, tuvo relación con Montaigne, que era pariente suyo, y ejerció una fuerte influencia en Descartes, aunque este es un aspecto muy discutible. Su obra fundamental, y capital para el resurgimiento del escepticismo como método de pensamiento, es Quod nihil scitur, obra que ha sido ampliamente traducida y reeditada, y de la que recientemente se ha elaborado una magnífica edición crítica. El mismo Sánchez se encargó de incluir en este trabajo un prólogo en el año 1576. 
+
+El resto de su obra es bastante escasa y nunca ha sido editada en España (excepto un breve opúsculo, por la Catedral de Tuy), pero sí en Portugal, aunque de forma incompleta.</rdaGr2:biographicalInformation>
+<rdaGr2:professionOrOccupation xml:lang="es">Filósofos</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Médicos</rdaGr2:professionOrOccupation>
+<rdaGr2:gender xml:lang="en">male</rdaGr2:gender>
+<edm:begin>1550</edm:begin>
+<edm:end>1623</edm:end>
+</edm:Agent>
+
+
+</rdf:RDF>

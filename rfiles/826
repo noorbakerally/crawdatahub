@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdaGr2="http://RDVocab.info/ElementsGr2/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns# http://europeanalabs.eu/svn/europeana/trunk/ROOT/src/main/webapp/schemas/edm/EDM.xsd">
+<edm:Agent rdf:about="http://www.larramendi.es/aut/POLI20090015128">
+<skos:prefLabel>Unamuno, Miguel de (1864-1936)</skos:prefLabel>
+<owl:sameAs rdf:resource="http://dbpedia.org/page/Miguel_de_Unamuno" />
+<owl:sameAs rdf:resource="http://id.worldcat.org/fast/36740" />
+<owl:sameAs rdf:resource="http://viaf.org/viaf/88844103" />
+<skos:altLabel>De Unamuno, Migel (1864-1936)</skos:altLabel>
+<skos:altLabel>De Unamuno, Miguel</skos:altLabel>
+<skos:altLabel>Adarrago, Miguel de Unamuno y (1864-1936)</skos:altLabel>
+<skos:altLabel>De Unamuno, Miguel (1864-1936)</skos:altLabel>
+<skos:altLabel>Deh Unamuno, Migel (1864-1936)</skos:altLabel>
+<skos:altLabel>Exóristo (1864-1936)</skos:altLabel>
+<skos:altLabel>Jugo, Miguel de Unamuno y (1864-1936)</skos:altLabel>
+<skos:altLabel>Jugo, Miguel de Unamuno y.</skos:altLabel>
+<skos:altLabel>Jugo, Miguel de Unamuno ¿y¿ (1864-1936)</skos:altLabel>
+<skos:altLabel>Jugo, Miguel de Unamuno (1864-1936)</skos:altLabel>
+<skos:altLabel>Jugo, Miguel de Unamuno y (1864-1936)</skos:altLabel>
+<skos:altLabel>Miguel de Unamuno</skos:altLabel>
+<skos:altLabel>Ounamouno, M. nte (1864-1936)</skos:altLabel>
+<skos:altLabel>Ounamouno, Migel nte (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno Jugo, Miguel de (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno y Adarrago, Miguel de (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno y Hugo, Miguel de</skos:altLabel>
+<skos:altLabel>Unamuno y Jugo, Miguel de (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno y Jugo, Miguel ¿de¿ (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno y Jugo, Miguel de</skos:altLabel>
+<skos:altLabel>Unamuno y jugo, Miguel de</skos:altLabel>
+<skos:altLabel>Unamuno, ... (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno, Migel deh (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno, Migel de (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno, Miguel (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamuno.</skos:altLabel>
+<skos:altLabel>Unamunokoa, Migel (1864-1936)</skos:altLabel>
+<skos:altLabel>Unamunos, Miguel de</skos:altLabel>
+<skos:altLabel>Unamuno, Miguel de. Spanish poet and philosopher, 1864-1936</skos:altLabel>
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/POLI20090015098" />
+<skos:note xml:lang="es">"Bibliotecas Virtuales FHL. Edición 2008". Madrid : Fundación Ignacio Larramendi , 2008 , p. 251</skos:note>
+<skos:note xml:lang="es">La tía Tula, 1985. - port. (Miguel de Unamuno)</skos:note>
+<skos:note xml:lang="es">La cuestión del Ensanche de Bilbao, 2000. - port. (Miguel de Unamuno y Jugo) p. 11 (artículos escritos en "El Nervión" con el seud. de Exóristo)</skos:note>
+<skos:note xml:lang="es">Ho paichtes tou skakiou [El jugador de ajedrez], 1972. - port. (M. nte Ounamouno) p. 7 (Migel nte Ounamouno)</skos:note>
+<skos:note xml:lang="es">Medea, 2008. - port. (traducida por Miguel Unamuno)</skos:note>
+<skos:note xml:lang="es">Poezija, 2009, p. 137 </skos:note>
+<skos:note xml:lang="es">Espasa. - (Unamuno Jugo, Miguel de; catedrático y escritor español; n. 29-9-1864 en Bilbao)</skos:note>
+<skos:note xml:lang="es">Diccionario de literatura española e hispanoamericana, 1993. - (Unamuno y Jugo, Miguel de; Bilbao, 1864-Salamanca, 1936)</skos:note>
+<skos:note xml:lang="es">Diccionario Biográfico Español de la Real Academia de la Historia. Visitado el 21 de mayo de 2012. - Unamuno y Jugo, Miguel de (Bilbao, Vizcaya 29.IX.1864 -	Salamanca 31.XII.1936)</skos:note>
+<skos:note xml:lang="es">Ferrater Mora, José. Diccionario de Filosofía Española. Vol. 4 (1980). pp. 3339-3342. - Unamuno, Miguel de (1864-1936)</skos:note>
+<skos:note xml:lang="es">Díaz Díaz, Gonzalo. Hombres y Documentos de la Filosofía Española (2003). Tomo VII. pp. 616-677. - Unamuno y Jugo, Miguel de</skos:note>
+<rdaGr2:biographicalInformation xml:lang="es">Escritor español, fue el pensador más complejo de la Generación del 98, con una fecunda trayectoria internacional.
+
+Siguió estudios de Filosofía y Letras en la capital española y ocupó la cátedra de Griego de la Universidad de Salamanca. Colaboró con el diario socialista La Lucha de Clases, publicado en Bilbao, y con El Socialista, órgano oficial del Partido Socialista Obrero Español en el que había ingresado y del que salió a los cuatro años de militancia porque pensaba que no podía conciliarlo con el socialismo religioso que sentía como más suyo.
+
+Fijó en Salamanca su residencia definitiva, aunque le sacara de allí temporalmente el destierro, al que fue condenado por el dictador Primo de Rivera. Se unió al levantamiento del general Franco contra el gobierno en julio de 1936, aunque poco después, en octubre, se enfrentó verbalmente durante un acto oficial al general Millán Astray , espetándole "venceréis pero no convenceréis". En diciembre de ese año murió.
+
+Gran conocedor de la lengua castellana, cultivó todos los géneros literarios, mostrando siempre un estilo original e inconfundible. Entre sus numerosísimas obras cabe destacar las novelas Paz en la guerra (1897), Niebla (1914), Abel Sánchez (1917),La tía Tula (1923) y San Manuel Bueno, mártir (1931), los importantes ensayos Vida de Don Quijote y Sancho (1905), Del sentimiento trágico de la vida (1912) y La agonía del cristianismo (1924) y su poesía.</rdaGr2:biographicalInformation>
+<rdaGr2:professionOrOccupation xml:lang="es">Profesores universitarios</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Filólogos</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Filósofos</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Poetas</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Novelistas</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Ensayistas</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Dramaturgos</rdaGr2:professionOrOccupation>
+<rdaGr2:gender xml:lang="en">male</rdaGr2:gender>
+<edm:begin>1864</edm:begin>
+<edm:end>1936</edm:end>
+</edm:Agent>
+</rdf:RDF>

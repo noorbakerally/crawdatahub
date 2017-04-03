@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcr="http://www.isocat.org/ns/dcr.rdf#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cc="http://creativecommons.org/ns#">
+   <rdf:Description rdf:about="http://www.isocat.org/datcat/DC-1333">
+      <rdfs:label xml:lang="en">noun</rdfs:label>
+      <rdfs:comment xml:lang="en">Part of speech assigned to words that designate a person, place, action, property or thing etc. that may have morphosyntactic properties like number or case and syntactic combination like modification by an adjective or determination by a determiner</rdfs:comment>
+      <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      <rdfs:label xml:lang="fr">nom</rdfs:label>
+      <rdfs:comment xml:lang="fr">Partie du discours attribuée aux mots qui désignent une personne, lieu, action, propriété ou chose etc. qui peut avoir des propriétés morphosyntaxiques comme le nombre ou le genre and des combinaisons syntaxiques comme la modification par un adjectif ou la détermination par un déterminant</rdfs:comment>
+      <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+   </rdf:Description>
+</rdf:RDF>

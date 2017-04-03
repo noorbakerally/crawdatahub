@@ -1,0 +1,52 @@
+@base <http://zbw.eu/stw/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix waiver: <http://vocab.org/waiver/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix zbwext: <../namespaces/zbw-extensions/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix sh: <http://purl.org/skos-history/> .
+@prefix stw: <> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix dsv: <http://purl.org/iso25964/DataSet/Versioning#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<descriptor/19664-4>
+    gbv:gvkppn "091359945"^^xsd:string ;
+    a skos:Concept, zbwext:Descriptor ;
+    rdfs:isDefinedBy <descriptor/19664-4/about> ;
+    skos:altLabel "Börsen-Crash"@de, "Börsenkrach"@de, "Börsenkrise"@de, "Börsenschock"@de, "Crash an der Börse"@de, "Financial instability"@en, "Finanzmarktkrise"@de, "Krise der Finanzmärkte"@de, "Stock market crash"@en ;
+    skos:broader <descriptor/10343-6>, <thsys/70187> ;
+    skos:closeMatch <http://dbpedia.org/resource/Financial_crisis> ;
+    skos:exactMatch <http://d-nb.info/gnd/4195388-5>, <http://d-nb.info/gnd/7635855-0>, <http://lod.gesis.org/thesoz/concept/10062414> ;
+    skos:inScheme <../stw> ;
+    skos:narrowMatch <http://d-nb.info/gnd/4180342-5>, <http://d-nb.info/gnd/4195430-0>, <http://d-nb.info/gnd/4466441-2> ;
+    skos:narrower <descriptor/13688-6>, <descriptor/19337-5>, <descriptor/29631-6> ;
+    skos:prefLabel "Financial crisis"@en, "Finanzkrise"@de ;
+    skos:related <descriptor/10797-2>, <descriptor/10807-4>, <descriptor/19196-4>, <descriptor/29222-2>, <descriptor/29721-5>, <descriptor/29957-4> ;
+    foaf:page <http://www.econbiz.de/subject/Financial%2Bcrisis/>, <http://www.econbiz.de/thema/Finanzkrise/>, <../econis/search/descriptor/Financial%20crisis>, <../econis/search/descriptor/Finanzkrise> ;
+    zbwext:indexedItem <http://www.econbiz.de/subject/Financial%2Bcrisis/>, <http://www.econbiz.de/thema/Finanzkrise/>, <../econis/search/descriptor/Financial%20crisis>, <../econis/search/descriptor/Finanzkrise> .
+
+<../stw>
+    dcterms:issued "2016-06-30"^^xsd:date ;
+    dcterms:title "STW Thesaurus for Economics"@en, "Standard-Thesaurus Wirtschaft"@de ;
+    owl:versionInfo "9.02"@de, "9.02"@en ;
+    skos:prefLabel "STW Thesaurus for Economics"@en, "Standard-Thesaurus Wirtschaft"@de .
+
+<../econis/search/descriptor/Finanzkrise>
+    dcterms:subject <descriptor/19664-4> .
+
+<../econis/search/descriptor/Financial%20crisis>
+    dcterms:subject <descriptor/19664-4> .
+
+<http://www.econbiz.de/subject/Financial%2Bcrisis/>
+    dcterms:subject <descriptor/19664-4> .
+
+<http://www.econbiz.de/thema/Finanzkrise/>
+    dcterms:subject <descriptor/19664-4> .
+

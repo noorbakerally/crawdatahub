@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:events="http://schemas.talis.com/2009/events/"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/"
+  xmlns:temp="http://lists.talis.com/schema/temp#">
+
+  <rdf:Description rdf:about="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B"/>
+    <foaf:topic rdf:resource="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B"/>
+    <dct:hasFormat rdf:resource="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B.html"/>
+    <dct:hasFormat rdf:resource="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B.json"/>
+    <dct:hasFormat rdf:resource="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B">
+    <events:hasEvents rdf:resource="http://readinglists.ucl.ac.uk/lists/CC195814-83A4-386F-509A-37E2F35A204B/events"/>
+    <rdf:_1 rdf:resource="http://readinglists.ucl.ac.uk/sections/E93A662B-0D97-B366-9D59-DCA7586B1D88"/>
+    <rdf:_2 rdf:resource="http://readinglists.ucl.ac.uk/sections/F1109633-58D5-3434-6A90-B278ED2AC1C9"/>
+    <rdf:_3 rdf:resource="http://readinglists.ucl.ac.uk/sections/6705C8B2-CFCB-8E2B-C5E2-B88D45153F03"/>
+    <rdf:_4 rdf:resource="http://readinglists.ucl.ac.uk/sections/610F2606-BC10-DCBC-C865-6C04C4558D12"/>
+    <rdf:_5 rdf:resource="http://readinglists.ucl.ac.uk/sections/CF2D2209-7BBD-B3B4-CA1D-A5E5D2FABED9"/>
+    <rdf:_6 rdf:resource="http://readinglists.ucl.ac.uk/sections/BB9E30EB-AA26-EAD3-79F9-4A1FB115FEE2"/>
+    <rdf:_7 rdf:resource="http://readinglists.ucl.ac.uk/items/219E62CF-6E41-C2CF-E1B3-6442279B5AB8"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#ArchiveList"/>
+    <resourcelist:archived>2013-07-03T13:53:20+01:00</resourcelist:archived>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/012B0189-B823-C0F1-3A4B-9CC7A53678D6"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/01432AFF-8F2F-7391-9B04-203D54BA72DA"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/01C1BCCE-E02B-EBEB-026E-6DB21A07BB15"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/0328123A-6C11-5481-D1FF-8071D109A5E9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/0452CA69-4AA4-0908-5675-73C7F7B9F3A0"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/07D33C58-172A-5AE9-4E84-EE0779669E31"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/081A0F4C-A778-8EF2-7BBE-FB9E05CA507C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/0C9B5DB5-80AE-AF2B-4058-F686141479C3"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/0CD3DC32-0952-AD20-3DAE-97237499C024"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/0DCA690C-711C-7E32-5C0B-745D61D71E28"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/0E119FA2-560E-6445-8871-D3F946252803"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/10116BBC-EA21-F296-C15D-E4A4090BAA88"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/10392E93-EF3D-5873-3ABE-B47EE245A1E6"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/10C879F2-54C2-90CF-1A58-1622BF9A633C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/1331D28C-DBCF-EE5D-7A5D-4CF10DBD8A0F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/13A82964-911B-D294-CEF5-33D0EF622F15"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/142167A8-F76F-E363-C546-F639BA0E8DA3"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/16118937-6D8C-F02F-E2F9-A7271649457E"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/16288C48-286F-E3E5-BF8C-DBC1221D50AF"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/17C28698-1795-B06B-6353-F68510BBF964"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/1BDF43C6-5EDF-CE29-A9C5-DF4748CD14DC"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/1E08E0E8-0512-E859-7E20-10BA9DFC1A7F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/1FFFF0A2-6B34-4C7B-20EB-35B97646E993"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/219E62CF-6E41-C2CF-E1B3-6442279B5AB8"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/21D21414-FF77-043A-CE61-FAC52FA8F98F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/23ACF69C-160E-372E-2BF3-1FAD2E4EE6E5"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/25CBA5AC-0A36-CBEF-1A46-2C0C9B02C1AB"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/26738C6C-CD41-06C4-5C0C-9B22DB5D6A0F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/27200F5C-2562-B402-0F86-9DAA8FE31314"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/2D4D2B79-9629-D693-CBF8-5B9E03E4ABF4"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/2D5BCDC4-3ED2-4D06-AD67-60E4571A0AF3"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/2DBCC6B1-3BDF-740E-81B9-D3C4760284A7"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/2E767A79-0DDE-4CE3-A4F6-DD05A5A51EF0"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/2F609418-1153-3FDE-82BB-7ED7C12CB80D"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/33090B2D-F6A7-9B96-B258-97845495BAFC"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/33E6E3F9-5C8B-6E2D-CD3C-6960E6E4EE04"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/346D8965-0FB4-E4F0-A1F1-4D2F16FD7EE9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/387F3796-CFF0-3F12-DF63-74DBCF7F5466"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/3AA06855-92A8-6640-6906-9518F8A5851B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/3B64BE1A-1ED7-ECC7-3C23-EF97580C00F2"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/3F439522-297D-892D-58DC-7A8092CE7C31"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/43DB2235-B61D-EFC4-2BAC-C1161DC21723"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/441822F7-C84F-C5C2-5577-9309F8F70D36"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/45369CAC-8B25-EF4B-24C0-391B01F99C51"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/47B5C454-538F-3997-62BA-289FA0760227"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/47C82CC1-A870-D3F7-E614-1F0C8D4C6387"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/4ACD6033-290A-4EF2-BC02-E83DBC388D26"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/4C7543EE-E14C-042D-2179-5FD0D4D4D3D8"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/4F86F418-3921-D4C6-ED3A-9EF8C7587AE7"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/516B1770-AB54-6589-CDA3-08047019C857"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/5327941D-5D8B-6C10-94BD-94D9E08CACFA"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/58BE5B3C-751A-0C6C-6CE4-E26DDFC5907E"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/5A2012B6-11F2-6DBA-04B3-4FFD3D48D4A7"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/5ACFBD83-5B7F-E6BC-3EAC-B23F9E393387"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/6284FF86-9B75-87E3-2831-3B43081B17B2"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/62A6BED8-7EA3-6382-9C27-512E8A94EFC5"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/653FE8FD-5C75-30CB-048E-E5BA916495F9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/66433864-E181-5FA2-4D53-117F25BD3FFF"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/67CE6285-90AD-F6BC-91F9-7300EE24CAD4"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/6A1C45B0-0ED5-E551-9061-D4A7798E30DE"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/6B7C8D81-288F-0E40-DBF5-66FDC5EE157F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/700B340D-7706-F37B-E202-8E72AF136F2F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/701F21FA-EAD6-F1D7-302E-3942F0486B74"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/739703CF-EF0B-7404-930B-F8906E561CB9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/75DB7D4B-4A6B-F678-E4F4-02FC25BA09C9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/77E6135A-289B-EA4C-2C20-5521BADCFD61"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/77EACBDB-7F60-4F0A-076B-207D586BB177"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/781C172A-EB5A-741D-B657-3BCB4EF3CD4A"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/78B8C8A6-ADDB-DC58-C278-9E73DAC86585"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/796BDC38-5945-29FB-66BA-91B675404C8E"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/7B050472-63D7-01E9-3528-DC1D362BCD36"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/7C42FACA-A3AA-D346-9923-DB9773DEAFFE"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/7DB69FFB-4687-E0F9-369F-EAA3B6771160"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/7F1FF4F3-5E48-723C-EED6-7AEBF57DA944"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/80556187-BF55-EA5A-4160-299C874F1D82"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/83135660-ED21-4C17-4FC2-27740B37D9C6"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/8B8A31AB-DACE-3A42-4185-267F0A1550A4"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/8BC4246E-92B9-F2E2-D3CD-53EBC96F29DF"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/8DC81C05-33F2-BF81-49C6-B382A6AF9D25"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/8E6A3815-B47B-9413-C1AF-FC75973C6FC6"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/92D73752-CBC2-1F13-5E4C-842334047BFE"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/953357D7-6E2A-128A-059F-505426E3D624"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/962715C4-049E-C18D-35A9-45BF0A5A2D80"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/9799EF05-967C-4DD7-36F3-91946C9860C9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/995312B9-0715-4464-043C-078C96CD9D46"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/9AEFFDB7-4D31-EA26-DB61-12816A365970"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/9B84D852-676A-661E-E6AE-FCBDA729AFE0"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/9C49B7DB-D3B0-5EDC-DB1C-A7E5D00D4C5E"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/9CDF6D7B-A2C0-BF8E-2271-B74E5E98F902"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/9F91FAFD-9BA3-0F03-B4E8-981702B926DA"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/A48159A9-E07D-A9F2-FC6A-B10C1C2A4B66"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/A4AEAA2E-DE5E-4010-0245-AC012250F23B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/A6BC5A1E-DABA-ADA1-87A6-D9D8DAC92928"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/A72FCD36-2485-08AC-FDB6-F957BD84732C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/AB73F2E7-798F-8404-534F-AB38C22AED69"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/AE46ACF8-8A8C-7286-35D7-3F928B79D299"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/AFA6FB51-FC54-D8BF-1A68-E2F950231D64"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/B40460EC-7C23-E48C-5FAF-36E2211A3CA4"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/BA698C06-F390-C8F7-C6AA-EC4A2951CCC3"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/BB0F01BD-DC3E-2361-6428-F8255609EAA1"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/BB610295-5935-CDE7-681F-7DBAA14B196D"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/BDD0C069-77A5-0E91-36B0-FD1BB7A1893B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/BEA2E693-B9B3-3B34-F7BA-BF61821F5A82"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/BF226548-8219-25E3-FF14-20A8DFD05680"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/C096AF3D-DA8B-62F8-A31E-A96F6C3676BD"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/C1E596DF-FAD7-ABE1-4182-52E22432EFB1"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/C2540E4F-BC0B-387C-EA14-75ADABD2D261"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/C2C2BAA5-707A-A10D-E16B-2C3B4CD43A66"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/C34AEE59-492E-6F72-6328-AA2E64E4830A"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/C4E00D0A-7ECF-596A-945C-7E72E523695B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/CA8B5FDE-A9D8-EA78-818B-7AA25FA65990"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/CBB40284-07FB-D76B-6152-3C4A2AF14A3C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/CE99AF2F-472C-D1E9-AF4E-F5F25EBCFB04"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/CF8C4EA6-B586-C477-B030-A465A0264C99"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/D08FD781-B2E8-F7D5-DF6C-367DDEF28BD4"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/D0EC6ECE-B13B-4094-7942-27C9619D5AE6"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/D16AD886-AC94-8A09-3993-4BB2A29DFA7A"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/D1BB7E03-BE37-128C-6723-CABF6968DB17"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/D9A80BCA-4D31-9F2D-24CB-D9351C93B610"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/DB788B60-CF7A-726E-F914-99CD4858DA4B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/E5E46A2A-3243-1C02-E46E-5A7EB200C390"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/EAF2AF31-C4ED-B5AB-0B25-ABB3B5248774"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/EEBC30A4-B42C-8500-D8BF-69C79D4CBC83"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/F13A739F-A9F9-9727-6B32-9C521898657F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/FF14C05C-C97B-36CD-4568-D53A813AA306"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/items/FF57E21B-744B-86D8-4F9A-7CA9CCA11CFE"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/040131DB-8A89-87D9-2A2F-66D6786947D4"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/0545E2C0-0F84-94A5-476A-36B3D38B74A1"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/09ACF1EE-D3AF-C277-7309-215CB24BCBD1"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/0A13B659-9BA9-1E1F-A130-F21242E51DED"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/102CEA50-221C-D424-DAA4-75BA9CC46DD6"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/1330E467-1B10-DE28-8029-E9D94B995A2F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/197EDD6E-75E5-E541-4C01-76BB3847C524"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/24C10B15-3489-D6FB-1207-6CFDC28FB736"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/28278160-C5D2-4D79-43FF-4B792A0F1607"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/2A290ADB-203F-95FE-CE72-7CA88CB6D392"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/2B1B84A2-B2D2-E6E1-D345-F8A06A57959F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/2B87CEEA-44E8-A181-5670-BA4AB29BF1B8"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/30CC4CAA-FD8A-5ECD-32E2-8E18A10104FE"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/3767B384-8D4A-55F1-D94D-9ABEC2D994F3"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/37EF822B-9041-33F7-8269-11F411017FC9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/3CF3D35A-BB48-101B-1EDA-B7D22902DEA1"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/4361452C-8002-8749-499B-90889CEA9773"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/48A9D343-10F9-2923-F7E8-BED46F24D38F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/4AD56EFC-E945-2C5B-B777-A0A0C4676B47"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/503C5DAB-D92A-7296-176A-E54C360DCBE4"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/59514BB4-59F6-56BB-723E-F9EF00A664FA"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/59DF1B9A-EB2B-7662-6765-658FD59F9994"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/5C83B44E-1781-FD1E-3B58-B4AF97C4F8C1"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/5FF581A3-757D-0A11-7E19-C618912C169A"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/610F2606-BC10-DCBC-C865-6C04C4558D12"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/65909CE4-DC8B-7BA9-6B02-C43BDF076A7C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/6705C8B2-CFCB-8E2B-C5E2-B88D45153F03"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/6AB9DFDD-911C-D7B9-1BF1-8D229981F3BF"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/75500D19-3B1A-99FA-8C72-508B58C2ED7B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/773A257F-B623-F946-04A5-F413411CF767"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/77FA5242-DDC0-494C-CE40-DF5AB29FC18E"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/7B7986C8-21D0-B887-260A-0C0174E00870"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/7C0E1281-E991-0073-E585-31249F0E4BAB"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/821D4B4F-0CF2-1129-E73A-437E4E80D780"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/823EC336-C59A-234B-A39D-EC1800DF4872"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/8BF1734E-3B03-EDE4-1D8B-AAE7F04FDEE2"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/90380BC5-175C-C578-24E7-870CDF467282"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/92BA7DAD-0B64-8937-444B-CCFD3A5C8B30"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/982F2595-B18D-26E8-8C4D-89867BCC3D0F"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/9C0A4AF8-1540-E238-3281-43D064CEC498"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/9CB8E87B-ADBD-7316-5F5E-A6FA9E0CB25C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/9FFCC67A-C0D3-1723-82CC-4E389D68284C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/AA5E41E2-CB49-56A6-C043-B1FB2B7C4CBD"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/AA7BC8D4-51B6-5E74-FEBB-252DAA0DA3C1"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/AC2B504B-EF4A-1AD8-88BD-3B65700C5A8A"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/B1382DFD-9942-8331-AD77-3BAAC327A524"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/B7084F28-923A-CD83-7966-5A7AA08CD150"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/BB9E30EB-AA26-EAD3-79F9-4A1FB115FEE2"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/C19E71F7-9936-D6FA-6E0B-85D00C254239"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/C59EB98B-C8EB-CC97-459E-CBC2C2A8260B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/C6100FAE-82B6-AE78-477A-ACE6EE25AC75"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/C66C93E7-5897-54F2-7964-5ECD107E3B2C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/CC11558C-B164-BAA9-654D-73E6C95D1DD0"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/CF2D2209-7BBD-B3B4-CA1D-A5E5D2FABED9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/D042BE78-23CF-C727-9549-211B9D1D588C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/D0B32897-158E-67C0-EF1D-E6CBE5A52E3B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/D1F24331-95E1-EC20-23A0-74EF41ECC280"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/DD328578-68AE-673D-4DCD-54CA329419A9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/DDE04214-1F68-4BD6-F85D-200D5C092AA9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/DE03A55C-449B-87EE-D575-668474D3C821"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/DECCE740-4574-E57D-225B-D746729EAD19"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/E93A662B-0D97-B366-9D59-DCA7586B1D88"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/F1109633-58D5-3434-6A90-B278ED2AC1C9"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/F42CB17A-F962-BEB9-95A7-75DF6F5DC686"/>
+    <resourcelist:contains rdf:resource="http://readinglists.ucl.ac.uk/sections/F8304372-66F3-4AEC-4837-974FDF21899B"/>
+    <resourcelist:created>2011-05-27T17:46:04+01:00</resourcelist:created>
+    <resourcelist:description>Postgraduate
+History and Theory (Diploma)</resourcelist:description>
+    <resourcelist:lastPublished>2012-08-03T14:37:32+01:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2012-08-03T14:34:45+01:00</resourcelist:lastUpdated>
+    <spec:container_of rdf:resource="http://readinglists.ucl.ac.uk/items/219E62CF-6E41-C2CF-E1B3-6442279B5AB8"/>
+    <spec:has_creator rdf:resource="http://readinglists.ucl.ac.uk/users/D440782A-0F4E-3FFD-B554-6D9A9FF41608"/>
+    <spec:name>BENVGA02: Advanced Architectural Studies: Course coordinator Peg Rawes</spec:name>
+    <spec:parent_of rdf:resource="http://readinglists.ucl.ac.uk/sections/610F2606-BC10-DCBC-C865-6C04C4558D12"/>
+    <spec:parent_of rdf:resource="http://readinglists.ucl.ac.uk/sections/6705C8B2-CFCB-8E2B-C5E2-B88D45153F03"/>
+    <spec:parent_of rdf:resource="http://readinglists.ucl.ac.uk/sections/BB9E30EB-AA26-EAD3-79F9-4A1FB115FEE2"/>
+    <spec:parent_of rdf:resource="http://readinglists.ucl.ac.uk/sections/CF2D2209-7BBD-B3B4-CA1D-A5E5D2FABED9"/>
+    <spec:parent_of rdf:resource="http://readinglists.ucl.ac.uk/sections/E93A662B-0D97-B366-9D59-DCA7586B1D88"/>
+    <spec:parent_of rdf:resource="http://readinglists.ucl.ac.uk/sections/F1109633-58D5-3434-6A90-B278ED2AC1C9"/>
+    <temp:hasRolloverCopy rdf:resource="http://readinglists.ucl.ac.uk/lists/61DEC0EF-063C-1057-C98D-14F646B59532"/>
+    <temp:hasTimePeriod rdf:resource="http://readinglists.ucl.ac.uk/config/timePeriod2"/>
+  </rdf:Description>
+
+</rdf:RDF>

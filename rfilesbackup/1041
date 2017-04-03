@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/video-projection-tools---vpt/0278522a-59f9-4cf4-a766-d6f121da1ba6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Video Projection Tools - VPT]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Soft para video-proyecci&oacute;n</p>
+<p>
+	Mapeado de v&iacute;deo - VJ - Performance Audiovisual</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-02-13T21:38:41+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Video Projection Tools - VPT]]></dcterms:title>
+    <dcterms:source rdf:resource="http://hcgilje.wordpress.com/resources/video-projection-tools/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesor-jaimemunarriz/" />
+    <sioc:has_discussion rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/video-projection-tools---vpt/0278522a-59f9-4cf4-a766-d6f121da1ba6/comentario/7968136f-b8d8-456d-a5ec-08745de89c9b" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/Interactivos" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/future-cinema/1ea5ce18-b4b3-49aa-a637-443332948b2e" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/stravinsky-oedipus-rex-ozawa-norman-landgridge/55995487-ad35-4aff-8045-5777e93b31d7" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/openendedgroup/ebe412e2-a22f-47f9-9028-0e8d74e58e36" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/moldeo/0b8c2586-099f-4fb3-a48b-cf9ff211a3df" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/the-builders-association/da4fa7a6-6d47-4c18-a491-d1e4f37cc88b" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/lzx-industries/f67f6999-173d-45de-83ad-a8b2e9ebcbc8" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/blog-danza-y-tecnologia/0577b4c8-2151-44c4-bf1b-034163c506bd" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/orfeo-ed-euridice-escenografia-interactiva-/3af80bea-ae0a-4288-819d-c5b0e26a677f" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/mediateletipos/308566b0-e0db-42b0-a085-e3d12c78ccaf" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/tagmagics-visual-circus/4d5cf70b-d0d5-441e-b793-05d6a0b7f648" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/resources/category/proyecciones-escenicas/8f47bb9b-15f0-4f79-bc32-4deb7e34097b" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/video" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/projection" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/tools" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/mapeado" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/proyecciones" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/vpt" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/vj" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/profesor-jaimemunarriz/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Profesor · Jaime Munárriz Ortiz]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Jaime]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Munárriz Ortiz]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Comment rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/video-projection-tools---vpt/0278522a-59f9-4cf4-a766-d6f121da1ba6/comentario/7968136f-b8d8-456d-a5ec-08745de89c9b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Hola!</p>
+<p>
+	Estoy intentando hacer un mapping con VPT 6. Lo tengo instalado con Max y mas o menos conozco el entorno. El problema es que no se como cargar los videos porque en la seccion &quot;source&quot; no me aparece la lista de los .mov.</p>
+<p>
+	Estaria muy agradecido si alguien me diera un tiron de orejas con esto.</p>
+<p>
+	Mil gracias.david</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Hola!</p>
+<p>
+	Estoy intentando hacer un mapping con VPT 6. Lo tengo instalado con Max y mas o menos conozco el entorno. El problema es que no se como cargar los videos porque en la seccion &quot;source&quot; no me aparece la lista de los .mov.</p>
+<p>
+	Estaria muy agradecido si alguien me diera un tiron de orejas con esto.</p>
+<p>
+	Mil gracias.david</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-01-06T12:49:57+01:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/david-perez1/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/david-perez1/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[David perez]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[David]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[perez]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/Interactivos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Entornos interactivos. Arte en los nuevos medios.]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/Interactivos/resources/category/proyecciones-escenicas/8f47bb9b-15f0-4f79-bc32-4deb7e34097b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Proyecciones escénicas]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Proyecciones escénicas]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/video">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[video]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/projection">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[projection]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/tools">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tools]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/mapeado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[mapeado]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/proyecciones">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[proyecciones]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/vpt">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vpt]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/vj">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vj]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

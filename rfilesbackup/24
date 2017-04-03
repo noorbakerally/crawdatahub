@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:16:15</dcterms:created>
+		<dc:source rdf:resource="http://deploy.rkbexplorer.com/id/eprints-79"/>
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://deploy.rkbexplorer.com/id/eprints-79">
+		<akt:has-URL>http://deploy-eprints.ecs.soton.ac.uk/79/1/Deployment_in_the_Space_Sector.ppt</akt:has-URL>
+		<akt:has-author rdf:resource="http://deploy.rkbexplorer.com/id/person-fbefdbd72426f7bc1eaabe61eadb588f-954c72bceba0445a58cd8a2fb45b615d"/>
+		<akt:has-date rdf:resource="http://www.aktors.org/ontology/date#2008"/>
+		<akt:has-web-address>http://deploy-eprints.ecs.soton.ac.uk/id/eprint/79</akt:has-web-address>
+		<akt:has-title>Deployment in the Space Sector (WP3 Meeting in Newcastle)</akt:has-title>
+		<rdf:type rdf:resource="&akt;Publication-Reference"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-03-30T17:07:03</dcterms:created>
+		<dc:source rdf:resource="http://rae2001.rkbexplorer.com/id/resource-Id-227384"/>
+		<coref:coreferenceData rdf:resource="http://rae2001.rkbexplorer.com/crs/resource-Id-227384" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://rae2001.rkbexplorer.com/id/resource-Id-227384">
+		<rdf:type rdf:resource="&akt;Generic-Agent"/>
+		<akt:works-in-unit rdf:resource="http://rae2001.rkbexplorer.com/id/resource-H-0160:UoA-25:Group-B"/>
+		<akt:has-affiliation-to-unit rdf:resource="http://rae2001.rkbexplorer.com/id/resource-H-0160:UoA-25:Group-B"/>
+		<akt:works-for rdf:resource="http://rae2001.rkbexplorer.com/id/resource-H-0160"/>
+		<akt:has-affiliation rdf:resource="http://rae2001.rkbexplorer.com/id/resource-H-0160"/>
+		<akt:has-research-interest rdf:resource="http://rae2001.rkbexplorer.com/id/resource-UoA-25"/>
+		<akt:family-name>Glaser</akt:family-name>
+		<akt:full-name>H Glaser</akt:full-name>
+		<rdf:type rdf:resource="&akt;Academic"/>
+		<rdf:type rdf:resource="&akt;Employee"/>
+		<rdf:type rdf:resource="&akt;Affiliated-Person"/>
+		<rdf:type rdf:resource="&akt;Person"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://rae2001.rkbexplorer.com/id/resource-H-0160:UoA-25:Id-227384:PubNum-3">
+		<akt:has-author rdf:resource="http://rae2001.rkbexplorer.com/id/resource-Id-227384"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://rae2001.rkbexplorer.com/id/resource-H-0160:UoA-25:Id-227384:PubNum-2">
+		<akt:has-author rdf:resource="http://rae2001.rkbexplorer.com/id/resource-Id-227384"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://rae2001.rkbexplorer.com/id/resource-H-0160:UoA-25:Id-227384:PubNum-1">
+		<akt:has-author rdf:resource="http://rae2001.rkbexplorer.com/id/resource-Id-227384"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://rae2001.rkbexplorer.com/id/resource-H-0160:UoA-25:Id-227384:PubNum-4">
+		<akt:has-author rdf:resource="http://rae2001.rkbexplorer.com/id/resource-Id-227384"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://rae2001.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://rae2001.rkbexplorer.com/id/resource-Id-227384"/>
+	</rdf:Description>
+</rdf:RDF>

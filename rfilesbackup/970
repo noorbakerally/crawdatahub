@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a <http://purl.obolibrary.org/obo/OBI_0001136> .
+
+<http://purl.obolibrary.org/obo/OBI_0001136> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Surface plasmon resonance instrument"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000111> "surface plasmon resonance instrument"^^xsd:string ;
+	rdfs:label "surface plasmon resonance instrument"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> rdfs:label "Biacore T100" ;
+	<http://purl.obolibrary.org/obo/ERO_0000480> "http://science.utep.edu/bbrc/biacore-t100" .
+
+<http://purl.obolibrary.org/obo/ERO_0000480> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Website(s)"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000111> "has URL"^^xsd:string ;
+	rdfs:label "has_url"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://eagle-i.org/ont/app/1.0/resource_description> """\"The Biacore T100 uses Surface Plasmon Resonance (SPR) technology to detect sensitive and reliable characterization of molecular binding interactions in real-time. The SPR technology monitors the changes of mass bound to the surface of the chip, providing sensitive characterization of biomolecular interactions in terms of specificity, kinetics and affinity.
+
+The Biacore T100 is run exclusively by a dedicated operator.\"""" .
+
+<http://eagle-i.org/ont/app/1.0/resource_description> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Resource Description"^^xsd:string ;
+	rdfs:label "resource_description"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.obolibrary.org/obo/ERO_0000034> <http://global.eagle-i.net/i/0000013d-bc73-a1b8-ecc6-81a580000000> .
+
+<http://purl.obolibrary.org/obo/ERO_0000034> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Manufacturer"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000111> "has manufacturer"^^xsd:string ;
+	rdfs:label "has_manufacturer"^^xsd:string .
+
+<http://global.eagle-i.net/i/0000013d-bc73-a1b8-ecc6-81a580000000> rdfs:label "General Electric Company" .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.obolibrary.org/obo/ERO_0000050> "T100" .
+
+<http://purl.obolibrary.org/obo/ERO_0000050> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Model Number"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000111> "model number"^^xsd:string ;
+	rdfs:label "model_number"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.obolibrary.org/obo/ERO_0000021> <http://utep.eagle-i.net/i/00000134-af93-df70-bfc0-fe9780000000> .
+
+<http://purl.obolibrary.org/obo/ERO_0000021> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Contact"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000111> "has contact"^^xsd:string ;
+	rdfs:label "has_contact"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-df70-bfc0-fe9780000000> rdfs:label "Ross, Jeremy" .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.obolibrary.org/obo/ERO_0000543> <http://purl.obolibrary.org/obo/ERO_0000411> .
+
+<http://purl.obolibrary.org/obo/ERO_0000543> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Related Technique"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000411> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Protein-ligand interaction assay"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000543> <http://purl.obolibrary.org/obo/IAO_0000111> "related technique"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000411> <http://purl.obolibrary.org/obo/IAO_0000111> "protein-ligand interaction assay"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000543> rdfs:label "related_technique"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000411> rdfs:label "protein-ligand interaction assay"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.obolibrary.org/obo/ERO_0000543> <http://purl.obolibrary.org/obo/ERO_0000751> .
+
+<http://purl.obolibrary.org/obo/ERO_0000751> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Protein interaction detection"^^xsd:string ;
+	rdfs:label "protein interaction detection"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.obolibrary.org/obo/ERO_0000543> <http://purl.obolibrary.org/obo/ERO_0000752> .
+
+<http://purl.obolibrary.org/obo/ERO_0000752> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Protein-DNA interaction detection"^^xsd:string ;
+	rdfs:label "protein-DNA interaction detection"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.obolibrary.org/obo/ERO_0000543> <http://purl.obolibrary.org/obo/ERO_0000726> .
+
+<http://purl.obolibrary.org/obo/ERO_0000726> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Drug binding assay"^^xsd:string ;
+	rdfs:label "drug binding assay"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.obolibrary.org/obo/RO_0001025> <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> .
+
+<http://purl.obolibrary.org/obo/RO_0001025> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Location"^^xsd:string ;
+	rdfs:label "located_in"@en .
+
+<http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> rdfs:label "Biomolecule Analysis Core Facility" .
+
+<http://purl.obolibrary.org/obo/RO_0001025> rdfs:label "located in"@en .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.org/dc/terms/created> "2012-01-05T14:36:43.415-06:00"^^xsd:dateTime ;
+	<http://purl.org/dc/terms/creator> <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> rdfs:label "rgarces" .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.org/dc/terms/modified> "2012-05-09T16:36:33.710-05:00"^^xsd:dateTime ;
+	<http://eagle-i.org/ont/repo/1.0/hasWorkflowState> <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowState> rdfs:label "workflow state"^^xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Published> rdfs:label "Published"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> <http://purl.org/dc/terms/contributor> <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> rdfs:label "efleming" .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a owl:Thing , <http://purl.obolibrary.org/obo/ERO_0000004> .
+
+<http://purl.obolibrary.org/obo/ERO_0000004> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Instrument"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000111> "instrument"^^xsd:string ;
+	rdfs:label "instrument"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a <http://purl.obolibrary.org/obo/ERO_0000614> .
+
+<http://purl.obolibrary.org/obo/ERO_0000614> <http://eagle-i.org/ont/app/1.0/preferredLabel> "Measurement Instrument"^^xsd:string ;
+	rdfs:label "measurement instrument"^^xsd:string .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a <http://purl.obolibrary.org/obo/OBI_0000047> .
+
+<http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/IAO_0000111> "processed material"@en ;
+	rdfs:label "processed material"@en .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a <http://purl.obolibrary.org/obo/BFO_0000040> .
+
+<http://purl.obolibrary.org/obo/BFO_0000040> rdfs:label "material_entity"@en .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a <http://purl.obolibrary.org/obo/BFO_0000004> .
+
+<http://purl.obolibrary.org/obo/BFO_0000004> rdfs:label "independent_continuant"@en .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a <http://purl.obolibrary.org/obo/BFO_0000002> .
+
+<http://purl.obolibrary.org/obo/BFO_0000002> rdfs:label "continuant" .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a <http://purl.obolibrary.org/obo/BFO_0000001> .
+
+<http://purl.obolibrary.org/obo/BFO_0000001> rdfs:label "entity" .

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+	xmlns:cyc="http://sw.cyc.com/concept/"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:ctag="http://commontag.org/ns#"
+	xmlns:opencyc="http://sw.opencyc.org/concept/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:freebase="http://rdf.freebase.com/ns/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">
+
+<rdf:Description rdf:about="http://resource.geolba.ac.at/GeologicTimeScale/35">
+	<colourHexCode xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">#34B2C9</colourHexCode>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-06T09:15:38Z</dcterms:created>
+	<dcterms:references rdf:resource="http://resource.geolba.ac.at/ref/369"/>
+	<dcterms:source rdf:resource="http://www.stratigraphy.org/ICSchart/ChronostratChart2013-01.pdf"/>
+	<DataViewer xmlns="http://resource.geolba.ac.at/PoolParty/schema/GBA/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</DataViewer>
+	<GBA_Status xmlns="http://resource.geolba.ac.at/PoolParty/schema/GBA/" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</GBA_Status>
+	<isOlderThan xmlns="http://schema.geolba.ac.at/gbats/" rdf:resource="http://resource.geolba.ac.at/GeologicTimeScale/36"/>
+	<isYoungerThan xmlns="http://schema.geolba.ac.at/gbats/" rdf:resource="http://resource.geolba.ac.at/GeologicTimeScale/34"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m/03_p6"/>
+	<skos:broader rdf:resource="http://resource.geolba.ac.at/GeologicTimeScale/26"/>
+	<skos:definition xml:lang="de">System/Periode; 201.3±0.2–~145 Ma (ICS  2013).</skos:definition>
+	<skos:definition xml:lang="en">System/Period; 201.3±0.2–~145 Ma (ICS  2013).</skos:definition>
+	<skos:exactMatch rdf:resource="http://dbpedia.org/resource/Jurassic"/>
+	<skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/jurassic"/>
+	<skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Jurassic"/>
+	<skos:narrower rdf:resource="http://resource.geolba.ac.at/GeologicTimeScale/69"/>
+	<skos:narrower rdf:resource="http://resource.geolba.ac.at/GeologicTimeScale/70"/>
+	<skos:narrower rdf:resource="http://resource.geolba.ac.at/GeologicTimeScale/71"/>
+	<skos:prefLabel xml:lang="de">Jura</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Jurassic</skos:prefLabel>
+	<skos:related rdf:resource="http://resource.geolba.ac.at/GeologicTimeScale/34"/>
+	<skos:related rdf:resource="http://resource.geolba.ac.at/GeologicTimeScale/36"/>
+	<foaf:depiction rdf:resource="http://www.geologie.ac.at/images/thesaurus/Jura.jpg"/>
+</rdf:Description>
+
+</rdf:RDF>

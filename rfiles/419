@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF 
+ xmlns:rdf        = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:rdfs       = "http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:txn        = "http://lod.taxonconcept.org/ontology/txn.owl#"
+ xmlns:wdrs       = "http://www.w3.org/2007/05/powder-s#"
+ xmlns:dc         = "http://purl.org/dc/elements/1.1/"
+ xmlns:whois      = "http://www.kanzaki.com/ns/whois#"
+ xmlns:img        = "http://www.w3.org/2004/02/image-regions#"
+ xmlns:dpd        = "http://www.kanzaki.com/ns/dpd#"
+ xmlns:geospecies = "http://rdf.geospecies.org/ont/geospecies#"
+ xmlns:skos       = "http://www.w3.org/2004/02/skos/core#"
+ xmlns:owl        = "http://www.w3.org/2002/07/owl#"
+ xmlns:cc         = "http://creativecommons.org/ns#" 
+ xmlns:foaf       = "http://xmlns.com/foaf/0.1/"
+ xmlns:dcterms    = "http://purl.org/dc/terms/"
+ xmlns:geo        = "http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:exif       = "http://www.w3.org/2003/12/exif/ns">
+
+
+ <rdf:Description rdf:about="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf">
+  <dcterms:title xml:lang="en-US">TaxonConcept Knowledge Base Photo Gallery File</dcterms:title>
+  <rdfs:comment>This is an RDF file describing a species photo's in the TaxonConcept Project</rdfs:comment>
+  <dcterms:publisher rdf:resource="http://lod.taxonconcept.org"/>
+  <dcterms:creator   rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+  <dcterms:created>2010-11-09</dcterms:created>
+  <dcterms:modified>2010-12-23</dcterms:modified>
+  <dcterms:identifier>http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf</dcterms:identifier>
+  <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void#TaxonConcept"/>
+  <foaf:topic rdf:resource="http://lod.taxonconcept.org"/>
+  <foaf:topic rdf:resource="http://lod.geospecies.org/index.rdf"/>
+  <cc:License rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/us/"/>
+  <cc:attributionURL rdf:resource="http://lod.taxonconcept.org/"/>
+  <cc:attributionName>Peter J. DeVries</cc:attributionName>
+  <cc:morePermissions rdf:resource="http://about.geospecies.org/projects/"/>
+  <foaf:primaryTopic rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf#this"/>
+  <foaf:topic rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf"/>
+  <foaf:topic rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/Puma_concolor_480x320.jpg"/>
+  <foaf:topic rdf:resource="http://lod.taxonconcept.org/ses/v6n7p#Species"/>
+  <foaf:topic rdf:resource="http://lod.geospecies.org/ses/v6n7p"/>
+  <foaf:topic rdf:resource="http://dbpedia.org/resource/Cougar"/>
+ </rdf:Description>
+
+ <txn:Gallery rdf:about="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf#this">
+  <rdfs:label xml:lang="en-US">TaxonConcept Knowledge Base Photo Gallery: Puma concolor v6n7p</rdfs:label>
+  <dcterms:title xml:lang="en-US">TaxonConcept Knowledge Base Photo Gallery: Puma concolor v6n7p</dcterms:title>
+  <rdfs:comment>This is the description of a species photo gallery in the TaxonConcept Project, see the RDF for the image itself for rights etc. The image itself is from Wikipedia an is in the public domain.</rdfs:comment>
+  <dcterms:publisher rdf:resource="http://lod.taxonconcept.org"/>
+  <dcterms:created>2009-07-02</dcterms:created>
+  <dcterms:modified>2010-12-23</dcterms:modified>
+  <dcterms:identifier>http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf#this</dcterms:identifier>
+  <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void#TaxonConcept"/>
+  <dcterms:hasPart rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/Puma_concolor_480x320.jpg"/>
+  <foaf:topic rdf:resource="http://lod.taxonconcept.org/ses/v6n7p#Species"/>
+  <foaf:topic rdf:resource="http://lod.taxonconcept.org/ses/v6n7p"/>
+  <foaf:topic rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/Puma_concolor_480x320.jpg"/>
+  <foaf:topic rdf:resource="http://dbpedia.org/resource/Cougar"/>
+  <cc:License rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/us/"/>
+  <cc:attributionURL rdf:resource="http://lod.taxonconcept.org/"/>
+  <cc:attributionName>Peter J. DeVries</cc:attributionName>
+  <cc:morePermissions rdf:resource="http://about.geospecies.org/projects/"/>
+  <geospecies:hasSpecies rdf:resource="http://lod.taxonconcept.org/ses/v6n7p"/>
+  <txn:isGalleryOf rdf:resource="http://lod.taxonconcept.org/ses/v6n7p#Species"/>
+  <wdrs:describedby rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf"/>
+ </txn:Gallery>
+
+ <txn:ImageSet rdf:about="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf#ImageSet_01">
+  <txn:isImageSetOf rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf#this"/>
+  <txn:hasImageFile rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/Puma_concolor_480x320.jpg"/>
+  <wdrs:describedby rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf"/>
+ </txn:ImageSet>
+
+
+ <foaf:Image rdf:about="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/Puma_concolor_480x320.jpg">
+  <dcterms:title>Photo Puma concolor</dcterms:title>
+  <dcterms:publisher rdf:resource="http://commons.wikimedia.org"/>
+  <dcterms:source    rdf:resource="http://commons.wikimedia.org/wiki/File:Mountain_lion.jpg"/>
+  <dcterms:creator   rdf:resource="http://www.aphis.usda.gov/wildlife_damage/nwrc"/>
+  <dcterms:description>Cougar</dcterms:description>
+  <dcterms:identifier>http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/Puma_concolor_480x320.jpg</dcterms:identifier>
+  <dcterms:language>en</dcterms:language>
+  <dcterms:created>2007-09-01</dcterms:created>
+  <dcterms:modified>2010-11-01</dcterms:modified>
+  <dcterms:isPartOf rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf#this"/>
+  <cc:License rdf:resource="http://creativecommons.org/publicdomain/"/>
+  <cc:attributionURL rdf:resource="http://commons.wikimedia.org/wiki/File:Mountain_lion.jpg"/>
+  <cc:attributionName>USDA National Wildlife Research Center media archives</cc:attributionName>
+  <foaf:depicts rdf:resource="http://lod.geospecies.org/kingdoms/Aa"/>
+  <foaf:depicts rdf:resource="http://lod.geospecies.org/phyla/Ac1"/>
+  <foaf:depicts rdf:resource="http://lod.geospecies.org/bioclasses/aEbRZ"/>
+  <foaf:depicts rdf:resource="http://lod.geospecies.org/orders/jtSaY"/>
+  <foaf:depicts rdf:resource="http://lod.geospecies.org/families/gSvIP"/>
+  <foaf:depicts rdf:resource="http://lod.geospecies.org/ses/v6n7p"/>
+  <rdfs:seeAlso rdf:resource="http://lod.taxonconcept.org/ses/v6n7p.rdf"/>
+  <foaf:depicts rdf:resource="http://lod.taxonconcept.org/ses/v6n7p#Species"/>
+  <foaf:depicts rdf:resource="http://dbpedia.org/resource/Cougar"/>
+  <exif:dateTimeOriginal>2007-09-01</exif:dateTimeOriginal>
+  <exif:pixelXDimension>480</exif:pixelXDimension>
+  <exif:pixelYDimension>320</exif:pixelYDimension>
+  <foaf:page rdf:resource="http://lod.taxonconcept.org/ses/v6n7p.html"/>
+  <foaf:page rdf:resource="http://lod.taxonconcept.org/ses/v6n7p#Species.html"/>
+  <geospecies:hasSpecies rdf:resource="http://lod.taxonconcept.org/ses/v6n7p"/>
+  <wdrs:describedby rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf"/>
+ </foaf:Image>
+
+ <txn:SpeciesConcept rdf:about="http://lod.taxonconcept.org/ses/v6n7p#Species">
+   <txn:hasGallery rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf#this"/>
+   <foaf:depiction rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/Puma_concolor_480x320.jpg"/>
+   <wdrs:describedby rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf"/>
+ </txn:SpeciesConcept>
+
+ <rdf:Description rdf:about="http://dbpedia.org/resource/Cougar">
+   <foaf:depiction rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/Puma_concolor_480x320.jpg"/>
+   <wdrs:describedby rdf:resource="http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf"/>
+ </rdf:Description>
+
+</rdf:RDF>

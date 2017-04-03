@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://enipedia.tudelft.nl/wiki/'>
+	<!ENTITY property 'http://enipedia.tudelft.nl/wiki/Property:'>
+	<!ENTITY wikiurl 'http://enipedia.tudelft.nl/wiki/'>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-02T01:16:10+02:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant">
+		<rdf:type rdf:resource="&wiki;Category:Powerplant"/>
+		<rdfs:label>Navajo Powerplant</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Annual_Carbonemissions2000_kg rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18234413454.711</property:Annual_Carbonemissions2000_kg>
+		<property:Annual_Carbonemissions_kg rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18325131929.61</property:Annual_Carbonemissions_kg>
+		<property:Annual_Carbonemissionsnextdecade_kg rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18415850404.509</property:Annual_Carbonemissionsnextdecade_kg>
+		<property:Annual_Energyoutput2000_MWh rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18100000</property:Annual_Energyoutput2000_MWh>
+		<property:Annual_Energyoutput_MWh rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19100000</property:Annual_Energyoutput_MWh>
+		<property:Annual_Energyoutputnextdecade_MWh rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19300000</property:Annual_Energyoutputnextdecade_MWh>
+		<property:CarmaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30650</property:CarmaId>
+		<property:City rdf:resource="&wiki;Page"/>
+		<property:Continent rdf:resource="&wiki;North_America"/>
+		<property:Country rdf:resource="&wiki;United_States"/>
+		<property:County rdf:resource="&wiki;Maricopa"/>
+		<property:DBpedia_Page rdf:resource="http://dbpedia.org/resource/Navajo_Generating_Station"/>
+		<property:EGRID_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4941</property:EGRID_ID>
+		<property:EGRID_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4941</property:EGRID_ID>
+		<property:Fuel_type rdf:resource="&wiki;Coal"/>
+		<property:Generation_capacity_electrical_MW rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2409.3</property:Generation_capacity_electrical_MW>
+		<property:Industry_About_link rdf:resource="http://www.industryabout.com/north-america/usa-fossil-fuels-2/452-usa-fossil-fuels-energy-rocky-mountains/2599-navajo-coal-power-plant"/>
+		<property:Intensity2000_kg_CO2_per_MWh_elec rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1009.696900421</property:Intensity2000_kg_CO2_per_MWh_elec>
+		<property:Intensity_kg_CO2_per_MWh_elec rdf:datatype="http://www.w3.org/2001/XMLSchema#double">957.08017065964</property:Intensity_kg_CO2_per_MWh_elec>
+		<property:Intensitynextdecade_kg_CO2_per_MWh_elec rdf:datatype="http://www.w3.org/2001/XMLSchema#double">957.08017065964</property:Intensitynextdecade_kg_CO2_per_MWh_elec>
+		<property:Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.9047</property:Latitude>
+		<property:Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-111.3886</property:Longitude>
+		<property:Metroarea rdf:resource="&wiki;Phoenix-mesa"/>
+		<owl:sameAs rdf:resource="http://dbpedia.org/resource/Navajo_Generating_Station"/>
+		<owl:sameAs rdf:resource="http://enipedia.tudelft.nl/data/eGRID/Plant/4941"/>
+		<property:Ownercompany rdf:resource="&wiki;Salt_River_Project"/>
+		<property:Point rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.9047,-111.3886</property:Point>
+		<property:Primary_fuel_type rdf:resource="&wiki;Coal"/>
+		<property:State rdf:resource="&wiki;Arizona"/>
+		<property:Wikipedia_page rdf:resource="http://en.wikipedia.org/wiki/Navajo_Generating_Station"/>
+		<property:Year_built rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1975Z</property:Year_built>
+		<property:Year_built-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2442413.5</property:Year_built-23aux>
+		<property:Zipcode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85072</property:Zipcode>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-04T15:51:37Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456631.1608449</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Navajo Powerplant</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant#1">
+		<rdfs:label>Navajo Powerplant#1</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant%231"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant%231"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Is_electricity_production_of rdf:resource="&wiki;Navajo_Powerplant"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant#2">
+		<rdfs:label>Navajo Powerplant#2</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant%232"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant%232"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Is_electricity_production_of rdf:resource="&wiki;Navajo_Powerplant"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant#3">
+		<rdfs:label>Navajo Powerplant#3</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant%233"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant%233"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Is_electricity_production_of rdf:resource="&wiki;Navajo_Powerplant"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant#4">
+		<rdfs:label>Navajo Powerplant#4</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant%234"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant%234"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Is_emission_of rdf:resource="&wiki;Navajo_Powerplant"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant#5">
+		<rdfs:label>Navajo Powerplant#5</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant%235"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant%235"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Is_emission_of rdf:resource="&wiki;Navajo_Powerplant"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant#6">
+		<rdfs:label>Navajo Powerplant#6</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Navajo_Powerplant%236"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant%236"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Is_emission_of rdf:resource="&wiki;Navajo_Powerplant"/>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Is_electricity_production_of">
+		<rdfs:label>Is electricity production of</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Property:Is_electricity_production_of"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Property:Is_electricity_production_of"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+	</owl:ObjectProperty>
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Is_emission_of">
+		<rdfs:label>Is emission of</rdfs:label>
+		<swivt:page rdf:resource="http://enipedia.tudelft.nl/wiki/Property:Is_emission_of"/>
+		<rdfs:isDefinedBy rdf:resource="http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Property:Is_emission_of"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://enipedia.tudelft.nl/wiki/Category:Powerplant" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Annual_Carbonemissions2000_kg" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Annual_Carbonemissions_kg" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Annual_Carbonemissionsnextdecade_kg" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Annual_Energyoutput2000_MWh" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Annual_Energyoutput_MWh" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Annual_Energyoutputnextdecade_MWh" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:CarmaId" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:City" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Continent" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Country" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:County" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:DBpedia_Page" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:EGRID_ID" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Fuel_type" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Generation_capacity_electrical_MW" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Industry_About_link" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Intensity2000_kg_CO2_per_MWh_elec" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Intensity_kg_CO2_per_MWh_elec" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Intensitynextdecade_kg_CO2_per_MWh_elec" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Latitude" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Longitude" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Metroarea" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Ownercompany" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Point" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Primary_fuel_type" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:State" />
+	<owl:ObjectProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Wikipedia_page" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Year_built" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Year_built-23aux" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Zipcode" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://enipedia.tudelft.nl/wiki/Property:Modification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
+</rdf:RDF>

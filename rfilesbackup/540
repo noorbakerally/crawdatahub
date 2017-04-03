@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://sn.jonkman.ca/user/1"></maker>
+  <primaryTopic rdf:resource="http://sn.jonkman.ca/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://sn.jonkman.ca/user/1">
+  <mbox_sha1sum>65933bcda7d392049d8e17aff3c80058b41138a7</mbox_sha1sum>
+  <name>Administrator</name>
+  <homepage rdf:resource="http://sobac.com/sobac/"></homepage>
+  <weblog rdf:resource="http://sn.jonkman.ca/administrator"></weblog>
+  <bio:olb>System Administrator for the Jonkman Microblogs</bio:olb>
+  <based_near>
+   <geo:SpatialThing>
+    <geo:lat>32.9833300</geo:lat>
+    <geo:long>49.1333300</geo:long>
+   </geo:SpatialThing>
+  </based_near>
+  <img>
+   <Image rdf:about="http://sn.jonkman.ca/avatar/1-150-20130531104428.png">
+    <thumbnail>
+     <Image rdf:about="http://sn.jonkman.ca/avatar/1-96-20130531104428.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://sn.jonkman.ca/avatar/1-48-20130531104428.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://sn.jonkman.ca/avatar/1-24-20130531104428.png"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://sn.jonkman.ca/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://sn.jonkman.ca/"></accountServiceHomepage>
+    <accountName>administrator</accountName>
+    <accountProfilePage rdf:resource="http://sn.jonkman.ca/administrator"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://sn.jonkman.ca/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://sn.jonkman.ca/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://sn.jonkman.ca/user/3268#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://s.russwurm.org/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://sn.jonkman.ca/user/2">
+  <account>
+   <OnlineAccount rdf:about="http://sn.jonkman.ca/user/2#acct">
+    <accountServiceHomepage rdf:resource="http://sn.jonkman.ca/"></accountServiceHomepage>
+    <accountName>bobjonkman</accountName>
+    <accountProfilePage rdf:resource="http://sn.jonkman.ca/bobjonkman"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://sn.jonkman.ca/user/2"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://sn.jonkman.ca/bobjonkman/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://sn.jonkman.ca/bobjonkman/foaf">
+  <maker rdf:resource="http://sn.jonkman.ca/user/2"></maker>
+  <primaryTopic rdf:resource="http://sn.jonkman.ca/user/2"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://sn.jonkman.ca/user/3268">
+  <account>
+   <OnlineAccount rdf:about="http://sn.jonkman.ca/user/3268#acct">
+    <accountServiceHomepage rdf:resource="http://sn.jonkman.ca/"></accountServiceHomepage>
+    <accountName>firehose</accountName>
+    <accountProfilePage rdf:resource="http://sn.jonkman.ca/firehose"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://sn.jonkman.ca/user/3268"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://sn.jonkman.ca/firehose/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://sn.jonkman.ca/firehose/foaf">
+  <maker rdf:resource="http://sn.jonkman.ca/user/3268"></maker>
+  <primaryTopic rdf:resource="http://sn.jonkman.ca/user/3268"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://s.russwurm.org/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://s.russwurm.org/user/1#acct">
+    <accountName>administrator</accountName>
+    <accountProfilePage rdf:resource="http://s.russwurm.org/administrator"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://s.russwurm.org/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

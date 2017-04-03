@@ -1,0 +1,66 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/domain/vavai/zamer/> .
+@prefix ns2:	<http://linked.opendata.cz/ontology/domain/vavai/> .
+ns1:AV0Z00950701	rdf:type	ns2:Zamer .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+ns1:AV0Z00950701	dcterms:description	"P\u0159edm\u011Btem v\u00FDzkumn\u00E9ho z\u00E1m\u011Bru SS\u010C AV \u010CR je zaji\u0161\u0165ov\u00E1n\u00ED infrastruktury v\u00FDzkumu a v\u00FDvoje v podm\u00EDnk\u00E1ch Akademie v\u011Bd \u010CR a jej\u00EDch pracovi\u0161\u0165. V oblasti odborn\u00E9 a organiza\u010Dn\u00ED bude \u010Dinnost SS\u010C AV \u010CR zam\u011B\u0159ena na rozvoj po\u010D\u00EDta\u010Dov\u00E9 s\u00EDt\u011B AV \u010CR v r\u00E1mci sdru\u017Een\u00ED PASNET a CESNET s d\u016Frazem na aplikaci nov\u00FDch p\u0159enosov\u00FDch technologi\u00ED podporuj\u00EDc\u00EDch z\u00E1kladn\u00ED i aplikovan\u00FD v\u00FDzkum. V\u00FDznamnou sou\u010D\u00E1st\u00ED z\u00E1m\u011Bru je optimalizovan\u00E9 vyu\u017Eit\u00ED elektronick\u00FDch komunika\u010Dn\u00EDch n\u00E1stroj\u016F pro podporu v\u00FDzkumu a v\u00FDvoje. Komplexn\u00ED funkcionalita implementovan\u00E9ho informa\u010Dn\u00EDho syst\u00E9mu poskytne technickou a informa\u010Dn\u00ED podporu pro \u0159\u00EDzen\u00ED v\u011Bdeck\u00FDch pracovi\u0161\u0165. SS\u010C AV \u010CR bude zaji\u0161\u0165ovat vysok\u00FD standard a dal\u0161\u00ED rozvoj \u010Dinnost\u00ED spojen\u00FDch s popularizac\u00ED a propagac\u00ED v\u011Bdy \u0161\u00ED\u0159en\u00EDm v\u011Bdeck\u00FDch informac\u00ED. SS\u010C bude rozv\u00EDjet konferen\u010Dn\u00ED a vzd\u011Bl\u00E1vac\u00ED \u010Dinnost pracovi\u0161\u0165 AV \u010CR, vysok\u00FDch \u0161kol, v\u00FDzkumn\u00FDch instituc\u00ED a dal\u0161\u00EDch subjekt\u016F v\u00FDzkumu a vzd\u011Bl\u00E1v\u00E1n\u00ED." ,
+		"The SSC ASCR Institutional research plan (IRP) main subject is ensuring the infrastructure for the research and development (R&D) in conditions of the Academy of Sciences CR and its institutes. In the professional and organizational range SSC activities will be focused on development of the ASCR computer network in the association PASNET and CESNET with emphasis on application of the transfer of new technologies supporting basic and applied research. Important part of IRP is optimized use of electronic communication tools for R&D support. The implemented information system will provide technical and information support for scientific institutes management. SSC will guarantee high standard and further progress in the science popularization and promotion. SSC will focus on conference and educational activities of ASCR institutes, universities, research institutes and other organizations of research and education will be developed."@en ;
+	dcterms:title	"Implementace infrastruktury v\u00FDzkumu a v\u00FDvoje v AV \u010CR, nezbytn\u00FD p\u0159edpoklad kvalitativn\u00EDho rozvoje v\u011Bdn\u00EDch obor\u016F AV \u010CR" ,
+		"Implementation of research and development infrastructure in the ASCR, a prerequisite of qualitative progress of the ASCR disciplines"@en .
+@prefix ns4:	<http://linked.opendata.cz/ontology/domain/vavai/cez/> .
+@prefix ns5:	<http://linked.opendata.cz/resource/domain/vavai/zamer/AV0Z00950701/> .
+ns1:AV0Z00950701	ns4:celkovaStatniPodpora	ns5:celkovaStatniPodpora ;
+	ns4:celkoveNaklady	ns5:celkoveNaklady .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns1:AV0Z00950701	ns4:datumDodatniDoRIV	"2014-06-17+02:00"^^xsd:date ;
+	ns4:dodavka	<http://linked.opendata.cz/resource/domain/vavai/dodavka/CEZ14-AV0-U%2F01%3A1> .
+@prefix ns7:	<http://linked.opendata.cz/ontology/domain/vavai/cez/duvernostUdaju/> .
+ns1:AV0Z00950701	ns4:duvernostUdaju	ns7:S ;
+	ns4:faze	<http://linked.opendata.cz/ontology/domain/vavai/cez/faze/33175554> .
+@prefix ns8:	<http://linked.opendata.cz/ontology/domain/vavai/cez/obor/> .
+ns1:AV0Z00950701	ns4:hlavniObor	ns8:IN .
+@prefix ns9:	<http://linked.opendata.cz/ontology/domain/vavai/cez/hodnoceni/> .
+ns1:AV0Z00950701	ns4:hodnoceni	ns9:U .
+@prefix ns10:	<http://linked.opendata.cz/ontology/domain/vavai/cez/kategorieVaV/> .
+ns1:AV0Z00950701	ns4:kategorieVaV	ns10:NV ;
+	ns4:klicovaSlova	"research and development infrastructure; information systems; optical nets; data transfer; communication tools; science popularization; results transfer and presentation; conference centers; education; scientific and scientific-popular literature"@en ;
+	ns4:partnerHlavni	<http://linked.opendata.cz/resource/domain/vavai/subjekt/ico%3A60457856> ;
+	ns4:poceVysledkuRIV	"158"^^xsd:int ;
+	ns4:pocetKoordinujicichPrijemcu	"0"^^xsd:int ;
+	ns4:pocetPrijemcu	"1"^^xsd:int ;
+	ns4:pocetSpoluPrijemcu	"0"^^xsd:int ;
+	ns4:pocetZverejnenychVysledkuVRIV	"158"^^xsd:int ;
+	ns4:posledniUvolneniVMinulemRoce	"2013-11-29+01:00"^^xsd:date .
+@prefix ns11:	<http://linked.opendata.cz/resource/domain/vavai/cez/prideleniPodpory/> .
+ns1:AV0Z00950701	ns4:prideleniPodpory	ns11:AV0Z00950701 .
+@prefix ns12:	<http://linked.opendata.cz/resource/domain/vavai/resort/> .
+ns1:AV0Z00950701	ns4:resort	ns12:AV0 ;
+	ns4:sberDatUcastniciPoslednihoRoku	<http://reference.data.gov.uk/id/gregorian-year/2013> ;
+	ns4:sberDatUdajeProjZameru	<http://reference.data.gov.uk/id/gregorian-year/2014> .
+@prefix ns13:	<http://linked.opendata.cz/ontology/domain/vavai/cez/statusZobrazovaneFaze/> .
+ns1:AV0Z00950701	ns4:statusZobrazovaneFaze	ns13:DUU ;
+	ns4:ukonceniReseni	"2013-12-31+01:00"^^xsd:date ;
+	ns4:vedlejsiObor	ns8:JC ,
+		ns8:AE ;
+	ns4:zahajeniReseni	"2007-01-01+01:00"^^xsd:date .
+@prefix ns14:	<http://linked.opendata.cz/ontology/domain/vavai/cez/zamer/> .
+ns1:AV0Z00950701	ns4:zamer	ns14:Z ;
+	ns4:zhodnoceniVysledkuDodavatelem	"The CAO of the ASCR, v. v. i. provided infrastructure for research and development within the ASCR and provided specialist technical, technological and organisational support to the ASCR and to its scientific institutes. The CAO introduced new initiatives which made beneficial contributions to the development of that infrastructure."@en ,
+		"St\u0159edisko spole\u010Dn\u00FDch \u010Dinnost\u00ED AV \u010CR, v. v. i. zaji\u0161\u0165ovalo infrastrukturu v\u00FDzkumu a v\u00FDvoje v r\u00E1mci AV \u010CR, jej\u00ED rozvoj a provoz na z\u00E1klad\u011B c\u00EDl\u016F plynouc\u00EDch z v\u00FDzkumn\u00E9ho z\u00E1m\u011Bru a poskytovalo odbornou technickou, technologickou a organiza\u010Dn\u00ED podporu AV \u010CR jako z\u0159izovateli a jej\u00EDm v\u011Bdeck\u00FDm pracovi\u0161t\u00EDm. Sou\u010Dasn\u011B p\u0159ich\u00E1zelo s nov\u00FDmi podn\u011Bty, ve kter\u00FDch spat\u0159ovalo p\u0159\u00EDnos pro rozvoj dan\u00E9 infrastruktury."@cs .
+@prefix ns15:	<http://linked.opendata.cz/ontology/domain/vavai/cez/zivotniCyklus/> .
+ns1:AV0Z00950701	ns4:zivotniCyklus	ns15:ZBBBBBKU .
+<http://linked.opendata.cz/resource/domain/vavai/cez/financovani/AV0Z00950701/2007>	ns4:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/financovani/AV0Z00950701/2008>	ns4:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/financovani/AV0Z00950701/2009>	ns4:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/financovani/AV0Z00950701/2010>	ns4:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/financovani/AV0Z00950701/2011>	ns4:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/financovani/AV0Z00950701/2012>	ns4:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/financovani/AV0Z00950701/2013>	ns4:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/ucast/AV0Z00950701/2007/ico%3A60457856>	ns2:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/ucast/AV0Z00950701/2008/ico%3A60457856>	ns2:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/ucast/AV0Z00950701/2009/ico%3A60457856>	ns2:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/ucast/AV0Z00950701/2010/ico%3A60457856>	ns2:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/ucast/AV0Z00950701/2011/ico%3A60457856>	ns2:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/ucast/AV0Z00950701/2012/ico%3A60457856>	ns2:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/ucast/AV0Z00950701/2013/ico%3A60457856>	ns2:zamer	ns1:AV0Z00950701 .
+<http://linked.opendata.cz/resource/domain/vavai/cez/ucast/AV0Z00950701/2014/ico%3A60457856>	ns2:zamer	ns1:AV0Z00950701 .

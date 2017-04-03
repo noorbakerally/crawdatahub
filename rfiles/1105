@@ -1,0 +1,73 @@
+@prefix rdaa: <http://rdaregistry.info/Elements/a/> .
+@prefix rdac: <http://rdaregistry.info/Elements/c/> .
+@prefix rdae: <http://rdaregistry.info/Elements/e/> .
+@prefix rdam: <http://rdaregistry.info/Elements/m/> .
+@prefix rdaw: <http://rdaregistry.info/Elements/w/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frbrer: <http://iflastandards.info/ns/fr/frbr/frbrer/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wgs84pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix mods: <http://www.loc.gov/mods/rdf/v1#> .
+
+
+<http://data.theeuropeanlibrary.org/BibliographicResource/3000117297661> a dcterms:BibliographicResource ;
+	dcterms:publisher <http://data.theeuropeanlibrary.org/Agent/The_European_Library> ;
+	dcterms:provenance _:node19dnie729x1 ;
+	dcterms:isPartOf <http://data.theeuropeanlibrary.org/Collection/a1225> ;
+	dcterms:date "2014-11-12T12:46:30.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	foaf:page "http://www.theeuropeanlibrary.org/tel4/record/3000117297661" ;
+	<http://purl.org/dc/elements/1.1/rights> <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	foaf:primaryTopic <http://data.theeuropeanlibrary.org/Resource/3000117297661> .
+
+<http://data.theeuropeanlibrary.org/Resource/3000117297661> rdfs:isDefinedBy <http://data.theeuropeanlibrary.org/BibliographicResource/3000117297661> ;
+	foaf:primaryTopic "http://www.theeuropeanlibrary.org/tel4/record/3000117297661" ;
+	dcterms:provenance "The British Library" , "The European Library" ;
+	dcterms:rights "http://creativecommons.org/publicdomain/mark/1.0/"^^dcterms:URI ;
+	dcterms:type "scanned image" ;
+	rdau:P60049 <http://rdvocab.info/termList/RDAContentType/1014> ;
+	dcterms:format "jpg" ;
+	dcterms:description "This image has been taken from scan 000019 from \"Some Remarks on the Tragedy of Hamlet, Prince of Denmark, written by Mr. William Shakespeare\". The title and subject terms of this image have been generated from tags, created by users of the British Library's flickr photostream." ;
+	dcterms:subject _:node19dnie729x2 , _:node19dnie729x3 ;
+	dcterms:date "1736" ;
+	dcterms:extent "455x465px" ;
+	dcterms:rights "Public Domain" ;
+	rdau:P60444 _:node19dnie729x4 ;
+	rdam:P30156 "initial from \"Some Remarks on the Tragedy of Hamlet, Prince of Denmark, written by Mr. William Shakespeare\"" ;
+	edm:isShownAt <http://data.theeuropeanlibrary.org/Resource/3000117297661#webresource08862c9cc> ;
+	edm:isShownBy <http://data.theeuropeanlibrary.org/Resource/3000117297661#webresource0da3be2c> ;
+	edm:object <http://data.theeuropeanlibrary.org/Resource/3000117297661#webresource0da3be2c> .
+
+<http://data.theeuropeanlibrary.org/Resource/3000117297661#webresource08862c9cc> dcterms:rights "http://creativecommons.org/publicdomain/mark/1.0/"^^dcterms:URI ;
+	a edm:WebResource ;
+	owl:sameAs <https://flickr.com/photos/britishlibrary/10998999935> .
+
+<http://data.theeuropeanlibrary.org/Resource/3000117297661#webresource0da3be2c> dcterms:rights "http://creativecommons.org/publicdomain/mark/1.0/"^^dcterms:URI ;
+	a edm:WebResource ;
+	owl:sameAs <http://farm8.staticflickr.com/7378/10998999935_1e1b315691_o.jpg> ;
+	dcterms:rights "http://creativecommons.org/publicdomain/mark/1.0/"^^dcterms:URI ;
+	a edm:WebResource ;
+	owl:sameAs <http://farm8.staticflickr.com/7378/10998999935_1e1b315691_o.jpg> .
+
+_:node19dnie729x1 a dcterms:ProvenanceStatement ;
+	rdfs:label "Metadata provided by The British Library"@en ;
+	dcterms:contributor <http://data.theeuropeanlibrary.org/Agent/P01264> ;
+	dcterms:date "2014-11-12T12:46:30.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+_:node19dnie729x2 a frbrer:C1007 ;
+	rdfs:label "initial" .
+
+_:node19dnie729x3 a frbrer:C1010 ;
+	owl:sameAs <http://data.theeuropeanlibrary.org/Context/1000005368670> , <http://sws.geonames.org/2643743/> ;
+	rdau:P60366 "London" ;
+	wgs84pos:lat "51.50853" ;
+	wgs84pos:long "-0.12574" .
+
+_:node19dnie729x4 a rdac:C10002 ;
+	rdau:P60368 "W. Wilkins" .

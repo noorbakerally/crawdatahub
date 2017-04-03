@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520>
+	a nif:String , nif:Context , nif:RFC5147String ;
+	nif:isString """English: Cana Island Light north of Baileys Harbor, Wisconsin , USA.
+[...]
+Description English: Cana Island Light north of Baileys Harbor, Wisconsin , USA. Date 19 October 2009 ( 2009-10-19 ) , 11:27 Source Cana Island Lighthouse Author Carl Wycoff from Nevada, USA
+[...]
+This image was originally posted to Flickr by cwwycoff1 at http://flickr.com/photos/80909625@N00/4031327164 . It was reviewed on 21 October 2009 ( 2009-10-21 ) by the FlickreviewR robot and confirmed to be licensed under the terms of the cc-by-2.0."""^^xsd:string;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger;
+	nif:endIndex "520"^^xsd:nonNegativeInteger;
+	nif:sourceUrl <http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg> .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,68>
+	a nif:String , nif:RFC5147String , nif:Snippet ;
+	nif:referenceContext <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520> ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "68"^^xsd:nonNegativeInteger ;
+	nif:wasConvertedFrom <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg&xpath=/html/body/div[3]/div[3]/div[4]/div[3]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/span[1]> .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=9,26>
+	a nif:String , nif:RFC5147String ;
+	nif:referenceContext <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520> ;
+	nif:anchorOf """Cana Island Light"""^^xsd:string ;
+	nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+	nif:endIndex "26"^^xsd:nonNegativeInteger ;
+	nif:wasConvertedFrom <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,68> ;
+	a nif:Phrase ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/Lighthouse> ;
+	nif:taNerdCoreClassRef  <http://nerd.eurecom.fr/ontology#Location> ;
+	itsrdf:taClassRef  <http://nerd.eurecom.fr/ontology#Lighthouse> ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/Building> ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/ArchitecturalStructure> ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/Place> ;
+	itsrdf:taClassRef  <http://nerd.eurecom.fr/ontology#Location> ;
+	itsrdf:taIdentRef  <http://dbpedia.org/resource/Cana_Island_Light> .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=75,265>
+	a nif:String , nif:RFC5147String , nif:Snippet ;
+	nif:referenceContext <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520> ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "265"^^xsd:nonNegativeInteger ;
+	nif:wasConvertedFrom <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg&xpath=/html/body/div[3]/div[3]/div[4]/div[3]/div[1]/table[1]/tbody[1]> .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=123,148>
+	a nif:String , nif:RFC5147String ;
+	nif:referenceContext <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520> ;
+	nif:anchorOf """Baileys Harbor, Wisconsin"""^^xsd:string ;
+	nif:beginIndex "123"^^xsd:nonNegativeInteger ;
+	nif:endIndex "148"^^xsd:nonNegativeInteger ;
+	nif:wasConvertedFrom <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=75,265> ;
+	a nif:Phrase ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/Town> ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/Settlement> ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/PopulatedPlace> ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/Place> ;
+	nif:taNerdCoreClassRef  <http://nerd.eurecom.fr/ontology#Location> ;
+	itsrdf:taClassRef  <http://nerd.eurecom.fr/ontology#Location> ;
+	itsrdf:taIdentRef  <http://dbpedia.org/resource/Baileys_Harbor,_Wisconsin> .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=69,75>
+	a nif:String , nif:RFC5147String , nif:SnippetSeparator;
+	nif:referenceContext <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520> ;
+	nif:beginIndex "69"^^xsd:nonNegativeInteger ;
+	nif:endIndex "75"^^xsd:nonNegativeInteger ;
+	nif:anchorOf "[...]"^^xsd:string .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=272,520>
+	a nif:String , nif:RFC5147String , nif:Snippet ;
+	nif:referenceContext <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520> ;
+	nif:beginIndex "272"^^xsd:nonNegativeInteger ;
+	nif:endIndex "520"^^xsd:nonNegativeInteger ;
+	nif:wasConvertedFrom <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg&xpath=/html/body/div[3]/div[3]/div[4]/div[3]/table[2]/tbody[1]/tr[1]/td[2]> .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=308,314>
+	a nif:String , nif:RFC5147String ;
+	nif:referenceContext <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520> ;
+	nif:anchorOf """Flickr"""^^xsd:string ;
+	nif:beginIndex "308"^^xsd:nonNegativeInteger ;
+	nif:endIndex "314"^^xsd:nonNegativeInteger ;
+	nif:wasConvertedFrom <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=272,520> ;
+	a nif:Word, nif:Phrase ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/Website> ;
+	nif:taNerdCoreClassRef  <http://nerd.eurecom.fr/ontology#Product> ;
+	itsrdf:taClassRef  <http://dbpedia.org/ontology/Work> ;
+	itsrdf:taIdentRef  <http://dbpedia.org/resource/Flickr> .
+
+<http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=266,272>
+	a nif:String , nif:RFC5147String , nif:SnippetSeparator;
+	nif:referenceContext <http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520> ;
+	nif:beginIndex "266"^^xsd:nonNegativeInteger ;
+	nif:endIndex "272"^^xsd:nonNegativeInteger ;
+	nif:anchorOf "[...]"^^xsd:string .
+

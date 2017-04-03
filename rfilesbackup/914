@@ -1,0 +1,32 @@
+<bibo:Document xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.digmap.eu/schemas/resource/" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:str="http://exslt.org/strings" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="http://nektar.oszk.hu/resource/manifestation/2645471">
+  <dcterms:identifier>URN:ISBN:9636061696</dcterms:identifier>
+  <bibo:isbn10>9636061696</bibo:isbn10>
+  <bibo:isbn>9636061696</bibo:isbn>
+  <dcterms:identifier>URN:ISBN:963606170X</dcterms:identifier>
+  <bibo:isbn10>963606170X</bibo:isbn10>
+  <bibo:isbn>963606170X</bibo:isbn>
+  <dcterms:language>hun</dcterms:language>
+  <dcterms:language>hun</dcterms:language>
+  <dcterms:subject>
+    <rdf:Description>
+      <dcam:memberOf rdf:resource="http://purl.org/dc/terms/UDC"/>
+      <rdf:value>894.511-32</rdf:value>
+    </rdf:Description>
+  </dcterms:subject>
+  <dcterms:creator rdf:resource="http://nektar.oszk.hu/resource/auth/33589"/>
+  <dc:creator>Jókai Mór (﻿1825-1904)</dc:creator>
+  <dcterms:title>Dekameron:válogatás</dcterms:title>
+  <dcterms:publisher>Szentendre : Mercator Stúdió</dcterms:publisher>
+  <dcterms:description>Főcím a címképernyőről</dcterms:description>
+  <dcterms:subject>magyar irodalom</dcterms:subject>
+  <dcterms:subject rdf:resource="http://nektar.oszk.hu/resource/auth/magyar_irodalom"/>
+  <dcterms:type>elbeszélés</dcterms:type>
+  <dcterms:type>elektronikus dokumentum</dcterms:type>
+  <dcterms:identifier>http://nbn.urn.hu/N2L?urn:nbn:hu-6982</dcterms:identifier>
+  <dcterms:type>no type provided</dcterms:type>
+  <dcterms:type>book</dcterms:type>
+  <dcterms:issued>2006</dcterms:issued>
+  <dcterms:date>2006</dcterms:date>
+  <dcterms:language>hun</dcterms:language>
+  <dcterms:audience>unknown</dcterms:audience>
+</bibo:Document>

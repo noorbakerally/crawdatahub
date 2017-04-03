@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:temp="http://lists.talis.com/schema/temp#"
+  xmlns:lifecycle="http://purl.org/vocab/lifecycle/schema#"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/">
+
+  <rdf:Description rdf:about="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5"/>
+    <foaf:topic rdf:resource="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5"/>
+    <dct:hasFormat rdf:resource="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5.html"/>
+    <dct:hasFormat rdf:resource="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5.json"/>
+    <dct:hasFormat rdf:resource="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://resourcelists.ntu.ac.uk/lists/AE0AA29A-3E56-9D53-5003-B72A6A21C2D5">
+    <temp:hasRolloverCopy rdf:resource="http://resourcelists.ntu.ac.uk/lists/B63D2023-A303-6B4D-55C8-2DF8EE510743"/>
+    <temp:hasTimePeriod rdf:resource="http://resourcelists.ntu.ac.uk/config/timePeriod2"/>
+    <lifecycle:state rdf:resource="http://purl.org/vocab/resourcelist/schema#status-published"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/173AA11F-8BE3-33E8-D9AF-B9DF073F0A4C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/17CFA5CE-C934-6497-085F-0E73494E370A"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/2FAC4E3C-CCA7-73F7-D181-01910A746663"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/3C172938-F9A0-9D65-81D1-44F528D0BE39"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/40448D65-4032-977E-1BCA-140895E71827"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/46374EFA-8383-74C9-459A-E68BE0539E00"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/4D8267F2-03EA-DE2E-8481-9C3EA4FDED39"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/66A9DE8F-E835-3EBD-E1EA-1979437390D9"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/68A0B4E8-7AAF-8B03-4AE1-72196237688C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/6F9A80F1-659B-061F-B41F-D065F0A1A44A"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/71F13228-4341-076F-A01D-7A40CFF0E881"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/7F1F8BF9-71F2-DBF4-5DD9-AF51307AF111"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/85D25A33-0233-6D88-2197-24A04C898377"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/8F75E8F5-85A9-F0B4-0F2B-63A5760956D9"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/97242849-9009-0504-DF96-150AA318DD64"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/A05C5267-78DA-42CC-6722-6693B826FD2E"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/A8E69FF7-A817-7219-6F25-5C1509EE1BD4"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/AF48DEE2-48AD-CF69-27F8-B4F8AF8D6ABE"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/C181D2F9-E77D-26A7-57F2-1D31B17C5E7F"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/D5576B5D-CBB4-2874-7EC9-DBBD6A478721"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/D80131B3-2D31-96A6-81B8-56B38D7426D6"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/DEDC9F4E-56F8-BB4C-CDE7-DABD7CA2E1EE"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/E909435D-A0CE-0E29-3370-8723C01F9967"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/EA99B683-6143-2CF5-0BB9-D73F73897500"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/EB9D2B73-433F-CAF0-A98F-B4D76FB70C1F"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.ntu.ac.uk/items/F096CC54-A9BE-77FC-44DD-4D8341E3FE53"/>
+    <resourcelist:created>2009-12-16T17:51:14+00:00</resourcelist:created>
+    <resourcelist:usedBy rdf:resource="http://resourcelists.ntu.ac.uk/modules/stpg006"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/173AA11F-8BE3-33E8-D9AF-B9DF073F0A4C"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/17CFA5CE-C934-6497-085F-0E73494E370A"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/2FAC4E3C-CCA7-73F7-D181-01910A746663"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/3C172938-F9A0-9D65-81D1-44F528D0BE39"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/40448D65-4032-977E-1BCA-140895E71827"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/46374EFA-8383-74C9-459A-E68BE0539E00"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/4D8267F2-03EA-DE2E-8481-9C3EA4FDED39"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/66A9DE8F-E835-3EBD-E1EA-1979437390D9"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/68A0B4E8-7AAF-8B03-4AE1-72196237688C"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/6F9A80F1-659B-061F-B41F-D065F0A1A44A"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/71F13228-4341-076F-A01D-7A40CFF0E881"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/7F1F8BF9-71F2-DBF4-5DD9-AF51307AF111"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/85D25A33-0233-6D88-2197-24A04C898377"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/8F75E8F5-85A9-F0B4-0F2B-63A5760956D9"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/97242849-9009-0504-DF96-150AA318DD64"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/A05C5267-78DA-42CC-6722-6693B826FD2E"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/A8E69FF7-A817-7219-6F25-5C1509EE1BD4"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/AF48DEE2-48AD-CF69-27F8-B4F8AF8D6ABE"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/C181D2F9-E77D-26A7-57F2-1D31B17C5E7F"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/D5576B5D-CBB4-2874-7EC9-DBBD6A478721"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/D80131B3-2D31-96A6-81B8-56B38D7426D6"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/DEDC9F4E-56F8-BB4C-CDE7-DABD7CA2E1EE"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/E909435D-A0CE-0E29-3370-8723C01F9967"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/EA99B683-6143-2CF5-0BB9-D73F73897500"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/EB9D2B73-433F-CAF0-A98F-B4D76FB70C1F"/>
+    <spec:container_of rdf:resource="http://resourcelists.ntu.ac.uk/items/F096CC54-A9BE-77FC-44DD-4D8341E3FE53"/>
+    <spec:name>EPGCE Secondary 1 Maths</spec:name>
+    <rdf:_10 rdf:resource="http://resourcelists.ntu.ac.uk/items/EA99B683-6143-2CF5-0BB9-D73F73897500"/>
+    <rdf:_11 rdf:resource="http://resourcelists.ntu.ac.uk/items/46374EFA-8383-74C9-459A-E68BE0539E00"/>
+    <rdf:_12 rdf:resource="http://resourcelists.ntu.ac.uk/items/97242849-9009-0504-DF96-150AA318DD64"/>
+    <rdf:_13 rdf:resource="http://resourcelists.ntu.ac.uk/items/A05C5267-78DA-42CC-6722-6693B826FD2E"/>
+    <rdf:_14 rdf:resource="http://resourcelists.ntu.ac.uk/items/E909435D-A0CE-0E29-3370-8723C01F9967"/>
+    <rdf:_15 rdf:resource="http://resourcelists.ntu.ac.uk/items/DEDC9F4E-56F8-BB4C-CDE7-DABD7CA2E1EE"/>
+    <rdf:_16 rdf:resource="http://resourcelists.ntu.ac.uk/items/7F1F8BF9-71F2-DBF4-5DD9-AF51307AF111"/>
+    <rdf:_17 rdf:resource="http://resourcelists.ntu.ac.uk/items/6F9A80F1-659B-061F-B41F-D065F0A1A44A"/>
+    <rdf:_18 rdf:resource="http://resourcelists.ntu.ac.uk/items/EB9D2B73-433F-CAF0-A98F-B4D76FB70C1F"/>
+    <rdf:_19 rdf:resource="http://resourcelists.ntu.ac.uk/items/66A9DE8F-E835-3EBD-E1EA-1979437390D9"/>
+    <rdf:_1 rdf:resource="http://resourcelists.ntu.ac.uk/items/D5576B5D-CBB4-2874-7EC9-DBBD6A478721"/>
+    <rdf:_20 rdf:resource="http://resourcelists.ntu.ac.uk/items/D80131B3-2D31-96A6-81B8-56B38D7426D6"/>
+    <rdf:_21 rdf:resource="http://resourcelists.ntu.ac.uk/items/4D8267F2-03EA-DE2E-8481-9C3EA4FDED39"/>
+    <rdf:_22 rdf:resource="http://resourcelists.ntu.ac.uk/items/F096CC54-A9BE-77FC-44DD-4D8341E3FE53"/>
+    <rdf:_23 rdf:resource="http://resourcelists.ntu.ac.uk/items/8F75E8F5-85A9-F0B4-0F2B-63A5760956D9"/>
+    <rdf:_24 rdf:resource="http://resourcelists.ntu.ac.uk/items/85D25A33-0233-6D88-2197-24A04C898377"/>
+    <rdf:_25 rdf:resource="http://resourcelists.ntu.ac.uk/items/AF48DEE2-48AD-CF69-27F8-B4F8AF8D6ABE"/>
+    <rdf:_26 rdf:resource="http://resourcelists.ntu.ac.uk/items/2FAC4E3C-CCA7-73F7-D181-01910A746663"/>
+    <rdf:_2 rdf:resource="http://resourcelists.ntu.ac.uk/items/40448D65-4032-977E-1BCA-140895E71827"/>
+    <rdf:_3 rdf:resource="http://resourcelists.ntu.ac.uk/items/68A0B4E8-7AAF-8B03-4AE1-72196237688C"/>
+    <rdf:_4 rdf:resource="http://resourcelists.ntu.ac.uk/items/173AA11F-8BE3-33E8-D9AF-B9DF073F0A4C"/>
+    <rdf:_5 rdf:resource="http://resourcelists.ntu.ac.uk/items/3C172938-F9A0-9D65-81D1-44F528D0BE39"/>
+    <rdf:_6 rdf:resource="http://resourcelists.ntu.ac.uk/items/C181D2F9-E77D-26A7-57F2-1D31B17C5E7F"/>
+    <rdf:_7 rdf:resource="http://resourcelists.ntu.ac.uk/items/17CFA5CE-C934-6497-085F-0E73494E370A"/>
+    <rdf:_8 rdf:resource="http://resourcelists.ntu.ac.uk/items/A8E69FF7-A817-7219-6F25-5C1509EE1BD4"/>
+    <rdf:_9 rdf:resource="http://resourcelists.ntu.ac.uk/items/71F13228-4341-076F-A01D-7A40CFF0E881"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+
+</rdf:RDF>

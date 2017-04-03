@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/"
+  xmlns:events="http://schemas.talis.com/2009/events/">
+
+  <rdf:Description rdf:about="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44"/>
+    <foaf:topic rdf:resource="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44"/>
+    <dct:hasFormat rdf:resource="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44.html"/>
+    <dct:hasFormat rdf:resource="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44.json"/>
+    <dct:hasFormat rdf:resource="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44">
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/1442DA77-3331-ED8B-1BAB-6126DD695812"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/2D36707C-E68C-B576-D14F-E8E40064E418"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/3604B688-0D23-F7B0-3D49-2B990AE001C0"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/4F548DDC-0652-D27C-DD91-0861CE86FBF5"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/51244B88-37CE-1C7A-D69B-4F6450BAAE61"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/5255CA15-C586-5985-8C74-7BA971B73065"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/60E66A46-E7D1-02C9-7EAE-C0D434B50FE1"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/67DDCB36-7BC1-13BB-4FC7-06F11E88CD2A"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/6A44E8AF-BA47-EE55-56EB-76E113BA533F"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/741E4DA3-81CE-E11A-0F63-C62E2180541D"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/8F83F71A-2496-2CC8-B253-F29739866C71"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/9FCB13D4-388F-ECE0-18A7-BBD1F39F25A8"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/A312B78A-7407-EDEF-C988-B42BC1F604D4"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/B0343F71-8B49-0760-43A8-FA52491324DD"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/C28160C9-D87A-7B78-4140-813B98949D93"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/C54E62C9-3D64-C770-07A4-221BC4E8703C"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/D579BD33-3EDC-FA0F-6E37-E47378E97A40"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/D83DEB61-F930-56D1-9871-EEC5EAADA279"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/D9B121C4-A77C-A76F-8A12-08D583D42496"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/E9F6BE76-0659-30D2-4ECD-C1520EE260CD"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/items/EEC710F2-FD86-7586-1B62-212DE4618CF8"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/sections/93B805D4-D369-698E-6769-41C9BFECE771"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/sections/B7FB559A-118C-6820-FA1A-8736F5690A6C"/>
+    <resourcelist:contains rdf:resource="http://lists.hope.ac.uk/sections/FD1107D2-85F1-431A-5B46-B7786EB85709"/>
+    <resourcelist:created>2011-08-09T10:58:25+01:00</resourcelist:created>
+    <resourcelist:lastPublished>2011-08-29T10:25:39+01:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2011-08-29T09:56:26+01:00</resourcelist:lastUpdated>
+    <resourcelist:usedBy rdf:resource="http://lists.hope.ac.uk/modules/theh024af"/>
+    <spec:has_creator rdf:resource="http://lists.hope.ac.uk/users/EBEB22D4-2032-BBB3-4C84-566D3F141F42"/>
+    <spec:name>Studies in Modern Theological Developments</spec:name>
+    <spec:parent_of rdf:resource="http://lists.hope.ac.uk/sections/93B805D4-D369-698E-6769-41C9BFECE771"/>
+    <spec:parent_of rdf:resource="http://lists.hope.ac.uk/sections/B7FB559A-118C-6820-FA1A-8736F5690A6C"/>
+    <spec:parent_of rdf:resource="http://lists.hope.ac.uk/sections/FD1107D2-85F1-431A-5B46-B7786EB85709"/>
+    <events:hasEvents rdf:resource="http://lists.hope.ac.uk/lists/CD5543DB-08D1-6746-A062-FCAE5068EE44/events"/>
+    <rdf:_1 rdf:resource="http://lists.hope.ac.uk/sections/93B805D4-D369-698E-6769-41C9BFECE771"/>
+    <rdf:_2 rdf:resource="http://lists.hope.ac.uk/sections/B7FB559A-118C-6820-FA1A-8736F5690A6C"/>
+    <rdf:_3 rdf:resource="http://lists.hope.ac.uk/sections/FD1107D2-85F1-431A-5B46-B7786EB85709"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+
+</rdf:RDF>

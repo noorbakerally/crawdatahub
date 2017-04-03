@@ -1,0 +1,329 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/linked-data/api/vocab#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:os="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:opmv="http://purl.org/net/opmv/types/common#"
+    xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:sparql="http://purl.org/net/opmv/types/sparql#"
+    xmlns:j.1="http://lab.environment.data.gov.au/def/acorn/time-series/">
+  <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf">
+    <os:startIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</os:startIndex>
+    <xhv:next rdf:resource="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf?_page=1"/>
+    <xhv:first rdf:resource="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf?_page=0"/>
+    <j.0:extendedMetadataVersion rdf:resource="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf?_metadata=all"/>
+    <j.0:definition rdf:resource="http://lab.environment.data.gov.au/meta/data/acorn/climate/slice/station/year.rdf"/>
+    <j.0:items rdf:parseType="Collection">
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1910</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1911</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1912</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1913</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1914</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1915</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1916</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1917</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1918</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1919</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1920">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1920</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1920"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1921">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1921</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1921"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1922">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1922</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1922"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1923">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1923</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1923"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1924">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1924</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1924"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1925">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1925</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1925"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1926">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1926</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1926"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1927">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1927</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1927"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1928">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1928</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1928"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1929">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1929</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1929"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1930">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1930</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1930"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1931">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1931</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1931"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1932">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1932</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1932"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1933">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1933</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1933"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1934">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1934</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1934"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1935">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1935</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1935"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1936">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1936</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1936"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1937">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1937</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1937"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1938">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1938</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1938"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1939">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1939</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1939"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1940">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1940</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1940"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1941">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1941</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1941"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1942">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1942</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1942"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1943">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1943</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1943"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1944">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1944</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1944"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1945">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1945</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1945"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1946">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1946</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1946"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1947">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1947</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1947"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1948">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1948</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1948"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1949">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1949</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1949"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1950">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1950</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1950"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1951">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1951</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1951"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1952">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1952</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1952"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1953">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1953</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1953"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1954">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1954</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1954"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1955">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1955</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1955"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1956">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1956</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1956"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1957">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1957</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1957"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1958">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1958</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1958"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1959">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1959</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1959"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1960">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1960</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1960"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1961">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1961</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1961"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1962">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1962</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1962"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1963">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1963</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1963"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1964">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1964</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1964"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1965">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1965</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1965"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1966">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1966</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1966"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1967">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1967</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1967"/>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1968">
+        <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+        <rdfs:label>All observations for series 001019 in the year 1968</rdfs:label>
+      </j.1:TimeSeries>
+      <j.1:TimeSeries rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1968"/>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1969">
+        <rdf:type rdf:resource="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries"/>
+        <rdfs:label>All observations for series 001019 in the year 1969</rdfs:label>
+      </j.0:Page>
+      <j.0:Page rdf:about="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1969"/>
+    </j.0:items>
+    <dct:hasPart rdf:resource="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf"/>
+    <j.0:page rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >0</j.0:page>
+    <dct:isPartOf rdf:resource="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#ListEndpoint"/>
+    <os:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >120</os:itemsPerPage>
+  </j.0:Page>
+</rdf:RDF>

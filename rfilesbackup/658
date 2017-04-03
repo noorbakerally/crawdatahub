@@ -1,0 +1,1231 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix fmt: <http://www.w3.org/ns/formats/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix iso: <http://purl.org/iso25964/skos-thes#> .
+@prefix luc: <http://www.ontotext.com/owlim/lucene#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rrx: <http://purl.org/r2rml-ext/> .
+@prefix schema: <http://schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vdpp: <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wv: <http://vocab.org/waiver/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tgn:7011179 a gvp:Subject , skos:Concept , gvp:AdminPlaceConcept ;
+	rdfs:label "Sienese"@en , "Siena"@en , "Siena"@de , "Siena"@nl , "Siena"@fr , "Siena"@es , "Siena"@it , "Sienna"@en , "Σιένα"@el , "锡耶纳"@zh , "Сиена"@ru , "Sienne"@fr , "Siyenah"@he-latn , "סיינה"@he , "シエーナ"@ja , "Senae" , "Sanna" , "Sena Julia" , "Saena Julia"@la , "Sena"@ett ;
+	rdfs:seeAlso <http://www.getty.edu/vow/TGNFullDisplay?find=&place=&nation=&subjectid=7011179> ;
+	dct:created "1991-09-13T03:19:00"^^xsd:dateTime ;
+	dct:modified "2010-06-03T22:27:19"^^xsd:dateTime , "2010-07-20T15:56:52"^^xsd:dateTime , "2016-04-26T15:35:37"^^xsd:dateTime , "2016-04-26T15:38:36"^^xsd:dateTime , "2002-09-26T15:49:25"^^xsd:dateTime , "2002-09-26T15:51:24"^^xsd:dateTime , "2002-09-26T15:58:23"^^xsd:dateTime , "2002-09-24T14:28:45"^^xsd:dateTime , "2009-12-17T14:30:17"^^xsd:dateTime , "2012-01-14T08:35:00"^^xsd:dateTime , "2012-01-14T08:48:22"^^xsd:dateTime , "2012-01-14T08:48:23"^^xsd:dateTime , "2012-01-14T08:51:24"^^xsd:dateTime , "2015-12-09T12:03:56"^^xsd:dateTime , "2002-04-29T16:33:52"^^xsd:dateTime , "2002-07-11T14:30:13"^^xsd:dateTime , "2002-09-24T14:28:58"^^xsd:dateTime , "2002-09-26T15:59:20"^^xsd:dateTime , "2002-09-26T16:05:50"^^xsd:dateTime , "2002-10-08T15:34:04"^^xsd:dateTime , "2002-10-24T14:06:11"^^xsd:dateTime , "2003-04-01T11:50:53"^^xsd:dateTime , "2003-04-01T11:51:28"^^xsd:dateTime , "2003-04-02T14:50:15"^^xsd:dateTime , "2003-06-05T13:31:58"^^xsd:dateTime , "2003-06-23T11:58:57"^^xsd:dateTime , "2003-06-23T12:26:25"^^xsd:dateTime , "2003-06-23T13:25:27"^^xsd:dateTime , "2003-06-24T14:50:13"^^xsd:dateTime , "2003-11-19T14:29:45"^^xsd:dateTime , "2003-11-19T14:31:55"^^xsd:dateTime , "2004-06-27T22:34:59"^^xsd:dateTime , "2004-06-27T22:35:07"^^xsd:dateTime , "2004-07-08T14:21:32"^^xsd:dateTime , "2004-07-08T14:23:23"^^xsd:dateTime , "2004-09-28T15:08:29"^^xsd:dateTime , "2004-10-05T15:08:25"^^xsd:dateTime , "2005-07-18T11:47:00"^^xsd:dateTime , "2007-03-12T16:25:20"^^xsd:dateTime , "2009-01-10T10:45:44"^^xsd:dateTime , "2009-12-17T14:30:16"^^xsd:dateTime , "2012-01-14T08:34:56"^^xsd:dateTime , "2012-01-14T08:48:16"^^xsd:dateTime , "2014-07-24T19:36:21"^^xsd:dateTime , "2014-07-24T19:36:56"^^xsd:dateTime , "2014-07-24T19:37:38"^^xsd:dateTime , "2014-07-24T19:38:39"^^xsd:dateTime , "2015-12-09T12:02:07"^^xsd:dateTime , "2015-12-09T12:05:01"^^xsd:dateTime , "2015-12-09T12:08:26"^^xsd:dateTime , "2015-12-09T12:09:37"^^xsd:dateTime , "2015-12-09T12:27:35"^^xsd:dateTime , "2015-12-09T12:29:19"^^xsd:dateTime , "2015-12-09T12:31:54"^^xsd:dateTime , "2015-12-09T12:32:20"^^xsd:dateTime , "2015-12-09T15:38:18"^^xsd:dateTime , "2016-04-22T15:59:24"^^xsd:dateTime , "2016-04-26T15:25:14"^^xsd:dateTime , "2016-04-26T15:32:31"^^xsd:dateTime , "2016-04-26T15:43:53"^^xsd:dateTime ;
+	skos:changeNote tgn_rev:5000763276 , tgn_rev:5011334630 , tgn_rev:5028547121 , tgn_rev:5028547123 , tgn_rev:5004583456 , tgn_rev:5004583552 , tgn_rev:5004583559 , tgn_rev:5004583564 , tgn_rev:5010308997 , tgn_rev:5010308998 , tgn_rev:5014276908 , tgn_rev:5014276917 , tgn_rev:5014276918 , tgn_rev:5014276919 , tgn_rev:5014276920 , tgn_rev:5014276931 , tgn_rev:5022655547 , tgn_rev:5003489664 , tgn_rev:5003492580 , tgn_rev:5004583457 , tgn_rev:5004583565 , tgn_rev:5004583568 , tgn_rev:5004583813 , tgn_rev:5004583899 , tgn_rev:5004586340 , tgn_rev:5004586341 , tgn_rev:5004586405 , tgn_rev:5004587569 , tgn_rev:5004587761 , tgn_rev:5004587764 , tgn_rev:5004587765 , tgn_rev:5004587771 , tgn_rev:5004604014 , tgn_rev:5004604015 , tgn_rev:5004607403 , tgn_rev:5004607405 , tgn_rev:5004608526 , tgn_rev:5004608527 , tgn_rev:5005505654 , tgn_rev:5005505861 , tgn_rev:5005519664 , tgn_rev:5006438587 , tgn_rev:5009361198 , tgn_rev:5010308996 , tgn_rev:5011225252 , tgn_rev:5011334629 , tgn_rev:5014276907 , tgn_rev:5014276916 , tgn_rev:5014276929 , tgn_rev:5019043063 , tgn_rev:5019043064 , tgn_rev:5019043078 , tgn_rev:5019043079 , tgn_rev:5022655541 , tgn_rev:5022655542 , tgn_rev:5022655557 , tgn_rev:5022655558 , tgn_rev:5022655559 , tgn_rev:5022655560 , tgn_rev:5022655561 , tgn_rev:5022655562 , tgn_rev:5022655565 , tgn_rev:5022655769 , tgn_rev:5028547116 , tgn_rev:5028547117 , tgn_rev:5028547119 , tgn_rev:5028547120 , tgn_rev:5028547122 , tgn_rev:5028547124 ;
+	gvp:broader tgn:7003168 , tgn:7024113 ;
+	gvp:broaderPartitiveExtended tgn:1000003 , tgn:7003168 , tgn:7009760 , tgn:7024113 , tgn:1000080 , tgn:7023981 , tgn:7029392 ;
+	gvp:broaderExtended tgn:1000003 , tgn:7003168 , tgn:7009760 , tgn:7024113 , tgn:1000080 , tgn:7023981 , tgn:7029392 ;
+	gvp:broaderPreferredExtended tgn:1000003 , tgn:7003168 , tgn:7009760 , tgn:1000080 , tgn:7029392 ;
+	gvp:parentString "Siena, Toscana, Italia, Europe, World" ;
+	skos:note tgn_scopeNote:41087 , tgn_rev:5000763276 , tgn_rev:5011334630 , tgn_rev:5028547121 , tgn_rev:5028547123 , tgn_rev:5004583456 , tgn_rev:5004583552 , tgn_rev:5004583559 , tgn_rev:5004583564 , tgn_rev:5010308997 , tgn_rev:5010308998 , tgn_rev:5014276908 , tgn_rev:5014276917 , tgn_rev:5014276918 , tgn_rev:5014276919 , tgn_rev:5014276920 , tgn_rev:5014276931 , tgn_rev:5022655547 , tgn_rev:5003489664 , tgn_rev:5003492580 , tgn_rev:5004583457 , tgn_rev:5004583565 , tgn_rev:5004583568 , tgn_rev:5004583813 , tgn_rev:5004583899 , tgn_rev:5004586340 , tgn_rev:5004586341 , tgn_rev:5004586405 , tgn_rev:5004587569 , tgn_rev:5004587761 , tgn_rev:5004587764 , tgn_rev:5004587765 , tgn_rev:5004587771 , tgn_rev:5004604014 , tgn_rev:5004604015 , tgn_rev:5004607403 , tgn_rev:5004607405 , tgn_rev:5004608526 , tgn_rev:5004608527 , tgn_rev:5005505654 , tgn_rev:5005505861 , tgn_rev:5005519664 , tgn_rev:5006438587 , tgn_rev:5009361198 , tgn_rev:5010308996 , tgn_rev:5011225252 , tgn_rev:5011334629 , tgn_rev:5014276907 , tgn_rev:5014276916 , tgn_rev:5014276929 , tgn_rev:5019043063 , tgn_rev:5019043064 , tgn_rev:5019043078 , tgn_rev:5019043079 , tgn_rev:5022655541 , tgn_rev:5022655542 , tgn_rev:5022655557 , tgn_rev:5022655558 , tgn_rev:5022655559 , tgn_rev:5022655560 , tgn_rev:5022655561 , tgn_rev:5022655562 , tgn_rev:5022655565 , tgn_rev:5022655769 , tgn_rev:5028547116 , tgn_rev:5028547117 , tgn_rev:5028547119 , tgn_rev:5028547120 , tgn_rev:5028547122 , tgn_rev:5028547124 ;
+	gvp:parentStringAbbrev "Siena, Toscana, ... World" ;
+	gvp:displayOrder "297"^^xsd:positiveInteger ;
+	gvp:placeType aat:300008347 , aat:300387236 , aat:300008389 , aat:300019478 , aat:300387330 , aat:300005135 , aat:300020471 , aat:300235540 , aat:300387284 , aat:300020533 , aat:300263063 , aat:300387291 , aat:300387296 ;
+	skosxl:prefLabel tgn_term:47413-de , tgn_term:47413-nl , tgn_term:47413-fr , tgn_term:47413-es , tgn_term:47413-en , tgn_term:47413-it , tgn_term:141380-la , tgn_term:181414-ett ;
+	skos:prefLabel "Siena"@en , "Siena"@de , "Siena"@nl , "Siena"@fr , "Siena"@es , "Siena"@it , "Saena Julia"@la , "Sena"@ett ;
+	skosxl:altLabel tgn_term:140808-en , tgn_term:1002038443-el , tgn_term:1002038446-zh , tgn_term:1002038445-ru , tgn_term:1002860953-fr , tgn_term:1002038442-he-Latn , tgn_term:1002038444-he , tgn_term:1002038441-ja , tgn_term:1159549-en , tgn_term:181416 , tgn_term:181456 , tgn_term:181415 ;
+	skos:altLabel "Sienese"@en , "Sienna"@en , "Σιένα"@el , "锡耶纳"@zh , "Сиена"@ru , "Sienne"@fr , "Siyenah"@he-latn , "סיינה"@he , "シエーナ"@ja , "Senae" , "Sanna" , "Sena Julia" ;
+	gvp:broaderPartitive tgn:7003168 , tgn:7024113 ;
+	gvp:broaderPreferred tgn:7003168 ;
+	skos:broader tgn:7003168 , tgn:7024113 ;
+	iso:broaderPartitive tgn:7003168 , tgn:7024113 ;
+	gvp:broaderNonPreferred tgn:7024113 ;
+	gvp:prefLabelGVP tgn_term:47413-en ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:scopeNote tgn_scopeNote:41087 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	dct:source tgn_source:9005498 , tgn_source:9006722 , tgn_source:2009007639 , tgn_source:9000009-subject-7011179 , tgn_source:9004777-subject-7011179 , tgn_source:9004778-subject-7011179 , tgn_source:9006009-subject-7011179 , tgn_source:9006037-subject-7011179 , tgn_source:9006447-subject-7011179 , tgn_source:9006449-subject-7011179 , tgn_source:9006541-subject-7011179 , tgn_source:2009007181-subject-7011179 , tgn_source:9006736-subject-7011179 , tgn_source:2009007043-subject-7011179 , tgn_source:2009007144-subject-7011179 , tgn_source:2009007315-subject-7011179 ;
+	gvp:placeTypePreferred aat:300008347 ;
+	gvp:placeTypeNonPreferred aat:300387236 , aat:300008389 , aat:300019478 , aat:300387330 , aat:300005135 , aat:300020471 , aat:300235540 , aat:300387284 , aat:300020533 , aat:300263063 , aat:300387291 , aat:300387296 ;
+	skos:related tgn:7006072 , tgn:7005060 , tgn:7006082 ;
+	dc:identifier "7011179" ;
+	gvp:tgn3301_ally_of tgn:7006072 , tgn:7005060 , tgn:7006082 ;
+	skos:broaderTransitive tgn:1000003 , tgn:7003168 , tgn:7009760 , tgn:7024113 , tgn:1000080 , tgn:7023981 ;
+	skos:narrower tgn:7544562 , tgn:5004182 ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	void:inDataset <http://vocab.getty.edu/dataset/tgn> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	prov:wasGeneratedBy tgn_rev:5000763276 ;
+	gvp:tgn3101_adjacent_to tgn:7029473 ;
+	foaf:focus tgn:7011179-place .
+
+tgn_rev:5000763276 a prov:Activity , prov:Create ;
+	dc:type "created" ;
+	prov:startedAtTime "1991-09-13T03:19:00"^^xsd:dateTime .
+
+tgn_rev:5011334630 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2010-07-20T15:56:52"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5028547121 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2016-04-26T15:35:37"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5028547123 a prov:Activity , prov:Modify ;
+	dc:type "note updated" ;
+	prov:startedAtTime "2016-04-26T15:38:36"^^xsd:dateTime ;
+	dc:description "Language: English (70051)" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583456 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2002-09-24T14:28:45"^^xsd:dateTime ;
+	dc:description "Siena (7011179) 'related to' La Piana (7029473);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583552 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2002-09-26T15:49:25"^^xsd:dateTime ;
+	dc:description "Siena (7011179) 'ally of' Pisa (7006082);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583559 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2002-09-26T15:51:24"^^xsd:dateTime ;
+	dc:description "Siena (7011179) 'ally of' Pistoia (7005060);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583564 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2002-09-26T15:58:23"^^xsd:dateTime ;
+	dc:description "Siena (7011179) 'ally of' Arezzo (7006072);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5010308997 a prov:Activity , prov:Modify ;
+	dc:type "relation deleted" ;
+	prov:startedAtTime "2009-12-17T14:30:17"^^xsd:dateTime ;
+	dc:description "Siena (7011179) 'related to' La Piana (7029473);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5010308998 a prov:Activity , prov:Modify ;
+	dc:type "relation added" ;
+	prov:startedAtTime "2009-12-17T14:30:17"^^xsd:dateTime ;
+	dc:description "Siena (7011179) 'adjacent to' La Piana (7029473);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276908 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2012-01-14T08:35:00"^^xsd:dateTime ;
+	dc:description "シエーナ (1002038441);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276917 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2012-01-14T08:48:22"^^xsd:dateTime ;
+	dc:description "Σιένα (1002038443);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276918 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2012-01-14T08:48:22"^^xsd:dateTime ;
+	dc:description "Siyenah (1002038442);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276919 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2012-01-14T08:48:22"^^xsd:dateTime ;
+	dc:description "Сиена (1002038445);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276920 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2012-01-14T08:48:23"^^xsd:dateTime ;
+	dc:description "סיינה (1002038444);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276931 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2012-01-14T08:51:24"^^xsd:dateTime ;
+	dc:description "锡耶纳 (1002038446);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655547 a prov:Activity , prov:Modify ;
+	dc:type "term added" ;
+	prov:startedAtTime "2015-12-09T12:03:56"^^xsd:dateTime ;
+	dc:description "Sienne (1002860953);" ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5003489664 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-04-29T16:33:52"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5003492580 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-07-11T14:30:13"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583457 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-09-24T14:28:58"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583565 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-09-26T15:59:20"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583568 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-09-26T16:05:50"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583813 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-10-08T15:34:04"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004583899 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2002-10-24T14:06:11"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004586340 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-04-01T11:50:53"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004586341 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-04-01T11:51:28"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004586405 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-04-02T14:50:15"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004587569 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-06-05T13:31:58"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004587761 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-06-23T11:58:57"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004587764 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-06-23T12:26:25"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004587765 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-06-23T13:25:27"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004587771 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-06-24T14:50:13"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004604014 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-11-19T14:29:45"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004604015 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2003-11-19T14:31:55"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004607403 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-06-27T22:34:59"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004607405 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-06-27T22:35:07"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004608526 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-08T14:21:32"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5004608527 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-07-08T14:23:23"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5005505654 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-09-28T15:08:29"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5005505861 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2004-10-05T15:08:25"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5005519664 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2005-07-18T11:47:00"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5006438587 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2007-03-12T16:25:20"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5009361198 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2009-01-10T10:45:44"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5010308996 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2009-12-17T14:30:16"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5011334629 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2010-07-20T15:56:52"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276907 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2012-01-14T08:34:56"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276916 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2012-01-14T08:48:16"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5014276929 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2012-01-14T08:51:24"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5019043063 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2014-07-24T19:36:21"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5019043064 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2014-07-24T19:36:56"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5019043078 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2014-07-24T19:37:38"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5019043079 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2014-07-24T19:38:39"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655541 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:02:07"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655542 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:03:56"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655557 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:05:01"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655558 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:08:26"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655559 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:09:37"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655560 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:27:35"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655561 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:29:19"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655562 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:31:54"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655565 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T12:32:20"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5022655769 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2015-12-09T15:38:18"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5028547116 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-04-22T15:59:24"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5028547117 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-04-26T15:25:14"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5028547119 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-04-26T15:32:31"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5028547120 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-04-26T15:35:37"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5028547122 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-04-26T15:38:36"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_rev:5028547124 a prov:Activity , prov:Modify ;
+	dc:type "updated" ;
+	prov:startedAtTime "2016-04-26T15:43:53"^^xsd:dateTime ;
+	prov:used tgn:7011179 .
+
+tgn_source:9000009-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9000009 ;
+	bibo:locator "6 ff." .
+
+tgn_source:9004777-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004777 ;
+	bibo:locator "passim" .
+
+tgn_source:9004778-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004778 ;
+	bibo:locator "1508" .
+
+tgn_source:9006009-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479; 479 ff." .
+
+tgn_source:9006037-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006037 ;
+	bibo:locator "183" .
+
+tgn_source:9006447-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2/861; 2:861" .
+
+tgn_source:9006449-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006449 ;
+	bibo:locator "1114" .
+
+tgn_source:9006541-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006541 ;
+	bibo:locator "I-162" .
+
+tgn_source:2009007181-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007181 ;
+	bibo:locator "accessed 21 April 1999" .
+
+tgn_source:9006736-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006736 ;
+	bibo:locator "12592" .
+
+tgn_source:2009007043-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007043 ;
+	bibo:locator "accessed 26 Sep 2002" .
+
+tgn_source:2009007144-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007144 ;
+	bibo:locator "-129709" .
+
+tgn_source:2009007315-subject-7011179 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007315 ;
+	bibo:locator "accessed 20 July 2010" .
+
+tgn_scopeNote:41087 a gvp:ScopeNote ;
+	rdf:value "Siena was founded as an Etruscan hill town, possibly by the Saina tribe; later it was the Roman city of Sena Julia (3rd century BCE). It flourished under the Lombard kings (6th century CE) and was a Medieval self-governing commune (constitution dates to 1179). Siena was a Medieval seat of pro-imperial Ghibelline power and was an economic and territorial rival of Guelf (anti-imperial) Florence. The population was ravaged by the Black Death (bubonic plague) in 1348. Siena was ruled by Charles of Anjou in the 13th century, the Visconti of Milan in the early 15th century, and the Medici of Florence after 1557. Historic core named an UNESCO World Heritage Site in 1995."@en ;
+	dct:contributor tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007043-scopeNote-41087 , tgn_source:9006267-scopeNote-41087 , tgn_source:2009007315-scopeNote-41087 ;
+	dc:identifier "41087" ;
+	dct:language aat:300388277 .
+
+tgn_source:2009007043-scopeNote-41087 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007043 ;
+	bibo:locator "accessed 6 June 2003" .
+
+tgn_source:9006267-scopeNote-41087 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006267 ;
+	bibo:locator "1114" .
+
+tgn_source:2009007315-scopeNote-41087 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007315 ;
+	bibo:locator "accessed 20 July 2010" .
+
+tgn_term:47413-de a skosxl:Label ;
+	rdfs:comment "used since 13th century" ;
+	gvp:term "Siena"@de ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "1200"^^xsd:gYear ;
+	skosxl:literalForm "Siena"@de ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:contributorPreferred tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	gvp:sourcePreferred tgn_source:2009007144-term-47413 ;
+	dct:source tgn_source:9005498 , tgn_source:9006449 , tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 , tgn_source:2009007144-term-47413 , tgn_source:2009007181-term-47413 , tgn_source:9006447-term-47413 , tgn_source:9006037-term-47413 , tgn_source:9006009-term-47413 , tgn_source:9004777-term-47413 , tgn_source:9000009-term-47413 ;
+	gvp:sourceNonPreferred tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 ;
+	dc:identifier "47413" ;
+	dct:language aat:300388344 .
+
+tgn_term:47413-nl a skosxl:Label ;
+	rdfs:comment "used since 13th century" ;
+	gvp:term "Siena"@nl ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "1200"^^xsd:gYear ;
+	skosxl:literalForm "Siena"@nl ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:contributorPreferred tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	gvp:sourcePreferred tgn_source:2009007144-term-47413 ;
+	dct:source tgn_source:9005498 , tgn_source:9006449 , tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 , tgn_source:2009007144-term-47413 , tgn_source:2009007181-term-47413 , tgn_source:9006447-term-47413 , tgn_source:9006037-term-47413 , tgn_source:9006009-term-47413 , tgn_source:9004777-term-47413 , tgn_source:9000009-term-47413 ;
+	gvp:sourceNonPreferred tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 ;
+	dc:identifier "47413" ;
+	dct:language aat:300388256 .
+
+tgn_term:47413-fr a skosxl:Label ;
+	rdfs:comment "used since 13th century" ;
+	gvp:term "Siena"@fr ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "1200"^^xsd:gYear ;
+	skosxl:literalForm "Siena"@fr ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:contributorPreferred tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	gvp:sourcePreferred tgn_source:2009007144-term-47413 ;
+	dct:source tgn_source:9005498 , tgn_source:9006449 , tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 , tgn_source:2009007144-term-47413 , tgn_source:2009007181-term-47413 , tgn_source:9006447-term-47413 , tgn_source:9006037-term-47413 , tgn_source:9006009-term-47413 , tgn_source:9004777-term-47413 , tgn_source:9000009-term-47413 ;
+	gvp:sourceNonPreferred tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 ;
+	dc:identifier "47413" ;
+	dct:language aat:300388306 .
+
+tgn_term:47413-es a skosxl:Label ;
+	rdfs:comment "used since 13th century" ;
+	gvp:term "Siena"@es ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "1200"^^xsd:gYear ;
+	skosxl:literalForm "Siena"@es ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:contributorPreferred tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	gvp:sourcePreferred tgn_source:2009007144-term-47413 ;
+	dct:source tgn_source:9005498 , tgn_source:9006449 , tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 , tgn_source:2009007144-term-47413 , tgn_source:2009007181-term-47413 , tgn_source:9006447-term-47413 , tgn_source:9006037-term-47413 , tgn_source:9006009-term-47413 , tgn_source:9004777-term-47413 , tgn_source:9000009-term-47413 ;
+	gvp:sourceNonPreferred tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 ;
+	dc:identifier "47413" ;
+	dct:language aat:300389311 .
+
+tgn_term:47413-en a skosxl:Label ;
+	rdfs:comment "used since 13th century" ;
+	gvp:term "Siena"@en ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "1200"^^xsd:gYear ;
+	skosxl:literalForm "Siena"@en ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	gvp:contributorPreferred tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	gvp:sourcePreferred tgn_source:2009007144-term-47413 ;
+	dct:source tgn_source:9005498 , tgn_source:9006449 , tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 , tgn_source:2009007144-term-47413 , tgn_source:2009007181-term-47413 , tgn_source:9006447-term-47413 , tgn_source:9006037-term-47413 , tgn_source:9006009-term-47413 , tgn_source:9004777-term-47413 , tgn_source:9000009-term-47413 ;
+	gvp:sourceNonPreferred tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 ;
+	dc:identifier "47413" ;
+	dct:language aat:300388277 .
+
+tgn_term:47413-it a skosxl:Label ;
+	rdfs:comment "used since 13th century" ;
+	gvp:term "Siena"@it ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "1200"^^xsd:gYear ;
+	skosxl:literalForm "Siena"@it ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	gvp:contributorPreferred tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000001 , tgn_contrib:10000003 ;
+	gvp:sourcePreferred tgn_source:2009007144-term-47413 ;
+	dct:source tgn_source:9005498 , tgn_source:9006449 , tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 , tgn_source:2009007144-term-47413 , tgn_source:2009007181-term-47413 , tgn_source:9006447-term-47413 , tgn_source:9006037-term-47413 , tgn_source:9006009-term-47413 , tgn_source:9004777-term-47413 , tgn_source:9000009-term-47413 ;
+	gvp:sourceNonPreferred tgn_source:2009007639 , tgn_source:2009008781-term-47413 , tgn_source:9006799-term-47413 , tgn_source:2009008397-term-47413 ;
+	dc:identifier "47413" ;
+	dct:language aat:300388474 .
+
+tgn_term:141380-la a skosxl:Label ;
+	rdfs:comment "Roman" ;
+	gvp:term "Saena Julia"@la ;
+	gvp:displayOrder "14"^^xsd:positiveInteger ;
+	gvp:estStart "-0100"^^xsd:gYear ;
+	gvp:estEnd "0300"^^xsd:gYear ;
+	skosxl:literalForm "Saena Julia"@la ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000003 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 , tgn_contrib:10000002 , tgn_contrib:10000003 ;
+	dct:source tgn_source:9006736-term-141380 , tgn_source:9006449-term-141380 ;
+	dc:identifier "141380" ;
+	dct:language aat:300388693 .
+
+tgn_term:181414-ett a skosxl:Label ;
+	rdfs:comment "Etruscan period" ;
+	gvp:term "Sena"@ett ;
+	gvp:displayOrder "15"^^xsd:positiveInteger ;
+	gvp:estStart "-0800"^^xsd:gYear ;
+	gvp:estEnd "-0100"^^xsd:gYear ;
+	skosxl:literalForm "Sena"@ett ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termKind <http://vocab.getty.edu/term/kind/SiteName> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007664 , tgn_source:9006009-term-181414 ;
+	gvp:sourceNonPreferred tgn_source:2009007664 ;
+	dc:identifier "181414" ;
+	dct:language gvp_lang:ett .
+
+tgn_source:2009008781-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008781 ;
+	bibo:locator "VIAF ID: 239842096 (Geographic)" .
+
+tgn_source:9006799-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006799 ;
+	bibo:locator "accessed 2 February 2010" .
+
+tgn_source:2009008397-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008397 ;
+	bibo:locator "n 79013822" .
+
+tgn_source:2009007144-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007144 ;
+	bibo:locator "UNI -197690 " .
+
+tgn_source:2009007181-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007181 ;
+	bibo:locator "accessed 21 April 1999" .
+
+tgn_source:9006447-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:861" .
+
+tgn_source:9006037-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006037 ;
+	bibo:locator "183" .
+
+tgn_source:9006009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479 ff." .
+
+tgn_source:9004777-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004777 ;
+	bibo:locator "passim" .
+
+tgn_source:9000009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9000009 ;
+	bibo:locator "6 ff." .
+
+tgn_source:2009008781-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008781 ;
+	bibo:locator "VIAF ID: 239842096 (Geographic)" .
+
+tgn_source:9006799-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006799 ;
+	bibo:locator "accessed 2 February 2010" .
+
+tgn_source:2009008397-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008397 ;
+	bibo:locator "n 79013822" .
+
+tgn_source:2009007144-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007144 ;
+	bibo:locator "UNI -197690 " .
+
+tgn_source:2009007181-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007181 ;
+	bibo:locator "accessed 21 April 1999" .
+
+tgn_source:9006447-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:861" .
+
+tgn_source:9006037-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006037 ;
+	bibo:locator "183" .
+
+tgn_source:9006009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479 ff." .
+
+tgn_source:9004777-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004777 ;
+	bibo:locator "passim" .
+
+tgn_source:9000009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9000009 ;
+	bibo:locator "6 ff." .
+
+tgn_source:2009008781-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008781 ;
+	bibo:locator "VIAF ID: 239842096 (Geographic)" .
+
+tgn_source:9006799-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006799 ;
+	bibo:locator "accessed 2 February 2010" .
+
+tgn_source:2009008397-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008397 ;
+	bibo:locator "n 79013822" .
+
+tgn_source:2009007144-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007144 ;
+	bibo:locator "UNI -197690 " .
+
+tgn_source:2009007181-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007181 ;
+	bibo:locator "accessed 21 April 1999" .
+
+tgn_source:9006447-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:861" .
+
+tgn_source:9006037-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006037 ;
+	bibo:locator "183" .
+
+tgn_source:9006009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479 ff." .
+
+tgn_source:9004777-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004777 ;
+	bibo:locator "passim" .
+
+tgn_source:9000009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9000009 ;
+	bibo:locator "6 ff." .
+
+tgn_source:2009008781-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008781 ;
+	bibo:locator "VIAF ID: 239842096 (Geographic)" .
+
+tgn_source:9006799-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006799 ;
+	bibo:locator "accessed 2 February 2010" .
+
+tgn_source:2009008397-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008397 ;
+	bibo:locator "n 79013822" .
+
+tgn_source:2009007144-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007144 ;
+	bibo:locator "UNI -197690 " .
+
+tgn_source:2009007181-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007181 ;
+	bibo:locator "accessed 21 April 1999" .
+
+tgn_source:9006447-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:861" .
+
+tgn_source:9006037-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006037 ;
+	bibo:locator "183" .
+
+tgn_source:9006009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479 ff." .
+
+tgn_source:9004777-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004777 ;
+	bibo:locator "passim" .
+
+tgn_source:9000009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9000009 ;
+	bibo:locator "6 ff." .
+
+tgn_source:2009008781-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008781 ;
+	bibo:locator "VIAF ID: 239842096 (Geographic)" .
+
+tgn_source:9006799-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006799 ;
+	bibo:locator "accessed 2 February 2010" .
+
+tgn_source:2009008397-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008397 ;
+	bibo:locator "n 79013822" .
+
+tgn_source:2009007144-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007144 ;
+	bibo:locator "UNI -197690 " .
+
+tgn_source:2009007181-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007181 ;
+	bibo:locator "accessed 21 April 1999" .
+
+tgn_source:9006447-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:861" .
+
+tgn_source:9006037-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006037 ;
+	bibo:locator "183" .
+
+tgn_source:9006009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479 ff." .
+
+tgn_source:9004777-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004777 ;
+	bibo:locator "passim" .
+
+tgn_source:9000009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9000009 ;
+	bibo:locator "6 ff." .
+
+tgn_source:2009008781-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008781 ;
+	bibo:locator "VIAF ID: 239842096 (Geographic)" .
+
+tgn_source:9006799-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006799 ;
+	bibo:locator "accessed 2 February 2010" .
+
+tgn_source:2009008397-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008397 ;
+	bibo:locator "n 79013822" .
+
+tgn_source:2009007144-term-47413 a bibo:Document , bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007144 ;
+	bibo:locator "UNI -197690 " .
+
+tgn_source:2009007181-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009007181 ;
+	bibo:locator "accessed 21 April 1999" .
+
+tgn_source:9006447-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006447 ;
+	bibo:locator "2:861" .
+
+tgn_source:9006037-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006037 ;
+	bibo:locator "183" .
+
+tgn_source:9006009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479 ff." .
+
+tgn_source:9004777-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004777 ;
+	bibo:locator "passim" .
+
+tgn_source:9000009-term-47413 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9000009 ;
+	bibo:locator "6 ff." .
+
+tgn_source:9006736-term-141380 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006736 ;
+	bibo:locator "12592" .
+
+tgn_source:9006449-term-141380 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006449 ;
+	bibo:locator "1114" .
+
+tgn_source:9006009-term-181414 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479" .
+
+tgn_term:140808-en a skosxl:Label ;
+	rdfs:comment "obsolete spelling, but used occasionally" ;
+	gvp:term "Sienna"@en ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	gvp:estStart "1300"^^xsd:gYear ;
+	skosxl:literalForm "Sienna"@en ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006541-term-140808 ;
+	dc:identifier "140808" ;
+	dct:language aat:300388277 .
+
+tgn_term:1002038443-el a skosxl:Label ;
+	gvp:term "Σιένα"@el ;
+	gvp:displayOrder "3"^^xsd:positiveInteger ;
+	skosxl:literalForm "Σιένα"@el ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007664 ;
+	gvp:sourceNonPreferred tgn_source:2009007664 ;
+	dc:identifier "1002038443" ;
+	dct:language aat:300388361 .
+
+tgn_term:1002038446-zh a skosxl:Label ;
+	gvp:term "锡耶纳"@zh ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	skosxl:literalForm "锡耶纳"@zh ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007664 ;
+	gvp:sourceNonPreferred tgn_source:2009007664 ;
+	dc:identifier "1002038446" ;
+	dct:language aat:300388113 .
+
+tgn_term:1002038445-ru a skosxl:Label ;
+	gvp:term "Сиена"@ru ;
+	gvp:displayOrder "5"^^xsd:positiveInteger ;
+	skosxl:literalForm "Сиена"@ru ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007043 ;
+	gvp:sourceNonPreferred tgn_source:2009007043 ;
+	dc:identifier "1002038445" ;
+	dct:language gvp_lang:ru .
+
+tgn_term:1002860953-fr a skosxl:Label ;
+	gvp:term "Sienne"@fr ;
+	gvp:displayOrder "6"^^xsd:positiveInteger ;
+	skosxl:literalForm "Sienne"@fr ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009008397 ;
+	gvp:sourceNonPreferred tgn_source:2009008397 ;
+	dc:identifier "1002860953" ;
+	dct:language aat:300388306 .
+
+tgn_term:1002038442-he-Latn a skosxl:Label ;
+	gvp:term "Siyenah"@he-latn ;
+	gvp:displayOrder "7"^^xsd:positiveInteger ;
+	skosxl:literalForm "Siyenah"@he-latn ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007279 ;
+	gvp:sourceNonPreferred tgn_source:2009007279 ;
+	dc:identifier "1002038442" ;
+	dct:language aat:300388402 .
+
+tgn_term:1002038444-he a skosxl:Label ;
+	gvp:term "סיינה"@he ;
+	gvp:displayOrder "8"^^xsd:positiveInteger ;
+	skosxl:literalForm "סיינה"@he ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007664 ;
+	gvp:sourceNonPreferred tgn_source:2009007664 ;
+	dc:identifier "1002038444" ;
+	dct:language aat:300388401 .
+
+tgn_term:1002038441-ja a skosxl:Label ;
+	gvp:term "シエーナ"@ja ;
+	gvp:displayOrder "9"^^xsd:positiveInteger ;
+	skosxl:literalForm "シエーナ"@ja ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009007664 ;
+	gvp:sourceNonPreferred tgn_source:2009007664 ;
+	dc:identifier "1002038441" ;
+	dct:language aat:300388486 .
+
+tgn_term:1159549-en a skosxl:Label ;
+	gvp:term "Sienese"@en ;
+	gvp:displayOrder "10"^^xsd:positiveInteger ;
+	skosxl:literalForm "Sienese"@en ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Adjectival> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006722 ;
+	dc:identifier "1159549" ;
+	dct:language aat:300388277 .
+
+tgn_term:181416 a skosxl:Label ;
+	rdfs:comment "medieval" ;
+	gvp:term "Senae" ;
+	gvp:displayOrder "11"^^xsd:positiveInteger ;
+	gvp:estStart "0800"^^xsd:gYear ;
+	gvp:estEnd "1500"^^xsd:gYear ;
+	skosxl:literalForm "Senae" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9004778 ;
+	dc:identifier "181416" .
+
+tgn_term:181456 a skosxl:Label ;
+	gvp:term "Sanna" ;
+	gvp:displayOrder "12"^^xsd:positiveInteger ;
+	skosxl:literalForm "Sanna" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9004778-term-181456 ;
+	dc:identifier "181456" .
+
+tgn_term:181415 a skosxl:Label ;
+	gvp:term "Sena Julia" ;
+	gvp:displayOrder "13"^^xsd:positiveInteger ;
+	skosxl:literalForm "Sena Julia" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006009-term-181415 ;
+	dc:identifier "181415" .
+
+tgn_source:9006541-term-140808 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006541 ;
+	bibo:locator "I-162" .
+
+tgn_source:9004778-term-181456 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9004778 ;
+	bibo:locator "1508" .
+
+tgn_source:9006009-term-181415 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006009 ;
+	bibo:locator "479" .
+
+tgn_rel:7011179-tgn3301_ally_of-7006082 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:tgn3301_ally_of ;
+	rdf:object tgn:7006082 ;
+	rdfs:comment "Ghibelline allies during the 13th and 14th centuries" ;
+	gvp:estStart "1250"^^xsd:gYear ;
+	gvp:estEnd "1400"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7011179-tgn3301_ally_of-7005060 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:tgn3301_ally_of ;
+	rdf:object tgn:7005060 ;
+	rdfs:comment "Ghibelline allies during the 13th and 14th centuries" ;
+	gvp:estStart "1250"^^xsd:gYear ;
+	gvp:estEnd "1400"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7011179-tgn3301_ally_of-7006072 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:tgn3301_ally_of ;
+	rdf:object tgn:7006072 ;
+	rdfs:comment "Ghibelline allies during the 13th and 14th centuries" ;
+	gvp:estStart "1250"^^xsd:gYear ;
+	gvp:estEnd "1400"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7011179-tgn3101_adjacent_to-7029473 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:tgn3101_adjacent_to ;
+	rdf:object tgn:7029473 ;
+	rdfs:comment "La Piana was related to Siena, site is adjacent to modern Siena" ;
+	gvp:estStart "-0600"^^xsd:gYear .
+
+tgn_rel:7011179-broader-7024113 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:broaderNonPreferred ;
+	rdf:object tgn:7024113 ;
+	rdfs:comment "sites near Siena date to the Late Etruscan period" ;
+	gvp:estStart "-0400"^^xsd:gYear ;
+	gvp:estEnd "0100"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7011179-placeType-300008347 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypePreferred ;
+	rdf:object aat:300008347 ;
+	rdfs:comment "settled by Etruscans (flourished 6th century BCE)" ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "-0800"^^xsd:gYear .
+
+tgn_rel:7011179-placeType-300008389 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300008389 ;
+	gvp:displayOrder "2"^^xsd:positiveInteger .
+
+tgn_rel:7011179-placeType-300387236 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387236 ;
+	rdfs:comment "bishopric was established by Middle Ages, later became an archbishopric; noted for large medieval cathedral" ;
+	gvp:displayOrder "3"^^xsd:positiveInteger ;
+	gvp:estStart "1000"^^xsd:gYear .
+
+tgn_rel:7011179-placeType-300387330 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387330 ;
+	rdfs:comment "since 1125" ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	gvp:estStart "1125"^^xsd:gYear .
+
+tgn_rel:7011179-placeType-300005135 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300005135 ;
+	rdfs:comment "since Middle Ages, famed for architecture, sculptors and painters including Duccio, Simone Martini and the Lorenzetti" ;
+	gvp:displayOrder "5"^^xsd:positiveInteger ;
+	gvp:estStart "1000"^^xsd:gYear .
+
+tgn_rel:7011179-placeType-300387291 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387291 ;
+	rdfs:comment "noted for medieval architecture and Palio horse races" ;
+	gvp:displayOrder "6"^^xsd:positiveInteger ;
+	gvp:estStart "1800"^^xsd:gYear .
+
+tgn_rel:7011179-placeType-300387296 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387296 ;
+	rdfs:comment "university founded in 1240" ;
+	gvp:displayOrder "7"^^xsd:positiveInteger ;
+	gvp:estStart "1240"^^xsd:gYear .
+
+tgn_rel:7011179-placeType-300263063 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300263063 ;
+	rdfs:comment "from 1995" ;
+	gvp:displayOrder "8"^^xsd:positiveInteger ;
+	gvp:estStart "1995"^^xsd:gYear .
+
+tgn_rel:7011179-placeType-300387284 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387284 ;
+	rdfs:comment "was important European banking center by 13th century, but declined with fall of Ghibelline power in area and Black Death of 1348" ;
+	gvp:displayOrder "9"^^xsd:positiveInteger ;
+	gvp:estStart "1150"^^xsd:gYear ;
+	gvp:estEnd "1800"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7011179-placeType-300235540 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300235540 ;
+	rdfs:comment "Frankish, 6th-12th century" ;
+	gvp:displayOrder "10"^^xsd:positiveInteger ;
+	gvp:estStart "0500"^^xsd:gYear ;
+	gvp:estEnd "1179"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7011179-placeType-300019478 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300019478 ;
+	gvp:displayOrder "11"^^xsd:positiveInteger ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7011179-placeType-300020533 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300020533 ;
+	gvp:displayOrder "12"^^xsd:positiveInteger ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn_rel:7011179-placeType-300020471 a rdf:Statement ;
+	rdf:subject tgn:7011179 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300020471 ;
+	gvp:displayOrder "13"^^xsd:positiveInteger ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn:7011179-place a schema:Place , wgs:SpatialThing ;
+	wgs:lat "43.318"^^xsd:decimal ;
+	wgs:long "11.33"^^xsd:decimal ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	void:inDataset <http://vocab.getty.edu/dataset/tgn> ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	schema:geo tgn:7011179-geometry ;
+	wgs:alt "322"^^xsd:decimal .
+
+tgn:7011179-geometry a schema:GeoCoordinates ;
+	schema:latitude "43.318"^^xsd:decimal ;
+	schema:longitude "11.33"^^xsd:decimal ;
+	schema:elevation "322"^^xsd:decimal .

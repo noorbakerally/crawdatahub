@@ -1,0 +1,24 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://data.czso.cz/ontology/> .
+<http://linked.opendata.cz/resource/region/554979>	rdf:type	ns1:Municipality .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+<http://linked.opendata.cz/resource/region/554979>	rdf:type	skos:Concept .
+@prefix ec:	<http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+<http://linked.opendata.cz/resource/region/554979>	rdf:type	ec:LAURegion .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+<http://linked.opendata.cz/resource/region/554979>	dcterms:title	"Abertamy" ,
+		"Abertamy"@cs .
+@prefix ns5:	<http://linked.opendata.cz/resource/region/> .
+<http://linked.opendata.cz/resource/region/554979>	ec:hasParentRegion	ns5:CZ0412 .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://linked.opendata.cz/resource/region/554979>	ec:level	"2"^^xsd:int ;
+	ec:name	"Abertamy"@cs ,
+		"Abertamy" ;
+	ec:regionCode	"554979" ;
+	skos:prefLabel	"Abertamy" ,
+		"Abertamy"@cs ;
+	skos:notation	"554979" ;
+	skos:broaderTransitive	<http://linked.opendata.cz/resource/region/41061> ;
+	ns1:hasAuthorizedMunicipality	<http://linked.opendata.cz/resource/region/41061> .
+@prefix ns7:	<http://data.czso.cz/resource/municipality-statute/> .
+<http://linked.opendata.cz/resource/region/554979>	ns1:statute	ns7:M .

@@ -1,0 +1,27 @@
+
+<http://opendatacommunities.org/data/homelessness/households-accommodated/temporary-housing-types> <http://purl.org/dc/terms/modified> "2017-03-23T09:31:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a <http://publishmydata.com/def/dataset#Dataset> , <http://publishmydata.com/def/dataset#LinkedDataset> , <http://purl.org/linked-data/cube#DataSet> ;
+	<http://purl.org/dc/terms/title> "Households in temporary accommodation,  England, District" ;
+	<http://purl.org/dc/terms/publisher> <http://reference.data.gov.uk/id/department/dclg> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This dataset contains the numbers of households accommodated by local authorities, broken down by local authority and temporary accommodation type." ;
+	<http://purl.org/dc/terms/issued> "2013-07-31T15:13:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Households in temporary accommodation,  England, District" ;
+	<http://purl.org/dc/terms/description> """The term \"Homelessness\" is often considered to apply only to people \"sleeping rough\". However, most of our statistics on homelessness relate to the statutorily homeless i.e. those households which meet specific criteria of priority need set out in legislation, and to whom a homelessness duty has been accepted by a local authority. 
+
+Such households are rarely homeless in the literal sense of being without a roof over their heads, but are more likely to be threatened with the loss of, or are unable to continue with, their current accommodation.
+
+This dataset provides statistics on households in temporary accommodation (excluding those for whom a duty is owed, but no accommodation has been secured) on the last day of the quarter, as arranged by a local housing authority as a discharge of their statutory homelessness functions.
+
+The numbers are presented in terms of households, not individuals. A household is defined as: one person living alone, or a group of people living at the same address who share common housekeeping or a living room. Values of less than five households have been suppressed. In addition, some values of five or greater have been suppressed to prevent other suppressed values being calculated
+
+This data is also available in Table 784a, available for download as an [Excel spreadsheet](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/437290/Table_784a.xlsx).""" ;
+	<http://www.w3.org/ns/dcat#theme> <http://opendatacommunities.org/def/concept/folders/themes/homelessness> , <http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government> ;
+	<http://publishmydata.com/def/dataset#graph> <http://opendatacommunities.org/graph/homelessness/households-accommodated/temporary-housing-types> ;
+	<http://purl.org/dc/terms/references> <http://opendatacommunities.org/help> ;
+	<http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/> ;
+	<http://rdfs.org/ns/void#sparqlEndpoint> <http://opendatacommunities.org/sparql> ;
+	<http://publishmydata.com/def/dataset#contactEmail> <mailto:ODC@communities.gsi.gov.uk> ;
+	<http://publishmydata.com/def/ontology/folder/inFolder> <http://opendatacommunities.org/def/concept/folders/themes/homelessness> , <http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government> ;
+	<http://publishmydata.com/def/dataset#nextUpdateDue> "June 2017" ;
+	a <http://purl.org/linked-data/cube#DataSet> ;
+	<http://purl.org/linked-data/cube#structure> <http://opendatacommunities.org/data/structure/homelessness/households-accommodated/temporary-housing-types> .

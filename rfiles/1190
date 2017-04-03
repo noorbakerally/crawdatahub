@@ -1,0 +1,18 @@
+@prefix gd: <http://vocab.lenka.no/geo-deling#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+@base <http://data.lenka.no> .
+
+<http://data.lenka.no/geo/sted/60196> gn:officialName "Tofte"@no ;
+	a gd:Kommunesenter ;
+	pos:lat 59.54275 ;
+	pos:long 10.56138 ;
+	owl:sameAs <http://sws.geonames.org/3134429/> ;
+	gn:parentFeature <http://data.lenka.no/geo/inndeling/06/0628> ;
+	gn:parentADM1 <http://data.lenka.no/geo/inndeling/06> ;
+	gn:parentADM2 <http://data.lenka.no/geo/inndeling/06/0628> .
+<http://data.lenka.no/geo/inndeling/06/0628> gd:senter <http://data.lenka.no/geo/sted/60196> .
+<http://data.lenka.no/geo/sted/60196/data> void:inDataset <http://data.lenka.no/#dataset-geo> .

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <title>CS3002 - Artificial Intelligence | Brunel University</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />        <meta name="ROBOTS" content="NOINDEX, FOLLOW" />                
+<link rel="alternate" type="application/rss+xml" title="Recent changes for CS3002 - Artificial Intelligence" href="https://brunel.rl.talis.com/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46/events.rss?title=Recent+changes+for+CS3002+-+Artificial+Intelligence"/>        <link rel="canonical" href="https://brunel.rl.talis.com/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.html"/>
+
+    
+        <link rel="stylesheet" type="text/css" href="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/css/bs-concat.css"/>
+        <!--[if IE 7]>
+        <link rel="stylesheet" href="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/css/font-awesome-ie7.min.css">
+        <![endif]-->
+            <link rel="stylesheet" href="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/css/print/print.css" type="text/css" media="print" />
+
+                <script type='text/javascript'>var WIDGET_CONFIGURATION = new Object();
+WIDGET_CONFIGURATION.EBOOK_EZPROXY_BASE_URL="https://login.ezproxy.brunel.ac.uk/login?qurl=";
+WIDGET_CONFIGURATION.DTH_MESSAGE="This is a provisional list that has yet to be reviewed. Items may therefore change.";
+
+	var CONTEXT = new Object();
+CONTEXT.env = "dev";
+CONTEXT.staticAssetPath = "https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a";
+CONTEXT.sId = 'v3bdttpatrbosnborq4v625qp3';
+CONTEXT.tenant = new Object();
+CONTEXT.tenant.uri = "http://readinglists.brunel.ac.uk/";
+CONTEXT.tenant.shortCode = "brunel";
+CONTEXT.page = new Object();
+CONTEXT.tenant.httpsUri = "https://brunel.rl.talis.com";
+CONTEXT.page.bodyId = "list-outline";
+CONTEXT.page.requestUri = "http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.html";
+CONTEXT.page.conceptUri = "http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46";
+CONTEXT.mpProjectToken = "1cc29187332727c3d8bd906755535dae";
+</script>
+	<script type='text/javascript' src='https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/mixpanel.js'></script>
+        <link rel="stylesheet" type="text/css" href="/css/25/cust-branding.css"/>
+        <link rel="stylesheet" type="text/css" href="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/css/overrides.css"/>
+        <!--[if lt IE 9]>
+            <script src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+
+<!--[if lt IE 7]>  <body class="ie ie6 lte9 lte8 lte7 html5 " id="list-outline"> <![endif]-->
+<!--[if IE 7]>     <body class="ie ie7 lte9 lte8 lte7 html5 " id="list-outline"> <![endif]-->
+<!--[if IE 8]>     <body class="ie ie8 lte9 lte8 html5 " id="list-outline">      <![endif]-->
+<!--[if IE 9]>     <body class="ie ie9 lte9 html5 " id="list-outline">           <![endif]-->
+<!--[if gt IE 9]>  <body class="ie html5 " id="list-outline">                    <![endif]-->
+<!--[if !IE]><!--> <body class="html5 " id="list-outline">                               <!--<![endif]-->
+
+<script type='text/javascript'>window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);if (newrelic) {   newrelic.setCustomAttribute('tenantCode','brunel');  newrelic.setCustomAttribute('isLoggedIn','');  newrelic.setCustomAttribute('userPersistentId','');  newrelic.setCustomAttribute('XRequestId','58e12b940ef46');}</script><!-- This is the SVG for the globe icon -->
+<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="svg-globe" viewBox="0 0 878 1024">
+            <title>globe</title>
+            <path class="path1"
+                  d="M438.857 73.143q119.429 0 220.286 58.857t159.714 159.714 58.857 220.286-58.857 220.286-159.714 159.714-220.286 58.857-220.286-58.857-159.714-159.714-58.857-220.286 58.857-220.286 159.714-159.714 220.286-58.857zM595.429 370.857q-1.143 0.571-5.429 5.429t-7.714 5.429q1.143 0 2.571-2.857t2.857-6.286 2-4q3.429-4 12.571-8.571 8-3.429 29.714-6.857 19.429-4.571 29.143 6.286-1.143-1.143 5.429-7.429t8.286-6.857q1.714-1.143 8.571-2.571t8.571-4.286l1.143-12.571q-6.857 0.571-10-4t-3.714-12q0 1.143-3.429 4.571 0-4-2.571-4.571t-6.571 0.571-5.143 0.571q-5.714-1.714-8.571-4.286t-4.571-9.429-2.286-8.571q-1.143-2.857-5.429-6t-5.429-6q-0.571-1.143-1.429-3.143t-1.714-3.714-2.286-3.143-3.143-1.429-4 2.857-4.286 5.714-2.571 2.857q-1.714-1.143-3.429-0.857t-2.571 0.571-2.571 1.714-2.857 2q-1.714 1.143-4.857 1.714t-4.857 1.143q8.571-2.857-0.571-6.286-5.714-2.286-9.143-1.714 5.143-2.286 4.286-6.857t-4.857-8h2.857q-0.571-2.286-4.857-4.857t-10-4.857-7.429-3.429q-4.571-2.857-19.429-5.429t-18.857-0.286q-2.857 3.429-2.571 6t2.286 8 2 7.143q0.571 3.429-3.143 7.429t-3.714 6.857q0 4 8 8.857t5.714 12.286q-1.714 4.571-9.143 9.143t-9.143 6.857q-2.857 4.571-0.857 10.571t6 9.429q1.143 1.143 0.857 2.286t-2 2.571-3.143 2.286-3.714 2l-1.714 1.143q-6.286 2.857-11.714-3.429t-7.714-14.857q-4-14.286-9.143-17.143-13.143-4.571-16.571 0.571-2.857-7.429-23.429-14.857-14.286-5.143-33.143-2.286 3.429-0.571 0-8.571-4-8.571-10.857-6.857 1.714-3.429 2.286-10t0.571-7.714q1.714-7.429 6.857-13.143 0.571-0.571 4-4.857t5.429-7.714 0.286-3.429q20 2.286 28.571-6.286 2.857-2.857 6.571-9.714t6-9.714q5.143-3.429 8-3.143t8.286 3.143 8.286 2.857q8 0.571 8.857-6.286t-4.286-11.429q6.857 0.571 1.714-9.714-2.857-4-4.571-5.143-6.857-2.286-15.429 2.857-4.571 2.286 1.143 4.571-0.571-0.571-5.429 6t-9.429 10-9.143-2.857q-0.571-0.571-3.143-7.714t-5.429-7.714q-4.571 0-9.143 8.571 1.714-4.571-6.286-8.571t-13.714-4.571q10.857-6.857-4.571-15.429-4-2.286-11.714-2.857t-11.143 2.286q-2.857 4-3.143 6.571t2.857 4.571 6 3.143 6.571 2.286 4.857 1.714q8 5.714 4.571 8-1.143 0.571-4.857 2t-6.571 2.571-3.429 2.286q-1.714 2.286 0 8t-1.143 8q-2.857-2.857-5.143-10t-4-9.429q4 5.143-14.286 3.429l-5.714-0.571q-2.286 0-9.143 1.143t-11.714 0.571-7.714-4.571q-2.286-4.571 0-11.429 0.571-2.286 2.286-1.143-2.286-1.714-6.286-5.429t-5.714-4.857q-26.286 8.571-53.714 23.429 3.429 0.571 6.857-0.571 2.857-1.143 7.429-3.714t5.714-3.143q19.429-8 24-4l2.857-2.857q8 9.143 11.429 14.286-4-2.286-17.143-0.571-11.429 3.429-12.571 6.857 4 6.857 2.857 10.286-2.286-1.714-6.571-5.714t-8.286-6.286-8.571-2.857q-9.143 0-12.571 0.571-83.429 45.714-134.286 126.857 4 4 6.857 4.571 2.286 0.571 2.857 5.143t1.429 6.286 6.571-1.714q5.143 4.571 1.714 10.857 0.571-0.571 25.143 15.429 10.857 9.714 12 12 1.714 6.286-5.714 10.286-0.571-1.143-5.143-5.143t-5.143-2.286q-1.714 2.857 0.286 10.571t6 7.143q-4 0-5.429 9.143t-1.429 20.286-0.571 13.429l1.143 0.571q-1.714 6.857 3.143 19.714t12.286 11.143q-7.429 1.714 11.429 24.571 3.429 4.571 4.571 5.143 1.714 1.143 6.857 4.286t8.571 5.714 5.714 6q2.286 2.857 5.714 12.857t8 13.429q-1.143 3.429 5.429 11.429t6 13.143q-0.571 0-1.429 0.571t-1.429 0.571q1.714 4 8.857 8t8.857 7.429q0.571 1.714 1.143 5.714t1.714 6.286 4.571 1.143q1.143-11.429-13.714-35.429-8.571-14.286-9.714-16.571-1.714-2.857-3.143-8.857t-2.571-8.286q1.143 0 3.429 0.857t4.857 2 4.286 2.286 1.143 1.714q-1.714 4 1.143 10t6.857 10.571 9.714 10.857 6.857 7.429q3.429 3.429 8 11.143t0 7.714q5.143 0 11.429 5.714t9.714 11.429q2.857 4.571 4.571 14.857t2.857 13.714q1.143 4 4.857 7.714t7.143 5.429l9.143 4.571t7.429 4q2.857 1.143 10.571 6t12.286 6.571q5.714 2.286 9.143 2.286t8.286-1.429 7.714-2q8.571-1.143 16.571 8.571t12 12q20.571 10.857 31.429 6.286-1.143 0.571 0.286 4.286t4.571 8.857 5.143 8.286 3.143 4.857q2.857 3.429 10.286 8.571t10.286 8.571q3.429-2.286 4-5.143-1.714 4.571 4 11.429t10.286 5.714q8-1.714 8-18.286-17.714 8.571-28-10.286 0-0.571-1.429-3.143t-2.286-4.857-1.429-4.857 0-4.286 2.857-1.714q5.143 0 5.714-2t-1.143-7.143-2.286-7.429q-0.571-4.571-6.286-11.429t-6.857-8.571q-2.857 5.143-9.143 4.571t-9.143-5.143q0 0.571-0.857 3.143t-0.857 3.714q-7.429 0-8.571-0.571 0.571-1.714 1.429-10t2-12.857q0.571-2.286 3.143-6.857t4.286-8.286 2.286-7.143-2.571-5.429-10-1.429q-10.857 0.571-14.857 11.429-0.571 1.714-1.714 6t-2.857 6.571-5.143 4q-4 1.714-13.714 1.143t-13.714-2.857q-7.429-4.571-12.857-16.571t-5.429-21.143q0-5.714 1.429-15.143t1.714-14.286-3.143-14q1.714-1.143 5.143-5.429t5.714-6q1.143-0.571 2.571-0.857t2.571 0 2.286-0.857 1.714-3.429q-0.571-0.571-2.286-1.714-1.714-1.714-2.286-1.714 4 1.714 16.286-0.857t15.714 0.857q8.571 6.286 12.571-1.143 0-0.571-1.429-5.429t-0.286-7.714q2.857 15.429 16.571 5.143 1.714 1.714 8.857 2.857t10 2.857q1.714 1.143 4 3.143t3.143 2.571 2.857-0.286 4.857-3.714q5.714 8 6.857 13.714 6.286 22.857 10.857 25.143 4 1.714 6.286 1.143t2.571-5.429 0-8-0.857-7.143l-0.571-4.571v-10.286l-0.571-4.571q-8.571-1.714-10.571-6.857t0.857-10.571 8.571-10.571q0.571-0.571 4.571-2t8.857-3.714 7.143-4.571q12-10.857 8.571-20 4 0 6.286-5.143-0.571 0-2.857-1.714t-4.286-2.857-2.571-1.143q5.143-2.857 1.143-9.143 2.857-1.714 4.286-6.286t4.286-5.714q5.143 6.857 12 1.143 4-4.571 0.571-9.143 2.857-4 11.714-6t10.571-5.429q4 1.143 4.571-1.143t0.571-6.857 1.714-6.857q2.286-2.857 8.571-5.143t7.429-2.857l9.714-6.286q1.714-2.286 0-2.286 10.286 1.143 17.714-6.286 5.714-6.286-3.429-11.429 1.714-3.429-1.714-5.429t-8.571-3.143q1.714-0.571 6.571-0.286t6-0.857q8.571-5.714-4-9.143-9.714-2.857-24.571 6.857zM502.286 872q117.714-20.571 200.571-108-1.714-1.714-7.143-2.571t-7.143-2q-10.286-4-13.714-4.571 0.571-4-1.429-7.429t-4.571-5.143-7.143-4.571-6.286-4q-1.143-1.143-4-3.429t-4-3.143-4.286-2.571-4.857-1.143-5.714 0.571l-1.714 0.571q-1.714 0.571-3.143 1.429t-3.143 1.714-2.286 1.714 0 1.429q-12-9.714-20.571-12.571-2.857-0.571-6.286-3.143t-6-4-5.714-0.857-6.571 4q-2.857 2.857-3.429 8.571t-1.143 7.429q-4-2.857 0-10t1.143-10.571q-1.714-3.429-6-2.571t-6.857 2.571-6.571 4.857-5.143 3.714-4.857 3.143-4.857 4.286q-1.714 2.286-3.429 6.857t-2.857 6.286q-1.143-2.286-6.571-3.714t-5.429-3.143q1.143 5.714 2.286 20t2.857 21.714q4 17.714-6.857 27.429-15.429 14.286-16.571 22.857-2.286 12.571 6.857 14.857 0 4-4.571 11.714t-4 12.286q0 3.429 1.143 9.143z"></path>
+        </symbol>
+    </defs>
+</svg>
+
+<a class="sr-only sr-only-focusable skip-link" href="#content">Skip to main content</a>
+<header id="header" role="banner">
+    <!-- this is the header -->
+<div id="logo"><a href="http://www.brunel.ac.uk" title="Return to home">Brunel University, London</a></div>
+  
+</header>
+
+<!--nav area-->
+<nav class="talis scoped-bootstrap clearfix" id="navbar-new" role="navigation">
+    <ul id="jsddm-new">
+        <li id="navItemHome">
+            <a id="lnkHome" href="/" title="Home">Home</a>
+        </li>
+        <li id="navItemMyLists">
+            <a id="lnkMyLists" href="/mylists"
+               title="My Lists">My Lists</a>
+        </li>
+        <li id="navItemMyBookmarks">
+            <a id="lnkMyBookmarks" href="/mybookmarks"
+               title="My Bookmarks">My Bookmarks</a>
+        </li>
+                <li id="navItemFeedback">
+            <a id="lnkFeedback" href="/feedback.html?title=CS3002+-+Artificial+Intelligence+2011-2012%26nbsp%3BArchived"
+               title="Leave us your feedback">Feedback</a>
+        </li>
+                
+        
+        <li id="navLogin"><a id="lnkLogin" href="/login.html">Log In</a></li>
+
+            </ul>
+</nav>
+<!--end nav area-->
+
+        <div id="fixedWidthContent" class="fixedWidthContent">
+            <div id="content" class="scbs " tabindex="-1">
+                <div class="wrapper container-fluid">
+                    <div id="pageMetaArea" >
+
+                        <div class="row-fluid page-header">
+                                                        <div class="span8">
+                                                                                            <div>
+                                  <h1 id="pageTitle" >CS3002 - Artificial Intelligence <span class="label label-important">2011-2012</span>&nbsp;<span class="label label-important">Archived</span>                                  <small class="beta" id="pageDescription" ><blockquote><p>Shenxiang Yang</p></blockquote></small></h1>
+                                </div>
+                                                                
+                                    <div class="btn-toolbar">
+                                                <a href="https://brunel.rl.talis.com/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46/events.html?title=CS3002+-+Artificial+Intelligence" id='recentChanges'  class="btn " ><i class='icon-question-sign'></i>&nbsp;Recent changes</a>
+                                                
+                                    </div>                            </div>
+                                                        <div class="span4">
+                                <div id="topRightNavBs" class="hidden-phone">
+                                    
+        <div class='row-fluid'>
+            <div class='span12'>
+                <div class='pull-right'>
+                    <dl class='dl-horizontal'>
+                        
+                        <dt title='Created'>Created:</dt>
+                        <dd><span title='2011-07-05T11:42:35+01:00' class='timeago'>05/07/2011 11:42:35</span></dd>
+                        <dt title='Last updated'>Last updated:</dt>
+                        <dd><span title='2012-03-05T10:16:39+00:00' class='timeago'>05/03/2012 10:16:39</span></dd>            </dl>
+                </div>
+            </div>
+        </div>                                </div>
+                            </div>
+                                                    </div>
+
+
+                                            </div>
+
+                    <div id="messages">
+                                                <div id="messagesList">
+                                                                                    <div id="msg-tp-past" class="alert alert-error">
+                                This list relates to the academic year <strong>2011-2012</strong> which ended on 31/07/2012                            </div>
+                                                                                    <div  class="alert alert-info">
+                                This list has been archived                            </div>
+                                                    </div>
+                                            </div>
+                    
+
+<div id="listContainer" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+<div class="row-fluid hidden-phone">
+    <div class="span12">
+        <div id="fluidHeaderWidth"></div><!-- this is here so we can use JS to measure it and set the fixed width of the header when it is docked -->
+        <div id="listContainerHeader">
+            <div class="row-fluid">
+                                    <div class="span4">
+                        <p>
+                            <span id="itemCountLabel" class="bold"><span id="fullCount">15</span> items</span>&nbsp;
+                            <a class='btn btn-small hidden-phone' id='showToc'><i class='icon-list'></i>&nbsp;Table of contents</a>&nbsp;                                                    </p>
+                    </div>
+                    <div class="span6">
+                        <div class="pull-right">
+                            <div class="btn-toolbar hidden-phone">
+                                                                    <div class="btn-group">
+                                        <a class="btn btn-small dropdown-toggle"  id="group-by-btn" data-toggle="dropdown" href="#">
+                                            Grouped by section                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            
+                            <li><a href="?groupby=type" id="group-by-type-btn">Group by type</a></li>
+                            <li><a href="?groupby=importance" id="group-by-importance-btn">Group by importance</a></li>
+                                                        </ul>
+                                    </div>
+                                                                <div class="btn-group" id="filterDropdown">
+                                    <a class="btn btn-small dropdown-toggle" id="apply-filter-btn" data-toggle="dropdown" href="#">
+                                        <span id="filterDropdownLabel">Apply filter</span>
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li id="btnEBookFilter" class="itemFilter"><a href="#"><span class="filterItemType">eBooks</span> (<span class="filterItemCount"></span> items)</a></li>
+                                        <li id="btnDigitisationFilter" class="itemFilter"><a href="#"><span class="filterItemType">Digitised resources</span> (<span class="filterItemCount"></span> item)</a></li>
+                                        <li id="btnWebLinkFilter" class="itemFilter"><a href="#"><span class="filterItemType">Online resources</span> (<span class="filterItemCount"></span> items)</a></li>
+                                        <li id="removeFilters"><a href="#">Remove filters</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span2">
+                        <form class="form-inline hidden-phone">
+                            <input type="text" id="keywordFilter" class="search-query" placeholder="Filter by author or title">                        </form>
+                    </div>
+                                    <form action="https://www.refworks.com/express/expressimport.asp?vendor=Talis+Aspire&filter=RIS+Format&database=&encoding=65001" method="post" name="exportRefworksForm" id="exportRefworksForm" target="RefWorksMain">
+                        <input type="hidden" id="importDataToRefworks"  name='ImportData'>
+                    </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid hidden">
+    <div id="filterResults" class="span12"></div>
+</div>
+
+<div class="row-fluid" id="listItemContainer">
+            <div id="toc" class="hidden hidden-phone">
+            <div class="well">
+                <h4>Table of contents</h4>
+                <div id="tocContent">
+                    <ul class="nav">
+                        
+                    <li id='tocSection-section-BA694D15-FD2A-6D12-8449-4E722418254A' class='tocSection'>
+                        <a href='#section-BA694D15-FD2A-6D12-8449-4E722418254A' class='ctr'
+                           title='Skip to Essential reading'>
+                                Essential reading</a><ol id='tocSection-section-BA694D15-FD2A-6D12-8449-4E722418254A-items' class='tocSectionItems nav'></ol>
+                    </li>
+                    <li id='tocSection-section-9292F92B-BA21-D4C1-82E2-9A77729CE084' class='tocSection'>
+                        <a href='#section-9292F92B-BA21-D4C1-82E2-9A77729CE084' class='ctr'
+                           title='Skip to Recommended reading'>
+                                Recommended reading</a><ol id='tocSection-section-9292F92B-BA21-D4C1-82E2-9A77729CE084-items' class='tocSectionItems nav'></ol>
+                    </li>                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    <ol class="list" id="listEntries">
+        <li class="section" id="section-BA694D15-FD2A-6D12-8449-4E722418254A">
+        <div class="sectionDetails row-fluid">
+            <div class="span12">
+                <span class="name">Essential reading</span>
+                <span class="itemCount muted">12 items</span>
+            </div>
+        </div>
+        <div class="sectionNote"></div>
+        <ol id="section-BA694D15-FD2A-6D12-8449-4E722418254A-items" class="sectionItems">
+        <li class="item" id="item-71F1418B-8D04-4C6F-05DF-67BE063197D2">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="71F1418B-8D04-4C6F-05DF-67BE063197D2" href="https://brunel.rl.talis.com/items/71F1418B-8D04-4C6F-05DF-67BE063197D2.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-71F1418B-8D04-4C6F-05DF-67BE063197D2" title="View item" class="itemLink"><span class="title">Artificial intelligence : a guide to intelligent systems</span></a> - <span class="author">Negnevitsky, Michael</span>
+<span class="publishedDate">2011</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">        <a class="btn btn-small btn-primary btnWebLink btnWebLink" href="/link?url=http%3A%2F%2Flib.myilibrary.com%2Fbrowse%2Fopen.asp%3Fid%3D333413%26entityid%3Dhttps%3A%2F%2Fidp.brunel.ac.uk%2Fentity&amp;sig=2525440f75a6b7b96f485a6ade12eff9264c572209750716f0e3540a6c769d30" target="_blank" title="Online Resource"><i class="icon-globe icon-white"></i><span class="hidden-phone hidden-tablet action-label">&nbsp;Online Resource</span></a></p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-0C9A2D35-6CF3-5316-D877-A5956EAAA994">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="0C9A2D35-6CF3-5316-D877-A5956EAAA994" href="https://brunel.rl.talis.com/items/0C9A2D35-6CF3-5316-D877-A5956EAAA994.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-0C9A2D35-6CF3-5316-D877-A5956EAAA994" title="View item" class="itemLink"><span class="title">Principles of data mining</span></a> - <span class="author">Hand, D. J.</span>, <span class="author">Mannila, Heikki</span>, <span class="author">Smyth, Padhraic</span>
+<span class="publishedDate">c2001</span><span class="isbns invisible">026208290X,9780262082907</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-D92C4859-FCC5-16E7-838F-9B760A23F62B">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="D92C4859-FCC5-16E7-838F-9B760A23F62B" href="https://brunel.rl.talis.com/items/D92C4859-FCC5-16E7-838F-9B760A23F62B.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-D92C4859-FCC5-16E7-838F-9B760A23F62B" title="View item" class="itemLink"><span class="title">Artificial intelligence: structures and strategies for complex problem solving</span></a> - <span class="author">Luger, George F.</span>
+<span class="publishedDate">2009</span><span class="isbns invisible">0132090015,9780132090018</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-11E2623C-4993-D169-2C5A-4584B2BC4FA3">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="11E2623C-4993-D169-2C5A-4584B2BC4FA3" href="https://brunel.rl.talis.com/items/11E2623C-4993-D169-2C5A-4584B2BC4FA3.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-11E2623C-4993-D169-2C5A-4584B2BC4FA3" title="View item" class="itemLink"><span class="title">Artificial Intelligence: a new synthesis</span></a> - <span class="author">Nilsson, Nils J.</span>
+<span class="publishedDate">c1998</span><span class="isbns invisible">1558604677,9781558604674,9781558605350</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-00702FA0-3D2E-A245-9D5A-E7308959CB08">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="00702FA0-3D2E-A245-9D5A-E7308959CB08" href="https://brunel.rl.talis.com/items/00702FA0-3D2E-A245-9D5A-E7308959CB08.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-00702FA0-3D2E-A245-9D5A-E7308959CB08" title="View item" class="itemLink"><span class="title">Artificial intelligence: a modern approach</span></a> - <span class="author">Russell, Stuart J.</span>, <span class="author">Norvig, Peter</span>
+<span class="publishedDate">c2010</span><span class="isbns invisible">0132071487,9780132071482</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-A1B6245E-74D3-038C-EFB0-054C78968991">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="A1B6245E-74D3-038C-EFB0-054C78968991" href="https://brunel.rl.talis.com/items/A1B6245E-74D3-038C-EFB0-054C78968991.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-A1B6245E-74D3-038C-EFB0-054C78968991" title="View item" class="itemLink"><span class="title">Evolutionary computation: a unified approach</span></a> - <span class="author">De Jong, Kenneth A.</span>
+<span class="publishedDate">c2006</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">        <a class="btn btn-small btn-primary btnEBook btnWebLink" href="/link?url=http%3A%2F%2Flib.myilibrary.com%3Fid%3D209624%7CzConnect%20to%20MyiLibrary%20resource.&amp;sig=b068984071d0deacdd2234f5d9f20336630b0fa4503d4264e544b55223016c0c" target="_blank" title="Online Resource"><i class="icon-book icon-white"></i><span class="hidden-phone hidden-tablet action-label">&nbsp;Online Resource</span></a></p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-266A359F-84B3-2A4E-22ED-BA779104FE5E">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="266A359F-84B3-2A4E-22ED-BA779104FE5E" href="https://brunel.rl.talis.com/items/266A359F-84B3-2A4E-22ED-BA779104FE5E.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-266A359F-84B3-2A4E-22ED-BA779104FE5E" title="View item" class="itemLink"><span class="title">Introduction to evolutionary computing</span></a> - <span class="author">Eiben, Agoston E.</span>, <span class="author">Smith, J. E.</span>
+<span class="publishedDate">2010</span><span class="isbns invisible">9783642072857</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-D0E7954C-2CDE-C1DE-D60D-B3A6228A85B6">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="D0E7954C-2CDE-C1DE-D60D-B3A6228A85B6" href="https://brunel.rl.talis.com/items/D0E7954C-2CDE-C1DE-D60D-B3A6228A85B6.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-D0E7954C-2CDE-C1DE-D60D-B3A6228A85B6" title="View item" class="itemLink"><span class="title">Genetic algorithms</span></a> - <span class="author">Zbigniew Michalewicz</span>
+<span class="publishedDate">2006</span><span class="isbns invisible">3540606769,9783540606765</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-E71DA76B-67BA-08FD-E679-AEC8A2A07F03">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="E71DA76B-67BA-08FD-E679-AEC8A2A07F03" href="https://brunel.rl.talis.com/items/E71DA76B-67BA-08FD-E679-AEC8A2A07F03.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-E71DA76B-67BA-08FD-E679-AEC8A2A07F03" title="View item" class="itemLink"><span class="title">Data mining: practical machine learning tools and techniques</span></a> - <span class="author">Witten, I. H.</span>, <span class="author">Frank, Eibe</span>, <span class="author">Hall, Mark A.</span>
+<span class="publishedDate">c2011</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">        <a class="btn btn-small btn-primary btnEBook btnWebLink" href="/link?url=http%3A%2F%2Flib.myilibrary.com%2Fbrowse%2Fopen.asp%3Fid%3D295388%26entityid%3Dhttps%3A%2F%2Fidp.brunel.ac.uk%2Fentity&amp;sig=d8444b426210c962fd0fc730695fa094e9a151c7a5621041a4eb2e5688e7be3a" target="_blank" title="Online Resource"><i class="icon-book icon-white"></i><span class="hidden-phone hidden-tablet action-label">&nbsp;Online Resource</span></a></p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-DF97EB11-54AF-47E7-AEA2-39A9E63F0F78">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="DF97EB11-54AF-47E7-AEA2-39A9E63F0F78" href="https://brunel.rl.talis.com/items/DF97EB11-54AF-47E7-AEA2-39A9E63F0F78.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-DF97EB11-54AF-47E7-AEA2-39A9E63F0F78" title="View item" class="itemLink"><span class="title">Intelligent data analysis: an introduction</span></a> - <span class="author">Berthold, M.</span>, <span class="author">Hand, D. J.</span>
+<span class="publishedDate">c2003</span><span class="isbns invisible">3540430601</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-27AC1CF3-1140-5BE9-61C1-4D1A90888693">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="27AC1CF3-1140-5BE9-61C1-4D1A90888693" href="https://brunel.rl.talis.com/items/27AC1CF3-1140-5BE9-61C1-4D1A90888693.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-27AC1CF3-1140-5BE9-61C1-4D1A90888693" title="View item" class="itemLink"><span class="title">Principles of expert systems</span></a> - <span class="author">Lucas, Peter</span>, <span class="author">Gaag, Linda van der</span>
+<span class="publishedDate">1991</span><span class="isbns invisible">0201416409,9780201416404</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-C854AB8A-D0D7-68D0-ECEE-8F9496C213DD">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="C854AB8A-D0D7-68D0-ECEE-8F9496C213DD" href="https://brunel.rl.talis.com/items/C854AB8A-D0D7-68D0-ECEE-8F9496C213DD.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-C854AB8A-D0D7-68D0-ECEE-8F9496C213DD" title="View item" class="itemLink"><span class="title">Neural networks for pattern recognition</span></a> - <span class="author">Bishop, Christopher M.</span>
+<span class="publishedDate">1995</span><span class="isbns invisible">0198538642,9780198538646</span>
+      </p>
+    <p>
+        <span class='resourceType label'>Book</span>&nbsp;<strong>Essential reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">&nbsp;</p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li></ol></li><li class="section" id="section-9292F92B-BA21-D4C1-82E2-9A77729CE084">
+        <div class="sectionDetails row-fluid">
+            <div class="span12">
+                <span class="name">Recommended reading</span>
+                <span class="itemCount muted">3 items</span>
+            </div>
+        </div>
+        <div class="sectionNote"></div>
+        <ol id="section-9292F92B-BA21-D4C1-82E2-9A77729CE084-items" class="sectionItems">
+        <li class="item" id="item-44BE1C25-5EFB-F839-0268-A34BFBD25844">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="44BE1C25-5EFB-F839-0268-A34BFBD25844" href="https://brunel.rl.talis.com/items/44BE1C25-5EFB-F839-0268-A34BFBD25844.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-44BE1C25-5EFB-F839-0268-A34BFBD25844" title="View item" class="itemLink"><span class="title">ACM Digital Library</span></a>
+      </p>
+    <p>
+        <span class='resourceType label'>Website</span>&nbsp;<strong>Recommended reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">        <a class="btn btn-small btn-primary btnWebLink btnWebLink" href="/link?url=http%3A%2F%2Fportal.acm.org%2F&amp;sig=9d7aebc9c5e89d8654b9b287525914e9374ce4e31889bbde972298d42fbf8b9e" target="_blank" title="Online Resource"><i class="icon-globe icon-white"></i><span class="hidden-phone hidden-tablet action-label">&nbsp;Online Resource</span></a></p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-BE73F324-75BF-4136-1397-4EF959B5150A">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="BE73F324-75BF-4136-1397-4EF959B5150A" href="https://brunel.rl.talis.com/items/BE73F324-75BF-4136-1397-4EF959B5150A.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-BE73F324-75BF-4136-1397-4EF959B5150A" title="View item" class="itemLink"><span class="title">IEEE - The world&#039;s largest professional association for the advancement of technology</span></a>
+      </p>
+    <p>
+        <span class='resourceType label'>Webpage</span>&nbsp;<strong>Recommended reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">        <a class="btn btn-small btn-primary btnWebLink btnWebLink" href="/link?url=http%3A%2F%2Fwww.ieee.org%2Findex.html&amp;sig=0907f5fd674b86f8769400869f149a067615d6ea07ae710491ecb5ee8d7aa0ea" target="_blank" title="Online Resource"><i class="icon-globe icon-white"></i><span class="hidden-phone hidden-tablet action-label">&nbsp;Online Resource</span></a></p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li><li class="item" id="item-097FFB51-1562-285D-1B02-55D2763F065D">
+  <div class='outlineItem'>
+    <div class='row-fluid'>
+      <div class='span9'>
+        <p class='itemBibData'><a id="097FFB51-1562-285D-1B02-55D2763F065D" href="https://brunel.rl.talis.com/items/097FFB51-1562-285D-1B02-55D2763F065D.html?referrer=%2Flists%2FE199BCF2-BF94-6B87-81A0-4DACAEC11F46.html%23item-097FFB51-1562-285D-1B02-55D2763F065D" title="View item" class="itemLink"><span class="title">The association for the advancement of artificial intelligence (AAAI) website</span></a>
+      </p>
+    <p>
+        <span class='resourceType label'>Webpage</span>&nbsp;<strong>Recommended reading</strong>
+    </p>
+      </div>
+      <div class='span3'>
+<div class="pull-right item-actions"><div class="row-fluid"><div class="span12"><p class="pull-right">        <a class="btn btn-small btn-primary btnWebLink btnWebLink" href="/link?url=http%3A%2F%2Fwww.aaai.org%2Faitopics%2Fpmwiki%2Fpmwiki.php%2FAITopics%2FHomePage&amp;sig=8e71fb78822b043cfb0fe2508b16c4b827199fce739ec1821e9f53f2f872c902" target="_blank" title="Online Resource"><i class="icon-globe icon-white"></i><span class="hidden-phone hidden-tablet action-label">&nbsp;Online Resource</span></a></p></div></div><div class="row-fluid"><div class="span12">    <div class='btn-toolbar annotation-actions'>
+<a class='btn btn-small read-status-not-logged-in dropdown-toggle' href='#read-status-not-logged-in' data-toggle='modal'><span class='hidden-desktop action-icon'><i class='icon-book'></i>&nbsp;</span><span class='hidden-phone hidden-tablet action-label'>Read status&nbsp;</span></a><a class='btn btn-small edit-note-not-logged-in' href='#note-modal-not-logged-in' data-toggle='modal'><span class='action-icon'><i class='icon-pencil'></i></span><span class='hidden-phone hidden-tablet action-label'>&nbsp;Add note</span></a>&nbsp;
+    </div>
+</div></div></div>
+      </div>
+    </div>
+  </div>
+</li></ol></li>    </ol>
+</div>
+</div>
+<div id='licenseMarkup' class='centered marginTop10'>All rights reserved &copy;</div>
+
+<script type="text/javascript">
+    //<![CDATA[
+        var showDashboardTutorialOnPageLoad = false;
+        //]]>
+</script>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var dashboardDefaultTimeZone = "Europe/London";
+    var dashboardTimePeriodStartTimestamp = '2011-08-01T00:00:00+01:00';
+    var dashboardTimePeriodEndTimestamp = '2012-07-31T23:59:59+01:00';
+    //]]>
+</script>
+
+
+<div class="modal hide" id="tutorial-modal">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 id="tutorial-heading"></h3>
+    </div>
+    <div class="modal-body">
+    </div>
+    <div class="modal-footer">
+        <a class="btn" data-dismiss="modal" aria-hidden="true" id="tutorial-no-thanks" href="#tutorial-modal">No thanks</a>
+        <a class="btn btn-success" id="start-tutorial" href="#tutorial-modal">Start tutorial</a>
+    </div>
+</div>
+
+
+<div id="profile-required-modal" class="modal hide">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Profile Required</h3>
+    </div>
+    <div class="modal-body">
+        <p>Reading intentions and notes are stored against your user profile. Please create a profile to use this feature.</p>
+    </div>
+    <div class="modal-footer">
+        <a class="btn" data-dismiss="modal" aria-hidden="true">Close</a>
+        <a id="profile-required-create"class="btn btn-primary" role="button" aria-hidden="true" href="http://anon?create">
+            Create a Profile        </a>
+    </div>
+</div>
+
+<div id="preview-markup" class="hide">
+    <p class="pull-right">
+        <a class="btn btn-primary btn-small btnGooglePreview btnInstantAccess" href="" title="Preview">
+            <i class="icon-book icon-white"></i>
+            <span class="hidden-phone hidden-tablet action-label">&nbsp;Preview</span>
+        </a>
+    </p>
+</div>
+<div id="select-edition-modal" class="modal hide" data-backdrop="static" data-keyboard="false">
+</div>
+
+    <div class="modal hide" id="note-modal-not-logged-in">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3>My notes</h3>
+        </div>
+        <div class="modal-body">
+            <p class="alert">You must be logged in to add a note</p>
+            <h4 class="alert-heading">What are item notes?</h4>
+            <p>You can use item notes to make personal notes on any of your reading items. Notes are private to you and will not be shown to other users.</p>
+            <p>You can review your item notes from the list, the item page or from your profile page.</p>
+            <hr>
+            <h4>How do I create an item note?</h4>
+            <p>To make notes, first you must be logged in. Once logged in, simply click <em>Add note?</em> next to the list item you wish to make notes on. You can also make notes at the bottom of every item's detail page.</p>
+            <p>Your note will be saved automatically as you type.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+            <a class="btn btn-primary" href="/login.html">Log In</a>
+        </div>
+    </div>
+    <div class="modal hide" id="read-status-not-logged-in">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3>Have you read this?</h3>
+        </div>
+        <div class="modal-body">
+            <p class="alert">You must be logged in to set a reading intention</p>
+            <h4 class="alert-heading">What are reading intentions?</h4>
+            <p>Setting up reading intentions help you organise your course reading. It makes it easy to scan through your lists and keep track of progress. Here's an example of what they look like:</p>
+            <p>
+                <img src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/images/help/reading-intentions-list.png" alt="Reading intentions in the list view" class="img-polaroid">
+            </p>
+            <p>Your reading intentions are also stored in <a href="/myprofile">your profile</a> for future reference.</p>
+            <hr>
+            <h4>How do I set a reading intention</h4>
+            <p>To set a reading intention, first you must be logged in. Once logged in, click <em>Read this?</em> next to the list item you wish to set a reading intention for.</p>
+            <p>
+                <img src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/images/help/reading-intentions-list-set.png" alt="Reading intentions in the list view" class="img-polaroid">
+            </p>
+            <p>You can also set the reading intention from every item's detail page.</p>
+            <p>
+                <img src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/images/help/reading-intentions-item.png" alt="Reading intentions in the item view" class="img-polaroid">
+            </p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+            <a class="btn btn-primary" href="/login.html">Log In</a>
+        </div>
+    </div>
+
+                  </div>
+                </div>
+                
+                    
+        <script src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/bs-concat.js"></script>
+
+        
+        <!--[if lt IE 10]>
+            <script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/jquery.placeholder.js"></script>
+            <script type="text/javascript">
+                jQuery(function() {
+                    // Invoke the plugin
+                    jQuery('input').placeholder();
+                });
+            </script>
+
+            <script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/jquery.xdomainrequest.min.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript" src="/js/TinyMCE/tiny_mce.js?1639-4da9409a"></script>
+	<script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/i18next.js"></script>
+	<script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/jquery.timeago.js"></script>
+	<script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/timeago.js"></script>
+	<script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/listOutlineView.js"></script>
+	<script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/listSectionReadStatusNote.js"></script>
+	<script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/exportToRefworks.js"></script>
+	<script type="text/javascript" src="https://3171dc39aa97a0ffd6dd-45ca4b50ee6fc0278b6a42754728f35b.ssl.cf3.rackcdn.com/1639-4da9409a/js/googleBookPreviewMessage.js"></script>
+	<script type="text/javascript">window.scrollBy(0,-250);</script>
+	<script type="text/javascript" src="https://b2715be14430332f5450-7bd0d899d50e2a464174bd7ec599ad6a.ssl.cf3.rackcdn.com/js/DescriptionTextHighlight/1.0/DescriptionTextHighlight.js"></script>
+	<script type="text/javascript" src="https://b2715be14430332f5450-7bd0d899d50e2a464174bd7ec599ad6a.ssl.cf3.rackcdn.com/js/ezproxy/4.0/js/ebook-ezproxy.js"></script>
+        </div>
+        <div id="footer">
+            <ul id="footer-nav">
+    <li><a href="http://www.brunel.ac.uk/about-this-website/terms">Terms and conditions</a></li>
+    <li><a href="http://www.brunel.ac.uk/about-this-website/disclaimer">Disclaimer</a></li>
+    <li><a href="http://www.brunel.ac.uk/about/administration/information-access/freedom-of-information">Freedom of Information</a></li>
+</ul>
+
+<p class="copyright">&copy; <a href="http://www.brunel.ac.uk/home">Brunel University London</a></p>
+
+<div id="poweredBy"><a href="http://talis.com/?utm_source=brunel&amp;utm_medium=rl&amp;utm_campaign=poweredby">
+  <img src="https://6914bdf3367cf0665ef7-9c88bb295bd20c17da407d48346c142f.ssl.cf3.rackcdn.com/brunel/live/contrib/pbt_black.png" alt="Talis" /></a>
+</div>
+
+<div id="libraryAtBrunel"><a href="http://www.brunel.ac.uk/library" title="Return to home">Library @ Brunel</a></div>
+        </div>
+
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-1351958-27', {'name': 'gaTracker0'});
+ga('gaTracker0.send', 'pageview');
+ga('create', 'UA-19308055-1', {'name': 'gaTracker1', 'cookieDomain': 'none', 'allowLinker': true});
+ga('gaTracker1.send', 'pageview');
+ga('create', 'UA-2411194-57', {'name':'gaTrackerGlobal', 'allowLinker': true});
+ga('gaTrackerGlobal.set', 'dimension1', 'brunel');ga('gaTrackerGlobal.set', 'dimension2', '');ga('gaTrackerGlobal.set', 'dimension3', '0');ga('gaTrackerGlobal.set', 'dimension4', 'listOutlineView');ga('gaTrackerGlobal.send', 'pageview');
+ga('require', 'linker');ga('linker:autoLink', ['https://brunel.rl.talis.com'] );</script>
+
+                <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"234eca99f6","applicationID":"179412","transactionName":"ZF0EMhZZVxdVUUFZXl0XJRMXTFYJG35cQ0V7WQgCCF1L","queueTime":0,"applicationTime":219,"atts":"SBoTRF5DREgWUxcKSk5F","errorBeacon":"bam.nr-data.net","agent":""}</script>
+    </body>
+<script>
+  WebFontConfig = {
+    google: { families: ['Open+Sans:400,300,700:latin'] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+    <!-- Font Awesome by Dave Gandy - http://fontawesome.io-->
+</html>

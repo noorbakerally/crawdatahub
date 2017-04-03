@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/net/provenance/ns#"
+    xmlns:j.1="http://usefulinc.com/ns/doap#"
+    xmlns:j.2="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.3="http://spinrdf.org/sp#"
+    xmlns:j.4="http://purl.org/net/provenance/types#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:j.6="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:j.7="http://rdfs.org/ns/void#">
+  <j.4:DataCreatingService rdf:about="http://202.45.139.84:10035/catalogs/fao/repositories/jita">
+    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#Actor"/>
+  </j.4:DataCreatingService>
+  <j.1:Project>
+    <j.1:homepage rdf:resource="http://www4.wiwiss.fu-berlin.de/pubby/"/>
+    <j.1:release>
+      <j.1:Version rdf:nodeID="A0">
+        <j.1:revision>0.4</j.1:revision>
+      </j.1:Version>
+    </j.1:release>
+  </j.1:Project>
+  <rdf:Description>
+    <j.7:sparqlEndpoint rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/jita"/>
+  </rdf:Description>
+  <j.2:Concept rdf:about="http://aims.fao.org/aos/jita/T">
+    <j.2:prefLabel xml:lang="pt">1.[Teoria e generalidades]: nível geral</j.2:prefLabel>
+    <j.2:inScheme rdf:resource="http://aims.fao.org/aos/agrovoc/jita"/>
+    <j.2:prefLabel xml:lang="ca">1.[Aspectes teòrics i generals]: nivell general</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="tr">1.[Teorik ve Genel]: genel düzey</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="ar">1.     [ النظري و العام] : المستوى العام</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="ro">1.[Aspecte generale și teoretice]: nivel general</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="nl">1.[Theorie en algemeen]: algemeen niveau</j.2:prefLabel>
+    <j.2:narrower rdf:resource="http://aims.fao.org/aos/jita/US"/>
+    <j.2:prefLabel xml:lang="sv">1.[Teoretisk och Allmän]: allmän nivå</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="en">1.[Theoretical and General]: general level</j.2:prefLabel>
+    <j.2:narrower rdf:resource="http://aims.fao.org/aos/jita/TH"/>
+    <j.2:prefLabel xml:lang="el">1.[Θεωρητικά και γενικά θέματα]:  γενικό επίπεδο</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="pl">1.[Teoretyczne i ogólne]: poziom ogólny</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="it">1.[Aspetti teoretici e generali]: livello generale</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="ru">1.[Теоретический и общий]: общий уровень</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="cs">1.[Teorie a obecnosti]: obecná úroveň</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="fr">1.[Théorie et généralités]: niveau général</j.2:prefLabel>
+    <j.2:prefLabel xml:lang="es">1.[Teoría y aspectos generales]: nivel general</j.2:prefLabel>
+  </j.2:Concept>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/data/T?output=xml">
+    <rdfs:label>RDF description of T</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://aims.fao.org/aos/jita/T"/>
+  </rdf:Description>
+  <j.6:Graph rdf:nodeID="A1">
+    <j.0:createdBy>
+      <j.0:DataCreation>
+        <j.0:usedData>
+          <j.6:Graph>
+            <j.0:createdBy>
+              <j.4:QueryExecution>
+                <j.0:usedGuideline>
+                  <j.3:Describe>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DESCRIBE &lt;http://aims.fao.org/aos/jita/T&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                  </j.3:Describe>
+                </j.0:usedGuideline>
+                <j.0:performedBy rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/jita"/>
+                <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataCreation"/>
+              </j.4:QueryExecution>
+            </j.0:createdBy>
+            <j.0:retrievedBy>
+              <j.0:DataAccess>
+                <j.0:accessedService rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/jita"/>
+                <j.0:performedBy>
+                  <j.4:DataCreatingService rdf:nodeID="A2">
+                    <rdfs:seeAlso rdf:resource="http://aims.fao.org/aos/"/>
+                    <j.0:deployedSoftware rdf:nodeID="A0"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#Actor"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataProvidingService"/>
+                  </j.4:DataCreatingService>
+                </j.0:performedBy>
+                <j.0:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2017-04-01T23:16:36.11Z</j.0:performedAt>
+              </j.0:DataAccess>
+            </j.0:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+          </j.6:Graph>
+        </j.0:usedData>
+        <j.0:performedBy rdf:nodeID="A2"/>
+        <j.0:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-04-01T23:16:36.11Z</j.0:performedAt>
+      </j.0:DataCreation>
+    </j.0:createdBy>
+    <j.5:realizes rdf:resource="http://aims.fao.org/aos/data/T"/>
+    <foaf:topic rdf:nodeID="A1"/>
+    <foaf:primaryTopic rdf:resource="http://aims.fao.org/aos/jita/T"/>
+    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+  </j.6:Graph>
+</rdf:RDF>

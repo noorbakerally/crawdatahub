@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/terms/" xmlns:dce="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:void="http://rdfs.org/ns/void#">
+<skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P01/current/SPMIMEXX/">
+<skos:prefLabel xml:lang="en">Concentration of suspended particulate material (inorganic) per unit volume of the water body by programmable medium-spectral resolution imaging spectrometer (MERIS)</skos:prefLabel>
+<skos:altLabel xml:lang="en">InorgSOM_MERIS</skos:altLabel>
+<skos:definition xml:lang="en">Inorganic suspended particulate material concentration determined from MERIS multiple-waveband normalised water-leaving radiance measurements using an unspecified algorithm</skos:definition>
+<dc:identifier>SDN:P01::SPMIMEXX</dc:identifier>
+<dce:identifier>SDN:P01::SPMIMEXX</dce:identifier>
+<skos:notation>SDN:P01::SPMIMEXX</skos:notation>
+<owl:versionInfo>1</owl:versionInfo>
+<dc:date>2011-02-18 17:10:56.0</dc:date>
+<skos:note xml:lang="en">accepted</skos:note>
+<owl:deprecated>false</owl:deprecated>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P19/current/PLSR0093/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/TSED/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/P06/current/UMGL/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/P25/current/TURB/"/>
+<skos:broader rdf:resource="http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/"/>
+<skos:related rdf:resource="http://vocab.nerc.ac.uk/collection/S02/current/S053/"/>
+<void:inDataset rdf:resource="http://vocab.nerc.ac.uk/.well-known/void"/>
+</skos:Concept>
+</rdf:RDF>

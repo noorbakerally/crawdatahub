@@ -1,0 +1,10 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/ontology/sukl/> .
+<http://linked.opendata.cz/resource/es/msssi/medicinal-product-packaging/650003>	rdf:type	ns1:MedicinalProductPackaging .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+<http://linked.opendata.cz/resource/es/msssi/medicinal-product-packaging/650003>	rdfs:seeAlso	"http://www.msssi.gob.es/datosAbiertos/nomenclatorRDF.do?id=650003" .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+<http://linked.opendata.cz/resource/es/msssi/medicinal-product-packaging/650003>	skos:prefLabel	"IBUPROX 100MG/5ML 200ML SUSPENSION ORAL"@es .
+@prefix ns4:	<http://linked.opendata.cz/resource/sukl/active-ingredient/> .
+<http://linked.opendata.cz/resource/es/msssi/medicinal-product-packaging/650003>	ns1:hasActiviteIngredient	ns4:IBUPROFENO ;
+	ns1:hasPriceSpecification	<http://linked.opendata.cz/resource/es/msssi/medicinal-product-packaging/650003/2015-08> .

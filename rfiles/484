@@ -1,0 +1,31 @@
+
+<http://opendatacommunities.org/data/households/social-lettings/general-needs/lettings/prp/number-bedrooms> <http://purl.org/dc/terms/modified> "2013-10-25T16:08:29+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a <http://publishmydata.com/def/dataset#Dataset> ;
+	<http://purl.org/dc/terms/title> "New general needs PRP lettings, 2012/2013, England, District By Number of Bedrooms " ;
+	<http://purl.org/dc/terms/publisher> <http://reference.data.gov.uk/id/department/dclg> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This data set shows new Private Registered Providers (PRP) general needs lettings during 2012/13 by number of bedrroms." ;
+	<http://purl.org/dc/terms/issued> "2013-10-25T16:08:29+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "New general needs PRP lettings, 2012/2013, England, District By Number of Bedrooms " ;
+	<http://purl.org/dc/terms/description> """Information about the tenancy, the tenants and the property is collected each time there is a new letting. Lets of general needs and supported social housing are collected, and, from 2012/13, both local authority and private registered providers also report their affordable rent lettings (PRPs began this reporting in 2011/12). All data are submitted through the on-line Continuous Recording system (CORE). 
+
+The rents reported to CORE are for properties let within the financial year and therefore will differ to figures on the rents for all social stock.
+
+Private registered providers (PRPs)
+
+PRPs refer in this document to Private Registered Providers of social housing in England that are registered with the social housing regulator (from 1st April 2012 this is the Homes and Communities Agency’s Regulation Committee).  These were previously term Registered Social Landlords or housing associations.  This term excludes local authority registered providers.  
+
+General needs housing
+
+General needs housing covers the bulk of housing stock for rent and includes both self-contained and shared housing. It is stock that is not designated for specific client groups requiring support, or stock that does not have the special design features that are specific to housing for older people or supported housing. Where additional support is offered to all residents as a matter of course, this stock is not general needs (see definition of supported housing).
+
+For further information  please see the 'Social Housing Lettings: April 2012 to March 2013, England' statistical release available in  [PDF format](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/252344/REVISED_20131023_CORE_statistical_release_2012-13.pdf).""" ;
+	<http://www.w3.org/ns/dcat#theme> <http://opendatacommunities.org/def/concept/themes/households> ;
+	<http://publishmydata.com/def/dataset#graph> <http://opendatacommunities.org/graph/households/social-lettings/general-needs/lettings/prp/number-bedrooms> ;
+	<http://purl.org/dc/terms/references> <http://docs.publishmydata.com> ;
+	<http://purl.org/dc/terms/subject> <http://opendatacommunities.org/def/concept/themes/households> ;
+	<http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/> ;
+	<http://rdfs.org/ns/void#sparqlEndpoint> <http://opendatacommunities.org/sparql> ;
+	<http://publishmydata.com/def/dataset#contactEmail> <mailto:ODC@communities.gsi.gov.uk> ;
+	<http://publishmydata.com/def/ontology/folder/inFolder> <http://opendatacommunities.org/def/concept/folders/themes/households> ;
+	a <http://purl.org/linked-data/cube#DataSet> ;
+	<http://purl.org/linked-data/cube#structure> <http://opendatacommunities.org/def/structure/households/social-lettings/general-needs/lettings/prp/number-bedrooms> .

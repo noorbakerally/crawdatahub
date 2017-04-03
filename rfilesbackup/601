@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://m-kuttner.com/status/user/1"></maker>
+  <primaryTopic rdf:resource="http://m-kuttner.com/status/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://m-kuttner.com/status/user/1">
+  <mbox_sha1sum>54c56c3ee34c8c4f2ff436a4e57574786ff3044f</mbox_sha1sum>
+  <name>admin</name>
+  <weblog rdf:resource="http://m-kuttner.com/status/admin"></weblog>
+  <account>
+   <OnlineAccount rdf:about="http://m-kuttner.com/status/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://m-kuttner.com/status/"></accountServiceHomepage>
+    <accountName>admin</accountName>
+    <accountProfilePage rdf:resource="http://m-kuttner.com/status/admin"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://m-kuttner.com/status/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://m-kuttner.com/status/user/2#acct"></sioc:follows>
+    <sioc:follows rdf:resource="http://m-kuttner.com/status/user/3#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://m-kuttner.com/status/user/2">
+  <account>
+   <OnlineAccount rdf:about="http://m-kuttner.com/status/user/2#acct">
+    <accountServiceHomepage rdf:resource="http://m-kuttner.com/status/"></accountServiceHomepage>
+    <accountName>martin</accountName>
+    <accountProfilePage rdf:resource="http://m-kuttner.com/status/martin"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://m-kuttner.com/status/user/2"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://m-kuttner.com/status/martin/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://m-kuttner.com/status/martin/foaf">
+  <maker rdf:resource="http://m-kuttner.com/status/user/2"></maker>
+  <primaryTopic rdf:resource="http://m-kuttner.com/status/user/2"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://m-kuttner.com/status/user/3">
+  <account>
+   <OnlineAccount rdf:about="http://m-kuttner.com/status/user/3#acct">
+    <accountServiceHomepage rdf:resource="http://m-kuttner.com/status/"></accountServiceHomepage>
+    <accountName>blog</accountName>
+    <accountProfilePage rdf:resource="http://m-kuttner.com/status/blog"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://m-kuttner.com/status/user/3"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://m-kuttner.com/status/blog/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://m-kuttner.com/status/blog/foaf">
+  <maker rdf:resource="http://m-kuttner.com/status/user/3"></maker>
+  <primaryTopic rdf:resource="http://m-kuttner.com/status/user/3"></primaryTopic>
+ </PersonalProfileDocument>
+</rdf:RDF>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akts "http://www.aktors.org/ontology/support#">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akts="&akts;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-03-30T09:35:20</dcterms:created>
+		<dc:source rdf:resource="http://cordis.rkbexplorer.com/id/project-8376495"/>
+		<coref:coreferenceData rdf:resource="http://cordis.rkbexplorer.com/crs/project-8376495" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://cordis.rkbexplorer.com/id/project-8376495">
+		<akt:has-project-leader rdf:resource="http://cordis.rkbexplorer.com/id/person-d4b3d4469e1ed4a8577117bd37047023-50d563bcbfce604aa2c3f0ab6ef4924c"/>
+		<akt:has-leading-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-37324837310b97c2324533c32f0b624d"/>
+		<akt:addresses-generic-area-of-interest rdf:resource="http://cordis.rkbexplorer.com/id/interest-IPS"/>
+		<akts:has-pretty-name>RESIST</akts:has-pretty-name>
+		<akt:has-goals>ReSIST is a NoE that addresses the strategic objective \&quot;Towards a global dependability and security framework\&quot; of the Work Programme, and responds to the stated \&quot;need for resilience, self-healing, dynamic content and volatile environments\&quot;.
+
+It will integrate leading researchers active in the multidisciplinary domains of Dependability, Security, and Human Factors, in order that Europe will have a well-focused coherent set of research activities aimed at ensuring that future \&quot;ubiquitous computing systems\&quot;, the immense systems of ever-evolving networks of computers and mobile devices which are needed to support and provide Ambient Intelligence (AmI), have the necessary resilience and survivability, despite any residual development and physical faults, interaction mistakes, or malicious attacks and disruptions.
+
+The objectives of the Network are:
+1) Integration of teams of researchers so that the fundamental topics concerning scalably resilient ubiquitous systems are addressed by a critical mass of co-operative, multi-disciplinary research.
+2) Identification, in an international context, of the key research directions (both technical and socio-technical) induced on the supporting ubiquitous systems by the requirement for trust and confidence in AmI.
+3) Production of significant research results (concepts, models, policies, algorithms, mechanisms) that pave the way for scalably resilient ubiquitous systems.
+4) Promotion and propagation of a resilience culture in university curricula and in engineering best practices.
+
+ReSIST&apos;s partners are: Budapest UTE (HG), City U. (UK), TU Darmstadt (DE), Deep Blue Srl (IT), France Telecom RandD (FR), IBM Research GmbH (CH), Institut Eurecom (FR), IRISA (FR), IRIT (FR), LAAS-CNRS (FR), Lisbon U. (PT), Newcastle upon Tyne U. (UK), Pisa U. (IT), Qinetiq (UK), Roma U. &apos;La Sapienza&apos; (IT), Ulm U. (DE), Vytautas Magnus U. (LT).</akt:has-goals>
+		<akt:has-title>Resilience for survivability in IST</akt:has-title>
+		<rdf:type rdf:resource="&akt;Project"/>
+		<rdf:type rdf:resource="&akts;Temporal-Thing"/>
+		<rdf:type rdf:resource="&akts;Thing"/>
+		<akt:involves-organization rdf:resource="http://wiki.rkbexplorer.com/id/universita_degli_studi_di_romau002C_la_sapienza"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-ddcd06c07e88a950fd16d74e5ca460e6"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-0d2bc82e6f3ed93411bec8c066285ec7"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-14f35e0268d3b0629c71639ec6aea582"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-9e196e80d86b35b7df2f5c3d0eb1a0c5"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-a4a9accb1c693b5a11f7b36d31515d26"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-789a14767cf3082a5c705ba2ebd25c54"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-99b642df96a3515a68cca1e8145b3ae5"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-98d6b36aea23b76b2469b6db76c488be"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-3538e3d810434d54937010e35e99372b"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-040b6e3f9c8c964aeabddf27c61b0d67"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-a1845510c08a0d6df9987abd6fb417a7"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-f84573a8f269146201ee2daebbb3b581"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-6ff47e9e83bd783bc54910ec4dd9870b"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-74a6dc3e9032806bee9a0926697a3249"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-face746c37ffacf2ab3627159cc7f8cb"/>
+		<akt:involves-organization rdf:resource="http://cordis.rkbexplorer.com/id/organization-57d38d2422bca6d727a06343befd7771"/>
+		<akt:has-funding rdf:resource="http://cordis.rkbexplorer.com/id/grant-026764"/>
+		<akt:has-goals>ReSIST is a NoE that addresses the strategic objective \&quot;Towards a global dependability and security framework\&quot; of the Work Programme, and responds to the stated \&quot;need for resilience, self-healing, dynamic content and volatile environments\&quot;.
+
+It will integrate leading researchers active in the multidisciplinary domains of Dependability, Security, and Human Factors, in order that Europe will have a well-focused coherent set of research activities aimed at ensuring that future \&quot;ubiquitous computing systems\&quot;, the immense systems of ever-evolving networks of computers and mobile devices which are needed to support and provide Ambient Intelligence (AmI), have the necessary resilience and survivability, despite any residual development and physical faults, interaction mistakes, or malicious attacks and disruptions.
+
+The objectives of the Network are:
+1) Integration of teams of researchers so that the fundamental topics concerning scalably resilient ubiquitous systems are addressed by a critical mass of co-operative, multi-disciplinary research.
+2) Identification, in an international context, of the key research directions (both technical and socio-technical) induced on the supporting ubiquitous systems by the requirement for trust and confidence in AmI.
+3) Production of significant research results (concepts, models, policies, algorithms, mechanisms) that pave the way for scalably resilient ubiquitous systems.
+4) Promotion and propagation of a resilience culture in university curricula and in engineering best practices.
+
+ReSIST&apos;s partners are: Budapest UTE (HG), City U. (UK), TU Darmstadt (DE), Deep Blue Srl (IT), France Telecom RandD (FR), IBM Research GmbH (CH), Institut Eurecom (FR), IRISA (FR), IRIT (FR), LAAS-CNRS (FR), Lisbon U. (PT), Newcastle upon Tyne U. (UK), Pisa U. (IT), Qinetiq (UK), Roma U. `La Sapienza (IT), Ulm U. (DE), Vytautas Magnus U. (LT).</akt:has-goals>
+		<akt:has-title>Resilience for Survivability in IST</akt:has-title>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://cordis.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://cordis.rkbexplorer.com/id/project-8376495"/>
+	</rdf:Description>
+</rdf:RDF>

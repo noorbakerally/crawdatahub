@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://reegle.info/glossary/39">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reegle.info/glossary/39.rdf">
+	<foaf:primaryTopic rdf:resource="http://reegle.info/glossary/39"/>
+	<cc:license rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence"/>
+	<cc:attributionName>REEEP</cc:attributionName>
+	<cc:attributionURL rdf:resource="http://reegle.info/glossary/39"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://reegle.info/glossary/39">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">paneles solares</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">solar cells</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">células solares</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">cellules photovoltaïques</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Solarzelle</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">c�lulas solares</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">cellules photovolta�ques</prefLabel>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/38"/>
+	<creator xmlns="http://purl.org/dc/terms/">reegle</creator>
+	<rdfs:label xml:lang="en">solar cells</rdfs:label>
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-09T07:43:18Z</modified>
+	<hasVersion xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39</hasVersion>
+	<contributor xmlns="http://purl.org/dc/terms/">reegle</contributor>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/58"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/59"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/976"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/40"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/50"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/54"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/58"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/59"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/976"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/977"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/40"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/50"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/54"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/42"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/43"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/44"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/45"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/46"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/51"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/52"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/53"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/56"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/41"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/47"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/48"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/49"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/55"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/57"/>
+	<narrowerTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/987"/>
+	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">A solar cell transforms sunlight directly into electrical energy.</definition>
+	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">A solar cell or photovoltaic cell is a wide area electronic device that converts solar energy into electricity by the photovoltaic effect. Photovoltaics is the field of technology and research related to the application of solar cells as solar energy.</definition>
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-10-08T11:57:48Z</created>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">PV cells</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">solar power cells</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">photovoltaic cells</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">cellules solaires</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Células de energia solar</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Células fotovoltaicas</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">células FV</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">células de energía solar</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">celdas de energía solar</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">células fotovoltaicas</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">celdas fotovoltaicas</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">C�lulas de energia solar</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">C�lulas fotovoltaicas</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">c�lulas FV</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">c�lulas de energ�a solar</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">celdas de energ�a solar</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">c�lulas fotovoltaicas</altLabel>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/1663"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/60"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/977"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/42"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/43"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/44"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/45"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/46"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/51"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/52"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/53"/>
+	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/56"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://dbpedia.org/resource/Solar_cell"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://sw.opencyc.org/2008/06/10/concept/Mx4rvVi4sJwpEbGdrcN5Y29ycA"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://sw.opencyc.org/concept/Mx4rvVi4sJwpEbGdrcN5Y29ycA"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000003a232"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.eionet.europa.eu/gemet/concept/7904"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://de.dbpedia.org/resource/Solarzelle"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://es.dbpedia.org/resource/Célula_fotoeléctrica"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://fr.dbpedia.org/resource/Cellule_photovoltaïque"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://pt.dbpedia.org/resource/Célula_solar"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://es.dbpedia.org/resource/C�lula_fotoel�ctrica"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://fr.dbpedia.org/resource/Cellule_photovolta�que"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://pt.dbpedia.org/resource/C�lula_solar"/>
+	<foaf:page rdf:resource="http://en.wikipedia.org/wiki/Solar_cell"/>
+	<hiddenLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">solar cell</hiddenLabel>
+	<hiddenLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">PV cell</hiddenLabel>
+	<hiddenLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">photovoltaic cell</hiddenLabel>
+	<hiddenLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">solar power cell</hiddenLabel>
+	<foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/9/90/Solar_cell.png"/>
+	<thumbnail xmlns="http://dbpedia.org/ontology/" rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Solar_cell.png/200px-Solar_cell.png"/>
+	<subject xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://dbpedia.org/resource/Category:Energy_conversion"/>
+	<subject xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://dbpedia.org/resource/Category:Sustainable_technologies"/>
+	<subject xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://dbpedia.org/resource/Category:Electrical_generators"/>
+	<subject xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://dbpedia.org/resource/Category:Photovoltaics"/>
+	<subject xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://dbpedia.org/resource/Category:Solar_cells"/>
+	<subject xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://dbpedia.org/resource/Category:Energy_harvesting"/>
+	<subject xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://dbpedia.org/resource/Category:Semiconductor_devices"/>
+	<broaderTransitive xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/38"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20057"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20058"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20059"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20060"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20061"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20062"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20063"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20064"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20065"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20066"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20067"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20068"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20069"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20070"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20071"/>
+	<memberOfRelationClash xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20072"/>
+	<labelOverlap xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20073"/>
+	<labelOverlap xmlns="http://www.qskos.org/schema/v1/core#" rdf:nodeID="genid-db86ff5ba6924a9592c8039586466962-node197org6pdx20074"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://reegle.info/glossary/1659"/>
+</rdf:Description>
+
+</rdf:RDF>

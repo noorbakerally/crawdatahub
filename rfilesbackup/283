@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY ns0 "http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#">
+	<!ENTITY ns1 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:ns0="&ns0;"
+	xmlns:ns1="&ns1;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:24:37</dcterms:created>
+		<dc:source rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+		<coref:coreferenceData rdf:resource="http://os.rkbexplorer.com/crs/osr7000000000017765" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000017765">
+		<rdf:type rdf:resource="&rdfs;Resource"/>
+		<rdf:type rdf:resource="&ns0;County"/>
+		<rdfs:label>The County of Hampshire</rdfs:label>
+		<ns0:hasCensusCode>24</ns0:hasCensusCode>
+		<ns0:hasArea>373814.131</ns0:hasArea>
+		<ns0:hasVernacularName>Hampshire</ns0:hasVernacularName>
+		<ns0:hasBoundaryLineName>Hampshire County</ns0:hasBoundaryLineName>
+		<ns0:hasOfficialName>The County of Hampshire</ns0:hasOfficialName>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000013965"/>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000014362"/>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000016417"/>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017257"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017275"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017297"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017315"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017378"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017486"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017544"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017596"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017653"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017733"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017754"/>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000037254"/>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000037256"/>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000038893"/>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000038894"/>
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000038899"/>
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000043511"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000013965">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000014362">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000016417">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000017257">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000037254">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000037256">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000038893">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000038894">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000038899">
+		<ns0:borders rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/osr7000000000041421">
+		<ns0:tangentiallySpatiallyContains rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://os.rkbexplorer.com/id/void">
+		<ns1:exampleResource rdf:resource="http://os.rkbexplorer.com/id/osr7000000000017765"/>
+	</rdf:Description>
+</rdf:RDF>

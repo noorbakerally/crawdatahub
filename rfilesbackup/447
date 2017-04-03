@@ -1,0 +1,924 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:swrcfe="http://www.morelab.deusto.es/ontologies/swrcfe#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:scovo="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/307">
+    <swrcfe:assignedPerson>
+      <foaf:Person rdf:about="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina">
+        <swrcfe:holds rdf:resource="http://apps.morelab.deusto.es/labman/resource/account_profiles/23"/>
+        <foaf:mbox>dipina@deusto.es</foaf:mbox>
+        <swrcfe:holds rdf:resource="http://apps.morelab.deusto.es/labman/resource/account_profiles/20"/>
+        <foaf:phone>+34 944 139 003 - ext: 2548</foaf:phone>
+        <foaf:depiction>http://morelab.deusto.es/labman/media/persons/diego-lopez-de-ipina_1.jpg</foaf:depiction>
+        <rdfs:label>Diego López-de-Ipiña</rdfs:label>
+        <swrcfe:holds rdf:resource="http://apps.morelab.deusto.es/labman/resource/account_profiles/22"/>
+        <swrcfe:hasJob rdf:resource="http://apps.morelab.deusto.es/labman/resource/jobs/6"/>
+        <foaf:gender>male</foaf:gender>
+        <foaf:title>Dr.</foaf:title>
+        <foaf:homepage rdf:resource="http://paginaspersonales.deusto.es/dipina/"/>
+        <foaf:nick>López-de-Ipiña, Diego</foaf:nick>
+        <foaf:familyName>López-de-Ipiña</foaf:familyName>
+        <foaf:name>Diego López-de-Ipiña</foaf:name>
+        <swrcfe:isMember rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >1</swrcfe:isMember>
+        <foaf:firstName>Diego</foaf:firstName>
+        <swrcfe:holds rdf:resource="http://apps.morelab.deusto.es/labman/resource/account_profiles/21"/>
+        <dc:description>Dr. Diego L&amp;oacute;pez-de-Ipi&amp;ntilde;a is an associate professor and principal researcher of "MORElab &amp;ndash; Envisioning Future Internet" group&amp;nbsp;and director of DeustoTech-INTERNET unit, associated to DeustoTech &amp;ndash; Deusto Institute of Technology, University of Deusto in Bilbao, SPAIN. He is the director of the PhD program within the Faculty of Engineering of the University of Deusto. He received his PhD from the University of Cambridge, U.K in 2002 with a dissertation entitled "Visual Sensing and Middleware Support for Sentient Computing".
+
+He is responsible for the teaching modules "Software Process &amp;amp; Quality", "Advanced Software Development" and "Internet Protocols, Technologies and Services" offered in the BSc and MSc in Computer Engineering degrees offered by the Faculty of Engineering of the University of Deusto.
+
+His main research interests are pervasive computing, internet of things, semantic service middleware, open linked data, social data mining and mobile-mediated and tangible human-environment interaction. He is currently focusing his work on the role of citizens as active data contributors to the knowledge of a city modeled as Linked Data. He is taking and has taken part in several big consortium-based research european (IES CITIES, MUGGES, SONOPA, CBDP, GO-LAB, LifeWear) and Spanish (THOFU, mIO!, ADAPTA, SABESS, PIRAmIDE, ACROSS) projects involving the adoption of mobile computing, semantic web, social data mining, linked open data, social robotics and Web 2.0 and beyond to novel AmI-related application areas such as urban computing, sustainable computing or AAL. He has more that 70 publications in relevant international conferences and journals on Ubiquitous Computing, Semantic Web, Middleware, Smart Cities and AmI, including more than 25 JCR-indexed journal articles.
+</dc:description>
+      </foaf:Person>
+    </swrcfe:assignedPerson>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-citizen-co-created-public-service-apps">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/51">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/leveraging-non-explicit-social-communities-for-learning-analytics-in-mobile-remote-laboratories">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/overcrowding-detection-in-indoor-events-using-scalable-technologies">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-hybrid-evaluation-methodology-for-human-activity-recognition-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/distributed-semantic-middleware-for-social-robotic-services">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/570">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ultimas-tendencias-en-el-modelado-de-actividades-humanas">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/social-network-analysis-applied-to-recommendation-systems-alleviating-the-cold-user-problem">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/service-composition-for-mobile-ad-hoc-networks-using-distributed-matching">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/measuring-software-timing-errors-in-the-presentation-of-visual-stimuli-in-cognitive-neuroscience-experiments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/369">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/interactive-live-streaming-technologies-and-approaches-for-web-based-applications">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/12">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/446">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/327">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-distributed-reasoning-engine-ecosystem-for-semantic-context-management-in-smart-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/153">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-ambient-assisted-living-platform-integrating-rfid-data-on-tag-care-annotations-and-twitter">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/achieving-interoperability-among-educational-remote-laboratories">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/labman-a-research-information-system-to-foster-insight-discovery-through-visualizations">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/weblab-deusto-cpld-a-practical-experience">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/exploring-students-collaboration-in-remote-laboratory-infrastructures">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/assessing-ambiguity-of-context-data-in-intelligent-environments-towards-a-more-reliable-context-managing-system">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/acceptance-usability-and-usefulness-of-weblab-deusto-from-students-point-of-view">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/enabling-citizen-empowered-apps-over-linked-data">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/142">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/adaptative-applications-for-heterogeneous-intelligent-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/rfid-breadcrumbs-for-enhanced-care-data-management-and-dissemination">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/wcloud-automatic-generation-of-weblab-deusto-deployments-in-the-cloud">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/extending-knowledge-driven-activity-models-through-data-driven-learning-techniques">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-approach-to-subjectivity-detection-on-twitter-using-the-structured-information">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/359">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/environment-adaptation-meeting-user-preferences">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/citizen-centric-linked-data-apps-for-smart-cities">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/building-an-occupancy-model-from-sensor-networks-in-office-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/502">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/260">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-approach-for-weblabs-analysis">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/38">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-platform-for-overcrowding-detection-in-indoor-events-using-scalable-technologies">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/191">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-ambient-assisted-cities-and-citizens">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/347">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/fighting-against-vampire-appliances-through-eco-aware-things">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/eside-mendizale-entorno-de-seguridad-informatica-de-la-universidad-de-deusto-mobile-environment-for-discovery-of-zero-day-attacks-through-bayesian-learning">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/on-the-complementarity-of-triple-spaces-and-the-web-of-things">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/trip-a-low-cost-vision-based-location-system-for-ubiquitous-computing">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-probabilistic-owl-reasoner-for-intelligent-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/accessing-remote-laboratories-from-mobile-devices">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/77">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/weblab-gpib-at-the-university-of-deusto">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-extensible-architecture-for-the-integration-of-remote-and-virtual-laboratories-in-public-learning-tools">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/evolving-towards-better-architectures-for-remote-laboratories-a-practical-case">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/evolucion-del-weblab-de-la-universidad-de-deusto">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-method-for-automatic-generation-of-fuzzy-membership-functions-for-mobile-devices-characteristics-based-on-google-trends">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/widget-and-smart-devices-a-different-aproach-for-online-learning-scenarios">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/talisman-intelligent-system-for-follow-up-and-promotion-of-personal-autonomy">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-approach-to-more-reliable-context-aware-systems-by-assesing-ambiguity-taking-into-account-indetermination-and-vagueness-in-smart-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/weblab-deployer-exporting-remote-laboratories-as-saas-through-federation-protocols">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/linked-open-data-as-the-fuel-for-smarter-cities">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/designing-experiment-agnostic-remote-laboratories">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/37">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/dynamic-ontology-enrichment-and-reasoning-in-ami-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/190">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/on-the-integration-of-remote-laboratories-in-collaborative-social-media-platforms">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/346">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/distributed-tracking-system-for-patients-with-cognitive-impairments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/otsopack-lightweight-semantic-framework-for-interoperable-ambient-intelligence-applications">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/extending-a-user-access-control-proposal-for-wireless-network-services-with-hierarchical-user-credentials">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/analysis-of-log-file-data-to-understand-mobile-service-context-and-usage-patterns">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/accessing-weblabs-from-cellular-phones">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/mobile-devices-and-remote-labs-in-engineering-education">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/the-behaviour-assessment-model-for-the-analysis-and-evaluation-of-pervasive-services">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/the-ubiquitous-web-as-a-model-to-lead-our-environments-to-their-full-potential">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/remote-laboratories-from-the-software-engineering-point-of-view">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/context-based-tourism-information-filtering-with-a-semantic-rule-engine">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-inference-sharing-architecture-for-a-more-efficient-context-reasoning">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/infrastructural-support-for-ambient-assisted-living">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/500">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/to-trust-or-not-to-trust-highlighting-the-need-for-data-provenance-in-mobile-apps-for-smart-cities">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/analysing-customers-sentiments-an-approach-to-opinion-mining-and-classification-of-online-hotel-reviews">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/lightweight-user-access-control-in-energy-constrained-wireless-network-services">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/167">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/exploring-lod-through-metadata-extraction-and-data-driven-visualizations">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/sharing-the-remote-laboratories-among-different-institutions-a-practical-case">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/mobile-monitoring-and-reasoning-methods-to-prevent-cardiovascular-diseases">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/user-context-and-device-modeling-for-adaptive-user-interface-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/188">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/259">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-interaction-model-for-passively-influencing-the-environment">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/foundations-for-a-platform-to-develop-context-aware-systems-by-domain-experts">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/302">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ubiquitous-computing-and-ambient-intelligence-6th-international-conference-ucami-2012-vitoria-gasteiz-2012--">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/advanced-integration-of-openlabs-visir-virtual-instrument-systems-in-reality-with-weblab-deusto">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/enhancing-osgi-semantic-add-ins-for-service-oriented-collaborative-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-an-extensible-weblab-architecture">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/318">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/close-the-loop-an-ibeacon-app-to-foster-recycling-through-just-in-time-feedback">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/requirements-of-useful-remote-labs">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/the-appcomposer-web-application-for-school-teachers-a-platform-for-translating-and-adapting-educational-web-applications">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/turambar-an-approach-to-deal-with-uncertainty-in-semantic-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/opensocial-application-builder-and-customizer-for-school-teachers">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/context-management-platform-for-tourism-applications">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/56">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/application-and-user-perceptions-of-using-the-weblab-deusto-pld-in-technical-education">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/15">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/76">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/609">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/preface-to-the-special-section-on-software-engineering-aspects-of-ubiquitous-computing-and-ambient-intelligence-ucami-2011">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-architecture-for-automatic-service-composition-in-manet-using-a-distributed-service-graph">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/identifying-security-issues-in-the-semantic-web-injection-attacks-in-the-semantic-query-languages">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/detection-and-extracting-of-emergency-knowledge-from-twitter-streams">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-federated-interoperable-bridges-for-sharing-educational-remote-laboratories">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-knowledge-driven-tool-for-automatic-activity-dataset-annotation">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/real-time-personalized-monitoring-to-estimate-occupational-heat-stress-in-ambient-assisted-working">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/48">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/219">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/343">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/data/people/diego-lopez-de-ipina">
+    <rdfs:label>RDF description of Diego López-de-Ipiña</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-web-platform-and-a-methodology-to-promote-a-collaborative-development-of-context-aware-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-methodology-and-a-web-platform-for-the-collaborative-development-of-context-aware-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/67">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/enabling-mobile-access-to-remote-laboratories">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/presentation-accuracy-of-the-web-revisited-animation-methods-in-the-html5-era">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/dynamic-discovery-and-semantic-reasoning-for-next-generation-intelligent-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/learning-analytics-on-federated-remote-laboratories-tips-and-techniques">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/webprofiles-a-negotiation-model-for-user-awareness-in-personal-area-networks">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/linkedqr-improving-tourism-experience-through-linked-data-and-qr-codes">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/reusing-requirements-among-remote-experiments-for-their-development-and-integration-under-weblab-deusto">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/14">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/short-paper-semantic-annotations-for-sensor-open-data">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/496">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-passive-influence-model-for-adapting-environments-based-on-semantic-preferences">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/using-visir-experiments-subjects-and-students">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/sharing-remote-labs-a-case-study">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/graphic-technologies-for-virtual-remote-and-hybrid-laboratories-weblab-fpga-hybrid-lab">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/316">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-parameter-based-service-discovery-protocol-for-mobile-ad-hoc-networks">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/33">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/47">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/collaboration-of-sensors-and-actuators-through-triple-spaces">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/218">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/230">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/generic-integration-of-remote-laboratories-in-learning-and-content-management-systems-through-federation-protocols">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/296">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/283">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/9">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/495">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-semantic-resource-oriented-middleware-for-pervasive-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ezagutzan-oinarritutako-giza-jardueren-eredu-dinamiko-eta-pertsonalizatuak-ikasten-2">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/collaboration-centred-cities-through-urban-apps-based-on-open-and-user-generated-data-sensors">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/19">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/276">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/remote-control-of-web-20-enabled-laboratories-from-mobile-devices">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/360">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/visual-analysis-of-a-research-groups-performance-thanks-to-linked-open-data">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/archimedes-remote-lab-for-secondary-schools">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/evolution-of-the-weblab-at-the-university-of-deusto">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/improving-the-sentiment-analysis-process-of-spanish-tweets-with-bm25">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/297">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-a-canonical-software-architecture-for-multi-device-weblabs">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/easing-the-mobility-of-disabled-people-in-supermarkets-using-a-distributed-solution">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/team-up-with-eco-aware-everyday-things-to-green-your-workplace">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/social-devices-autonomous-artifacts-that-communicate-on-the-internet">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ariima-a-real-iot-implementation-of-a-machine-learning-architecture-for-reducing-energy-consumption">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/59">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/198">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/modelling-remote-laboratories-integrations-in-e-learning-tools-through-remote-laboratories-federation-protocols">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-approach-to-automatic-generation-of-fuzzy-membership-functions-using-popularity-metrics">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/32">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/generic-integration-of-remote-laboratories-in-public-learning-tools-organizational-and-technical-challenges">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/332">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/on-the-measurement-of-semantic-reasoners-in-ambient-assisted-living-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-middleware-for-the-deployment-of-ambient-intelligent-spaces">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/codesign-oriented-platform-for-agile-internet-of-things-prototype-development">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-platform-to-build-smart-spaces-controllable-from-mobile-devices">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/weblab-deusto">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/deustotech-internet-at-tass-2015-sentiment-analysis-and-polarity-classification-in-spanish-tweets">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/weblab-deusto-cpld-practical-experience">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/275">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-knowledge-based-framework-to-support-active-aging-at-home-based-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/semantic-based-self-configuration-approach-for-social-robots-in-health-care-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/5">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/benchmarking-results-of-semantic-reasoners-applied-to-an-ambient-assisted-living-environment">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-triple-space-based-semantic-distributed-middleware-for-internet-of-things">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/545">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/enable-tweet-geolocation-and-dont-drive-erts-crazy-improving-situational-awareness-using-twitter">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/assessing-data-dissemination-strategies-within-triple-spaces-on-the-web-of-things">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/351">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/learning-routines-over-long-term-sensor-data-using-topic-models">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/209">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-a-communication-agnostic-middleware-for-ambient-intelligence">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/31">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/148">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/emi-2-lets-a-reflective-framework-for-enabling-ami">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-architecture-for-sentient-gprs-enabled-microbots">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/theme-issue-ubiquitous-computing-and-ambient-intelligence">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/352">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/imhotep-an-approach-to-user-and-device-conscious-mobile-applications">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ubiquitous-computing-and-ambient-intelligence-2012--lecture-notes-in-computer-science">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/57">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-approach-to-dynamic-knowledge-extension-and-semantic-reasoning-in-highly-mutable-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/alleviating-cold-user-start-problem-with-users-social-network-data-in-recommendation-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/229">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/82">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/320">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/saving-energy-through-collaborative-eco-aware-everyday-things">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/30">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-a-solution-to-extract-knowledge-from-the-social-web">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/287">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/558">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-novel-software-architecture-for-the-provision-of-context-aware-semantic-transport-information">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/using-visir-at-the-university-of-deusto-experiments-subjects-and-students">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/remote-laboratories-and-mobile-devices">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-http-based-context-negotiation-model-for-realizing-the-user-aware-web">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/making-social-networks-a-means-to-save-energy">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/321">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-language-for-expressing-user-context-preferences-in-the-web">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/evaluation-of-orchestrated-reactivity-of-smart-objects-in-pervasive-semantic-web-scenarios">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/restful-triple-spaces-of-things">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/331">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/197">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/58">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/reducing-energy-waste-through-eco-aware-everyday-things">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/613">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/middleware-semantico-orientado-a-recursos-para-entornos-ubicuos">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/questions-and-answers-for-designing-useful-weblabs">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/gprs-based-real-time-remote-control-of-microbots-with-m2m-capabilities">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/empowering-wireless-upnp-devices-with-webprofiles">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-semantic-matching-algorithm-for-discovery-in-uddi">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-review-of-webapp-authoring-tools-for-e-learning">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/336">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ezagutzan-oinarritutako-giza-jardueren-eredu-dinamiko-eta-pertsonalizatuak-ikasten">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-generic-matching-algorithm-for-semantic-discovery">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/resource-classification-as-the-basis-for-a-visualization-pipeline-in-lod-scenarios">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-the-integration-of-a-research-group-website-into-the-web-of-data">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/continuous-service-execution-in-mobile-prosumer-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/262">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/modeling-users-context-and-devices-for-ambient-assisted-living-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/resource-recommendation-for-intelligent-environments-based-on-a-multi-aspect-metric">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/otsopack-lightweight-framework-for-ambient-intelligence-applications">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/situation-driven-development-a-methodology-for-the-development-of-context-aware-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/2">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/will-eco-aware-objects-help-to-save-the-world">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/mrdp-an-http-based-lightweight-semantic-discovery-protocol">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-user-centric-approach-to-adaptable-mobile-interfaces">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/375">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/modelling-and-managing-ambiguous-context-in-intelligent-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/211">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/sharing-laboratories-across-different-remote-laboratory-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/161">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ubiquitous-computing-and-ambient-intelligence-2012-7656-lecture-notes-in-computer-science">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/175">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/181">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/adapting-user-interfaces-based-on-user-preferences-and-habits">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/combining-users-activity-survey-and-simulators-to-evaluate-human-activity-recognition-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/adding-new-features-to-new-and-existing-remote-experiments-through-their-integration-in-weblab-deusto">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ubiquitous-capability-access-for-continuous-service-execution-mobile-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/semantic-framework-for-social-robot-self-configuration">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/162">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-a-microrlms-approach-for-shared-development-of-remote-laboratories">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/151">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/smart-spaces-and-smart-objects-interoperability-architecture-s3oia">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/182">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/emergency-event-detection-in-twitter-streams-based-on-natural-language-processing">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/exploring-complex-remote-laboratory-ecosystems-through-interoperable-federation-chains">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/475">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/40">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/192">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/an-aspect-based-resource-recommendation-system-for-smart-hotels">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/soam-a-web-powered-architecture-for-designing-and-deploying-pervasive-semantic-devices">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/to-switch-off-the-coffee-maker-or-not-that-is-the-question-to-be-energy-efficient-at-work">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-new-approach-to-prevent-cardiovascular-diseases-based-on-score-charts-through-reasoning-methods-and-mobile-monitoring">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/towards-a-clinical-practice-guideline-implementation-for-asthma-treatment">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/modelling-users-context-and-devices-for-adaptive-user-interface-systems">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/a-real-time-insulin-injection-system">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/experience-with-weblab-deusto">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/energy-aware-architecture-for-information-search-in-the-semantic-web-of-things">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/enabling-flexible-and-continuous-capability-invocation-in-mobile-prosumer-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/principles-and-experiences-on-creating-semantic-devices">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/addressing-software-impact-in-the-design-of-remote-laboratories">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/enabling-user-access-control-in-energy-constrained-wireless-smart-environments">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ambient-intelligence-vision-a-perspective">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/335">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/assigned_persons/562">
+    <swrcfe:assignedPerson rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/embedding-intelligent-eco-aware-systems-within-everyday-things-to-increase-peoples-energy-awareness">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/using-labview-remote-panel-in-remote-laboratories-advantages-and-disadvantages">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/promotion-of-active-ageing-combining-sensor-and-social-network-data">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/user-aware-location-management-of-prosumed-micro-services">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://apps.morelab.deusto.es/labman/resource/publications/ontology-based-model-for-supporting-dynamic-and-adaptive-user-interfaces">
+    <dc:creator rdf:resource="http://apps.morelab.deusto.es/labman/resource/people/diego-lopez-de-ipina"/>
+  </rdf:Description>
+</rdf:RDF>

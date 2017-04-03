@@ -1,0 +1,760 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://localhost:8080/resource/"
+    xmlns:opmopviajero="http://webenemasuno.linkeddata.es/ontology/OPMO/"
+    xmlns:ir="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#"
+    xmlns:yago="http://localhost:8080/class/yago/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:opmo="http://openprovenance.org/model/opmo#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:mpeg7-ext="http://webenemasuno.linkeddata.es/ontology/MPEG7/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:p="http://localhost:8080/property/"
+    xmlns:j.0="http://spinrdf.org/sp#"
+    xmlns:scovo="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:mpeg7="http://metadata.net/mpeg7/mpeg7.owl#"
+    xmlns:j.1="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES">
+    <geo:location>
+      <geo:Point rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333">
+        <owl:sameAs rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >48.8567</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >2.35083</geo:long>
+      </geo:Point>
+    </geo:location>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081220ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081129ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051203ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060401ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20080703ELPVIAVJE_6.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080105ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061209ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090124ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070707ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060909ELPVIAVJE_10.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030705ELPVIAVJE_9.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080105ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060722ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060530ELPVIADST_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20080627ELPVIAVJE_1.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061014ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061125ELPVIAVJE_10.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050212ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060610ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050402ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20071013ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20100921ELPVIAVJE_1.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060610ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20091121ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070825ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080412ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070728ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070721ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060304ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080301ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060708ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061021ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20040103ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070803ELPVIADST_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090530ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060506ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20071117ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20041023ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20110122ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070728ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080315ELPVIAVJE_9.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081011ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090801ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061230ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070317ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050827ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081018ELPVIAVJE_15.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20101030ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080524ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080119ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20110101ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060603ELPVIAVJE_16.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20031025ELPVIAVJE_11.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061205ELPVIADST_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051022ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20101023ELPVIA_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050903ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061118ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050604ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030621ELPVIAVJE_10.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20101023ELPVIA_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051001ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20071124ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070615ELPVIADST_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050917ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060121ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090131ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070616ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030222ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100424ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030802ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20091219ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070324ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20080703ELPVIAVJE_2.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20090206ELPVIAVJE_2.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051105ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090117ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050723ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20081031ELPVIAVJE_2.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070113ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090214ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080816ELPVIALBV_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050305ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070818ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100410ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20101225ELPVIAVJE_12.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050205ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20040731ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070127ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030531ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090725ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090606ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080202ELPVIALBV_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20080703ELPVIAVJE_5.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070328ELPVIADST_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20110108ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070303ELPVIAVJE_9.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070331ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070505ELPVIAVJE_12.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090711ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20091212ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080105ELPVIAVJE_13.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100703ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050101ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070303ELPVIAVJE_14.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20040821ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030712ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051119ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051203ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070818ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100731ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070915ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050604ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070224ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100703ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100213ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090103ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100227ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050716ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081213ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20071006ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20101016ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030607ELPVIALBV_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061202ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20061125ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030823ELPVIAVJE_9.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070310ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080719ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20071122ELPVIADST_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050528ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080628ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20020112ELPVIALBV_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060701ELPVIAVJE_14.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20110528ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20080708ELPVIAVJE_2.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060114ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081101ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090314ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090829ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <j.1:Graph>
+    <prv:createdBy>
+      <prv:DataCreation>
+        <prv:usedData>
+          <j.1:Graph>
+            <prv:createdBy>
+              <prvTypes:QueryExecution>
+                <prv:usedGuideline>
+                  <prv:CreationGuideline>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DESCRIBE &lt;http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://spinrdf.org/sp#Describe"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+                  </prv:CreationGuideline>
+                </prv:usedGuideline>
+                <prv:usedData rdf:resource="http://webenemasuno.linkeddata.es/sparql"/>
+                <prv:performedBy>
+                  <prvTypes:DataCreatingService rdf:nodeID="A0">
+                    <rdfs:seeAlso rdf:resource="http://webenemasuno.linkeddata.es/sparql"/>
+                  </prvTypes:DataCreatingService>
+                </prv:performedBy>
+              </prvTypes:QueryExecution>
+            </prv:createdBy>
+            <prv:retrievedBy>
+              <prv:DataAccess>
+                <prv:accessedService rdf:nodeID="A0"/>
+                <prv:performedBy>
+                  <prv:DataProvidingService rdf:nodeID="A1">
+                    <rdfs:seeAlso rdf:resource="http://webenemasuno.linkeddata.es/"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#DataCreatingService"/>
+                  </prv:DataProvidingService>
+                </prv:performedBy>
+                <prv:completedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2017-04-01T22:46:53.453Z</prv:completedAt>
+              </prv:DataAccess>
+            </prv:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+          </j.1:Graph>
+        </prv:usedData>
+        <prv:performedBy rdf:nodeID="A1"/>
+        <prv:completedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-04-01T22:46:53.453Z</prv:completedAt>
+      </prv:DataCreation>
+    </prv:createdBy>
+    <void:subset>
+      <void:Dataset>
+        <dc:rights xml:lang="es">Todos los derechos de las imágenes y los contenidos mostrados en esta página pertenecen al Grupo Prisa</dc:rights>
+        <dcterms:publisher rdf:resource="http://aemet.linkeddata.es/resource/Organizaci%C3%B3n/UPM"/>
+        <dcterms:creator rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Organization/PRISA_DIGITAL"/>
+      </void:Dataset>
+    </void:subset>
+    <foaf:primaryTopic rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </j.1:Graph>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060722ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20090417ELPVIAVJE_2.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20040612ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100508ELPVIAVJE_10.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080830ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030726ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20091121ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100306ELPVIAVJE_10.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060506ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080503ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090207ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070825ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20091017ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070901ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080712ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070331ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20080703ELPVIAVJE_4.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080112ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080119ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070929ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20091114ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080202ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070324ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070901ELPVIAVJE_14.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050604ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051126ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/WEBENEMASUNO.LINKEDDATA.ES_ELVIAJERO_RESOURCE_VIDEO_20080703ELPVIAVJE_3.VES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081011ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060408ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20031004ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100306ELPVIAVJE_9.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060506ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060225ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100109ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051001ELPVIAPOR_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20041030ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070616ELPVIAVJE_7.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070127ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100807ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20110423ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070526ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20071215ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060506ELPVIAVJE_14.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080517ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070505ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081227ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030426ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20101218ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20071013ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081004ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090711ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20071201ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070303ELPVIAVJE_12.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/data/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333">
+    <rdfs:label>RDF description of POINT48.85666666666667_2.350833333333333</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100123ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20090808ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20110212ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20041113ELPVIAVJE_2.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20040626ELPVIAVJE_10.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050423ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20051015ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100417ELPVIAVJE_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20091226ELPVIAVJE_10.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20021214ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100102ELPVIALBV_12.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080223ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030607ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080315ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20080216ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20081018ELPVIAVJE_17.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060429ELPVIAVJE_6.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070630ELPVIAVJE_8.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20030809ELPVIAVJE_5.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050514ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20050409ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20040124ELPVIAVJE_4.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20100619ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20070915ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20060225ELPVIAVJE_3.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webenemasuno.linkeddata.es/elviajero/resource/Guide/20040904ELPVIAPOR_1.TES">
+    <geo:location rdf:resource="http://webenemasuno.linkeddata.es/elviajero/resource/Point/POINT48.85666666666667_2.350833333333333"/>
+  </rdf:Description>
+</rdf:RDF>

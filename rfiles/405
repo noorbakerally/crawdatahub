@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:lemon="http://lemon-model.net/lemon#"
+   xmlns:lexinfo2="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+   xmlns:lexinfo="http://lexinfo.net/ontology/2.0/lexinfo#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:uby="http://purl.org/olia/ubyCat.owl#"
+   xmlns:ubyfn="http://lemon-model.net/lexica/uby/fn/"
+   xmlns:ubyow_deu="http://lemon-model.net/lexica/uby/ow_deu/"
+   xmlns:ubyow_eng="http://lemon-model.net/lexica/uby/ow_eng/"
+   xmlns:ubyvn="http://lemon-model.net/lexica/uby/vn/"
+   xmlns:ubywktDE="http://lemon-model.net/lexica/uby/wktDE/"
+   xmlns:ubywn="http://lemon-model.net/lexica/uby/wn/"
+   xml:base="http://lemon-model.net/lexica/uby/wn/WN_LexicalEntry_0">
+  <ns1:LexicalEntry xmlns:ns1="http://www.monnet-project.eu/lemon#"
+     rdf:about="">
+    <dcterms:license rdf:resource="http://wordnet.princeton.edu/wordnet/license/"/>
+    <dcterms:source rdf:resource="http://wordnet.princeton.edu/wordnet/"/>
+    <uby:partOfSpeech rdf:resource="http://purl.org/olia/ubyCat.owl#adjective"/>
+    <ns1:canonicalForm rdf:resource="#CanonicalForm"/>
+    <ns1:sense rdf:resource="WN_Sense_0"/>
+    <rdfs:seeAlso rdf:resource="http://wiktionary.dbpedia.org/resource/untended-English-Adjective"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/word-untended"/>
+  </ns1:LexicalEntry>
+  <ns2:Form xmlns:ns2="http://www.monnet-project.eu/lemon#"
+     rdf:about="#CanonicalForm">
+    <ns2:writtenRep xml:lang="eng">untended</ns2:writtenRep>
+  </ns2:Form>
+</rdf:RDF>

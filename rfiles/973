@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001031"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001031">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microplate spectrophotometer</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microplate spectrophotometer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdfs:label>Powerwave XS</rdfs:label>
+	<related_software xmlns="http://eagle-i.org/ont/app/1.0/" rdf:resource="http://tuskegee.eagle-i.net/i/00000136-642b-3e3c-ee37-018280000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/related_software">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related Software</preferredLabel>
+	<rdfs:label xml:lang="en">related_software</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-642b-3e3c-ee37-018280000000">
+	<rdfs:label>Gen5</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<ERO_0000480 xmlns="http://purl.obolibrary.org/obo/">http://www.biotek.com/products/microplate_detection/powerwave_microplate_spectrophotometer.html</ERO_0000480>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000480">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Website(s)</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has URL</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_url</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">"BioTek’s PowerWave microplate spectrophotometers are designed for use in a myriad of applications, from direct quantitation of nucleic acids using automated pathlength correction to full-scale high throughput operations that demand speed, accuracy and reliability."</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<synonym xmlns="http://eagle-i.org/ont/app/1.0/">Plate reader</synonym>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/synonym">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Name</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eagle-i_synonym</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<ERO_0000034 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://global.eagle-i.net/i/0000013d-bc6b-9832-ecc6-81a580000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000034">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacturer</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has manufacturer</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_manufacturer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://global.eagle-i.net/i/0000013d-bc6b-9832-ecc6-81a580000000">
+	<rdfs:label>BioTek Instruments, Inc.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<ERO_0000050 xmlns="http://purl.obolibrary.org/obo/">Powerwave XS</ERO_0000050>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000050">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Model Number</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model number</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model_number</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://tuskegee.eagle-i.net/i/00000136-6039-98bc-ee37-018280000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6039-98bc-ee37-018280000000">
+	<rdfs:label>Jason White</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<ERO_0000543 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/ERO_0001239"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000543">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related Technique</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001239">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spectrophotometry</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000543">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related technique</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related_technique</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001239">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spectrophotometry</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<RO_0001025 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://tuskegee.eagle-i.net/i/00000136-602c-f62d-ee37-018280000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</preferredLabel>
+	<rdfs:label xml:lang="en">located_in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-602c-f62d-ee37-018280000000">
+	<rdfs:label>Center for Biomedical Research - Shared Instrumentation Core</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<rdfs:label xml:lang="en">located in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-30T10:15:25.953-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://tuskegee.eagle-i.net/i/00000136-6001-9d7f-ee37-018280000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6001-9d7f-ee37-018280000000">
+	<rdfs:label>JWhite</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T19:57:12.507-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://tuskegee.eagle-i.net/i/00000135-8cac-3ad9-826b-6cd180000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000135-8cac-3ad9-826b-6cd180000000">
+	<rdfs:label>nvasilevsky</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://tuskegee.eagle-i.net/i/00000135-8cb3-4aed-826b-6cd180000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000135-8cb3-4aed-826b-6cd180000000">
+	<rdfs:label>sgarner</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0400115"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0400115">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spectrophotometer</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">spectrophotometer</IAO_0000111>
+	<rdfs:label xml:lang="en">spectrophotometer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000004">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrument</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instrument</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instrument</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">processed material</IAO_0000111>
+	<rdfs:label xml:lang="en">processed material</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuskegee.eagle-i.net/i/00000136-6418-7f03-ee37-018280000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

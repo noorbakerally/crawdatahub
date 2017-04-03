@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdagroup1elements="http://rdvocab.info/Elements/"
+   xmlns:rdarelationships="http://rdvocab.info/RDARelationshipsWEMI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work">
+    <rdagroup1elements:dateOfWork rdf:resource="http://data.bnf.fr/date/1845/"/>
+    <dcterms:description xml:lang="fr">Version pour le théâtre, en prose et 5 actes, 1847</dcterms:description>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b10541331f.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k202877g.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k5808804t.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229492f.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k61808509.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229497b.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2295107.thumbnail"/>
+    <bnf-onto:firstYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1845</bnf-onto:firstYear>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b53117675m.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2295154.thumbnail"/>
+    <dcterms:subject rdf:resource="http://dewey.info/class/800/"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b53117677h.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2295065.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229505s.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k61525717.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6138403c.thumbnail"/>
+    <dcterms:title xml:lang="fr">La reine Margot</dcterms:title>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6151230z.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b8405984d.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b90159074.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b10541323x.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k5839358s.thumbnail"/>
+    <dcterms:description xml:lang="fr">Roman historique. - Primitivement publié en feuilleton dans "La presse", 1844-1845 puis en vol. en 1845. - Constitue une trilogie, se déroulant pendant les guerres de religion, avec "La dame de Montsoreau" et "Quarante-Cinq", parfois appelée "Le cycle de la reine Margot", "Cycle des Valois" ou "Trilogie des Valois"</dcterms:description>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k66070t.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229496z.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b10541358d.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k202878v.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6152416p.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k5808829n.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229504d.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2295120.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k58088250.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k61437494.thumbnail"/>
+    <dcterms:date>1845</dcterms:date>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b9009115w.thumbnail"/>
+    <dcterms:contributor rdf:resource="http://data.bnf.fr/ark:/12148/cb12204024r#foaf:Person"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k5808806n.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6181264k.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k61437427.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k61384679.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b531176762.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2294993.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2295018.thumbnail"/>
+    <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229500w.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229502n.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2295031.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b10541972t.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k58393529.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b105413285.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229511m.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229507j.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2294946.thumbnail"/>
+    <foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/c/ce/SchlafzimmerBartholomaeusnacht.jpg"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b105413300.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k660715.thumbnail"/>
+    <rdfs:label>La reine Margot</rdfs:label>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6138408f.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b10541329m.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k58102338.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6138492c.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k61808524.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2294912.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b84025665.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6138440n.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6180854z.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229508x.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229513c.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k6143740d.thumbnail"/>
+    <bnf-onto:subject>Littératures</bnf-onto:subject>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k61383602.thumbnail"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Work"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229493t.thumbnail"/>
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb119010630#foaf:Person"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229514r.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k2295099.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229498q.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k61437583.thumbnail"/>
+    <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#about"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k229495k.thumbnail"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/bpt6k5781613w.thumbnail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb303726265">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35693333g">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb42519714m">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb12417486p">
+    <skos:note xml:lang="fr">Roman historique. - Primitivement publié en feuilleton dans "La presse", 1844-1845 puis en vol. en 1845. - Constitue une trilogie, se déroulant pendant les guerres de religion, avec "La dame de Montsoreau" et "Quarante-Cinq", parfois appelée "Le cycle de la reine Margot", "Cycle des Valois" ou "Trilogie des Valois"</skos:note>
+    <skos:editorialNote xml:lang="fr">Beaumarchais, Oeuvres, 1994. - . - BN Cat. gén. (sous : Dumas, Alexandre, père). - . -</skos:editorialNote>
+    <skos:prefLabel xml:lang="fr">La reine Margot</skos:prefLabel>
+    <dcterms:created>1994-09-09</dcterms:created>
+    <dcterms:modified>2016-01-27</dcterms:modified>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:note xml:lang="fr">Version pour le théâtre, en prose et 5 actes, 1847</skos:note>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12417486p"/>
+    <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12417486</bnf-onto:FRBNF>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35836009m">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb370094238">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32988153n">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb34717231v">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb357073970">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35972905r">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb43788247w">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb42116027m">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb303730482">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32055890w">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35423810d">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32988150m">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32055888b">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35224724q">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb329881529">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32055895m">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb41641705c">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb41641709r">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32988149d">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb442827771">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb41641708d">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/12417486/alexandre_dumas_la_reine_margot/studies">
+    <dcterms:subject rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb37294947n">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb30875009h">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb30373046c">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb303730451">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35792496k">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb400604046">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35972904d">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb43694123p">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32055893x">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb387598630">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb387598619">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32988155b">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb416417072">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb30373258x">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb357170423">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32055892k">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb394740659">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb356841000">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35434040k">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb42742140s">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35708600v">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb39950294x">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32988151z">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35817750t">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb320558979">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb45065764s">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb426948929">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32055896z">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb30373047q">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb412183180">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb30373260g">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb356967021">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb39500066d">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb41891047r">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb303732598">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb43423895f">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb38858669f">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb41641703p">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb39320587t">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb43807048z">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32055889p">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb43423896s">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb39458896b">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb39202466g">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35528939s">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb355401570">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb357078303">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35739685x">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb320558917">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb320558948">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb41641706q">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32988156p">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb416417041">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35697995n">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb34614624s">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb356918906">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb38759864b">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb356853641">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb41892067m">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb329881482">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb355401648/0">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb32987975x">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb35213344s">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb329881540">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb30373044p">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb34996778n/2">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb38912746z">
+    <rdarelationships:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb12417486p#frbr:Work"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://rdfize.com/geo/point/52.47/-1.72/> ov:near <http://dbpedia.org/resource/Chelmsley_Wood> ,
+                                                   <http://education.data.gov.uk/id/school/125746> ,
+                                                   <http://rdfize.com/geo/point/52.47/-1.71/> ,
+                                                   <http://rdfize.com/geo/point/52.48/-1.71/> ,
+                                                   <http://education.data.gov.uk/id/school/104106> ,
+                                                   <http://education.data.gov.uk/id/school/130317> ,
+                                                   <http://education.data.gov.uk/id/school/134534> ,
+                                                   <http://rdfize.com/geo/point/52.46/-1.73/> ,
+                                                   <http://education.data.gov.uk/id/school/127179> ,
+                                                   <http://education.data.gov.uk/id/school/104105> ,
+                                                   <http://rdfize.com/geo/point/52.46/-1.72/> ,
+                                                   <http://education.data.gov.uk/id/school/104070> ,
+                                                   <http://rdfize.com/geo/point/52.48/-1.73/> ,
+                                                   <http://education.data.gov.uk/id/school/510463> ,
+                                                   <http://rdfize.com/geo/point/52.47/-1.73/> ,
+                                                   <http://sws.geonames.org/6698373/> ,
+                                                   <http://rdfize.com/geo/point/52.46/-1.71/> ,
+                                                   <http://education.data.gov.uk/id/school/523366> ,
+                                                   <http://education.data.gov.uk/id/school/104071> ,
+                                                   <http://education.data.gov.uk/id/school/533805> ,
+                                                   <http://education.data.gov.uk/id/school/127173> ,
+                                                   <http://dbpedia.org/resource/Birmingham_Business_Park> ,
+                                                   <http://rdfize.com/geo/point/52.48/-1.72/> ;
+                                           ov:toNorthWest <http://rdfize.com/geo/point/52.48/-1.73/> ;
+                                           ov:toSouthWest <http://rdfize.com/geo/point/52.46/-1.73/> ;
+                                           ov:toEast <http://rdfize.com/geo/point/52.47/-1.71/> ;
+                                           ov:toSouthEast <http://rdfize.com/geo/point/52.46/-1.71/> ;
+                                           ov:toWest <http://rdfize.com/geo/point/52.47/-1.73/> ;
+                                           ov:toNorth <http://rdfize.com/geo/point/52.48/-1.72/> ;
+                                           ov:toNorthEast <http://rdfize.com/geo/point/52.48/-1.71/> ;
+                                           ov:toSouth <http://rdfize.com/geo/point/52.46/-1.72/> ;
+                                           foaf:isPrimaryTopicOf <http://rdfize.com/geo/point/52.47/-1.72/about.html> ,
+                                                                 <http://rdfize.com/geo/point/52.47/-1.72/about.rdf> ,
+                                                                 <http://rdfize.com/geo/point/52.47/-1.72/about.ttl> ,
+                                                                 <http://rdfize.com/geo/point/52.47/-1.72/about.nt> ,
+                                                                 <http://rdfize.com/geo/point/52.47/-1.72/about.json> .
+
+<http://rdfize.com/geo/point/52.47/-1.72/about.ttl> foaf:primaryTopic <http://rdfize.com/geo/point/52.47/-1.72/> .

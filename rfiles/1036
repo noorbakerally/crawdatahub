@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:events="http://schemas.talis.com/2009/events/"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/"
+  xmlns:temp="http://lists.talis.com/schema/temp#">
+
+  <rdf:Description rdf:about="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748"/>
+    <foaf:topic rdf:resource="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748"/>
+    <dct:hasFormat rdf:resource="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748.html"/>
+    <dct:hasFormat rdf:resource="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748.json"/>
+    <dct:hasFormat rdf:resource="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748">
+    <events:hasEvents rdf:resource="http://readinglists.bournemouth.ac.uk/lists/2FFC8CA0-4822-36B8-620B-24D356101748/events"/>
+    <rdf:_1 rdf:resource="http://readinglists.bournemouth.ac.uk/sections/305184E0-2F0A-E35A-18F3-061E12B98F38"/>
+    <rdf:_2 rdf:resource="http://readinglists.bournemouth.ac.uk/sections/1C4770A8-9146-5F39-AF9A-C62A78A6540D"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#ArchiveList"/>
+    <resourcelist:archived>2013-08-07T19:57:03+01:00</resourcelist:archived>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/0153FF98-0ABC-2FCF-4A8E-A4F51A1450DA"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/03FD7E80-D95A-382B-D2B7-25CBE189EC45"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/0C4BA287-BF07-208B-F897-0F80E3731B73"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/0E552924-CE13-7F71-4E3D-9EDD0EB2EA41"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/165A2BFE-4912-CCD2-CE3C-69D2ED798398"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/3204DC14-1549-026E-FD12-095BE229DA2E"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/3E312E56-10DF-9499-9770-795DA78171E6"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/42E2729A-44F2-2F18-64B3-BD6B505BFF0B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/49C1C3D8-C5E4-277E-9297-9564FCAD773E"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/62C1B335-4480-4EA6-BB4B-5AFADD5C1617"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/63851003-273A-E9F3-86C5-39232553E475"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/6FAD921F-2ABE-7CBE-8B60-E164FB663B73"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/8C763CAF-F459-0C65-41FA-D5408D8961EB"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/932AEEA2-DE34-5623-230B-EE8ADB7DE1F5"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/A2E0A8E5-F2C9-DFC3-EC52-AD8CDE2AE851"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/A8E4F2F7-5FC1-41B8-8E90-544A12B90FE3"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/AB45A537-C3F5-8E77-86BC-1EE199CBC445"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/ADE74E1C-2706-2468-42A4-CF71C917A6CD"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/B9DDD6EE-D7CA-13A1-B7B3-FB9880CFBC98"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/C48A48A1-F816-E595-C62C-3F41322F3C40"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/items/E695F20F-95C7-B5C8-B344-09F346D633FC"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/sections/1C4770A8-9146-5F39-AF9A-C62A78A6540D"/>
+    <resourcelist:contains rdf:resource="http://readinglists.bournemouth.ac.uk/sections/305184E0-2F0A-E35A-18F3-061E12B98F38"/>
+    <resourcelist:created>2011-06-22T09:36:43+01:00</resourcelist:created>
+    <resourcelist:lastPublished>2012-10-19T09:49:36+01:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2012-10-19T09:49:29+01:00</resourcelist:lastUpdated>
+    <spec:has_creator rdf:resource="http://readinglists.bournemouth.ac.uk/users/FAEA29B1-96B2-2CB0-5B43-F9440F13EC84"/>
+    <spec:name>MS: I - Broadcast Journalism 2 </spec:name>
+    <spec:parent_of rdf:resource="http://readinglists.bournemouth.ac.uk/sections/1C4770A8-9146-5F39-AF9A-C62A78A6540D"/>
+    <spec:parent_of rdf:resource="http://readinglists.bournemouth.ac.uk/sections/305184E0-2F0A-E35A-18F3-061E12B98F38"/>
+    <temp:hasRolloverCopy rdf:resource="http://readinglists.bournemouth.ac.uk/lists/7251C211-F560-D3B5-0D8E-71DB8E41F61F"/>
+    <temp:hasTimePeriod rdf:resource="http://readinglists.bournemouth.ac.uk/config/timePeriod2"/>
+  </rdf:Description>
+
+</rdf:RDF>

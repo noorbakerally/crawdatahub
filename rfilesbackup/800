@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:ns0="&ns0;"
+	xmlns:akt="&akt;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:34:04</dcterms:created>
+		<dc:source rdf:resource="http://lisbon.rkbexplorer.com/id/person-01007"/>
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://lisbon.rkbexplorer.com/id/person-01007">
+		<rdf:type rdf:resource="&akt;Affiliated-Person"/>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<rdf:type rdf:resource="&akt;Academic"/>
+		<akt:full-name>Paulo Veríssimo</akt:full-name>
+		<akt:given-name>Paulo</akt:given-name>
+		<akt:family-name>Veríssimo</akt:family-name>
+		<akt:has-appellation rdf:resource="&akt;Prof"/>
+		<akt:has-email-address>pjv@di.fc.ul.pt</akt:has-email-address>
+		<akt:has-web-address>http://www.di.fc.ul.pt/~pjv/</akt:has-web-address>
+		<akt:has-telephone-number>+351 21 750 01 03</akt:has-telephone-number>
+		<akt:has-affiliation-to-unit rdf:resource="http://lisbon.rkbexplorer.com/id/navigators/"/>
+		<akt:has-affiliation rdf:resource="http://lisbon.rkbexplorer.com/id/informatica"/>
+		<akt:has-postal-address rdf:resource="http://lisbon.rkbexplorer.com/id/address-navigators"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://lisbon.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://lisbon.rkbexplorer.com/id/person-01007"/>
+	</rdf:Description>
+</rdf:RDF>

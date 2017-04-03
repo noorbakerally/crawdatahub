@@ -1,0 +1,518 @@
+<html>
+<head>
+
+<title>IODP-USIO: Log database</title>
+
+<meta http-equiv="Content-Type" content="text/html;">
+<meta name="description" content="The International Ocean Discovery Program U.S. Implementing Organization (IODP-USIO), operates the scientific riserless drilling vessel JOIDES Resolution. The IODP-USIO is composed of the Consortium of Ocean Leadership, Lamont-Doherty Earth Observatory's Borehole Research Group, and Texas A&M University's College of Geosciences. IODP is an international organization that conducts research into the evolution of Earth's surface, oceans, climate, and deep biosphere. IODP members include the USA, Japan, the European Consortium for Ocean Research Drilling (ECORD), People's Republic of China, Korea, the Australia/New Zealand Consortium (ANZIC), India, and Brazil. The program operated as the Integrated Ocean Drilling Program from October 2003 to September 2013.">
+<meta name="keywords" content="IODP, IODP-MI, IODP-USIO, coring, drilling, logging, ocean crust, geology, geochemistry, geophysics, microbiology, paleomagnetism, paleontology, petrology, paleoceanography, paleoclimatology, physical properties, sedimentology, structural geology, volcanology">
+
+<link rel="stylesheet" href="/data/html/include/usio.css" type="text/css">
+
+<!-- Fireworks MX; Thu Jun 24 2004; Katerina Petronotis -->
+
+<!-- Rollover image and pop-up menu functions -->
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function mmLoadMenus() {
+  if (window.mm_menu_0624104727_0) return;
+    window.mm_menu_0624104727_0_1 = new Menu("&nbsp;Participant&nbsp;information",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#99333","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+    mm_menu_0624104727_0_1.addMenuItem("&nbsp;Apply&nbsp;to&nbsp;sail","location='http://iodp.tamu.edu/participants/applytosail.html'");
+    mm_menu_0624104727_0_1.addMenuItem("&nbsp;Before&nbsp;an&nbsp;expedition","location='http://iodp.tamu.edu/participants/before_exp.html'");
+    mm_menu_0624104727_0_1.addMenuItem("&nbsp;During&nbsp;an&nbsp;expedition","location='http://iodp.tamu.edu/participants/during_exp.html'");
+    mm_menu_0624104727_0_1.addMenuItem("&nbsp;After&nbsp;an&nbsp;expedition","location='http://iodp.tamu.edu/participants/after_exp.html'");
+     mm_menu_0624104727_0_1.hideOnMouseOut=true;
+     mm_menu_0624104727_0_1.menuBorder=1;
+     mm_menu_0624104727_0_1.menuLiteBgColor='#ffffff';
+     mm_menu_0624104727_0_1.menuBorderBgColor='#ffffff';
+     mm_menu_0624104727_0_1.bgColor='#ffffff';
+  window.mm_menu_0624104727_0 = new Menu("root",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#333333","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+  mm_menu_0624104727_0.addMenuItem("&nbsp;Expedition&nbsp;schedule","location='http://iodp.tamu.edu/scienceops/'");
+  mm_menu_0624104727_0.addMenuItem("&nbsp;Information&nbsp;by&nbsp;expedition","location='http://iodp.tamu.edu/scienceops/expeditions.html'");
+  mm_menu_0624104727_0.addMenuItem("&nbsp;Daily&nbsp;&amp;&nbsp;weekly&nbsp;reports","location='http://iodp.tamu.edu/scienceops/sitesumm.html'");
+  mm_menu_0624104727_0.addMenuItem("&nbsp;Friends&nbsp;&&nbsp;Family&nbsp;Photos", "location='http://iodp.tamu.edu/scienceops/gallery.html'");
+  mm_menu_0624104727_0.addMenuItem(mm_menu_0624104727_0_1,"location='http://iodp.tamu.edu/participants/'");
+  mm_menu_0624104727_0.addMenuItem("&nbsp;Export&nbsp;control","location='http://iodp.tamu.edu/participants/export_control.html'");
+  mm_menu_0624104727_0.addMenuItem("&nbsp;Drill&nbsp;site&nbsp;maps","location='http://iodp.tamu.edu/scienceops/maps.html'");
+  mm_menu_0624104727_0.addMenuItem("&nbsp;Drilling&nbsp;proposals","location='http://iodp.tamu.edu/participants/proposal.html'");
+   mm_menu_0624104727_0.hideOnMouseOut=true;
+   mm_menu_0624104727_0.childMenuIcon="/data/html/images/arrow.gif";
+   mm_menu_0624104727_0.menuBorder=1;
+   mm_menu_0624104727_0.menuLiteBgColor='#ffffff';
+   mm_menu_0624104727_0.menuBorderBgColor='#ffffff';
+   mm_menu_0624104727_0.bgColor='#ffffff';
+    window.mm_menu_0624104741_1_3 = new Menu("&nbsp;Log&nbsp;database",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+    mm_menu_0624104741_1_3.addMenuItem("&nbsp;Data&nbsp;search","location='http://brg.ldeo.columbia.edu/logdb/'");
+    mm_menu_0624104741_1_3.addMenuItem("&nbsp;Data&nbsp;browse","location='http://iodp.ldeo.columbia.edu/DATA/browse.html'");
+    mm_menu_0624104741_1_3.addMenuItem("&nbsp;Data&nbsp;processing&nbsp;information","location='http://iodp.ldeo.columbia.edu/DATA/processing.html'");
+    mm_menu_0624104741_1_3.addMenuItem("&nbsp;Web&nbsp;services","location='http://brg.ldeo.columbia.edu/services/'");
+     mm_menu_0624104741_1_3.hideOnMouseOut=true;
+     mm_menu_0624104741_1_3.menuBorder=1;
+     mm_menu_0624104741_1_3.menuLiteBgColor='#ffffff';
+     mm_menu_0624104741_1_3.menuBorderBgColor='#ffffff';
+     mm_menu_0624104741_1_3.bgColor='#ffffff';
+    window.mm_menu_0624104741_1_4 = new Menu("&nbsp;Core&nbsp;database&nbsp;-&nbsp;LIMS",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+    mm_menu_0624104741_1_4.addMenuItem("&nbsp;Data&nbsp;overview","location='http://web.iodp.tamu.edu/ReportOverview'");
+    mm_menu_0624104741_1_4.addMenuItem("&nbsp;Data&nbsp;search","location='http://web.iodp.tamu.edu/UWQ/'");
+      mm_menu_0624104741_1_4.hideOnMouseOut=true;
+      mm_menu_0624104741_1_4.menuBorder=1;
+      mm_menu_0624104741_1_4.menuLiteBgColor='#ffffff';
+      mm_menu_0624104741_1_4.menuBorderBgColor='#ffffff';
+      mm_menu_0624104741_1_4.bgColor='#ffffff';
+    window.mm_menu_0624104741_1_1 = new Menu("&nbsp;Core&nbsp;database&nbsp;-&nbsp;Janus",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+    mm_menu_0624104741_1_1.addMenuItem("&nbsp;Data&nbsp;overview","location='http://iodp.tamu.edu/janusweb/general/dbtable.cgi'");
+    mm_menu_0624104741_1_1.addMenuItem("&nbsp;Data&nbsp;search","location='http://iodp.tamu.edu/janusweb/links/links_all.shtml'");
+    mm_menu_0624104741_1_1.addMenuItem("&nbsp;Data&nbsp;types","location='http://iodp.tamu.edu/database/datatypes.html'");
+    mm_menu_0624104741_1_1.addMenuItem("&nbsp;Data&nbsp;Model","location='http://iodp.tamu.edu/database/janusmodel.html'");
+     mm_menu_0624104741_1_1.hideOnMouseOut=true;
+     mm_menu_0624104741_1_1.menuBorder=1;
+     mm_menu_0624104741_1_1.menuLiteBgColor='#ffffff';
+     mm_menu_0624104741_1_1.menuBorderBgColor='#ffffff';
+     mm_menu_0624104741_1_1.bgColor='#ffffff';
+    window.mm_menu_0624104741_1_2 = new Menu("&nbsp;Core&nbsp;samples",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+    mm_menu_0624104741_1_2.addMenuItem("&nbsp;Sample&nbsp;requests","location='http://iodp.tamu.edu/curation/samples.html'");
+    mm_menu_0624104741_1_2.addMenuItem("&nbsp;Sample&nbsp;types","location='http://iodp.tamu.edu/curation/sampletypes.html'");
+    mm_menu_0624104741_1_2.addMenuItem("&nbsp;Core&nbsp;repositories","location='http://iodp.tamu.edu/curation/repositories.html'");
+    mm_menu_0624104741_1_2.addMenuItem("&nbsp;Micropal.&nbsp;Ref.&nbsp;Centers","location='http://iodp.tamu.edu/curation/mrc.html'");
+     mm_menu_0624104741_1_2.hideOnMouseOut=true;
+     mm_menu_0624104741_1_2.menuBorder=1;
+     mm_menu_0624104741_1_2.menuLiteBgColor='#ffffff';
+     mm_menu_0624104741_1_2.menuBorderBgColor='#ffffff';
+     mm_menu_0624104741_1_2.bgColor='#ffffff';
+  window.mm_menu_0624104741_1 = new Menu("root",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#333333","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+    mm_menu_0624104741_1.addMenuItem(mm_menu_0624104741_1_3,"location='http://iodp.ldeo.columbia.edu/DATA/'");
+  mm_menu_0624104741_1.addMenuItem(mm_menu_0624104741_1_4,"location='http://iodp.tamu.edu/tasapps'");
+  mm_menu_0624104741_1.addMenuItem(mm_menu_0624104741_1_1,"location='http://iodp.tamu.edu/database/'");
+  mm_menu_0624104741_1.addMenuItem("&nbsp;Core&nbsp;images&nbsp;","location='http://iodp.tamu.edu/database/coreimages.html'");
+  mm_menu_0624104741_1.addMenuItem(mm_menu_0624104741_1_2,"location='http://iodp.tamu.edu/curation/'");
+  mm_menu_0624104741_1.addMenuItem("&nbsp;IODP&nbsp;Policies","location='http://iodp.tamu.edu/curation/policy.html'");
+   mm_menu_0624104741_1.hideOnMouseOut=true;
+   mm_menu_0624104741_1.childMenuIcon="/data/html/images/arrow.gif";
+   mm_menu_0624104741_1.menuBorder=1;
+   mm_menu_0624104741_1.menuLiteBgColor='#ffffff';
+   mm_menu_0624104741_1.menuBorderBgColor='#ffffff';
+   mm_menu_0624104741_1.bgColor='#ffffff';
+    window.mm_menu_0624104812_2_1 = new Menu("&nbsp;Laboratories",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+	mm_menu_0624104812_2_1.addMenuItem("&nbsp;Ship&nbsp;labs","location='http://iodp.tamu.edu/labs/ship.html'");
+mm_menu_0624104812_2_1.addMenuItem("&nbsp;Shore&nbsp;labs","location='http://iodp.tamu.edu/labs/shore.html'");
+mm_menu_0624104812_2_1.addMenuItem("&nbsp;Legacy&nbsp;labs","location='http://iodp.tamu.edu/labs/legacy/'");
+     mm_menu_0624104812_2_1.hideOnMouseOut=true;
+     mm_menu_0624104812_2_1.menuBorder=1;
+     mm_menu_0624104812_2_1.menuLiteBgColor='#ffffff';
+     mm_menu_0624104812_2_1.menuBorderBgColor='#ffffff';
+     mm_menu_0624104812_2_1.bgColor='#ffffff';
+    window.mm_menu_0624104812_2_2 = new Menu("&nbsp;Logging&nbsp;tools",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+	 mm_menu_0624104812_2_2.addMenuItem("&nbsp;Introduction","location='http://iodp.ldeo.columbia.edu/TOOLS_LABS/index.html'");
+	   mm_menu_0624104812_2_2.addMenuItem("&nbsp;Tool&nbsp;selection","location='http://iodp.ldeo.columbia.edu/TOOLS_LABS/toolstring_selection.html'");
+    mm_menu_0624104812_2_2.addMenuItem("&nbsp;Tool&nbsp;description","location='http://iodp.ldeo.columbia.edu/TOOLS_LABS/tools.html'");
+    mm_menu_0624104812_2_2.addMenuItem("&nbsp;Data&nbsp;processing","location='http://iodp.ldeo.columbia.edu/TOOLS_LABS/processing.html'");
+     mm_menu_0624104812_2_2.hideOnMouseOut=true;
+     mm_menu_0624104812_2_2.menuBorder=1;
+     mm_menu_0624104812_2_2.menuLiteBgColor='#ffffff';
+     mm_menu_0624104812_2_2.menuBorderBgColor='#ffffff';
+     mm_menu_0624104812_2_2.bgColor='#ffffff';
+  window.mm_menu_0624104812_2 = new Menu("root",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#333333","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+  mm_menu_0624104812_2.addMenuItem(mm_menu_0624104812_2_1,"location='http://iodp.tamu.edu/labs/'");
+  mm_menu_0624104812_2.addMenuItem("&nbsp;Coring&nbsp;tools","location='http://iodp.tamu.edu/tools/'");
+  mm_menu_0624104812_2.addMenuItem(mm_menu_0624104812_2_2,"location='http://iodp.ldeo.columbia.edu/TOOLS_LABS/'");
+mm_menu_0624104812_2.addMenuItem("&nbsp;Third-party&nbsp;tools","location='http://www.iodp.org/third-party-tool'");
+  mm_menu_0624104812_2.addMenuItem("&nbsp;Long-term&nbsp;observatories","location='http://iodp.tamu.edu/tools/observatories.html'");
+  mm_menu_0624104812_2.addMenuItem("&nbsp;U.S.&nbsp;drillship&nbsp;tour","location='http://iodp.tamu.edu/publicinfo/drillship.html'");
+   mm_menu_0624104812_2.hideOnMouseOut=true;
+   mm_menu_0624104812_2.childMenuIcon="/data/html/images/arrow.gif";
+   mm_menu_0624104812_2.menuBorder=1;
+   mm_menu_0624104812_2.menuLiteBgColor='#ffffff';
+   mm_menu_0624104812_2.menuBorderBgColor='#ffffff';
+   mm_menu_0624104812_2.bgColor='#ffffff';
+    window.mm_menu_0624104830_3_1 = new Menu("&nbsp;Expedition&nbsp;publications",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+    mm_menu_0624104830_3_1.addMenuItem("&nbsp;IODP&nbsp;Proceedings","location='http://iodp.tamu.edu/publications/proceedings.html'");
+    mm_menu_0624104830_3_1.addMenuItem("&nbsp;Preliminary&nbsp;Reports","location='http://iodp.tamu.edu/publications/PR.html'");
+    mm_menu_0624104830_3_1.addMenuItem("&nbsp;Logging&nbsp;Summaries","location='http://iodp.ldeo.columbia.edu/LOG_SUM/'");
+    mm_menu_0624104830_3_1.addMenuItem("&nbsp;Scientific&nbsp;Prospectuses","location='http://iodp.tamu.edu/publications/SP.html'");
+    mm_menu_0624104830_3_1.addMenuItem("&nbsp;Citations","location='http://iodp.tamu.edu/publications/citations.html'");
+     mm_menu_0624104830_3_1.hideOnMouseOut=true;
+     mm_menu_0624104830_3_1.menuBorder=1;
+     mm_menu_0624104830_3_1.menuLiteBgColor='#ffffff';
+     mm_menu_0624104830_3_1.menuBorderBgColor='#ffffff';
+     mm_menu_0624104830_3_1.bgColor='#ffffff';
+    window.mm_menu_0624104830_3_2 = new Menu("&nbsp;Author&nbsp;information",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+    mm_menu_0624104830_3_2.addMenuItem("&nbsp;Manuscript&nbsp;submission","location='http://iodp.tamu.edu/publications/manuscripts/'");
+    mm_menu_0624104830_3_2.addMenuItem("&nbsp;Guidelines&nbsp;&amp;&nbsp;templates","location='http://iodp.tamu.edu/publications/guidelines.html'");
+    mm_menu_0624104830_3_2.addMenuItem("&nbsp;IODP&nbsp;policies","location='http://iodp.tamu.edu/curation/policy.html'");
+     mm_menu_0624104830_3_2.hideOnMouseOut=true;
+     mm_menu_0624104830_3_2.menuBorder=1;
+     mm_menu_0624104830_3_2.menuLiteBgColor='#ffffff';
+     mm_menu_0624104830_3_2.menuBorderBgColor='#ffffff';
+     mm_menu_0624104830_3_2.bgColor='#ffffff';
+  window.mm_menu_0624104830_3 = new Menu("root",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#333333","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+  mm_menu_0624104830_3.addMenuItem(mm_menu_0624104830_3_1,"location='http://iodp.tamu.edu/publications/'");
+  mm_menu_0624104830_3.addMenuItem("&nbsp;Technical&nbsp;Notes","location='http://iodp.tamu.edu/publications/TN.html'");
+  mm_menu_0624104830_3.addMenuItem("&nbsp;Annual&nbsp;Reports&nbsp;","location='http://iodp.tamu.edu/publications/AR.html'");
+  mm_menu_0624104830_3.addMenuItem("&nbsp;Annual&nbsp;Program&nbsp;Plans&nbsp;","location='http://iodp.tamu.edu/publications/PP.html'");
+  mm_menu_0624104830_3.addMenuItem("&nbsp;Brochures","location='http://www.iodp-usio.org/Publications/Broch.html'");
+  mm_menu_0624104830_3.addMenuItem(mm_menu_0624104830_3_2,"location='http://iodp.tamu.edu/publications/authors.html'");
+   mm_menu_0624104830_3.hideOnMouseOut=true;
+   mm_menu_0624104830_3.childMenuIcon="/data/html/images/arrow.gif";
+   mm_menu_0624104830_3.menuBorder=1;
+   mm_menu_0624104830_3.menuLiteBgColor='#ffffff';
+   mm_menu_0624104830_3.menuBorderBgColor='#ffffff';
+   mm_menu_0624104830_3.bgColor='#ffffff';
+  window.mm_menu_0624104847_4 = new Menu("root",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#333333","#4e83af","left","middle",2,1,1000,2,0,true,true,true,0,false,false);
+  mm_menu_0624104847_4.addMenuItem("&nbsp;Teaching&nbsp;materials","location='http://www.iodp-usio.org/Education/Educ.html'");
+  mm_menu_0624104847_4.addMenuItem("&nbsp;Fellowships&nbsp;&amp;&nbsp;internships","location='http://www.iodp-usio.org/Education/Careers.html'");
+  mm_menu_0624104847_4.addMenuItem("&nbsp;Teacher&nbsp;at&nbsp;Sea&nbsp;program","location='http://www.iodp-usio.org/Education/TAS.html'");
+  mm_menu_0624104847_4.addMenuItem("&nbsp;School&nbsp;of&nbsp;Rock&nbsp;expeditions","location='http://www.iodp-usio.org/Education/SOR.html'");
+   mm_menu_0624104847_4.hideOnMouseOut=true;
+   mm_menu_0624104847_4.menuBorder=1;
+   mm_menu_0624104847_4.menuLiteBgColor='#ffffff';
+   mm_menu_0624104847_4.menuBorderBgColor='#ffffff';
+   mm_menu_0624104847_4.bgColor='#ffffff';
+  window.mm_menu_0624104903_5 = new Menu("root",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#333333","#4e83af","left","middle",2,1,1000,0,0,true,true,true,0,false,false);
+  mm_menu_0624104903_5.addMenuItem("&nbsp;News&nbsp;releases","location='http://www.iodp-usio.org/Newsroom/Releases.html'");
+  mm_menu_0624104903_5.addMenuItem("&nbsp;IODP&nbsp;in&nbsp;the&nbsp;news","location='http://www.iodp-usio.org/Newsroom/News.html'");
+  mm_menu_0624104903_5.addMenuItem("&nbsp;Photo&nbsp;gallery","location='http://iodp.tamu.edu/publicinfo/gallery.html'");
+  mm_menu_0624104903_5.addMenuItem("&nbsp;Video&nbsp;&amp;&nbsp;more","location='http://www.iodp-usio.org/Newsroom/Prom.html'");
+  mm_menu_0624104903_5.addMenuItem("&nbsp;Port&nbsp;calls&nbsp;&amp;&nbsp;events","location='http://www.iodp-usio.org/Newsroom/Port.html'");
+  mm_menu_0624104903_5.addMenuItem("&nbsp;U.S.&nbsp;drillship&nbsp;tour","location='http://iodp.tamu.edu/publicinfo/drillship.html'");
+   mm_menu_0624104903_5.hideOnMouseOut=true;
+   mm_menu_0624104903_5.menuBorder=1;
+   mm_menu_0624104903_5.menuLiteBgColor='#ffffff';
+   mm_menu_0624104903_5.menuBorderBgColor='#ffffff';
+   mm_menu_0624104903_5.bgColor='#ffffff';
+    window.mm_menu_0624104921_6_1 = new Menu("&nbsp;Visitor&nbsp;information",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,0,0,true,true,true,0,false,false);
+    mm_menu_0624104921_6_1.addMenuItem("&nbsp;JOI:&nbsp;Washington,&nbsp;DC","location='http://iodp.tamu.edu/travel/DC.html'");
+    mm_menu_0624104921_6_1.addMenuItem("&nbsp;LDEO:&nbsp;Palisades,&nbsp;NY","location='http://iodp.tamu.edu/travel/NY.html'");
+    mm_menu_0624104921_6_1.addMenuItem("&nbsp;TAMU:&nbsp;College&nbsp;Station,&nbsp;TX","location='http://iodp.tamu.edu/travel/TX.html'");
+     mm_menu_0624104921_6_1.hideOnMouseOut=true;
+     mm_menu_0624104921_6_1.menuBorder=1;
+     mm_menu_0624104921_6_1.menuLiteBgColor='#ffffff';
+     mm_menu_0624104921_6_1.menuBorderBgColor='#ffffff';
+     mm_menu_0624104921_6_1.bgColor='#ffffff';
+  window.mm_menu_0624104921_6 = new Menu("root",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#333333","#4e83af","left","middle",2,1,1000,0,0,true,true,true,0,false,false);
+  mm_menu_0624104921_6.addMenuItem("&nbsp;Meetings","location='http://iodp.tamu.edu/travel/'");
+  mm_menu_0624104921_6.addMenuItem("&nbsp;Port&nbsp;calls","location='http://iodp.tamu.edu/travel/portcall.html'");
+  mm_menu_0624104921_6.addMenuItem("&nbsp;Expense&nbsp;accounts","location='http://iodp.tamu.edu/travel/expenses.html'");
+  mm_menu_0624104921_6.addMenuItem(mm_menu_0624104921_6_1,"location='http://iodp.tamu.edu/travel/visitors.html'");
+  mm_menu_0624104921_6.addMenuItem("&nbsp;Travel&nbsp;policies","location='http://iodp.tamu.edu/travel/expenses.html'");
+   mm_menu_0624104921_6.hideOnMouseOut=true;
+   mm_menu_0624104921_6.childMenuIcon="/data/html/images/arrow.gif";
+   mm_menu_0624104921_6.menuBorder=1;
+   mm_menu_0624104921_6.menuLiteBgColor='#ffffff';
+   mm_menu_0624104921_6.menuBorderBgColor='#ffffff';
+   mm_menu_0624104921_6.bgColor='#ffffff';
+    window.mm_menu_0624105100_7_1 = new Menu("&nbsp;Staff&nbsp;directories",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#666666","#4e83af","left","middle",2,1,1000,0,0,true,true,true,0,false,false);
+    mm_menu_0624105100_7_1.addMenuItem("&nbsp;Alphabetical","location='http://iodp.tamu.edu/staffdir/usio_alpha.html'");
+    mm_menu_0624105100_7_1.addMenuItem("&nbsp;JOI","location='http://iodp.tamu.edu/staffdir/joi.html'");
+    mm_menu_0624105100_7_1.addMenuItem("&nbsp;LDEO","location='http://iodp.tamu.edu/staffdir/ldeo.html'");
+    mm_menu_0624105100_7_1.addMenuItem("&nbsp;TAMU","location='http://iodp.tamu.edu/staffdir/tamu.html'");
+     mm_menu_0624105100_7_1.hideOnMouseOut=true;
+     mm_menu_0624105100_7_1.menuBorder=1;
+     mm_menu_0624105100_7_1.menuLiteBgColor='#ffffff';
+     mm_menu_0624105100_7_1.menuBorderBgColor='#ffffff';
+     mm_menu_0624105100_7_1.bgColor='#ffffff';
+  window.mm_menu_0624105100_7 = new Menu("root",170,26,"Verdana, Arial, Helvetica, sans-serif",11,"#ffffff","#ffffff","#333333","#4e83af","left","middle",2,1,1000,0,0,true,true,true,0,false,false);
+  mm_menu_0624105100_7.addMenuItem(mm_menu_0624105100_7_1,"location='http://iodp.tamu.edu/staffdir/'");
+  mm_menu_0624105100_7.addMenuItem("&nbsp;Media&nbsp;inquiries","location='http://www.iodp-usio.org/Newsroom/'");
+
+mm_menu_0624105100_7.addMenuItem("&nbsp;Mailing&nbsp;addresses","http://www.iodp-usio.orglocation='/Contact/'");
+  mm_menu_0624105100_7.addMenuItem("&nbsp;Vendor&nbsp;information","location='http://iodp.tamu.edu/vendors/'");
+  mm_menu_0624105100_7.addMenuItem("&nbsp;Helpful&nbsp;emails","location='http://iodp.tamu.edu/staffdir/usio_email.html'");
+  mm_menu_0624105100_7.addMenuItem("&nbsp;Fax&nbsp;numbers","location='http://iodp.tamu.edu/staffdir/usio_fax.html'");
+   mm_menu_0624105100_7.hideOnMouseOut=true;
+   mm_menu_0624105100_7.childMenuIcon="/data/html/images/arrow.gif";
+   mm_menu_0624105100_7.menuBorder=1;
+   mm_menu_0624105100_7.menuLiteBgColor='#ffffff';
+   mm_menu_0624105100_7.menuBorderBgColor='#ffffff';
+   mm_menu_0624105100_7.bgColor='#ffffff';
+
+  mm_menu_0624105100_7.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+
+
+<!-- Pop-up menu script -->
+<script language="JavaScript1.2" src="/data/html/include/mm_menu.js"></script>
+
+<!-- Email script -->
+<script language="JavaScript" src="/data/html/include/AntiSpambotMailto.js"></script>
+		<csscriptdict import>
+			<script type="text/javascript" src="/data/html/GeneratedItems/CSScriptLib.js"></script>
+		</csscriptdict>
+<csactiondict>
+			<script type="text/javascript"><!--
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		over_tab_iodp = newImage(/*URL*/'IMG/tab_iodp_f2.jpg');
+		over_tab_odp = newImage(/*URL*/'IMG/tab_odp_f2.jpg');
+		over_tab_tdsdp = newImage(/*URL*/'IMG/tab_dsdp_f2.jpg');
+		preloadFlag = true;
+	}
+}
+
+// --></script>
+</csactiondict> 
+</head>
+
+<body bgcolor="#ffffff" onLoad="MM_preloadImages('IMG/tab_iodp_f2.jpg','IMG/tab_odp_f2.jpg','IMG/tab_dsdp_f2.jpg','/data/html/images/data_f2.jpg');document.holes.reset()">
+<!-- Activate pop-up menu script -->
+<script language="JavaScript1.2">mmLoadMenus();</script>
+
+<!-- First table with graphics at top of page -->
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tr>
+<td><img src="/data/html/images/spacer.gif" width="700" height="1" border="0" alt=""></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+</tr>
+
+<!-- Banner graphic with image map -->
+<tr>
+<td><img name="banner" src="/data/html/images/banner_Kazuko.jpg" width="850" height="76" border="0" usemap="#m_banner" alt=""></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="76" border="0" alt=""></td>
+</tr>
+</table>
+
+<!-- Banner graphic image map -->
+<map name="m_banner">
+<area shape="poly" coords="435,1,477,1,477,21,435,21,435,1" href="http://www.iodp-usio.org/Search/default.html" title="Search the JOI Alliance (IODP-USIO) web sites" alt="Search the JOI Alliance (IODP-USIO) web sites" >
+<area shape="poly" coords="487,1,539,1,539,21,487,21,487,1" href="http://www.iodp-usio.org/Sitemap/default.html" title="JOI Alliance (IODP-USIO) web site map" alt="JOI Alliance (IODP-USIO) web site map" >
+<area shape="poly" coords="548,1,591,1,591,21,548,21,548,1" href="http://iodp.tamu.edu/staffdir/" title="JOI Alliance (IODP-USIO) staff directory" alt="JOI Alliance (IODP-USIO) staff directory" >
+<area shape="poly" coords="601,1,649,1,649,21,601,21,601,1" href="http://iodp.tamu.edu/internal/" title="JOI Alliance (IODP-USIO) employee intranet" alt="JOI Alliance (IODP-USIO) employee intranet" >
+<area shape="poly" coords="657,1,696,1,696,21,657,21,657,1" href="http://www.iodp-usio.org/default.html" title="JOI Alliance (IODP-USIO) home" alt="JOI Alliance (IODP-USIO) home" >
+</map>
+       
+<!-- Second table with navigation and page content -->
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tr>
+<!-- Second table: left column: navigation with rollover images -->
+<!-- Turn off the rollover and use the _f2.jpg image to reflect the level 1 -->
+<td align=left valign=top>
+<table border="0" cellpadding="0" cellspacing="0" width="163">
+<tr>
+<td width="168"><img name="globe_bot" src="/data/html/images/globe_bot.jpg" width="162" height="82" border="0" alt=""></td>
+<td width="10"><img src="/data/html/images/spacer.gif" width="1" height="82" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/About/default.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('about','','/data/html/images/about_f2.jpg',1)"><img name="about" src="/data/html/images/about.jpg" width="162" height="30" border="0" alt="About the IODP-USIO"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="30" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Expeditions/default.html" onMouseOut="MM_swapImgRestore();MM_startTimeout();" onMouseOver="MM_showMenu(window.mm_menu_0624104727_0,150,0,null,'exped');MM_swapImage('exped','','/data/html/images/exped_f2.jpg',1)"><img name="exped" src="/data/html/images/exped.jpg" width="162" height="28" border="0" alt="JOI Alliance (IODP-USIO): expedition and participant information"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Data_Samples/default.html" onMouseOut="MM_swapImgRestore();MM_startTimeout()" onMouseOver="MM_showMenu(window.mm_menu_0624104741_1,150,0,null,'data');MM_swapImage('data','','/data/html/images/data_f2.jpg',1)"><img name="data" src="/data/html/images/data.jpg" width="162" height="28" border="0" alt="JOI Alliance (IODP-USIO) core/log databases and core sample curation"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Tools_Labs/default.html" onMouseOut="MM_swapImgRestore();MM_startTimeout();" onMouseOver="MM_showMenu(window.mm_menu_0624104812_2,150,0,null,'tools');MM_swapImage('tools','','/data/html/images/tools_f2.jpg',1)"><img name="tools" src="/data/html/images/tools.jpg" width="162" height="28" border="0" alt="JOI Alliance (IODP-USIO) drilling/logging tools and science laboratories"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Publications/default.html" onMouseOut="MM_swapImgRestore();MM_startTimeout();" onMouseOver="MM_showMenu(window.mm_menu_0624104830_3,150,0,null,'pubs');MM_swapImage('pubs','','/data/html/images/pubs_f2.jpg',1)"><img name="pubs" src="/data/html/images/pubs.jpg" width="162" height="28" border="0" alt="JOI Alliance (IODP-USIO) publications"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Education/default.html" onMouseOut="MM_swapImgRestore();MM_startTimeout();" onMouseOver="MM_showMenu(window.mm_menu_0624104847_4,150,0,null,'educ');MM_swapImage('educ','','/data/html/images/educ_f2.jpg',1)"><img name="educ" src="/data/html/images/educ.jpg" width="162" height="28" border="0" alt="JOI Alliance (IODP-USIO) educational resources and outreach activities"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Newsroom/default.html" onMouseOut="MM_swapImgRestore();MM_startTimeout();" onMouseOver="MM_showMenu(window.mm_menu_0624104903_5,150,0,null,'media');MM_swapImage('media','','/data/html/images/media_f2.jpg',1)"><img name="media" src="/data/html/images/media.jpg" width="162" height="28" border="0" alt="JOI Alliance (IODP-USIO) news releases, photo gallery, and promotional material"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Meetings/default.html" onMouseOut="MM_swapImgRestore();MM_startTimeout();" onMouseOver="MM_showMenu(window.mm_menu_0624104921_6,150,-28,null,'meet');MM_swapImage('meet','','/data/html/images/meet_f2.jpg',1)"><img name="meet" src="/data/html/images/meet.jpg" width="162" height="28" border="0" alt="JOI Alliance (IODp-USIO) meetings, port calls, and travel information"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Employment/default.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('empl','','/data/html/images/empl_f2.jpg',1)"><img name="empl" src="/data/html/images/empl.jpg" width="162" height="28" border="0" alt="JOI Alliance (IODP-USIO) employment opportunities"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+</tr>
+<tr>
+<td><a href="http://www.iodp-usio.org/Contact/default.html" onMouseOut="MM_swapImgRestore();MM_startTimeout();" onMouseOver="MM_showMenu(window.mm_menu_0624105100_7,150,-84,null,'cont');MM_swapImage('cont','','/data/html/images/cont_f2.jpg',1)"><img name="cont" src="/data/html/images/cont.jpg" width="162" height="30" border="0" alt="JOI Alliance (IODP-USIO) contact information"></a></td>
+<td><img src="/data/html/images/spacer.gif" width="1" height="30" border="0" alt=""></td>
+</tr>
+</table></td>
+
+<!-- Second table: right column: page content -->
+<td align=left valign=top width="530">
+                        <table width="720">
+	<tr>
+	  <td>
+
+
+	<br/><br/>
+	<center>
+	<span style=font-size:12pt><b>WEB SERVICES</b></span>
+	<br/>
+	</center>
+
+	<ul>
+	<br/>
+	1. Service:&nbsp; <i>OAI Protocol for Metadata Harvest (<a target=_top href="http://en.wikipedia.org/wiki/OAI-PMH">PMH</a>)</i>
+	<ul>
+	<br/>
+	Usage:
+	<br/>
+	<ul>
+	<i><a target=_top href="http://sedis.iodp.org/front_content.php?idart=94&index=datasets&q_=brg.ldeo.columbia.edu">http://sedis.iodp.org/front_content.php?index=datasets&q_=brg.ldeo.columbia.edu</a> (Client)</i><br/>
+	<br/>
+	<i><a target=_top href="http://brg.ldeo.columbia.edu/services/oai">http://brg.ldeo.columbia.edu/services/oai</a> (Server)</i><br/>
+	</ul>
+	</ul>
+	</ul>
+
+	<ul>
+	<br/>
+	2. Service:&nbsp; <i>Catalog Search (<a target=_top href="http://en.wikipedia.org/wiki/REST">ReST</a>/<a target=_top href="http://en.wikipedia.org/wiki/Plain_Old_XML">POX</a>-type)</i>
+	<ul>
+	<br/>
+	Usage:
+	<br/>
+	<ul>
+	<i>http://brg.ldeo.columbia.edu/services/LogHole/?<u>param</u>=<u>value</u>&...</i><br/>
+	&nbsp; and<br/>
+	<i>http://brg.ldeo.columbia.edu/services/LogFile/?<u>param</u>=<u>value</u>&...</i><br/>
+	&nbsp; where <i><u>param</u></i> is one of:
+	<ul><i>
+		program<br/>
+		operator<br/>
+		year<br/>
+		leg<br/>
+		site<br/>
+		hole<br/>
+		location<br/>
+		waterbody<br/>
+		measurement<br/>
+		tool<br/>
+	</i></ul>
+	</ul>
+	<br/>
+	Examples:
+	<br/>
+	<ul><i>
+		<a target=_top href="http://brg.ldeo.columbia.edu/services/LogHole/?operator=ESO">http://brg.ldeo.columbia.edu/services/LogHole/?operator=ESO</a>
+		<br/>
+		<a target=_top href="http://brg.ldeo.columbia.edu/services/LogHole/?year=2005">http://brg.ldeo.columbia.edu/services/LogHole/?year=2005</a>
+		<br/>
+		<a target=_top href="http://brg.ldeo.columbia.edu/services/LogHole/?measurement=geochemistry">http://brg.ldeo.columbia.edu/services/LogHole/?measurement=geochemistry</a>
+		<br/>
+		<a target=_top href="http://brg.ldeo.columbia.edu/services/LogFile/?hole=642E">http://brg.ldeo.columbia.edu/services/LogFile/?hole=642E</a>
+		<br/>
+		<a target=_top href="http://brg.ldeo.columbia.edu/services/LogFile/?tool=VSI">http://brg.ldeo.columbia.edu/services/LogFile/?tool=VSI</a>
+		<br/>
+		<a target=_top href="http://brg.ldeo.columbia.edu/services/LogFile/?waterbody=Arctic">http://brg.ldeo.columbia.edu/services/LogFile/?waterbody=Arctic</a>
+	</i></ul>
+<!--	<br/>
+	Schema vocabularies:
+	<br/>
+	<ul>
+                <i><a href="vocab/Program.xsd">Program.xsd</a></i><br/>
+                <i><a href="vocab/Operator.xsd">Operator.xsd</a></i><br/>
+                <i><a href="vocab/Year.xsd">Year.xsd</a></i><br/>
+                <i><a href="vocab/Leg.xsd">Leg.xsd</a></i><br/>
+                <i><a href="vocab/Site.xsd">Site.xsd</a></i><br/>
+                <i><a href="vocab/Hole.xsd">Hole.xsd</a></i><br/>
+                <i><a href="vocab/Location.xsd">Location.xsd</a></i><br/>
+                <i><a href="vocab/Waterbody.xsd">Waterbody.xsd</a></i><br/>
+                <i><a href="vocab/Measurement.xsd">Measurement.xsd</a></i><br/>
+                <i><a href="vocab/Tool.xsd">Tool.xsd</a></i><br/>
+                <i><a href="vocab/ToolName.xsd">ToolName.xsd</a></i><br/>
+	</ul> -->
+	</ul>
+	</ul>
+	
+	<ul>
+	<br/>
+	3. Service:&nbsp; <i>OGC Web Feature Service (<a target=_top href="http://en.wikipedia.org/wiki/Web_Feature_Service">WFS</a>)</i>
+	<ul>
+	<br/>
+	Usage:
+	<br/>
+	<ul>
+	<i><a target=_top href="http://brg.ldeo.columbia.edu/services/wfs?service=WFS&version=1.0.0&request=GetCapabilities">http://brg.ldeo.columbia.edu/services/wfs?service=WFS&version=1.0.0&request=GetCapabilities</a></i><br/>
+	</ul>
+	<br/>
+	Examples:
+	<br/>
+	<ul>
+	<i><a target=_top href="http://brg.ldeo.columbia.edu/services/wfs?service=WFS&version=1.0.0&request=GetFeature&typename=LogHole&filter=<Filter><PropertyIsEqualTo><PropertyName>leg</PropertyName><Literal>8</Literal></PropertyIsEqualTo></Filter>">http://brg.ldeo.columbia.edu/services/wfs?service=WFS&version=1.0.0&request=GetFeature&typename=LogHole&filter=...</a><br/>
+	&nbsp; (LogHole with filter for leg=8)</i><br/>
+		<br/>
+	<i><a target=_top href="http://brg.ldeo.columbia.edu/services/wfs?service=WFS&version=1.0.0&request=GetFeature&typename=LogFile&filter=<Filter><AND><PropertyIsEqualTo><PropertyName>measurement</PropertyName><Literal>geochemistry</Literal></PropertyIsEqualTo><PropertyIsEqualTo><PropertyName>tool</PropertyName><Literal>ACT</Literal></PropertyIsEqualTo></AND></Filter>">http://brg.ldeo.columbia.edu/services/wfs?service=WFS&version=1.0.0&request=GetFeature&typename=LogFile&filter=...</a><br/>
+	&nbsp; (LogFile with filter for measurement=geochemistry and tool=ACT)</i><br/>
+	</ul>
+	</ul>
+	</ul>
+
+	<ul>
+	<br/>
+	4. Service:&nbsp; <i>Measurement Dictionary (W3C <a target=_top href="http://en.wikipedia.org/wiki/SKOS">SKOS</a>)</i>
+	<ul>
+	<br/>
+	Usage:
+	<br/>
+	<ul>
+	<i><a target=_top href="http://brg.ldeo.columbia.edu/services/dict/measurement.rdf">http://brg.ldeo.columbia.edu/services/dict/measurement.rdf</a></i><br/>
+	</ul>
+	</ul>
+	</ul>
+
+		</td></tr>
+	</table>
+    </td>
+  </tr>
+</table>
+
+<!-- Bottom text links -->
+<br><br>
+<p class="small">
+<a href="http://www.iodp-usio.org/About/default.html" alt="About the IODP-USIO">About
+the IODP-USIO</a> |<a href="http://www.iodp-usio.org/Expeditions/default.html"> Expeditions</a>| <a href="http://www.iodp-usio.org/Data_Samples/default.html" alt="JOI Alliance (IODP-USIO): core/log databases and core sample curation">Data & core
+Samples</a> | <a href="http://www.iodp-usio.org/Tools_Labs/default.html" alt="JOI Alliance (IODP-USIO): drilling/logging tools and science laboratories">Tools & Laboratories</a> | <a href="http://www.iodp-usio.org/Publications/default.html" alt="JOI Alliance (IODP-USIO): publications">Publications </a> <a href="http://www.iodp-usio.org/Education/default.html" alt="JOI Alliance (IODP-USIO): education and outreach"> |
+Education</a> | <br>
+   <a href="http://www.iodp-usio.org/Newsroom/default.html" alt="JOI Alliance (IODP-USIO): public and media">Newsroom</a> | <a href="http://www.iodp-usio.org/Meetings/default.html" alt="JOI Alliance (IODP-USIO): meetings, port calls, and travel">Meetings & port
+   calls </a>| <a href="http://www.iodp-usio.org/Employment/default.html" alt="JOI Alliance (IODP-USIO): employment opportunities">Employment</a> | <a href="http://www.iodp-usio.org/Contact/default.html" alt="JOI Alliance (IODP-USIO): contact information">Contact
+   us</a> | <a href="http://www.iodp-usio.org/Search/default.html" alt="Search the JOI Alliance (IODP-USIO) web sites" >Search</a> |<a href="http://www.iodp-usio.org/Sitemap/default.html"> Site
+   map</a> | <a href="http://iodp.tamu.edu/staffdir/" alt="JOI Alliance (IODP-USIO): staff directory" >People</a> | <a href="http://iodp.tamu.edu/internal/" alt="JOI Alliance (IODP-USIO): employee intranet" >Intranet</a> | <a href="http://www.iodp-usio.org/default.html" alt="JOI Alliance (IODP-USIO): home" >Home</a>
+  <br><br>
+
+  <!-- Webmaster email -->
+<!--For comments or questions: <a href="mailto:brg-webmaster@ldeo.columbia.edu">webmaster@ldeo.columbia.edu</a></p>-->
+For comments or questions: <a href="http://brg.ldeo.columbia.edu/securimage/secureemail.php?myemail=d862d6b3a68c03996d31d9d5c7c19caf">Email Webmaster</a></p>
+<p class="small">Copyright&copy; 2003-2013 IODP-USIO </p>
+<!-- File date -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4415504-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

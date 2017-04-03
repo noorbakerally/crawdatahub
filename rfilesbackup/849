@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:gnossUtils="http://gnossUtils/" xmlns:sc="http://schema.org/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:hr-xml="http://didactalia.net/Ontologia/Curriculum.owl#" xmlns:museos="http://didactalia.net/Ontologia/museos.owl#" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://museos.gnoss.com/en/community/mismuseos/resource/museo-sorolla/67800771-4cc6-4acf-9089-dd6c931d1726">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[MUSEO SOROLLA]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Esta Casa-Museo alberga la mejor colección de obras del pintor valenciano Joaquín Sorolla y Bastida (1863 - 1923). Destaca la conservación del estudio del pintor y la ambientación de una casa burguesa de principios de siglo, en la que pueden contemplarse los objetos reunidos por el artista (escultura, cerámica, joyería popular, metalistería, mobiliario).]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-12-15T14:04:06+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO SOROLLA]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO SOROLLA.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Museum_67800771-4cc6-4acf-9089-dd6c931d1726_7e7dd17d-eef5-469d-8096-91b431389b01" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:has_space rdf:resource="http://museos.gnoss.com/en/community/mismuseos" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/casa---museo-perez-galdos/3eb1a9d9-93b6-4718-84eb-91bb185dd9c3" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/casa---museo-de-tomas-morales/ad3a3f57-40c5-41ee-abb2-c651fd8711b4" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/casa---museo-d-pepe-marsilla-bullas-1900/03f0247c-e252-40a2-8108-0011844f8600" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-adolfo-lozano-sidro/9f1c1c07-562c-45a2-9494-bb3819c0587b" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/casa---museo-antonio-padron/fbbbd5d6-ece1-4a06-bda8-8b5beecee253" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/casona-de-tudanca---casa-museo-jose-maria-de/8cfece38-85e5-403e-81de-6b441e13292f" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/casa-museo-de-la-tia-sandalia/6afbefd8-06c4-4080-ac93-a3e038751472" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/casa-de-cervantes/619410ed-e88b-4d3b-a005-3d2c2521e658" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museo-zuloaga/5d0763b2-c8db-4485-9cc4-08f50dd7e47e" />
+    <sioc:related_to rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resource/museu-i-centre-d-estudis-juniperians/3f975030-6c16-47f6-ac14-2d4c11212fa2" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/resources/category/casa-museo/5111bf74-3580-40cd-bd93-464e19783a24" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/-" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/sorolla" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/bastida" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/joaquin%20sorolla" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/casa-museo" />
+    <sioc:topic rdf:resource="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo%20destacado" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <foaf:Group rdf:about="https://didactalia.net/en/organization/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo Didactalia]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo Didactalia]]></foaf:name>
+  </foaf:Group>
+  <sioc:Space rdf:about="http://museos.gnoss.com/en/community/mismuseos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[museos]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://museos.gnoss.com/en/community/mismuseos/resources/category/casa-museo/5111bf74-3580-40cd-bd93-464e19783a24">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Casa-Museo]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Casa-Museo]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/-">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[-]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/sorolla">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sorolla]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/bastida">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bastida]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/joaquin%20sorolla">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[joaquin sorolla]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/casa-museo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[casa-museo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://museos.gnoss.com/en/community/mismuseos/search/tag/museo%20destacado">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[museo destacado]]></rdfs:label>
+  </sioc_t:Tag>
+<Museum rdf:about="http://didactalia.net/items/Museum_67800771-4cc6-4acf-9089-dd6c931d1726_7e7dd17d-eef5-469d-8096-91b431389b01">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <museos:accessType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Libre]]></museos:accessType>
+    <museos:management rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Estatal. Ministerio de Cultura]]></museos:management>
+    <vcard:email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[museo@msorolla.mcu.es]]></vcard:email>
+    <vcard:fax rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[91 3085925]]></vcard:fax>
+    <museos:typology rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Casa-Museo]]></museos:typology>
+    <vcard:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Pº. General Martínez Campos, 37]]></vcard:address>
+    <museos:ownership rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Estatal. Ministerio de Cultura]]></museos:ownership>
+    <museos:activities rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Visitas guiadas, exposiciones temporales.]]></museos:activities>
+    <museos:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[General: 3 euros. Reducida: 1,50 euros]]></museos:rate>
+    <dc:references rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Santa - Ana  Alvarez - Ossorio, F.de  (2002),  Museo Sorolla , Madrid: Ministerio de Educación Cultura y DeporteSanta - Ana  Alvarez - Ossorio, F.de  (2000),  Museo Sorolla , Madrid: ElectaSanta - Ana  Alvarez - Ossorio, F.de  (1995),  Museo Sorolla , Madrid: Gante]]></dc:references>
+    <museos:homepage rdf:resource="http://museosorolla.mcu.es" />
+    <vcard:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</vcard:postalCode>
+    <museos:schedule rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[De martes a sábado: de 9,30 a 20 h. Domingo y festivos: de 10 a 15 h. Cerrado: lunes, 1 de enero, 1 de mayo, 24, 25 y 31 de diciembre y dos festivos locales.]]></museos:schedule>
+    <museos:advanceRequest rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Grupos]]></museos:advanceRequest>
+    <vcard:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[91 3101584]]></vcard:tel>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Esta Casa-Museo alberga la mejor colección de obras del pintor valenciano Joaquín Sorolla y Bastida (1863 - 1923). Destaca la conservación del estudio del pintor y la ambientación de una casa burguesa de principios de siglo, en la que pueden contemplarse los objetos reunidos por el artista (escultura, cerámica, joyería popular, metalistería, mobiliario).]]></dc:description>
+    <museos:interventions rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Rehabilitación arquitectónica, renovación museológica y museográfica, conservación y restauración, integración en la red DOMUS]]></museos:interventions>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[MUSEO SOROLLA]]></dc:title>
+    <vcard:country rdf:resource="http://geonames.org/2510769" />
+    <vcard:region rdf:resource="http://geonames.org/3117732" />
+    <museos:attachedImage rdf:resource="http://didactalia.net/items/AttachedImage_67800771-4cc6-4acf-9089-dd6c931d1726_e6ef5c90-3cb9-49e7-a106-78b15a25f68d" />
+    <museos:city rdf:resource="http://geonames.org/3117735" />
+    <geo:location rdf:resource="http://didactalia.net/items/wgs84_pos#Point_67800771-4cc6-4acf-9089-dd6c931d1726_79f69a7e-dedc-4406-9b22-a69cfd6c6bfc" />
+    <museos:province rdf:resource="http://geonames.org/6355233" />
+  </Museum>
+  <AttachedImage rdf:about="http://didactalia.net/items/AttachedImage_67800771-4cc6-4acf-9089-dd6c931d1726_e6ef5c90-3cb9-49e7-a106-78b15a25f68d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[AttachedImage]]></rdfs:label>
+    <museos:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[imagenes/Documentos/ImagenesSemanticas/67800771-4cc6-4acf-9089-dd6c931d1726/1aeca9f1-c23b-4854-b092-d45528969da6.jpg]]></museos:image>
+  </AttachedImage>
+  <geo:Point rdf:about="http://didactalia.net/items/wgs84_pos#Point_67800771-4cc6-4acf-9089-dd6c931d1726_79f69a7e-dedc-4406-9b22-a69cfd6c6bfc">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://www.w3.org/2003/01/geo/wgs84_pos#Point]]></rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-3.702559947967529</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.41650009155273</geo:lat>
+  </geo:Point>
+</rdf:RDF>

@@ -1,0 +1,30 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/ontology/sukl/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	rdf:type	ns1:MedicinalProductPackaging .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	dcterms:title	"IBALGIN 400"@cs .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	skos:notation	"0032080" .
+@prefix ns4:	<http://linked.opendata.cz/resource/atc/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	ns1:hasATCCode	ns4:M01AE01 .
+@prefix ns5:	<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	ns1:hasDefinedDailyDose	ns5:ddd .
+@prefix ns6:	<http://linked.opendata.cz/resource/sukl/df/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	ns1:hasDosageForm	ns6:TBL-FLM-POR ;
+	ns1:hasPackagingSize	"12" .
+@prefix ns7:	<http://linked.opendata.cz/resource/sukl/packing/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	ns1:hasPacking	ns7:BLI .
+@prefix ns8:	<http://linked.opendata.cz/resource/sukl/company/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	ns1:hasRegistrationHolder	ns8:ZNPCZ .
+@prefix ns9:	<http://linked.opendata.cz/resource/sukl/registration-state/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	ns1:hasRegistrationState	ns9:R .
+@prefix ns10:	<http://linked.opendata.cz/resource/sukl/roa/> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	ns1:hasRouteOfAdministration	ns10:POR ;
+	ns1:hasStrength	"400MG" ;
+	ns1:hasIndicationGroup	<http://linked.opendata.cz/resource/sukl/indgroup/29> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080>	ns1:containsDefinedDailyDoses	"4.0"^^xsd:float ;
+	ns1:hasRegistrationCode	"29/ 154/88-C" ;
+	ns1:hasTitleSupplement	"POR TBL FLM 12X400MG" .
+@prefix ns12:	<http://linked.opendata.cz/resource/sukl/medicinal-product/> .
+ns12:IBALGIN-400	ns1:hasMedicinalProductPackaging	<http://linked.opendata.cz/resource/sukl/medicinal-product-packaging/0032080> .

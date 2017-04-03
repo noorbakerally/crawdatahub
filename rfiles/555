@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://blogs.BootsnAll.com/luka/">
+<title>South East Asia</title>
+<link>http://blogs.BootsnAll.com/luka/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2004-10-19T12:06:55-08:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.64" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://blogs.BootsnAll.com/luka/archives/005130.shtml" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://blogs.BootsnAll.com/luka/archives/005130.shtml">
+<title>Bio</title>
+<link>http://blogs.BootsnAll.com/luka/archives/005130.shtml</link>
+<description>I stopped by the BootsnAll office in Portland and they hooked me up with a good ticket to Bangkok. I leave in 2 weeks....</description>
+<dc:subject>About Me</dc:subject>
+<dc:creator>Luka</dc:creator>
+<dc:date>2004-10-19T12:06:55-08:00</dc:date>
+</item>
+
+
+</rdf:RDF>

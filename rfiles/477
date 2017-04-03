@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:events="http://schemas.talis.com/2009/events/"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/"
+  xmlns:temp="http://lists.talis.com/schema/temp#">
+
+  <rdf:Description rdf:about="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46"/>
+    <foaf:topic rdf:resource="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46"/>
+    <dct:hasFormat rdf:resource="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.html"/>
+    <dct:hasFormat rdf:resource="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.json"/>
+    <dct:hasFormat rdf:resource="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46">
+    <events:hasEvents rdf:resource="http://readinglists.brunel.ac.uk/lists/E199BCF2-BF94-6B87-81A0-4DACAEC11F46/events"/>
+    <rdf:_1 rdf:resource="http://readinglists.brunel.ac.uk/sections/BA694D15-FD2A-6D12-8449-4E722418254A"/>
+    <rdf:_2 rdf:resource="http://readinglists.brunel.ac.uk/sections/9292F92B-BA21-D4C1-82E2-9A77729CE084"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#ArchiveList"/>
+    <resourcelist:archived>2016-04-29T10:19:32+01:00</resourcelist:archived>
+    <resourcelist:archivedBy rdf:resource="http://readinglists.brunel.ac.uk/users/289225E3-4F2C-AAC4-310B-89761DE3FCDC"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/00702FA0-3D2E-A245-9D5A-E7308959CB08"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/097FFB51-1562-285D-1B02-55D2763F065D"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/0C9A2D35-6CF3-5316-D877-A5956EAAA994"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/11E2623C-4993-D169-2C5A-4584B2BC4FA3"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/266A359F-84B3-2A4E-22ED-BA779104FE5E"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/27AC1CF3-1140-5BE9-61C1-4D1A90888693"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/44BE1C25-5EFB-F839-0268-A34BFBD25844"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/71F1418B-8D04-4C6F-05DF-67BE063197D2"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/A1B6245E-74D3-038C-EFB0-054C78968991"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/BE73F324-75BF-4136-1397-4EF959B5150A"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/C854AB8A-D0D7-68D0-ECEE-8F9496C213DD"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/D0E7954C-2CDE-C1DE-D60D-B3A6228A85B6"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/D92C4859-FCC5-16E7-838F-9B760A23F62B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/DF97EB11-54AF-47E7-AEA2-39A9E63F0F78"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/items/E71DA76B-67BA-08FD-E679-AEC8A2A07F03"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/sections/9292F92B-BA21-D4C1-82E2-9A77729CE084"/>
+    <resourcelist:contains rdf:resource="http://readinglists.brunel.ac.uk/sections/BA694D15-FD2A-6D12-8449-4E722418254A"/>
+    <resourcelist:created>2011-07-05T11:42:35+01:00</resourcelist:created>
+    <resourcelist:description>Shenxiang Yang</resourcelist:description>
+    <resourcelist:lastPublished>2012-03-05T10:16:47+00:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2012-03-05T10:16:39+00:00</resourcelist:lastUpdated>
+    <spec:has_creator rdf:resource="http://readinglists.brunel.ac.uk/users/E06B7FD4-56AF-9E3D-2382-98E1C928F265"/>
+    <spec:name>CS3002 - Artificial Intelligence</spec:name>
+    <spec:parent_of rdf:resource="http://readinglists.brunel.ac.uk/sections/9292F92B-BA21-D4C1-82E2-9A77729CE084"/>
+    <spec:parent_of rdf:resource="http://readinglists.brunel.ac.uk/sections/BA694D15-FD2A-6D12-8449-4E722418254A"/>
+    <temp:hasRolloverCopy rdf:resource="http://readinglists.brunel.ac.uk/lists/B374B116-8633-B28F-7D81-3B35B4C30490"/>
+    <temp:hasTimePeriod rdf:resource="http://readinglists.brunel.ac.uk/config/timePeriod1"/>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,1014 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--[if lt IE 7 ]> <html class="ie6" xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="fr"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7" xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="fr"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8" xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="fr"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9" xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="fr"> <![endif]-->
+<!--[if IE 10 ]> <html class="ie10" xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="fr"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<!--<![endif]-->
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Internet Memory Foundation" />
+  <meta name="keywords" content="" />
+  <meta name="description"
+    content="IMF Access Framework, easy access to web archives" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>[ARCHIVED CONTENT] UK Government Web Archive – The National Archives</title>
+
+  <link rel="shortcut icon" type="image/x-icon"
+    href="/tna/media_sel/images/favicon.png" />
+  <link rel="stylesheet" href="/media/helpers/blankCore/css/blank.min.css"
+    type="text/css" media="all" />
+  <link rel="stylesheet" href="/tna/template_sel/css/flat.css"
+    type="text/css" media="all" />
+
+  <script type="text/javascript"
+    src="/media/helpers/jquery-ui.custom/latest/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="/media/helpers/jquery-ui.custom/latest/jquery-ui.min.js">
+  </script>
+  <script type="text/javascript"
+    src="/media/helpers/jquery-cookie/jquery.cookie.js"></script>
+  <script type="text/javascript"
+    src="/media/helpers/jQuery-hoverIndent/jquery.hoverIntent.minified.js">
+  </script>
+  <script type="text/javascript"
+    src="/media/helpers/jquery.scrollTo/jquery.scrollTo.min.js">
+  </script>
+  
+  <script type="text/javascript" src="/tna/media_sel/js/htmlOutput.js">
+  </script>
+  
+  <script type="text/javascript" src="/tna/media_sel/js/scripts.js">
+  </script>
+
+  <script>
+    /*
+    this script manages unique URI for :
+    - full js version of time browser,
+    - Microsoft IE version specific debugging,
+    - no JS version of the page for no JS browsers
+    - no JS version for obsolete browsers
+
+    1. adding a class to html tag
+    2. displaying a static nojs file with css1 stylesheet by default
+    3. switching on scripts according to this class
+    4. modifying the DOM if allowed for a full version js + css2
+    5. adding a specific ie stylesheet if necessary
+    */
+
+    var infos = {"allUrls": "http://webarchive.nationalarchives.gov.uk/*/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "nextUrl": null, "originalUrl": "http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "description": null, "tags": "untagged", "totalInstances": "15 instances", "timestamp": null, "title": null, "lastUrl": "http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "firstUrl": "http://webarchive.nationalarchives.gov.uk/20120905121500/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "totalYears": "2 years", "avgInst": "7", "breadcrumb": "unspecified", "prevUrl": null, "instances": {"2013": [{"url": "http://webarchive.nationalarchives.gov.uk/20130103214607/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20130103214607"}, {"url": "http://webarchive.nationalarchives.gov.uk/20130104055223/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20130104055223"}, {"url": "http://webarchive.nationalarchives.gov.uk/20130314182031/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20130314182031"}, {"url": "http://webarchive.nationalarchives.gov.uk/20130322203018/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20130322203018"}, {"url": "http://webarchive.nationalarchives.gov.uk/20130402161834/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20130402161834"}, {"url": "http://webarchive.nationalarchives.gov.uk/20130404044932/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20130404044932"}, {"url": "http://webarchive.nationalarchives.gov.uk/20130802234450/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20130802234450"}, {"url": "http://webarchive.nationalarchives.gov.uk/20131202173954/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20131202173954"}, {"url": "http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20131202175712"}], "2012": [{"url": "http://webarchive.nationalarchives.gov.uk/20120905121500/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20120905121500"}, {"url": "http://webarchive.nationalarchives.gov.uk/20121028015034/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20121028015034"}, {"url": "http://webarchive.nationalarchives.gov.uk/20121030145923/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20121030145923"}, {"url": "http://webarchive.nationalarchives.gov.uk/20121129034605/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20121129034605"}, {"url": "http://webarchive.nationalarchives.gov.uk/20121204132651/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20121204132651"}, {"url": "http://webarchive.nationalarchives.gov.uk/20121205055155/http://reference.data.gov.uk/2011-09-30/doc/department/dfe", "timestamp": "20121205055155"}]}};
+    var texts = {"instances_label": "instances", "search_placeholder": "Keywords", "months_labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "date_range_label": "Date range:", "date_extra_blurb": null, "all_words_label": "Find <span class=\"emphasis\">all</span> these words:", "to_date_label": "To: (date excluded)", "srv_prov_by_label": "Service provided by Internet Memory Foundation", "res_from_to_label": "Showing %(start)s-%(end)s of %(total)s results for %(query)s", "inst_about_label": "About", "inst_home_url": "http://nationalarchives.gov.uk/webarchive/", "back_to_top_label": "Back to top", "bytes_counter": "<span class=\"counter\">TODO</span> bytes archived", "all_versions_label": "All versions of this page\u2026", "adv_label": "Advanced", "show_time_browser": false, "url_search_enabled": true, "title": "UK Government Web Archive \u2013 The National Archives", "orig_url_label": "Original URL:", "home_blurb": "", "all_formats_label": "all formats", "star_page_site_title": "<a href=\"http://nationalarchives.gov.uk/webarchive/\">UK Government Web Archive</a>", "none_words_label": "<span class=\"emphasis\">None</span> of these words:", "submit_label": "Search", "hide_adv_search_label": "Hide advanced search tools", "show_url_in_top_banner_on_date_page": false, "site_title_label": "", "adv_search_tools_label": "Advanced search tools", "instance_label": "instance", "supplier_home_label": "IMF", "archived_label": "Archived:", "srv_prov_by_url": "http://internetmemory.org/", "fts_url_label": "URL", "search_content_placeholder": "", "prev_label": "Prev.", "home_archive_size": null, "supplier_contact_label": "Contact", "exact_phrase_label": "This <span class=\"emphasis\">exact</span> phrase:", "show_calendar_blurb_on_date_page": true, "supplier_about_url": "http://internetmemory.org/en/index.php/about/", "corporate_title": "Welcome to IMF's web archive", "corporate_txt": "TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO", "search_val_button_last": false, "calendar_blurb": null, "next_label": "Next", "supplier_home_url": "http://internetmemory.org/", "home_label": "Home", "inst_about_url": "#", "search_label": "Search", "show_titles": true, "search_content_label": "Keywords", "adv_search_label": "Advanced Search\u2026", "top_banner_blurb": "\n            <p>This archived web content was captured on <span\n            class=\"mentionDate\">02/12/2013</span> for\n            permanent preservation in the\n            <a href=\"http://nationalarchives.gov.uk/webarchive/\">UK Government\n            Web Archive</a>.</p>\n            <p>We do not use cookies but some may be left in your browser\n            from archived websites.\n            <a href=\"https://www.nationalarchives.gov.uk/legal/cookies.htm\">\n             Find out more about cookies</a>.</p>\n            <ul class=\"textBrowser\">\n              <li class=\"label\">Browse dates:</li>\n              <li><a href=\"http://webarchive.nationalarchives.gov.uk/20120905121500/http://reference.data.gov.uk/2011-09-30/doc/department/dfe\">First</a></li>\n              <li><a href=\"http://webarchive.nationalarchives.gov.uk/20131202173954/http://reference.data.gov.uk/2011-09-30/doc/department/dfe\">Previous</a></li>\n              <li><a href=\"http://webarchive.nationalarchives.gov.uk/*/http://reference.data.gov.uk/2011-09-30/doc/department/dfe\">Show all</a></li>\n              <li><a href=\"http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe\">Next</a></li>\n              <li><a href=\"http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe\">Latest</a></li>\n            </ul>", "fts_content_label": "Content", "supplier_about_label": "About IMF", "date_page_pre_title": "[ARCHIVED CONTENT] ", "keywords_label": "Keywords", "srv_prov_by_contact_url": null, "display_star_facts": "true", "format_label": "Results in this format:", "date_placeholder": "dd-mm-yyyy", "twitter_link_enabled": true, "from_date_label": "From: (date included)"};
+
+    function add_css(url, media) {
+      var head = document.getElementsByTagName('head')[0];
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = url;
+      link.media = media;
+      head.appendChild(link);
+    }
+
+    function add_script(url) {
+      var head = document.getElementsByTagName('head')[0];
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = url;
+      head.appendChild(script);
+    }
+
+    function jswitch() {
+      $('#flat').remove();
+      $('#jsbody').show();
+      $('#timeBrowser1Content').hide();
+
+      $("#metadataContainer").append(
+        createMetadataSnippet(
+          "tna", infos, true, texts));
+      $("#calendarSlider").append(
+        createTimeBrowserSnippet(infos['instances'], texts));
+      position_date_tiles();
+      $('#loaderContainer1').hide('fade', 'slow', function() {
+        $('#timeBrowser1Content').slideDown(500);
+      });
+      
+      scrollToDay(20131202175712);
+      
+
+      // TODO see how to prevent from building it all, instead of hiding it
+      // after the fact
+      if ("False" == "False") {
+        $("#iframeContainer").width("100%");
+        $("#timeBrowseColumn").remove();
+      }
+    }
+
+    
+    function jsdata() {
+      add_css('/tna/template_sel/css/main.css', 'screen');
+      add_css('/tna/template_sel/css/print.css', 'print');
+    }
+
+    $(function() {
+      "use strict";
+      if ($('html').is('.ie6, .ie7, .ie8')) {
+        // don't replace the dom and keep the nojs version
+      } else {
+        jsdata();
+        if ($('html').is('.ie9'))
+          add_css('/tna/template_sel/css/debug-ie9.css', 'all');
+        else if ($('html').is('.ie10'))
+          add_css('/tna/template_sel/css/debug-ie10.css', 'all');
+        jswitch();
+      }
+      $("#theWebpage").load(function() {
+        $("#loaderContainer2").hide('fade', 'slow', function() {
+          $("#loaderContainer2").remove();
+        });
+      });
+    });
+    
+  </script>
+</head>
+
+
+<body class="pageBrowser banner nopic">
+  
+<div id="flat" class="flat">
+  
+<div class="header" id="header">
+  <div class="content">
+    <a class="logo" href="http://nationalarchives.gov.uk/webarchive/">
+      <span class="accessibility">UK Government Web Archive</span></a>
+    <div class="textMention">
+            <p>This archived web content was captured on <span
+            class="mentionDate">02/12/2013</span> for
+            permanent preservation in the
+            <a href="http://nationalarchives.gov.uk/webarchive/">UK Government
+            Web Archive</a>.</p>
+            <p>We do not use cookies but some may be left in your browser
+            from archived websites.
+            <a href="https://www.nationalarchives.gov.uk/legal/cookies.htm">
+             Find out more about cookies</a>.</p>
+            <ul class="textBrowser">
+              <li class="label">Browse dates:</li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/20120905121500/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">First</a></li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/20131202173954/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">Previous</a></li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/*/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">Show all</a></li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">Next</a></li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">Latest</a></li>
+            </ul></div>
+    <div class="clearer">&nbsp;</div>
+  </div><!-- fin div class content -->
+</div><!-- fin div #header -->
+
+
+  
+  <div class="main" id="main">
+    <div class="content">
+      <!-- Site ID Card -->
+      <div class="siteIdCard">
+        <div class="content">
+          <!-- ending timeMachine -->
+          <h2 class="accessibility">Page metadata</h2>
+          <div class="siteMeta">
+            <div id="metadata">
+              
+              
+              <h4 class="inlineLabel">Original URL:</h4>
+              <div id="archiveOriginalUrl">
+                <a href="http://reference.data.gov.uk/2011-09-30/doc/department/dfe">http://reference.data.gov.uk/2011-09-30/doc/department/dfe</a>
+              </div>
+              
+              <div class="clearer">&nbsp;</div>
+              
+              
+              <ul id="facts1">
+                <li>15 instances</li>
+                <li>2 years</li>
+              </ul>
+              <ul id="facts2">
+                <li>7 instances per year</li>
+              </ul>
+              
+              <hr class="accessibility" />
+              <div class="clearer">&nbsp;</div>
+            </div>
+            <!-- #metadata -->
+          </div>
+          <!-- ending siteMeta -->
+        </div>
+        <!-- fin div content -->
+      </div>
+      <!-- end siteIDCard -->
+      <div id="metabrowser">
+        <h3 class="accessibility">
+          Archive instances
+        </h3>
+        <div id="tools" class="superimposed">
+          <!-- time browser of the archive -->
+          <div id="timeBrowser1"
+            class="toolsDrawer timeBrowser simpleList closed">
+            <div id="timeBrowser1Content" class="toolsDrawerContent">
+              <div class="calendarSlider">
+                
+                <div class="bundle scale smallScale">
+                  <div id="year2013" class="year closed">
+                    <h2 class="label">
+                      2013
+                    </h2>
+                    <div class="barwrapper">
+                      <div class="bar"
+                        style="width: 2.466%;">
+                      </div>
+                    </div>
+                    <div class="counter upBar">
+                      
+                      9 instances
+                      
+                    </div>
+                    <div class="clearer">&nbsp;</div>
+                    <ul class="monthCalendar">
+                      
+                      <li id="month201312" class="month">
+                      <h3 class="label">
+                        Dec
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        2 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        <li class="group">[</li>
+                        
+                        
+                        <li id="instance20131202173954"
+                          class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20131202173954/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Dec &thinsp;&thinsp;2&nbsp; - 17:39">
+                            <span class="accessibility">Dec</span>
+                            02</a></li>
+                        
+                        
+                        
+                        <li id="instance20131202175712"
+                          class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Dec &thinsp;&thinsp;2&nbsp; - 17:57">
+                            <span class="accessibility">Dec</span>
+                            02</a></li>
+                        
+                        
+                        <li class="group">]</li>
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201311" class="month">
+                      <h3 class="label">
+                        Nov
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201310" class="month">
+                      <h3 class="label">
+                        Oct
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201309" class="month">
+                      <h3 class="label">
+                        Sep
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201308" class="month">
+                      <h3 class="label">
+                        Aug
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        1 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        
+                        
+                        <li id="instance20130802" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20130802234450/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Aug &thinsp;&thinsp;2&nbsp;">
+                            <span class="accessibility">Aug</span>
+                            02</a></li>
+                        
+                        
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201307" class="month">
+                      <h3 class="label">
+                        Jul
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201306" class="month">
+                      <h3 class="label">
+                        Jun
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201305" class="month">
+                      <h3 class="label">
+                        May
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201304" class="month">
+                      <h3 class="label">
+                        Apr
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        2 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        
+                        
+                        <li id="instance20130402" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20130402161834/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Apr &thinsp;&thinsp;2&nbsp;">
+                            <span class="accessibility">Apr</span>
+                            02</a></li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li id="instance20130404" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20130404044932/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Apr &thinsp;&thinsp;4&nbsp;">
+                            <span class="accessibility">Apr</span>
+                            04</a></li>
+                        
+                        
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201303" class="month">
+                      <h3 class="label">
+                        Mar
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        2 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        
+                        
+                        <li id="instance20130314" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20130314182031/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Mar 14">
+                            <span class="accessibility">Mar</span>
+                            14</a></li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li id="instance20130322" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20130322203018/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Mar 22">
+                            <span class="accessibility">Mar</span>
+                            22</a></li>
+                        
+                        
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201302" class="month">
+                      <h3 class="label">
+                        Feb
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201301" class="month">
+                      <h3 class="label">
+                        Jan
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        2 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        
+                        
+                        <li id="instance20130103" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20130103214607/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Jan &thinsp;&thinsp;3&nbsp;">
+                            <span class="accessibility">Jan</span>
+                            03</a></li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li id="instance20130104" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20130104055223/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Jan &thinsp;&thinsp;4&nbsp;">
+                            <span class="accessibility">Jan</span>
+                            04</a></li>
+                        
+                        
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                    </ul>
+                    <div class="clearer">&nbsp;</div>
+                  </div>
+                  <!-- end .year -->
+                </div>
+                <!-- end bundle -->
+                
+                <div class="bundle scale smallScale">
+                  <div id="year2012" class="year closed">
+                    <h2 class="label">
+                      2012
+                    </h2>
+                    <div class="barwrapper">
+                      <div class="bar"
+                        style="width: 1.644%;">
+                      </div>
+                    </div>
+                    <div class="counter upBar">
+                      
+                      6 instances
+                      
+                    </div>
+                    <div class="clearer">&nbsp;</div>
+                    <ul class="monthCalendar">
+                      
+                      <li id="month201212" class="month">
+                      <h3 class="label">
+                        Dec
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        2 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        
+                        
+                        <li id="instance20121204" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20121204132651/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Dec &thinsp;&thinsp;4&nbsp;">
+                            <span class="accessibility">Dec</span>
+                            04</a></li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li id="instance20121205" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20121205055155/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Dec &thinsp;&thinsp;5&nbsp;">
+                            <span class="accessibility">Dec</span>
+                            05</a></li>
+                        
+                        
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201211" class="month">
+                      <h3 class="label">
+                        Nov
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        1 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        
+                        
+                        <li id="instance20121129" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20121129034605/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Nov 29">
+                            <span class="accessibility">Nov</span>
+                            29</a></li>
+                        
+                        
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201210" class="month">
+                      <h3 class="label">
+                        Oct
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        2 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        
+                        
+                        <li id="instance20121028" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20121028015034/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Oct 28">
+                            <span class="accessibility">Oct</span>
+                            28</a></li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li id="instance20121030" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20121030145923/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Oct 30">
+                            <span class="accessibility">Oct</span>
+                            30</a></li>
+                        
+                        
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201209" class="month">
+                      <h3 class="label">
+                        Sep
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        1 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                        
+                        
+                        <li id="instance20120905" class="instance"><a
+                          href="http://webarchive.nationalarchives.gov.uk/20120905121500/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+                          title="Sep &thinsp;&thinsp;5&nbsp;">
+                            <span class="accessibility">Sep</span>
+                            05</a></li>
+                        
+                        
+                        
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201208" class="month">
+                      <h3 class="label">
+                        Aug
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201207" class="month">
+                      <h3 class="label">
+                        Jul
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201206" class="month">
+                      <h3 class="label">
+                        Jun
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201205" class="month">
+                      <h3 class="label">
+                        May
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201204" class="month">
+                      <h3 class="label">
+                        Apr
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201203" class="month">
+                      <h3 class="label">
+                        Mar
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201202" class="month">
+                      <h3 class="label">
+                        Feb
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                      <li id="month201201" class="month">
+                      <h3 class="label">
+                        Jan
+                      </h3>
+                      <div class="counter">
+                        
+                        
+                        0 inst.
+                        
+                      </div>
+                      <ul class="instances">
+                        
+                        
+                      </ul>
+                      </li>
+                      
+                    </ul>
+                    <div class="clearer">&nbsp;</div>
+                  </div>
+                  <!-- end .year -->
+                </div>
+                <!-- end bundle -->
+                
+                <div class="clearer">&nbsp;</div>
+              </div>
+              <hr class="accessibility" />
+            </div>
+            <!-- end .scale -->
+            <div class="clearer">&nbsp;</div>
+          </div>
+          <!-- end #timeBrowser -->
+          <div class="clearer">&nbsp;</div>
+        </div>
+
+        <!-- end #tools -->
+      </div>
+      <!-- end #metabrowser -->
+    </div>
+    <!-- fin div .content -->
+    <div class="clearer">&nbsp;</div>
+  </div>
+  <!-- fin div .main -->
+  
+
+  
+<div id="iframeContainer" class="iframeContainer">
+  <iframe id="theWebpage" class="theWebpage"
+    src="http://webarchive.nationalarchives.gov.uk/content/+/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+    height="100%" width="100%"></iframe>
+</div><!-- ending iframeContainer -->
+
+
+  <!-- Footer -->
+  <div class="footer" id="footer">
+    <div class="content">
+      
+      <a class="signature" href="http://internetmemory.org/"><span
+        class="accessibility">IMF</span></a>
+      <ul class="bottomLinks">
+        <li><a class="goToTop" href="#header">&#9650; Back to top</a> | </li>
+        <li><a href="http://internetmemory.org/en/index.php/about/">About</a> | </li>
+        <li><a href="http://internetmemory.org/en/index.php/about/contact/">Contact</a> | </li>
+        <li><a href="http://internetmemory.org/">Service provided by Internet Memory Foundation</a></li>
+      </ul>
+      <div class="clearer">&nbsp;</div>
+      
+    </div><!-- fin div .content -->
+  </div><!-- fin div #footer -->
+</div><!-- fin div #flat -->
+
+
+  <div id="jsbody" class="jsbody" style="display: none;">
+  
+  
+  
+    
+<div class="header" id="header" >
+  <div class="content">
+    <a class="logo" href="http://nationalarchives.gov.uk/webarchive/">
+      <span class="accessibility">UK Government Web Archive</span></a>
+    <div class="textMention">
+            <p>This archived web content was captured on <span
+            class="mentionDate">02/12/2013</span> for
+            permanent preservation in the
+            <a href="http://nationalarchives.gov.uk/webarchive/">UK Government
+            Web Archive</a>.</p>
+            <p>We do not use cookies but some may be left in your browser
+            from archived websites.
+            <a href="https://www.nationalarchives.gov.uk/legal/cookies.htm">
+             Find out more about cookies</a>.</p>
+            <ul class="textBrowser">
+              <li class="label">Browse dates:</li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/20120905121500/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">First</a></li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/20131202173954/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">Previous</a></li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/*/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">Show all</a></li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">Next</a></li>
+              <li><a href="http://webarchive.nationalarchives.gov.uk/20131202175712/http://reference.data.gov.uk/2011-09-30/doc/department/dfe">Latest</a></li>
+            </ul></div>
+    <div class="clearer">&nbsp;</div>
+  </div><!-- fin div class content -->
+</div><!-- fin div #header -->
+
+
+    
+<div id="timeBrowseColumn" class="timeBrowseColumn">
+  <div id="loaderContainer1" class="loaderContainer">
+    <div class="loader"/>
+  </div>
+</div>
+
+
+    <!-- Main -->
+    <div class="mainWrapper" >
+      <div class="main" id="main" >
+        <div class="content">
+          <!-- Site ID Card -->
+          <!--[if IE 7]><div class="ieSiteIDWrapper"><![endif]-->
+          <div id="siteIdCard" class="siteIdCard">
+            <div class="content">
+              <h2 class="accessibility">Summary</h2>
+              <div class="timeMachine clearfix" id="timeMachine">
+              </div><!-- ending timeMachine -->
+              <div class="siteMeta">
+                <h2 class="accessibility">Page metadata</h2>
+                <div id="metadataContainer">
+                </div><!-- #metadataContainer -->
+                <div class="clearer">&nbsp;</div>
+              </div><!-- ending siteMeta -->
+              <div class="clearer">&nbsp;</div>
+            </div><!-- fin div content -->
+          </div><!-- end siteIDCard -->
+          <!--[if IE 7]></div><![endif]-->
+          <div id="metabrowser">
+            <h3 class="accessibility">Archive instances</h3>
+            <div class="bigButtonWrapper"><a id="bigButton"
+              class="button bigButton closed" title="Expand all"></a></div>
+            <div id="tools" class="superimposed">
+              <!-- navigation through some specific archive units -->
+              <!-- time browser of the archive -->
+              <div id="timeBrowser1"
+                class="toolsDrawer timeBrowser simpleList">
+                <div id="timeBrowser1Content" class="toolsDrawerContent">
+                  <div class="calendarSlider" id="calendarSlider">
+                  </div><!-- end .calendarSlider -->
+                  <div class="clearer">&nbsp;</div>
+                </div><!-- end #timeBrowser1Content -->
+              </div><!-- end #timeBrowser -->
+              <div class="clearer">&nbsp;</div>
+            </div><!-- end #tools -->
+          </div><!-- end #metabrowser -->
+        </div><!-- fin div .content -->
+      </div><!-- fin div .main -->
+    </div><!-- fin div .mainWrapper -->
+  
+  
+</div><!-- fin div .timeBrowseColumn -->
+
+
+  
+<div id="iframeContainer" class="iframeContainer">
+  <div id="loaderContainer2" class="loaderContainer">
+    <div class="loader"></div></div>
+  <iframe id="theWebpage" class="theWebpage" src="http://webarchive.nationalarchives.gov.uk/content/+/http://reference.data.gov.uk/2011-09-30/doc/department/dfe"
+    height="100%" width="100%"></iframe>
+  <script type="text/javascript">
+    $(function() {
+      $('#theWebpage').attr('src', $('#theWebpage').attr('src'));
+    });
+  </script>
+</div><!-- ending iframeContainer -->
+
+
+  
+  <div class="footerWrapper" >
+  <div class="footer" id="footer" >
+    <div class="content">
+      
+      <a class="signature imf" href="http://internetmemory.org/">
+        <span class="accessibility">IMF</span></a>
+      
+      <ul class="bottomLinks">
+        <li><a class="goToTop" href="#header">&#9650;
+            Back to top</a> | </li>
+        <li><a href="http://internetmemory.org/">
+            Service provided by Internet Memory Foundation</a></li>
+      </ul>
+      <div class="clearer">&nbsp;</div>
+    </div><!-- fin div .content -->
+  </div><!-- fin div #footer -->
+</div><!-- fin div .footerWrapper -->
+
+  
+</div><!-- ending jsbody -->
+
+</body>
+
+</html>

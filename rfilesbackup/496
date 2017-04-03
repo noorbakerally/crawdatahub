@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://u.qdnx.org/user/159"></maker>
+  <primaryTopic rdf:resource="http://u.qdnx.org/user/159"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://u.qdnx.org/user/159">
+  <name>Nido Media</name>
+  <homepage rdf:resource="http://nidomedia.com/"></homepage>
+  <weblog rdf:resource="http://u.qdnx.org/nido"></weblog>
+  <based_near>
+   <geo:SpatialThing>
+    <geo:lat>52.7033300</geo:lat>
+    <geo:long>5.2916700</geo:long>
+   </geo:SpatialThing>
+  </based_near>
+  <account>
+   <OnlineAccount rdf:about="http://u.qdnx.org/user/159#acct">
+    <accountServiceHomepage rdf:resource="http://u.qdnx.org/"></accountServiceHomepage>
+    <accountName>nido</accountName>
+    <accountProfilePage rdf:resource="http://u.qdnx.org/nido"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://u.qdnx.org/user/159"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://u.qdnx.org/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://u.qdnx.org/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://u.qdnx.org/"></accountServiceHomepage>
+    <accountName>krayon</accountName>
+    <accountProfilePage rdf:resource="http://u.qdnx.org/krayon"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://u.qdnx.org/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://u.qdnx.org/user/159#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://u.qdnx.org/krayon/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://u.qdnx.org/krayon/foaf">
+  <maker rdf:resource="http://u.qdnx.org/user/1"></maker>
+  <primaryTopic rdf:resource="http://u.qdnx.org/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://quod.pl/user/1356">
+  <account>
+   <OnlineAccount rdf:about="http://quod.pl/user/1356#acct">
+    <accountName>petroverse</accountName>
+    <accountProfilePage rdf:resource="http://quod.pl/petroverse"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quod.pl/user/1356"></sioc:account_of>
+    <sioc:follows rdf:resource="http://u.qdnx.org/user/159#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

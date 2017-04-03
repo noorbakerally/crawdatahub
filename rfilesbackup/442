@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY dc 'http://purl.org/dc/elements/1.1/'>
+  <!ENTITY sl 'http://www.semanlink.net/2001/00/semanlink-schema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY foaf 'http://xmlns.com/foaf/0.1/'>
+  <!ENTITY tag 'http://www.semanlink.net/tag/'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY skos 'http://www.w3.org/2004/02/skos/core#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:skos="&skos;"
+    xmlns:foaf="&foaf;"
+    xmlns:dc="&dc;"
+    xmlns:sl="&sl;"
+    xmlns:tag="&tag;"
+    xmlns:rdfs="&rdfs;" > 
+  <rdf:Description rdf:about="http://www.lespetitescases.net/photos-livres-musiques-what-else">
+    <sl:tag rdf:resource="&tag;mp3"/>
+    <sl:tag rdf:resource="&tag;linked_data"/>
+    <sl:tag rdf:resource="&tag;les_petites_cases"/>
+    <sl:comment>Prototype né de l'envie de transformer en RDF les métadonnées ID3 embarquées dans mes fichiers MP3 et de les relier aux données du Linked Data&#xD;
+</sl:comment>
+    <sl:creationDate>2010-02-22</sl:creationDate>
+    <dc:title>Photos, livres, musiques, what else ? | Les petites cases</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://drdrak.over-blog.com/article-288506.html">
+    <sl:tag rdf:resource="&tag;mp3"/>
+    <sl:tag rdf:resource="&tag;google"/>
+    <sl:creationDate>2005-04-30</sl:creationDate>
+    <dc:title>Comment trouver des MP3 avec Google</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="&tag;les_petites_cases">
+    <skos:prefLabel>Les petites cases</skos:prefLabel>
+    <rdf:type rdf:resource="&sl;Tag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="&tag;google">
+    <skos:prefLabel>Google</skos:prefLabel>
+    <rdf:type rdf:resource="&sl;Tag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.youtube-mp3.org/fr">
+    <sl:tag rdf:resource="&tag;youtube"/>
+    <sl:tag rdf:resource="&tag;mp3"/>
+    <sl:creationDate>2016-09-24</sl:creationDate>
+    <dc:title>Convertisseur YouTube vers mp3</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="&tag;mp3">
+    <skos:broader rdf:resource="&tag;musique"/>
+    <rdf:type rdf:resource="&sl;Tag"/>
+    <foaf:page rdf:resource="&tag;mp3.html"/>
+    <rdfs:isDefinedBy rdf:resource="&tag;mp3.rdf"/>
+    <skos:prefLabel>MP3</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="&tag;youtube">
+    <skos:prefLabel>YouTube</skos:prefLabel>
+    <rdf:type rdf:resource="&sl;Tag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="&tag;linked_data">
+    <skos:prefLabel>Linked Data</skos:prefLabel>
+    <rdf:type rdf:resource="&sl;Tag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pisani.blog.lemonde.fr/2007/03/15/google-une-mine-de-mp3/">
+    <sl:tag rdf:resource="&tag;mp3"/>
+    <sl:tag rdf:resource="&tag;google"/>
+    <sl:creationDate>2007-03-15</sl:creationDate>
+    <dc:title>Google: une mine de mp3</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="&tag;musique">
+    <skos:prefLabel>Musique</skos:prefLabel>
+    <rdf:type rdf:resource="&sl;Tag"/>
+  </rdf:Description>
+</rdf:RDF>

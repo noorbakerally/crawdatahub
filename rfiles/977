@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000230"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000230">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyclonal antibody reagent</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyclonal antibody reagent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdfs:label>anti-Smooth Muscle Myosin IgG</rdfs:label>
+	<ERO_0000558 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/ERO_0000304"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000558">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isotype</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has isotype</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_isotype</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000304">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0001517 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://global.eagle-i.net/i/Oryctolagus_cuniculus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001517">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source Organism Type</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from organism</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives_from_organism</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://global.eagle-i.net/i/Oryctolagus_cuniculus">
+	<rdfs:label>Oryctolagus cuniculus</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0000480 xmlns="http://purl.obolibrary.org/obo/">http://btiinc.com/page/cata5.html#smooth-muscle</ERO_0000480>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000480">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Website(s)</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has URL</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_url</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">No detectable cross-reactivity with skeletal or non-muscle myosin.</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<synonym xmlns="http://eagle-i.org/ont/app/1.0/">Rabbit anti-Smooth Muscle Myosin IgG</synonym>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/synonym">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Name</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eagle-i_synonym</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0001534 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/ERO_0000214"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001534">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related Technique</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000214">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohistochemistry assay</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001534">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related_immunotechnique</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000214">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunohistochemistry assay</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0001533 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001533">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody Target(s)</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001545">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein target</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001533">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_antibody_target</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdfs:label>Smooth Muscle Myosin IgG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001545">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein target</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001545"/>
+	<rdfs:label>Smooth Muscle Myosin IgG</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001541">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomolecule target</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomolecule target</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001541"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001536">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological target</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological target</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001536"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001532">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody target</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material antibody target</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001532"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000135-c536-6d5c-64f6-263a80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0001525 xmlns="http://purl.obolibrary.org/obo/">AB_10013421</ERO_0001525>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001525">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody Registry ID</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has antibody registry ID</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_antibody_registry_ID</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0001528 xmlns="http://purl.obolibrary.org/obo/">BT-562</ERO_0001528>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001528">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalog Number</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has catalog number</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_catalog_number</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0000034 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://global.eagle-i.net/i/0000013d-bc6b-14a0-ecc6-81a580000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000034">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacturer</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has manufacturer</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_manufacturer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://global.eagle-i.net/i/0000013d-bc6b-14a0-ecc6-81a580000000">
+	<rdfs:label>Biomedical Technologies, Inc</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0000044 xmlns="http://purl.obolibrary.org/obo/">Biomedical Technologies, Inc catalog #: BT-562</ERO_0000044>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000044">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inventory Number</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has inventory number</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_inventory_number</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0000543 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/ERO_0000214"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000543">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related Technique</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000214">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohistochemistry assay</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000543">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related technique</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related_technique</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000214">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunohistochemistry assay</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<ERO_0000557 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://msm.eagle-i.net/i/00000130-4e48-a198-92f1-503b80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000557">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunogenic Material</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001551">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunogenic material</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000557">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_immunogenic_material</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-a198-92f1-503b80000000">
+	<rdfs:label>Bovine tracheal smooth muscle myosin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001551">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunogenic material</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-a198-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001551"/>
+	<rdfs:label>Bovine tracheal smooth muscle myosin</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-a198-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-a198-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-a198-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-a198-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<RO_0001025 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://msm.eagle-i.net/i/0000012e-4e66-5eb3-0e5d-6ffe80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</preferredLabel>
+	<rdfs:label xml:lang="en">located_in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/0000012e-4e66-5eb3-0e5d-6ffe80000000">
+	<rdfs:label>Leonard Anderson Laboratory</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<rdfs:label xml:lang="en">located in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-01T21:59:16.528-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://msm.eagle-i.net/i/0000012b-2187-209b-353c-df7f80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/0000012b-2187-209b-353c-df7f80000000">
+	<rdfs:label>nvasilevsky</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-11T16:51:55.693-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://msm.eagle-i.net/i/00000129-f7a5-d105-12d7-b32980000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000129-f7a5-d105-12d7-b32980000000">
+	<rdfs:label>tjohnson</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://msm.eagle-i.net/i/0000012b-2187-209b-353c-df7f80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/0000012b-2187-209b-353c-df7f80000000">
+	<rdfs:label>nvasilevsky</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000008">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody reagent</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibody reagent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000006">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reagent</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reagent</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reagent</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">processed material</IAO_0000111>
+	<rdfs:label xml:lang="en">processed material</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://msm.eagle-i.net/i/00000130-4e48-17ae-92f1-503b80000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

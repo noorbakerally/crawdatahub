@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:cc="http://creativecommons.org/ns#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:gn="http://www.geonames.org/ontology#" xmlns:txn="http://lod.taxonconcept.org/ontology/txn.owl#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:time="http://www.w3.org/2006/time#">
+  <!-- Description of RDF Document -->
+  <bibo:Document rdf:about="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf">
+    <rdfs:label>RDF for Occurrence of Boloria selene se:ICmLC at Shivering Sands Natural Area Woods from 2005-07-24 to 2005-07-24</rdfs:label>
+    <dcterms:publisher rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TaxonConcept_Knowledge_Base_Project"/>
+    <dcterms:creator rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+    <dcterms:identifier>http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <cc:license rdf:resource="http://www.opendatacommons.org/licenses/by/"/>
+    <cc:attributionURL rdf:resource="http://lod.taxonconcept.org"/>
+    <dcterms:created>2010-10-28T00:00:00-0500</dcterms:created>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Occurrence"/>
+    <foaf:topic rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Individual"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Identification_0001"/>
+    <foaf:topic rdf:resource="geo:44.86528100,-87.23147800;u=10"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.html"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/6255149/"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/5279468/"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/5250768/"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </bibo:Document>
+  <!-- Occurrence -->
+  <txn:Occurrence rdf:about="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Occurrence">
+    <rdf:type rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.rdf#Occurrence"/>
+    <rdfs:label>Occurrence of Boloria selene se:ICmLC at Shivering Sands Natural Area Woods from 2005-07-24 to 2005-07-24</rdfs:label>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#PJD_Personal_Observations_Project"/>
+    <dcterms:identifier>http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Occurrence</dcterms:identifier>
+    <cc:license rdf:resource="http://www.opendatacommons.org/licenses/by/"/>
+    <cc:attributionURL rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+    <cc:attributionName>Peter J. DeVries</cc:attributionName>
+    <dcterms:created>2010-10-28T00:00:00-0500</dcterms:created>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <txn:occurrenceHasSpeciesConcept rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <txn:occurrenceHasIndividual rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Individual"/>
+    <txn:kingdom>Animalia</txn:kingdom>
+    <txn:phylum>Arthropoda</txn:phylum>
+    <txn:class>Insecta</txn:class>
+    <txn:order>Lepidoptera</txn:order>
+    <txn:family>Nymphalidae</txn:family>
+    <txn:genus>Boloria</txn:genus>
+    <txn:scientificName>Boloria selene</txn:scientificName>
+    <txn:commonName>Silver-bordered Fritillary</txn:commonName>
+    <txn:continent>North America</txn:continent>
+    <txn:countryCode>US</txn:countryCode>
+    <txn:country>United States</txn:country>
+    <txn:stateProvince>Wisconsin</txn:stateProvince>
+    <txn:county>Door</txn:county>
+    <txn:localityText>Town of Sevastopol</txn:localityText>
+    <txn:locationName>Shivering Sands Natural Area Woods</txn:locationName>
+    <txn:occurrenceInContinent rdf:resource="http://sws.geonames.org/6255149/"/>
+    <txn:occurrenceInStateProvince rdf:resource="http://sws.geonames.org/5279468/"/>
+    <txn:occurrenceInCounty rdf:resource="http://sws.geonames.org/5250768/"/>
+    <txn:occurrenceHasArea rdf:resource="geo:44.86528100,-87.23147800;u=10"/>
+    <geo:lat>44.86528100</geo:lat>
+    <geo:long>-87.23147800</geo:long>
+    <txn:georeferenceProtocol rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#GeoProtocol_GPS"/>
+    <txn:georeferenceVerificationStatus rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#GeoVerifiedByCollector"/>
+    <!-- The dates should be refactored into a standard date vocabulary -->
+    <txn:startDate>2005-07-24</txn:startDate>
+    <txn:endDate>2005-07-24</txn:endDate>
+    <time:dayOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205</time:dayOfYear>
+    <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</time:year>
+    <txn:samplingProtocol rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#SamplingProtocol_IndividualObservation"/>
+    <!-- hasCollector and recordedBy should be foaf:Person -->
+    <txn:hasCollector rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+    <txn:recordedBy rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+    <txn:basisOfRecord rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#BasisOfRecord_StillImage"/>
+    <foaf:depiction rdf:resource="http://assets.taxonconcept.org/seuuids/e096643b-ff98-4f51-bd80-3ff0ca88a924/Boloria_selene_480x320.jpg"/>
+    <!-- If there is a photo of the specimen occurrence label then show it -->
+    <txn:occurrenceHasLabelImage rdf:resource="http://assets.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9/oc_label_320x240.png"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </txn:Occurrence>
+  <!-- Area -->
+  <txn:Area rdf:about="geo:44.86528100,-87.23147800;u=10">
+    <rdfs:label>44.86528100, -87.23147800 Radius 10 meters</rdfs:label>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#PJD_Personal_Observations_Project"/>
+    <dcterms:identifier>geo:44.86528100,-87.23147800;u=10</dcterms:identifier>
+    <dcterms:created>2010-10-28T00:00:00-0500</dcterms:created>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <geo:lat>44.86528100</geo:lat>
+    <geo:long>-87.23147800</geo:long>
+    <txn:radius>10</txn:radius>
+    <geo:alt>186.54</geo:alt>
+    <txn:continent>North America</txn:continent>
+    <txn:countryCode>US</txn:countryCode>
+    <txn:country>United States</txn:country>
+    <txn:stateProvince>Wisconsin</txn:stateProvince>
+    <txn:county>Door</txn:county>
+    <txn:localityText>Town of Sevastopol</txn:localityText>
+    <txn:locationName>Shivering Sands Natural Area Woods</txn:locationName>
+    <txn:areaHasOccurrence rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Occurrence"/>
+    <txn:areaHasObservedSpeciesConcept rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <txn:areaHasIndividual rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Individual"/>
+    <txn:areaInStateProvince rdf:resource="http://sws.geonames.org/5279468/"/>
+    <txn:areaWithInFeature rdf:resource="http://sws.geonames.org/5250768/"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </txn:Area>
+  <!-- SpeciesConcept -->
+  <txn:SpeciesConcept rdf:about="http://lod.taxonconcept.org/ses/ICmLC.html#Species">
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#PJD_Personal_Observations_Project"/>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <txn:speciesConceptHasObservedArea rdf:resource="geo:44.86528100,-87.23147800;u=10"/>
+    <txn:speciesConceptHasOcccurrence rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Occurrence"/>
+    <foaf:depiction rdf:resource="http://assets.taxonconcept.org/seuuids/e096643b-ff98-4f51-bd80-3ff0ca88a924/Boloria_selene_480x320.jpg"/>
+    <txn:isExpectedIn rdf:resource="http://sws.geonames.org/6255149/"/>
+    <txn:isExpectedIn rdf:resource="http://sws.geonames.org/5279468/"/>
+    <txn:isExpectedIn rdf:resource="http://sws.geonames.org/5250768/"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </txn:SpeciesConcept>
+  <!-- Individual -->
+  <txn:SpeciesIndividual rdf:about="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Individual">
+    <rdf:type rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.rdf#Individual"/>
+    <rdfs:label>Individual Organism http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Individual</rdfs:label>
+    <owl:sameAs rdf:resource="urn:uuid:4dd90ac2-23eb-42bc-8b6a-0011ad32e0f2"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#PJD_Personal_Observations_Project"/>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <txn:scientificName>Boloria selene</txn:scientificName>
+    <txn:individualHasOccurrence rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Occurrence"/>
+    <txn:individualHasSpeciesConcept rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <txn:individualHasCurrrentIdentificationAssertion rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Identification_0001"/>
+    <foaf:depiction rdf:resource="http://assets.taxonconcept.org/seuuids/e096643b-ff98-4f51-bd80-3ff0ca88a924/Boloria_selene_480x320.jpg"/>
+    <!-- hasCollector should be foaf:Person -->
+    <txn:hasCollector rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+    <!-- The literals below should be replaced with URI's -->
+    <txn:institutionCode>IRCW</txn:institutionCode>
+    <txn:collectionCode>PJDPO</txn:collectionCode>
+    <txn:catalogCode>PJDPO000179</txn:catalogCode>
+    <txn:individualStatus rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl.rdf#IndividualStatus_Unknown"/>
+    <txn:basisOfRecord rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#BasisOfRecord_StillImage"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </txn:SpeciesIndividual>
+  <!-- Identification_0001 -->
+  <txn:Identification rdf:about="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Identification_0001">
+    <rdf:type rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Identification"/>
+    <rdfs:label>Identification #0001</rdfs:label>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#PJD_Personal_Observations_Project"/>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <cc:attributionURL rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Kyle_E_Johnson"/>
+    <cc:attributionName>Kyle E. Johnson</cc:attributionName>
+    <txn:scientificName>Boloria selene</txn:scientificName>
+    <txn:identificationHasOccurrence rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Occurrence"/>
+    <txn:identificationHasSpeciesConcept rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <txn:identificationOfIndividual rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Individual"/>
+    <!-- identificationDate should have a standard type for year -->
+    <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</time:year>
+    <txn:identificationMethod rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#HumanSightRecognition"/>
+    <!-- Should have URI to the Identification Reference Below -->
+    <txn:identificationReferenceUsed rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#ID_Reference_NoneCited"/>
+    <foaf:depiction rdf:resource="http://assets.taxonconcept.org/seuuids/e096643b-ff98-4f51-bd80-3ff0ca88a924/Boloria_selene_480x320.jpg"/>
+    <!-- If there is a photo of the specimen identification label then show it -->
+    <txn:identificationHasLabelImage rdf:resource="http://assets.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9/0001/id_label_320x240.png"/>
+    <!-- identifiedBy should be foaf:Person -->
+    <txn:identifiedBy rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Kyle_E_Johnson"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </txn:Identification>
+  <!-- Information about the Continent -->
+  <gn:Feature rdf:about="http://sws.geonames.org/6255149/">
+    <txn:hasExpectationOf rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </gn:Feature>
+  <!-- Information about the State or Province -->
+  <gn:Feature rdf:about="http://sws.geonames.org/5279468/">
+    <txn:hasExpectationOf rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </gn:Feature>
+  <!-- Information about the County -->
+  <gn:Feature rdf:about="http://sws.geonames.org/5250768/">
+    <txn:hasExpectationOf rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </gn:Feature>
+  <!-- Description of HTML Document -->
+  <bibo:Webpage rdf:about="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.html">
+    <rdfs:label>HTML for Occurrence of Boloria selene se:ICmLC at Shivering Sands Natural Area Woods from 2005-07-24 to 2005-07-24</rdfs:label>
+    <dcterms:publisher rdf:resource="http://lod.taxonconcept.org/ontology/txn.owl#TaxonConcept_Knowledge_Base_Project"/>
+    <dcterms:creator rdf:resource="http://lod.taxonconcept.org/ontology/people.owl#Peter_J_DeVries"/>
+    <dcterms:identifier>http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.html</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://lod.taxonconcept.org/ontology/void.rdf#TaxonConcept"/>
+    <dcterms:created>2010-10-28T00:00:00-0500</dcterms:created>
+    <dcterms:modified>2013-02-14T12:13:33-0600</dcterms:modified>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Occurrence"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.html"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+    <foaf:topic rdf:resource="http://lod.taxonconcept.org/ses/ICmLC.html#Species"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Individual"/>
+    <foaf:topic rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf#Identification_0001"/>
+    <foaf:topic rdf:resource="geo:44.86528100,-87.23147800;u=10"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/6255149/"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/5279468/"/>
+    <foaf:topic rdf:resource="http://sws.geonames.org/5250768/"/>
+    <wdrs:describedby rdf:resource="http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"/>
+  </bibo:Webpage>
+</rdf:RDF>

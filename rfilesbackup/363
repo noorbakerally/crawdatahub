@@ -1,0 +1,78 @@
+@base          <http://lod.xdams.org/reload/> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema-org: <http://schema.org/> .
+@prefix bio:   <http://purl.org/vocab/bio/0.1/> .
+@prefix conf:  <http://lodview.it/conf#> .
+@prefix metalex: <http://www.metalex.eu/metalex/2008-05-02#> .
+@prefix ocd:   <http://dati.camera.it/ocd/> .
+@prefix rel:   <http://purl.org/vocab/relationship/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix bbc:   <http://www.bbc.co.uk/ontologies/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix frbr:  <http://purl.org/vocab/frbr/core#> .
+@prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
+@prefix claros: <http://purl.org/NET/Claros/vocab#> .
+@prefix crm-owl: <http://purl.org/NET/crm-owl#> .
+@prefix skos2008: <http://www.w3.org/2008/05/skos#> .
+@prefix meta:  <http://example.org/metadata#> .
+@prefix bmuseum: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix ods:   <http://lod.xdams.org/ontologies/ods/> .
+@prefix gml:   <http://www.opengis.net/gml/> .
+@prefix muninn: <http://rdf.muninn-project.org/ontologies/documents#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:  <http://dbpedia.org/class/yago/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix units: <http://dbpedia.org/units/> .
+@prefix rso:   <http://www.researchspace.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix oad:   <http://lod.xdams.org/reload/oad/> .
+@prefix reload: <http://lod.xdams.org/reload/> .
+@prefix crm120111: <http://erlangen-crm.org/120111/> .
+@prefix cdoc:  <http://www.cidoc-crm.org/cidoc-crm#> .
+@prefix bibleontology: <http://bibleontology.com/property#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix isbd:  <http://iflastandards.info/ns/isbd/elements/> .
+@prefix crm:   <http://erlangen-crm.org/current/> .
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix shoah: <http://dati.cdec.it/lod/shoah/> .
+@prefix npg:   <http://ns.nature.com/terms/> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix gn:    <http://www.geonames.org/ontology#> .
+@prefix ibc:   <http://dati.ibc.it/ibc/> .
+@prefix aemetonto: <http://aemet.linkeddata.es/ontology/> .
+@prefix skos-xl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix lgdo:  <http://linkedgeodata.org/ontology/capital> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix eac-cpf: <http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prism21: <http://prismstandard.org/namespaces/basic/2.1/> .
+@prefix po:    <http://purl.org/ontology/po/> .
+
+<oad/uod/CD1700000001>
+        a                               oad:uod ;
+        rdfs:label                      "Assemblea Costituente"^^xsd:string ;
+        oad:administrativeBiographicalHistory
+                "Nella elaborazione della Costituzione repubblicana si susseguirono varie fasi. Il decreto-legge luogotenenziale 25 giugno 1944, n. 151,  dispose che dopo la liberazione del territorio nazionale le forme istituzionali sarebbero state scelte dal popolo italiano, che a tal fine avrebbe eletto a suffragio universale diretto e segreto un'Assemblea costituente per deliberare la nuova Costituzione dello Stato. Lo stesso provvedimento stabilì lo scioglimento della Camera (già decretato da Badoglio nell'agosto del 1943, ma con la prospettiva della convocazione di una nuova Camera) e del Senato e demandò l'esercizio della funzione legislativa al Consiglio dei ministri, che l'avrebbe esercitata tramite decreti legislativi, sottoposti alla sanzione e alla promulgazione da parte del Luogotenente generale del Regno. Sulla base di questo decreto inoltre il presidente Bonomi nominò i presidenti della Camera dei deputati e del Senato nelle persone di Vittorio Emanuele Orlando e di Pietro Tomasi della Torretta per affermare una \"continuità ideale dell'antica Camera dei deputati con l'Assemblea che (sarebbe stata) liberamente eletta dal popolo italiano, quando esso (avesse) liberamente deciso i suoi ordinamenti costituzionali\".\nIn correlazione con questa disposizione, con decreto luogotenenziale 31 luglio 1945, n. 435, fu istituito dal Governo Parri il Ministero per la Costituente con il compito di \"preparare la convocazione dell'Assemblea Costituente e di predisporre gli elementi per lo studio della nuova Costituzione che dovrà determinare l'assetto politico dello Stato e le linee direttive della sua azione economica e sociale\". A tal fine furono nominate dal Ministro per la Costituente, Pietro Nenni,  tre commissioni di studio aventi ad oggetto rispettivamente le questioni economiche, i problemi del lavoro ed i problemi  attinenti alla riorganizzazione dello Stato. Particolarmente rilevante fu il lavoro svolto da quest'ultima Commissione, presieduta dal prof. Ugo Forti e composta da 90 membri (molti dei quali, e tra questi anche lo stesso Presidente, avevano già fatto parte della Commissione per la riforma dell'amministrazione nominata dal precedente Governo Bonomi nell'ottobre del 1944 con compiti simili). La Commissione, insediatasi il 21 novembre 1945, discusse preliminarmente la questione dei limiti della propria attività: alcuni commissari ritenevano che rientrasse nei poteri della Commissione la predisposizione di uno schema di Costituzione da sottoporre poi all'esame dell'Assemblea Costituente. Il ministro, al quale fu richiesto un parere al riguardo, confermò la natura essenzialmente tecnica e non politica della Commissione, finalizzata alla \"raccolta e allo studio degli elementi attinenti al riassetto dello Stato\". La Commissione presentò all'Assemblea Costituente una relazione in tre volumi contenente i risultati dei lavori delle 5 sottocommissioni nelle quali si articolava e fu sciolta il 30 giugno 1946. Il Ministero per la Costituente fu soppresso con decreto legislativo del Capo provvisorio dello Stato 2 agosto 1946, n.54.\nIl successivo decreto legislativo luogotenenziale 16 marzo 1946, n. 98, che integrava e modificava il decreto n. 151 del 1944, costituzione provvisoria fino all'entrata in vigore della Costituzione della Repubblica, sottrasse la decisione sulla questione istituzionale all'Assemblea Costituente per demandarla alla volontà diretta del popolo, da attuarsi mediante lo svolgimento di un Referendum istituzionale e aggiunse che, qualora la maggioranza degli elettori votanti si fosse pronunziata a favore della Repubblica, l'Assemblea, dopo la sua costituzione, come suo primo atto avrebbe eletto il Capo provvisorio dello Stato.\nLo stesso decreto provvide, inoltre, a disciplinare lo svolgimento della funzione legislativa ordinaria ed i rapporti fra Costituente e Governo stabilendo che durante il periodo della Costituente, e fino alla convocazione del Parlamento a norma della nuova Costituzione, tale potere restasse delegato al Governo salva la materia costituzionale e ad eccezione delle leggi elettorali e di approvazione dei trattati internazionali, che restavano riservate alla competenza dell'Assemblea. Il decreto del 1946, all'articolo 4, fissò i limiti della durata dei poteri della Costituente e regolò il modo di svolgimento dei lavori, precisando che \"l'Assemblea è sciolta di diritto il giorno dell'entrata in vigore della nuova Costituzione e comunque non oltre l'ottavo mese dalla sua prima riunione. Essa può prorogare questo termine per non più di quattro mesi. Finché non avrà deliberato il proprio regolamento interno, l'Assemblea Costituente applicherà il regolamento interno della Camera dei deputati in data 1° luglio 1900 e successive modificazioni fino al 1922\".\nCon il decreto legislativo luogotenenziale n. 74 del 10 marzo 1946 fu emanata la legge elettorale per la Costituente. Essa assicurava una rappresentanza proporzionale, con l'adozione di un sistema di collegi plurinominali a liste concorrenti.\nL'Assemblea Costituente, eletta il 2 giugno 1946 e riunitasi il 25 giugno originariamente per otto mesi (sino al 24 febbraio 1947), continuò a lavorare oltre tale termine in virtù delle proroghe accordate, in un primo momento con le leggi costituzionali del 21 febbraio 1947, n.1 e del 17 giugno 1947, n. 2. Successivamente poté continuare i lavori in virtù della XVII disposizione transitoria della Costituzione per deliberare la legge per l'elezione del Senato della Repubblica, gli statuti delle regioni ad autonomia speciale e la legge per la stampa.\nL'Assemblea Costituente funzionò effettivamente fino al 31 gennaio 1948.\nLe sue commissioni si riunirono anche successivamente, fino all'aprile dello stesso anno. In tale periodo si tennero 375 sedute pubbliche. Furono dedicate alla Costituzione 170 sedute, 210 alle altre materie. Furono tenute inoltre due riunioni in Comitato segreto per discutere problemi interni. Alla presidenza della Costituente fu eletto Saragat con 401 voti su 467 votanti. Furono eletti anche quattro vicepresidenti: il comunista Terracini, il repubblicano Conti e i democristiani Micheli e Pecorari. Dopo le dimissioni di Saragat, l'8 febbraio 1947 fu eletto presidente Terracini con 297 voti su 436. Il 28 giugno 1946 la Costituente elesse Enrico De Nicola Capo provvisorio dello Stato con 396 voti su 501 votanti (40 voti furono per il repubblicano Facchinetti, 32 per Ottavia Penna, qualunquista, 12 per V. E. Orlando, 12 furono le schede bianche e 10 i voti dispersi). Il Capo provvisorio dello Stato avrebbe esercitato le sue funzioni fino a quando non fosse stato nominato il Capo dello Stato a norma della Costituzione deliberata dall'Assemblea. De Nicola, illustre avvocato napoletano, membro della Consulta, era stato presidente della Camera nella XXVI legislatura e si era ritirato dalla politica prima delle elezioni del 1924. Il 1° luglio De Nicola si insediò nella carica risiedendo a Palazzo Giustiniani." ;
+        oad:extentAndMedium             "138 buste" , "1615 fascicoli" , "6 volumi" , "25 registri" , "faldoni-buste 138" ;
+        oad:has_accessPointCorporateBody
+                <oad/entiCamera/Commissione_economica> , <oad/entiCamera/Commissione_per_la_riorganizzazione_dello_Stato> , <oad/entiCamera/Capo_provvisorio_dello_Stato> , <oad/entiCamera/Governo_Bonomi> , <oad/entiCamera/Governo_Parri> , <oad/entiCamera/Ministro_per_la_Costituente> , <oad/entiCamera/Ministero_per_la_Costituente> , <oad/entiCamera/Commissione_per_i_problemi_del_lavoro> , <oad/entiCamera/Senato_del_Regno> , <oad/entiCamera/Senato_della_Repubblica> , <oad/entiCamera/Commissione_per_la_riforma_dell_amministrazione> , <oad/entiCamera/Camera_dei_deputati> ;
+        oad:has_accessPointPerson       <oad/personeCameraInchiesta/Orlando_Vittorio_Emanuele> , <oad/personeCameraInchiesta/Nenni_Pietro> , <oad/personeCameraInchiesta/Lanconelli_Angela> , <oad/personeCameraInchiesta/Quesada_Maria_Antonietta> , <oad/personeCameraInchiesta/Micheli_Giuseppe> , <oad/personeCameraInchiesta/Forti_Ugo> , <oad/personeCameraInchiesta/Franco_Vincenzo> , <oad/personeCameraInchiesta/Facchinetti_Cipriano> , <oad/personeCameraInchiesta/De_Nicola_Enrico> , <oad/personeCameraInchiesta/Cheli_Enzo> , <oad/personeCameraInchiesta/Penna_Ottavia> , <oad/personeCameraInchiesta/Saragat_Giuseppe> , <oad/personeCameraInchiesta/Pecorari_Fausto> , <oad/personeCameraInchiesta/Bonomi_Ivanoe> , <oad/personeCameraInchiesta/Bova_Sergio> , <oad/personeCameraInchiesta/Tomasi_della_Torretta_Pietro> , <oad/personeCameraInchiesta/Terracini_Umberto> , <oad/personeCameraInchiesta/Kolega_Alessandra> , <oad/personeCameraInchiesta/Conti_Giovanni> , <oad/personeCameraInchiesta/Parri_Ferruccio> ;
+        oad:has_findingAid              <oad/findingAid/CD1700000001_1> ;
+        oad:has_level                   <oad/levelOfDescription/fonds> ;
+        oad:has_publicationNote         <oad/publicationNote/CD1700000001_1> , <oad/publicationNote/CD1700000001_3> , <oad/publicationNote/CD1700000001_2> ;
+        oad:languageScriptsOfMaterials  <http://id.loc.gov/vocabulary/iso639-1/it> ;
+        oad:referenceCode               "00200.00040" ;
+        oad:scopeAndContent             "L'Assemblea Costituente, come già la Consulta nazionale, non disponendo  di una propria  struttura amministrativa si avvalse dell'apparato della Camera dei  deputati e, per quanto riguarda l'ordinamento archivistico delle carte, mantenne la tradizione in uso alla Camera, con alcune innovazioni dettate dall'esigenza di adeguarsi alla nuova situazione. Nel corso della inventariazione  sono state introdotte alcune modifiche rispetto all'inventario del 1991.  Si è proceduto, in particolare, ad una riformulazione delle serie introducendo in alcuni casi dei  gruppi di serie. Si tratta  dei gruppi di serie Giunta delle elezioni, Commissione per la Costituzione, Attività legislativa. che si sono resi necessari per la complessità  delle serie, l'eterogenità del materiale e per l'esigenza di dare rilievo a particolari strutturazioni interne di alcuni organi od attività. Il gruppo Giunta delle elezioni comprende le serie Operazioni elettorali (che riguardano essenzialmente i dati elettorali pervenuti alla Giunta delle elezioni per le normali operazioni di convalida) e la serie Attività della Giunta (che si riferisce alle operazioni di verifica e di controllo).  Il gruppo Commissione per la Costituzione comprende serie relative a particolari tipologie di documenti (verbali delle sedute della Commissione, carte della Segreteria,  relazioni studi e ricerche,  raccolta delle deliberazioni) ed alla attività di due comitati costituitisi all'interno della Commissione (Comitato per le autonomie e Comitato di redazione). Il gruppo di serie Attività legislativa si è reso necessario per il diverso tipo di intervento  in relazione alla complessa vicenda della attribuzione del potere legislativo ordinario all'Assemblea Costituente. Questo gruppo contiene, oltre alla serie dei verbali delle quattro commissioni permanenti per l'esame dei disegni di legge, le serie dei disegni di legge e dei provvedimenti legislativi. Con il termine disegni di legge si indicano i testi legislativi esaminati e deliberati dall'Assemblea; con il termine provvedimenti legislativi si indicano gli schemi dei decreti legislativi inviati dal Governo alla Costituente per il parere delle commissioni.\nL'inventario è stato costruito su gruppi di serie o serie che si riferiscono alla struttura dell'organo e alle sue funzioni. Questa scelta rientra nella tradizionale impostazione dell'Archivio storico della Camera che conserva i fondi di un organo complesso quale è una assemblea legislativa e non può organizzarli sulla base della sola struttura o delle sole funzioni ma secondo una articolazione che le comprende entrambe.\nSi segnala che esistono 7 buste  relative a copie di provvedimenti legislativi. Tali buste, dalla n. 124 alla n. 130, non rientrano nel calcolo della consistenza del Fondo." ;
+        dc:date                         "02.06.1946 - 07.05.1948" ;
+        dc:title                        "Assemblea Costituente" ;
+        dcterms:isPartOf                <oad/uod/> ;
+        dcterms:isReferencedBy          <http://archivio.camera.it/patrimonio/archivi_della_transizione_costituzionale_1944_1948/atc04/documento/CD1700000001> ;
+        dcterms:provenance              <oad/organization/camera> .

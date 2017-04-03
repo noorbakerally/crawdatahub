@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:swrc="http://swrc.ontoware.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <swrc:Conference rdf:about="http://colinda.org/resource/conference/WWW/2012">
+    <swrc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-10-20</swrc:startDate>
+    <owl:sameAs rdf:resource="http://eventseer.net/e/16970/"/>
+    <swrc:description>21st international world wide web conference (WWW 2012)</swrc:description>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/Lyon"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/France"/>
+    <swrc:location rdf:resource="http://sws.geonames.org/2996944/"/>
+    <rdfs:label>WWW2012</rdfs:label>
+    <swrc:eventTitle>WWW 2012</swrc:eventTitle>
+    <rdfs:seeAlso rdf:resource="http://dblp.l3s.de/d2r/resource/publications/conf/www/2012"/>
+  </swrc:Conference>
+
+</rdf:RDF>

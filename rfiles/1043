@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/arte">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/la-perspectiva-postmedia/3d605a02-bbb2-46ab-93a8-76bd5e6ce423" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/kim-asendorf/491350d6-c5d9-4c1e-b9ca-764573d14401" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/arte-visual-glenn-marshall/19a85237-6706-4fee-9fa8-d8aa26d5fdbf" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/playware-y-gameworld/69fb6434-a802-4c1e-bb85-dfbfeb865c17" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/enciclopedia-arte-e-tecnologia/c759b2ad-3fb0-4358-b137-a844c3098ce8" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/konic/e93d6a3a-51a1-4155-be2c-5160c7a74b87" />
+    <gnoss:Results rdf:resource="http://red.gnoss.com/en/community/Interactivos/resource/artnodes/715de23c-014c-42b7-9a5b-ae4a55751d10" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/la-perspectiva-postmedia/3d605a02-bbb2-46ab-93a8-76bd5e6ce423">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[La perspectiva postmedia]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>El siguiente extracto pertenece al &uacute;ltimo cap&iacute;tulo de mi libro &lsquo;<em>Media, New Media, Postmedia</em>&lsquo;, publicado recientemente en italiano por <a href="http://www.postmediabooks.it/" target="_blank">Postmediabooks</a>. El libro intenta analizar el <strong>posicionamiento actual del denominado </strong><strong>arte</strong><strong> </strong><em><strong>new media</strong></em><strong> </strong>dentro de la esfera, m&aacute;s amplia, del arte contempor&aacute;neo en general, para explorar las<strong> razones hist&oacute;ricas, sociol&oacute;gicas y conceptuales que causan su falta de reconocimiento y&nbsp;su posici&oacute;n marginal </strong>en la reciente historia del arte. El punto de partida del libro es que <strong>la etiqueta &lsquo;</strong><strong>arte </strong><strong><em>new media</em></strong><strong>&lsquo; no identifica ni a un g&eacute;nero del arte ni a un movimiento art&iacute;stico,</strong> por lo que no puede ser vista -como suele ocurrir- como una simple definici&oacute;n basada en el medio. Por el contrario, una obra de arte -est&eacute; o no basada en la tecnolog&iacute;a- suele estar clasificada como arte<em> new media</em> cuando ha sido producida, exhibida y discutida en un mundo del arte espec&iacute;fico: el mundo del arte<em> new media</em>.</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-12-01T22:10:14+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[La perspectiva postmedia]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.tintank.es/?p=1196" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesor-jaimemunarriz/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/posmedia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/media" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/new%20media" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/postmedia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/historia" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/profesor-jaimemunarriz/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Profesor · Jaime Munárriz Ortiz]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Jaime]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Munárriz Ortiz]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/posmedia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[posmedia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/media">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[media]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/new%20media">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[new media]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/postmedia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[postmedia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/historia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[historia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/kim-asendorf/491350d6-c5d9-4c1e-b9ca-764573d14401">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Kim Asendorf]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Artista digital alem&aacute;n. Trabaja con interfaces v&iacute;a navegador web y generaci&oacute;n algor&iacute;tmica de im&aacute;genes y bases de datos. Ha desarrollado un nuevo formato de archivo de imagen no comercial para uso art&iacute;stico: <a href="http://extrafile.org/" target="_blank">extrafile</a></p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-03-14T18:10:09+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Kim Asendorf]]></dcterms:title>
+    <dcterms:source rdf:resource="http://kimasendorf.com/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/Pablo-Perez-Schroder/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/artista" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/trabaja" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/kim%20asendorf" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/Pablo-Perez-Schroder/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Pablo Perez Schroder]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Pablo]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Perez Schroder]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/artista">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[artista]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/trabaja">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[trabaja]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/kim%20asendorf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[kim asendorf]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/arte-visual-glenn-marshall/19a85237-6706-4fee-9fa8-d8aa26d5fdbf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Arte visual Glenn Marshall]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&nbsp;&nbsp; <a href="http://alt1040.com/2008/09/arte-visual-creado-con-processing-un-poderoso-lenguaje-de-programacion" target="_blank">http://alt1040.com/2008/09/arte-visual-creado-con-processing-un-poderoso-lenguaje-de-programacion</a></p>
+<p>
+	V&iacute;deo Metamorphosis</p>
+<p>
+	http://vimeo.com/1747316</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-03-13T12:54:14+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Arte visual Glenn Marshall]]></dcterms:title>
+    <dcterms:source rdf:resource="http://alt1040.com/2008/09/arte-visual-creado-con-processing-un-poderoso-lenguaje-de-programacion" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/Alicia-Juan-Lobato/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/glenn%20marshall" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/Alicia-Juan-Lobato/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Alicia Juan Lobato]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Alicia]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Juan Lobato]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/glenn%20marshall">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[glenn marshall]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/playware-y-gameworld/69fb6434-a802-4c1e-bb85-dfbfeb865c17">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Playware y gameworld]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	La Laboral hizo hace no mucho dos exposiciones dedicadas a los sistemas interactivos virtuales y los videojuegos cercanos a la frontera del arte. Aqu&iacute; se pueden ver los dos cat&aacute;logos:</p>
+<p>
+	<a href="http://www.laboralcentrodearte.org/es/files/2007/exposiciones/gameworld-doc/catalogo-gameworld/view" target="_blank">http://www.laboralcentrodearte.org/es/files/2007/exposiciones/gameworld-doc/catalogo-gameworld/view</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://www.laboralcentrodearte.org/es/files/2007/exposiciones/playware-doc/catalogo-playware/view" target="_blank">http://www.laboralcentrodearte.org/es/files/2007/exposiciones/playware-doc/catalogo-playware/view</a></p>
+<p>
+	&nbsp;</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-03-01T21:50:44+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Playware y gameworld]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.laboralcentrodearte.org/es/files/2007/exposiciones/playware-doc/catalogo-playware/view" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/Néstor-Domínguez/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/laboral" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/playware" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/gameworld" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/Néstor-Domínguez/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Néstor Domínguez]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Néstor]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Domínguez]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/laboral">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[laboral]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/playware">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[playware]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/gameworld">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gameworld]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/enciclopedia-arte-e-tecnologia/c759b2ad-3fb0-4358-b137-a844c3098ce8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Enciclopedia Arte e Tecnologia.]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Os dejo tambi&eacute;n esta pagina web, dedicada al panorama de arte y tecnologia de Brasil. Buena herramienta para investigaciones.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-03-10T11:48:04+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Enciclopedia Arte e Tecnologia.]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.cibercultura.org.br/tikiwiki/home.php" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/flavia-mielnik/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/tecnolog%c3%ada" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/enciclopedia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/invetigaci%c3%b3n" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/profile/flavia-mielnik/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/flavia-mielnik/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Flavia mielnik]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Flavia]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[mielnik]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/tecnolog%c3%ada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tecnología]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/enciclopedia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[enciclopedia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/invetigaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[invetigación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/konic/e93d6a3a-51a1-4155-be2c-5160c7a74b87">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Konic]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	<span>K&ograve;nic thtr es una plataforma art&iacute;stica con base en Barcelona</span> dedicada a la creaci&oacute;n contempor&aacute;nea en la confluencia de arte, ciencia y nuevas tecnolog&iacute;as. Su actividad se focaliza en el uso de tecnolog&iacute;a interactiva aplicada a proyectos art&iacute;sticos.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-03-02T15:47:36+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Konic]]></dcterms:title>
+    <dcterms:source rdf:resource="http://koniclab.info/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesor-jaimemunarriz/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/ciencia" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/nuevas%20tecnolog%c3%adas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/interactivo" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/sensores" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/konic" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/pure%20data" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/ciencia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ciencia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/nuevas%20tecnolog%c3%adas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[nuevas tecnologías]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/interactivo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[interactivo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/sensores">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sensores]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/konic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[konic]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/pure%20data">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pure data]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/Interactivos/resource/artnodes/715de23c-014c-42b7-9a5b-ae4a55751d10">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ArtNodes]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Revista - Magazine</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2011-02-12T17:53:19+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[ArtNodes]]></dcterms:title>
+    <dcterms:source rdf:resource="http://artnodes.uoc.edu/ojs/index.php/artnodes/index" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/profesor-jaimemunarriz/" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/arte" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/new%20media" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/media%20art" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/Interactivos/search/tag/artnodes" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/media%20art">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[media art]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/Interactivos/search/tag/artnodes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[artnodes]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

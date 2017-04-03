@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000391"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000391">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Access service</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">access service</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<rdfs:label>Instrument access service</rdfs:label>
+	<ERO_0000480 xmlns="http://purl.obolibrary.org/obo/">http://www.psm.edu/RCMI/home.html</ERO_0000480>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000480">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Website(s)</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has URL</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_url</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<feeforservice xmlns="http://eagle-i.org/ont/app/1.0/">true</feeforservice>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/feeforservice">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fee for service</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">Access and training to core lab instruments.</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://psm.eagle-i.net/i/00000136-cb78-5329-d2c1-4d1680000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cb78-5329-d2c1-4d1680000000">
+	<rdfs:label>Porrata-Doria, Tirtsa</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<ERO_0000390 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://psm.eagle-i.net/i/00000136-cb76-eea8-d2c1-4d1680000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000390">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Service Provided by</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service provided by</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service_provided_by</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cb76-eea8-d2c1-4d1680000000">
+	<rdfs:label>Molecular and Genomics Core</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-19T14:29:24.759-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://psm.eagle-i.net/i/00000135-8cbe-e132-7d04-928480000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000135-8cbe-e132-7d04-928480000000">
+	<rdfs:label>kcespedes</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-07T10:16:38.006-05:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://psm.eagle-i.net/i/00000135-8cbe-e132-7d04-928480000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000135-8cbe-e132-7d04-928480000000">
+	<rdfs:label>kcespedes</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000005">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Service</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service offering</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">information content entity</IAO_0000111>
+	<rdfs:label xml:lang="en">information content entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://psm.eagle-i.net/i/00000136-cc09-7eb1-d2c1-4d1680000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+	<rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

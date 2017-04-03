@@ -1,0 +1,48 @@
+
+<http://opendatacommunities.org/data/wellbeing-happy-yesterday-standard-deviation> <http://purl.org/dc/terms/modified> "2012-08-25T14:05:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a <http://publishmydata.com/def/dataset#Dataset> , <http://publishmydata.com/def/dataset#DeprecatedDataset> , <http://rdfs.org/ns/void#Dataset> , <http://www.w3.org/ns/dcat#Dataset> ;
+	<http://purl.org/dc/terms/title> "Subjective wellbeing, 'Happy Yesterday', standard deviation" ;
+	<http://purl.org/dc/terms/publisher> <http://reference.data.gov.uk/id/department/dclg> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "Standard deviation of responses for 'Happy Yesterday' in the First ONS Annual Experimental Subjective Wellbeing survey." ;
+	<http://purl.org/dc/terms/issued> "2012-08-01T13:06:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Subjective wellbeing, 'Happy Yesterday', standard deviation" ;
+	<http://purl.org/dc/terms/description> """The Office for National Statistics has included the four subjective well-being questions below on the Annual Population Survey (APS), the largest of their household surveys. 
+
+-	Overall, how satisfied are you with your life nowadays? 
+-	Overall, to what extent do you feel the things you do in your life are worthwhile? 
+-	Overall, how happy did you feel yesterday? 
+-	Overall, how anxious did you feel yesterday? 
+
+This dataset presents results from the third of these questions, \"Overall, how happy did you feel yesterday?\".  Respondents answer these questions on an 11 point scale from 0 to 10 where 0 is ‘not at all’ and 10 is ‘completely’. The well-being questions were asked of adults aged 16 and older.
+
+Well-being estimates for each unitary authority or county are derived using data from those respondents who live in that place. Responses are weighted to the estimated population of adults (aged 16 and older) as at end of September 2011.
+
+The data cabinet also makes available the proportion of people in each county and unitary authority that answer with ‘low wellbeing’ values. For the ‘happy yesterday’ question answers in the range 0-6 are taken to be low wellbeing. 
+
+This dataset contains the standard deviation of the responses, alongside the corresponding sample size.
+
+The ONS survey covers the whole of the UK, but this dataset only includes results for counties and unitary authorities in England, for consistency with other statistics available at this website.
+
+At this stage the estimates are considered ‘experimental statistics’, published at an early stage to involve users in their development and to allow feedback. Feedback can be provided to the ONS via this email address.
+ 
+The APS is a continuous household survey administered by the Office for National Statistics. It covers the UK, with the chief aim of providing between-census estimates of key social and labour market variables at a local area level. Apart from employment and unemployment, the topics covered in the survey include housing, ethnicity, religion, health and education. When a household is surveyed all adults (aged 16+) are asked the four subjective well-being questions.
+
+The 12 month Subjective Well-being APS dataset is a sub-set of the general APS as the well-being questions are only asked of persons aged 16 and above, who gave a personal interview and proxy answers are not accepted. This reduces the size of the achieved sample to approximately 120,000 adult respondents in England.
+
+The original data is available from the [ONS website](http://www.ons.gov.uk/ons/rel/wellbeing/measuring-subjective-wellbeing-in-the-uk/first-annual-ons-experimental-subjective-well-being-results/first-ons-annual-experimental-subjective-well-being-results.html).
+ 
+Detailed information on the APS and the Subjective Wellbeing dataset is available [here](http://www.ons.gov.uk/ons/guide-method/method-quality/specific/social-and-welfare-methodology/subjective-wellbeing-survey-user-guide/subjective-well-being-survey-user-guide--12-month-dataset---download-version.pdf).
+ 
+As well as collecting data on well-being, the Office for National Statistics has published
+widely on the topic of wellbeing. Papers and further information can be found [here](http://www.ons.gov.uk/ons/guide-method/user-guidance/well-being/index.html).
+ """ ;
+	<http://www.w3.org/ns/dcat#theme> <http://opendatacommunities.org/def/concept/themes/societal-wellbeing> ;
+	<http://publishmydata.com/def/dataset#graph> <http://opendatacommunities.org/graph/wellbeing-happy-yesterday-standard-deviation> ;
+	<http://purl.org/dc/terms/references> <http://docs.publishmydata.com> ;
+	<http://purl.org/dc/terms/subject> <http://opendatacommunities.org/def/concept/themes/societal-wellbeing> ;
+	<http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/> ;
+	<http://rdfs.org/ns/void#sparqlEndpoint> <http://opendatacommunities.org/sparql> ;
+	<http://publishmydata.com/def/dataset#contactEmail> <mailto:ODC@communities.gsi.gov.uk> ;
+	<http://publishmydata.com/def/ontology/folder/inFolder> <http://opendatacommunities.org/def/concept/folders/themes/societal-wellbeing> ;
+	a <http://purl.org/linked-data/cube#DataSet> ;
+	<http://purl.org/linked-data/cube#structure> <http://opendatacommunities.org/def/structure/wellbeing-happy-yesterday-standard-deviation> .

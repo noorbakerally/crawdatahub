@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="https://didactalia.net/comunidad/materialeducativo/recursos/tag/relativity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/time-dilatio-at-grade/1717b415-5ea8-4661-a441-1c62a9212fb1" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/length-contractio-at-grade/4ee8a3bd-4510-4753-bb96-f2159798e012" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/einsteins-cros-at-grade/b4d6964f-a561-48a9-9f34-d4cc27f6f571" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/twins-paradox/cba0f346-2623-469c-9d4d-ba720d5212c0" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/michelson-morley-experiment/2cd158ee-463c-48b8-92ea-19d3dc9c18e0" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/interstellar-travel/e80cc2bd-4cc4-4ee2-b907-84845203f0e4" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/relativistic-paradox/bef16fc4-f9c6-48b7-ab93-7621f3f4eb27" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/relativity-galileo/55cd43df-478d-44c7-bd74-f2918f57a78d" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/the-magnetic-problem/001a6774-fb1d-41ad-8db3-43ad5584dd08" />
+    <gnoss:Results rdf:resource="https://didactalia.net/comunidad/materialeducativo/recurso/contraction-of-space/c9f4c9c2-2af0-4489-b635-7e895d509c23" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/time-dilatio-at-grade/1717b415-5ea8-4661-a441-1c62a9212fb1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Time Dilatio? At grade]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Students will learn what is meant by time dilation in relativity theory and how to solve relative time problems.<br/><p>It is an educational content of <a href='http://www.ck12.org/' target='_blank'>CK-12 Foundation</a> (to access some of the CK-12 contents you must be logged in).</p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[CK-12 Team]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-10-01T11:22:49+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Time Dilatio? At grade]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.ck12.org/physics/Time-Dilation/lesson/Time-Dilation/" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/time%20dilation" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/dilation" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/gamma%20factor" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/length%20contraction" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/speed%20of%20light" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/time" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/twin%20paradox" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <foaf:Group rdf:about="https://didactalia.net/organizacion/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo Didactalia]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo Didactalia]]></foaf:name>
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/time%20dilation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[time dilation]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/dilation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[dilation]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/gamma%20factor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gamma factor]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/length%20contraction">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[length contraction]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[relativity]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/speed%20of%20light">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[speed of light]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/time">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[time]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/twin%20paradox">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[twin paradox]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/length-contractio-at-grade/4ee8a3bd-4510-4753-bb96-f2159798e012">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Length Contractio? At grade]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Students will learn how length contraction follows from time dilation and the meaning of the gamma factor.<br/><p>It is an educational content of <a href='http://www.ck12.org/' target='_blank'>CK-12 Foundation</a> (to access some of the CK-12 contents you must be logged in).</p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[CK-12 Team]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-10-01T11:20:51+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Length Contractio? At grade]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.ck12.org/physics/Length-Contraction/lesson/Length-Contraction/" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/length%20contraction" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/contraction" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/dilation" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/gamma%20factor" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/length" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/time" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/contraction">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contraction]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/length">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[length]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/einsteins-cros-at-grade/b4d6964f-a561-48a9-9f34-d4cc27f6f571">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Einstein's Cros? At grade]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Light can actually be bent by mass.<br/><p>It is an educational content of <a href='http://www.ck12.org/' target='_blank'>CK-12 Foundation</a> (to access some of the CK-12 contents you must be logged in).</p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[CK-12 Team]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-10-01T11:19:57+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Einstein's Cros? At grade]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.ck12.org/earth-science/Life-Cycles-of-Stars/rwa/Einsteins-Cross/" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/einstein%27s%20cross" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/gravitational%20lens" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/albert%20einstein" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/quasar" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/astrophysics" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/light" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/einstein%27s%20cross">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[einstein's cross]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/gravitational%20lens">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gravitational lens]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/albert%20einstein">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[albert einstein]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/quasar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[quasar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/astrophysics">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[astrophysics]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/light">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[light]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/twins-paradox/cba0f346-2623-469c-9d4d-ba720d5212c0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Twins paradox]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Concept of twins paradox]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-29T14:55:46+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Twins paradox]]></dcterms:title>
+    <dcterms:source rdf:resource="http://procomun.gnoss.com/Ontologia/odeAgrega.owl" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/natural%20sciences" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/science" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/physics" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/twins" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/paradox" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/twin%20paradox" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/natural%20sciences">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[natural sciences]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Natural_science" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.09pz7" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/science">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[science]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Science_(journal)" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.01bgtn" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/physics">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[physics]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/twins">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[twins]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Twins_(1988_film)" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.04kpwd" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/paradox">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[paradox]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/michelson-morley-experiment/2cd158ee-463c-48b8-92ea-19d3dc9c18e0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Michelson-Morley experiment]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Concept of the Michelson-Morley experiment]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-29T14:55:41+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Michelson-Morley experiment]]></dcterms:title>
+    <dcterms:source rdf:resource="http://procomun.gnoss.com/Ontologia/odeAgrega.owl" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/natural%20sciences" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/science" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/physics" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/experiment" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/einstein" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/michelson-morley" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/michelson" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/morley" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/the%20michelson-morley%20experiment" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/the%20michelson-morley" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/experiment">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[experiment]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/einstein">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[einstein]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Albert_Einstein" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/michelson-morley">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[michelson-morley]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/michelson">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[michelson]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/morley">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[morley]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/the%20michelson-morley%20experiment">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[the michelson-morley experiment]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/the%20michelson-morley">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[the michelson-morley]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/interstellar-travel/e80cc2bd-4cc4-4ee2-b907-84845203f0e4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Interstellar travel]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Concept of interstellar travel]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-29T14:55:33+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Interstellar travel]]></dcterms:title>
+    <dcterms:source rdf:resource="http://procomun.gnoss.com/Ontologia/odeAgrega.owl" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/natural%20sciences" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/travel" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/science" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/physics" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/einstein" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/interstellar" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/interstellar%20travel" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/travel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[travel]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Travel" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.014dsx" />
+    <owl:sameAs rdf:resource="http://data.nytimes.com/60547267645967068580" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/interstellar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[interstellar]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Interstellar_(film)" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0fkf28" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/interstellar%20travel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[interstellar travel]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Interstellar_travel" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.03t_c" />
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/relativistic-paradox/bef16fc4-f9c6-48b7-ab93-7621f3f4eb27">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Relativistic paradox]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Concept of relativistic paradox]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-29T10:50:13+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Relativistic paradox]]></dcterms:title>
+    <dcterms:source rdf:resource="http://procomun.gnoss.com/Ontologia/odeAgrega.owl" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/natural%20sciences" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/science" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/physics" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/paradox" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativistic" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativistic%20paradox" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativistic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[relativistic]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativistic%20paradox">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[relativistic paradox]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/relativity-galileo/55cd43df-478d-44c7-bd74-f2918f57a78d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Relativity (Galileo)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Concept of relativity (Galileo)]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-29T10:30:12+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Relativity (Galileo)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://procomun.gnoss.com/Ontologia/odeAgrega.owl" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/natural%20sciences" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/galileo" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/science" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/physics" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/einstein" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/galileo%27s%20relativity" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/galileo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[galileo]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Galileo_Galilei" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.034ks" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/galileo%27s%20relativity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[galileo's relativity]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/the-magnetic-problem/001a6774-fb1d-41ad-8db3-43ad5584dd08">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[The magnetic problem]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Concept of the magnetic problem]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-29T10:04:03+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[The magnetic problem]]></dcterms:title>
+    <dcterms:source rdf:resource="http://procomun.gnoss.com/Ontologia/odeAgrega.owl" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/natural%20sciences" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/magnetic" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/science" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/physics" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/problem" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/einstein" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/magnetic%20problem" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/magnetic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[magnetic]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Magnetic_(album)" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0qfrwrv" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/problem">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[problem]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Problem_(Ariana_Grande_song)" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.010gr4s3" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/magnetic%20problem">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[magnetic problem]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="https://didactalia.net/comunidad/materialeducativo/recurso/contraction-of-space/c9f4c9c2-2af0-4489-b635-7e895d509c23">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Contraction of space]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Concept of lenght contraction]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2015-03-29T09:48:28+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Contraction of space]]></dcterms:title>
+    <dcterms:source rdf:resource="http://procomun.gnoss.com/Ontologia/odeAgrega.owl" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/organizacion/equipoGNOSS/" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/natural%20sciences" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/space" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/science" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/physics" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/lenght" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/einstein" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/contraction" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/relativity" />
+    <sioc:topic rdf:resource="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/lenght%20contraction" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/space">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[space]]></rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Space" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.06wqb" />
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/lenght">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[lenght]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="https://didactalia.net/comunidad/materialeducativo/busqueda/tag/lenght%20contraction">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[lenght contraction]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

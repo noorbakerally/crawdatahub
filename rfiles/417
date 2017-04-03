@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:lifecycle="http://purl.org/vocab/lifecycle/schema#"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:schema="http://schema.org/"
+  xmlns:spec="http://rdfs.org/sioc/spec/">
+
+  <rdf:Description rdf:about="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E"/>
+    <foaf:topic rdf:resource="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E"/>
+    <dct:hasFormat rdf:resource="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E.html"/>
+    <dct:hasFormat rdf:resource="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E.json"/>
+    <dct:hasFormat rdf:resource="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://readinglists.harper-adams.ac.uk/lists/7AFCCE4E-5B35-52A4-861A-5717B58D260E">
+    <lifecycle:state rdf:resource="http://purl.org/vocab/resourcelist/schema#status-published"/>
+    <rdf:_1 rdf:resource="http://readinglists.harper-adams.ac.uk/sections/9A6DB7E0-72DB-ED39-F328-1F5C49D4EA3C"/>
+    <rdf:_2 rdf:resource="http://readinglists.harper-adams.ac.uk/sections/1A390044-FD64-A0ED-70D5-67004B9A4E57"/>
+    <rdf:_3 rdf:resource="http://readinglists.harper-adams.ac.uk/sections/6DEBD356-859E-8547-EF25-64B80E538637"/>
+    <rdf:_4 rdf:resource="http://readinglists.harper-adams.ac.uk/sections/9C410C29-2A84-ED17-9475-5A777EA1CBA5"/>
+    <rdf:_5 rdf:resource="http://readinglists.harper-adams.ac.uk/sections/02DF3216-E7BA-AA69-91B3-13CA0DF0EA3A"/>
+    <rdf:_6 rdf:resource="http://readinglists.harper-adams.ac.uk/sections/24B0B35A-40AC-24C8-F2D1-01AADF02001B"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/033DF4E9-1821-EF70-1985-E557A81162F4"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/0B678BC9-C806-570B-FD06-DB3E8CD56210"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/0B68B72C-AA97-3073-515F-95321BC7289C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/12E5EB51-5DBE-3863-59C6-DF9FFEE2EF14"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/285E39CF-8BED-9F80-930C-C4AE7A727F57"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/3F94B37A-1358-D881-E89F-9BE2824C073C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/4AFACB87-AE8F-E0BF-9D46-E03DB2D4D76B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/4E98B74A-37D0-8FDF-8AEE-A16EDAAA1110"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/6EF1A974-0E97-07E9-7CF8-F9C1A03847BD"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/754D313B-BEA8-ABAC-D8F4-28AB3646F16A"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/8BF0D31C-3E50-4DD9-963E-B88399A64E4C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/91E4854A-9117-247F-5841-BD15C9B2D9E7"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/9EAF47E0-3D4A-1232-0838-2C5DEB2C1211"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/9F82BD8A-2FFD-235D-6854-94994B82889B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/A8033E8C-7222-D47E-1F45-1B850CCD6231"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/B8D101D8-334E-8D34-BEB1-E795F6CF33EE"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/CCE8F51F-F242-3D89-E27C-3F7855238F09"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/CF09F9DB-98B6-640B-B473-7618A77DBBAC"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/D98496D0-7B0A-3596-A614-5A1CCE9136AC"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/FC898D9D-195A-651A-57DC-313A7813ADEE"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/sections/02DF3216-E7BA-AA69-91B3-13CA0DF0EA3A"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/sections/1A390044-FD64-A0ED-70D5-67004B9A4E57"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/sections/24B0B35A-40AC-24C8-F2D1-01AADF02001B"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/sections/6DEBD356-859E-8547-EF25-64B80E538637"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/sections/9A6DB7E0-72DB-ED39-F328-1F5C49D4EA3C"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/sections/9C410C29-2A84-ED17-9475-5A777EA1CBA5"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/82787C24-A5F9-60F7-5B44-E3310487B1EF"/>
+    <resourcelist:contains rdf:resource="http://readinglists.harper-adams.ac.uk/items/9A135FD2-0477-8B34-E334-AEB10265C6B6"/>
+    <resourcelist:created>2010-12-23T13:19:03+00:00</resourcelist:created>
+    <resourcelist:lastPublished>2016-08-01T14:18:33+01:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2016-08-01T14:12:55+01:00</resourcelist:lastUpdated>
+    <resourcelist:publishedBy rdf:resource="http://readinglists.harper-adams.ac.uk/users/F8DB513F-2E4C-193B-9C5A-9BB212130CDB"/>
+    <resourcelist:usedBy rdf:resource="http://readinglists.harper-adams.ac.uk/modules/rh015"/>
+    <schema:review rdf:resource="http://readinglists.harper-adams.ac.uk/review/BCADF918-0EB7-A811-EE46-89C9876DC8B5"/>
+    <spec:name>Environmental and Social Business Strategy (Polly Gibb)</spec:name>
+    <spec:parent_of rdf:resource="http://readinglists.harper-adams.ac.uk/sections/02DF3216-E7BA-AA69-91B3-13CA0DF0EA3A"/>
+    <spec:parent_of rdf:resource="http://readinglists.harper-adams.ac.uk/sections/1A390044-FD64-A0ED-70D5-67004B9A4E57"/>
+    <spec:parent_of rdf:resource="http://readinglists.harper-adams.ac.uk/sections/24B0B35A-40AC-24C8-F2D1-01AADF02001B"/>
+    <spec:parent_of rdf:resource="http://readinglists.harper-adams.ac.uk/sections/6DEBD356-859E-8547-EF25-64B80E538637"/>
+    <spec:parent_of rdf:resource="http://readinglists.harper-adams.ac.uk/sections/9A6DB7E0-72DB-ED39-F328-1F5C49D4EA3C"/>
+    <spec:parent_of rdf:resource="http://readinglists.harper-adams.ac.uk/sections/9C410C29-2A84-ED17-9475-5A777EA1CBA5"/>
+  </rdf:Description>
+
+</rdf:RDF>

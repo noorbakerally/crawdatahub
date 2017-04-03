@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:temp="http://lists.talis.com/schema/temp#"
+  xmlns:lifecycle="http://purl.org/vocab/lifecycle/schema#"
+  xmlns:resourcelist="http://purl.org/vocab/resourcelist/schema#"
+  xmlns:spec="http://rdfs.org/sioc/spec/"
+  xmlns:events="http://schemas.talis.com/2009/events/">
+
+  <rdf:Description rdf:about="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91"/>
+    <foaf:topic rdf:resource="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91"/>
+    <dct:hasFormat rdf:resource="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91.html"/>
+    <dct:hasFormat rdf:resource="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91.json"/>
+    <dct:hasFormat rdf:resource="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91.ris"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91.json">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91.ris">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/x-research-info-systems</dc:format>
+    <rdfs:label>RIS</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91">
+    <temp:hasTimePeriod rdf:resource="http://resourcelists.st-andrews.ac.uk/config/timePeriod1"/>
+    <lifecycle:state rdf:resource="http://purl.org/vocab/resourcelist/schema#status-published"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/02CCC98E-7301-4367-6094-33E02BE34EFE"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/02E3A62E-41C7-643A-0CA0-0CC97B33200B"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/042C3AC2-7A5F-25CF-9FBF-D884CA262D19"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/04322A24-B030-2755-E3D6-8E59FED16E43"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/04DED1D3-4F66-D530-7706-F63F9CDA6F1E"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/08AEC178-EDFF-4706-0D74-4E39505B4C87"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/0B2198B2-FC35-909F-3DC4-0929C500BFC7"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/0C17E72F-6C50-E0D8-9A9B-7057471433E0"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/0E87FD01-8017-7C80-5BC6-09139F948E5C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/0F4EEA6E-ECB1-BECF-EBB8-93F8607F14EE"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/1689EBED-BFFE-17AE-4B12-1A12DCBBA51C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/16DDB6A7-5D4B-4129-FC9D-750AF02F63D0"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/176CF991-1433-1A3E-E716-8FDC011FA0A5"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/1D31817D-1953-0440-81BF-98BCEB023F8F"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/1D393D3A-7078-BC46-9888-1694CD5BF658"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/1E5B791E-70CE-9577-1860-F613AE68C5CB"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/1E7E276D-DE9C-8606-EB65-E79A7426046F"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/1EA0FC97-4515-C5F0-1673-C9780229CF04"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/24541DA1-E29B-EB6F-DDA9-339C106361B7"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/2524BAAC-8D89-A614-D233-E0ACCB8D2E9C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/2A08B551-4EC9-4880-BB15-D340C6FF3140"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/2ADB95C3-FA28-8913-0B3E-237E857CD118"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/2E22C10D-AD05-7285-1B29-418E0B05053C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/2E2AD24C-5444-B523-E4E0-8020408CA376"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/2E36CFF1-AFE3-A45E-C4AA-B40BF5E023AB"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/2EFC2B80-12D8-4AB4-FD1D-BFE243848E0B"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/31640FB3-DD2B-44F4-35CD-32857C2357A6"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/331F8463-1060-329A-2F2E-6F002375AE68"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/3514DA02-AA9A-171C-A117-DC87DE041258"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/39DD57CF-16A2-903E-5201-6E3D4EFE5599"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/3A0871B6-F1EF-DEBB-1E28-F14A2708FB94"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/3E86F545-21A1-4C30-9A89-D1415AC7A6C9"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/3FD72353-6B76-2572-7B75-575B49F1426D"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/4310DB8B-84DF-1911-3D4B-46418968E8E4"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/435C141D-2EE0-6544-D0F2-C4FDAB49B103"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/437DBF42-2686-87CA-376D-3C913DC9A1E5"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/43864AB5-ED1C-4A64-3D73-159DD133CD1E"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/4481BB09-3118-4ED3-10A9-900B91859F82"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/457EF02F-D979-5501-08B5-10C6D8C71337"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/471D6D5C-632C-F321-3F33-AA55DD592B2A"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/4841CE03-62E8-E17E-4F3B-9B6FB8674E42"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/48583F7B-28A9-1F6C-6A76-B2C3D861AB69"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/49F6232A-0586-C615-76E4-72544BC96AF2"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/4FB8F3AD-B66E-8909-B183-E71ADF07D0A6"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/51D40EFA-B084-8FC0-17B3-CF5B5CBAF399"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/53F87FDB-E6BE-0D54-CB2C-35C24A7ECC29"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/545C4784-ADF2-34AE-5D39-FE6A7EA1F339"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/54C49337-9C44-EEFC-D21A-659EAB44D493"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/55AA2840-F079-B254-277E-82327CB9A706"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/56FEC98A-DD3C-6E3E-A045-0242D46D1630"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/57514944-1DA9-B703-D846-C9211CC2B9C1"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/579A306B-0788-D3FE-BB8F-368E4DBDDAC4"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/58BC6B66-2120-F221-94CF-4630CBD6D860"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/59C3CCD4-CCC0-A7DD-B8B4-9CCD52FC9EA0"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/5A2BDE95-32A9-BA37-A38D-35B942DF3D53"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/5AEB153D-5550-3FCF-3853-F71E924993F7"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/5C4A7346-BE18-5DFC-940C-BD274D5A4265"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/5DB68E32-72D5-B4CB-6E1E-626906A0574A"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/61087158-C57A-810B-7D5B-23067178B346"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/62566B0C-FEA4-4694-662E-6C8C0A3CEABA"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/63291DBA-5386-1C1A-A7AC-2B5F4CD9FCFC"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/642424B2-A1E3-2504-1A5B-7E94FA7C917B"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/671DE05D-C967-636C-1E9B-F15B79DF0B1A"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/69905392-35D6-634C-26F5-7C44C83C051E"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/704EBE66-FA79-0248-2F1E-B893B31F354E"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/715C8E6E-228C-8A05-CDCF-8E1E6A99CBCD"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/74A5D09E-976C-AD4B-4234-353C1891F9AA"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/754CD01D-B9F0-A2A9-24EF-E588CAF5E8E2"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/786B4692-8F12-DC46-8F85-1E941CB1CD7C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/7E691F5D-C43A-06C2-19D2-6947066E8052"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/857E4FDC-01F9-4219-E3B8-140447E580A4"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/86517729-95F8-18B7-C7EE-2EAACB4E1902"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/865D5762-32F0-1AE8-524E-28A029B098EB"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/86916DC0-3597-9DD6-9E78-0965D7922EEA"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/87CB953E-BB02-087F-28E2-A58C92D2670C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/8BCED93F-3BE6-07E4-F49C-122A8A8D2379"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/8C1AF609-28A5-B188-4BF2-21B5D9F9010C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/8EB4DE21-1C27-FADC-89E6-4F51FA515FB1"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/90A1EF36-0E91-BDF1-E252-E19D1FBA7342"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/90DE0A86-8323-03D3-3202-6E3E3B7C9C6C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/91E72DC3-7F3A-46B4-0260-96073B37D870"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/9254212D-7F51-34BA-5C97-0AEDB985362B"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/933D5241-1FF4-F9F4-08C1-860F2F99D9DA"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/943FB411-1FC9-5BD3-B176-48905A76ECBD"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/9853FF8C-355A-5EBE-CEC0-C1043C8AAB15"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/9980A18D-AE0D-2895-DE8C-4EACC75042BC"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/9B3A4FC7-BC9B-5CC2-D45A-AC959F58430D"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/9C4AC7AB-60A6-BBBA-B3C9-99C42A9E36D2"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/9EB1D71F-B767-213D-D82B-FA90EEB99291"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/A302D2B4-2F63-E12D-BC1F-2D830967E7F9"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/A5BFED71-038B-B3FB-8E52-0BE291E76435"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/A64FC45C-0946-99F1-26A3-19D384CDFEE6"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/A728D157-DF76-CFE6-7B5A-8BAD2A07A1CA"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/A8EDB8D2-DCA9-2E48-C1BB-798A5EBFE316"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/AB9FACDE-242F-F8A2-92A1-4E99D79E149C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/ADCEBB42-A0E9-3C95-B876-D6115B23B7A3"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/ADD23B64-F351-4E7C-79AA-4DA710D1CD28"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/AE118C12-197E-53C5-33A2-76707784452B"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/AEDF4FC3-BFBC-E64F-AC0D-649E0865CDF9"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/B092A1C9-5F36-04E6-9409-92E9BA1EEAB5"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/B1309CF3-C0EF-7F72-A69A-D96001F8232C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/B6CC18B6-3320-1E5F-E15F-7397D47231A8"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/B7C3366C-65ED-EC33-533D-5265B6778954"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/BA064A5F-432D-4311-CA6F-0BA7628912B6"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/BA1C4FAC-439F-4570-E8C0-FE9BB54E1091"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/BBF918E1-4DC7-C085-8EF9-46E71210B9DE"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/BE4702B7-B590-2E21-74B0-144DE3058ADA"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/C0EA96F5-6278-DE1A-5BFA-3836ECDC4909"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/CC14D3B0-6AB6-8667-D046-D14D785C47EB"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/CC8E6D62-9B27-D353-FC74-37340547364B"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/CE209807-1159-AAAB-81FE-D3920ED9E4EE"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/D446140D-4A67-0880-C75D-7DDCA24C0349"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/D4EE0673-10AB-EDA1-4EAF-03190850601B"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/D558FF36-5736-F6A9-AA2E-A8BDB6E9C8A1"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/D6BFD408-AB78-E024-C18A-EE24E8E3658F"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/D7E0973E-29B0-EFCB-4BA8-D7560B11D771"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/DA40212C-BF19-8736-3AEB-EAB281D69C51"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/DC043E03-0FEA-90CD-DAFB-4FD2251BA448"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/DFBC1CF8-CBE0-AEC1-B608-84F012A1B8DB"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/E16F9063-C5C5-4FDA-45F4-78C06105C1C9"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/E3BA6FAB-E47A-F12B-DB02-F19E6C8D97D8"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/E6391937-89A4-0FF5-8E08-67FE09294E68"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/E6AD82C1-CB49-E043-0F37-9ABAA04D0502"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/E8A06220-044F-16F7-3001-D0CAFD6E0E91"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/EE15A958-6ACC-D30A-8272-E199C92BFADB"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/EE27FE9D-5822-BD6F-9BE3-58A37A209AE4"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/EE4CA808-D043-89CD-C9E4-D87E69AE1ACF"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/F33B5891-B35E-B904-742A-388F60B2B55F"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/F890B390-6214-E71A-F767-02150F6EAE2D"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/F9D1A1EE-3B2D-2715-7200-68465ECD3B3C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/FB3E7E2D-8DF5-3B02-6253-0B9D3D6CB4B0"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/FC92C083-8434-9356-E021-FDAC22C5881C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/items/FE46649C-EE43-F57E-559C-465F1DCA5F56"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/062993E5-F806-3B4A-1EC1-D2F668435E2C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/10E18148-ED8F-0AC1-3965-12CB0558EE54"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/16052077-AA68-0C26-A726-1A892F7CCD42"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/1611244F-F4C0-A085-3456-E2A81FD6E37D"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/16A4407C-1A93-7170-6DD2-6A7EC19B012F"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/1813AB21-D26D-AB7F-FF53-EE5797C4727E"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/1A90ED24-DD18-6956-6B89-239DEB96F4A1"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/20AA3731-BA23-4AE2-F229-05F007B3CCA1"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/259F8B54-3828-2ED4-E422-B02F5878FC31"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/26D4B025-3119-2E99-EE32-D2B5B1701353"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/2D92D088-ECA1-44B6-3A0E-24327E30C9B0"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/3EEB5F98-82E2-FB84-7310-DAB39BE4130C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/40C55D53-06C3-A57E-92BF-ABEECFCD3612"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/51052513-F8F9-361C-4843-4B7D43813A83"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/5685CC4C-950C-72A6-57A5-E9DB2C5556BB"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/58F1A0D5-C432-9610-FD16-56D8EEEB5E4C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/6708A1D3-E3DC-E554-1D96-3378F7C1CA7C"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/6AF52D06-A661-8F13-3AD5-3E186CD269BB"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/7292872D-0611-900E-3DD8-2FD9F48C5314"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/7AE01A83-397E-C37F-FEAA-918085FD8D66"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/7CF3559B-96FF-9BA1-A8DB-C4E603CD5102"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/8AABDC4D-7773-A070-ADC6-9AD2E155FD07"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/8AD14783-42DB-64FD-27C8-AE2445EBD2A4"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/8E5C2F6A-5F58-8908-56D2-E0A1F9F49DE4"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/8F92A9E3-1A89-59C8-7C9C-0D4AA26F8B44"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/A81E8BA6-D0DC-5BED-B825-DD302B1A6EC0"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/A963AE68-5AE4-77EB-BD22-B38818883E5A"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/AEAC86AF-27F0-4386-CE87-FCE876FC6FD9"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/B4C3FF5B-EFF3-29DD-B193-8CF05165D1B8"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/B61E9A8F-DBD9-6C9F-D1F7-C2DAA04D068B"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/BC06BEEF-AC65-A1F3-0D1A-D04DEC16DE50"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/C1ED9C8E-C194-D626-2955-CE377761AB36"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/C81BF220-C73A-899A-A446-83BA5126E96D"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/D0EB8F2D-6551-0E5C-4BDC-CED0388C2BC1"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/E5424DC0-34D0-1659-3CD3-FA899A0CD780"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/E5B0A30C-188E-1407-CF88-C35F3EE12BCF"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/E94409A7-E53F-F2CF-E094-9D147816380D"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/EB265C46-020A-FC0A-682F-6198BC8129DC"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/EB5D5272-78DA-3230-5210-FE0B6CD14368"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/EF2EE80C-73AD-9658-A5D8-55E1CD69AE9E"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/F076A3AB-30B4-7308-80CF-AA98F7EE12FD"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/F31E3CDA-B528-2C6D-38AF-7C0171FB0812"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/F875C853-B463-199C-CFF8-879EB704598A"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/FB305330-FE28-CA6F-4BE8-C191A197E456"/>
+    <resourcelist:contains rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/FCEE9CB1-C1DD-1097-67A5-3ED4245A635D"/>
+    <resourcelist:created>2010-02-15T19:37:55+00:00</resourcelist:created>
+    <resourcelist:description>Dr Leshu Torchin</resourcelist:description>
+    <resourcelist:lastPublished>2011-11-17T12:50:02+00:00</resourcelist:lastPublished>
+    <resourcelist:lastUpdated>2011-11-17T12:49:26+00:00</resourcelist:lastUpdated>
+    <spec:name>Contemporary Film Theory</spec:name>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/062993E5-F806-3B4A-1EC1-D2F668435E2C"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/10E18148-ED8F-0AC1-3965-12CB0558EE54"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/1611244F-F4C0-A085-3456-E2A81FD6E37D"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/3EEB5F98-82E2-FB84-7310-DAB39BE4130C"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/5685CC4C-950C-72A6-57A5-E9DB2C5556BB"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/8F92A9E3-1A89-59C8-7C9C-0D4AA26F8B44"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/B4C3FF5B-EFF3-29DD-B193-8CF05165D1B8"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/B61E9A8F-DBD9-6C9F-D1F7-C2DAA04D068B"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/E5424DC0-34D0-1659-3CD3-FA899A0CD780"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/E94409A7-E53F-F2CF-E094-9D147816380D"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/EB265C46-020A-FC0A-682F-6198BC8129DC"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/F076A3AB-30B4-7308-80CF-AA98F7EE12FD"/>
+    <spec:parent_of rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/FCEE9CB1-C1DD-1097-67A5-3ED4245A635D"/>
+    <events:hasEvents rdf:resource="http://resourcelists.st-andrews.ac.uk/lists/DC8819BA-804C-188E-78B9-962ED97DDF91/events"/>
+    <rdf:_10 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/F076A3AB-30B4-7308-80CF-AA98F7EE12FD"/>
+    <rdf:_11 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/062993E5-F806-3B4A-1EC1-D2F668435E2C"/>
+    <rdf:_12 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/B61E9A8F-DBD9-6C9F-D1F7-C2DAA04D068B"/>
+    <rdf:_13 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/3EEB5F98-82E2-FB84-7310-DAB39BE4130C"/>
+    <rdf:_1 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/B4C3FF5B-EFF3-29DD-B193-8CF05165D1B8"/>
+    <rdf:_2 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/5685CC4C-950C-72A6-57A5-E9DB2C5556BB"/>
+    <rdf:_3 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/EB265C46-020A-FC0A-682F-6198BC8129DC"/>
+    <rdf:_4 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/E5424DC0-34D0-1659-3CD3-FA899A0CD780"/>
+    <rdf:_5 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/8F92A9E3-1A89-59C8-7C9C-0D4AA26F8B44"/>
+    <rdf:_6 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/1611244F-F4C0-A085-3456-E2A81FD6E37D"/>
+    <rdf:_7 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/E94409A7-E53F-F2CF-E094-9D147816380D"/>
+    <rdf:_8 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/FCEE9CB1-C1DD-1097-67A5-3ED4245A635D"/>
+    <rdf:_9 rdf:resource="http://resourcelists.st-andrews.ac.uk/sections/10E18148-ED8F-0AC1-3965-12CB0558EE54"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/resourcelist/schema#ArchiveList"/>
+    <resourcelist:archived>2014-04-08T12:33:55+01:00</resourcelist:archived>
+  </rdf:Description>
+
+</rdf:RDF>

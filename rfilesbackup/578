@@ -1,0 +1,36 @@
+
+<http://opendatacommunities.org/data/wellbeing-lsoa-happy-yesterday-mean> <http://purl.org/dc/terms/modified> "2012-09-30T10:30:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a <http://publishmydata.com/def/dataset#Dataset> , <http://publishmydata.com/def/dataset#DeprecatedDataset> , <http://rdfs.org/ns/void#Dataset> , <http://www.w3.org/ns/dcat#Dataset> ;
+	<http://purl.org/dc/terms/title> "Modelled subjective wellbeing, 'Happy Yesterday', average rating" ;
+	<http://purl.org/dc/terms/publisher> <http://reference.data.gov.uk/id/department/dclg> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "Average (mean) rating for 'Happy Yesterday' by LSOA in the First ONS Annual Experimental Subjective Wellbeing survey, April 2011 - March 2012" ;
+	<http://purl.org/dc/terms/issued> "2012-09-30T10:18:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Modelled subjective wellbeing, 'Happy Yesterday', average rating" ;
+	<http://purl.org/dc/terms/description> """The Department for Communities and Local Government (DCLG) has estimated the expected wellbeing of residents at Lower-layer Super Output Area (LSOA) level. The purpose is to illustrate the likely degree of variation between neighbourhoods. 
+
+These are modelled estimates for local areas based on national findings from the ONS Annual Population Survey 2011-2012. They are not the actual survey responses of people living in those areas [1].  As such, DCLG encourage local areas to test these expected findings against their own local knowledge and data.
+
+DCLG used CACI’s ACORN geo-demographic segmentation to estimate the likely wellbeing characteristics of each neighbourhood. Analysis of the APS provided a national profile of wellbeing by ACORN Type, with estimates of average subjective wellbeing and low subjective wellbeing for each of the 56 Types. The national profile was then applied to localities, to reflect their composition according to ACORN Type [2]. 
+
+The method presumes the national profile of wellbeing for the ACORN types is broadly the same in each local authority. For all of the subjective wellbeing measures, DCLG tested this assumption broadly held across the nine regions. As a result, DCLG made a minimal number of adjustments to the profiles for life satisfaction, worthwhile, and happy yesterday, and determined that the method was not robust for modelling anxiety [3].  
+
+Feedback on the neighbourhood estimates and requests for further details of the methodology can sent to [wellbeing@communities.gsi.gov.uk](mailto:wellbeing@communities.gsi.gov.uk). 
+
+In October, DCLG will be producing wellbeing profiles to enable users to apply the same methodology using geo-demographic classifications: Experian’s MOSAIC and ONS’s Output Area Classification (OAC). 
+
+[1] This is because sample sizes from the APS do not permit reliable estimates of subjective wellbeing below the 90 unitary authorities and counties reported in the [First ONS Annual Experimental Subjective Well-being Results](http://www.ons.gov.uk/ons/rel/wellbeing/measuring-subjective-wellbeing-in-the-uk/first-annual-ons-experimental-subjective-well-being-results/first-ons-annual-experimental-subjective-well-being-results.html).
+
+[2] ACORN is a segmentation based on shared characteristics of people’s life-stage, income, profession and housing, as well as characteristics of places including whether they are [urban, suburban or rural](http://www.caci.co.uk/acorn-classification.aspx). Each respondent on the APS had been classified into one ACORN Type, based on the full postcode in which they live – approximately 16 addresses.) ACORN provided estimates of the population in each ACORN Type in each LSOA and local authority district.
+  
+[3] These adjustments were made only where there was reliable evidence (based on samples of more than 100 respondents) from APS that the national wellbeing ACORN profile was substantially different from the regional one, and where the implications for neighbourhood maps would be highly geographically clustered.
+""" ;
+	<http://www.w3.org/ns/dcat#theme> <http://opendatacommunities.org/def/concept/themes/societal-wellbeing> ;
+	<http://publishmydata.com/def/dataset#graph> <http://opendatacommunities.org/graph/wellbeing-lsoa-happy-yesterday-mean> ;
+	<http://purl.org/dc/terms/references> <http://docs.publishmydata.com> ;
+	<http://purl.org/dc/terms/subject> <http://opendatacommunities.org/def/concept/themes/societal-wellbeing> ;
+	<http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/> ;
+	<http://rdfs.org/ns/void#sparqlEndpoint> <http://opendatacommunities.org/sparql> ;
+	<http://publishmydata.com/def/dataset#contactEmail> <mailto:wellbeing@communities.gsi.gov.uk> ;
+	<http://publishmydata.com/def/ontology/folder/inFolder> <http://opendatacommunities.org/def/concept/folders/themes/societal-wellbeing> ;
+	a <http://purl.org/linked-data/cube#DataSet> ;
+	<http://purl.org/linked-data/cube#structure> <http://opendatacommunities.org/def/structure/wellbeing-lsoa-happy-yesterday-mean> .

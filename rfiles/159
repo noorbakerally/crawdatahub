@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:blterms="http://www.bl.uk/schemas/bibliographic/blterms#"
+  xmlns:elements="http://iflastandards.info/ns/isbd/elements/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:linked-data="http://purl.org/linked-data/api/vocab#"
+  xmlns:void="http://rdfs.org/ns/void#">
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/006893251">
+    <dct:description xml:lang="en">Includes index.</dct:description>
+    <dct:title>American guerrilla : my war behind Japanese lines</dct:title>
+    <bibo:isbn10>1574886916</bibo:isbn10>
+    <blterms:bnb>GBA3V1071</blterms:bnb>
+    <elements:P1053 xml:lang="en">312 p.</elements:P1053>
+    <rdfs:label>American guerrilla / Roger Hilsman</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://www4.wiwiss.fu-berlin.de/bookmashup/books/1574886916"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+    <dct:isPartOf rdf:resource="http://bnb.data.bl.uk/id/series/Memoriesofwar"/>
+    <dct:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/lcsh/GuerrillasBurmaBiography"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/lcsh/GuerrillasUnitedStatesBiography"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/person/lcsh/HilsmanRoger"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/lcsh/WorldWar1939-1945PersonalnarrativesAmerican"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/place/lcsh/Burma"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/organization/lcsh/UnitedStatesOfficeofStrategicServices"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/lcsh/WorldWar1939-1945UndergroundmovementsBurma"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/lcsh/BurmaHistoryJapaneseoccupation1942-1945"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/lcsh/UnitedStatesOfficeofStrategicServicesBiography"/>
+    <dct:subject rdf:resource="http://bnb.data.bl.uk/id/concept/ddc/e21/940.548673092"/>
+    <foaf:page rdf:resource="http://explore.bl.uk/primo_library/libweb/action/search.do?vid=BLVU1%26fn=search%26vl%28freeText0%29=006893251"/>
+    <owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/resource/GBA3V1071"/>
+    <dct:creator rdf:resource="http://bnb.data.bl.uk/id/person/HilsmanRoger"/>
+    <blterms:publication rdf:resource="http://bnb.data.bl.uk/id/resource/006893251/publicationevent/WashingtonDCPotomacBooksInc2005"/>
+    <dct:spatial rdf:resource="http://bnb.data.bl.uk/id/place/Burma"/>
+    <foaf:isPrimaryTopicOf rdf:resource="http://bnb.data.bl.uk/doc/resource/006893251"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/series/Memoriesofwar">
+    <rdfs:label>Memories of war</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/GuerrillasBurmaBiography">
+    <rdfs:label>Guerrillas--Burma--Biography</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/GuerrillasUnitedStatesBiography">
+    <rdfs:label>Guerrillas--United States--Biography</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://explore.bl.uk/primo_library/libweb/action/search.do?vid=BLVU1%26fn=search%26vl%28freeText0%29=006893251">
+    <rdfs:label>006893251</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/person/lcsh/HilsmanRoger">
+    <rdfs:label>Hilsman, Roger</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/WorldWar1939-1945PersonalnarrativesAmerican">
+    <rdfs:label>World War, 1939-1945--Personal narratives, American</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/place/lcsh/Burma">
+    <rdfs:label>Burma</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/HilsmanRoger">
+    <rdfs:label>Hilsman, Roger</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/006893251/publicationevent/WashingtonDCPotomacBooksInc2005">
+    <rdfs:label>Washington, DC : Potomac Books, Inc., 2005</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/place/Burma">
+    <rdfs:label>Burma</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/organization/lcsh/UnitedStatesOfficeofStrategicServices">
+    <rdfs:label>United States. Office of Strategic Services</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/WorldWar1939-1945UndergroundmovementsBurma">
+    <rdfs:label>World War, 1939-1945--Underground movements--Burma</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/BurmaHistoryJapaneseoccupation1942-1945">
+    <rdfs:label>Burma--History--Japanese occupation, 1942-1945</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/UnitedStatesOfficeofStrategicServicesBiography">
+    <rdfs:label>United States. Office of Strategic Services--Biography</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bnb.data.bl.uk/doc/resource/006893251">
+    <foaf:primaryTopic rdf:resource="http://bnb.data.bl.uk/id/resource/006893251"/>
+    <rdfs:label>American guerrilla / Roger Hilsman</rdfs:label>
+    <linked-data:definition rdf:resource="http://bnb.data.bl.uk/api#resource"/>
+    <void:inDataset rdf:resource="http://bnb.data.bl.uk/id/data/BNB"/>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <linked-data:extendedMetadataVersion rdf:resource="http://bnb.data.bl.uk/doc/resource/006893251?_metadata=all%2Cviews%2Cformats%2Cexecution%2Cbindings%2Csite"/>
+  </rdf:Description>
+
+</rdf:RDF>

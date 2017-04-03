@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:gr="http://purl.org/goodrelations/v1#" xmlns:mads="http://www.loc.gov/mads/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:frbr="http://purl.org/vocab/frbr/core#"
+         xmlns:date="http://exslt.org/dates-and-times"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:rdafrbr2="http://RDVocab.info/uri/schema/FRBRentitiesRDA/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:tef="http://www.abes.fr/abes/documents/tef"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:tefextension="http://www.abes.fr/abes/documents/tefextension"
+         xmlns:rdafrbr1="http://rdvocab.info/RDARelationshipsWEMI/"
+         xmlns:suj="http://www.theses.fr/namespace/sujets"
+         xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"
+         xmlns:mets="http://www.loc.gov/METS/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:metsRights="http://cosimo.stanford.edu/sdr/metsrights/"><!--Informations sur la notice / Information about the record--><bibo:Document rdf:about="http://www.theses.fr/2006INPL032N">
+      <foaf:primaryTopic rdf:resource="http://www.sudoc.fr/2006INPL032N/id"/>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-30T23:59:59:Z</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-24T17:41:57Z</dcterms:modified>
+   </bibo:Document>
+   <bibo:Thesis rdf:about="http://www.theses.fr/2006INPL032N/id"><!--Informations sur la thèse / Information about the thesis--><dc:title>Evaluation du risque de transfert des hydrocarbures aromatiques polycycliques du sol vers le lait chez le ruminant laitier</dc:title>
+      <!--Date de soutenance / Thesis defense date--><dc:date>2006</dc:date>
+      <dcterms:dateAccepted>2006-01-01</dcterms:dateAccepted>
+      <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+      <dcterms:abstract xmlns:tefudoc="http://www.theses.fr/namespace/tefudoc" xml:lang="fr">Les Hydrocarbures Aromatiques Polycycliques (HAP) sont des composés organiques présents dans de nombreux sols contaminés par les émissions d’activités anthropiques (voies routières, usines à gaz de ville, aciérie…). La présence d’animaux sur ces sols de prairies est une voie d’entrée majoritaire des polluants qui, du fait de leur propriété lipophile, vont s’accumuler dans la chaîne alimentaire. Dans ce travail, les concentrations en HAP dans des sols situés aux abords de sources émettrices ont été relevées. Afin de prédire les effets d’une exposition de ruminants laitiers à des prairies polluées sur la qualité du lait, du sol contaminé par 4 HAP (fluorène, pyrène, phénanthrène et benzo[a]pyrène) été administré quotidiennement à des vaches laitières via des fistules ruminales. Aucune augmentation de la concentration en molécules mères n’a été notée dans le lait. En revanche, 2% des composés sont apparus sous leur forme de métabolite monohydroxylé (2-OH fluorène, 3-OH phénanthrène et 1-OH pyrène) suite à cette exposition. Le dosage de composés parents dans les fèces montre par ailleurs que moins de 5% sont directement éliminés par cette voie. Combiné à l’apparition de métabolites dans le lait, ces résultats témoignent de l’absorption et de la biotransformation de ces composés parents. Pour préciser ces données, la réalisation d’un modèle in vitro simulant le rumen d’une vache laitière a permis d’évaluer l’extractibilité du sol de 2 HAP marqués au 14C (phénanthrène et benzo[a]pyrène). Moins de 10% de la radioactivité a été mesurée dans le liquide ruminal attestant d’un potentiel d’extraction limité. Les HAP semblent extraits du sol dans le tractus digestif ; des essais complémentaires seraient cependant nécessaires afin de déterminer plus précisément l’extractibilité de chaque compartiment du système gastrointestinal</dcterms:abstract>
+      <dcterms:abstract xmlns:tefudoc="http://www.theses.fr/namespace/tefudoc" xml:lang="en">Polycyclic Aromatic Hydrocarbons (PAH) are persistent organic molecules emitted by anthropogenic activities. The soil contamination resulting from the deposit and accumulation of the PAH is the main way of exposition for grazing cows and thus for the whole food chain. In this work, the contamination levels of PAH in soil from pastures located in the vicinity of emission sources was specified. It leads to an experimentation aiming in the study of the transfer of the PAH and their main monohydroxylated metabolite to milk following a chronic exposure to soil contaminated with fluorene, pyrene, phenanthrene and benzo[a]pyrene. The results showed that 2 % of the PAH associated with soil and brought via a rumen canula were transferred to milk under the 2-OH fluorene, 3-OH phenanthrene and 1-OH pyrene monohydroxylated. Moreover, less than 5 % of the given parent compound was measured in the faeces during the exposition period. This result and the increased monohydroxylated metabolite concentration in milk suggest the absorption and biotransformation of the PAH. An in vitro experimentation using two radio labelled compounds (phenanthrene and benzo[a]pyrene) was conducted in order to know where the main PAH extractability from the soil occurred in the ruminant gastrointestinal tract. The results obtained from the developed model suggest that less then 10 % of the radioactivity was removed in the rumen. Other studies are required in order to determine where the main extractability in the body occurs</dcterms:abstract>
+      <dc:subject xml:lang="fr">Composés aromatiques polycycliques</dc:subject>
+      <dcterms:subject rdf:resource="http://www.idref.fr/031692478/id"/>
+      <dc:subject xml:lang="fr">Sols -- Pollution par les hydrocarbures</dc:subject>
+      <dcterms:subject rdf:resource="http://www.idref.fr/032886462/id"/>
+      <dc:subject xml:lang="fr">Chaînes alimentaires -- Effets de la pollution</dc:subject>
+      <dcterms:subject rdf:resource="http://www.idref.fr/027388417/id"/>
+      <dcterms:subject rdf:resource="http://www.idref.fr/028646886/id"/>
+      <dc:subject xml:lang="fr">Lait -- Analyse</dc:subject>
+      <dcterms:subject rdf:resource="http://www.idref.fr/034219110/id"/>
+      <dc:subject xmlns:tefudoc="http://www.theses.fr/namespace/tefudoc" xml:lang="fr">Hydrocarbures aromatiques polycycliques</dc:subject>
+      <dc:subject xmlns:tefudoc="http://www.theses.fr/namespace/tefudoc" xml:lang="fr">Extractibilité</dc:subject>
+      <dc:subject xmlns:tefudoc="http://www.theses.fr/namespace/tefudoc" xml:lang="fr">Transfert</dc:subject>
+      <dcterms:subject rdf:resource="http://dewey.info/class/630/"/>
+      <!--Auteur / Author-->
+        <marcrel:aut>
+         <foaf:Person rdf:about="http://www.idref.fr/112201733/id">
+            <foaf:name>Lutz, Sophie</foaf:name>
+         </foaf:Person>
+      </marcrel:aut>
+      <!--Directeur de thèse / Thesis advisor--><marcrel:ths>
+         <foaf:Person rdf:about="http://www.idref.fr/075210460/id">
+            <foaf:name>Rychen, Guido</foaf:name>
+         </foaf:Person>
+      </marcrel:ths>
+      <!--Organisme(s) de soutenance / Thesis grantor--><!--Etablissement de soutenance--><marcrel:dgg>
+         <foaf:Organization rdf:about="http://www.idref.fr/026388812/id">
+            <foaf:name>Vandoeuvre-les-Nancy, INPL</foaf:name>
+         </foaf:Organization>
+      </marcrel:dgg>
+      <dc:identifier>http://www.theses.fr/2006INPL032N/document</dc:identifier>
+   </bibo:Thesis>
+</rdf:RDF>

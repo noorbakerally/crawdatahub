@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://status.panda.id.au/user/1"></maker>
+  <primaryTopic rdf:resource="http://status.panda.id.au/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://status.panda.id.au/user/1">
+  <mbox_sha1sum>2c8d0b83f0f08cbcd8fc49d947f27f4d6b5e8716</mbox_sha1sum>
+  <name>Peter Anderson</name>
+  <homepage rdf:resource="http://panda.id.au"></homepage>
+  <weblog rdf:resource="http://status.panda.id.au/"></weblog>
+  <based_near>
+   <geo:SpatialThing>
+    <geo:lat>-30.2962600</geo:lat>
+    <geo:long>153.1135100</geo:long>
+   </geo:SpatialThing>
+  </based_near>
+  <img>
+   <Image rdf:about="http://status.panda.id.au/avatar/1-200-20120708102412.png">
+    <thumbnail>
+     <Image rdf:about="http://status.panda.id.au/avatar/1-96-20120708102412.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.panda.id.au/avatar/1-48-20120708102412.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.panda.id.au/avatar/1-24-20120708102412.png"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://status.panda.id.au/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://status.panda.id.au/"></accountServiceHomepage>
+    <accountName>panda</accountName>
+    <accountProfilePage rdf:resource="http://status.panda.id.au/"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.panda.id.au/user/1"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://microblog.ourcoffs.org.au/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://microblog.ourcoffs.org.au/user/1#acct">
+    <accountName>mjd</accountName>
+    <accountProfilePage rdf:resource="http://microblog.ourcoffs.org.au/mjd"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://microblog.ourcoffs.org.au/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://microblog.ourcoffs.org.au/user/6">
+  <account>
+   <OnlineAccount rdf:about="http://microblog.ourcoffs.org.au/user/6#acct">
+    <accountName>tregeagle</accountName>
+    <accountProfilePage rdf:resource="http://microblog.ourcoffs.org.au/tregeagle"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://microblog.ourcoffs.org.au/user/6"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/201785">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/201785#acct">
+    <accountName>acquia</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/acquia"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/201785"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/919280">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/919280#acct">
+    <accountName>mnichman</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/mnichman"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/919280"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/4738">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/4738#acct">
+    <accountName>andyc</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/andyc"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/4738"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://gnotc.com/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://gnotc.com/user/1#acct">
+    <accountName>g</accountName>
+    <accountProfilePage rdf:resource="http://gnotc.com/"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://gnotc.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://oracle.skilledtests.com/user/2">
+  <account>
+   <OnlineAccount rdf:about="http://oracle.skilledtests.com/user/2#acct">
+    <accountName>question</accountName>
+    <accountProfilePage rdf:resource="http://oracle.skilledtests.com/question"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://oracle.skilledtests.com/user/2"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/113454">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/113454#acct">
+    <accountName>mcscx</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/mcscx"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/113454"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://statusnet.lebegue.org/user/4">
+  <account>
+   <OnlineAccount rdf:about="http://statusnet.lebegue.org/user/4#acct">
+    <accountName>identlud</accountName>
+    <accountProfilePage rdf:resource="https://statusnet.lebegue.org/identlud"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://statusnet.lebegue.org/user/4"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/113503">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/113503#acct">
+    <accountName>luke</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/luke"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/113503"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://status.mxchange.org/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://status.mxchange.org/user/1#acct">
+    <accountName>quix0r</accountName>
+    <accountProfilePage rdf:resource="https://status.mxchange.org/quix0r"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.mxchange.org/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://soc.tregeagle.com/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://soc.tregeagle.com/user/1#acct">
+    <accountName>tregeagle</accountName>
+    <accountProfilePage rdf:resource="http://soc.tregeagle.com/tregeagle"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://soc.tregeagle.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://quitter.se/user/116496">
+  <account>
+   <OnlineAccount rdf:about="http://quitter.se/user/116496#acct">
+    <accountName>almadelibertade</accountName>
+    <accountProfilePage rdf:resource="http://quitter.se/almadelibertade"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://quitter.se/user/116496"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://fediverse.com/user/1">
+  <account>
+   <OnlineAccount rdf:about="https://fediverse.com/user/1#acct">
+    <accountName>erkan</accountName>
+    <accountProfilePage rdf:resource="https://fediverse.com/erkan"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://fediverse.com/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://pags.to/user/38">
+  <account>
+   <OnlineAccount rdf:about="https://pags.to/user/38#acct">
+    <accountName>pagsconnector</accountName>
+    <accountProfilePage rdf:resource="https://pags.to/pagsconnector"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://pags.to/user/38"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://www.scriptforge.org/user/1">
+  <account>
+   <OnlineAccount rdf:about="https://www.scriptforge.org/user/1#acct">
+    <accountName>faulteh</accountName>
+    <accountProfilePage rdf:resource="https://www.scriptforge.org/faulteh"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://www.scriptforge.org/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://micro.fragdev.com/user/7609">
+  <account>
+   <OnlineAccount rdf:about="http://micro.fragdev.com/user/7609#acct">
+    <accountName>kevie</accountName>
+    <accountProfilePage rdf:resource="http://micro.fragdev.com/kevie"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://micro.fragdev.com/user/7609"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="https://community.highlandarrow.com/user/293">
+  <account>
+   <OnlineAccount rdf:about="https://community.highlandarrow.com/user/293#acct">
+    <accountName>maire</accountName>
+    <accountProfilePage rdf:resource="https://community.highlandarrow.com/maire"></accountProfilePage>
+    <sioc:account_of rdf:resource="https://community.highlandarrow.com/user/293"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.panda.id.au/user/1#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

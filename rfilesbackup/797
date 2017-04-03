@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:34:02</dcterms:created>
+		<dc:source rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+		<coref:coreferenceData rdf:resource="http://pisa.rkbexplorer.com/crs/publications/person-225919aa" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/person-225919aa">
+		<rdf:type rdf:resource="&akt;Generic-Agent"/>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<akt:full-name>L Simoncini</akt:full-name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/article-BBCMS98-IFACA-31">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/book-section-BBS94-RTC-36">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BBS94b-ESREL-37">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BS94-MicroP94-95">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-CBBS94-DCCS-100">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-ABCMS96-Euromicro-26">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-NBS96-EDCC2-120">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/tech-report-NBS96b-C960-164">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BS90-FTDCS-91">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/article-BS89-JCSSE-90">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/book-section-BFLS99-CSDA-70">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BFLS99b-IDPT-71">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-CSB99-NGC-108">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-SDGBC04-WCC2004-22">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/book-section-DGGGS92-169">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BS92-FTDCS-93">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BSS92b-SRDS-97">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BFLS00-EFTS00-69">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-CBS00-IDPT2000-103">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/article-BFLS01-IEEEMICRO-136">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/article-BNSM01-JCSSE-137">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-TPDGBS01-WORDS2001-148">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/book-section-BBS93-PARLE-34">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BBS93b-SAFECOMP-35">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BS93-ISADS-94">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BNSM97-WCRR-85">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/article-BBS95-TIS-38">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BMNSTZ91-FTCS-80">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BMNSTZ91b-EWDC-81">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BMNSTZ91c-AICA-82">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-SBS91-IFAC-126">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BS88-FTDCS-89">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BS87-FTDC-87">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/publications/inproceedings-BS87b-AICA-88">
+		<akt:has-author rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://pisa.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://pisa.rkbexplorer.com/id/publications/person-225919aa"/>
+	</rdf:Description>
+</rdf:RDF>

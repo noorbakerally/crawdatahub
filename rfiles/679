@@ -1,0 +1,23 @@
+@prefix os:    <http://a9.com/-/spec/opensearch/1.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix aragopedia: <http://opendata.aragon.es/def/Aragopedia#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xhv:   <http://www.w3.org/1999/xhtml/vocab#> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ababuj.ttl?_sort=label>
+        os:itemsPerPage  "10"^^xsd:long ;
+        os:startIndex    "1"^^xsd:long ;
+        api:items        ( <http://opendata.aragon.es/recurso/territorio/Municipio/Ababuj> ) ;
+        api:page         "0"^^xsd:long ;
+        xhv:first        <http://opendata.aragon.es/recurso/territorio/Municipio/Ababuj.ttl?_sort=label&_page=0> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ababuj>
+        rdfs:label                      "Ababuj"@es ;
+        dbpedia:country                 <http://es.dbpedia.org/resource/España> ;
+        aragopedia:enComarca            <http://opendata.aragon.es/recurso/territorio/Comarca/Comunidad_de_Teruel> ;
+        aragopedia:enComunidadAutonoma  <http://opendata.aragon.es/recurso/territorio/ComunidadAutonoma/Aragón> .
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:freebase="http://rdf.freebase.com/ns/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:opencyc="http://sw.opencyc.org/concept/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:cyc="http://sw.cyc.com/concept/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ctag="http://commontag.org/ns#">
+
+<rdf:Description rdf:about="http://vocabulary.wolterskluwer.de/court/10017">
+	<dcterms:contributor rdf:resource="http://vocabulary.wolterskluwer.de/user/simon.westhues"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-01T00:00:00Z</dcterms:created>
+	<dcterms:creator rdf:resource="http://vocabulary.wolterskluwer.de/user/dirschlc"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-27T11:59:39Z</dcterms:modified>
+	<appliedType xmlns="http://schema.semantic-web.at/ppt/" rdf:resource="http://wolterskluwer.com/ceres/ltr-v1.0/Court"/>
+	<rdf:type rdf:resource="http://wolterskluwer.com/ceres/ltr-v1.0/Court"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="de">BFH</skos:altLabel>
+	<skos:broader rdf:resource="http://vocabulary.wolterskluwer.de/court/10016"/>
+	<skos:prefLabel xml:lang="de">Bundesfinanzhof</skos:prefLabel>
+	<locality xmlns="http://www.w3.org/2006/vcard/ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">München</locality>
+	<postal-code xmlns="http://www.w3.org/2006/vcard/ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81675</postal-code>
+	<street-address xmlns="http://www.w3.org/2006/vcard/ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ismaninger Straße 109</street-address>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdaGr2="http://RDVocab.info/ElementsGr2/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns# http://europeanalabs.eu/svn/europeana/trunk/ROOT/src/main/webapp/schemas/edm/EDM.xsd">
+<edm:Agent rdf:about="http://www.larramendi.es/aut/POLI20090015098">
+<skos:prefLabel>Menéndez y Pelayo, Marcelino (1856-1912)</skos:prefLabel>
+<owl:sameAs rdf:resource="http://viaf.org/viaf/64018425/" />
+<owl:sameAs rdf:resource="http://dbpedia.org/page/Marcelino_Men%C3%A9ndez_y_Pelayo" />
+<owl:sameAs rdf:resource="http://id.worldcat.org/fast/15574" />
+<skos:altLabel>Menéndez Pelayo, Marcelino (1856-1912)</skos:altLabel>
+<skos:altLabel>Menéndez Pelayo, M. (1856-1912)</skos:altLabel>
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/FILA20120027589" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/POLI20090014992" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/POLI20090019362" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/POLI20090015128" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/POLI20090015159" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/FILA20090030435" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/FILA20120007154" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/POLI20090015258" />
+<edm:isRelatedTo rdf:resource="http://www.larramendi.es/aut/FILA20090011137" />
+<skos:note xml:lang="es">Este autor abrió las Bibliotecas Virtuales FHL  y, desde su presentación el 21 de octubre de 1999, su obra, recogida en el CD-Rom Menéndez Pelayo digital , se ha difundido extraordinariamente.Menéndez Pelayo digital reúne la versión electrónica de la totalidad de la obra impresa del gran polígrafo santanderino: Las Obras Completas, sobre el texto de la denominada Edición Nacional (Madrid: Consejo Superior de Investigaciones Científicas, 1940-1966. 67 volúmenes). El Epistolario, en la edición que realizó la Fundación Universitaria Española  (Madrid: FUE, 1982-1991. 23 volúmenes). Se incluye asimismo una completa Bibliografía que recoge más de 3000 registros de monografías, estudios de conjunto, artículos de revistas, reseñas, artículos de prensa, etc. sobre la vida y la obra de Menéndez Pelayo.El disco permite acceder a cada una de estas partes de forma independiente. Los contenidos, digitalizados en su totalidad a texto libre y utilizando el lenguaje de marcación HTML, resultan accesibles a través de pantallas de búsqueda específicas.Menéndez Pelayo digital es el resultado de la colaboración entre varias instituciones españolas unidas por el propósito de recuperar, en un formato acorde a las nuevas exigencias de la comunicación científica, la excepcional aportación al conocimiento de nuestra historia científica, cultural, literaria y filosófica que representa la obra de Menéndez Pelayo.El proyecto ha sido patrodinado por la Obra Social y Cultural de Caja Cantabria  y promovido por la Fundación Histórica TAVERA  y la Biblioteca Menéndez Pelayo  del Ayuntamiento de Santander . En su realización han colaborado también el Consejo Superior de Investigaciones Científicas, la Fundación Universitaria Española y la Fundación Ignacio Larramendi. La producción digital corrió a cargo de Digibis.</skos:note>
+<skos:note xml:lang="es">VIAF. - ID:64018425. - http://www.viaf.org/viaf/64018425/</skos:note>
+<skos:note xml:lang="es">Bibliotecas Virtuales FHL. Edición 2008. Madrid : Fundación Ignacio Larramendi , 2008 , p. 248</skos:note>
+<skos:note xml:lang="es">Historia de los heterodoxos españoles, 1986-1987. - port. (Marcelino Menéndez Pelayo)</skos:note>
+<skos:note xml:lang="es">Diccionario de filosofía, de J. Ferrater Mora, 1980. - (Menéndez y Pelayo, Marcelino (1856-1912); n. Santander)</skos:note>
+<skos:note xml:lang="es">Diccionario de escritores célebres, 1995. - (Menéndez y Pelayo, Marcelino; erudito (Santander, 1856-1912))</skos:note>
+<rdaGr2:biographicalInformation xml:lang="es">Polígrafo, erudito, filólogo, historiador, traductor y poeta. Heredero directo de la tradición de la filosofía escocesa del common sense que profesaban sus maestros de la Universidad de Barcelona. Crea toda una escuela de pensamiento y erudición que transformada vive hasta nuestros días; en definitiva, del Hispanismo Filosófico-
+
+Destacó como niño prodigio en el Instituto de Santander y se licenció en Filosofía y Letras en Barcelona estudiando más tarde en Madrid, Portugal Francia e Italia. Con tan sólo 25 años fue miembro de la Real Academia Española  y, un año más tarde, ingresó en la Academia de la Historia . 
+
+Ocupó diversos cargos de gran responsabilidad en el mundo político, como el de Diputado conservador por Mallorca en 1884 o el de Senador por la Universidad de Oviedo en 1892. Fue elegido Director de la Biblioteca Nacional en 1898.Tras haber escrito un sinnúmero de obras que tocaron todas las áreas de la cultura de España, murió en Santander en 1912. Legó a la ciudad toda su biblioteca, compuesta por más de 40.000 volúmenes.
+
+A partir de 1949 el Consejo Superior de Investigaciones Científicas  publicó sus Obras completas en 65 volúmenes, tarea que se concluyó en 1959. En 1974 se publicaron dos volúmenes más.
+
+La Fundación Universitaria publicó entre 1982 y 1991 publicó su Epistolario. La Fundación Tavera publicó en 1999 el "Menéndez Pelayo digital". La Fundación Ignacio Larramendi editó en la Web en 2005 el Menéndez Pelayo Virtual haciendo disponible todas las obras en ciber libro coincidiendo con la conmemoración del primer centenario de su muerte el 19 de mayo de 2012. Existe una excelente revisión crítica de todas las ediciones y recopilaciones en Filosofia.org.</rdaGr2:biographicalInformation>
+<rdaGr2:biographicalInformation xml:lang="es">Marcelino Menéndez Pelayo fue director de la Biblioteca Nacional de España entre 1898-1912</rdaGr2:biographicalInformation>
+<rdaGr2:professionOrOccupation xml:lang="es">Filólogos</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Historiadores</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Traductores</rdaGr2:professionOrOccupation>
+<rdaGr2:professionOrOccupation xml:lang="es">Bibliotecarios</rdaGr2:professionOrOccupation>
+<rdaGr2:gender xml:lang="en">male</rdaGr2:gender>
+<edm:begin>1856</edm:begin>
+<edm:end>1912</edm:end>
+</edm:Agent>
+
+</rdf:RDF>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+	<!ENTITY extn "http://www.aktors.org/ontology/extension#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:foaf="&foaf;"
+	xmlns:extn="&extn;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:21:03</dcterms:created>
+		<dc:source rdf:resource="http://southampton.rkbexplorer.com/id/person-00021"/>
+		<coref:coreferenceData rdf:resource="http://southampton.rkbexplorer.com/crs/person-00021" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://southampton.rkbexplorer.com/id/person-00021">
+		<rdf:type rdf:resource="&akt;Person"/>
+		<rdf:type rdf:resource="&akt;Affiliated-Person"/>
+		<rdf:type rdf:resource="&akt;Academic"/>
+		<owl:sameAs rdf:resource="http://id.ecs.soton.ac.uk/person/21"/>
+		<akt:full-name>Hugh Glaser</akt:full-name>
+		<akt:given-name>Hugh</akt:given-name>
+		<akt:family-name>Glaser</akt:family-name>
+		<akt:has-email-address>hg@ecs.soton.ac.uk</akt:has-email-address>
+		<akt:has-web-address>http://www.ecs.soton.ac.uk/people/hg</akt:has-web-address>
+		<akt:has-affiliation-to-unit rdf:resource="http://southampton.rkbexplorer.com/id/org-wais"/>
+		<akt:has-affiliation rdf:resource="http://southampton.rkbexplorer.com/id/org-wais"/>
+		<akt:has-affiliation rdf:resource="http://southampton.rkbexplorer.com/id/org-ecs"/>
+		<akt:has-affiliation rdf:resource="http://southampton.rkbexplorer.com/id/UoS"/>
+		<akt:has-postal-address rdf:resource="http://southampton.rkbexplorer.com/id/address-SO17-1BJ"/>
+		<foaf:based_near rdf:resource="http://dbpedia.org/resource/Eastleigh"/>
+		<extn:has-interest>semantic web</extn:has-interest>
+		<extn:has-interest>linked data</extn:has-interest>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://southampton.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://southampton.rkbexplorer.com/id/person-00021"/>
+	</rdf:Description>
+</rdf:RDF>

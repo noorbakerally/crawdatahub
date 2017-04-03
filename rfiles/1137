@@ -1,0 +1,28 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/domain/irz/latka/> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns1:zinek-a-sloučeniny-jako-zn-	rdf:type	skos:Concept .
+@prefix ns3:	<http://linked.opendata.cz/ontology/domain/irz/> .
+ns1:zinek-a-sloučeniny-jako-zn-	rdf:type	ns3:Latka .
+@prefix ns4:	<http://linked.opendata.cz/resource/domain/irz/latky/> .
+ns1:zinek-a-sloučeniny-jako-zn-	skos:inScheme	ns4:ConceptScheme ;
+	skos:prefLabel	"zinek a slou\u010Deniny (jako Zn)" ;
+	skos:altLabel	"Zinek a slou\u010Deniny (jako Zn)" .
+@prefix s:	<http://schema.org/> .
+ns1:zinek-a-sloučeniny-jako-zn-	s:name	"zinek a slou\u010Deniny (jako Zn)" .
+@prefix ns6:	<http://linked.opendata.cz/resource/domain/irz/latka/zinek-a-slou\u010Deniny-jako-zn-/> .
+ns1:zinek-a-sloučeniny-jako-zn-	ns3:prahDoOvzdusi	ns6:prahDoOvzdusi ;
+	ns3:cas	<http://linked.opendata.cz/resource/domain/irz/cas/7440\u201366\u20136> ;
+	ns3:prahDoOdpadniVody	ns6:prahDoOdpadniVody ;
+	ns3:prahDoOdpadu	ns6:prahDoOdpadu ;
+	ns3:prahDoPudy	ns6:prahDoPudy .
+@prefix ns7:	<http://linked.opendata.cz/resource/domain/irz/rizikovaSlozka/> .
+ns1:zinek-a-sloučeniny-jako-zn-	ns3:rizikovaSlozka	ns7:voda ,
+		ns7:ovzduší ,
+		ns7:půda ;
+	ns3:vetaR	<http://linked.opendata.cz/resource/domain/irz/vetaR/R50/55> .
+@prefix ns8:	<http://linked.opendata.cz/resource/domain/irz/vetaS/> .
+ns1:zinek-a-sloučeniny-jako-zn-	ns3:vetaS	ns8:S60 ,
+		ns8:S61 ;
+	ns3:vzorec	"Zn" ;
+	ns3:prahDoVody	ns6:prahDoVody .

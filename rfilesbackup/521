@@ -1,0 +1,60 @@
+<http://id.crossref.org/contributor/f-h-c-crick-367n8iqsynab1>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/familyName>
+              "CRICK" ;
+      <http://xmlns.com/foaf/0.1/givenName>
+              "F. H. C." ;
+      <http://xmlns.com/foaf/0.1/name>
+              "F. H. C. CRICK" .
+
+<http://id.crossref.org/issn/0028-0836>
+      a       <http://purl.org/ontology/bibo/Journal> ;
+      <http://prismstandard.org/namespaces/basic/2.1/issn>
+              "0028-0836" ;
+      <http://purl.org/dc/terms/title>
+              "Nature" ;
+      <http://purl.org/ontology/bibo/issn>
+              "0028-0836" ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              "urn:issn:0028-0836" .
+
+<http://id.crossref.org/contributor/j-d-watson-367n8iqsynab1>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://xmlns.com/foaf/0.1/familyName>
+              "WATSON" ;
+      <http://xmlns.com/foaf/0.1/givenName>
+              "J. D." ;
+      <http://xmlns.com/foaf/0.1/name>
+              "J. D. WATSON" .
+
+<http://dx.doi.org/10.1038/171737a0>
+      <http://prismstandard.org/namespaces/basic/2.1/doi>
+              "10.1038/171737a0" ;
+      <http://prismstandard.org/namespaces/basic/2.1/endingPage>
+              "738" ;
+      <http://prismstandard.org/namespaces/basic/2.1/startingPage>
+              "737" ;
+      <http://prismstandard.org/namespaces/basic/2.1/volume>
+              "171" ;
+      <http://purl.org/dc/terms/creator>
+              <http://id.crossref.org/contributor/f-h-c-crick-367n8iqsynab1> , <http://id.crossref.org/contributor/j-d-watson-367n8iqsynab1> ;
+      <http://purl.org/dc/terms/date>
+              "1953-04-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
+      <http://purl.org/dc/terms/identifier>
+              "10.1038/171737a0" ;
+      <http://purl.org/dc/terms/isPartOf>
+              <http://id.crossref.org/issn/0028-0836> ;
+      <http://purl.org/dc/terms/publisher>
+              "Springer Nature" ;
+      <http://purl.org/dc/terms/title>
+              "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid" ;
+      <http://purl.org/ontology/bibo/doi>
+              "10.1038/171737a0" ;
+      <http://purl.org/ontology/bibo/pageEnd>
+              "738" ;
+      <http://purl.org/ontology/bibo/pageStart>
+              "737" ;
+      <http://purl.org/ontology/bibo/volume>
+              "171" ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <info:doi/10.1038/171737a0> , <doi:10.1038/171737a0> .

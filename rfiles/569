@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dolce="http://www.loa-cnr.it/ontologies/DOLCE-Lite#"
+    xmlns:j.0="http://www.loa-cnr.it/ontologies/CommonSenseMapping#"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:cruzar="http://idi.fundacionctic.org/cruzar/turismo#"
+    xmlns:j.1="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:dolcet="http://www.loa-cnr.it/ontologies/TemporalRelations#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.2="http://spinrdf.org/sp#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <j.0:geographical-object rdf:about="http://www.zaragoza.es/turruta/resource/Edificio-historico/9200">
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-de-zaragoza"/>
+    <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >9200</dc:identifier>
+    <cruzar:has-interest rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Interes-en-edificio-historico"/>
+    <geo:location rdf:resource="http://dbpedia.org/resource/Zaragoza"/>
+    <rdf:type>
+      <owl:Restriction>
+        <rdfs:seeAlso rdf:resource="http://www.zaragoza.es/turruta/resource/pathdata/rdf:type/Edificio-historico/9200"/>
+        <owl:onProperty rdf:resource="http://www.loa-cnr.it/ontologies/TemporalRelations#present-at"/>
+        <owl:allValuesFrom rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Horario-de-visita"/>
+      </owl:Restriction>
+    </rdf:type>
+    <geo:location rdf:resource="http://sws.geonames.org/3104324/"/>
+    <rdf:type>
+      <owl:Restriction>
+        <rdfs:seeAlso rdf:resource="http://www.zaragoza.es/turruta/resource/pathdata/rdf:type/Edificio-historico/9200"/>
+        <owl:someValuesFrom rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Estilo-artistico"/>
+        <owl:onProperty rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite#has-quality"/>
+      </owl:Restriction>
+    </rdf:type>
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Monumento"/>
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+    <rdfs:label xml:lang="es">Art Magenta SL</rdfs:label>
+    <cruzar:has-interest rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Interes-en-arquitectura"/>
+    <rdf:type>
+      <owl:Restriction>
+        <rdfs:seeAlso rdf:resource="http://www.zaragoza.es/turruta/resource/pathdata/rdf:type/Edificio-historico/9200"/>
+        <owl:allValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo#Accesibilidad-de-movilidad-reducida"/>
+              <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo#Estilo-artistico"/>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:allValuesFrom>
+        <owl:onProperty rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite#has-quality"/>
+      </owl:Restriction>
+    </rdf:type>
+    <dct:isPartOf rdf:resource="http://www.zaragoza.es/turruta/cruzar.rdf#cruzar"/>
+    <cruzar:poi-relevance>10</cruzar:poi-relevance>
+    <skos:definition xml:lang="es">TAJON (OBISPO)</skos:definition>
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico"/>
+  </j.0:geographical-object>
+  <j.1:Graph rdf:about="http://www.zaragoza.es/turruta/resource/data/Edificio-historico/9200">
+    <prv:createdBy>
+      <prv:DataCreation>
+        <prv:usedData>
+          <j.1:Graph>
+            <prv:createdBy>
+              <prvTypes:QueryExecution>
+                <prv:usedGuideline>
+                  <j.2:Describe>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DESCRIBE &lt;http://www.zaragoza.es/turruta/resource/Edificio-historico/9200&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+                  </j.2:Describe>
+                </prv:usedGuideline>
+                <prv:usedData rdf:resource="http://www.zaragoza.es/turruta/sparql"/>
+                <prv:performedBy>
+                  <prvTypes:DataCreatingService rdf:nodeID="A0">
+                    <rdfs:seeAlso rdf:resource="http://www.zaragoza.es/turruta/sparql"/>
+                  </prvTypes:DataCreatingService>
+                </prv:performedBy>
+              </prvTypes:QueryExecution>
+            </prv:createdBy>
+            <prv:retrievedBy>
+              <prv:DataAccess>
+                <prv:accessedService rdf:nodeID="A0"/>
+                <prv:performedBy>
+                  <prv:DataProvidingService rdf:nodeID="A1">
+                    <rdfs:seeAlso rdf:resource="http://www.zaragoza.es/turruta/resource/"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#DataCreatingService"/>
+                  </prv:DataProvidingService>
+                </prv:performedBy>
+                <prv:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2017-04-02T16:51:38.1Z</prv:performedAt>
+              </prv:DataAccess>
+            </prv:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+          </j.1:Graph>
+        </prv:usedData>
+        <prv:performedBy rdf:nodeID="A1"/>
+        <prv:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-04-02T16:51:38.1Z</prv:performedAt>
+      </prv:DataCreation>
+    </prv:createdBy>
+    <dct:contributor rdf:resource="http://www.fundacionctic.org/"/>
+    <dct:publisher rdf:resource="http://www.zaragoza.es/"/>
+    <foaf:topic rdf:resource="http://www.zaragoza.es/turruta/resource/data/Edificio-historico/9200"/>
+    <rdfs:label>RDF description of Art Magenta SL</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://www.zaragoza.es/turruta/resource/Edificio-historico/9200"/>
+  </j.1:Graph>
+</rdf:RDF>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:21:05</dcterms:created>
+		<dc:source rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+		<coref:coreferenceData rdf:resource="http://ibm.rkbexplorer.com/crs/person-acd10592dc6fcfcce6b7327ce2321bd0" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0">
+		<rdf:type rdf:resource="&akt;Generic-Agent"/>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<akt:full-name>Birgit Pfitzmann</akt:full-name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-e53859c1708d972e3bc35b74743869e9">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-2c6182f1c681fe06f5fce47170b4c7dd">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-561904806a8ffa8f189382899d7bba24">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-2c3f420871cd8f58f2a3e8d21a19f952">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-8af9de7a2bd00ffc081e326d87eb2fea">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-38aa3bf9def21980560f886cb221a865">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-ea3bb303037ac454ca86189789698086">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-f71ca56fbd8cabcb511289944e03cfb8">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-cad392aac513bd310cc9148acf2bf81e">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-33558c7fa179b84883affd86f5408b13">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-e009b64dd0a6d3d4d344c26412fdc0ca">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-751b156ed60f2f3b8e5612d346482200">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-9d0742cfbf0526f7535569e473b98f40">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-46ec4ba769ea2393afcc6ebd92250d2d">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-df6dde610d7cf367b0c40747ab18c355">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-05e94af3776a195523ddd44462971445">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-3eb61e0b7660c940f8399d3976af36a6">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-72c7beb8fe2255dc32e5a0bafdd7c8fe">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-1c008c2c1c5f8000e0e2431caf2d18e9">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-967a28b95070e7c117a2f9b2f3904701">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-92a79c88b0c38aa08d1156c9ad9719cd">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-f876c67f7e3519bd5bdeb59b70dd9d6c">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-90eae440ac26e29bd1af9c12b8a25951">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-2506ffd1a774cc57fdecc66eb1f92c44">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-273eb219959504995dd8a858608c4a38">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-dc5d3948ae6331e38b7218b15a62bc5d">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-f560fceab6a4f1b366c8053b5c7331cd">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-e9e1e4e80307a5d83f5e2700dbc839db">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-fa220a89b95598d65f1e4547d8e895d4">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-fbe32ccb022f1412338e028ec57f18f2">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-1a0aec9f21a7c59df6bad129bdac3d57">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-96eb8c2ea3e8bd7384caad41596a3245">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-94f5d380d3b3ad373cf2ca950c26729c">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-b9babff73d753eb66939d1740fe53ea5">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-4b30cf8c3fd4f3d2f33964cf7d1bd548">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-8b2c463770fb4f3760d8f6ced1bd5008">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-48c2aa35f4750e0f7c983a96ca52a24f">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-5faad4c700969645d65b2fc60fadc7fe">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-fa6cfa63b274fd5c9ed241f441e82a70">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-5688a910a9b8bb8d8399b5e005938095">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-3ef3362e398258d964eeb9029ac52311">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-115f0732a13ded8bae4dda8a4d596ea7">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-084de4733d105d1ed07c4fbd0e89f21b">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-9536fe8888d656fbf860bcd59fca826c">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-3a6e474dfbea646b583619c531cacf38">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/book-section-35b95b1ecaaf471b811118fd60c1630c">
+		<akt:edited-by rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-eb631d00dc5cc9152f2321e33a1e63ab">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-8af6361a80da5ad2bc033eee712189cc">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-e2e281725d2687c7fd87d97aca266a62">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-62e3a5f6fa54243037cef2bab53f3511">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-b9974bfbcdbd6e2898c81ec760b1403f">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-35631c67bbcd68f62980806e46924368">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-9cd229941da4b15413c1ff4664dadc00">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-988733e873532c6a4178abf24fed1d00">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/book-section-ddf8eab142d1890a9fcc0aab77831f1d">
+		<akt:edited-by rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/book-section-ddf8eab142d1890a9fcc0aab77831f1d">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/book-section-7ea3a77c52d9c6ee81522a30f30c44e5">
+		<akt:edited-by rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/book-section-9a1569a2c792998aa20c9ce989074420">
+		<akt:edited-by rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/book-section-9a1569a2c792998aa20c9ce989074420">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-f1e553d189e95630e6f8784b91d7b53f">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-8a6ea758ee8b9b1751878c43982d362d">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-6e38114381cfdec950b5f8e0a1135c9b">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-69e76d62bf6f6324a4d7db21be79bda1">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-5721308769b37aa8d4134ca97e4f4594">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/misc-f9250b943761e1693a4d756bcf040948">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-f8d86c703693472439975dcbe9fee4d6">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-8661ba8efca25faa50325dc1be4dcf01">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-8b0f38850ca1ef61892ec0293c5a5468">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-0a95b393cbc0bab34a787a2dd614171c">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-9f42822451a957e901d938b4a40ef73d">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-bf6cd260ac5e9e369e61f66c28a04819">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-945288c877b932559b1677c3461bb984">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-77b7b9408d5600be01e55e3f76b9e025">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-42500987cf52750b17e953d08518bf59">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-cd58a7a1c212c545cc9f7e6d3b70879f">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-6f7d42a4a0be2bf4275aa3eccc43ff77">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-4b1a98edbab310fae6bd4ef961de89e6">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-17db2a8fc93f24bf4fee2e33dfc8bcdf">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-d7980450ae74b4025317c32b2e7e1947">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-e2b3231f4357e5e7e96e73a0e36b88e7">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid5.8ab315304edb52a">
+		<akt:edited-by rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-efa34db4ce81fe5677e0b758db412c86">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-796bb53b3e5ba7158c03b1176981df20">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/article-e6b91ffa452297bdfef326fda1961b1a">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-32d2f12ecb6f1f80947349b0cba1da2a">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-08deaa25ce1cc37d8fa089024cc78e24">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-88e9c3e98d44d9633bbff98021a60699">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-d46a28a0aea817159ff340439cb29e03">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/tech-report-a755a638a7176aeb26b8c0a1f9b36d3a">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-dada54d5db4e259fa95fb2566fbdaccd">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-3d1ddf0998b0e3e74ff1d96f7c67ee70">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-6f74d7aacb8301f918943a0ec6b76fa1">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-844db56d5944bd315c021c40fdf22bd6">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://ibm.rkbexplorer.com/id/inproceedings-7ec88254629cf3c7d9047fe0b682654f">
+		<akt:has-author rdf:resource="http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"/>
+	</rdf:Description>
+</rdf:RDF>

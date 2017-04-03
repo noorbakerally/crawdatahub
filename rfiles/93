@@ -1,0 +1,34 @@
+@base <http://zbw.eu/stw/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix waiver: <http://vocab.org/waiver/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix zbwext: <../namespaces/zbw-extensions/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix sh: <http://purl.org/skos-history/> .
+@prefix stw: <> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix dsv: <http://purl.org/iso25964/DataSet/Versioning#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<../stw>
+    dcterms:issued "2016-06-30"^^xsd:date ;
+    dcterms:title "STW Thesaurus for Economics"@en, "Standard-Thesaurus Wirtschaft"@de ;
+    owl:versionInfo "9.02"@de, "9.02"@en ;
+    skos:prefLabel "STW Thesaurus for Economics"@en, "Standard-Thesaurus Wirtschaft"@de .
+
+<thsys/71098>
+    a skos:Concept, zbwext:Thsys ;
+    rdfs:isDefinedBy <thsys/71098/about> ;
+    rdfs:label "Außenwirtschaftspolitik"@de, "Foreign economic policy"@en ;
+    skos:broader <thsys/70179> ;
+    skos:inScheme <../stw> ;
+    skos:narrower <descriptor/10410-3>, <descriptor/10565-2>, <descriptor/10606-0>, <descriptor/10682-5>, <descriptor/10684-1>, <descriptor/10687-2>, <descriptor/10714-4>, <descriptor/10725-6>, <descriptor/10827-5>, <descriptor/10866-2>, <descriptor/19315-1>, <descriptor/19318-2>, <descriptor/19319-0>, <descriptor/29617-0>, <thsys/71096> ;
+    skos:notation "V.07.02"^^xsd:string ;
+    skos:prefLabel "V.07.02  Außenwirtschaftspolitik"@de, "V.07.02  Foreign economic policy"@en .
+

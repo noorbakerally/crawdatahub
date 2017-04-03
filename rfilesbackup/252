@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:category="http://dbpedia.org/resource/Category:"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:ngeo="http://geovocab.org/geometry#"
+    xmlns:akt="http://www.aktors.org/ontology/portal#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:pext="http://www.ontotext.com/proton/protonext#"
+    xmlns:kalikratis="http://greek-lod.math.auth.gr/kalikratis/resource/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:geonames="http://sws.geonames.org/"
+    xmlns:map="file:/C:/d2r-server-0.7/fire.n3#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:comm="http://vocab.resc.info/communication#"
+    xmlns:dbpedia="http://el.dbpedia.org/resource/"
+    xmlns:schema="http://schema.org/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geof="http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#"
+    xmlns:diavgeia="http://diavgeia.math.auth.gr/resource/"
+    xmlns:fire="http://greek-lod.math.auth.gr/fire-brigade/resource/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:p="http://dbpedia.org/property/"
+    xmlns:nuts="http://nuts.geovocab.org/id/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dctype="http://purl.org/dc/dcmitype/"
+    xmlns:tl="http://purl.org/NET/c4dm/timeline.owl#"
+    xmlns:eurostat="http://www4.wiwiss.fu-berlin.de/eurostat/resource/"
+    xmlns:place="http://purl.org/ontology/places#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/data/fbs/10?output=rdfxml">
+    <dc:rights rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <rdfs:comment>My Custom Doc Metadata</rdfs:comment>
+    <dc:creator>Ioannis Parapontis</dc:creator>
+    <dc:description>Describes a D2RQ mapping from the Hellenic Fire Brigade DB at Greek LOD to RDF.</dc:description>
+    <dc:date>2012-11-07</dc:date>
+    <dc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <rdfs:label>RDF Description of REGIONAL FIRE SERVICES ADMINISTRATION OF CENTRAL MACEDONIA</rdfs:label>
+    <foaf:maker rdf:resource="http://greek-lod.math.auth.gr/IoannisParapontis/foaf.rdf"/>
+    <dc:title>MINISTRY OF PUBLIC ORDER &amp; CITIZEN PROTECTION: Hellenic Fire Brigade LOD Server</dc:title>
+    <foaf:primaryTopic>
+      <skos:Concept rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10">
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/553">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/253">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/247">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <skos:inScheme>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/Fire/Fireclass.rdf">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fgreek-lod.math.auth.gr%2FFire%2FFireclass.rdf%3E"/>
+          </rdf:Description>
+        </skos:inScheme>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/233">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/246">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/253"/>
+        <akt:address-postcode rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >54008</akt:address-postcode>
+        <skos:prefLabel>REGIONAL FIRE SERVICES ADMINISTRATION OF CENTRAL MACEDONIA</skos:prefLabel>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/243">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/242">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_FBSLABEL_GR>Π.Δ.Π.Υ. ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ</fire:fbs_FBSLABEL_GR>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/223">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <foaf:depiction>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/Fire/organograma.jpg">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fgreek-lod.math.auth.gr%2FFire%2Forganograma.jpg%3E"/>
+          </rdf:Description>
+        </foaf:depiction>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/251">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/227">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/255">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <rdf:type rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs"/>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/236">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/235">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/247"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/246"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/227"/>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/226">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/239">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/244">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/254">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <rdfs:label>REGIONAL FIRE SERVICES ADMINISTRATION OF CENTRAL MACEDONIA</rdfs:label>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/232">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/231">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <foaf:isPrimaryTopicOf>
+          <rdf:Description rdf:about="http://el.wikipedia.org/wiki/Πυροσβεστικό_Σώμα">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fel.wikipedia.org%2Fwiki%2F%CE%A0%CF%85%CF%81%CE%BF%CF%83%CE%B2%CE%B5%CF%83%CF%84%CE%B9%CE%BA%CF%8C_%CE%A3%CF%8E%CE%BC%CE%B1%3E"/>
+          </rdf:Description>
+        </foaf:isPrimaryTopicOf>
+        <fire:fbs_ADDRESS>Κρήτης 46, ΘΕΣΣΑΛΟΝΙΚΗ</fire:fbs_ADDRESS>
+        <owl:equivalentClass>
+          <rdf:Description rdf:about="http://umbel.org/umbel/rc/FireDepartment">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fumbel.org%2Fumbel%2Frc%2FFireDepartment%3E"/>
+          </rdf:Description>
+        </owl:equivalentClass>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/240">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/256">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/237">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/571">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <dc:coverage>ΘΕΣΣΑΛΟΝΙΚΗΣ</dc:coverage>
+        <skos:altLabel>ΠΕΡΙΦΕΡΕΙΑΚΗ ΔΙΟΙΚΗΣΗ ΠΥΡΟΣΒΕΣΤΙΚΩΝ ΥΠΗΡΕΣΙΩΝ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ</skos:altLabel>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/248">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/223"/>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >40.60003000</geo:lat>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/244"/>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/225">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/224">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/250">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <fire:fbs_POSTCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >54008</fire:fbs_POSTCODE>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/230">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/229">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/228">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <akt:address-street>Κρήτης 46, ΘΕΣΣΑΛΟΝΙΚΗ</akt:address-street>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/237"/>
+        <fire:fbs_FBSNAME>REGIONAL FIRE SERVICES ADMINISTRATION OF CENTRAL MACEDONIA</fire:fbs_FBSNAME>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/249">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/229"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/248"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/571"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/228"/>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/238">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/10">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/255"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/226"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/233"/>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/241">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <fire:fbs_subdivisions>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/245">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </fire:fbs_subdivisions>
+        <foaf:isPrimaryTopicOf>
+          <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Fire_department">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFire_department%3E"/>
+          </rdf:Description>
+        </foaf:isPrimaryTopicOf>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/240"/>
+        <fire:fbs_FBSLABEL>R.F.S.A. OF CENTRAL MACEDONIA</fire:fbs_FBSLABEL>
+        <rdfs:subClassOf>
+          <rdf:Description rdf:about="http://umbel.org/umbel/rc/EmergencyServicesOrganization">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fumbel.org%2Fumbel%2Frc%2FEmergencyServicesOrganization%3E"/>
+          </rdf:Description>
+        </rdfs:subClassOf>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/245"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/225"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/10"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/224"/>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/234">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <fire:fbs_FBSNAME_GR>ΠΕΡΙΦΕΡΕΙΑΚΗ ΔΙΟΙΚΗΣΗ ΠΥΡΟΣΒΕΣΤΙΚΩΝ ΥΠΗΡΕΣΙΩΝ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ</fire:fbs_FBSNAME_GR>
+        <fire:fbs_PREFECTURE>ΘΕΣΣΑΛΟΝΙΚΗΣ</fire:fbs_PREFECTURE>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/252">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/232"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/251"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/231"/>
+        <skos:hasTopConcept>
+          <rdf:Description rdf:about="http://diavgeia.math.auth.gr/resource/organizations/19/">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdiavgeia.math.auth.gr%2Fresource%2Forganizations%2F19%2F%3E"/>
+          </rdf:Description>
+        </skos:hasTopConcept>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/252"/>
+        <rdfs:label>ΠΕΡΙΦΕΡΕΙΑΚΗ ΔΙΟΙΚΗΣΗ ΠΥΡΟΣΒΕΣΤΙΚΩΝ ΥΠΗΡΕΣΙΩΝ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ</rdfs:label>
+        <fire:fbs_CODE_FBS rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >10</fire:fbs_CODE_FBS>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/6697801">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F6697801%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/239"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://diavgeia.math.auth.gr/resource/units/1176">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdiavgeia.math.auth.gr%2Fresource%2Funits%2F1176%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >22.95703000</geo:long>
+        <skos:hasTopConcept>
+          <rdf:Description rdf:about="http://www.ontotext.com/proton/protonext#Ministry">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.ontotext.com%2Fproton%2Fprotonext%23Ministry%3E"/>
+          </rdf:Description>
+        </skos:hasTopConcept>
+        <foaf:homepage>
+          <rdf:Description rdf:about="http://www.fireservice.gr/pyr/site/home/LC+Secondary+Menu/Telephone+list/Regional+Administration/Kedrikis+Makedonias.csp">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.fireservice.gr%2Fpyr%2Fsite%2Fhome%2FLC%2BSecondary%2BMenu%2FTelephone%2Blist%2FRegional%2BAdministration%2FKedrikis%2BMakedonias.csp%3E"/>
+          </rdf:Description>
+        </foaf:homepage>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/250"/>
+        <skos:hasTopConcept>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Ministry_(government_department)">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMinistry_%28government_department%29%3E"/>
+          </rdf:Description>
+        </skos:hasTopConcept>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/254"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/553"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/234"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/241"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/238"/>
+        <fire:regions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/regions/10"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/243"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/242"/>
+        <skos:narrower>
+          <rdf:Description rdf:about="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/222">
+            <skos:broader rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+            <fire:FBS_HEADQUARTERS rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/fbs/10"/>
+          </rdf:Description>
+        </skos:narrower>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/230"/>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/249"/>
+        <owl:equivalentClass>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Fire_department">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFire_department%3E"/>
+          </rdf:Description>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+          <rdf:Description rdf:about="http://rdf.freebase.com/ns/m/05pdd_v">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Frdf.freebase.com%2Fns%2Fm%2F05pdd_v%3E"/>
+          </rdf:Description>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+          <rdf:Description rdf:about="http://schema.org/EmergencyService">
+            <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fschema.org%2FEmergencyService%3E"/>
+          </rdf:Description>
+        </rdfs:subClassOf>
+        <fire:fbs_subdivisions rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/222"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/256"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/236"/>
+        <skos:narrower rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/resource/subdivisions/235"/>
+      </skos:Concept>
+    </foaf:primaryTopic>
+    <dcterms:publisher rdf:resource="http://greek-lod.math.auth.gr/IoannisParapontis/foaf.rdf"/>
+    <dc:format>application/n3</dc:format>
+    <dc:format>application/rdf/xml</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdfs:seeAlso rdf:resource="http://greek-lod.math.auth.gr/fire-brigade/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23Concept%3E"/>
+  </rdf:Description>
+</rdf:RDF>

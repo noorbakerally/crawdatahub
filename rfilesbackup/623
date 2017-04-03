@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns0="http://rdfs.org/ns/void#"
+  xmlns:ns1="http://www.w3.org/2000/10/swap/pim/contact#"
+  xmlns:ns2="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://www.w3.org/2002/07/owl#"
+  xmlns:ns4="http://purl.org/dc/terms/"
+  xmlns:ns5="http://open.vocab.org/terms/"
+  xmlns:ns6="http://xmlns.com/foaf/0.1/"
+  xmlns:ns7="http://purl.org/court/def/2009/coin#">
+
+  <rdf:Description rdf:about="http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-May-22/conversion/enhancement/1">
+    <ns0:exampleResource rdf:resource="http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-May-22/r2-d2"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-May-22/thing_2">
+    <ns1:preferredURI rdf:resource="http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-May-22/r2-d2"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-May-22/r2-d2">
+    <ns2:label>r2-d2</ns2:label>
+    <ns0:inDataset rdf:resource="http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-May-22"/>
+    <ns3:sameAs rdf:resource="http://data.linkedmdb.org/resource/film_character/4053"/>
+    <ns3:sameAs rdf:resource="http://dbpedia.org/resource/R2-D2"/>
+    <ns4:identifier>r2-d2</ns4:identifier>
+    <ns5:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns5:csvRow>
+    <ns4:isReferencedBy rdf:resource="http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-May-22"/>
+    <ns6:page rdf:resource="http://www.imdb.com/character/ch0000054"/>
+    <ns6:page rdf:resource="http://starwars.wikia.com/wiki/R2-D2"/>
+    <ns7:slug>r2-d2</ns7:slug>
+    <ns6:name>R2-D2</ns6:name>
+  </rdf:Description>
+
+</rdf:RDF>

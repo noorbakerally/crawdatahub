@@ -1,0 +1,660 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cidoc="http://purl.org/NET/cidoc-crm/core/" xmlns:gnossEdu="http://gnossEdu/" xmlns:dbpprop="http://dbpedia.org/property/" xmlns:gnossUtils="http://gnossUtils/" xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:dbpediaowl="http://dbpedia.org/ontology/" xmlns:hr-xml="http://didactalia.net/Ontologia/Curriculum.owl#" xmlns:obraarte="http://didactalia.net/Ontologia/ontologiaobradearte.owl#" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="http://mismuseos.net/en/community/museos/search/tag/barroco">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/caravaggio-milan-1571-porto-ercole-1610/d8911a09-5bc3-482b-ae3c-9ca6c0137d89" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/caravaggio-milan-1571-porto-ercole-1610/d45f26c1-5b74-44e9-a5c4-03c09670ac27" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/caravaggio-milan-1571-porto-ercole-1610/768413f3-39b9-4692-845e-6428d234a783" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/retratos-de-emperadores-romanos/0925f5cc-0dcf-400e-b842-4f8e08b1cf69" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/proyecto-para-reforma-de-un-retablo-barroco/cf29b5f3-f11b-4a9f-ab8e-16d8dcc2d2bb" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/balaustrada---balcon/096858d6-c288-451a-8c81-d0ab07f035c3" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/buen-pastor/67214272-dbb0-4c9a-9742-c07a44896853" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/iglesia-de-valencia/75300e0e-3bb5-49d3-8bfe-b294e96033fc" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/san-joaquin/f39aac3d-606b-474a-b766-aa78dc19db1f" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/vinagreras/26e12c34-6fd8-493b-9fa8-41443bc7561e" />
+    <gnoss:Results rdf:resource="http://mismuseos.net/en/community/museos/resource/vinagreras/88f03172-58f0-4499-ba50-c5b9e45bed94" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/caravaggio-milan-1571-porto-ercole-1610/d8911a09-5bc3-482b-ae3c-9ca6c0137d89">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Caravaggio (Milán, 1571 – Porto Ércole, 1610)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Michelangelo Merisi da Caravaggio fue un artista conocido por su personalidad conflictiva y sus múltiples peleas, lo que lo llevaría a huir hacia ciudades como Roma, Nápoles, Malta y Sicilia. Es uno de los más grandes exponentes de la pintura barroca e influencia para muchos artistas europeos.</p><p>Es un contenido didactico de <a href="http://www.educatina.com/" target="_blank">Educatina</a>. En Educatina encontrarás además de otros muchos videos educativos, miles de prácticas para cada uno de los temas desarrollados</p><p>Para obtner más <b>recursos educativos</b> consulta el <a href="http://didactalia.net/comunidad/materialeducativo/indice" target="_blank">índice</a> y el <a href="http://didactalia.net/comunidad/materialeducativo/recursos" target="_blank">el buscador facetado de Didactialia</a></p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Educatina]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-05-22T13:56:45+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Caravaggio (Milán, 1571 – Porto Ércole, 1610)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=W-Z-pJKNTw8" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/caravaggio" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/michelangelo%20merisi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20barroca" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/escuela%20italiana" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco%20italiano" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20siglo%20xvi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/siglo%20xvi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20religiosa" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/claroscuro" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <foaf:Group rdf:about="https://didactalia.net/en/organization/equipoGNOSS/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Equipo Didactalia]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Equipo Didactalia]]></foaf:name>
+  </foaf:Group>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/caravaggio">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[caravaggio]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/michelangelo%20merisi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[michelangelo merisi]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/pintura%20barroca">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pintura barroca]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/escuela%20italiana">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escuela italiana]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/barroco%20italiano">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[barroco italiano]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/pintura%20siglo%20xvi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pintura siglo xvi]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/siglo%20xvi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[siglo xvi]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/pintura%20religiosa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pintura religiosa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/claroscuro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[claroscuro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/caravaggio-milan-1571-porto-ercole-1610/d45f26c1-5b74-44e9-a5c4-03c09670ac27">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Caravaggio (Milán, 1571 – Porto Ércole, 1610)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Michelangelo Merisi da Caravaggio fue un artista conocido por su personalidad conflictiva y sus múltiples peleas, lo que lo llevaría a huir hacia ciudades como Roma, Nápoles, Malta y Sicilia. Es uno de los más grandes exponentes de la pintura barroca e influencia para muchos artistas europeos.</p><p>Es un contenido didactico de <a href="http://www.educatina.com/" target="_blank">Educatina</a>. En Educatina encontrarás además de otros muchos videos educativos, miles de prácticas para cada uno de los temas desarrollados</p><p>Para obtner más <b>recursos educativos</b> consulta el <a href="http://didactalia.net/comunidad/materialeducativo/indice" target="_blank">índice</a> y el <a href="http://didactalia.net/comunidad/materialeducativo/recursos" target="_blank">el buscador facetado de Didactialia</a></p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Educatina]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-05-22T13:54:20+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Caravaggio (Milán, 1571 – Porto Ércole, 1610)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=W-Z-pJKNTw8" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/caravaggio" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/michelangelo%20merisi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20barroca" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/escuela%20italiana" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco%20italiano" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20siglo%20xvi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/siglo%20xvi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20religiosa" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/claroscuro" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/caravaggio-milan-1571-porto-ercole-1610/768413f3-39b9-4692-845e-6428d234a783">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Caravaggio (Milán, 1571 – Porto Ércole, 1610)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Michelangelo Merisi da Caravaggio fue un artista conocido por su personalidad conflictiva y sus múltiples peleas, lo que lo llevaría a huir hacia ciudades como Roma, Nápoles, Malta y Sicilia. Es uno de los más grandes exponentes de la pintura barroca e influencia para muchos artistas europeos.</p><p>Es un contenido didactico de <a href="http://www.educatina.com/" target="_blank">Educatina</a>. En Educatina encontrarás además de otros muchos videos educativos, miles de prácticas para cada uno de los temas desarrollados</p><p>Para obtner más <b>recursos educativos</b> consulta el <a href="http://didactalia.net/comunidad/materialeducativo/indice" target="_blank">índice</a> y el <a href="http://didactalia.net/comunidad/materialeducativo/recursos" target="_blank">el buscador facetado de Didactialia</a></p>]]></sioc:content>
+    <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Educatina]]></dc:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-05-22T12:45:50+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Caravaggio (Milán, 1571 – Porto Ércole, 1610)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=W-Z-pJKNTw8" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/caravaggio" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/michelangelo%20merisi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20barroca" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/escuela%20italiana" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco%20italiano" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20siglo%20xvi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/siglo%20xvi" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura%20religiosa" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/claroscuro" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/retratos-de-emperadores-romanos/0925f5cc-0dcf-400e-b842-4f8e08b1cf69">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Retratos de Emperadores Romanos]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>Limouze se&ntilde;ala que no estaban acabadas en 1622 S&oacute;lo aperecen los retratos de Emperadores. La serie original formada por Emperadores y Emperatrices</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2014-06-18T10:03:45+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Retratos de Emperadores Romanos]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Retratos de Emperadores Romanos.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/E1_CRM_Entity_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_be23514f-3175-4724-8509-6a42af92d0bd" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/emperadores" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/retratos" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/grabados%20de%20retrato" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/grabados%20calcogr%c3%a1ficos" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/retratos%20de%20emperadores%20romanos" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/figura%20humana" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/grabado%20flamenco%20y%20holand%c3%a9s" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/emperadores">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[emperadores]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/retratos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[retratos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/grabados%20de%20retrato">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[grabados de retrato]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/grabados%20calcogr%c3%a1ficos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[grabados calcográficos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/retratos%20de%20emperadores%20romanos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[retratos de emperadores romanos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/figura%20humana">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[figura humana]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/grabado%20flamenco%20y%20holand%c3%a9s">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[grabado flamenco y holandés]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/proyecto-para-reforma-de-un-retablo-barroco/cf29b5f3-f11b-4a9f-ab8e-16d8dcc2d2bb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Proyecto para reforma de un retablo barroco]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Falto del ángulo superior izquierdo]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2014-06-18T10:31:56+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Proyecto para reforma de un retablo barroco]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Proyecto para reforma de un retablo barroco.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/E1_CRM_Entity_cf29b5f3-f11b-4a9f-ab8e-16d8dcc2d2bb_13828405-ab56-461f-893e-0a1f335d5000" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/retablos" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/dibujos%20de%20arquitectura" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/dibujos%20a%20pluma" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/proyecto" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/reforma" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/retablo" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/falto" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/retablos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[retablos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/dibujos%20de%20arquitectura">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[dibujos de arquitectura]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/dibujos%20a%20pluma">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[dibujos a pluma]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/proyecto">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[proyecto]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/reforma">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[reforma]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/retablo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[retablo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/falto">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[falto]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/balaustrada---balcon/096858d6-c288-451a-8c81-d0ab07f035c3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Balaustrada - Balcón]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Sobre ménsulas decoradas, la balaustrada en que debe terminar la terraza. Estilo característico del barroco italiano. Manchas azul pálido, en la parte superior, insinúan el cielo.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-05-06T23:07:55+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Balaustrada - Balcón]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Balaustrada - Balcón.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Obra_de_arte_096858d6-c288-451a-8c81-d0ab07f035c3_a89da02d-9212-4b14-9192-747705ae5acc" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/italiano" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/balc%c3%b3n" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroca" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/elemento%20arquitect%c3%b3nico" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/balaustrada" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/italiano">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[italiano]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/balc%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[balcón]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/barroca">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[barroca]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/elemento%20arquitect%c3%b3nico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[elemento arquitectónico]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/balaustrada">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[balaustrada]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/buen-pastor/67214272-dbb0-4c9a-9742-c07a44896853">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Buen pastor]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Marfil colonial luso-indio típico barroco que representa al Buen Pastor sentado sobre un corazón atravesado por una lanza, que a su vez se apoya sobre una montaña en la que se representa un paisaje con la Fuente de la Vida y unos corderos que se acercan a beber en ella, motivos muy propios del siglo XVII. Estas tallas de marfil tenían una doble función: en primer lugar eran objetos preciosos y decorativos tanto en Portugal como en España dada la escasez y exotismo del marfil; por otra parte, tuvieron un fin didáctico y evangelizador al realizarse con temática e iconografía cristiana aunque utilizando motivos decorativos y técnicas orientales. <BR> Así, aparece Cristo como Buen pastor que en casi todos sus detalles deriva de una iconografía búdica y que se ha llegado a relacionar con la imagen de Buda al pie del árbol Bodhi o de la sabiduría. Aparece también María Magdalena penitente en su faceta de ermitaña, durmiendo desnuda en una cueva en la base del monte.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-06-19T17:14:49+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Buen pastor]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Buen pastor .rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Obra_de_arte_67214272-dbb0-4c9a-9742-c07a44896853_365ad61a-90d8-445d-9690-c6685450c55c" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/espa%c3%b1a" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/imagen" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/monta%c3%b1a" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/portugal" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/paisaje" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pastor" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/vida" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/t%c3%a9cnicas" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/objetos" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/coraz%c3%b3n" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/base" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/funci%c3%b3n" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/buen" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/relacionar" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/cristo" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/cristiana" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/xvii" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/mar%c3%ada%20magdalena" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/buen%20pastor" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/buda" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/santa%20mar%c3%ada%20magdalena%20penitente" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/fuente%20de%20la%20vida" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/bodhi" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/espa%c3%b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[españa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/imagen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[imagen]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/monta%c3%b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[montaña]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/portugal">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[portugal]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/paisaje">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[paisaje]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/pastor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pastor]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/vida">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vida]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/t%c3%a9cnicas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[técnicas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/objetos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[objetos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/coraz%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[corazón]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/base">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[base]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/funci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[función]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/buen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[buen]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/relacionar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[relacionar]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/cristo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cristo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/cristiana">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cristiana]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/xvii">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[xvii]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/mar%c3%ada%20magdalena">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[maría magdalena]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/buen%20pastor">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[buen pastor]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/buda">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[buda]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/santa%20mar%c3%ada%20magdalena%20penitente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[santa maría magdalena penitente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/fuente%20de%20la%20vida">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[fuente de la vida]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/bodhi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[bodhi]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/iglesia-de-valencia/75300e0e-3bb5-49d3-8bfe-b294e96033fc">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Iglesia de Valencia]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Interior de una capilla. Una reja de hierro abierta adosada a un pilar cruciforme con zócalo de azulejería. Varios bancos colocados delante de un altar con retablo barroco de columnas salomónicas. A la izquierda, pintura en el muro e inicio de una escalera.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-05-06T22:43:18+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Iglesia de Valencia]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Iglesia de Valencia .rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Obra_de_arte_75300e0e-3bb5-49d3-8bfe-b294e96033fc_227033a3-8b0c-4408-ac34-943d7ae27323" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/pintura" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/valencia" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/interior" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/iglesia" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroca" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/iglesia%20de%20valencia" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/pintura">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pintura]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/valencia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[valencia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/interior">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[interior]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/iglesia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iglesia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/iglesia%20de%20valencia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iglesia de valencia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/san-joaquin/f39aac3d-606b-474a-b766-aa78dc19db1f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[San Joaquín]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Escultura barroca de finales del siglo XVIII en madera policromada y estofada representando a San Joaquín, vestido con túnica y manto de pliegues muy movidos y abultados, y se inclina alargando su mano derecha. Formaría parte de un grupo del que falta la Virgen Niña. La figura apoya sobre una peana dorada, de estilo barroco, perteneciente al siglo XX. Esta peana fue adquirida por Sorolla probablemente en 1914 a un tal Antonio Roldán, comerciante de espejos, molduras y ornamentación religiosa en Sevilla.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-06-19T17:12:41+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[San Joaquín]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[San Joaquín .rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Obra_de_arte_f39aac3d-606b-474a-b766-aa78dc19db1f_9070b803-5012-4737-ae18-4ad84ce5dc4a" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/grupo" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/escultura" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/sevilla" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/xx" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/madera" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/antonio" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/san" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/siglo%20xx" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/joaquin" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/espejos" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/sorolla" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/xviii" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/san%20joaqu%c3%adn" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/virgen%20ni%c3%b1a" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/antonio%20rold%c3%a1n" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/grupo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[grupo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/escultura">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[escultura]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/sevilla">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sevilla]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/xx">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[xx]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/madera">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[madera]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/antonio">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[antonio]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/san">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[san]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/siglo%20xx">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[siglo xx]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/joaquin">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[joaquin]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/espejos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[espejos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/sorolla">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sorolla]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/xviii">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[xviii]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/san%20joaqu%c3%adn">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[san joaquín]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/virgen%20ni%c3%b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[virgen niña]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/antonio%20rold%c3%a1n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[antonio roldán]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/vinagreras/26e12c34-6fd8-493b-9fa8-41443bc7561e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Vinagreras]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Vinagrera de vidrio realizado en la Real Fábrica de Cristales de La Granja, cuya tipología, de inspiración francesa, comenzó a producirse en Segovia hacia 1760 coincidiendo con la segunda etapa del periodo barroco de la fábrica. La pieza está formada por dos recipientes de cuerpo globular acabados en pitorros más o menos cónicos, que se cruzan entre sí. Ambos están unidos a un pie formado por un vástago central abalaustrado acabado en una base cónica. Los recipientes presentan gallones y decoración fitomorfa grabada enmarcada por rectángulos de líneas en zig-zag, de manera esquemática.<br>Probablemente pieza producida en la Real Fábrica de La Granja por la tipología de la misma, de inspiración francesa, que comenzó a producirse en Segovia hacia 1760 coincidiendo con la segunda etapa del periodo barroco de la fábrica.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-05-28T14:27:59+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Vinagreras]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Vinagreras.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Obra_de_arte_26e12c34-6fd8-493b-9fa8-41443bc7561e_8165c009-dbdf-4cbf-b6ae-29e77b8a7dd1" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/segovia" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/cuerpo" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/base" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/granja" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/vinagreras" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/real%20f%c3%a1brica%20de%20cristales%20de%20la%20granja" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/real%20f%c3%a1brica%20de%20la%20granja" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/fitomorfa" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/segovia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[segovia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/cuerpo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cuerpo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/granja">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[granja]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/vinagreras">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vinagreras]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/real%20f%c3%a1brica%20de%20cristales%20de%20la%20granja">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[real fábrica de cristales de la granja]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/real%20f%c3%a1brica%20de%20la%20granja">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[real fábrica de la granja]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://mismuseos.net/en/community/museos/search/tag/fitomorfa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[fitomorfa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://mismuseos.net/en/community/museos/resource/vinagreras/88f03172-58f0-4499-ba50-c5b9e45bed94">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Vinagreras]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Vinagrera de vidrio realizado probablemente en la Real Fábrica de Cristales de La Granja, cuya tipología, de inspiración francesa, comenzó a producirse en Segovia hacia 1760 coincidiendo con la segunda etapa del periodo barroco de la fábrica. Pieza formada por dos recipientes de cuerpo globular acabados con pitorros más o menos cónicos, que se cruzan entre sí. Ambos están unidos a un pie formado por un vástago central abalaustrado acabado en una base cónica. Los recipientes presentan gallones como única decoración.<br>Probablemente pieza producida en la Real Fábrica de La Granja por la tipología de la misma, de inspiración francesa, que comenzó a producirse en Segovia hacia 1760 coincidiendo con la segunda etapa del periodo barroco de la fábrica.]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2013-05-28T14:27:57+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Vinagreras]]></dcterms:title>
+    <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Vinagreras.rdf.rdf]]></dcterms:source>
+    <gnoss:has_docSem rdf:resource="http://didactalia.net/items/Obra_de_arte_88f03172-58f0-4499-ba50-c5b9e45bed94_cb72dc48-a437-49f0-9141-9208d3079808" />
+    <sioc:has_creator rdf:resource="https://didactalia.net/en/organization/equipoGNOSS/" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/segovia" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/cuerpo" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/base" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/barroco" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/granja" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/vinagreras" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/real%20f%c3%a1brica%20de%20cristales%20de%20la%20granja" />
+    <sioc:topic rdf:resource="http://mismuseos.net/en/community/museos/search/tag/real%20f%c3%a1brica%20de%20la%20granja" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/E1_CRM_Entity_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_be23514f-3175-4724-8509-6a42af92d0bd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/E53_Place_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_2fc4a490-b517-47f4-967c-deed1c1bdec8" />
+  </cidoc:E1_CRM_Entity>
+  <Logse rdf:about="http://didactalia.net/items/Logse_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_26b941b2-2d55-4c47-ae8f-b0894b4bbec7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Logse]]></rdfs:label>
+    <gnossEdu:educationalBlock rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Sociedades prehistóricas, primeras civilizaciones y edad antigua]]></gnossEdu:educationalBlock>
+    <gnossEdu:educationalLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[1º ESO]]></gnossEdu:educationalLevel>
+    <gnossEdu:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ciencias Sociales, Geografía e Historia]]></gnossEdu:subject>
+    <gnossEdu:subjectMatter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[La civilización romana]]></gnossEdu:subjectMatter>
+  </Logse>
+  <Logse rdf:about="http://didactalia.net/items/Logse_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_81d0af0d-b9ae-4234-9d87-2dc2265d6f3f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Logse]]></rdfs:label>
+    <gnossEdu:educationalBlock rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Análisis de la figura humana]]></gnossEdu:educationalBlock>
+    <gnossEdu:educationalLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[2º Bachillerato]]></gnossEdu:educationalLevel>
+    <gnossEdu:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Dibujo artístico II]]></gnossEdu:subject>
+    <gnossEdu:subjectMatter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Dibujo de la figura humana]]></gnossEdu:subjectMatter>
+  </Logse>
+  <Logse rdf:about="http://didactalia.net/items/Logse_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_a873f89b-73c2-4422-909a-42641165a67a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Logse]]></rdfs:label>
+    <gnossEdu:educationalBlock rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Desarrollo y evolución del arte europeo en el mundo moderno]]></gnossEdu:educationalBlock>
+    <gnossEdu:educationalLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[2º Bachillerato]]></gnossEdu:educationalLevel>
+    <gnossEdu:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Historia del Arte]]></gnossEdu:subject>
+  </Logse>
+  <Logse rdf:about="http://didactalia.net/items/Logse_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_eb0a7089-53d1-4df2-b65b-39e5356b9aa0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Logse]]></rdfs:label>
+    <gnossEdu:educationalBlock rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Localización histórica de las civilizaciones griega y romana. Instituciones políticas y sociales. Realidad y mito]]></gnossEdu:educationalBlock>
+    <gnossEdu:educationalLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[4º ESO]]></gnossEdu:educationalLevel>
+    <gnossEdu:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Cultura clásica]]></gnossEdu:subject>
+    <gnossEdu:subjectMatter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Los sistemas políticos]]></gnossEdu:subjectMatter>
+  </Logse>
+  <SecundaryAuthor rdf:about="http://didactalia.net/items/SecundaryAuthor_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_7f082795-8ae5-4130-823e-aa0a713ce3ab">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[SecundaryAuthor]]></rdfs:label>
+    <obraarte:secondaryAuthorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Tiziano]]></obraarte:secondaryAuthorName>
+  </SecundaryAuthor>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/E53_Place_0925f5cc-0dcf-400e-b842-4f8e08b1cf69_2fc4a490-b517-47f4-967c-deed1c1bdec8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://didactalia.net/items/Museum_b6484edd-b5e8-4715-bf05-c12d0dfc636c_9f1c42a4-9ada-4342-9282-9e0138a55573">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Biblioteca Nacional de España]]></dcterms:title>
+  </Museum>
+
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/E1_CRM_Entity_cf29b5f3-f11b-4a9f-ab8e-16d8dcc2d2bb_13828405-ab56-461f-893e-0a1f335d5000">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/E53_Place_cf29b5f3-f11b-4a9f-ab8e-16d8dcc2d2bb_447cc764-bdf9-4b89-a16e-276c7d6e4435" />
+  </cidoc:E1_CRM_Entity>
+  <Logse rdf:about="http://didactalia.net/items/Logse_cf29b5f3-f11b-4a9f-ab8e-16d8dcc2d2bb_8cfcdc7b-ed35-4a19-9727-7531832b0b1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Logse]]></rdfs:label>
+    <gnossEdu:educationalBlock rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Desarrollo y evolución del arte europeo en el mundo moderno]]></gnossEdu:educationalBlock>
+    <gnossEdu:educationalLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[2º Bachillerato]]></gnossEdu:educationalLevel>
+    <gnossEdu:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Historia del Arte]]></gnossEdu:subject>
+    <gnossEdu:subjectMatter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[La arquitectura y escultura barroca]]></gnossEdu:subjectMatter>
+  </Logse>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/E53_Place_cf29b5f3-f11b-4a9f-ab8e-16d8dcc2d2bb_447cc764-bdf9-4b89-a16e-276c7d6e4435">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://gnoss.com/items/Museum_b6484edd-b5e8-4715-bf05-c12d0dfc636c_9f1c42a4-9ada-4342-9282-9e0138a55573">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+  </Museum>
+  <Author rdf:about="http://gnoss.com/items/Artist_b83d9b6f-be77-4cde-bde7-d267f529225d_1d566125-3974-4f5f-a648-cfd751c10ecd">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Author]]></rdfs:label>
+  </Author>
+
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/Obra_de_arte_096858d6-c288-451a-8c81-d0ab07f035c3_a89da02d-9212-4b14-9192-747705ae5acc">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/Localizacion_096858d6-c288-451a-8c81-d0ab07f035c3_f7bbebfc-b5f7-433b-9600-30097065a3f2" />
+  </cidoc:E1_CRM_Entity>
+  <cidoc:E54_Dimension rdf:about="http://didactalia.net/items/Dimension_096858d6-c288-451a-8c81-d0ab07f035c3_b1ed6e00-f897-4eb8-ba23-2996d59f937d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E54_Dimension]]></rdfs:label>
+    <obraarte:width rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.7</obraarte:width>
+  </cidoc:E54_Dimension>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/Localizacion_096858d6-c288-451a-8c81-d0ab07f035c3_f7bbebfc-b5f7-433b-9600-30097065a3f2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://gnoss.com/items/Museum_45042885-7840-42ae-a0c4-c4bdfcde39f8_0466790e-21c8-42ac-aae6-5a1f23603599">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+  </Museum>
+  <Author rdf:about="http://gnoss.com/items/Artist_1f681395-4da3-4c85-abc0-247956fea9a0_ca3e2037-4c4b-4616-be70-09ccde688046">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Author]]></rdfs:label>
+  </Author>
+
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/Obra_de_arte_67214272-dbb0-4c9a-9742-c07a44896853_365ad61a-90d8-445d-9690-c6685450c55c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/Localizacion_67214272-dbb0-4c9a-9742-c07a44896853_fb12f70f-f49c-4e88-835e-9420435ddbc4" />
+  </cidoc:E1_CRM_Entity>
+  <cidoc:E54_Dimension rdf:about="http://didactalia.net/items/Dimension_67214272-dbb0-4c9a-9742-c07a44896853_63435c88-422c-4f6d-8e4c-a6b10b13bd18">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E54_Dimension]]></rdfs:label>
+    <obraarte:width rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5</obraarte:width>
+    <obraarte:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4</obraarte:depth>
+  </cidoc:E54_Dimension>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/Localizacion_67214272-dbb0-4c9a-9742-c07a44896853_fb12f70f-f49c-4e88-835e-9420435ddbc4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://gnoss.com/items/Museum_45042885-7840-42ae-a0c4-c4bdfcde39f8_0466790e-21c8-42ac-aae6-5a1f23603599">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+  </Museum>
+  <Author rdf:about="http://gnoss.com/items/Anonymous_28c8778f-ee7b-4117-8cda-97e33006264d_38ec0a14-f531-44c3-b4b7-9da37084f8a9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Author]]></rdfs:label>
+  </Author>
+
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/Obra_de_arte_75300e0e-3bb5-49d3-8bfe-b294e96033fc_227033a3-8b0c-4408-ac34-943d7ae27323">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/Localizacion_75300e0e-3bb5-49d3-8bfe-b294e96033fc_678d7011-0cdb-4e3e-9f87-960b90fcf427" />
+  </cidoc:E1_CRM_Entity>
+  <cidoc:E54_Dimension rdf:about="http://didactalia.net/items/Dimension_75300e0e-3bb5-49d3-8bfe-b294e96033fc_ebe2454b-4c8e-4be7-b15d-5fe9e7b775c7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E54_Dimension]]></rdfs:label>
+    <obraarte:width rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.5</obraarte:width>
+  </cidoc:E54_Dimension>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/Localizacion_75300e0e-3bb5-49d3-8bfe-b294e96033fc_678d7011-0cdb-4e3e-9f87-960b90fcf427">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://didactalia.net/items/Museum_45042885-7840-42ae-a0c4-c4bdfcde39f8_0466790e-21c8-42ac-aae6-5a1f23603599">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Museo Sorolla]]></dcterms:title>
+  </Museum>
+  <Author rdf:about="http://didactalia.net/items/Artist_1f681395-4da3-4c85-abc0-247956fea9a0_ca3e2037-4c4b-4616-be70-09ccde688046">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Author]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Sorolla y Bastida, Joaquín]]></foaf:name>
+    <foaf:img rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[imagenes/Documentos/ImagenesSemanticas/1f681395-4da3-4c85-abc0-247956fea9a0/1737ea90-abf7-474f-1998-9541d46410c2.jpg]]></foaf:img>
+  </Author>
+
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/Obra_de_arte_f39aac3d-606b-474a-b766-aa78dc19db1f_9070b803-5012-4737-ae18-4ad84ce5dc4a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/Localizacion_f39aac3d-606b-474a-b766-aa78dc19db1f_a7b969f4-4f15-4026-b59c-e658d4204517" />
+  </cidoc:E1_CRM_Entity>
+  <cidoc:E54_Dimension rdf:about="http://didactalia.net/items/Dimension_f39aac3d-606b-474a-b766-aa78dc19db1f_ff4308d4-15fc-4d2f-9239-7f50563de395">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E54_Dimension]]></rdfs:label>
+    <obraarte:width rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65</obraarte:width>
+    <obraarte:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41</obraarte:depth>
+  </cidoc:E54_Dimension>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/Localizacion_f39aac3d-606b-474a-b766-aa78dc19db1f_a7b969f4-4f15-4026-b59c-e658d4204517">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://gnoss.com/items/Museum_45042885-7840-42ae-a0c4-c4bdfcde39f8_0466790e-21c8-42ac-aae6-5a1f23603599">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+  </Museum>
+  <Author rdf:about="http://gnoss.com/items/Anonymous_28c8778f-ee7b-4117-8cda-97e33006264d_38ec0a14-f531-44c3-b4b7-9da37084f8a9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Author]]></rdfs:label>
+  </Author>
+
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/Obra_de_arte_26e12c34-6fd8-493b-9fa8-41443bc7561e_8165c009-dbdf-4cbf-b6ae-29e77b8a7dd1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/Localizacion_26e12c34-6fd8-493b-9fa8-41443bc7561e_d5e08cbd-9ddf-4e4d-b423-7d9f0185a0c1" />
+  </cidoc:E1_CRM_Entity>
+  <cidoc:E54_Dimension rdf:about="http://didactalia.net/items/Dimension_26e12c34-6fd8-493b-9fa8-41443bc7561e_7323e7a1-b5f7-458e-81b8-78082c1e0cdc">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E54_Dimension]]></rdfs:label>
+    <obraarte:width rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.5</obraarte:width>
+  </cidoc:E54_Dimension>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/Localizacion_26e12c34-6fd8-493b-9fa8-41443bc7561e_d5e08cbd-9ddf-4e4d-b423-7d9f0185a0c1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://gnoss.com/items/Museum_45042885-7840-42ae-a0c4-c4bdfcde39f8_0466790e-21c8-42ac-aae6-5a1f23603599">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+  </Museum>
+  <Author rdf:about="http://gnoss.com/items/ArtistGroup_53634b35-b6f5-46cf-a555-5136b736a784_07f3ebdb-c3f4-42d6-8c38-c1b95480446c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Author]]></rdfs:label>
+  </Author>
+
+<cidoc:E1_CRM_Entity rdf:about="http://didactalia.net/items/Obra_de_arte_88f03172-58f0-4499-ba50-c5b9e45bed94_cb72dc48-a437-49f0-9141-9208d3079808">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E1_CRM_Entity]]></rdfs:label>
+    <cidoc:P55_has_current_location rdf:resource="http://didactalia.net/items/Localizacion_88f03172-58f0-4499-ba50-c5b9e45bed94_336dfa54-3ee5-46b8-8f51-53db0db7c1a3" />
+  </cidoc:E1_CRM_Entity>
+  <cidoc:E54_Dimension rdf:about="http://didactalia.net/items/Dimension_88f03172-58f0-4499-ba50-c5b9e45bed94_9ffd9564-db93-4734-83f0-e7ad6ea19284">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E54_Dimension]]></rdfs:label>
+    <obraarte:width rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13</obraarte:width>
+  </cidoc:E54_Dimension>
+  <cidoc:E53_Place rdf:about="http://didactalia.net/items/Localizacion_88f03172-58f0-4499-ba50-c5b9e45bed94_336dfa54-3ee5-46b8-8f51-53db0db7c1a3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[http://purl.org/NET/cidoc-crm/core/E53_Place]]></rdfs:label>
+  </cidoc:E53_Place>
+  <Museum rdf:about="http://gnoss.com/items/Museum_45042885-7840-42ae-a0c4-c4bdfcde39f8_0466790e-21c8-42ac-aae6-5a1f23603599">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Museum]]></rdfs:label>
+  </Museum>
+  <Author rdf:about="http://gnoss.com/items/ArtistGroup_53634b35-b6f5-46cf-a555-5136b736a784_07f3ebdb-c3f4-42d6-8c38-c1b95480446c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Author]]></rdfs:label>
+  </Author>
+</rdf:RDF>

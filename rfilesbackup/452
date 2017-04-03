@@ -1,0 +1,86 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix asn: <http://purl.org/ASN/schema/core/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix gemq: <http://purl.org/gem/qualifiers/> .
+
+<http://asn.jesandco.org/resources/S2377506.ttl> foaf:primaryTopic <http://asn.jesandco.org/resources/D2376952> ;
+                                                 dcterms:rightsHolder "D2L Corporation"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                                 dcterms:rights <http://achievementstandards.org/legal/terms> ;
+                                                 dcterms:modified "2013-07-15T14:54:45-04:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                                 dcterms:created "2012-05-07T15:05:19-04:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                                 cc:license <http://creativecommons.org/licenses/by/3.0/us/> ;
+                                                 cc:attributionURL <http://asn.jesandco.org/resources/D2376952> ;
+                                                 cc:attributionName "D2L Corporation"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                                 asn:exportVersion <http://purl.org/ASN/scheme/ASNExport/3.1.0> .
+
+<http://asn.jesandco.org/resources/D2376952> rdf:type asn:StandardDocument ;
+                                             asn:jurisdiction <http://purl.org/ASN/scheme/ASNJurisdiction/OK> ;
+                                             dc:title "Oklahoma Academic Standards for Social Studies"@en-US ;
+                                             dcterms:description "The Oklahoma Standards for the Social Studies focus educators and students on the priority of citizenship development, so that they both appreciate and understand the exceptional nature of American history, the role of the Founding Fathers, our system of government, and our freedoms. These sets of skills and knowledge bases are essential for our students, so they may fully participate in our nation's economy and political processes. These standards do contain references to the Common Core Social Studies reading and writing literacy skills. In 2014, House Bill 3399 repealed Common Core standards for Oklahoma. By operation of law, the references to Common Core in the Social Studies subject standards are no longer in effect, but all other elements of the standards apply in their entirety."@en-US ;
+                                             dcterms:source <http://sde.ok.gov/sde/sites/ok.gov.sde/files/documents/files/Social%20Studies%20OK%20Academic%20Standards.rev815pdf.pdf> ;
+                                             asn:publicationStatus <http://purl.org/ASN/scheme/ASNPublicationStatus/Published> ;
+                                             asn:repositoryDate "2012-05-01"^^<http://purl.org/dc/terms/W3CDTF> ;
+                                             dcterms:valid "2014"^^<http://purl.org/dc/terms/W3CDTF> ;
+                                             dcterms:tableOfContents <http://asn.jesandco.org/resources/D2376952/manifest.json> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/english> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/socialStudies> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/Pre-K> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/K> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/1> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/2> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/3> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/4> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/5> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/6> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/7> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/8> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/9> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/10> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/11> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/12> ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2376953> ,
+                                                           <http://asn.jesandco.org/resources/S2376954> ,
+                                                           <http://asn.jesandco.org/resources/S2376955> ,
+                                                           <http://asn.jesandco.org/resources/S2376956> ,
+                                                           <http://asn.jesandco.org/resources/S2376957> ,
+                                                           <http://asn.jesandco.org/resources/S2376958> ,
+                                                           <http://asn.jesandco.org/resources/S2376959> ,
+                                                           <http://asn.jesandco.org/resources/S2376960> ,
+                                                           <http://asn.jesandco.org/resources/S2376961> ,
+                                                           <http://asn.jesandco.org/resources/S2376962> ,
+                                                           <http://asn.jesandco.org/resources/S2376963> ,
+                                                           <http://asn.jesandco.org/resources/S2376964> ,
+                                                           <http://asn.jesandco.org/resources/S2376965> ,
+                                                           <http://asn.jesandco.org/resources/S2376966> ,
+                                                           <http://asn.jesandco.org/resources/S2376967> ,
+                                                           <http://asn.jesandco.org/resources/S2376968> ,
+                                                           <http://asn.jesandco.org/resources/S2376969> ,
+                                                           <http://asn.jesandco.org/resources/S2376970> ,
+                                                           <http://asn.jesandco.org/resources/S2377117> ,
+                                                           <http://asn.jesandco.org/resources/S2377118> ,
+                                                           <http://asn.jesandco.org/resources/S2377119> .
+
+<http://asn.jesandco.org/resources/S2377506> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2376952> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             asn:listID "1." ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/9> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/10> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/11> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/12> ;
+                                             asn:localSubject "Psychology"@en-US ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/socialStudies> ;
+                                             asn:conceptTerm <http://dbpedia.org/resource/Classical_conditioning> ,
+                                                             <http://dbpedia.org/resource/Ivan_Pavlov> ,
+                                                             <http://dbpedia.org/resource/Operant_conditioning> ,
+                                                             <http://dbpedia.org/resource/B._F._Skinner> ,
+                                                             <http://dbpedia.org/resource/Albert_Bandura> ,
+                                                             <http://dbpedia.org/resource/Observational_learning> ;
+                                             dcterms:description "Identify and explain the major theories of learning including Ivan Pavlov's classical conditioning, B.F. Skinner's, and Albert Bandura's Operant conditioning, and Bandura's observational learning."@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2377069> .

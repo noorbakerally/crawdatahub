@@ -1,0 +1,614 @@
+<rdf:RDF
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:scv="http://purl.org/NET/scovo#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:interval="http://reference.data.gov.uk/def/intervals/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:dct="http://purl.org/dc/dcmitype/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dgu="http://reference.data.gov.uk/def/reference/">
+  <interval:CalendarDay rdf:about="http://reference.data.gov.uk/id/day/2010-09-06">
+    <interval:ordinalHalfOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >2</interval:ordinalHalfOfYear>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T08">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 9th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T08</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T08</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <interval:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Monday"/>
+    <time:intervalDuring>
+      <interval:Iso8601Week rdf:about="http://reference.data.gov.uk/id/week/2010-W36">
+        <rdfs:label xml:lang="en">British Week:2010-W36</rdfs:label>
+        <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <time:hasDurationDescription rdf:resource="http://reference.data.gov.uk/def/intervals/one-week"/>
+        <skos:prefLabel xml:lang="en">British Week:2010-W36</skos:prefLabel>
+        <interval:intervalContainsDay rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment>Week 36 of the British calendar year 2010</rdfs:comment>
+        <interval:ordinalWeekOfYearYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2010</interval:ordinalWeekOfYearYear>
+        <interval:hasXsdDurationDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#duration"
+        >P7D</interval:hasXsdDurationDescription>
+        <time:hasEnd>
+          <time:Instant rdf:about="http://reference.data.gov.uk/id/gregorian-instant/2010-09-13T00:00:00">
+            <rdfs:comment xml:lang="en">The instant at start of the 1st second of 1st minute of 1st hour of Monday the 13th September of the Gregorian calendar year 2010</rdfs:comment>
+            <interval:monthOfYear rdf:resource="http://reference.data.gov.uk/def/intervals/September"/>
+            <interval:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Monday"/>
+            <interval:ordinalMonthOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >9</interval:ordinalMonthOfYear>
+            <interval:ordinalYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2010</interval:ordinalYear>
+            <interval:ordinalHalfOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2</interval:ordinalHalfOfYear>
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2010-09-13T00:00:00</time:inXSDDateTime>
+            <interval:ordinalHourOfDay rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</interval:ordinalHourOfDay>
+            <rdfs:label xml:lang="en">Gregorian Instant:2010-09-13T00:00:00</rdfs:label>
+            <interval:ordinalDayOfMonth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >13</interval:ordinalDayOfMonth>
+            <interval:ordinalWeekOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >37</interval:ordinalWeekOfYear>
+            <interval:ordinalDayOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >256</interval:ordinalDayOfYear>
+            <interval:ordinalDayOfWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >1</interval:ordinalDayOfWeek>
+            <interval:ordinalSecondOfMinute rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</interval:ordinalSecondOfMinute>
+            <interval:ordinalWeekOfYearYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2010</interval:ordinalWeekOfYearYear>
+            <interval:ordinalMinuteOfHour rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</interval:ordinalMinuteOfHour>
+            <skos:prefLabel xml:lang="en">Gregorian Instant:2010-09-13T00:00:00</skos:prefLabel>
+            <interval:ordinalQuarterOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3</interval:ordinalQuarterOfYear>
+          </time:Instant>
+        </time:hasEnd>
+        <time:hasBeginning>
+          <time:Instant rdf:about="http://reference.data.gov.uk/id/gregorian-instant/2010-09-06T00:00:00">
+            <interval:ordinalHourOfDay rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</interval:ordinalHourOfDay>
+            <interval:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Monday"/>
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2010-09-06T00:00:00</time:inXSDDateTime>
+            <interval:monthOfYear rdf:resource="http://reference.data.gov.uk/def/intervals/September"/>
+            <interval:ordinalDayOfMonth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >6</interval:ordinalDayOfMonth>
+            <interval:ordinalWeekOfYearYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2010</interval:ordinalWeekOfYearYear>
+            <interval:ordinalDayOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >249</interval:ordinalDayOfYear>
+            <interval:ordinalSecondOfMinute rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</interval:ordinalSecondOfMinute>
+            <interval:ordinalDayOfWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >1</interval:ordinalDayOfWeek>
+            <interval:ordinalQuarterOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3</interval:ordinalQuarterOfYear>
+            <interval:ordinalWeekOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >36</interval:ordinalWeekOfYear>
+            <interval:ordinalYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2010</interval:ordinalYear>
+            <rdfs:comment xml:lang="en">The instant at start of the 1st second of 1st minute of 1st hour of Monday the 6th September of the Gregorian calendar year 2010</rdfs:comment>
+            <interval:ordinalMonthOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >9</interval:ordinalMonthOfYear>
+            <interval:ordinalHalfOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2</interval:ordinalHalfOfYear>
+            <skos:prefLabel xml:lang="en">Gregorian Instant:2010-09-06T00:00:00</skos:prefLabel>
+            <interval:ordinalMinuteOfHour rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</interval:ordinalMinuteOfHour>
+            <rdfs:label xml:lang="en">Gregorian Instant:2010-09-06T00:00:00</rdfs:label>
+          </time:Instant>
+        </time:hasBeginning>
+        <scv:max rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2010-09-12</scv:max>
+        <rdf:type rdf:resource="http://purl.org/NET/scovo#Dimension"/>
+        <scv:min rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2010-09-06</scv:min>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/Week"/>
+        <interval:ordinalWeekOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >36</interval:ordinalWeekOfYear>
+      </interval:Iso8601Week>
+    </time:intervalDuring>
+    <time:hasBeginning rdf:resource="http://reference.data.gov.uk/id/gregorian-instant/2010-09-06T00:00:00"/>
+    <interval:ordinalQuarterOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >3</interval:ordinalQuarterOfYear>
+    <interval:ordinalDayOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >249</interval:ordinalDayOfYear>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T18">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 19th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T18</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T18</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <time:intervalEquals>
+      <time:Interval rdf:about="http://reference.data.gov.uk/id/gregorian-interval/2010-09-06T00:00:00/P1D">
+        <rdfs:comment xml:lang="en">An interval of 1 day beginning at the start of the 1st second of 1st minute of 1st hour of Monday the 6th September 2010 in the Gregorian Calendar</rdfs:comment>
+        <rdfs:label xml:lang="en">Gregorian Interval:2010-09-06T00:00:00/P1D</rdfs:label>
+        <skos:prefLabel xml:lang="en">Gregorian Interval:2010-09-06T00:00:00/P1D</skos:prefLabel>
+      </time:Interval>
+    </time:intervalEquals>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T11">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 12th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T11</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T11</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T00">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 1st hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T00</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T00</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T05">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 6th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T05</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T05</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T15">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 16th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T15</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T15</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T03">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 4th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T03</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T03</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <scv:max rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2010-09-06T23:59:59</scv:max>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T14">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 15th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T14</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T14</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <interval:ordinalWeekOfYearYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >2010</interval:ordinalWeekOfYearYear>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T16">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 17th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T16</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T16</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T06">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 7th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T06</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T06</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <time:hasEnd>
+      <time:Instant rdf:about="http://reference.data.gov.uk/id/gregorian-instant/2010-09-07T00:00:00">
+        <interval:ordinalMinuteOfHour rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >0</interval:ordinalMinuteOfHour>
+        <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2010-09-07T00:00:00</time:inXSDDateTime>
+        <interval:ordinalDayOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >250</interval:ordinalDayOfYear>
+        <interval:ordinalDayOfMonth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >7</interval:ordinalDayOfMonth>
+        <interval:ordinalSecondOfMinute rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >0</interval:ordinalSecondOfMinute>
+        <interval:ordinalMonthOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >9</interval:ordinalMonthOfYear>
+        <interval:monthOfYear rdf:resource="http://reference.data.gov.uk/def/intervals/September"/>
+        <rdfs:comment xml:lang="en">The instant at start of the 1st second of 1st minute of 1st hour of Tuesday the 7th September of the Gregorian calendar year 2010</rdfs:comment>
+        <interval:ordinalWeekOfYearYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2010</interval:ordinalWeekOfYearYear>
+        <interval:ordinalWeekOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >36</interval:ordinalWeekOfYear>
+        <interval:ordinalHalfOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2</interval:ordinalHalfOfYear>
+        <interval:ordinalHourOfDay rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >0</interval:ordinalHourOfDay>
+        <interval:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Tuesday"/>
+        <interval:ordinalYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2010</interval:ordinalYear>
+        <interval:ordinalQuarterOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >3</interval:ordinalQuarterOfYear>
+        <rdfs:label xml:lang="en">Gregorian Instant:2010-09-07T00:00:00</rdfs:label>
+        <skos:prefLabel xml:lang="en">Gregorian Instant:2010-09-07T00:00:00</skos:prefLabel>
+        <interval:ordinalDayOfWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2</interval:ordinalDayOfWeek>
+      </time:Instant>
+    </time:hasEnd>
+    <interval:ordinalDayOfMonth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >6</interval:ordinalDayOfMonth>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T00"/>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T09">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 10th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T09</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T09</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T19">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 20th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T19</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T19</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T14"/>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T11"/>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T01">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 2nd hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T01</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T01</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:ordinalYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >2010</interval:ordinalYear>
+    <interval:ordinalMonthOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >9</interval:ordinalMonthOfYear>
+    <interval:ordinalWeekOfYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >36</interval:ordinalWeekOfYear>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T06"/>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T16"/>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T23">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 24th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T23</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T23</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T13">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 14th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T13</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T13</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T03"/>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T15"/>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T05"/>
+    <time:intervalMetBy>
+      <interval:Day rdf:about="http://reference.data.gov.uk/id/day/2010-09-05"/>
+    </time:intervalMetBy>
+    <time:intervalDuring>
+      <interval:H2 rdf:about="http://reference.data.gov.uk/id/half/2010-H2">
+        <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <interval:intervalContainsDay rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The second half of British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Half:2010-H2</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Half:2010-H2</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/Half"/>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHalf"/>
+      </interval:H2>
+    </time:intervalDuring>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T18"/>
+    <time:intervalDuring>
+      <interval:Q3 rdf:about="http://reference.data.gov.uk/id/quarter/2010-Q3">
+        <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <interval:intervalContainsDay rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The third quarter of the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Quarter:2010-Q3</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Quarter:2010-Q3</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/Quarter"/>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarQuarter"/>
+      </interval:Q3>
+    </time:intervalDuring>
+    <foaf:isPrimaryTopicOf>
+      <foaf:Document rdf:about="http://reference.data.gov.uk/doc/day/2010-09-06">
+        <dcterms:publisher>
+          <frbr:CorporateBody rdf:nodeID="A0">
+            <foaf:name xml:lang="en">data.gov.uk</foaf:name>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataPublisher"/>
+          </frbr:CorporateBody>
+        </dcterms:publisher>
+        <dcterms:rightsHolder rdf:nodeID="A0"/>
+        <dcterms:hasFormat>
+          <foaf:Document rdf:about="http://reference.data.gov.uk/doc/day/2010-09-06.nt">
+            <rdfs:label xml:lang="en">N-Triple document about: British Day:2010-09-06</rdfs:label>
+            <dcterms:format rdf:parseType="Resource">
+              <rdfs:label>text/plain</rdfs:label>
+            </dcterms:format>
+          </foaf:Document>
+        </dcterms:hasFormat>
+        <prv:createdBy>
+          <prv:DataCreation>
+            <prv:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+            >2011-09-09</prv:performedAt>
+            <prv:performedBy>
+              <prv:DataProvidingService rdf:nodeID="A1">
+                <prv:employedArtifact>
+                  <doap:Project>
+                    <prv:usedBy rdf:nodeID="A0"/>
+                    <doap:release>
+                      <doap:Version>
+                        <doap:revision>0.0.3</doap:revision>
+                        <doap:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                        >2011-09-09</doap:created>
+                        <doap:name xml:lang="en">Harrison</doap:name>
+                      </doap:Version>
+                    </doap:release>
+                    <doap:name>UK Gov. Intervals and Instants URI Set Server</doap:name>
+                  </doap:Project>
+                </prv:employedArtifact>
+                <prv:operatedBy rdf:nodeID="A0"/>
+                <doap:name xml:lang="en">Intervals and Instants URI Set Service</doap:name>
+              </prv:DataProvidingService>
+            </prv:performedBy>
+          </prv:DataCreation>
+        </prv:createdBy>
+        <dcterms:creator rdf:nodeID="A1"/>
+        <rdfs:label xml:lang="en">Generic Dataset document about: British Day:2010-09-06</rdfs:label>
+        <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+        <dcterms:hasFormat>
+          <foaf:Document rdf:about="http://reference.data.gov.uk/doc/day/2010-09-06.ttl">
+            <rdfs:label xml:lang="en">Turtle document about: British Day:2010-09-06</rdfs:label>
+            <dcterms:format rdf:parseType="Resource">
+              <rdfs:label>text/turtle</rdfs:label>
+            </dcterms:format>
+          </foaf:Document>
+        </dcterms:hasFormat>
+        <dcterms:hasFormat>
+          <foaf:Document rdf:about="http://reference.data.gov.uk/doc/day/2010-09-06.n3">
+            <rdfs:label xml:lang="en">N3 document about: British Day:2010-09-06</rdfs:label>
+            <dcterms:format rdf:parseType="Resource">
+              <rdfs:label>text/n3</rdfs:label>
+            </dcterms:format>
+          </foaf:Document>
+        </dcterms:hasFormat>
+        <dcterms:hasFormat>
+          <foaf:Document rdf:about="http://reference.data.gov.uk/doc/day/2010-09-06.json">
+            <rdfs:label xml:lang="en">JSON document about: British Day:2010-09-06</rdfs:label>
+            <dcterms:format rdf:parseType="Resource">
+              <rdfs:label>application/json</rdfs:label>
+            </dcterms:format>
+          </foaf:Document>
+        </dcterms:hasFormat>
+        <foaf:primaryTopic rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <dcterms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2011-09-09</dcterms:dateCopyrighted>
+        <dcterms:hasFormat>
+          <foaf:Document rdf:about="http://reference.data.gov.uk/doc/day/2010-09-06.rdf">
+            <rdfs:label xml:lang="en">RDF/XML document about: British Day:2010-09-06</rdfs:label>
+            <dcterms:format rdf:parseType="Resource">
+              <rdfs:label>application/rdf+xml</rdfs:label>
+            </dcterms:format>
+          </foaf:Document>
+        </dcterms:hasFormat>
+        <dcterms:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T21">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 22nd hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T21</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T21</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T02">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 3rd hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T02</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T02</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T22">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 23rd hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T22</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T22</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T20">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 21st hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T20</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T20</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:ordinalDayOfWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >1</interval:ordinalDayOfWeek>
+    <time:hasDurationDescription rdf:resource="http://reference.data.gov.uk/def/intervals/one-day"/>
+    <rdfs:comment xml:lang="en">Monday the 6th of September in the British calendar year 2010</rdfs:comment>
+    <time:intervalDuring>
+      <interval:Month rdf:about="http://reference.data.gov.uk/id/month/2010-09">
+        <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <interval:intervalContainsDay rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The month of September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Month:2010-09</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Month:2010-09</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarMonth"/>
+      </interval:Month>
+    </time:intervalDuring>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T02"/>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T12">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 13th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T12</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T12</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T17">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 18th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T17</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T17</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <interval:intervalContainsHour>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T10">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 11th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T10</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T10</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </interval:intervalContainsHour>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T07">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 8th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T07</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T07</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T07"/>
+    <interval:hasXsdDurationDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#duration"
+    >P1D</interval:hasXsdDurationDescription>
+    <dgu:uriSet>
+      <dgu:URIset rdf:about="http://reference.data.gov.uk/id/day">
+        <skos:prefLabel xml:lang="en">British calendar aligned one day intervals.</skos:prefLabel>
+        <rdfs:label xml:lang="en">British calendar aligned one day intervals.</rdfs:label>
+        <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+      </dgu:URIset>
+    </dgu:uriSet>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T09"/>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T12"/>
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/Day"/>
+    <rdfs:label xml:lang="en">British Day:2010-09-06</rdfs:label>
+    <interval:nextInterval>
+      <interval:Day rdf:about="http://reference.data.gov.uk/id/day/2010-09-07"/>
+    </interval:nextInterval>
+    <time:intervalContains>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T04">
+        <time:intervalDuring rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The 5th hour of Monday the 6th September in the British calendar year 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Hour:2010-09-06T04</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Hour:2010-09-06T04</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarHour"/>
+      </interval:Hour>
+    </time:intervalContains>
+    <interval:monthOfYear rdf:resource="http://reference.data.gov.uk/def/intervals/September"/>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T04"/>
+    <time:intervalDuring>
+      <interval:Year rdf:about="http://reference.data.gov.uk/id/year/2010">
+        <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <interval:intervalContainsDay rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+        <rdfs:comment xml:lang="en">The British calendar year of 2010</rdfs:comment>
+        <rdfs:label xml:lang="en">British Year:2010</rdfs:label>
+        <skos:prefLabel xml:lang="en">British Year:2010</skos:prefLabel>
+        <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarYear"/>
+      </interval:Year>
+    </time:intervalDuring>
+    <scv:min rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2010-09-06T00:00:00</scv:min>
+    <time:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Monday"/>
+    <time:intervalMeets>
+      <interval:Day rdf:about="http://reference.data.gov.uk/id/day/2010-09-07"/>
+    </time:intervalMeets>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T17"/>
+    <interval:intervalContainsHours rdf:parseType="Collection">
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T00"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T01"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T02"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T03"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T04"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T05"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T06"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T07"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T08"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T09"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T10"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T11"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T12"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T13"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T14"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T15"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T16"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T17"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T18"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T19"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T20"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T21"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T22"/>
+      <interval:Hour rdf:about="http://reference.data.gov.uk/id/hour/2010-09-06T23"/>
+    </interval:intervalContainsHours>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T19"/>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T08"/>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T23"/>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T21"/>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T20"/>
+    <interval:intervalContainsHour rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T13"/>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T10"/>
+    <interval:previousInterval>
+      <interval:Day rdf:about="http://reference.data.gov.uk/id/day/2010-09-05"/>
+    </interval:previousInterval>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T01"/>
+    <skos:prefLabel xml:lang="en">British Day:2010-09-06</skos:prefLabel>
+    <rdf:type rdf:resource="http://purl.org/NET/scovo#Dimension"/>
+    <time:intervalContains rdf:resource="http://reference.data.gov.uk/id/hour/2010-09-06T22"/>
+  </interval:CalendarDay>
+  <interval:Day rdf:about="http://reference.data.gov.uk/id/day/2010-09-07">
+    <time:intervalMetBy rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+    <rdfs:comment xml:lang="en">Tuesday the 7th of September in the British calendar year 2010</rdfs:comment>
+    <rdfs:label xml:lang="en">British Day:2010-09-07</rdfs:label>
+    <skos:prefLabel xml:lang="en">British Day:2010-09-07</skos:prefLabel>
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarDay"/>
+  </interval:Day>
+  <interval:Day rdf:about="http://reference.data.gov.uk/id/day/2010-09-05">
+    <time:intervalMeets rdf:resource="http://reference.data.gov.uk/id/day/2010-09-06"/>
+    <rdfs:comment xml:lang="en">Sunday the 5th of September in the British calendar year 2010</rdfs:comment>
+    <rdfs:label xml:lang="en">British Day:2010-09-05</rdfs:label>
+    <skos:prefLabel xml:lang="en">British Day:2010-09-05</skos:prefLabel>
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarDay"/>
+  </interval:Day>
+</rdf:RDF>

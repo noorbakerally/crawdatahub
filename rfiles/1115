@@ -1,0 +1,15 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/atc/> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns1:A01AB03	rdf:type	skos:Concept .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:A01AB03	rdfs:seeAlso	<http://www.whocc.no/atc_ddd_index/?code=A01AB03> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix dbpedia:	<http://dbpedia.org/resource/> .
+ns1:A01AB03	owl:sameAs	dbpedia:ATC_code_A01AB03 .
+@prefix ns6:	<http://linked.opendata.cz/resource/ATC/> .
+ns1:A01AB03	skos:inScheme	ns6:ATCConceptScheme ;
+	skos:prefLabel	"Chlorhexidin"@cs ,
+		"Chlorhexidine"@en ;
+	skos:notation	"A01AB03" ;
+	skos:broaderTransitive	ns1:A01AB .

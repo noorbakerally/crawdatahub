@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:dbo="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbp="http://dbpedia.org/property/"
+	xmlns:dct="http://purl.org/dc/terms/" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/MAGIC_(postgraduate_mathematics)">
+    <dbo:parentOrganisation rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <dbp:parentOrganization rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Research_Councils_UK">
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Biotechnology_and_Biological_Sciences_Research_Council">
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Medical_Research_Council_(United_Kingdom)">
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council">
+    <rdf:type rdf:resource="http://schema.org/Organization" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q43229" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation" />
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson" />
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdfs:label xml:lang="en">Engineering and Physical Sciences Research Council</rdfs:label>
+    <rdfs:comment xml:lang="en">The Engineering and Physical Sciences Research Council (EPSRC) is a British Research Council that provides government funding for grants to undertake research and postgraduate degrees in engineering and the physical sciences (including mathematics, artificial intelligence and computer science), mainly to universities in the United Kingdom. The head office is in Swindon, Wiltshire in the same building (Polaris House) that houses the AHRC, BBSRC, ESRC, MRC, Natural Environment Research Council, Science and Technology Facilities Council, TSB, Research Councils UK and the UK Space Agency.</rdfs:comment>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5377871" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.07qq9s" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q5377871" />
+    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Engineering_and_Physical_Sciences_Research_Council?oldid=708204531" />
+    <dbo:abbreviation>EPSRC</dbo:abbreviation>
+    <dbo:abstract xml:lang="en">The Engineering and Physical Sciences Research Council (EPSRC) is a British Research Council that provides government funding for grants to undertake research and postgraduate degrees in engineering and the physical sciences (including mathematics, artificial intelligence and computer science), mainly to universities in the United Kingdom. The head office is in Swindon, Wiltshire in the same building (Polaris House) that houses the AHRC, BBSRC, ESRC, MRC, Natural Environment Research Council, Science and Technology Facilities Council, TSB, Research Councils UK and the UK Space Agency.</dbo:abstract>
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Science_and_Technology_Facilities_Council" />
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Innovate_UK" />
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Natural_Environment_Research_Council" />
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Arts_and_Humanities_Research_Council" />
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Biotechnology_and_Biological_Sciences_Research_Council" />
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Medical_Research_Council_(United_Kingdom)" />
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/UK_Space_Agency" />
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Research_Councils_UK" />
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Economic_and_Social_Research_Council" />
+    <dbo:budget rdf:datatype="http://dbpedia.org/datatype/poundSterling">8.15E8</dbo:budget>
+    <dbo:formationYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</dbo:formationYear>
+    <dbo:headquarter rdf:resource="http://dbpedia.org/resource/Swindon" />
+    <dbo:leaderFunction rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council__1" />
+    <dbo:leaderFunction rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council__2" />
+    <dbo:parentOrganisation rdf:resource="http://dbpedia.org/resource/Department_for_Business,_Innovation_and_Skills" />
+    <dbo:parentOrganisation rdf:resource="http://dbpedia.org/resource/Research_Councils_UK" />
+    <dbo:purpose>Funding of science and engineering research</dbo:purpose>
+    <dbo:regionServed rdf:resource="http://dbpedia.org/resource/United_Kingdom" />
+    <dbo:type rdf:resource="http://dbpedia.org/resource/Non-departmental_public_body" />
+    <foaf:name xml:lang="en">Engineering and Physical Sciences Research Council</foaf:name>
+    <foaf:homepage rdf:resource="http://www.epsrc.ac.uk/" />
+    <dbp:name xml:lang="en">Engineering and Physical Sciences Research Council</dbp:name>
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Engineering_and_Physical_Sciences_Research_Council" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Mathematics_organizations" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Engineering_organizations" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Computer_science_organizations" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Non-departmental_public_bodies_of_the_United_Kingdom_government" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Organisations_based_in_Swindon" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Department_for_Business,_Innovation_and_Skills" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Science_and_technology_in_the_United_Kingdom" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Government_agencies_established_in_1994" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Research_councils" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:1994_establishments_in_the_United_Kingdom" />
+    <dbo:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2598108</dbo:wikiPageID>
+    <dbo:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">708204531</dbo:wikiPageRevisionID>
+    <dbo:wikiPageExternalLink rdf:resource="http://www.epsrc.ac.uk/" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.epsrc.ac.uk/about/Pages/findus.aspx" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.epsrc.ac.uk/funding/students/centres/" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.epsrc.ac.uk/funding/students/dta/" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.synbicite.com/" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.youtube.com/user/EPSRCvideo" />
+    <dbo:wikiPageExternalLink rdf:resource="https://www.epsrc.ac.uk/links/centres/specific-swansea-university/" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.rcuk.ac.uk/" />
+    <dbo:wikiPageExternalLink rdf:resource="http://gow.epsrc.ac.uk" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.epsrc.ac.uk" />
+    <dbo:wikiPageExternalLink rdf:resource="https://www.epsrc.ac.uk/links/universities/university-of-cambridge1/centre-for-smart-infrastructure-and-construction-university-of-cambridge/" />
+    <dbo:wikiPageExternalLink rdf:resource="https://www.epsrc.ac.uk/links/universities/university-of-leeds1/medical-technologies-university-of-leeds/" />
+    <dbo:wikiPageExternalLink rdf:resource="https://www.epsrc.ac.uk/links/partnerships/ultra-precision-and-structured-surfaces-ups2/" />
+    <dbo:wikiPageExternalLink rdf:resource="https://www.epsrc.ac.uk/links/universities/university-of-cambridge1/cambridge-information-and-knowledge-centre-cikc-university-of-cambridge/" />
+    <dbp:abbreviation xml:lang="en">EPSRC</dbp:abbreviation>
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Biotechnology_and_Biological_Sciences_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/UK_Space_Agency" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Arts_and_Humanities_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Science_and_Technology_Facilities_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Economic_and_Social_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Research_Councils_UK" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Innovate_UK" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Natural_Environment_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Medical_Research_Council_(United_Kingdom)" />
+    <dbp:budget rdf:datatype="http://dbpedia.org/datatype/poundSterling">8.15E8</dbp:budget>
+    <dbp:formation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</dbp:formation>
+    <dbp:headquarters xml:lang="en">SN2 1ET</dbp:headquarters>
+    <dbp:headquarters xml:lang="en">North Star Avenue,</dbp:headquarters>
+    <dbp:headquarters rdf:resource="http://dbpedia.org/resource/Swindon" />
+    <dbp:headquarters xml:lang="en">Polaris House,</dbp:headquarters>
+    <dbp:leaderName rdf:resource="http://dbpedia.org/resource/Philip_Nelson" />
+    <dbp:leaderName rdf:resource="http://dbpedia.org/resource/Professor" />
+    <dbp:leaderTitle rdf:resource="http://dbpedia.org/resource/Chief_executive_officer" />
+    <dbp:parentOrganization xml:lang="en">*Department for Business, Innovation and Skills 
+*Research Councils UK</dbp:parentOrganization>
+    <dbp:purpose xml:lang="en">Funding of science and engineering research</dbp:purpose>
+    <dbp:regionServed xml:lang="en">United Kingdom</dbp:regionServed>
+    <dbp:type rdf:resource="http://dbpedia.org/resource/Non-departmental_public_body" />
+    <dbp:website rdf:resource="http://www.epsrc.ac.uk/" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Culham_Centre_for_Fusion_Energy">
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Prakash_Chandra_Mishra">
+    <dbo:award rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <dbp:awards rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/CS4FN">
+    <dbo:publisher rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <dbp:company rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Natural_Environment_Research_Council">
+    <dbo:affiliation rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+    <dbp:affiliations rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/EPSRC">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Engineering_and_physical_sciences_research_council">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Engineering_and_Physical_Sciences_Research_Council">
+    <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council" />
+  </rdf:Description>
+</rdf:RDF>

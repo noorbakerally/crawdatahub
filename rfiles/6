@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:ISMA="http://dati.isma.roma.it/archivi/"
+	xmlns:oad="http://lod.xdams.org/reload/oad/" >
+  <rdf:Description rdf:about="http://dati.isma.roma.it/archivi/0006E">
+    <rdf:type rdf:resource="http://lod.xdams.org/reload/oad/uod" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual" />
+    <rdf:type rdf:resource="http://dati.san.beniculturali.it/SAN/complessoArchivistico" />
+    <rdf:type rdf:resource="http://dati.isma.roma.it/archivi/unitaArchivistica" />
+    <rdfs:label>&quot;Tomo 6. Istromenti et altro in pergamena dell&#39;eredità Piccaluga, Zaccagni e Guicciardi, di Paolo Ricci et altre&quot;</rdfs:label>
+    <dc:date>1561-01-01/1626-12-31</dc:date>
+    <dct:isPartOf rdf:resource="http://dati.isma.roma.it/archivi/K0151" />
+    <dct:isPartOf rdf:resource="http://dati.isma.roma.it/archivi/0001B" />
+    <ISMA:has_livelloSuperiore rdf:resource="http://dati.isma.roma.it/archivi/0001B" />
+    <ISMA:has_livelloSuperioreAlternativo rdf:resource="http://dati.isma.roma.it/archivi/K0151" />
+    <oad:date>1561-1626</oad:date>
+    <oad:extentAndMedium>Volume membranaceo e cartaceo con coperta in pergamena; pergamene numerate 1-51. Le pergamene 3, 11, 12, 25 e 26 con bulla plumbea.</oad:extentAndMedium>
+    <oad:has_level rdf:resource="http://dati.isma.roma.it/archivi/file" />
+    <oad:note>Nei Rubricelloni del Magni sono disponibili i regesti dei documenti: il primo numero si riferisce alla pagina del Rubricellone, mentre i numeri tra parentesi si riferiscono alle carte del tomo dove sono collocati i documenti regestati: 220 (48); 307 (46, 47); 324 (24-26, 28); 325 (30); 331 (1); 332 (2, 3, 5); 413 (31); 414 (34, 35); 425 (50); 440 (16); 441 (17); 445 (49), 496 (8, 9, 10); 497 (11); 498 (12, 13); 559 (51); 610 (39); 612 (40); 1021 (15); 1065 (27); 1066 (29); 1425 (14); 1537 (36, 38); 1538 (41, 42); 1551 (32, 33); 1557 (43-45), 1669 (18), 1670 (37)</oad:note>
+    <oad:referenceCode>6</oad:referenceCode>
+    <oad:scopeAndContent>Il tomo è costituito da 51 pergamene numerate originariamente. Contiene prevalentemente documentazione (istromenti, brevi pontifici, etc.) utile alla ricostruzione della provenienza dei beni ereditati dalla Pia casa dall’eredità citate
+Questo lungo e complesso nucleo documentario riunisce carte prodotte da alcuni benefattori della Pia casa e pervenute attraverso i loro lasciti testamentari. La consistenza delle carte varia da pochi documenti raccolti da Magni in un singolo tomo, a veri e propri fondi archivistici di notevole consistenza, come quello Grossi – Castellani, costituito originariamente da 69 tomi ma del quale oggi ne restano solo 43. Come si potrà vedere nell’appendice ove sono riportati i tomi mancanti, nel corso dell’XIX secolo sono stati operati su questi fondi importanti sfoltimenti che hanno riguardato prevalentemente le carte private dei benefattori ritenute estranee agli interessi correnti della Pia casa. Magni, con il suo riordinamento, aveva organizzato queste le carte dividendole tra quelle di importanza per l’Arciconfraternita per la ricostruzione della provenienza dei lasciti, con documenti che possono essere ampiamente antecedenti alla vita del testatore, carte che in caso di miscellanee di nuova creazione furono raggruppate in tomi, mentre altre conservavano la loro denominazione originaria in riferimento alla specifica tipologia.
+Una ulteriore specificazione è individuabilesotto la voce “Eredità di……”, per le carte di interesse relativo ai beniereditari mentre venivano definiti “Interessi diversi di….” I tomi di documentazione propriamente personale dei testatori oppure di carte provenienti per motivi diversi da non benefattori – ad es. vedasi i tomi di Isabella de Luna o di Giulio Paolo Zaccagni (benefattore) e del fratello di questi Antonio (non benefattore).
+Altre carte dei benefattori si trovano anche inoltre anche in parti diverse di questa sezione in quanto riordinate dal Magni per materia o per tipologia documentaria.
+Occorre anche segnalare che alcuni fondi non appartengono a benefattori della Pia casa, ma sono pervenuti assieme all’archivio di un testatore il quale deteneva tali carte per ragioni probabilmente professionali: tra essi si segnalano le carte della cortigiana Isabella de Luna pervenute attraverso l’eredità di Giovanni Francesco Pallavicini, procuratore del tutore legale della “curiale” Isabella e quelle pervenute attraverso l’eredità di Pietro Antonio Ricci consistenti nei 18 tomi del mercante Antonio Guasco e nei 2 tomi rispettivamente delle famiglie Olgiati e Rondinini. La storia delle modalità di acquisizione di tali carte sarà specificata, ove sia stato possibile ricostruirla, nelle note di contenuto di ciascuna unità.
+I tomi contenenti documentazione di interesse della Pia casa e altra ritenuta rilevante dal Magni, furono regestati nei Rubricelloni, mentre vennero tralasciati i tomi contenenti carte professionali o prettamente private: di essi venne riportato nei rubricelloni solo il numero e la denominazione assegnata all’intero tomo.
+Dal nome dei benefattori, come pure di altri personaggi descritti nelle note di contenuto, si potrà accedere a brevi note biografiche dei vari soggetti produttori o a note di interresse per l’argomento trattato.</oad:scopeAndContent>
+    <oad:title>&quot;Tomo 6. Istromenti et altro in pergamena dell&#39;eredità Piccaluga, Zaccagni e Guicciardi, di Paolo Ricci et altre&quot;</oad:title>
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0389" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/index_IK2386" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0083" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0028" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0326" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/index_IK2267" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0037" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0400" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0228" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/index_IK2466" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0040" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0342" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0159" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0052" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0103" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0350" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0301" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/index_IK2363" />
+    <oad:has_accessPoint rdf:resource="http://dati.isma.roma.it/archivi/iMm0239" />
+    <ISMA:toInventario rdf:resource="http://dati.isma.roma.it/archivi/inv1TO" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0301" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0350" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0239" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0389" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0083" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0028" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0326" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0037" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0400" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0228" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0040" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0159" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0342" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0052" />
+    <ISMA:has_accessPointMateria rdf:resource="http://dati.isma.roma.it/archivi/iMm0103" />
+    <ISMA:has_accessPointUA rdf:resource="http://dati.isma.roma.it/archivi/index_IK2386" />
+    <ISMA:has_accessPointUA rdf:resource="http://dati.isma.roma.it/archivi/index_IK2363" />
+    <ISMA:has_accessPointUA rdf:resource="http://dati.isma.roma.it/archivi/index_IK2267" />
+    <ISMA:has_accessPointUA rdf:resource="http://dati.isma.roma.it/archivi/index_IK2466" />
+    <ISMA:has_level rdf:resource="http://dati.isma.roma.it/archivi/file" />
+  </rdf:Description>
+</rdf:RDF>

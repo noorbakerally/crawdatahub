@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://status.samnoble.org/user/54"></maker>
+  <primaryTopic rdf:resource="http://status.samnoble.org/user/54"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://status.samnoble.org/user/54">
+  <mbox_sha1sum>f138c983a1808e42d7414ec0c41f349607a4f2fb</mbox_sha1sum>
+  <name>planet Via feed2omb</name>
+  <homepage rdf:resource="http://planet.thepromisedlan.org"></homepage>
+  <weblog rdf:resource="http://status.samnoble.org/planet"></weblog>
+  <bio:olb>Just another news feed.</bio:olb>
+  <img>
+   <Image rdf:about="http://status.samnoble.org/avatar/54-136-20100329152857.png">
+    <thumbnail>
+     <Image rdf:about="http://status.samnoble.org/avatar/54-96-20100329152857.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.samnoble.org/avatar/54-48-20100329152857.png"></Image>
+    </thumbnail>
+    <thumbnail>
+     <Image rdf:about="http://status.samnoble.org/avatar/54-24-20100329152857.png"></Image>
+    </thumbnail>
+   </Image>
+  </img>
+  <account>
+   <OnlineAccount rdf:about="http://status.samnoble.org/user/54#acct">
+    <accountServiceHomepage rdf:resource="http://status.samnoble.org/"></accountServiceHomepage>
+    <accountName>planet</accountName>
+    <accountProfilePage rdf:resource="http://status.samnoble.org/planet"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.samnoble.org/user/54"></sioc:account_of>
+    <sioc:follows rdf:resource="http://identi.ca/user/7788#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://identi.ca/user/7788">
+  <account>
+   <OnlineAccount rdf:about="http://identi.ca/user/7788#acct">
+    <accountName>gregkh</accountName>
+    <accountProfilePage rdf:resource="http://identi.ca/gregkh"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://identi.ca/user/7788"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://status.samnoble.org/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://status.samnoble.org/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://status.samnoble.org/"></accountServiceHomepage>
+    <accountName>sam</accountName>
+    <accountProfilePage rdf:resource="http://status.samnoble.org/sam"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.samnoble.org/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://status.samnoble.org/user/54#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://status.samnoble.org/sam/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://status.samnoble.org/sam/foaf">
+  <maker rdf:resource="http://status.samnoble.org/user/1"></maker>
+  <primaryTopic rdf:resource="http://status.samnoble.org/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+</rdf:RDF>

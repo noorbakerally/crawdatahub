@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:api="http://purl.org/linked-data/api/vocab#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:naptan="http://transport.data.gov.uk/def/naptan/"
+    xmlns:spatialrelations="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <api:ItemEndpoint rdf:about="http://transport.data.gov.uk/doc/stop-point/490011810W.rdf">
+    <foaf:primaryTopic>
+      <naptan:BusCoachTramOnStreetPoint rdf:about="http://transport.data.gov.uk/id/stop-point/490011810W">
+        <naptan:indicator>---</naptan:indicator>
+        <naptan:nptgLocality>
+          <rdf:Description rdf:about="http://transport.data.gov.uk/id/nptg-locality/E0034631">
+            <skos:prefLabel xml:lang="en">Herne Hill, London</skos:prefLabel>
+          </rdf:Description>
+        </naptan:nptgLocality>
+        <rdf:type>
+          <rdf:Description rdf:about="http://transport.data.gov.uk/def/naptan/MarkedBusStop">
+            <rdfs:label xml:lang="en">Marked (pole, shelter etc)</rdfs:label>
+          </rdf:Description>
+        </rdf:type>
+        <spatialrelations:easting rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >532407</spatialrelations:easting>
+        <naptan:compassPointBearing rdf:resource="http://reference.data.gov.uk/def/compass/N"/>
+        <rdf:type rdf:resource="http://transport.data.gov.uk/def/naptan/BusStopPoint"/>
+        <geo:long>-0.0957926213</geo:long>
+        <rdf:type>
+          <rdf:Description rdf:about="http://transport.data.gov.uk/def/naptan/OtherPoint">
+            <rdfs:label xml:lang="en">Other Bus Stop</rdfs:label>
+          </rdf:Description>
+        </rdf:type>
+        <rdf:type>
+          <rdf:Description rdf:about="http://transport.data.gov.uk/def/naptan/StopPoint">
+            <rdfs:label xml:lang="en">Stop Point</rdfs:label>
+          </rdf:Description>
+        </rdf:type>
+        <spatialrelations:northing rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >174384</spatialrelations:northing>
+        <naptan:localityCentre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</naptan:localityCentre>
+        <naptan:atcoCode rdf:datatype="http://transport.data.gov.uk/def/naptan/AtcoCode"
+        >490011810W</naptan:atcoCode>
+        <naptan:administrativeArea>
+          <rdf:Description rdf:about="http://transport.data.gov.uk/id/administrative-area/082">
+            <skos:prefLabel xml:lang="en">Greater London</skos:prefLabel>
+          </rdf:Description>
+        </naptan:administrativeArea>
+        <naptan:street>---</naptan:street>
+        <rdf:type>
+          <rdf:Description rdf:about="http://transport.data.gov.uk/def/naptan/OnStreetStopPoint">
+            <rdfs:label xml:lang="en">On Street Stop Point</rdfs:label>
+          </rdf:Description>
+        </rdf:type>
+        <geo:lat>51.4529687687</geo:lat>
+        <naptan:landmark>---</naptan:landmark>
+        <skos:prefLabel xml:lang="en">Ruskin Walk</skos:prefLabel>
+      </naptan:BusCoachTramOnStreetPoint>
+    </foaf:primaryTopic>
+    <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
+    <api:extendedMetadataVersion rdf:resource="http://transport.data.gov.uk/doc/stop-point/490011810W.rdf?_metadata=all"/>
+    <api:definition rdf:resource="http://transport.data.gov.uk/meta/doc/stop-point/_code.rdf"/>
+  </api:ItemEndpoint>
+  <rdf:Description rdf:about="http://transport.data.gov.uk/def/naptan/BusCoachTramOnStreetPoint">
+    <rdfs:label xml:lang="en">On street Bus / Coach / Tram Stop</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

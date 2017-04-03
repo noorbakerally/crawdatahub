@@ -1,0 +1,343 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>British National Bibliography | The British Library</title>
+<link rel="shortcut icon" href="/images/datagovuk_favicon.png" type="image/x-icon">
+<link rel="alternate" href="http://bnb.data.bl.uk/doc/resource/006893251.rdf" type="application/rdf+xml">
+<link rel="alternate" href="http://bnb.data.bl.uk/doc/resource/006893251.rdfjson" type="application/json">
+<link rel="alternate" href="http://bnb.data.bl.uk/doc/resource/006893251.ttl" type="text/turtle">
+<link rel="alternate" href="http://bnb.data.bl.uk/doc/resource/006893251.json" type="application/json">
+<link rel="alternate" href="http://bnb.data.bl.uk/doc/resource/006893251.xml" type="application/xml">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--><script type="text/javascript" src="/scripts/jquery.min.js"></script><script type="text/javascript" src="/scripts/jquery-ui.min.js"></script><script type="text/javascript" src="/scripts/jquery.sparkline.js"></script><script type="text/javascript" src="/scripts/codemirror/codemirror_min.js"></script><script type="text/javascript" src="/scripts/codemirror/sparql.js"></script><script type="text/javascript">
+		$(function() {
+			$('.info img')
+				.toggle(function () {
+					$(this)
+						.attr('src', '/images/green/16x16/Cancel.png')
+						.next().show();
+				}, function () {
+					$(this)
+						.attr('src', '/images/green/16x16/Question.png')
+						.next().fadeOut('slow');
+				});
+
+			$('input[type=date]').datepicker({
+				changeMonth: true,
+				changeYear: true,
+				dateFormat: 'yy-mm-dd',
+				autoSize: true
+			});
+
+			$('#search').hide();
+
+			$('#openSearch')
+				.toggle(function () {
+					$(this).text('Hide Search Form');
+					$('#search').slideDown('slow');
+				}, function () {
+					$(this).text('Show Search Form');
+					$('#search').slideUp('slow');
+				});
+
+			$('.provenance textarea')
+				.each(function () {
+					var skipLines = parseFloat($(this).attr('data-skip-lines'), 10);
+					var lineHeight = parseFloat($(this).css('line-height'), 10);
+					$(this).scrollTop(skipLines * lineHeight);
+					try{
+					var cm = CodeMirror.fromTextArea(this, {
+						mode: "application/x-sparql-query",
+						tabMode: "indent",
+						matchBrackets: true
+					});
+					
+					
+      
+					
+					
+					/*
+					
+					$(cm.frame).load(function () {
+						cm.jumpToLine(skipLines + 1);
+						$(cm.frame)
+							.css('border', 	'1px solid #D3D3D3')
+							.css('border-radius', '5px')
+							.css('-moz-border-radius', '5px');
+					});
+					*/
+					}catch(err){
+						alert(err);
+					};
+				});
+			
+		});
+	</script><link rel="stylesheet" href="/css/html5reset-1.6.1.css" type="text/css">
+<link rel="stylesheet" href="/css/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="/css/result-bnb.css" type="text/css">
+<link rel="stylesheet" href="/css/codemirror.css" type="text/css">
+<style type="text/css"> div.caveat { font-size: 11px; margin-left: 12%  }  </style>
+<!--[if lt IE 9]><link rel="stylesheet" href="/css/ie.css" type="text/css"></link><![endif]-->
+</head>
+<body><div id="page">
+<nav class="site"><section class="formats"><ul>
+<li class="first"><a href="http://bnb.data.bl.uk/doc/resource/006893251.rdf" type="application/rdf+xml" rel="alternate" title="view in RDF/XML format">RDF/XML</a></li>
+<li><a href="http://bnb.data.bl.uk/doc/resource/006893251.rdfjson" type="application/json" rel="alternate" title="view in RDF/JSON format">RDF/JSON</a></li>
+<li><a href="http://bnb.data.bl.uk/doc/resource/006893251.ttl" type="text/turtle" rel="alternate" title="view in Turtle format">Turtle</a></li>
+<li><a href="http://bnb.data.bl.uk/doc/resource/006893251.json" type="application/json" rel="alternate" title="view in Simple JSON format">Simple JSON</a></li>
+<li class="last"><a href="http://bnb.data.bl.uk/doc/resource/006893251.xml" type="application/xml" rel="alternate" title="view in Simple XML format">Simple XML</a></li>
+</ul></section></nav><header><img class="logo" src="/images/BL-logo.png" alt="BL Logo"><h1><a href="/">British National Bibliography</a></h1>
+<div class="caveat">At this time, this dataset is not guaranteed to be stable; its contents may change at any time without warning</div>
+<div class="clear"></div></header><nav class="topnav"><section class="view"><h1>View</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>Choose what information you want to view about each item. There are some pre-defined views, but starred properties are always present no matter what the view. You can star properties by clicking on the <img src="/images/grey/16x16/Star.png" alt="star this property"> icon. The currently starred icons have a <img src="/images/green/16x16/Star.png" alt="unstar this property"> icon; clicking on it will unstar the property.</p>
+</div>
+<ul>
+<li><a href="http://bnb.data.bl.uk/doc/resource/006893251.html?_view=publicationViewer" title="switch to publicationViewer view">publicationViewer</a></li>
+<li><a href="http://bnb.data.bl.uk/doc/resource/006893251.html?_view=all" title="switch to all view">all</a></li>
+<li><a href="http://bnb.data.bl.uk/doc/resource/006893251.html?_view=resourceViewer" title="switch to resourceViewer view">resourceViewer</a></li>
+</ul>
+<ul class="properties">
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=label"><img src="/images/grey/16x16/Star.png" alt="star this property"> label</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=bnb"><img src="/images/grey/16x16/Star.png" alt="star this property"> bnb</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=description"><img src="/images/grey/16x16/Star.png" alt="star this property"> description</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=extent"><img src="/images/grey/16x16/Star.png" alt="star this property"> extent</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=isbn10"><img src="/images/grey/16x16/Star.png" alt="star this property"> isbn 10</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=subject.label"><img src="/images/grey/16x16/Star.png" alt="star this property"> subject</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=title"><img src="/images/grey/16x16/Star.png" alt="star this property"> title</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=type"><img src="/images/grey/16x16/Star.png" alt="star this property"> type</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=creator.label"><img src="/images/grey/16x16/Star.png" alt="star this property"> creator</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=isPartOf.label"><img src="/images/grey/16x16/Star.png" alt="star this property"> is part of</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=language"><img src="/images/grey/16x16/Star.png" alt="star this property"> language</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=page.label"><img src="/images/grey/16x16/Star.png" alt="star this property"> page</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=publicationEvent.label"><img src="/images/grey/16x16/Star.png" alt="star this property"> publication event</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=sameAs"><img src="/images/grey/16x16/Star.png" alt="star this property"> same as</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=seeAlso"><img src="/images/grey/16x16/Star.png" alt="star this property"> see also</a></li>
+<li><a rel="nofollow" title="always include this property" href="http://bnb.data.bl.uk/doc/resource/006893251.html?_properties=spatial.label"><img src="/images/grey/16x16/Star.png" alt="star this property"> spatial</a></li>
+</ul></section></nav><div id="result"><div class="panel">
+<header><h1>American guerrilla / Roger Hilsman</h1>
+<p class="id"><a href="http://bnb.data.bl.uk/id/resource/006893251">http://bnb.data.bl.uk/id/resource/006893251</a></p></header><section id="search"><form action="http://bnb.data.bl.uk/doc/resource">
+<table>
+<colgroup>
+<col width="25%">
+<col width="70%">
+</colgroup>
+<tr>
+<th class="label"><label for="label">label</label></th>
+<td class="input"><input name="label" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="bnb">bnb</label></th>
+<td class="input"><input name="bnb" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="description">description</label></th>
+<td class="input"><input name="description" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="extent">extent</label></th>
+<td class="input"><input name="extent" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="isbn10">isbn 10</label></th>
+<td class="input"><input name="isbn10" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="subject.label">subject</label></th>
+<td class="input"><input name="subject.label" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="title">title</label></th>
+<td class="input"><input name="title" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="type">type</label></th>
+<td class="input"><input name="type" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="creator.label">creator</label></th>
+<td class="input"><input name="creator.label" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="isPartOf.label">is part of</label></th>
+<td class="input"><input name="isPartOf.label" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="language">language</label></th>
+<td class="input"><input name="language" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="page.label">page</label></th>
+<td class="input"><input name="page.label" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="publicationEvent.label">publication event</label></th>
+<td class="input"><input name="publicationEvent.label" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="sameAs">same as</label></th>
+<td class="input"><input name="sameAs" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="seeAlso">see also</label></th>
+<td class="input"><input name="seeAlso" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="spatial.label">spatial</label></th>
+<td class="input"><input name="spatial.label" size="25"></td>
+</tr>
+</table>
+<p><button type="submit">Search</button></p>
+</form></section><section><table id="id3489569">
+<colgroup>
+<col width="25%">
+<col width="*">
+<col width="54">
+</colgroup>
+<tr class="bnb">
+<th class="label">bnb</th>
+<td class="value">GBA3V1071</td>
+<td class="filter"></td>
+</tr>
+<tr class="description">
+<th class="label">description</th>
+<td class="value">Includes index.</td>
+<td class="filter"></td>
+</tr>
+<tr class="extent">
+<th class="label">extent</th>
+<td class="value">312 p.</td>
+<td class="filter"></td>
+</tr>
+<tr class="isbn10">
+<th class="label">isbn 10</th>
+<td class="value">1574886916</td>
+<td class="filter"></td>
+</tr>
+<tr class="subject">
+<th class="label">subject</th>
+<td class="value nested" colspan="2"><table>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/ddc/e21/940.548673092">940.548673092</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/place/lcsh/Burma">Burma</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/lcsh/BurmaHistoryJapaneseoccupation1942-1945">Burma--History--Japanese occupation, 1942-1945</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/lcsh/GuerrillasBurmaBiography">Guerrillas--Burma--Biography</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/lcsh/GuerrillasUnitedStatesBiography">Guerrillas--United States--Biography</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/person/lcsh/HilsmanRoger">Hilsman, Roger</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/organization/lcsh/UnitedStatesOfficeofStrategicServices">United States. Office of Strategic Services</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/lcsh/UnitedStatesOfficeofStrategicServicesBiography">United States. Office of Strategic Services--Biography</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/lcsh/WorldWar1939-1945PersonalnarrativesAmerican">World War, 1939-1945--Personal narratives, American</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://bnb.data.bl.uk/id/concept/lcsh/WorldWar1939-1945UndergroundmovementsBurma">World War, 1939-1945--Underground movements--Burma</a></td>
+<td class="filter"></td>
+</tr>
+</table></td>
+</tr>
+<tr class="title">
+<th class="label">title</th>
+<td class="value">American guerrilla : my war behind Japanese lines</td>
+<td class="filter"></td>
+</tr>
+<tr class="type">
+<th class="label">type</th>
+<td class="value nested" colspan="2"><table>
+<tr>
+<td class="value"><a href="http://purl.org/dc/terms/BibliographicResource">BibliographicResource</a></td>
+<td class="filter"></td>
+</tr>
+<tr>
+<td class="value"><a href="http://purl.org/ontology/bibo/Book">Book</a></td>
+<td class="filter"></td>
+</tr>
+</table></td>
+</tr>
+<tr class="creator">
+<th class="label">creator</th>
+<td class="value"><a href="http://bnb.data.bl.uk/id/person/HilsmanRoger">Hilsman, Roger</a></td>
+<td class="filter"></td>
+</tr>
+<tr class="isPartOf">
+<th class="label">is part of</th>
+<td class="value"><a href="http://bnb.data.bl.uk/id/series/Memoriesofwar">Memories of war</a></td>
+<td class="filter"></td>
+</tr>
+<tr class="language">
+<th class="label">language</th>
+<td class="value"><a href="http://lexvo.org/id/iso639-3/eng">eng</a></td>
+<td class="filter"></td>
+</tr>
+<tr class="page">
+<th class="label">page</th>
+<td class="value"><a href="http://explore.bl.uk/primo_library/libweb/action/search.do?vid=BLVU1%26fn=search%26vl%28freeText0%29=006893251">006893251</a></td>
+<td class="filter"></td>
+</tr>
+<tr class="publicationEvent">
+<th class="label">publication event</th>
+<td class="value"><a href="http://bnb.data.bl.uk/id/resource/006893251/publicationevent/WashingtonDCPotomacBooksInc2005">Washington, DC : Potomac Books, Inc., 2005</a></td>
+<td class="filter"></td>
+</tr>
+<tr class="sameAs">
+<th class="label">same as</th>
+<td class="value"><a href="http://bnb.data.bl.uk/id/resource/GBA3V1071">GBA3V1071</a></td>
+<td class="filter"></td>
+</tr>
+<tr class="seeAlso">
+<th class="label">see also</th>
+<td class="value"><a href="http://www4.wiwiss.fu-berlin.de/bookmashup/books/1574886916">1574886916</a></td>
+<td class="filter"></td>
+</tr>
+<tr class="spatial last">
+<th class="label">spatial</th>
+<td class="value"><a href="http://bnb.data.bl.uk/id/place/Burma">Burma</a></td>
+<td class="filter"></td>
+</tr>
+</table></section>
+</div></div>
+<nav class="bottomnav"></nav><footer><div class="provenance"><div class=" query col1">
+<h2>Viewer</h2>
+<p>This is the SPARQL query that was generated to pull together the data that is provided about the selected item. You can modify it here and re-run the query but you may find more options at the <a href="http://bnb.data.bl.uk/sparql">endpoint's page</a>.</p>
+<form action="http://bnb.data.bl.uk/sparql" method="post">
+<textarea name="query" wrap="off" data-skip-lines="1">PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+CONSTRUCT { 
+    # constructing properties of http://bnb.data.bl.uk/id/resource/006893251 
+    &lt;http://bnb.data.bl.uk/id/resource/006893251&gt; ?var_1_0_prop ?var_1_0 .
+    ?var_1_0 rdfs:label ?var_1_1_0 .
+}  WHERE { 
+  # identifying properties of http://bnb.data.bl.uk/id/resource/006893251 
+  {
+    &lt;http://bnb.data.bl.uk/id/resource/006893251&gt; ?var_1_0_prop ?var_1_0 .
+    OPTIONAL { ?var_1_0 rdfs:label ?var_1_1_0 . }
+  } 
+}
+</textarea><p><button type="submit">Run Query</button></p>
+</form>
+</div></div>
+<p><img src="http://www.tso.co.uk/sites/all/themes/tso_corporate_website/logo.png" alt="TSO OpenUp Logo" class="talislogo">Hosted by <a href="http://openup.tso.co.uk">TSO OpenUp</a><br>Powered by <a href="http://code.google.com/p/puelia-php/">Puelia v0.9</a>, an implementation of the <a href="http://code.google.com/p/linked-data-api">Linked Data API</a><br><a href="http://www.axialis.com/free/icons">Icons</a> by <a href="http://www.axialis.com">Axialis Team</a><div class="clear"></div></p></footer>
+</div></body>
+</html>

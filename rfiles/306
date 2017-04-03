@@ -1,0 +1,24 @@
+
+<http://opendatacommunities.org/data/households/projections/totalhouseolds> <http://purl.org/dc/terms/modified> "2017-03-17T10:40:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a <http://publishmydata.com/def/dataset#Dataset> , <http://publishmydata.com/def/dataset#DeprecatedDataset> , <http://publishmydata.com/def/dataset#LinkedDataset> , <http://purl.org/linked-data/cube#DataSet> ;
+	<http://purl.org/dc/terms/title> "Household interim projections, 1991-2021 (1000s), England, District, Total" ;
+	<http://purl.org/dc/terms/publisher> <http://reference.data.gov.uk/id/department/dclg> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "The figures are based on the 2011-based interim sub-national population projections, published by the Office for National Statistics in September 2012. They replace the 2008-based household projections released in November 2010. " ;
+	<http://purl.org/dc/terms/issued> "2013-06-28T15:39:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Household interim projections, 1991-2021 (1000s), England, District, Total" ;
+	<http://purl.org/dc/terms/description> """These figures replace the 2008-based household projections released in November 2010. 
+
+The household projections are produced by applying projected household representative rates to the population projections published by the Office for National Statistics. Projected household representative rates are based on trends observed in Census and Labour Force Survey data. The assumptions underlying national household and population projections are demographic trend based. They are not forecasts as they do not attempt to predict the impact that future government policies, changing economic circumstances or other factors might have on demographic behaviour. They provide the household levels and structures that would result if the assumptions
+based on previous demographic trends in the population and rates of household formation were to be realised in practice
+
+This data is available for download as an [Excel spreadsheet](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/189965/AllTablesNonRegionalFinal__3_.xls)""" ;
+	<http://www.w3.org/ns/dcat#theme> <http://opendatacommunities.org/def/concept/folders/themes/households> ;
+	<http://publishmydata.com/def/dataset#graph> <http://opendatacommunities.org/graph/households/projections/totalhouseolds> ;
+	<http://purl.org/dc/terms/references> <http://opendatacommunities.org/help> ;
+	<http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/> ;
+	<http://rdfs.org/ns/void#sparqlEndpoint> <http://opendatacommunities.org/sparql> ;
+	<http://purl.org/dc/terms/isReplacedBy> <http://opendatacommunities.org/data/households/projections/households> ;
+	<http://publishmydata.com/def/dataset#contactEmail> <mailto:ODC@communities.gsi.gov.uk> ;
+	<http://publishmydata.com/def/ontology/folder/inFolder> <http://opendatacommunities.org/def/concept/folders/themes/households> ;
+	a <http://purl.org/linked-data/cube#DataSet> ;
+	<http://purl.org/linked-data/cube#structure> <http://opendatacommunities.org/def/structure/households/projections/totalhouseolds> .

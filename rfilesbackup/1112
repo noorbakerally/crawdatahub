@@ -1,0 +1,6 @@
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns1:	<http://data.nku.cz/resource/business-entity/> .
+@prefix ns2:	<http://linked.opendata.cz/resource/business-entity/> .
+ns1:CZ47216964	owl:sameAs	ns2:CZ47216964 .
+@prefix s:	<http://schema.org/> .
+<http://data.nku.cz/resource/business-entity/CZ47216964/ANTON%C3%8DN%20R%C3%9CCKL%20A%20SYNOV%C3%89%20s.r.o.%20SKL%C3%81RNA%20V%C4%8CELNI%C4%8CKA%2C%20V%C4%8Delni%C4%8Dka>	s:parentOrganization	ns1:CZ47216964 .

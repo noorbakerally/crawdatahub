@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37176"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37176">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovibos moschatus</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdfs:label>Wild muskox</rdfs:label>
+	<resource_description xmlns="http://eagle-i.org/ont/app/1.0/">Ruminant; used to study digestion, nutrition, and seasonal breeding.</resource_description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/resource_description">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Description</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource_description</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<synonym xmlns="http://eagle-i.org/ont/app/1.0/">Ovibos moschatus</synonym>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/app/1.0/synonym">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional Name</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eagle-i_synonym</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<ERO_0000021 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://alaska.eagle-i.net/i/0000012a-25c2-5ab6-76e0-f22c80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000021">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contact</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has contact</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_contact</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5ab6-76e0-f22c80000000">
+	<rdfs:label>Jack, Jason</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<ERO_0000543 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/ERO_0000689"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000543">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related Technique</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000689">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood sampling</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000543">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related technique</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related_technique</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000689">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood sampling</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<ERO_0000579 xmlns="http://purl.obolibrary.org/obo/">Breeding colony</ERO_0000579>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000579">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical or Environmental Source</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has source</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_source</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<ERO_0000571 xmlns="http://purl.obolibrary.org/obo/">Wild type</ERO_0000571>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000571">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parental Strain Name</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has parental strain name</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_parental_strain_name</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<ERO_0000572 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/GO_0007584"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000572">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological process studied</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007584">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Response to nutrient</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000572">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">used to study</IAO_0000111>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">used_to_study</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007584">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to nutrient</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<ERO_0000572 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://purl.obolibrary.org/obo/GO_0007586"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007586">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestion</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestion</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<ERO_0001836 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://alaska.eagle-i.net/i/0000013a-26e0-9a42-8c6e-73e480000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001836">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotype Findings</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001828">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotype</preferredLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001836">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_phenotype_annotation</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000013a-26e0-9a42-8c6e-73e480000000">
+	<rdfs:label>Normal phenotype</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001828">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotypic annotation</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000013a-26e0-9a42-8c6e-73e480000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001828"/>
+	<rdfs:label>Normal phenotype</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">information content entity</IAO_0000111>
+	<rdfs:label xml:lang="en">information content entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000013a-26e0-9a42-8c6e-73e480000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000144">
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">conclusion textual entity</IAO_0000111>
+	<rdfs:label xml:lang="en">conclusion textual entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000013a-26e0-9a42-8c6e-73e480000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000144"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000013a-26e0-9a42-8c6e-73e480000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000013a-26e0-9a42-8c6e-73e480000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+	<rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000013a-26e0-9a42-8c6e-73e480000000">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<RO_0001025 xmlns="http://purl.obolibrary.org/obo/" rdf:resource="http://alaska.eagle-i.net/i/0000012a-25c2-586d-76e0-f22c80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</preferredLabel>
+	<rdfs:label xml:lang="en">located_in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-586d-76e0-f22c80000000">
+	<rdfs:label>Animal Quarters  Core Laboratory</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+	<rdfs:label xml:lang="en">located in</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-07-30T18:49:11.321-05:00</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000">
+	<rdfs:label>ayork (Alison York)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-15T15:20:27.593-06:00</modified>
+	<hasWorkflowState xmlns="http://eagle-i.org/ont/repo/1.0/" rdf:resource="http://eagle-i.org/ont/repo/1.0/WFS_Published"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/hasWorkflowState">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">workflow state</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eagle-i.org/ont/repo/1.0/WFS_Published">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Published</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://alaska.eagle-i.net/i/0000012b-2181-b0bf-2931-88b580000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012b-2181-b0bf-2931-88b580000000">
+	<rdfs:label>nvasilevsky</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<mediator xmlns="http://purl.org/dc/terms/" rdf:resource="http://alaska.eagle-i.net/i/00000129-f7a3-fb2f-c931-f58f80000000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/00000129-f7a3-fb2f-c931-f58f80000000">
+	<rdfs:label>etl</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism or Virus</preferredLabel>
+	<IAO_0000111 xmlns="http://purl.obolibrary.org/obo/" xml:lang="en">organism</IAO_0000111>
+	<rdfs:label xml:lang="en">organism</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000985"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000985">
+	<preferredLabel xmlns="http://eagle-i.org/ont/app/1.0/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism</preferredLabel>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non viral organism</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7711"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7711">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chordata</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7742">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata &lt;Metazoa&gt;</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9845"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9845">
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruminantia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+	<rdfs:label xml:lang="en">material_entity</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+	<rdfs:label xml:lang="en">independent_continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+	<rdfs:label>continuant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+	<rdfs:label>entity</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

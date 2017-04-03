@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="/batches/batch_mohi_gordon_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_kocoum_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/504/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/123/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_calvin_ver03#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/awardees/mohi#awardee">
+    <foaf:name>State Historical Society of Missouri; Columbia, MO</foaf:name>
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Awardee"/>
+    <rdfs:isDefinedBy rdf:resource="/awardees/mohi.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_felice_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_boone_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/506/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_dred_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/784/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_jerome_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/488/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/521/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_archie_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/481/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/810/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/492/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_eadweard_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_flash_ver02#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/453/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/483/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/863/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/783/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/780/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_dagwood_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_marmaduke_ver02#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/525/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/897/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_henri_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_dorothea_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_ansel_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_kersee_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/788/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_hobbs_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_igoo_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_franklin_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/786/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/293/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/876/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/807/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_garfield_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/877/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/135/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_berenice_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_jughead_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/487/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/782/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_imogen_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/490/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/505/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/120/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/565/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/480/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/785/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_linus_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/809/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/489/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_ingalls_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_edwards_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_beetlebailey_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/115/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/122/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_gaines_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/454/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/116/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/455/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_hayden_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/534/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/845/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/526/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/878/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/520/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_angelou_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/524/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/482/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/523/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_cindy_ver02#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/519/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/518/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_carver_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/527/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/484/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_james_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/batches/batch_mohi_eeyore_ver01#batch">
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/787/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/808/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/879/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/781/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/essays/456/">
+    <rdf:type rdf:resource="http://chroniclingamerica.loc.gov/terms#Essay"/>
+    <dcterms:creator rdf:resource="/awardees/mohi#awardee"/>
+  </rdf:Description>
+</rdf:RDF>

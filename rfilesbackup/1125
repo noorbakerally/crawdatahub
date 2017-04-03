@@ -1,0 +1,9 @@
+@prefix ns0:	<http://linked.opendata.cz/ontology/sukl/> .
+<http://linked.opendata.cz/resource/it/aifa/medicinal-product-packaging/ACARBOSIO%20TECNIGEN>	ns0:hasMedicinalProductPackaging	<http://linked.opendata.cz/resource/it/aifa/medicinal-product-packaging/39716182> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://linked.opendata.cz/resource/it/aifa/medicinal-product-packaging/39716182>	rdf:type	ns0:MedicinalProductPackaging .
+@prefix ns2:	<http://linked.opendata.cz/resource/atc/> .
+<http://linked.opendata.cz/resource/it/aifa/medicinal-product-packaging/39716182>	ns0:hasATCCode	ns2:A10BF01 .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+<http://linked.opendata.cz/resource/it/aifa/medicinal-product-packaging/39716182>	skos:note	"40 UNITA' 100 MG - USO ORALE\"100 MG COMPRESSE\" 40 COMPRESSE IN BLISTER PVC/PCTFE/PVC/AL"@it ;
+	ns0:hasPriceSpecification	<http://linked.opendata.cz/resource/it/aifa/medicinal-product-packaging/39716182/15-07-2015> .

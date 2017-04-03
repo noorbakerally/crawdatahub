@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://status.hackerposse.com/user/218"></maker>
+  <primaryTopic rdf:resource="http://status.hackerposse.com/user/218"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://status.hackerposse.com/user/218">
+  <mbox_sha1sum>b37c4a2d1239782139c4b64f2abcfaf454ad88cf</mbox_sha1sum>
+  <weblog rdf:resource="http://status.hackerposse.com/dr"></weblog>
+  <account>
+   <OnlineAccount rdf:about="http://status.hackerposse.com/user/218#acct">
+    <accountServiceHomepage rdf:resource="http://status.hackerposse.com/"></accountServiceHomepage>
+    <accountName>dr</accountName>
+    <accountProfilePage rdf:resource="http://status.hackerposse.com/dr"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://status.hackerposse.com/user/218"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+</rdf:RDF>

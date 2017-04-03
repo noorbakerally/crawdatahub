@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:dbo="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:dbp="http://dbpedia.org/property/" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/J._R._R._Tolkien">
+    <dbo:notableWork rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_of_the_Rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jeffrey_Overstreet">
+    <dbo:influencedBy rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_Ring">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/JRR_Tolkien/The_Lord_of_the_Rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/LotR">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_Rings:_A_Reader&#39;s_Companion">
+    <dbo:nonFictionSubject rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+    <dbp:subject rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/LoTR">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_Rings_(Trilogy)">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_of_the_rigns">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lords_of_the_ring">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_Rings">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatBritishNovels" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Trio107986198" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Set107996689" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Trilogy107985825" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Fiction106367107" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Group100031264" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LiteraryComposition106364329" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Writing106362953" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Series108457976" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Ordering108456993" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatTrilogies" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Wikicat1950sFantasyNovels" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Communication100033020" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WrittenCommunication106349220" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatEnglishNovels" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatBritishFantasyNovels" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Arrangement107938773" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Wikicat1954Novels" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatSequelNovels" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Novel106367879" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Wikicat1955Novels" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Collection107951464" />
+    <rdfs:label xml:lang="pl">Władca Pierścieni</rdfs:label>
+    <rdfs:label xml:lang="en">The Lord of the Rings</rdfs:label>
+    <rdfs:label xml:lang="zh">魔戒</rdfs:label>
+    <rdfs:label xml:lang="pt">O Senhor dos Anéis</rdfs:label>
+    <rdfs:label xml:lang="de">Der Herr der Ringe</rdfs:label>
+    <rdfs:label xml:lang="ru">Властелин колец</rdfs:label>
+    <rdfs:label xml:lang="ar">سيد الخواتم</rdfs:label>
+    <rdfs:label xml:lang="ja">指輪物語</rdfs:label>
+    <rdfs:label xml:lang="fr">Le Seigneur des anneaux</rdfs:label>
+    <rdfs:label xml:lang="it">Il Signore degli Anelli</rdfs:label>
+    <rdfs:label xml:lang="es">El Señor de los Anillos</rdfs:label>
+    <rdfs:label xml:lang="nl">In de ban van de ring</rdfs:label>
+    <rdfs:comment xml:lang="nl">In de ban van de ring, oorspronkelijke titel The Lord of the Rings, is een fantasy-werk geschreven door de taalkundige en universitair professor J.R.R. Tolkien. Het verhaal begon als een vervolg voor Tolkiens eerdere, minder complexe kinderboek De Hobbit (1937), maar groeide uit tot een veel groter werk. Het werd in fasen geschreven tussen 1937 en 1949, waarvan veel tijdens de Tweede Wereldoorlog. Tolkien werd mogelijk beïnvloed door de door hem bewonderde E. R. Eddison.</rdfs:comment>
+    <rdfs:comment xml:lang="pl">Władca Pierścieni (ang. The Lord of the Rings) – powieść high fantasy J.R.R. Tolkiena, której akcja rozgrywa się w mitologicznym świecie Śródziemia.Jest ona kontynuacją innej powieści tego autora zatytułowanej Hobbit, czyli tam i z powrotem.</rdfs:comment>
+    <rdfs:comment xml:lang="en">The Lord of the Rings is an epic high-fantasy novel written by English author J. R. R. Tolkien. The story began as a sequel to Tolkien&#39;s 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is the best-selling novel ever written, with over 150 million copies sold.</rdfs:comment>
+    <rdfs:comment xml:lang="ja">『指輪物語』（ゆびわものがたり、原題：The Lord of the Rings）は、イギリスのJ・R・R・トールキンによる長編小説。妖精や魔法使いが国家を築き、戦争を繰り広げる架空の世界を舞台としたハイ・ファンタジー作品である。初期作品『ホビットの冒険』の続編として始まるが、より大きな物語になった。1937年から1949年にかけて少しずつ書かれたが、執筆期間の大部分は第二次世界大戦中であった。最初の版は1954年から1955年にかけて3巻本として出版された。以来多くの言語に翻訳され、増刷を重ね、20世紀文学で最もポピュラーな作品の一つになった。</rdfs:comment>
+    <rdfs:comment xml:lang="de">Der Herr der Ringe (englischer Originaltitel: The Lord of the Rings) ist ein Roman von John Ronald Reuel Tolkien. Er gehört zu den kommerziell erfolgreichsten Romanen des 20. Jahrhunderts, ist ein Klassiker der Fantasy-Literatur und gilt als grundlegendes Werk der High Fantasy. Im englischen Original in drei Teilen in den Jahren 1954/1955 veröffentlicht, erschien die erste deutsche Übersetzung 1969/1970. Weltweit wurde der Roman etwa 150 Millionen Mal verkauft.Der Roman diente als Vorlage für zahlreiche Adaptionen, darunter eine mit 17 Oscars prämierte Filmtrilogie (2001–2003).</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le Seigneur des anneaux (The Lord of the Rings) est un roman en trois volumes de J. R. R. Tolkien paru en 1954 et 1955.L&#39;histoire reprend certains des personnages présentés dans Le Hobbit, premier roman de l&#39;auteur paru en 1937, mais l&#39;œuvre est plus complexe et plus sombre. Tolkien entreprend sa rédaction à la demande de son éditeur, Allen &amp; Unwin, à la suite du succès critique et commercial du Hobbit. Il lui faut douze ans pour parvenir à achever ce nouveau roman qu&#39;il truffe de références et d&#39;allusions au monde du Silmarillion, la Terre du Milieu, sur lequel il travaille depuis 1917 et dans lequel Le Hobbit a été attiré « contre l&#39;intention première » de son auteur.</rdfs:comment>
+    <rdfs:comment xml:lang="ru">«Властели́н коле́ц» (англ. The Lord of the Rings) — роман-эпопея английского писателя Дж. Р. Р. Толкина, одно из самых известных произведений жанра фэнтези. «Властелин колец» был написан как единая книга, но из-за объёма при первом издании его разделили на три части: «Братство Кольца», «Две крепости» и «Возвращение короля». В виде трилогии он публикуется и по сей день, хотя часто в едином томе.«Властелин колец» является одной из самых известных и популярных книг XX века.</rdfs:comment>
+    <rdfs:comment xml:lang="pt">O Senhor dos Anéis (título original em inglês: The Lord of the Rings) é uma trilogia de livros de alta fantasia escrita pelo escritor britânico J. R. R. Tolkien. A saga começa como sequência de um livro anterior de Tolkien, O Hobbit, e logo se desenvolve numa história muito maior. Foi escrito entre 1937 e 1949, com muitas partes criadas durante a Segunda Guerra Mundial. Embora Tolkien tenha planejado realizá-lo em volume único, foi originalmente publicado em três volumes (The Fellowship of the Ring, The Two Towers e The Return of the King) entre 1954 e 1955, e foi assim, em três volumes, que se tornou popular. Desde então foi reimpresso várias vezes e foi traduzido para mais de 40 línguas, e vendeu mais 160 milhões de cópias, tornando-se um dos trabalhos mais populares da literatura do séc</rdfs:comment>
+    <rdfs:comment xml:lang="ar">هذا المقال عن رواية سيد الخواتم إذا كنت تبحث عن فيلم سيد الخواتم أنظر سيد الخواتم (سينما).سيد الخواتم (بالإنجليزية: The Lord of the Rings) رواية خيالية ملحمة خارقة كتبها البريطاني ج. ر. ر. تولكين على نمط الرواية فانتازية.بدأت كتتمة لكتابه السابق الهوبيت ثم تطورت إلى قصة أكبر بكثير، كُتبت على مراحل بين 1937 و1949، وكثير منها كُتب خلال الحرب العالمية الثانية.</rdfs:comment>
+    <rdfs:comment xml:lang="es">El Señor de los Anillos (título original en inglés: The Lord of the Rings) es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien.Su historia se desarrolla en la Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas como los hobbits, los elfos o los enanos, así como por muchas otras criaturas reales y fantásticas. La novela narra el viaje del protagonista principal, el hobbit Frodo Bolsón, para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, el Señor oscuro Sauron.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il Signore degli Anelli (titolo originale in inglese: The Lord of the Rings) è un romanzo high fantasy epico scritto da John Ronald Reuel Tolkien e ambientato alla fine della Terza Era dell&#39;immaginaria Terra di Mezzo. Scritto a più riprese tra il 1937 e il 1949, fu pubblicato in tre volumi tra il 1954 e il 1955. Tradotto in trentotto lingue, con decine di riedizioni ciascuna, resta una delle più popolari opere letterarie del XX secolo.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/The_Fellowship_of_the_Ring" />
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/The_Return_of_the_King" />
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/The_Two_Towers" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+    <owl:sameAs rdf:resource="http://el.dbpedia.org/resource/Ο_Άρχοντας_των_Δαχτυλιδιών" />
+    <owl:sameAs rdf:resource="http://cs.dbpedia.org/resource/Pán_prstenů" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.07bz5" />
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/resource/Il_Signore_degli_Anelli" />
+    <owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q15228" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/The_Lord_of_the_Rings" />
+    <owl:sameAs rdf:resource="http://eu.dbpedia.org/resource/Eraztunen_Jauna" />
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/resource/Władca_Pierścieni" />
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/指輪物語" />
+    <owl:sameAs rdf:resource="http://ko.dbpedia.org/resource/반지의_제왕" />
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/Le_Seigneur_des_anneaux" />
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/resource/Der_Herr_der_Ringe" />
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q15228" />
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/El_Señor_de_los_Anillos" />
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/In_de_ban_van_de_ring" />
+    <owl:sameAs rdf:resource="http://yago-knowledge.org/resource/The_Lord_of_the_Rings" />
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/resource/O_Senhor_dos_Anéis" />
+    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/The_Lord_of_the_Rings?oldid=707826199" />
+    <dbo:abstract xml:lang="pt">O Senhor dos Anéis (título original em inglês: The Lord of the Rings) é uma trilogia de livros de alta fantasia escrita pelo escritor britânico J. R. R. Tolkien. A saga começa como sequência de um livro anterior de Tolkien, O Hobbit, e logo se desenvolve numa história muito maior. Foi escrito entre 1937 e 1949, com muitas partes criadas durante a Segunda Guerra Mundial. Embora Tolkien tenha planejado realizá-lo em volume único, foi originalmente publicado em três volumes (The Fellowship of the Ring, The Two Towers e The Return of the King) entre 1954 e 1955, e foi assim, em três volumes, que se tornou popular. Desde então foi reimpresso várias vezes e foi traduzido para mais de 40 línguas, e vendeu mais 160 milhões de cópias, tornando-se um dos trabalhos mais populares da literatura do século XX. Um Anel, é o elemento central da saga, ou estória de uma antiguidade remota da Inglaterra, onde em rúnico pode ler-se: &quot;Um Anel para todos governar, Um Anel para encontrá-los, Um Anel para a todos trazer e na escuridão aprisioná-los&quot;. Palavras em contínuo tanto na parte de dentro do anel, como na parte externa do anel, isso se apresenta no início do livro, na apresentação da trilogia, no original em primeira edição em Inglês, onde os vilões pelo próprio porte do anel se auto - destroem, segundo o autor, inspirado na Bíblia. A primeira edição em português, publicada no Brasil pela extinta editora Artenova do Rio de Janeiro — com a tradução de Antônio Rocha e Alberto Monjardim —, era constituída por seis volumes (tendo sido cada um dos três livros da série dividido em dois tomos, vendidos separadamente). Eram intitulados &quot;Terra Mágica&quot;, &quot;O Povo do Anel&quot; (que formavam A Sociedade do Anel), &quot;As Duas Torres&quot;, &quot;A Volta do Anel&quot; (que formavam As Duas Torres), &quot;O Cerco de Gondor&quot; e &quot;O Retorno do Rei&quot; (que fechavam a série formando o terceiro e último volume original, O Retorno do Rei). Todos esses seis livros foram lançados no país entre 1974 e 1979. A segunda edição em português foi editada e publicada em Portugal durante os anos 1980, pela editora Europa América, com os três volumes em separado. Uma terceira e por hora a última edição em língua portuguesa foi realizada pela brasileira editora Martins Fontes em 1991 e publicada em 1994. Nessa nova edição, a Martins Fontes corrigiu o &quot;erro&quot; da editora anterior em publicar seis tomos, unindo-os como publicado originalmente na Grã-Bretanha, sob os mesmos títulos, devidamente traduzidos. A história de O Senhor dos Anéis ocorre num tempo e espaço imaginário, a Terceira Era da Terra Média, que é um mundo inspirado na Terra real, mais especificamente, segundo Tolkien, numa Europa mitológica, habitado por Humanos e por outras raças: Elfos, Anões, Hobbits e Orcs. Tolkien deu o nome a esse lugar a palavra do inglês moderno, Middle-earth (Terra-Média), derivado do inglês antigo, Middangeard, o reino onde humanos vivem na mitologia Nórdica e Germânica. O próprio Tolkien disse que pretendia ambientá-la na nossa Terra, aproximadamente 6.000 anos atrás, embora a correspondência com a geografia e a história do mundo real fosse frágil. A história narra o conflito contra o mal que se alastra pela Terra-média, através da luta de várias raças - Humanos, Anões, Elfos, Ents e Hobbits - contra Orcs, para evitar que o &quot;Anel do Poder&quot; volte às mãos de seu criador Sauron, o Senhor do Escuro. Partindo dos primórdios tranquilos do Condado, a história muda através da Terra-média e segue o curso da Guerra do Anel através dos olhos de seus personagens, especialmente do protagonista, Frodo Bolseiro. A história principal é seguida por seis apêndices que fornecem uma riqueza do material de fundo histórico e linguístico. Juntamente com outras obras de Tolkien, O Senhor dos Anéis foi objeto de extensiva análise de seus temas e origens literárias. Embora um grande trabalho tenha sido feito, a história é meramente o resultado de uma mitologia na qual Tolkien trabalhava desde 1917. As influências sobre este antigo trabalho e sobre a história do Senhor dos Anéis englobam desde elementos de filologia, mitologia, industrialização e religião até antigos trabalhos de fantasia, bem como as experiências de Tolkien na Primeira Guerra Mundial (1914-18), da qual participara. O Senhor dos Anéis teve um efeito grande na fantasia moderna, e o impacto de trabalhos de Tolkien é tal que o uso das palavras &quot;Tolkienian&quot; e &quot;Tolkienesque&quot; (&quot;Tolkieniano&quot; e &quot;Tolkienesco&quot;, na forma aportuguesada) ficou gravado no dicionário Oxford English Dictionary. A enorme e permanente popularidade de O Senhor dos Anéis levou a numerosas referências na cultura popular, à criação de muitas sociedades de fãs da obra de Tolkien e à publicação de muitos ensaios sobre Tolkien e seu trabalho. O Senhor dos Anéis inspirou (e continua inspirando) trabalhos de arte, a música, cinema e televisão, videogames e uma literatura paralela. O cineasta estadunidense George Lucas admitiu em uma entrevista que sua saga cinematrográfica Star Wars, foi inspirada na saga de Tolkien. Adaptações do livro foram feitas para rádio, teatro e cinema. Em 2001 – 2003 foi lançada a trilogia de filmes O Senhor dos Anéis (The Lord of the Rings), que se tornou um grande sucesso de bilheteria em todo o mundo, expondo de forma significativa e sem precedentes o trabalho do autor ao grande público, que acabou por renovar o seu contingente de fãs e admiradores e promover uma explosão de interesse pelo O Senhor dos Anéis, bem como por outras obras de Tolkien.</dbo:abstract>
+    <dbo:abstract xml:lang="ru">«Властели́н коле́ц» (англ. The Lord of the Rings) — роман-эпопея английского писателя Дж. Р. Р. Толкина, одно из самых известных произведений жанра фэнтези. «Властелин колец» был написан как единая книга, но из-за объёма при первом издании его разделили на три части: «Братство Кольца», «Две крепости» и «Возвращение короля». В виде трилогии он публикуется и по сей день, хотя часто в едином томе.«Властелин колец» является одной из самых известных и популярных книг XX века. Он переведён по меньшей мере на 38 языков. Эта книга оказала огромное влияние на литературу в жанре фэнтези, на настольные и компьютерные игры, на кинематограф и вообще на мировую культуру. Большим успехом пользовалась и экранизация книги, созданная режиссёром Питером Джексоном.</dbo:abstract>
+    <dbo:abstract xml:lang="en">The Lord of the Rings is an epic high-fantasy novel written by English author J. R. R. Tolkien. The story began as a sequel to Tolkien&#39;s 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is the best-selling novel ever written, with over 150 million copies sold. The title of the novel refers to the story&#39;s main antagonist, the Dark Lord Sauron, who had in an earlier age created the One Ring to rule the other Rings of Power as the ultimate weapon in his campaign to conquer and rule all of Middle-earth. From quiet beginnings in the Shire, a hobbit land not unlike the English countryside, the story ranges across Middle-earth, following the course of the War of the Ring through the eyes of its characters, the hobbits Frodo Baggins, Samwise &quot;Sam&quot; Gamgee, Meriadoc &quot;Merry&quot; Brandybuck and Peregrin &quot;Pippin&quot; Took, but also the hobbits&#39; chief allies and travelling companions: the Men Aragorn son of Arathorn, a Ranger of the North, and Boromir, a Captain of Gondor; Gimli son of Glóin, a Dwarf warrior; Legolas Greenleaf, an Elven prince; and Gandalf, a Wizard. The work was initially intended by Tolkien to be one volume of a two-volume set, the other to be The Silmarillion, but this idea was dismissed by his publisher. For economic reasons The Lord of the Rings was published in three volumes over the course of a year from 29 July 1954 to 20 October 1955. The three volumes were titled The Fellowship of the Ring, The Two Towers, and The Return of the King. Structurally, the novel is divided internally into six books, two per volume, with several appendices of background material included at the end of the third volume. Some editions combine the entire work into a single volume. The Lord of the Rings has since been reprinted numerous times and translated into 38 languages. Tolkien&#39;s work has been the subject of extensive analysis of its themes and origins. Although a major work in itself, the story was only the last movement of a larger epic Tolkien had worked on since 1917, in a process he described as mythopoeia.[citation needed] Influences on this earlier work, and on the story of The Lord of the Rings, include philology, mythology, religion and the author&#39;s distaste for the effects of industrialization, as well as earlier fantasy works and Tolkien&#39;s experiences in World War I. These inspirations and themes have often been denied by Tolkien himself. The Lord of the Rings in its turn is considered to have had a great effect on modern fantasy; the impact of Tolkien&#39;s works is such that the use of the words &quot;Tolkienian&quot; and &quot;Tolkienesque&quot; have been recorded in the Oxford English Dictionary. The enduring popularity of The Lord of the Rings has led to numerous references in popular culture, the founding of many societies by fans of Tolkien&#39;s works, and the publication of many books about Tolkien and his works. The Lord of the Rings has inspired, and continues to inspire, artwork, music, films and television, video games, and subsequent literature. Award-winning adaptations of The Lord of the Rings have been made for radio, theatre, and film. In 2003, it was named Britain&#39;s best-loved novel of all time in the BBC&#39;s The Big Read.</dbo:abstract>
+    <dbo:abstract xml:lang="it">Il Signore degli Anelli (titolo originale in inglese: The Lord of the Rings) è un romanzo high fantasy epico scritto da John Ronald Reuel Tolkien e ambientato alla fine della Terza Era dell&#39;immaginaria Terra di Mezzo. Scritto a più riprese tra il 1937 e il 1949, fu pubblicato in tre volumi tra il 1954 e il 1955. Tradotto in trentotto lingue, con decine di riedizioni ciascuna, resta una delle più popolari opere letterarie del XX secolo. La narrazione comincia dove si era interrotto un precedente romanzo di Tolkien, Lo Hobbit, e l&#39;autore usa lo stratagemma dello pseudobiblium per collegare le due storie: nella fictio della storia, entrambi i romanzi sono in realtà una trascrizione di un volume immaginario, il Libro Rosso dei Confini Occidentali, un&#39;autobiografia scritta a quattro mani da Bilbo Baggins, protagonista di Lo Hobbit, e da Frodo, il protagonista del Signore degli Anelli. Questo secondo romanzo, tuttavia, si inserisce in un&#39;ambientazione di più ampio respiro rispetto a quella del primo, costretto dai limiti della favola per bambini, attingendo a quel vasto corpus storico, mitologico e linguistico creato ed elaborato dall&#39;autore nel corso di tutta la sua vita. Il Signore degli Anelli narra della missione di nove Compagni, la Compagnia dell&#39;Anello, partiti per distruggere il più potente Anello del Potere, un&#39;arma che renderebbe invincibile il suo malvagio creatore Sauron se tornasse nelle sue mani, dandogli il potere di dominare tutta la Terra di Mezzo. Il romanzo, composto da tre volumi, ha esercitato nel tempo un profondo influsso culturale e mediatico, ottenendo attenzioni e apprezzamenti sia da parte di critici, autori e studiosi, sia da parte di semplici appassionati, che hanno dato vita a innumerevoli gruppi e associazioni culturali, come le varie società tolkieniane, sparse in tutto il mondo. La trilogia ha ispirato e continua ad ispirare, libri, videogiochi, illustrazioni, fumetti, composizioni musicali, ed è stato adattato più volte per la radio, il teatro ed il cinema, come nel caso della famosa trilogia di film diretti da Peter Jackson.</dbo:abstract>
+    <dbo:abstract xml:lang="nl">In de ban van de ring, oorspronkelijke titel The Lord of the Rings, is een fantasy-werk geschreven door de taalkundige en universitair professor J.R.R. Tolkien. Het verhaal begon als een vervolg voor Tolkiens eerdere, minder complexe kinderboek De Hobbit (1937), maar groeide uit tot een veel groter werk. Het werd in fasen geschreven tussen 1937 en 1949, waarvan veel tijdens de Tweede Wereldoorlog. Tolkien werd mogelijk beïnvloed door de door hem bewonderde E. R. Eddison. Hoewel de lezers van tegenwoordig de serie kennen als een trilogie, werd het verhaal door Tolkien oorspronkelijk als één geheel beschouwd. Het was Tolkiens bedoeling om het samen met De Silmarillion uit te geven. Maar vanwege economische redenen – papier was in die tijd schaars en duur, en dat maakte een integrale editie tot een groot risico voor de uitgever – ging Tolkien akkoord met het voorstel van zijn uitgever om The Lord of the Rings in drie delen te splitsen. In 1954-55 werden alle drie de delen uitgegeven. De delen werden opeenvolgend als volgt getiteld: De reisgenoten (The Fellowship of the Ring), De twee torens (The Two Towers) en De terugkeer van de koning (The Return of the King). Structureel gezien is het werk in zes &#39;boeken&#39; verdeeld, twee per deel, samen met verschillende appendices en achtergrondinformatie die zijn opgenomen op het einde van het derde deel. The Lord of the Rings werd sinds de jaren 50 verschillende keren herdrukt en vertaald in meerdere talen, zodat het al spoedig een van de meest populaire en invloedrijkste werken van de 20ste eeuw wat betreft fantastische literatuur. De titel van het werk verwijst naar de Zwarte Heerser Sauron, die in een vroegere era de Ene Ring creëerde om op die manier de andere Ringen van Macht te regeren. Het verhaal doorkruist vanaf de Gouw heel het westen van Midden-aarde tot aan het land Mordor. Het verhaal wordt verteld vanuit het perspectief van de hobbits Frodo Balings, Sam Gewissies, Meriadoc Brandebok en Peregrijn Toek, maar ook door dat van Aragorn (een Doler), Gimli (een dwerg), Legolas (een elf) en Gandalf (een tovenaar). Tolkiens werk werd al vele keren gebruikt als onderwerp voor analyses over welke bronnen er aan de basis van lagen en de thema&#39;s die erin gebruikt worden. Hoewel het werk op zichzelf staat, is het verhaal slechts het laatste stuk van een nog groter werk waar Tolkien aan werkte sinds 1917 en dat hij tijdens zijn leven omschreef als een mythopoeia. Eigenlijk was hij steeds bezig met het vormgeven van Midden-aarde, waar al zijn verhalen zich afspeelden. Invloed voor The Lord of the Rings kwam onder andere van theologie en mythologie, maar ook van religie en de afkeer van de schrijver van de modernisering en industrialisatie van de wereld; ook zijn eigen ervaringen tijdens de Eerste Wereldoorlog, waarin hij o.a. meevocht in de Slag aan de Somme en veel van zijn vrienden van voor die oorlog sneuvelden, hebben in de totstandkoming van het werk een rol gespeeld. Tolkiens fascinatie voor de Engelse taal heeft daarnaast een belangrijke rol gespeeld. De volkeren in The Lord of the Rings spreken ieder een eigen taal. Met name de taal der Elfen, het Quenya, is door Tolkien voorzien van een uitgebreide grammatica en woordenschat. The Lord of the Rings heeft een groot effect gehad op de moderne fantastische literatuur; de impact van Tolkiens werk heeft woorden als Tolkienian en Tolkienesque doen opnemen in de Oxford English Dictionary. De voortdurende populariteit van The Lord of the Rings heeft geleid tot diverse verwijzingen in de cultuur van sommige landen, de oprichting van verenigingen voor fans van Tolkiens werk, en de publicatie van boeken over Tolkien en zijn schrijfsels. The Lord of the Rings heeft zowel kunst, muziek, films als televisie en video-games geïnspireerd, maar bovenal literatuur. In 1978 verscheen een eerste verfilming onder regie van Ralph Bakshi. In de periode 2001-2003 werd de trilogie als geheel verfilmd door Peter Jackson, waarmee het een van de meest winstgevende franchiseketens aller tijden werd.</dbo:abstract>
+    <dbo:abstract xml:lang="ja">『指輪物語』（ゆびわものがたり、原題：The Lord of the Rings）は、イギリスのJ・R・R・トールキンによる長編小説。妖精や魔法使いが国家を築き、戦争を繰り広げる架空の世界を舞台としたハイ・ファンタジー作品である。初期作品『ホビットの冒険』の続編として始まるが、より大きな物語になった。1937年から1949年にかけて少しずつ書かれたが、執筆期間の大部分は第二次世界大戦中であった。最初の版は1954年から1955年にかけて3巻本として出版された。以来多くの言語に翻訳され、増刷を重ね、20世紀文学で最もポピュラーな作品の一つになった。</dbo:abstract>
+    <dbo:abstract xml:lang="ar">هذا المقال عن رواية سيد الخواتم إذا كنت تبحث عن فيلم سيد الخواتم أنظر سيد الخواتم (سينما).سيد الخواتم (بالإنجليزية: The Lord of the Rings) رواية خيالية ملحمة خارقة كتبها البريطاني ج. ر. ر. تولكين على نمط الرواية فانتازية.بدأت كتتمة لكتابه السابق الهوبيت ثم تطورت إلى قصة أكبر بكثير، كُتبت على مراحل بين 1937 و1949، وكثير منها كُتب خلال الحرب العالمية الثانية. نُشرت في الأساس في ثلاث مجلدات في العامين 1954 و1955، وأعيد طبعها منذ ذلك الحين مرات كثيرة، كما تُرجمت إلى العديد من لغات العالم والأن تترجم إلى اللغة العربية، لتصبح واحدة من أكثر الأعمال الأدبية انتشاراً في القرن العشرين.تقع أحداث سيد الخواتم في أرض تدعى الأرض الوسطى. تحكي القصة عن شعوب مثل الهوبيت، البشر والأقزام والسحرة والأورك والآلف وغيرها، وتتمحور حول خاتم السلطة الذي صنعه سيد الظلام سورون. تتقدم القصة بدءاً من المقاطعة، عبر الأرض الوسطى متتبعة حملات حرب الخاتم. تتبع القصة الرئيسية ستة ملحقات تزود القارئ بخلفية لغوية وتاريخية مهمة حول الأحداث.ومع أعمال تولكين الآخرى، حُللت ثيمات سيد الخواتم وأصولها بشكل مكثف رغم أن القصة نفسها هي بالكاد الحركة الأخيرة في سلسلة ميثولوجية أكبر، أو بناء أسطوري عمل عليه تولكين لسنوات عديدة ابتداء من 1917. التأثيرات على أعماله السابقة، وسيد الخواتم تتضمن: اللسانيات، الميثولوجيا، والدين، وتحوي تجربته خلال الحرب العالمية الأولى. وسيد الخواتم أثرت بدورها على الأعمال الفانتازية الحديثة، وامتد تأثير أعمال تولكين إلى درجة أن الاستخدام المتكرر لكلمات مثل: التولكينية، والنمط التولكيني أدخلها قاموس أوكسفورد للغة الإنجليزية.أدت شعبية سيد الخواتم الهائلة والثابتة إلى عدد هائل من الإشارات في الثقافة الشعبية، ونشر عدد كبير من الكتب عن توكين وأعماله. ألهمت سيد الخواتم (ولا تزال تُلهِم) قصصاً قصيرة، ألعاب فيديو، أعمالاً فنية وموسيقية، وعدد هائل من الأعمال المستمدة من عالم تولكين في وسائل الإعلام المختلفة، وإنتاجات سيد الخواتم على وجه التحديد كانت للإذاعة، والمسرح، والأفلام، وأدى إطلاق ثلاثية سيد الخواتم السينمائية إلى موجة اهتمام عارمة بسيد الخواتم وأعمال تولكين الأخرى.</dbo:abstract>
+    <dbo:abstract xml:lang="de">Der Herr der Ringe (englischer Originaltitel: The Lord of the Rings) ist ein Roman von John Ronald Reuel Tolkien. Er gehört zu den kommerziell erfolgreichsten Romanen des 20. Jahrhunderts, ist ein Klassiker der Fantasy-Literatur und gilt als grundlegendes Werk der High Fantasy. Im englischen Original in drei Teilen in den Jahren 1954/1955 veröffentlicht, erschien die erste deutsche Übersetzung 1969/1970. Weltweit wurde der Roman etwa 150 Millionen Mal verkauft. Der Roman steht vor dem Hintergrund einer von Tolkien sein Leben lang entwickelten Fantasiewelt (Tolkiens Welt). Er erzählt die Geschichte eines Rings, mit dessen Vernichtung die böse Macht in Gestalt des dunklen Herrschers Sauron untergeht. Die Hauptfiguren sind vier Hobbits, die unfreiwillig in ein heroisches Abenteuer hineingezogen werden. Neben diesen spielen als Vertreter des Guten Elben, Menschen des Nordens und Westens, Zwerge und Zauberer wichtige Rollen. Ihre Gegenspieler sind die Geschöpfe und Untertanen Saurons, die Orks, Trolle und Menschen des Ostens und Südens. Der Roman diente als Vorlage für zahlreiche Adaptionen, darunter eine mit 17 Oscars prämierte Filmtrilogie (2001–2003).</dbo:abstract>
+    <dbo:abstract xml:lang="pl">Władca Pierścieni (ang. The Lord of the Rings) – powieść high fantasy J.R.R. Tolkiena, której akcja rozgrywa się w mitologicznym świecie Śródziemia. Jest ona kontynuacją innej powieści tego autora zatytułowanej Hobbit, czyli tam i z powrotem.</dbo:abstract>
+    <dbo:abstract xml:lang="fr">Le Seigneur des anneaux (The Lord of the Rings) est un roman en trois volumes de J. R. R. Tolkien paru en 1954 et 1955. L&#39;histoire reprend certains des personnages présentés dans Le Hobbit, premier roman de l&#39;auteur paru en 1937, mais l&#39;œuvre est plus complexe et plus sombre. Tolkien entreprend sa rédaction à la demande de son éditeur, Allen &amp; Unwin, à la suite du succès critique et commercial du Hobbit. Il lui faut douze ans pour parvenir à achever ce nouveau roman qu&#39;il truffe de références et d&#39;allusions au monde du Silmarillion, la Terre du Milieu, sur lequel il travaille depuis 1917 et dans lequel Le Hobbit a été attiré « contre l&#39;intention première » de son auteur. C&#39;est une des œuvres fondamentales de la littérature dite de fantasy, terme que Tolkien explicite dans son essai Du conte de fées de 1939. Tolkien lui-même considérait son livre comme « un conte de fées [...] pour des adultes », écrit « pour amuser (au sens noble) : pour être agréable à lire ». Cette œuvre est composée de six livres, qui ne portent pas de titres. À l&#39;origine, Tolkien souhaite publier Le Seigneur des anneaux en un seul volume, mais le prix du papier étant trop élevé en cette période d&#39;après-guerre, l&#39;œuvre est divisée en trois volumes : La Fraternité de l&#39;Anneau (The Fellowship of the Ring), Les Deux Tours (The Two Towers) et Le Retour du roi (The Return of the King). Il est souvent fait référence à cette œuvre comme à « la trilogie du Seigneur des anneaux », terme techniquement incorrect car l&#39;œuvre fut écrite et conçue d&#39;un seul tenant. Néanmoins, Tolkien lui-même reprend dans ses lettres, de temps à autre, le terme de « trilogie » lorsqu&#39;il est employé par ses correspondants.</dbo:abstract>
+    <dbo:abstract xml:lang="es">El Señor de los Anillos (título original en inglés: The Lord of the Rings) es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien. Su historia se desarrolla en la Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas como los hobbits, los elfos o los enanos, así como por muchas otras criaturas reales y fantásticas. La novela narra el viaje del protagonista principal, el hobbit Frodo Bolsón, para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, el Señor oscuro Sauron. J. R. R. Tolkien planeó El Señor de los Anillos como una secuela de su anterior novela El hobbit, pero terminó por convertirse en una historia de mucho más alcance y extensión que, escrita por etapas entre 1937 y 1949, se publicó por primera vez en el Reino Unido entre 1954 y 1955 en tres volúmenes. Desde entonces ha sido reimpresa en numerosas ocasiones y traducida a muchos idiomas, convirtiéndose en una de las obras más populares de la literatura del siglo XX. Además, ha sido adaptada en varias ocasiones a la radio, al teatro y al cine, destacando principalmente la trilogía cinematográfica creada por el cineasta neozelandés Peter Jackson. La historia que narra la novela es sólo la última parte de una mitología que J. R. R. Tolkien comenzó en 1917, cuando se encontraba en el hospital tras haber caído enfermo durante la Primera Guerra Mundial y en la que estuvo trabajando el resto de su vida. Junto con estos otros escritos, El Señor de los Anillos ha sido objeto de multitud de aproximaciones críticas sobre sus orígenes, influencias y temas literarios. Su duradera popularidad ha dado lugar además a numerosas referencias en la cultura popular, la fundación de sociedades por muchos fans de los trabajos de J. R. R. Tolkien y la publicación de muchos otros libros sobre el autor y sus obras.</dbo:abstract>
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/The_Lord_of_the_Rings" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:British_fantasy_novels" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:British_novels_adapted_into_films" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:BILBY_Award_winning_works" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:English_novels" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Prometheus_Award_winning_works" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:1954_novels" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Sequel_novels" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Epic_novels" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Fantasy_books_by_series" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:1950s_fantasy_novels" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:The_Lord_of_the_Rings" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Category:Allen_&amp;_Unwin_books" />
+    <dbo:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29798</dbo:wikiPageID>
+    <dbo:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">707826199</dbo:wikiPageRevisionID>
+    <dbo:wikiPageExternalLink rdf:resource="http://www.houghtonmifflinbooks.com/features/lordoftheringstrilogy/" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.glyphweb.com/arda/" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.tolkien.co.uk" />
+    <dbo:wikiPageExternalLink rdf:resource="http://www.tolkienlibrary.com" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Hunt_for_Gollum">
+    <dbo:basedOn rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lucifer_Chu">
+    <dbo:notableWork rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Fellowship_of_the_Ring">
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Hobbit">
+    <dbo:subsequentWork rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+    <dbp:followedBy rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_of_the_rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_lord_of_the_rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tolkienesque">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vladimir_Muravyov_(translator)">
+    <dbo:knownFor rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_Of_The_Rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lords_of_the_Ring">
+    <owl:differentFrom rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/LR">
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/List_of_Middle-earth_wars_and_battles">
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_Rings_(disambiguation)">
+    <dbo:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Works_inspired_by_J._R._R._Tolkien">
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_Rings_trilogy">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Return_of_the_King">
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Two_Towers">
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/TLOTR">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/TLotR">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_Of_The_Rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Paul_Genesse">
+    <dbo:influencedBy rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Minority_criticisms_of_The_Lord_of_the_Rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Minority_criticisms_of_the_Lord_of_the_Rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_Rings_Trilogy">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_of_The_Rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Andrey_Kistyakovsky">
+    <dbo:knownFor rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_of_the_rings_book">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_The_Rings">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_lord_of_the_ring">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Their_taking_the_hobbits_to_isengard">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/They&#39;re_taking_the_hobbits_to_isengard">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/They_taking_the_hobbits_to_isengard">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lord_of_the_Rings_(novel)">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_of_the_ring">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/There_taking_the_hobbits_to_isengard">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_of_the_Ring">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lord_of_the_Rings_trilogy">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Council_of_Elrond">
+    <dbo:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/The_Lord_of_the_Rings">
+    <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/The_Lord_of_the_Rings" />
+  </rdf:Description>
+</rdf:RDF>

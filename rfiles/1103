@@ -1,0 +1,100 @@
+@prefix agent: <http://data.odw.tw/agent/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <http://data.odw.tw/record/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gns: <http://sws.geonames.org/> .
+@prefix project: <http://data.odw.tw/project/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix r4r: <http://guava.iis.sinica.edu.tw/r4r/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix voc: <http://voc.odw.tw/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://catalog.digitalarchives.tw/item/00/2f/6e/f1.html> a voc:CatalogRecord,
+        dcat:Catalog,
+        prov:Revision ;
+    cc:license <http://creativecommons.org/licenses/by-nc-sa/2.5/> ;
+    data:digiArchiveID "DC2764001"^^rdf:PlainLiteral ;
+    data:objectID "3108593"^^rdf:PlainLiteral ;
+    schema:associatedMedia <http://vcenter.iis.sinica.edu.tw/swf/ndap_player.swf?id=DC2764001&fn=DL_001_0001> ;
+    prov:atLocation <http://sws.geonames.org/7280290> ;
+    prov:generatedAtTime "2007-11-23 17:32:24"^^rdf:PlainLiteral ;
+    prov:hadPrimarySource <http://haa.chibs.edu.tw/haaweb/webpages/Dalai_Lama/Dalai_Lama.htm#middling> ;
+    prov:value "內容主題:影音:西藏珍藏語音檔案"@zh,
+        "典藏機構與計畫:公開徵選計畫:中華佛學研究所:數位典藏多媒體檔案之研究與建置-西藏珍藏語音檔案研究計畫"@zh ;
+    prov:wasGeneratedBy project:q21159849 .
+
+data:p20160530-d3108593 a data:Provenance,
+        r4r:Provenance,
+        prov:Activity ;
+    r4r:isPackagedWith data:d3108593 ;
+    prov:atLocation <http://sws.geonames.org/6728700> ;
+    prov:endedAtTime "2016-05-31T09:20:23.356040+08:00"^^xsd:DateTime ;
+    prov:startedAtTime "2016-05-31T09:20:23.350753+08:00"^^xsd:DateTime ;
+    prov:wasAssociatedWith <http://data.odw.tw>,
+        agent:q20872470 ;
+    prov:wasStartedBy <http://catalog.digitalarchives.tw/item/00/2f/6e/f1.html> .
+
+<http://haa.chibs.edu.tw/haaweb/webpages/Dalai_Lama/Dalai_Lama.htm#middling> a voc:PrimarySource,
+        prov:PrimarySource .
+
+<http://vcenter.iis.sinica.edu.tw/swf/ndap_player.swf?id=DC2764001&fn=DL_001_0001> a dct:MediaTypeOrExtent ;
+    rdfs:comment "Multimedia"@en .
+
+<http://creativecommons.org/licenses/by-nc-sa/2.5/> a cc:License,
+        dct:RightsStatement ;
+    rdfs:label "CC2.5:BY-NC-SA"@en ;
+    rdfs:comment "MetaDesc license"@en .
+
+data:d3108593 a data:Reused,
+        r4r:RRObject,
+        dcat:Dataset ;
+    r4r:hasLicense <http://creativecommons.org/licenses/by-nc-sa/2.5/> ;
+    r4r:hasProvenance data:p20160530-d3108593 ;
+    r4r:locateAt data:d3108593 ;
+    dc:coverage "Spatial: Tibet"^^rdf:PlainLiteral,
+        "Temporal: 14th-15th century"^^rdf:PlainLiteral ;
+    dc:creator "Author: tsong kha pa/Dzong-ka-ba/宗喀巴 (1357-1419）"^^rdf:PlainLiteral,
+        "Speaker: His Holiness Tenzin Gyatso (bstan-dzin-rgya-mtsho, 1935~) the Fourteenth Dalai Lama"^^rdf:PlainLiteral ;
+    dc:date "Recording Date: 1972"^^rdf:PlainLiteral ;
+    dc:description "AcquireMethod：Donated by Jeffrey Hopkins"^^rdf:PlainLiteral,
+        "Notes：An encyclopedic reference work on the Stages of the Path to Enlightenment."^^rdf:PlainLiteral,
+        "Recording Location: Dharmsala, India"^^rdf:PlainLiteral,
+        "原資料庫網頁（Mp3WebPage）：http://haa.chibs.edu.tw/haaweb/webpages/Dalai_Lama/Dalai_Lama.htm#middling"^^rdf:PlainLiteral,
+        "原音下載網址（Mp3URL）：http://haa.chibs.edu.tw/voice/Dalai_Lama/DL_001_Middling_Stages_of_the_Path/DL_001_0001.mp3"^^rdf:PlainLiteral ;
+    dc:format "AudioBitRate：128 Kbps"^^rdf:PlainLiteral,
+        "Duration：02:02:24"^^rdf:PlainLiteral,
+        "FileDesc：u: preserve"^^rdf:PlainLiteral,
+        "FileName：DL_001_0001.mp3"^^rdf:PlainLiteral,
+        "FileSize：114,761 Kb"^^rdf:PlainLiteral,
+        "FileType：mp3"^^rdf:PlainLiteral,
+        "Medium：56: digital file"^^rdf:PlainLiteral,
+        "Quantity：1 file"^^rdf:PlainLiteral,
+        "SampleRate：44.1 KHz"^^rdf:PlainLiteral,
+        "SingleStereo：single"^^rdf:PlainLiteral ;
+    dc:identifier "DL_001_0001"^^rdf:PlainLiteral ;
+    dc:language "Tibetan"^^rdf:PlainLiteral ;
+    dc:publisher "Donator: Jeffrey Hopkins"^^rdf:PlainLiteral ;
+    dc:relation "IsBasedOn: Dzong-ka-pa, \"Medium Exposition of the Stages of the Path to Enlightenment\" "^^rdf:PlainLiteral,
+        "IsBasisFor: Jeffrey Hopkins, \"Dzong-ka-ba's Middling Exposition of the Stages of the Path\" (Unpublished translation)"^^rdf:PlainLiteral ;
+    dc:rights "AccessRestriction: nonprofit, for education and research"^^rdf:PlainLiteral,
+        "DigiCopyCollocations: Dharma Drum Mountain, Taipei"^^rdf:PlainLiteral,
+        "DigiCopyOwners: Jeffrey Hopkins | Chung-hwa Institue of Buddhist Studies"^^rdf:PlainLiteral,
+        "HolderName: Jeffrey Hopkins"^^rdf:PlainLiteral,
+        "OriginalProvider: Jeffrey Hopkins"^^rdf:PlainLiteral ;
+    dc:source "Hopkins' archive"^^rdf:PlainLiteral ;
+    dc:subject "Keywords: lam rim 'bring/Medium Exposition of the Stages of the Path to Enlightenment/菩提道次第略論"^^rdf:PlainLiteral,
+        "Sect: dge lugs pa/Ge-lug-ba/Gelukpa/格魯"^^rdf:PlainLiteral,
+        "SubjectMatter: Graduated stages of the Buddhist path to enlightenment according to Tibetan and Indian traditions "^^rdf:PlainLiteral,
+        "西藏"^^rdf:PlainLiteral ;
+    dc:title "DL_001_0001, His Holiness the 14th Dalai Lama on Dzong-ka-ba, \"Medium Exposition of the Stages of the Path to Enlightenment\" 略論"^^rdf:PlainLiteral ;
+    dc:type "voice"^^rdf:PlainLiteral ;
+    dcat:themeTaxonomy data:Multimedia ;
+    prov:hadPrimarySource voc:CatalogRecord ;
+    prov:wasGeneratedBy project:q21095860 .
+

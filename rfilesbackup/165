@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:map="file:/home/oktie/workspace/linkedct/d2r-server/d2r-server-0.7/initial-linkedct-live.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/spec/#term_"
+    xmlns:db="http://linkedct.org/resource/"
+    xmlns:umbel="http://umbel.org/umbel/sc/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:linkedct="http://linkedct.org/vocab/"
+    xmlns:j.0="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00755040">
+    <linkedct:trial_condition>
+      <linkedct:condition rdf:about="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders">
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00004258displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00004232displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003082displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00005852displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00002504displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00005967displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00669578displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct01653028displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00296023displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct01305200displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00104975displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00301912displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00806767displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00049634displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003887displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00068523displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00935090displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00424242displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00750009displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003816displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00651716displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00054236displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003687displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00010283displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct01077440displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00002742displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00066417displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00053989displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00004904displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00064311displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00800150displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00782145displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00293410displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00993694displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00513474displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00290641displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct01164163displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct01137825displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00813501displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00005622displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00006367displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00109993displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00245128displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00719563displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00096096displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00453206displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00080925displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00082654displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00691015displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00053157displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00281879displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00900406displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00324324displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00069992displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00755040displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00437086displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003619displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00036790displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00726830displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00004181displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00255684displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00006348displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00530218displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00666211displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct01137643displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00770419displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00036712displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00132015displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00900120displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00816413displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00346359displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00290628displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00005797displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00376922displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct01116232displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003107displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00410657displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00005641displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00544115displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00516503displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00445900displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00900068displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00946283displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00964821displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00004036displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00433862displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00104923displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00014482displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00089037displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00823524displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00448357displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00042900displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00900055displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct02556931displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003331displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00716911displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00114257displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00438958displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00245037displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003406displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003408displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00293384displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00295997displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00002980displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00253552displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00381693displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00004239displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00589563displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00952185displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00054340displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00630994displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00005805displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00004058displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00899951displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct01101412displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00134004displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00006379displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00281801displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00589602displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00670917displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00448201displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00255710displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00281814displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00005804displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003451displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00006083displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00003600displayxmltrue"/>
+        <rdfs:label>Chronic Myeloproliferative Disorders</rdfs:label>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00002792displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00274820displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00062231displayxmltrue"/>
+        <linkedct:has_provenance rdf:resource="http://linkedct.org/resource/provenance/httpclinicaltrialsgovshownct00951626displayxmltrue"/>
+      </linkedct:condition>
+    </linkedct:trial_condition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00899951">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00004181">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct01137825">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00064311">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00346359">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00066417">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00134004">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00274820">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00900406">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00132015">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00104923">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00448357">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00290641">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00104975">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00381693">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003887">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00005797">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00630994">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00114257">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00806767">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00255684">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00296023">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00993694">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00002980">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct01101412">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00513474">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00295997">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct01653028">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00002504">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00716911">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00004058">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00433862">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00054340">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00253552">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003107">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00900055">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003600">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00589602">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003406">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00281801">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00516503">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00036712">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00054236">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00900068">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct01116232">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00770419">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/data/condition/chronic-myeloproliferative-disorders">
+    <rdfs:comment>Linked Clinical Trials Data is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 2.5 Canada License: http://creativecommons.org/licenses/by-nc-sa/2.5/ca/. Refer to http://linkedct.org for more details. The original data is obtained from Clinicaltrials.gov (http://clinicaltrials.gov). Using this data is subject to Clinicaltrials.gov's Terms and Conditions available at http://www.clinicaltrials.gov/ct2/info/terms.</rdfs:comment>
+    <rdfs:label>RDF Description of Chronic Myeloproliferative Disorders</rdfs:label>
+    <j.0:primaryTopic rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003687">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00005622">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00005852">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00006367">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00006379">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00691015">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00281814">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00410657">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00750009">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00096096">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00782145">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00042900">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00002792">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00004258">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00053989">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct01305200">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00089037">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003619">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00006083">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00438958">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct01137643">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00036790">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00453206">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00281879">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00324324">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00823524">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00006348">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00068523">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00589563">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00109993">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003331">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00069992">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00004239">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct01164163">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00255710">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00080925">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003816">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00666211">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003408">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00005805">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00301912">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00005967">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00544115">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00951626">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00293384">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00445900">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00935090">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003451">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00003082">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct01077440">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00669578">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00290628">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00004232">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00424242">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00816413">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00245037">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00002742">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct02556931">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00900120">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00437086">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00813501">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00010283">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00005641">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00004904">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00293410">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00964821">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00800150">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00952185">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00082654">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00670917">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00005804">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00014482">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00651716">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00049634">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00726830">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00053157">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00719563">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00946283">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00062231">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00376922">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00530218">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00004036">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00448201">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://linkedct.org/resource/trial/nct00245128">
+    <linkedct:trial_condition rdf:resource="http://linkedct.org/resource/condition/chronic-myeloproliferative-disorders"/>
+  </rdf:Description>
+</rdf:RDF>

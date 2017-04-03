@@ -1,0 +1,17 @@
+
+<http://opendatacommunities.org/data/transparency/impact-indicators/troubled-families/2012-12-31> a <http://opendatacommunities.org/def/ontology/transparency/ImpactIndicatorReport> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Percentage of Troubled Families local authorities have identified and are committed to working with, 2012-12-31" ;
+	<http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/data/transparency/impact-indicators/troubled-families> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> 53 ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <http://qudt.org/vocab/unit#Percent> ;
+	<http://opendatacommunities.org/def/ontology/geography/refArea> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> ;
+	<http://opendatacommunities.org/def/ontology/time/refPeriod> <http://reference.data.gov.uk/id/day/2012-12-31> ;
+	<http://opendatacommunities.org/def/ontology/transparency/indicator> <http://opendatacommunities.org/def/concept/transparency/impact-indicator/troubled-families> ;
+	a <http://opendatacommunities.org/def/ontology/transparency/ImpactIndicatorReport> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Percentage of Troubled Families local authorities have identified and are committed to working with, 2012-12-31" ;
+	<http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/data/transparency/impact-indicators/troubled-families> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> 53 ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <http://qudt.org/vocab/unit#Percent> ;
+	<http://opendatacommunities.org/def/ontology/geography/refArea> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> ;
+	<http://opendatacommunities.org/def/ontology/time/refPeriod> <http://reference.data.gov.uk/id/day/2012-12-31> ;
+	<http://opendatacommunities.org/def/ontology/transparency/indicator> <http://opendatacommunities.org/def/concept/transparency/impact-indicator/troubled-families> .

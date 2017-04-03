@@ -1,0 +1,1400 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xmlns:og="http://ogp.me/ns#">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>B&#225;sicos de Internet. The Internet Services Disruption. Ray Ozzie - Next Web - GNOSS</title>
+
+    <link id="IMGfavicon" rel="shortcut icon" type="image/ico" />
+
+    
+  
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/reset.css?v=2.3.1711a20170320" />
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/header.css?v=2.3.1711a20170320" />
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/theme.css?v=2.3.1711a20170320" />
+<link media="screen" type="text/css" rel="stylesheet" href="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/layout.css?v=2.3.1711a20170320" />
+
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/gnoss.css?v=2.3.1711a20170320" />
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/print.css?v=2.3.1711a20170320" />
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/jquery.autocomplete.css?v=2.3.1711a20170320" />
+    
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/cssNuevo/riam.css?v=2.3.1711a20170320" />
+
+
+
+
+<link media="screen" type="text/css" rel="stylesheet" href="https://static2.gnoss.com/lang/es/idioma.css?v=2.3.1711a20170320" />
+<link media="screen" type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link media="screen" type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nunito|Open Sans:300,400,600,700&amp;subset=latin" />
+
+
+<!-- PERSONALIZACION TEMA -->
+
+<link media="screen" type="text/css" rel="stylesheet" href="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/libraries/selectBox/css/jquery.selectbox.css?v=225" />
+
+<!-- BOOTSTRAP -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- MATERIALIZE -->
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link media="screen" type="text/css" rel="stylesheet" href="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/materialize.css?v=225" />
+
+<!-- AWESOME -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- PERSONALIZACION TEMA -->
+
+<link media="screen" type="text/css" rel="stylesheet" href="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/theme.css?v=225" />
+
+<!-- PERSONALIACION COMUNIDAD -->
+
+    <link media="screen" type="text/css" rel="stylesheet" href="http://content.gnoss.com/imagenes/proyectos/personalizacion/f03794ff-1a79-409c-a6b2-7e32e373c689/community.css?v=225" />
+
+
+
+    
+
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/jquery.min.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/jquery.ui.core.min.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/jquery.ui.datepicker.min.js?v=2.3.1711a20170320"></script>
+
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/global.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/custom.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/ejemplosUso.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/busquedas.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/opcionesDestacadasMenuLateral.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/WS.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/listToSelect.jquery.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/jMsAjax.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsNuevo/jquery.gnoss.utils.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsNuevo/jquery.gnoss.apply.js?v=2.3.1711a20170320"></script>
+
+<script type="text/javascript" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/libraries/jquery.autocomplete.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsNuevo/jquery.gnoss.header.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsNuevo/waypoints.min.js?v=2.3.1711a20170320"></script>
+
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/MVC.FichaDocumento.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/MVC.FichaPerfil.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/MVC.Registro.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/MVC.Comun.js?v=2.3.1711a20170320"></script>
+<script type="text/javascript" src="https://static2.gnoss.com/jsUnificar/MVC.ComAdmin.js?v=2.3.1711a20170320"></script>
+
+<script type="text/javascript" src="https://static2.gnoss.com/lang/es/text.js?v=2.3.1711a20170320"></script>
+
+
+
+
+<!-- MASONRY -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+
+<!-- PERSONALIZACION SELECTORES -->
+
+<script type="text/javascript" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/libraries/selectBox/js/jquery.selectbox-0.2.js?v=225"></script>
+
+<!-- MATERIALIZE -->
+
+<script type="text/javascript" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/materialize.js?v=225"></script>
+
+<!-- BOOTSTRAP -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<!-- HIGHLIGHT -->
+
+<script type="text/javascript" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/libraries/highlight/highlight.js?v=225"></script>
+
+<!-- PERSONALIZACION CONFIG.JS -->
+
+<script type="text/javascript" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/config.js?v=225"></script>
+
+<!-- PERSONALIZACION TEMA -->
+
+<script type="text/javascript" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/Ecosistema_GNOSS/Theme/theme.js?v=225"></script>
+
+<!-- PERSONALIACION COMUNIDAD -->
+
+
+
+    <script type="text/javascript" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/f03794ff-1a79-409c-a6b2-7e32e373c689/community.js?v=225"></script>
+
+    <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker = _gat._getTracker("UA-10859712-1");pageTracker._trackPageview();pageTracker._setDomainName('.gnoss.com');} catch(err) {}</script>
+
+
+
+
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="robots" content="all" />
+        <meta name="description" content="Es interesante revisar este documento de Ray Ozzie, ahora que, seg&#250;n ha confirmado Steve Ballmer, &#233;ste abandona sus responsabilidades en la definici&#243;n..." />
+        <meta name="og:description" content="Es interesante revisar este documento de Ray Ozzie, ahora que, seg&#250;n ha confirmado Steve Ballmer, &#233;ste abandona sus responsabilidades en la definici&#243;n..." />
+        <meta name="twitter:description" content="Es interesante revisar este documento de Ray Ozzie, ahora que, seg&#250;n ha confirmado Steve Ballmer, &#233;ste abandona sus responsabilidades en la definici&#243;n..." />
+        <meta name="og:title" content="B&#225;sicos de Internet. The Internet Services Disruption. Ray Ozzie" />
+        <meta name="twitter:title" content="B&#225;sicos de Internet. The Internet Services Disruption. Ray Ozzie" />
+        <meta name="og:url" content="http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" />
+        <meta name="twitter:url" content="http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" />
+        <meta name="og:image" content="http://content.gnoss.com/imagenesEnlaces/ab/ab56/ab5607ee-f404-4b80-8ce5-dcefe1a445b7/ab5607ee-f404-4b80-8ce5-dcefe1a445b7.jpg?1" />
+        <meta name="twitter:image" content="http://content.gnoss.com/imagenesEnlaces/ab/ab56/ab5607ee-f404-4b80-8ce5-dcefe1a445b7/ab5607ee-f404-4b80-8ce5-dcefe1a445b7.jpg?1" />
+        <meta name="og:site_name" content="Next Web: web 3.0, web sem&#225;ntica y el futuro de internet" />
+        <meta name="twitter:site" content="@nextwebgnoss" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:domain" content="http://red.gnoss.com/comunidad/nextweb" />
+
+
+
+        <link href="http://red.gnoss.com/en/community/nextweb/resource/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" rel="canonical" />
+
+        <link href="http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="es" rel="alternate" />
+        <link href="http://red.gnoss.com/en/community/nextweb/resource/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="en" rel="alternate" />
+        <link href="http://red.gnoss.com/pt/comunidade/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="pt" rel="alternate" />
+        <link href="http://red.gnoss.com/ca/comunitat/nextweb/recurs/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="ca" rel="alternate" />
+        <link href="http://red.gnoss.com/eu/komunitatea/nextweb/baliabidea/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="eu" rel="alternate" />
+        <link href="http://red.gnoss.com/gl/comunidade/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="gl" rel="alternate" />
+        <link href="http://red.gnoss.com/fr/communaute/nextweb/ressource/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="fr" rel="alternate" />
+        <link href="http://red.gnoss.com/de/gemeinde/nextweb/ressource/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="de" rel="alternate" />
+        <link href="http://red.gnoss.com/it/comunita/nextweb/risorsa/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7" hreflang="it" rel="alternate" />
+
+</head>
+
+<body class="layout03 fichaComunidad fichaRecurso comGnoss facetasBar  invitado">
+    <form method="post" target="_blank" action="" name="formularioHidden" id="formularioHidden">
+        <fieldset style="display: none">
+            <legend class="nota">formularioHidden</legend>
+                <input type="hidden" id="inpt_proyID" class="inpt_proyID" value="f03794ff-1a79-409c-a6b2-7e32e373c689" />
+                <input type="hidden" id="inpt_usuarioID" class="inpt_usuarioID" value="ffffffff-ffff-ffff-ffff-ffffffffffff" />
+                <input type="hidden" id="inpt_bool_esMyGnoss" class="inpt_bool_esMyGnoss" value="True" />
+                <input type="hidden" id="inpt_bool_estaEnProyecto" class="inpt_bool_estaEnProyecto" value="False" />
+                <input type="hidden" id="inpt_bool_esUsuarioInvitado" class="inpt_bool_esUsuarioInvitado" value="True" />
+                <input type="hidden" id="inpt_perfilID" class="inpt_perfilID" value="ffffffff-ffff-ffff-ffff-ffffffffffff" />
+                <input type="hidden" id="inpt_identidadID" class="inpt_identidadID" value="FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF" />
+                <input type="hidden" id="inpt_perfilOrgID" class="inpt_perfilOrgID" value="00000000-0000-0000-0000-000000000000" />
+                <input type="hidden" id="inpt_Cookies" class="inpt_Cookies" value="True" />
+                <input type="hidden" id="inpt_Idioma" class="inpt_Idioma" value="es" />
+                <input type="hidden" id="inpt_baseUrlBusqueda" class="inpt_baseUrlBusqueda" value="http://red.gnoss.com/comunidad/nextweb" />
+                <input type="hidden" id="inpt_baseURL" class="inpt_baseURL" value="http://red.gnoss.com" />
+                <input type="hidden" id="inpt_baseURLContent" class="inpt_baseURLContent" value="http://content.gnoss.com" />
+                <input type="hidden" id="inpt_baseURLStatic" class="inpt_baseURLStatic" value="https://static2.gnoss.com" />
+                <input type="hidden" id="inpt_tablaPropiaAutoCompletar" class="inpt_tablaPropiaAutoCompletar" value="False" />
+                <input type="hidden" id="inpt_organizacionID" class="inpt_organizacionID" value="11111111-1111-1111-1111-111111111111" />
+                <input type="hidden" id="inpt_AdministradorOrg" class="inpt_AdministradorOrg" value="False" />
+                <input type="hidden" id="inpt_UrlLogin" class="inpt_UrlLogin" value="https://login2.gnoss.com/login.aspx?token=Xu17Pv7RFL6EKfa3cscc9SNqn8g%252bVJMzNq0S653n%252bO8%253d&amp;proyectoID=f03794ff-1a79-409c-a6b2-7e32e373c689" />
+                <input type="hidden" id="inpt_FacetasProyAutoCompBuscadorCom" class="inpt_FacetasProyAutoCompBuscadorCom" value="sioc_t:Tag|gnoss:hasnombrecompleto|foaf:firstName" />
+                <input type="hidden" id="inpt_tipoBusquedaAutoCompl" class="inpt_tipoBusquedaAutoCompl" value="" />
+                <input type="hidden" id="inpt_usarMasterParaLectura" class="inpt_usarMasterParaLectura" value="False" />
+                <input type="hidden" id="inpt_UrlServicioFacetas" class="inpt_UrlServicioFacetas" value="http://facetasred.gnoss.com/CargadorFacetas" />
+                <input type="hidden" id="inpt_UrlServicioResultados" class="inpt_UrlServicioResultados" value="http://resultadosred.gnoss.com/CargadorResultados,http://resultadosred2.gnoss.com/CargadorResultados,http://resultadosred3.gnoss.com/CargadorResultados,http://resultadosred4.gnoss.com/CargadorResultados,http://resultadosred5.gnoss.com/CargadorResultados" />
+                <input type="hidden" id="inpt_UrlServicioContextos" class="inpt_UrlServicioContextos" value="http://resultadoshome.gnoss.com/CargadorContextoMensajes" />
+                <input type="hidden" id="inpt_urlServicioAutocompletar" class="inpt_urlServicioAutocompletar" value="http://autocompletar.gnoss.com/AutoCompletar.asmx" />
+                <input type="hidden" id="inpt_urlServicioAutocompletarEtiquetas" class="inpt_urlServicioAutocompletarEtiquetas" value="http://autocompletarred.gnoss.com/AutoCompletarEtiquetas.asmx" />
+                <input type="hidden" id="inpt_urlEtiquetadoAutomatico" class="inpt_urlEtiquetadoAutomatico" value="http://etiquetado.gnoss.com/EtiquetadoAutomatico.asmx" />
+                <input type="hidden" id="inpt_serverTime" class="inpt_serverTime" value="2017/04/02 01:31" />
+                <input type="hidden" id="inpt_tipo" class="inpt_tipo" value="tipoBusquedaAutoCompl" />
+                <input type="hidden" id="inpt_MantenerSesionActiva" class="inpt_MantenerSesionActiva" value="True" />
+                <input type="hidden" id="recurso_id" class="recurso_id" value="ab5607ee-f404-4b80-8ce5-dcefe1a445b7" />
+                <input type="hidden" id="recurso_modification_date" class="recurso_modification_date" value="2011/07/26 14:19" />
+            <input type="submit" style="display: none;" id="enviarHidden" value="enviar" title="enviar" />
+        </fieldset>
+    </form>
+
+    <form method="post" target="_blank" action="" name="formularioRDF" id="formularioRDF">
+        <fieldset style="display: none">
+            <legend class="nota">formularioRDF</legend>
+            <input type="text" style="display: none;" title="query" name="query" id="query" />
+            <input type="text" style="display: none;" title="pagina" name="pagina" id="pagina" />
+            <input type="submit" style="display: none;" id="rdfHack" value="enviar" title="enviar" />
+        </fieldset>
+    </form>
+
+    <div style="width: 100px; height: 100px; position: absolute; display: none; left: 0px; top: 0px; z-index: 2000" class="popup">
+        <div class="preloader-wrapper active">
+            <div class="spinner-layer spinner-red-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                    <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: none; z-index: 1999; width: 100%; top: 0px; left: 0px; position: absolute; height: 2900px;" id="mascaraBlanca"></div>
+
+    <div class="aaCabecera">
+
+
+    <div id="header" class="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+            <div class="headerTop" id="headerTop">
+
+                <div class="mainNav input-group" id="mainNav">
+
+                    <i class="mdi-navigation-menu input-group-btn"></i>
+
+                        <div class="logoCustomRIAM input-group-btn">
+                            <a rel="listado-gnoss" class="enlaceDesplegable" href="http://red.gnoss.com/comunidad/nextweb">
+                                <p>
+
+                                    <span>Next Web</span>
+
+                                    </p>
+
+                                            <p class="small">
+                                                <span>
+Comunidad <strong>pública de acceso restringido</strong>                                                </span>
+                                            </p>
+                            </a>
+                        </div>
+                </div>
+
+                <div class="container input-group">
+
+                    <div class="desplegarFacetas input-group-btn">
+                        <span class="icono facetas "><i class="fa fa-sort-amount-desc"></i></span>
+                    </div>
+
+                            <div id="buscador" class="buscador input-group-btn">
+                                <form method="post" id="formBuscador" action="http://red.gnoss.com/comunidad/nextweb/recurso/Basicos-de-Internet-The-Internet-Services-Disrupt/ab5607ee-f404-4b80-8ce5-dcefe1a445b7">
+                                    <fieldset style="display: block">
+                                        <div class="fieldsetGroup ambitoBusqueda">
+                                            <select class="ddlCategorias custom" id="ddlCategorias">
+                                                        <option value="MyGNOSSMeta">Todo GNOSS</option>
+                                                        <option value="4575b05f-deb8-41a0-ba87-78d58308f304" selected="selected">Toda la comunidad</option>
+                                                        <option value="2c304c2a-6571-45f4-8b99-2006829b633e">Recursos</option>
+                                                        <option value="0aa84954-e3ef-45e1-8b32-9248afd60019">Debates</option>
+                                                        <option value="c2ab111d-8c77-4b63-b034-9d839ef3440e">Preguntas</option>
+                                                        <option value="a759dcef-3418-4bc9-af49-5d407969ff02">Encuestas</option>
+                                                        <option value="79a9dd9b-4590-4908-8b9c-9608dbcda14c">Personas y organizaciones</option>
+                                            </select>
+                                                <input type="hidden" value="ub_MyGNOSSMeta@http://red.gnoss.com/comunidad/nextweb/busqueda?search=" class="inpt_tipo_busqueda" />
+                                                <input type="hidden" value="ub_4575b05f-deb8-41a0-ba87-78d58308f304@http://red.gnoss.com/comunidad/nextweb/busqueda?search=" class="inpt_tipo_busqueda" />
+                                                <input type="hidden" value="ub_2c304c2a-6571-45f4-8b99-2006829b633e@http://red.gnoss.com/comunidad/nextweb/recursos?search=" class="inpt_tipo_busqueda" />
+                                                <input type="hidden" value="ub_0aa84954-e3ef-45e1-8b32-9248afd60019@http://red.gnoss.com/comunidad/nextweb/debates?search=" class="inpt_tipo_busqueda" />
+                                                <input type="hidden" value="ub_c2ab111d-8c77-4b63-b034-9d839ef3440e@http://red.gnoss.com/comunidad/nextweb/preguntas?search=" class="inpt_tipo_busqueda" />
+                                                <input type="hidden" value="ub_a759dcef-3418-4bc9-af49-5d407969ff02@http://red.gnoss.com/comunidad/nextweb/encuestas?search=" class="inpt_tipo_busqueda" />
+                                                <input type="hidden" value="ub_79a9dd9b-4590-4908-8b9c-9608dbcda14c@http://red.gnoss.com/comunidad/nextweb/personas-y-organizaciones?search=" class="inpt_tipo_busqueda" />
+                                                                                                <input type="hidden" value="oa_2c304c2a-6571-45f4-8b99-2006829b633e@Recursos" class="inpt_OrigenAutocompletar" />
+                                                    <input type="hidden" value="oa_0aa84954-e3ef-45e1-8b32-9248afd60019@Debates" class="inpt_OrigenAutocompletar" />
+                                                    <input type="hidden" value="oa_c2ab111d-8c77-4b63-b034-9d839ef3440e@Preguntas" class="inpt_OrigenAutocompletar" />
+                                                    <input type="hidden" value="oa_a759dcef-3418-4bc9-af49-5d407969ff02@Encuestas" class="inpt_OrigenAutocompletar" />
+                                                    <input type="hidden" value="oa_79a9dd9b-4590-4908-8b9c-9608dbcda14c@PerYOrg" class="inpt_OrigenAutocompletar" />
+                                        </div>
+                                        <span class="textoAmbitoBusqueda">Ambito de la b&#250;squeda</span>
+                                        <!-- #buscador //-->
+                                        <div class="fieldsetGroup searchGroup input-group">
+                                            <span class="desplegarFacetas input-group-btn">
+                                                <i class="fa fa-sort-amount-desc"></i>
+                                            </span>
+
+                                            <div class="selectorAmbito input-group-btn">
+                                                <div class="ambitoActivo">
+                                                    <p class="literalFijo">Buscar en </p>
+                                                    <p class="itemActivo"> </p>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </div>
+                                                <div class="listadoAmbitos">
+                                                    <ul>
+                                                        <li class="itemCerrar">Ambito de b&#250;squeda <i class="material-icons mdi-navigation-close"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="textoBusquedaPrincipalInput input-group-btn">
+                                                <input type="text" id="txtBusquedaPrincipal" class="text txtBusqueda autocompletar" placeholder='&#191;Qu&#233; quieres encontrar?' />
+                                                <input type="button" title="Encontrar" class="encontrar" id="btnBuscarPrincipal" />
+                                            </div>
+
+                                            <label for="criterio" class="nota">Buscar en &nbsp;</label>                                            
+                                            <span class="botonBuscadorMaquetar input-group-btn"><i class="fa fa-search"></i></span>
+                                            <span class="botonBuscarMovil"><i class="fa fa-search"></i></span>
+                                        </div>
+
+                                        <!-- #buscador //-->
+                                        <div class="botonBuscar"></div>
+                                        <input type="submit" style="display: none;" id="enviarFormBuscador" value="enviar" title="enviar" />
+                                    </fieldset>
+                                </form>
+                            </div>
+
+
+                    <div class="iconoCerrar input-group-btn">
+                        <span class="icono cerrar "></span>
+                    </div>
+                </div>
+
+                <div class="userNav" id="userNav">
+
+                        <div class="iniciarSesion">
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-lock"></i><i class="fa fa-unlock"></i><span>Iniciar sesi&#243;n</span></a>
+                        </div>
+
+                </div>
+
+            </div>
+
+            <div class="headerBottom" id="headerBottom">
+                <div class="container">
+                    
+                        <div id="nav">
+                            <ul class="principal">
+
+    <li class="nivel01  navHomeCom">
+        <a href="http://red.gnoss.com/comunidad/nextweb">Home</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/indice">&#205;ndice</a>
+    </li>
+    <li class="nivel01  activo">
+        <a href="http://red.gnoss.com/comunidad/nextweb/recursos">Recursos</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/debates">Debates</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/preguntas">Preguntas</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/encuestas">Encuestas</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/personas-y-organizaciones">Personas y organizaciones</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/acerca-de">Acerca de</a>
+    </li>
+
+
+                            </ul>
+
+                            <span class="botonDesplegar dropdown-toggle" id="dropdownMenuParcial" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-ellipsis-h"></i></span>
+                            <div class="dropdown-menuParcial" aria-labelledby="dropdownMenuParcial">
+                                <ul></ul>
+                            </div>
+
+                        </div>
+
+                </div>
+            </div>
+            <div class="headerInformacion">
+                <div class="container">
+                    <span class="filtrar">
+                        <i class="material-icons">sort</i>
+                    </span>
+                </div>
+            </div>
+
+        </nav>
+
+
+            <div class="portadaCabecera">
+                <div class="mascaraPortada"></div>
+
+                <div class="barraInformacion">
+                    <div class="container">
+                        <p class="nombreComunidad">Next Web</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="menuPortadaCabecera">
+                    <div id="navPortada">
+                        <div class="container">
+                            <ul class="principal">
+
+    <li class="nivel01  navHomeCom">
+        <a href="http://red.gnoss.com/comunidad/nextweb">Home</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/indice">&#205;ndice</a>
+    </li>
+    <li class="nivel01  activo">
+        <a href="http://red.gnoss.com/comunidad/nextweb/recursos">Recursos</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/debates">Debates</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/preguntas">Preguntas</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/encuestas">Encuestas</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/personas-y-organizaciones">Personas y organizaciones</a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/acerca-de">Acerca de</a>
+    </li>
+
+
+                            </ul>
+
+                            <span class="botonDesplegar dropdown-toggle" id="dropdownMenuParcial" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-ellipsis-h"></i></span>
+                            <div class="dropdown-menuParcial" aria-labelledby="dropdownMenuParcial">
+                                <div class="pico"></div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+
+
+    </div>
+
+</div>
+
+
+
+    <div class="portadaCabecera">
+
+    </div>
+
+    <div class="portadaCabeceraPefil">
+
+    </div>
+
+    <div class="parallax">
+        <div class="container" role="main">
+            <div id="wrap">
+                <div id="page">
+                    
+    <div class="breadcrumb" id="breadcrumb">
+        <div class="box">
+            <p>est&#225;s en: </p>
+            <ol>
+                <li><a href="http://red.gnoss.com/comunidad/nextweb"><strong>Home</strong></a></li>
+
+                <li><a href="http://red.gnoss.com/comunidad/nextweb/recursos">Recursos</a></li>
+                <li>B&#225;sicos de Internet. The Internet Services Disruption. Ray Ozzie</li>
+            </ol>
+        </div>
+    </div>
+
+                    <div id="section">
+
+
+                        <div id="content">
+                            
+
+
+<div id="col02" class="col col-xs-12 col-md-9">
+    <div>
+        <div>
+            <div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource">
+                <div class="box description">
+                    <div class="wrapDescription">
+
+
+                            <div class="group title">
+
+
+
+
+                                <p class="resourceType hipervinculo  ">
+                                    <span>tipo de documento</span>
+                                                                                <a target="_blank" href="http://ozzie.net/docs/the-internet-services-disruption/" >P&#225;gina Web</a>
+                                </p>
+
+                                <p class="tipoDocumento">
+
+                                            <span>P&#225;gina Web</span>
+                                </p>
+
+
+                                <h1 property="dcterms:title" content="B&#225;sicos de Internet. The Internet Services Disruption. Ray Ozzie">
+                                            <a target="_blank" title="Se abre en una ventana nueva" href="http://ozzie.net/docs/the-internet-services-disruption/" >B&#225;sicos de Internet. The Internet Services Disruption. Ray Ozzie</a>
+                                </h1>
+
+                            </div>
+
+
+                        <div class="redesSocialesAcciones">
+
+                                    <div id="panUtils1" class="group utils-1 js-activado">
+                                        <p class="info"><strong>Acerca de este recurso...</strong></p>
+
+                                        <p class="guardarEspacioPersonal"><i class="fa fa-heart-o"></i></p>
+
+
+                                            <p class="visitas"><strong>1117</strong><i class="fa fa-eye"></i></p>
+
+    <p class="votos">
+        <strong id="numVotos">0</strong>
+
+            <a onclick="AccionRecurso_VotarPositivo(this, 'http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7/vote-positive')" class="megusta iconizer fa fa-thumbs-o-up"></a>
+        
+    </p>
+
+
+                                    </div>
+
+                                <div class="group redesSocialesCompartir iconsRedesSociales">
+                                    <ul class="art_social">
+                                                <li class="google big">
+                                                    <a href="#" title="Google"
+                                                       clickJS="MostrarPopUpCentrado('https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/share?url%3Dhttp://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7%26gpsrc%3Dframeless%26partnerid%3Dframeless&followup=https://plus.google.com/share?url%3Dhttp://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7%26gpsrc%3Dframeless%26partnerid%3Dframeless&btmpl=popup&ltmpl=essnp',895,525);" >Google</a>
+                                                </li>
+                                                <li class="twitter big">
+                                                    <a href="#" title="Twitter"
+                                                       clickJS="MostrarPopUpCentrado('https://twitter.com/intent/tweet?original_referer=http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7&text=B%c3%a1sicos+de+Internet.+The+Internet+Services+Disruption.+Ray+Ozzie&tw_p=tweetbutton&url=http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7',895,525);" >Twitter</a>
+                                                </li>
+                                                <li class="facebook big">
+                                                    <a href="#" title="Facebook"
+                                                       clickJS="MostrarPopUpCentrado('https://www.facebook.com/sharer/sharer.php?u=http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7',895,525);" class="servicio" id="fb" >Facebook</a>
+                                                </li>
+                                                <li class="delicious">
+                                                    <a href="#" title="Delicious"
+                                                       clickJS="MostrarPopUpCentrado('http://delicious.com/save?v=5&provider=&noui&jump=close&url=http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7&title=B%c3%a1sicos+de+Internet.+The+Internet+Services+Disruption.+Ray+Ozzie',895,525);" >Delicious</a>
+                                                </li>
+                                                <li class="linkedin">
+                                                    <a href="#" title="Linkedin"
+                                                       clickJS="MostrarPopUpCentrado('http://www.linkedin.com/shareArticle?mini=true&url=http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7&title=B%c3%a1sicos+de+Internet.+The+Internet+Services+Disruption.+Ray+Ozzie&summary=Es+interesante+revisar+este+documento+de+Ray+Ozzie%2c+ahora+que%2c+seg%c3%ban+ha+confirmado+Steve+Ballmer%2c+%c3%a9ste+abandona+sus+responsabilidades+en+la+definici%c3%b3n+de+estrategias%2c+para+pasar+al+%c3%a1rea+de+entretenimiento.Al+margen+de+lo+que+pueda+sorprender+%c3%a9ste+movimiento%2c+hay+que+se%c3%b1alar+que+Ray+Ozzie+fue+contratado+para+dirigir+a+Microsoft+hacia+una+arquitectura+de+servicios+Cloud%2c+esfuerzo+que+se+ha+visto+plasmado+especialmente+en+la+l%c3%adnea+de+productos+y+servic...',895,525);" >Linkedin</a>
+                                                </li>
+                                                <li class="reddit">
+                                                    <a href="#" title="Reddit"
+                                                       clickJS="MostrarPopUpCentrado('http://www.reddit.com/submit?url=http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7&title=B%c3%a1sicos+de+Internet.+The+Internet+Services+Disruption.+Ray+Ozzie',895,525);" >Reddit</a>
+                                                </li>
+                                                <li class="blogger">
+                                                    <a href="#" title="Blogger"
+                                                       clickJS="MostrarPopUpCentrado('http://www.blogger.com/blog_this.pyra?t=Es+interesante+revisar+este+documento+de+Ray+Ozzie%2c+ahora+que%2c+seg%c3%ban+ha+confirmado+Steve+Ballmer%2c+%c3%a9ste+abandona+sus+responsabilidades+en+la+definici%c3%b3n+de+estrategias%2c+para+pasar+al+%c3%a1rea+de+entretenimiento.Al+margen+de+lo+que+pueda+sorprender+%c3%a9ste+movimiento%2c+hay+que+se%c3%b1alar+que+Ray+Ozzie+fue+contratado+para+dirigir+a+Microsoft+hacia+una+arquitectura+de+servicios+Cloud%2c+esfuerzo+que+se+ha+visto+plasmado+especialmente+en+la+l%c3%adnea+de+productos+y+servic...&u=http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7&n=B%c3%a1sicos+de+Internet.+The+Internet+Services+Disruption.+Ray+Ozzie',895,525);" >Blogger</a>
+                                                </li>
+                                                <li class="diigo">
+                                                    <a href="#" title="Diigo"
+                                                       clickJS="MostrarPopUpCentrado('http://www.diigo.com/post?url=http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7&title=B%c3%a1sicos+de+Internet.+The+Internet+Services+Disruption.+Ray+Ozzie',895,525);" >Diigo</a>
+                                                </li>
+
+                                    </ul>
+                                </div>
+
+                        </div>
+
+                            <div class="group author input-group">
+                                
+
+    <div class="imagenPublicador input-group-btn">
+
+        <span id="imagenIconoPublicador" class="imagenIcono Organizacion">
+            <a href="http://red.gnoss.com/comunidad/nextweb/organizacion/equipoGNOSS">
+                <img alt="Equipo GNOSS" src="http://content.gnoss.com/imagenes/organizaciones/9c34af94-978d-45e2-822b-422394dba3c5_peque.png?3" />
+            </a>
+        </span>
+    </div>
+    <div class="datosPublicador input-group-btn">
+
+            <span class="estado">Publicado el</span>
+
+            <span class="when"> 25 . 10 . 2010 </span>
+
+
+            <span class="by" id="spanByFichaRec" rel="sioc:has_creator">
+                por
+                <a href="http://red.gnoss.com/comunidad/nextweb/organizacion/equipoGNOSS" typeof="foaf:Group">
+                    <span property="foaf:name">Equipo GNOSS</span>
+                </a>
+            </span>
+
+    </div>
+
+                            </div>
+                        
+
+
+<div id="divGroupAccionesRec">
+    <div id="customAboutResource" class="customAboutResource">
+        <div class="group acciones resourceTools">
+
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <i class="fa fa-cog"></i>
+            </button>
+
+            <ul class="dropdown-menu secundario" aria-labelledby="dropdownMenu1"></ul>
+
+            <ul class="principal">
+                    <li class="opVentanaEmergente opAddPersonal">
+                        <a class="oGuardarEspacioPersonal" onclick="DesplegarAccionMVC('http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7/load-action/add-personal-space', this, 'despAccionRec_ab5607ee-f404-4b80-8ce5-dcefe1a445b7', '');">Guardar en Mi espacio personal</a>
+                    </li>
+                                                                                                                                                                    <li class="opSend">
+                        <a href="http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7/enviar-enlace">Enviar enlace</a>
+                    </li>
+                                                                                            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        herramientasRecursoCompactado.init();
+        iconografia.init();
+        if (typeof completadaCargaAcciones != "undefined" && completadaCargaAcciones != null) {
+            completadaCargaAcciones();
+        }
+    });
+</script>
+
+<div class="ventanaAccionesMenu" style="display: none;" id="despAccionRec_ab5607ee-f404-4b80-8ce5-dcefe1a445b7">
+    <div style="display: none;" class="stateShowForm" id="panels">
+        <div class="loading" id="loading">
+            <p>Cargando formulario, un momento por favor</p>
+        </div>
+        <div id="menssages">
+            <div class="ok"></div>
+            <div class="ko"></div>
+        </div>
+        <div class="box form activeForm" id="action"></div>
+        <p class="cerrar"><a clickJS="CerrarPanelAccion('despAccionRec_ab5607ee-f404-4b80-8ce5-dcefe1a445b7')" title="cerrar formulario">cerrar x</a></p>
+    </div>
+</div>
+
+<div class="panelBar AccionesMenuBar">
+    <div class="facetasHead">
+        <span class="tituloFaceta"></span>
+        <i class="close"></i>
+    </div>
+
+    <div class="facetasBody">
+
+        <div class="buscadorCategorias form-group  has-feedback">
+            <input type="text" class="buscadorCategorias form-control" placeholder="Buscar..." />
+            <span class="fa fa-search form-control-feedback" aria-hidden="true"></span>
+        </div>
+
+
+    </div>
+</div>
+                        <script type="text/javascript">
+                            var urlActionSemCms = 'http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7/actionsemcms';
+
+                            $(document).ready(function () {
+                                MontarFechas();
+
+                                cargarGadgets();
+                            });
+
+                            function cargarGadgets() {
+                                var gadgets = "";
+                                $('#divContPanGadgets div.group.resources:empty').each(function () {
+                                    if ($(this).attr("id") != undefined && $(this).attr("id") != "") {
+                                        gadgets += $(this).attr("id") + ",";
+                                    }
+                                });
+
+                                if (gadgets != "") {
+                                    var dataPostGadgets = {
+                                        callback: "CargarGadgets",
+                                        gadgetsID: gadgets
+                                    }
+
+                                    
+
+                                    $.post('http://red.gnoss.com/comunidad/nextweb/recurso/basicos-de-internet-the-internet-services/ab5607ee-f404-4b80-8ce5-dcefe1a445b7', dataPostGadgets, function (data) {
+                                        for (var i in data) {
+                                            if (data[i].updateTargetId.indexOf("FichaGadget_") == 0) {
+                                                var panID = data[i].updateTargetId.substr(12);
+                                                var htmlGadget = data[i].html;
+                                                if (htmlGadget == "") {
+                                                    $('#divContPanGadgets').find("#" + panID).remove();
+                                                }
+                                                else {
+                                                    $('#divContPanGadgets').find("#" + panID).replaceWith(htmlGadget);
+                                                }
+                                            }
+                                        }
+                                        cargarGadgets();
+                                    });
+                                }
+                                else {
+                                    CompletadaCargaContextos();
+                                }
+                            }
+
+                        </script>
+
+<div class="group content">
+            <a href="http://ozzie.net/docs/the-internet-services-disruption/" >
+                <img src="http://content.gnoss.com/imagenesEnlaces/ab/ab56/ab5607ee-f404-4b80-8ce5-dcefe1a445b7/ab5607ee-f404-4b80-8ce5-dcefe1a445b7.jpg?1" alt="B&#225;sicos de Internet. The Internet Services Disruption. Ray Ozzie"/>
+            </a>
+    <div property="dcterms:content">
+
+            <p><p>Es interesante revisar este documento de <strong>Ray Ozzie</strong>, ahora que, según <a target="_blank" href="http://www.microsoft.com/presspass/press/2010/oct10/10-18steveb-mail.mspx" href="http://www.microsoft.com/presspass/press/2010/oct10/10-18steveb-mail.mspx">ha confirmado Steve Ballmer</a>, éste abandona sus responsabilidades en la definición de estrategias, para pasar al área de entretenimiento.</p><p>Al margen de lo que pueda sorprender éste movimiento, hay que señalar que Ray Ozzie fue contratado para <strong>dirigir a Microsoft hacia una arquitectura de servicios Cloud</strong>, esfuerzo que se ha visto plasmado especialmente en la línea de productos y servicios Live, Exchange, Sharepoint y Azure.</p><p>El público del documento, cuyo título&nbsp;podríamos traducir como "La ruptura de los Servicios de Internet", era&nbsp;originalmente el <em>staff</em>&nbsp;de ejecutivos de Microsoft. El momento de publicación queda definido en el primer párrafo:</p><p>"It is an exciting time, as we’re at the beginning of the biggest product cycle in the company’s history. In a week we ship <strong>new versions of Visual Studio, SQL Server and BizTalk Server</strong>. Later this month we ship <strong>Xbox 360</strong>. Next year we have a double barreled release of our two largest products with Windows <strong>Vista </strong>and <strong>Office “12”</strong>. It’s a great time for customers, our partners, and for those at Microsoft who have put so much of themselves into these products."</p><p>Sin embargo, a pesar de los resultados positivos que esos lanzamientos auguraban, el informe advierte de algunos cambios potenciales que hoy, cinco años después podemos constatar (las cursivas están en el documento original):</p><p>"<em>And while we continue to make good progress on these many fronts, a set of very strong and determined competitors is laser-focused on internet services and service-enabled softwar</em>e. Google is obviously the most visible here, although given the hype level it is difficult to ascertain which of their myriad initiatives are simply adjuncts intended to drive scale for their advertising business, or which might ultimately grow to substantively challenge our offerings." (Facebook, que podía ser considerada una de esas iniciativas, sólo llevaba un año en funcionamiento).</p><p>Los principios claves que dirigirían los cambios anunciados eran:</p><ol><li>La potencia del modelo económico basado en anuncios.</li><li>La efectividad de un nuevo modelo de distribución y uso de software.</li><li>La demanda de experiencias de usuario integradas e irresistibles que, simplemente, funcionan.</li></ol></p>
+    </div>
+</div>
+
+                        <div class="informacionPieDescripcion">
+
+                                <div class="group utils-2" id="contAutoresEditoresLectores">
+                                    
+
+
+                                </div>
+
+                            	<div class="group categorias" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+		<p>
+			Categor&#237;as: 
+		</p>
+		<ul id="listCat">
+            <li rel="sioc:topic">
+                <a typeof="skos:Concept" href="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/futuro-de-internet/d7240d4f-4bea-41d7-a5c7-2d7c5fe1ddaa/"><span property="skos:prefLabel" >Futuro de internet</span></a>,            </li>
+            <li rel="sioc:topic">
+                <a typeof="skos:Concept" href="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/personas/72ae461e-eee6-47cf-a1a8-5712d175147a/"><span property="skos:prefLabel" >Personas</span></a>,            </li>
+            <li rel="sioc:topic">
+                <a typeof="skos:Concept" href="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/el-negocio-en-internet/b4d88c3b-a808-4012-a80d-81f914df65d3/"><span property="skos:prefLabel" >El negocio en internet</span></a>,            </li>
+            <li rel="sioc:topic">
+                <a typeof="skos:Concept" href="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/web-30/bb320c69-adf5-4ca3-ab36-abd5bb11b4ae/"><span property="skos:prefLabel" >Web 3.0</span></a>,            </li>
+            <li rel="sioc:topic">
+                <a typeof="skos:Concept" href="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/web-social/cb7dd00e-1bdc-4a50-bf83-ba78a2e7ff4a/"><span property="skos:prefLabel" >Web Social</span></a>,            </li>
+            <li rel="sioc:topic">
+                <a typeof="skos:Concept" href="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/referentes-en-web-30/df392428-7e94-4d0c-b2dd-cfd891da33cc/"><span property="skos:prefLabel" >Referentes en Web 3.0</span></a>,            </li>
+            <li rel="sioc:topic">
+                <a typeof="skos:Concept" href="http://red.gnoss.com/comunidad/nextweb/recursos/categoria/empresas-y-organizaciones/b977cedd-b5d1-4fcd-9d0a-e2da28fee619/"><span property="skos:prefLabel" >Empresas y organizaciones</span></a>            </li>
+		</ul>
+	</div>
+
+
+                            	<div class="group etiquetas">
+		<p>
+			Etiquetas: 
+		</p> 
+        <ul class="listTags">
+                <li rel="sioc:topic">
+                    <a typeof="sioc_t:Tag" href="http://red.gnoss.com/comunidad/nextweb/recursos/tag/microsoft"><span property="dcterms:name">microsoft</span></a>,                </li>
+                <li rel="sioc:topic">
+                    <a typeof="sioc_t:Tag" href="http://red.gnoss.com/comunidad/nextweb/recursos/tag/steve ballmer"><span property="dcterms:name">steve ballmer</span></a>,                </li>
+                <li rel="sioc:topic">
+                    <a typeof="sioc_t:Tag" href="http://red.gnoss.com/comunidad/nextweb/recursos/tag/seattle"><span property="dcterms:name">seattle</span></a>,                </li>
+                <li rel="sioc:topic">
+                    <a typeof="sioc_t:Tag" href="http://red.gnoss.com/comunidad/nextweb/recursos/tag/redmond"><span property="dcterms:name">redmond</span></a>,                </li>
+                <li rel="sioc:topic">
+                    <a typeof="sioc_t:Tag" href="http://red.gnoss.com/comunidad/nextweb/recursos/tag/internet services"><span property="dcterms:name">internet services</span></a>,                </li>
+                <li rel="sioc:topic">
+                    <a typeof="sioc_t:Tag" href="http://red.gnoss.com/comunidad/nextweb/recursos/tag/ray ozzie"><span property="dcterms:name">ray ozzie</span></a>,                </li>
+                <li rel="sioc:topic">
+                    <a typeof="sioc_t:Tag" href="http://red.gnoss.com/comunidad/nextweb/recursos/tag/disruption"><span property="dcterms:name">disruption</span></a>,                </li>
+                <li rel="sioc:topic">
+                    <a typeof="sioc_t:Tag" href="http://red.gnoss.com/comunidad/nextweb/recursos/tag/cloud services"><span property="dcterms:name">cloud services</span></a>                </li>
+        </ul>
+	</div>
+
+
+
+                                <div class="group compartida" id="divCompartido">
+                                    
+                                </div>
+
+
+                                <div class="group license">
+                                    <p class="licencia creativeCommonds">Se respeta la licencia original del recurso.</p>
+                                </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="resource">
+            <div class="box comments" id="comments">
+                <div>
+                    <div>
+                        <p class="what"><strong><span id="numComentarios">0</span> Comentarios</strong></p>
+                                                    <p>&#191;Quieres comentar? <a href="http://red.gnoss.com/comunidad/nextweb/hazte-miembro">Reg&#237;strate</a> o <a href="http://red.gnoss.com/comunidad/nextweb/login">inicia sesi&#243;n</a></p>
+                        <div id="panComentarios">
+
+
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <input type="hidden" value="Esta informaci&#243;n pertenece a terceros. RIAM no se responsabiliza de la veracidad de los datos ni de la informaci&#243;n contenida" class="inpt_avisoLegal" />
+        </div>
+</div>
+<div id="col01" class="col col-xs-12 col-md-3">
+    <div id="panVinculadosInt">
+        
+    </div>
+        <div id="divContPanGadgets">
+        <div class="group resources grupoPaginado gruppoGadget " id="296a9da5-bdae-4c9d-a5d0-6d1cc0a3fca5">
+            <div class="group-title">
+                <h2>Te puede interesar tambi&#233;n...</h2>
+            </div>
+
+                <div class="paginadorSiguienteAnterior">
+                    <ul>
+                        <li id="btnAnterior_296a9da5-bdae-4c9d-a5d0-6d1cc0a3fca5" class="anterior desactivado">
+                            <a onclick="paginadorGadget_Anterior('http://red.gnoss.com/comunidad/nextweb/recurso/Basicos-de-Internet-The-Internet-Services-Disrupt/ab5607ee-f404-4b80-8ce5-dcefe1a445b7', '296a9da5-bdae-4c9d-a5d0-6d1cc0a3fca5')"></a>
+                        </li>
+                        <li id="btnSiguiente_296a9da5-bdae-4c9d-a5d0-6d1cc0a3fca5" class="siguiente">
+                            <a onclick="paginadorGadget_Siguiente('http://red.gnoss.com/comunidad/nextweb/recurso/Basicos-de-Internet-The-Internet-Services-Disrupt/ab5607ee-f404-4b80-8ce5-dcefe1a445b7', '296a9da5-bdae-4c9d-a5d0-6d1cc0a3fca5')"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            <div class="contexto resource-list activo">
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagenAsociada conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class="imagenAsociada imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/gnoss-pairs-up-open-data-corporate-social/1cb6f628-a567-44d9-aff8-a2e3134ea437">
+                            <img width="120" title="Gnoss Pairs Up Open Data, Corporate Social Networking In Collaborative Platform (Semanticweb.com)" alt="Gnoss Pairs Up Open Data, Corporate Social Networking In Collaborative Platform (Semanticweb.com)" src="http://content.gnoss.com/imagenesEnlaces/1c/1cb6/1cb6f628-a567-44d9-aff8-a2e3134ea437/1cb6f628-a567-44d9-aff8-a2e3134ea437.jpg?1" />
+                    </a>
+                    <p class="resourceType hipervinculo"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/gnoss-pairs-up-open-data-corporate-social/1cb6f628-a567-44d9-aff8-a2e3134ea437">P&#225;gina Web</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/gnoss-pairs-up-open-data-corporate-social/1cb6f628-a567-44d9-aff8-a2e3134ea437" property="dcterms:title" content="Gnoss Pairs Up Open Data, Corporate Social Networking In Collaborative Platform (Semanticweb.com)">Gnoss Pairs Up Open Data, Corporate Social Networking In Collaborative Platform (Semanticweb.com)</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class=" imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/el-mito-del-garum-jose-ignacio-goirigolzarri-ex/aa6c4ac9-e793-469d-83dc-eb1d82d09d1d">
+                            <img width="120" title="El mito del &#39;garum&#39; &#183;Jose Ignacio Goirigolzarri. Ex consejero delegado de BBVA" alt="El mito del &#39;garum&#39; &#183;Jose Ignacio Goirigolzarri. Ex consejero delegado de BBVA" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/ecosistema/Theme/resources/imagenDefecto.png" />
+                    </a>
+                    <p class="resourceType hipervinculo"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/el-mito-del-garum-jose-ignacio-goirigolzarri-ex/aa6c4ac9-e793-469d-83dc-eb1d82d09d1d">P&#225;gina Web</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/el-mito-del-garum-jose-ignacio-goirigolzarri-ex/aa6c4ac9-e793-469d-83dc-eb1d82d09d1d" property="dcterms:title" content="El mito del &#39;garum&#39; &#183;Jose Ignacio Goirigolzarri. Ex consejero delegado de BBVA">El mito del &#39;garum&#39; &#183;Jose Ignacio Goirigolzarri. Ex consejero delegado de BBVA</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class=" imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/crear-sitio-web-con-php-y-mysql-paso-a-paso/04537852-789e-42b5-a083-f00f843a02a3">
+                            <img width="120" title="Crear sitio web con PHP y MySQL paso a paso capitulo 1" alt="Crear sitio web con PHP y MySQL paso a paso capitulo 1" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/ecosistema/Theme/resources/imagenDefecto.png" />
+                    </a>
+                    <p class="resourceType hipervinculo"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/crear-sitio-web-con-php-y-mysql-paso-a-paso/04537852-789e-42b5-a083-f00f843a02a3">P&#225;gina Web</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/crear-sitio-web-con-php-y-mysql-paso-a-paso/04537852-789e-42b5-a083-f00f843a02a3" property="dcterms:title" content="Crear sitio web con PHP y MySQL paso a paso capitulo 1">Crear sitio web con PHP y MySQL paso a paso capitulo 1</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class=" imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/proyecto-gnoss-universidad-20/8e8a0f45-3d1b-499b-a844-0e8e58b0c69e">
+                            <img width="120" title="PROYECTO GNOSS UNIVERSIDAD 2.0" alt="PROYECTO GNOSS UNIVERSIDAD 2.0" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/ecosistema/Theme/resources/imagenDefecto.png" />
+                    </a>
+                    <p class="resourceType digital"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/proyecto-gnoss-universidad-20/8e8a0f45-3d1b-499b-a844-0e8e58b0c69e">Art&#237;culo</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/proyecto-gnoss-universidad-20/8e8a0f45-3d1b-499b-a844-0e8e58b0c69e" property="dcterms:title" content="PROYECTO GNOSS UNIVERSIDAD 2.0">PROYECTO GNOSS UNIVERSIDAD 2.0</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagenAsociada conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class="imagenAsociada imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/reportaje-sobre-gnosscom-en-el-programa-de-eitb/fb88e970-3c4a-4261-997e-cad3fdaaf79c">
+                            <img width="120" title="Reportaje sobre gnoss.com en el programa de EITB &#39;Nick dut Nik&#39;" alt="Reportaje sobre gnoss.com en el programa de EITB &#39;Nick dut Nik&#39;" src="http://content.gnoss.com/imagenesEnlaces/fb/fb88/fb88e970-3c4a-4261-997e-cad3fdaaf79c/fb88e970-3c4a-4261-997e-cad3fdaaf79c.jpg?2" />
+                    </a>
+                    <p class="resourceType hipervinculo"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/reportaje-sobre-gnosscom-en-el-programa-de-eitb/fb88e970-3c4a-4261-997e-cad3fdaaf79c">P&#225;gina Web</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/reportaje-sobre-gnosscom-en-el-programa-de-eitb/fb88e970-3c4a-4261-997e-cad3fdaaf79c" property="dcterms:title" content="Reportaje sobre gnoss.com en el programa de EITB &#39;Nick dut Nik&#39;">Reportaje sobre gnoss.com en el programa de EITB &#39;Nick dut Nik&#39;</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+            </div>
+
+                <div class="contexto resource-list" style="display:none">
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class=" imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/gnosscom-lanza-el-primer-buscador-social/c65925d8-3c7e-413f-bf28-4df8d7ceef2b">
+                            <img width="120" title="gnoss.com lanza el primer buscador social sem&#225;ntico de Internet en Espa&#241;a" alt="gnoss.com lanza el primer buscador social sem&#225;ntico de Internet en Espa&#241;a" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/ecosistema/Theme/resources/imagenDefecto.png" />
+                    </a>
+                    <p class="resourceType pdf"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/gnosscom-lanza-el-primer-buscador-social/c65925d8-3c7e-413f-bf28-4df8d7ceef2b">Pdf</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/gnosscom-lanza-el-primer-buscador-social/c65925d8-3c7e-413f-bf28-4df8d7ceef2b" property="dcterms:title" content="gnoss.com lanza el primer buscador social sem&#225;ntico de Internet en Espa&#241;a">gnoss.com lanza el primer buscador social sem&#225;ntico de Internet en Espa&#241;a</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class=" imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/dolores-reig-dinamizacion-de-comunidades-redes/ea2b5c7c-9f1b-4e94-8a5e-b3f28a9265f3">
+                            <img width="120" title="Dolores Reig.  Dinamizaci&#243;n de comunidades, redes sociales, web social, 3.0,  empresa 2.0, Social Media, Aprendizaje social abierto, Entornos Personales de Aprendizaje." alt="Dolores Reig.  Dinamizaci&#243;n de comunidades, redes sociales, web social, 3.0,  empresa 2.0, Social Media, Aprendizaje social abierto, Entornos Personales de Aprendizaje." src="http://content.gnoss.com/imagenes/proyectos/personalizacion/ecosistema/Theme/resources/imagenDefecto.png" />
+                    </a>
+                    <p class="resourceType hipervinculo"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/dolores-reig-dinamizacion-de-comunidades-redes/ea2b5c7c-9f1b-4e94-8a5e-b3f28a9265f3">P&#225;gina Web</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/dolores-reig-dinamizacion-de-comunidades-redes/ea2b5c7c-9f1b-4e94-8a5e-b3f28a9265f3" property="dcterms:title" content="Dolores Reig.  Dinamizaci&#243;n de comunidades, redes sociales, web social, 3.0,  empresa 2.0, Social Media, Aprendizaje social abierto, Entornos Personales de Aprendizaje.">Dolores Reig.  Dinamizaci&#243;n de comunidades, redes sociales, web social, 3.0,  empresa 2.0, Social Media, Aprendizaje social abierto, Entornos Personales de Aprendizaje.</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class=" imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/eduard-punset-que-nos-pasa-por-dentro-charla-de/c5f99204-a29c-43cd-88aa-e712aa709f62">
+                            <img width="120" title="Eduard Punset. &#191;Qu&#233; nos pasa por dentro?. Charla de Punset en la presentaci&#243;n de clusTIC. V&#237;deo" alt="Eduard Punset. &#191;Qu&#233; nos pasa por dentro?. Charla de Punset en la presentaci&#243;n de clusTIC. V&#237;deo" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/ecosistema/Theme/resources/imagenDefecto.png" />
+                    </a>
+                    <p class="resourceType hipervinculo"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/eduard-punset-que-nos-pasa-por-dentro-charla-de/c5f99204-a29c-43cd-88aa-e712aa709f62">P&#225;gina Web</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/eduard-punset-que-nos-pasa-por-dentro-charla-de/c5f99204-a29c-43cd-88aa-e712aa709f62" property="dcterms:title" content="Eduard Punset. &#191;Qu&#233; nos pasa por dentro?. Charla de Punset en la presentaci&#243;n de clusTIC. V&#237;deo">Eduard Punset. &#191;Qu&#233; nos pasa por dentro?. Charla de Punset en la presentaci&#243;n de clusTIC. V&#237;deo</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagenAsociada conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class="imagenAsociada imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/google-twitter-and-facebook-build-the-semantic/a94f385b-955c-4a3a-945a-f40c368661fe">
+                            <img width="120" title="Google, Twitter and Facebook build the semantic web (newscientist.com)" alt="Google, Twitter and Facebook build the semantic web (newscientist.com)" src="http://content.gnoss.com/imagenesEnlaces/a9/a94f/a94f385b-955c-4a3a-945a-f40c368661fe/a94f385b-955c-4a3a-945a-f40c368661fe.jpg?1" />
+                    </a>
+                    <p class="resourceType hipervinculo"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/google-twitter-and-facebook-build-the-semantic/a94f385b-955c-4a3a-945a-f40c368661fe">P&#225;gina Web</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/google-twitter-and-facebook-build-the-semantic/a94f385b-955c-4a3a-945a-f40c368661fe" property="dcterms:title" content="Google, Twitter and Facebook build the semantic web (newscientist.com)">Google, Twitter and Facebook build the semantic web (newscientist.com)</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div typeof="sioc_t:Item" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" class="resource conImagen">
+    <div class="box description">
+        <div class="wrapDescription">
+            <div class="group title">
+
+
+                
+                <div class=" imagenVinculado">
+                    <a href="http://red.gnoss.com/comunidad/nextweb/recurso/foro-de-la-innovacion-la-rioja-noviembre-dias-24/80255855-5a50-4099-b1ef-99935e16fd9d">
+                            <img width="120" title="FORO de la INNOVACI&#211;N. La Rioja. Noviembre, d&#237;as 24 y 25 de noviembre de 2010. Riojaforum. Logro&#241;o" alt="FORO de la INNOVACI&#211;N. La Rioja. Noviembre, d&#237;as 24 y 25 de noviembre de 2010. Riojaforum. Logro&#241;o" src="http://content.gnoss.com/imagenes/proyectos/personalizacion/ecosistema/Theme/resources/imagenDefecto.png" />
+                    </a>
+                    <p class="resourceType pdf"><span>tipo de documento</span><a href="http://red.gnoss.com/comunidad/nextweb/recurso/foro-de-la-innovacion-la-rioja-noviembre-dias-24/80255855-5a50-4099-b1ef-99935e16fd9d">Pdf</a></p>
+                </div>
+                
+                <h3 class=""><a href="http://red.gnoss.com/comunidad/nextweb/recurso/foro-de-la-innovacion-la-rioja-noviembre-dias-24/80255855-5a50-4099-b1ef-99935e16fd9d" property="dcterms:title" content="FORO de la INNOVACI&#211;N. La Rioja. Noviembre, d&#237;as 24 y 25 de noviembre de 2010. Riojaforum. Logro&#241;o">FORO de la INNOVACI&#211;N. La Rioja. Noviembre, d&#237;as 24 y 25 de noviembre de 2010. Riojaforum. Logro&#241;o</a></h3>
+
+                            </div>
+
+
+        </div>
+    </div>
+</div>
+                </div>
+                    </div>
+    <div class="group ">
+        <h2>La Web de los Datos</h2>
+        <a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://red.gnoss.com/comunidad/nextweb/recurso/GNOSS-y-Didactalia-en-la-edicion-de-Septiembre-de-/d3a8c35b-c3da-4ca0-b597-c8b9bc1505ea"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 310px; height: 285px;" src="https://redprivada.gnoss.com/gestiondocumental/Documentacion/Organizaciones/9c34af94-978d-45e2-822b-422394dba3c5/BaseRecursos/nubeLOD03.jpg" border="0" alt="NUBE LOD"  /></a><p class="MsoNormal"><span class="Apple-style-span" style="font-size: x-small; ">Gráfico con todas aquellas webs, proyectos... que están abiertas y enlazables en la 'Nube de los datos'. </span><span lang="EN-US"><span class="Apple-style-span" style="font-size: x-small; ">Más información:</span></span></p><p class="MsoNormal"><span class="Apple-style-span"><span lang="EN-US"><span class="Apple-style-span" style="font-size: x-small;"></span></span><span class="apple-style-span"><b><span style="line-height: 18px; font-family: 'Lucida Sans Unicode', sans-serif; color: rgb(129, 134, 189); "><span lang="EN-US" style="color: rgb(71, 124, 168); "><a href="http://red.gnoss.com/comunidad/nextweb/recurso/GNOSS-y-Didactalia-en-la-edicion-de-Septiembre-de-/d3a8c35b-c3da-4ca0-b597-c8b9bc1505ea"><span class="Apple-style-span" style="font-size: x-small; ">'The Linking Open Data cloud diagram'</span></a></span></span></b></span></span></p><p></p><p class="MsoNormal"><span class="Apple-style-span" style="font-size: medium; "><span class="apple-style-span" style="font-style: italic; "><b><span style="line-height: 115%; font-family: 'Lucida Sans Unicode', sans-serif; color: rgb(129, 134, 189); "></span></b></span></span></p>
+    </div>
+    <div class="group ">
+        <h2>Selecci&#243;n de recursos de NextWeb</h2>
+        <div>	<ul>			<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/WEB-30-en-espa%C3%B1ol/31506399-910a-481b-a264-a1d1c8fdaded" target="_blank">Web 3.0 (vídeo en español) </a></li>		<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Intro-to-the-Semantic-Web/1321e083-dc57-4c4c-bb7b-3a4b16af0e46" target="_blank">Web Semántica (vídeo en inglés)</a></li>		<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Introducing-Linked-Data-And-The-Semantic-Web/446bd378-e133-418b-bcfa-e33572aa8ac9" target="_blank">Introducing Linked Data And The Semantic Web</a></li>		<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Linked-Open-Data-The-Essentials-book/69142ffd-a3af-4a6f-b3a8-6e3a3cecd424" target="_blank">Linked Open Data: The Essentials book</a></li>	<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Industrialized-Linked-Data/97cb79c9-d3bb-4b67-8a43-580dc6736d17" target="_blank">Industrialized Linked Data</a></li>	<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Como-reutilizar-Open-Linked-Data/0dce1853-e064-4ac6-a14a-31ecf614f17f" target="_blank">Cómo reutilizar Open Linked Data</a></li>	<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Semantic-Web-Standards-Wiki/c80ad1b6-1e32-4b84-8765-d38985345ac4" target="_blank">Semantic Web Standards Wiki</a></li>	<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/RDF-Pro-Complete-Semantic-Web-Tools-Suite/893971b2-02a4-4ae6-9741-01c010447c52" target="_blank">RDF Pro: Complete Semantic Web Tools Suite</a></li>	<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Could-data-save-newspapers-Inma--Kylie-Davis/fb4478ae-cd40-4e43-a60b-39a8276071ea" target="_blank">Could data save newspapers?</a></li>	<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Busquedas-facetadas-o-razonadas/13fd22d5-704d-412c-b35f-31ddc4b7238e" target="_blank">Búsquedas facetadas</a></li> </ul></div>
+    </div>
+    <div class="group ">
+        <h2>GNOSS en NextWeb</h2>
+        <div>	<ul>			<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/GNOSS-entra-a-formar-parte-de-la-Web-de-los-Datos-/d689c463-cbc8-4bb1-be9b-0d83d1f7f70f" target="_blank">GNOSS forma parte de la Web de los Datos Abiertos  </a></li>		<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/GNOSS-y-Didactalia-en-la-edicion-de-Septiembre-de-/d3a8c35b-c3da-4ca0-b597-c8b9bc1505ea" target="_blank">GNOSS y Didactalia en la Web de los Datos</a></li>		<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/gnosscom-lanza-el-primer-buscador-social-semantic/c65925d8-3c7e-413f-bf28-4df8d7ceef2b" target="_blank">GNOSS lanza el primer buscador social semántico de Internet en España</a></li>		<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/GNOSS-lanza-MisMuseosnet-el-primer-buscador-face/5200fe08-4b9a-46ba-a012-758e6b76cc89" target="_blank">GNOSS promueve el primer buscador facetado de museos</a></li>	<li><a href="http://red.gnoss.com/comunidad/nextweb/recurso/Gnoss-Pairs-Up-Open-Data-Corporate-Social-Network/1cb6f628-a567-44d9-aff8-a2e3134ea437" target="_blank">Gnoss (Semanticweb.com) </a></li>		<li><a href="http://red.gnoss.com/comunidad/gnossnoticias" target="_blank">NOTICIAS SOBRE GNOSS </a></li> </ul></div>
+    </div>
+        </div>
+</div>
+
+
+
+<script language="javascript" type="text/javascript">
+
+    $(document).ready(function () {
+        MontarFechaCliente();
+    });
+
+</script>
+
+<script type="text/javascript">
+    
+ObtenerEntidadesLOD('http://etiquetado.gnoss.com/EtiquetadoLOD.asmx', 'http://red.gnoss.com/comunidad/nextweb/recursos', 'ab5607ee-f404-4b80-8ce5-dcefe1a445b7', ' microsoft, steve ballmer, seattle, redmond, internet services, ray ozzie, disruption, cloud services', 'es')
+
+;
+</script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+
+
+    <div class="footer-top">
+        <div class="container">
+
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container input-group">
+            <div class="condiciones input-group-btn">
+                <ul>
+                    <li class="logo">
+                        <img src="http://content.gnoss.com/imagenes/proyectos/personalizacion/ecosistema/Theme/resources/logoGnoss.png" />
+                    </li>
+
+
+                        <li>
+                                <a href="http://red.gnoss.com/comunidad/nextweb/politica-privacidad">Privacidad</a>
+                        </li>
+
+                    <li>
+                                <a href="http://red.gnoss.com/comunidad/nextweb/condiciones-uso">Condiciones de uso de GNOSS</a>
+                    </li>
+
+                        <li>
+                                <a href="http://red.gnoss.com/comunidad/nextweb/politica-de-cookies" target="_blank">Pol&#237;tica de cookies</a>
+                        </li>
+
+
+
+
+                        <li>
+
+                            <a href="http://gnoss.com/identidad/equipoGNOSS/contacto" class="fin">Contacto</a>
+                        </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>  
+
+
+    
+
+</div>
+
+
+    <div class="panelBar infoBar">
+
+        <div class="infosHead">
+
+            <div class="infosHeadTop">
+                <i class="mdi-navigation-menu"></i>
+
+                <div class="logoCustom">
+                    <div class="logoComunidad">
+                        <span>Next Web</span>
+                    </div>
+                </div>
+
+                <span class="close"></span>
+            </div>
+
+            <div class="counters box links">
+                <ul>
+                    <li><span class="count">2240</span>  Recursos</li>
+                    <li><a href="http://red.gnoss.com/comunidad/nextweb/personas-y-organizaciones"><span class="count">793</span> Personas</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="infosBody">
+            <div class="menus">
+                    <div id="nav1">
+                        <ul class="principal">
+
+    <li class="nivel01  navHomeCom">
+        <a href="http://red.gnoss.com/comunidad/nextweb">Home <i class="material-icons">chevron_right</i></a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/indice">&#205;ndice <i class="material-icons">chevron_right</i></a>
+    </li>
+    <li class="nivel01  activo">
+        <a href="http://red.gnoss.com/comunidad/nextweb/recursos">Recursos <i class="material-icons">chevron_right</i></a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/debates">Debates <i class="material-icons">chevron_right</i></a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/preguntas">Preguntas <i class="material-icons">chevron_right</i></a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/encuestas">Encuestas <i class="material-icons">chevron_right</i></a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/personas-y-organizaciones">Personas y organizaciones <i class="material-icons">chevron_right</i></a>
+    </li>
+    <li class="nivel01 ">
+        <a href="http://red.gnoss.com/comunidad/nextweb/acerca-de">Acerca de <i class="material-icons">chevron_right</i></a>
+    </li>
+
+
+                        </ul>
+
+                    </div>
+            </div>
+            <div class="admins">
+                <div>
+                    <h3>Administradores</h3>
+                    <ul>
+                            <li class="resourceType organizacion">
+
+                                    <div class="input-group">
+                                        <div class="input-group-btn imagenPersona">
+                                            <a href="http://red.gnoss.com/comunidad/nextweb/organizacion/equipoGNOSS/">
+                                                <img title="Equipo GNOSS" alt="Equipo GNOSS" src="http://content.gnoss.com/imagenes/organizaciones/9c34af94-978d-45e2-822b-422394dba3c5_peque.png?3" />
+                                            </a>
+                                        </div>
+                                        <div class="input-group-btn informacionPersona">
+                                            <a href="http://red.gnoss.com/comunidad/nextweb/organizacion/equipoGNOSS/">
+                                                <p>Equipo GNOSS</p>
+                                            </a>
+                                            <a href="#">Seguir</a>
+                                        </div>
+                                    </div>
+
+                            </li>
+                            <li class="resourceType persona">
+
+                                    <div class="input-group">
+                                        <div class="input-group-btn imagenPersona">
+                                            <a href="http://red.gnoss.com/comunidad/nextweb/perfil/riam/">
+                                                <img title="Ricardo Alonso Maturana" alt="Ricardo Alonso Maturana" src="http://content.gnoss.com/imagenes/personas/3f126eab-1030-4576-8402-0b0cbc252d51_peque.png?1" />
+                                            </a>
+                                        </div>
+                                        <div class="input-group-btn informacionPersona">
+                                            <a href="http://red.gnoss.com/comunidad/nextweb/perfil/riam/">
+                                                <p>Ricardo Alonso Maturana</p>
+                                            </a>
+                                            <a href="#">Seguir</a>
+                                        </div>
+                                    </div>
+
+                            </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+    <div class="panelBar facetasBar">
+        <div class="facetasHead">
+            <span class="">Refinar b&#250;squeda</span>
+            <i class="close"></i>
+        </div>
+
+        <div class="facetasBody">
+
+
+            <div class="facetaModule facetaModuleFacetas">
+                <div class="facetaModuleBody" id="panFacetas">
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="mascaraBar"></div>
+
+    <div class="modal fade modalGenerico" id="myModalGenerico" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content formularioGenerico" id="formularioGenerico">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <p class="modal-title" id="myModalLabel"></p>
+                </div>
+                <div class="modal-body">
+
+
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modalAccionesMenu" id="modalAccionesMenu" tabindex="-1" role="dialog" aria-labelledby="modalAccionesMenu">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content formularioLoginHeader" id="formularioLoginHeader">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <p class="modal-title" id="myModalLabel">Acciones men&#250;</p>
+                </div>
+                <div class="modal-body">
+
+
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VENTANA MODAL -->
+
+            <div class="modal fade modalSesion" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content formularioLoginHeader" id="formularioLoginHeader">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                            <p class="modal-title" id="myModalLabel">Inicia sesi&#243;n</p>
+                        </div>
+                        <div class="modal-body">
+
+                            <form method="post" id="formLogin" action="https://login2.gnoss.com/login.aspx?token=Xu17Pv7RFL6EKfa3cscc9SNqn8g%252bVJMzNq0S653n%252bO8%253d&amp;proyectoID=f03794ff-1a79-409c-a6b2-7e32e373c689">
+                                <input type="text" name="usuario" title="Usuario" id="usuario" style="display: none;" />
+                                <input type="text" name="password" title="Contrase&#241;a" id="password" style="display: none;" />
+                                <input type="text" name="clausulasRegistro" title="clausulasRegistro" id="clausulasRegistro" style="display: none;" />
+
+                                <div class="wrap">
+                                    <div class="errores" style="display: none" id="errorLogin"></div>
+                                    <fieldset class="mediumLabels bloqueInicioSesion">
+                                        <input type="text" id="txtUsuario" class="text medium" placeholder='Email o usuario' />
+                                        <input type="password" id="txtContraseña" class="text medium" placeholder='Contrase&#241;a' />
+                                        <div class="botonIniciarSesion">
+                                            <input type="button" value='Iniciar sesi&#243;n' class="submit principal btn btn-primary" id="btnEntrar" name="btnEntrar" />
+                                        </div>
+                                        <a class="login" href="http://red.gnoss.com/comunidad/nextweb/olvide-password">Olvid&#233; mi contrase&#241;a</a>
+                                    </fieldset>
+                                    <fieldset class="registroRedesSociales">
+                                        <a href="http://red.gnoss.com/comunidad/nextweb/hazte-miembro"> Crea tu cuenta </a>
+
+                                        <span> Inicia sesi&#243;n con tus redes sociales </span>
+
+                                            <ul>
+                                                    <li class="iconFacebook"><a class="Facebook" href="https://login2.gnoss.com/loginfacebook.aspx?token=Xu17Pv7RFL6EKfa3cscc9SNqn8g%252bVJMzNq0S653n%252bO8%253d&amp;proyectoID=f03794ff-1a79-409c-a6b2-7e32e373c689&amp;urlOrigen=http%3a%2f%2fred.gnoss.com%2fcomunidad%2fnextweb%2frecurso%2fBasicos-de-Internet-The-Internet-Services-Disrupt%2fab5607ee-f404-4b80-8ce5-dcefe1a445b7"></a></li>
+                                                    <li class="iconGoogle"><a class="Google" href="https://login2.gnoss.com/logingoogle.aspx?token=Xu17Pv7RFL6EKfa3cscc9SNqn8g%252bVJMzNq0S653n%252bO8%253d&amp;proyectoID=f03794ff-1a79-409c-a6b2-7e32e373c689&amp;urlOrigen=http%3a%2f%2fred.gnoss.com%2fcomunidad%2fnextweb%2frecurso%2fBasicos-de-Internet-The-Internet-Services-Disrupt%2fab5607ee-f404-4b80-8ce5-dcefe1a445b7"></a></li>
+                                                    <li class="iconTwitter"><a class="Twitter" href="https://login2.gnoss.com/logintwitter.aspx?token=Xu17Pv7RFL6EKfa3cscc9SNqn8g%252bVJMzNq0S653n%252bO8%253d&amp;proyectoID=f03794ff-1a79-409c-a6b2-7e32e373c689&amp;urlOrigen=http%3a%2f%2fred.gnoss.com%2fcomunidad%2fnextweb%2frecurso%2fBasicos-de-Internet-The-Internet-Services-Disrupt%2fab5607ee-f404-4b80-8ce5-dcefe1a445b7"></a></li>
+                                            </ul>
+
+                                    </fieldset>
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="modal-footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            EjecutarScriptsIniciales2();
+        });
+    </script>
+    
+
+
+
+
+</body>
+
+
+
+</html>

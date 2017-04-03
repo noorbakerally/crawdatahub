@@ -1,0 +1,79 @@
+@prefix ysa: <http://www.yso.fi/onto/ysa/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yso: <http://www.yso.fi/onto/yso/> .
+@prefix allars: <http://www.yso.fi/onto/allars/> .
+
+ysa:Y99422
+  skos:prefLabel "teollisuusvakoilu"@fi ;
+  a skos:Concept ;
+  skos:broader ysa:Y99974 .
+
+ysa: a skos:ConceptScheme .
+ysa:Y109945
+  skos:prefLabel "vakoilijat"@fi ;
+  a skos:Concept ;
+  skos:related ysa:Y99974 .
+
+ysa:Y103321
+  skos:prefLabel "maanpetos"@fi ;
+  a skos:Concept ;
+  skos:related ysa:Y99974 .
+
+ysa:Y205686
+  skos:prefLabel "soluttautuminen"@fi ;
+  a skos:Concept ;
+  skos:related ysa:Y99974 .
+
+ysa:Y99482
+  skos:prefLabel "tiedustelu"@fi ;
+  a skos:Concept ;
+  skos:related ysa:Y99974 .
+
+ysa:Y99974
+  skos:narrower ysa:Y99422, ysa:Y123709, ysa:Y152716 ;
+  dc:modified "2016-05-23T16:11:59+03:00"^^xsd:dateTime ;
+  dc:created "1986-12-00"^^xsd:date ;
+  skos:related ysa:Y103321, ysa:Y205686, ysa:Y104260, ysa:Y104598, ysa:Y99482, ysa:Y99483, ysa:Y109945 ;
+  skos:closeMatch yso:p4086 ;
+  skos:inScheme ysa: ;
+  a skos:Concept ;
+  skos:prefLabel "vakoilu"@fi ;
+  skos:exactMatch allars:Y26661 .
+
+ysa:ryhma_67
+  a skos:Collection ;
+  skos:prefLabel "67 Sodankäynti. Sotatekniikka. Maanpuolustus. Aseet"@fi ;
+  skos:member ysa:Y99974 .
+
+ysa:Y104598
+  skos:prefLabel "turvallisuuspalvelut"@fi ;
+  a skos:Concept ;
+  skos:related ysa:Y99974 .
+
+ysa:Y123709
+  skos:prefLabel "yritysvakoilu"@fi ;
+  a skos:Concept ;
+  skos:broader ysa:Y99974 .
+
+ysa:Y99483
+  skos:prefLabel "tiedustelupalvelut"@fi ;
+  a skos:Concept ;
+  skos:related ysa:Y99974 .
+
+ysa:ryhma_65
+  a skos:Collection ;
+  skos:prefLabel "65 Valtio-oppi. Politiikka. Kansainvälinen politiikka"@fi ;
+  skos:member ysa:Y99974 .
+
+ysa:Y152716
+  skos:prefLabel "vastavakoilu"@fi ;
+  a skos:Concept ;
+  skos:broader ysa:Y99974 .
+
+ysa:Y104260
+  skos:prefLabel "salakuuntelu"@fi ;
+  a skos:Concept ;
+  skos:related ysa:Y99974 .
+

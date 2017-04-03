@@ -1,0 +1,39 @@
+{
+  "http://rdf.muninn-project.org/modern/2011/11/11/Cenotaph/ca12581df8bc9fc3c1535de9daa1814a" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      { "value" : "http:\/\/rdf.muninn-project.org\/ontologies\/graves#Cenotaph", "type" : "uri" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [
+      { "value" : "National War Memorial (Canada)", "type" : "literal", "lang" : "en" },
+      { "value" : "Monument comm\u00e9moratif de guerre du Canada", "type" : "literal", "lang" : "fr" }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs" : [
+      { "value" : "http:\/\/dbpedia.org\/resource\/National_War_Memorial_(Canada)", "type" : "uri" }
+    ],
+    "http://rdf.muninn-project.org/ontologies/documents#createdBy" : [
+      { "value" : "http:\/\/en.wikipedia.org\/wiki\/Vernon_March", "type" : "uri" }
+    ],
+    "http://rdf.muninn-project.org/ontologies/graves#siteName" : [
+      { "value" : "National War Memorial", "type" : "literal", "lang" : "en" },
+      { "value" : "Monument comm\u00e9moratif de guerre du Canada", "type" : "literal", "lang" : "fr" }
+    ],
+    "http://xmlns.com/foaf/spec/depiction" : [
+      { "value" : "http:\/\/rdf.muninn-project.org\/modern\/2011\/11\/11\/Image\/ca12581df8bc9fc3c1535de9daa1814a", "type" : "uri" }
+    ],
+    "http://rdf.muninn-project.org/ontologies/graves#hasLocation" : [
+      { "value" : "http:\/\/rdf.muninn-project.org\/modern\/2011\/11\/11\/Point\/ca12581df8bc9fc3c1535de9daa1814a", "type" : "uri" }
+    ],
+    "http://rdf.muninn-project.org/ontologies/graves#isCommemorationOf" : [
+      { "value" : "http:\/\/rdf.muninn-project.org\/ww1\/2011\/11\/11\/War\/EraGreatWar", "type" : "uri" },
+      { "value" : "http:\/\/rdf.muninn-project.org\/ww1\/2011\/11\/11\/War\/KoreanWar", "type" : "uri" },
+      { "value" : "http:\/\/rdf.muninn-project.org\/ww1\/2011\/11\/11\/War\/EraSecondWorldWar", "type" : "uri" },
+      { "value" : "http:\/\/rdf.muninn-project.org\/ww1\/2011\/11\/11\/Group\/CanadianVeterans", "type" : "uri" }
+    ],
+    "http://rdf.muninn-project.org/ontologies/graves#hasPart" : [
+      { "value" : "http:\/\/rdf.muninn-project.org\/modern\/2011\/11\/11\/Sarcophagus\/76fda3c4ba05925219c32071e6de4552", "type" : "uri" }
+    ],
+    "http://rdf.muninn-project.org/ontologies/graves#startDate" : [
+      { "value" : "19381038", "type" : "literal", "datatype" : "http://www.w3.org/2001/XMLSchema#date" }
+    ]
+  } 
+}

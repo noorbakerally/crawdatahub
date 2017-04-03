@@ -1,0 +1,29 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/domain/irz/latka/> .
+@prefix ns2:	<http://linked.opendata.cz/ontology/domain/irz/> .
+ns1:vinylchlorid	rdf:type	ns2:Latka .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns1:vinylchlorid	rdf:type	skos:Concept .
+@prefix ns4:	<http://linked.opendata.cz/resource/domain/irz/latky/> .
+ns1:vinylchlorid	skos:inScheme	ns4:ConceptScheme ;
+	skos:prefLabel	"vinylchlorid" ;
+	skos:altLabel	"Vinylchlorid" .
+@prefix s:	<http://schema.org/> .
+ns1:vinylchlorid	s:name	"vinylchlorid" .
+@prefix ns6:	<http://linked.opendata.cz/resource/domain/irz/latka/vinylchlorid/> .
+ns1:vinylchlorid	ns2:prahDoOvzdusi	ns6:prahDoOvzdusi ;
+	ns2:cas	<http://linked.opendata.cz/resource/domain/irz/cas/75\u201301\u20134> ;
+	ns2:prahDoOdpadniVody	ns6:prahDoOdpadniVody ;
+	ns2:prahDoPudy	ns6:prahDoPudy .
+@prefix ns7:	<http://linked.opendata.cz/resource/domain/irz/rizikovaSlozka/> .
+ns1:vinylchlorid	ns2:rizikovaSlozka	ns7:voda ,
+		ns7:ovzduší ,
+		ns7:půda .
+@prefix ns8:	<http://linked.opendata.cz/resource/domain/irz/vetaR/> .
+ns1:vinylchlorid	ns2:vetaR	ns8:R45 ,
+		ns8:R12 .
+@prefix ns9:	<http://linked.opendata.cz/resource/domain/irz/vetaS/> .
+ns1:vinylchlorid	ns2:vetaS	ns9:S45 ,
+		ns9:S53 ;
+	ns2:vzorec	"C2H3Cl" ;
+	ns2:prahDoVody	ns6:prahDoVody .

@@ -1,0 +1,122 @@
+<rdf:RDF xmlns:wf="http://intelleo.eu/ontologies/workflow/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:report="http://www.eea.europa.eu/portal_types/Report#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eea="http://www.eea.europa.eu/ontologies.rdf#" xmlns:schema="http://schema.org/">
+  <report:Report rdf:about="http://www.eea.europa.eu/publications/progress-towards-kyoto">
+    <report:forcedisableautolinks>False</report:forcedisableautolinks>
+    <report:for_sale>False</report:for_sale>
+    <dcterms:description xml:lang="en">This report presents an overview of the progress achieved so far by the EU, its Member States and other EEA member countries towards their respective targets under the Kyoto Protocol and the EU burden-sharing agreement. The assessment is based on greenhouse gas emission data in Europe for 2008, the first year of the Kyoto Protocol's first commitment period which runs from 2008 to 2012. The recent availability of 2009 emissions estimates for the EU and a limited number of countries broadens, in these cases, the basis of the assessment to two years of the five-year  commitment period.</dcterms:description>
+    <report:price>0.0</report:price>
+    <report:themes>climate</report:themes>
+    <report:themes>policy</report:themes>
+    <report:disableProgressTrailViewlet>False</report:disableProgressTrailViewlet>
+    <report:published_online_only>False</report:published_online_only>
+    <schema:productID>UWYCBT084S</schema:productID>
+    <dcterms:title xml:lang="en">Tracking progress towards Kyoto and 2020 targets in Europe</dcterms:title>
+    <report:pages>112</report:pages>
+    <report:tocdepth>4</report:tocdepth>
+    <dcterms:subject>Kyoto Protocol</dcterms:subject>
+    <dcterms:subject>greenhouse gas emissions</dcterms:subject>
+    <dcterms:subject>emissions</dcterms:subject>
+    <dcterms:subject>emissions reduction</dcterms:subject>
+    <dcterms:subject>Kyoto targets</dcterms:subject>
+    <dcterms:subject>greenhouse gases</dcterms:subject>
+    <dcterms:subject>EU ETS</dcterms:subject>
+    <dcterms:subject>emission trends</dcterms:subject>
+    <dcterms:subject>emissions trading scheme</dcterms:subject>
+    <dcterms:subject>burden-sharing</dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-10-12T10:23:07Z</dcterms:issued>
+    <report:eeaid>0</report:eeaid>
+    <report:serial_title xml:lang="en">EEA Report - 7 - 2010 -</report:serial_title>
+    <report:publication_groups>eea_report_2007_5</report:publication_groups>
+    <report:publishers>EEA (European Environment Agency)</report:publishers>
+    <report:copyrights xml:lang="en">(c) Copyrights - EEA (European Environment Agency)</report:copyrights>
+    <wf:currentStatus>
+      <wf:DetailedProgressStatus rdf:about="#workflow_state_progress">
+        <wf:progressLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</wf:progressLevel>
+      </wf:DetailedProgressStatus>
+    </wf:currentStatus>
+    <report:isbn xml:lang="en">978-92-9213-165-4</report:isbn>
+    <eea:objectProvides>eea.progressbar.interfaces.IBaseObject</eea:objectProvides>
+    <eea:objectProvides>AccessControl.interfaces.IPermissionMappingSupport</eea:objectProvides>
+    <eea:objectProvides>plone.app.imaging.interfaces.IBaseObject</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.base.IBaseFolder</eea:objectProvides>
+    <eea:objectProvides>eea.pdf.subtypes.interfaces.ICollectionPDFAware</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.ICopySource</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.ICopyContainer</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IMutableMinimalDublinCore</eea:objectProvides>
+    <eea:objectProvides>archetypes.schemaextender.interfaces.IExtensible</eea:objectProvides>
+    <eea:objectProvides>plone.locking.interfaces.ITTWLockable</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IFindSupport</eea:objectProvides>
+    <eea:objectProvides>eea.faceted.inheritance.subtypes.interfaces.IPossibleFacetedHeritor</eea:objectProvides>
+    <eea:objectProvides>plone.app.folder.folder.IATUnifiedFolder</eea:objectProvides>
+    <eea:objectProvides>plone.uuid.interfaces.IUUIDAware</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IContentish</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.referenceable.IReferenceable</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IObjectManager</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IFolder</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IWorkflowAware</eea:objectProvides>
+    <eea:objectProvides>eea.themecentre.interfaces.IPossibleThemeCentre</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.ITraversable</eea:objectProvides>
+    <eea:objectProvides>eea.facetednavigation.subtypes.interfaces.IPossibleFacetedNavigable</eea:objectProvides>
+    <eea:objectProvides>eea.relations.content.interfaces.IBaseObject</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.metadata.IExtensibleMetadata</eea:objectProvides>
+    <eea:objectProvides>Products.ATContentTypes.interfaces.interfaces.IATContentType</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IOrderedContainer</eea:objectProvides>
+    <eea:objectProvides>App.interfaces.IPersistentExtra</eea:objectProvides>
+    <eea:objectProvides>plone.folder.interfaces.IOrderableFolder</eea:objectProvides>
+    <eea:objectProvides>App.interfaces.IUndoSupport</eea:objectProvides>
+    <eea:objectProvides>AccessControl.interfaces.IOwned</eea:objectProvides>
+    <eea:objectProvides>eea.reports.interfaces.IPossibleReportContainer</eea:objectProvides>
+    <eea:objectProvides>zope.annotation.interfaces.IAttributeAnnotatable</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IItem</eea:objectProvides>
+    <eea:objectProvides>Products.NavigationManager.sections.interfaces.INavigationSectionPositionable</eea:objectProvides>
+    <eea:objectProvides>webdav.EtagSupport.EtagBaseInterface</eea:objectProvides>
+    <eea:objectProvides>eea.pdf.subtypes.interfaces.IPDFAware</eea:objectProvides>
+    <eea:objectProvides>OFS.interfaces.IPropertyManager</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.ICatalogAware</eea:objectProvides>
+    <eea:objectProvides>webdav.interfaces.IDAVCollection</eea:objectProvides>
+    <eea:objectProvides>eea.cache.subtypes.interfaces.ICacheAware</eea:objectProvides>
+    <eea:objectProvides>webdav.interfaces.IDAVResource</eea:objectProvides>
+    <eea:objectProvides>App.interfaces.INavigation</eea:objectProvides>
+    <eea:objectProvides>webdav.interfaces.IWriteLock</eea:objectProvides>
+    <eea:objectProvides>Products.CMFPlone.interfaces.constrains.ISelectableConstrainTypes</eea:objectProvides>
+    <eea:objectProvides>Products.Archetypes.interfaces.base.IBaseObject</eea:objectProvides>
+    <eea:objectProvides>plone.portlets.interfaces.ILocalPortletAssignable</eea:objectProvides>
+    <eea:objectProvides>Products.EEAContentTypes.interfaces.IEEAPossibleContent</eea:objectProvides>
+    <eea:objectProvides>eea.versions.interfaces.IVersionEnhanced</eea:objectProvides>
+    <eea:objectProvides>Acquisition.interfaces.IAcquirer</eea:objectProvides>
+    <eea:objectProvides>collective.quickupload.interfaces.IQuickUploadCapable</eea:objectProvides>
+    <eea:objectProvides>AccessControl.interfaces.IRoleManager</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IDynamicType</eea:objectProvides>
+    <eea:objectProvides>eea.epub.subtypes.interfaces.IEPUBAware</eea:objectProvides>
+    <eea:objectProvides>eea.annotator.subtypes.interfaces.IAnnotatorAware</eea:objectProvides>
+    <eea:objectProvides>Products.CMFDynamicViewFTI.interfaces.ISelectableBrowserDefault</eea:objectProvides>
+    <eea:objectProvides>z3c.relationfield.interfaces.IHasIncomingRelations</eea:objectProvides>
+    <eea:objectProvides>eea.geotags.storage.interfaces.IGeoTaggable</eea:objectProvides>
+    <eea:objectProvides>eea.uberlisting.browser.app.interfaces.IPossibleUberlistingView</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IFolderish</eea:objectProvides>
+    <eea:objectProvides>eea.promotion.interfaces.IPromotable</eea:objectProvides>
+    <eea:objectProvides>Products.LinguaPlone.interfaces.ITranslatable</eea:objectProvides>
+    <eea:objectProvides>persistent.interfaces.IPersistent</eea:objectProvides>
+    <eea:objectProvides>eea.alchemy.interfaces.IAlchemyDiscoverable</eea:objectProvides>
+    <eea:objectProvides>plone.contentrules.engine.interfaces.IRuleAssignable</eea:objectProvides>
+    <eea:objectProvides>Products.ATContentTypes.interfaces.folder.IATBTreeFolder</eea:objectProvides>
+    <eea:objectProvides>plone.app.iterate.interfaces.IIterateAware</eea:objectProvides>
+    <eea:objectProvides>eea.themecentre.interfaces.IThemeTaggable</eea:objectProvides>
+    <eea:objectProvides>Products.CMFCore.interfaces._content.IOpaqueItemManager</eea:objectProvides>
+    <eea:objectProvides>eea.reports.interfaces.IReportContainerEnhanced</eea:objectProvides>
+    <eea:hasWorkflowState rdf:resource="http://www.eea.europa.eu/portal_workflow/folder_workflow/states/published"/>
+    <report:id xml:lang="en">progress-towards-kyoto</report:id>
+    <report:management_plan xml:lang="en">2011</report:management_plan>
+    <dcterms:creator>EEA</dcterms:creator>
+    <dcterms:creator>Adobe InDesign CS4 (6.0)</dcterms:creator>
+    <dcterms:creator>jaeglmar</dcterms:creator>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-10-11T11:37:35Z</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-06T14:20:11Z</dcterms:modified>
+    <dcterms:abstract>progress-towards-kyoto  Tracking progress towards Kyoto and 2020 targets in Europe  This report presents an overview of the progress achieved so far by the EU, its Member States and other EEA member countries towards their respective targets under the Kyoto Protocol and the EU burden-sharing agreement. The assessment is based on greenhouse gas emission data in Europe for 2008, the first year of the Kyoto Protocol's first commitment period which runs from 2008 to 2012. The recent availability of 2009 emissions estimates for the EU and a limited number of countries broadens, in these cases, the basis of the assessment to two years of the five-year  commitment period.  greenhouse gas emissions emission trends greenhouse gases burden-sharing emissions Kyoto Protocol emissions trading scheme EU ETS Kyoto targets emissions reduction          </dcterms:abstract>
+    <report:trailer xml:lang="en">&lt;h2&gt;Greenhouse gas profiles&lt;/h2&gt;
+&lt;p&gt;The &lt;a title="Greenhouse gas profiles" class="internal-link" href="resolveuid/6eea32e8b8fab77e5b70d1848811d84d"&gt;profiles &lt;/a&gt;summarise key data on greenhouse gas emissions
+for each EU Member State, the European Union (EU-27), the EU-15 and
+other EEA member countries.&lt;/p&gt;</report:trailer>
+    <dcterms:isPartOf rdf:resource="http://www.eea.europa.eu/publications"/>
+    <report:order_id xml:lang="en">978-92-9213-165-4</report:order_id>
+  </report:Report>
+</rdf:RDF>

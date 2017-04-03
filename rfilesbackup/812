@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/healthy-food/480414e9-7989-4b12-9ce9-20a76a44ebf0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Healthy Food]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Cookie Monster raps about healthy food.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-11T20:45:42+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Healthy Food]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=KBMxpDbp51A" />
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+    <sioc:has_discussion rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/healthy-food/480414e9-7989-4b12-9ce9-20a76a44ebf0/comentario/3fe8e73c-b812-4ccb-8b1b-920822eb6ac3" />
+    <sioc:has_space rdf:resource="http://reduno-internacional.com/en/community/UNOi" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/darwin-y-la-teoria-de-la-evolucion/217fe1f6-20df-448c-98b2-3d30827c1146" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/ecosistemas/8b71d09c-97c4-4564-bd9c-22d0f3776ab9" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/clase-buenisima-de-enlace-quimico/b2661fc6-ad4d-4fb5-af4c-e92315adfb14" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-ingles-program/8054048e-6a57-4277-b771-f0ecc8924ddf" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/reading-monster-4-worries-heroes-app/9beccc37-3acf-4f9b-9fef-80aebb5b4a9b" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/the-senses/bbe74624-99c6-4caf-9d19-6e92afd7a9b1" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/los-mayas/1cb9d6e2-7f3c-4794-8b9c-b3fd36bc03c6" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/la-conquista-de-mexico/939e3b1a-cecf-4654-820c-063522629c90" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-matematicas/be886a44-22d4-400e-8e37-99c60b5c0225" />
+    <sioc:related_to rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/la-formacion-del-sistema-solar/894f86d4-da9b-49fc-a54e-6ab111da6e7b" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/be-an-artist/1feadd17-47be-4a84-a96f-52b056d83e10" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/materias/362e12b1-7736-4fc5-8f83-67efbe322172" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/el-ipad-en-el-salon-de-clases/cefa79cb-0ad4-40cf-ae90-a6ff8c3be7c8" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/food" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/healthy%20food" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/healthy" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Fernando  Aguilar · Sistema UNO]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernando ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Aguilar]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernando  Aguilar]]></foaf:name>
+  </foaf:Person>
+  <foaf:Group rdf:about="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Sistema UNO]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Sistema UNO]]></foaf:name>
+    <foaf:member rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+  </foaf:Group>
+  <sioc_t:Comment rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/healthy-food/480414e9-7989-4b12-9ce9-20a76a44ebf0/comentario/3fe8e73c-b812-4ccb-8b1b-920822eb6ac3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[<p>
+	Thx! Kidz will luv it ;)</p>
+]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Thx! Kidz will luv it ;)</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-09-19T02:04:41+02:00</dcterms:created>
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/profile/Beatriz-Mejia/" />
+  </sioc_t:Comment>
+  <foaf:Person rdf:about="http://reduno-internacional.com/en/community/UNOi/profile/Beatriz-Mejia/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Beatriz Mejia]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Beatriz]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Mejia]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[female]]></foaf:gender>
+  </foaf:Person>
+  <sioc:Space rdf:about="http://reduno-internacional.com/en/community/UNOi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Red UNO Internacional]]></rdfs:label>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Red UNO Internacional]]></dcterms:title>
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/educaci%c3%b3n" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/contenidos%20educativos" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/contenidos%20educativos%20digitales" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/sistema%20uno" />
+  </sioc:Space>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/educaci%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[educación]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/contenidos%20educativos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contenidos educativos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/contenidos%20educativos%20digitales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contenidos educativos digitales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/sistema%20uno">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sistema uno]]></rdfs:label>
+  </sioc_t:Tag>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/be-an-artist/1feadd17-47be-4a84-a96f-52b056d83e10">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Be an Artist]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Be an Artist]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/materias/362e12b1-7736-4fc5-8f83-67efbe322172">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Materias]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Materias]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/el-ipad-en-el-salon-de-clases/cefa79cb-0ad4-40cf-ae90-a6ff8c3be7c8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[El iPad en el salón de clases]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[El iPad en el salón de clases]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/food">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[food]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/healthy%20food">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[healthy food]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/healthy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[healthy]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

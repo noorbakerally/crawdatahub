@@ -1,0 +1,20 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/domain/vavai/resort/> .
+@prefix ns2:	<http://linked.opendata.cz/resource/domain/vavai/> .
+ns1:AV0	rdf:type	ns2:Resort .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:AV0	rdfs:seeAlso	"http://www.cas.cz/"^^xsd:anyURI ,
+		"http://www.cas.cz/en/"^^xsd:anyURI .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+ns1:AV0	dcterms:title	"Academy of Sciences of the Czech Republic"@en ,
+		"Akademie v\u011Bd \u010Cesk\u00E9 republiky"@cs .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns1:AV0	skos:notation	"AV0" .
+@prefix ns7:	<http://linked.opendata.cz/ontology/domain/vavai/cea/res/> .
+ns1:AV0	ns7:jDodavatelemRIV	"A" ;
+	ns7:jePoskytovatelem	"A" ;
+	ns7:jePoskytovatelemCEP	"A" ;
+	ns7:jePoskytovatelemCEZ	"A" ;
+	ns7:jePoskytovatelemVES	"A" ;
+	ns7:zkratka	"AV \u010CR"@cs .

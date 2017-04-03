@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:sioc="http://rdfs.org/sioc/ns#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns="http://rod.eionet.europa.eu/schema.rdf#" xml:base="http://rod.eionet.europa.eu/">
+
+<Obligation rdf:about="obligations/523">
+ <skos:notation>523</skos:notation>
+ <instrument rdf:resource="instruments/273"/>
+ <dcterms:title>IPPC questionnaire</dcterms:title>
+ <rdfs:label>[IPPC Directive] IPPC questionnaire</rdfs:label>
+ <nextdeadline rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-30</nextdeadline>
+ <lastUpdate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-12</lastUpdate>
+ <isTerminated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isTerminated>
+ <nextUpdate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-10-30</nextUpdate>
+ <verified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-07-09</verified>
+ <verifiedBy>Updated by Daniel Martin-Montalvo (EEA), based on</verifiedBy>
+ <lastHarvested rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-01T20:14:29</lastHarvested>
+ <requester rdf:resource="clients/104"/>
+ <dcterms:abstract>Questionnaire related to Directive 2008/1/EC concerning integrated pollution prevention and control (IPPC)</dcterms:abstract>
+ <primaryRepository rdf:resource="http://cdr.eionet.europa.eu"/>
+ <reportingFrequencyMonths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</reportingFrequencyMonths>
+ <guidelinesName>IPPC Decision (Annex) for period 2012-2013</guidelinesName>
+ <guidelinesURI>http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32011D0631&amp;rid=1</guidelinesURI>
+ <dateComments>The last period only refers to 2012 and 2013 while before it used to cover 3 years.</dateComments>
+ <validatedBy>Hermann</validatedBy>
+ <isEEAPrimary rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isEEAPrimary>
+ <isEEACore rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isEEACore>
+ <isFlagged rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isFlagged>
+ <dpsirCategory rdf:resource="http://dd.eionet.europa.eu/vocabulary/common/dpsir/R"/>
+ <continuousReporting rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</continuousReporting>
+</Obligation>
+<rdf:Description rdf:about="obligations/523">
+ <otherClient rdf:resource="clients/90"/>
+</rdf:Description>
+<rdf:Description rdf:about="obligations/523">
+ <formalReporter rdf:resource="spatial/3"/>
+ <formalReporter rdf:resource="spatial/22"/>
+ <formalReporter rdf:resource="spatial/23"/>
+ <formalReporter rdf:resource="spatial/25"/>
+ <formalReporter rdf:resource="spatial/27"/>
+ <formalReporter rdf:resource="spatial/28"/>
+ <formalReporter rdf:resource="spatial/29"/>
+ <formalReporter rdf:resource="spatial/30"/>
+ <formalReporter rdf:resource="spatial/31"/>
+ <formalReporter rdf:resource="spatial/33"/>
+ <formalReporter rdf:resource="spatial/34"/>
+ <formalReporter rdf:resource="spatial/35"/>
+ <formalReporter rdf:resource="spatial/36"/>
+ <formalReporter rdf:resource="spatial/40"/>
+ <formalReporter rdf:resource="spatial/21"/>
+ <formalReporter rdf:resource="spatial/20"/>
+ <formalReporter rdf:resource="spatial/19"/>
+ <formalReporter rdf:resource="spatial/5"/>
+ <formalReporter rdf:resource="spatial/7"/>
+ <formalReporter rdf:resource="spatial/8"/>
+ <formalReporter rdf:resource="spatial/9"/>
+ <formalReporter rdf:resource="spatial/10"/>
+ <formalReporter rdf:resource="spatial/11"/>
+ <formalReporter rdf:resource="spatial/12"/>
+ <formalReporter rdf:resource="spatial/13"/>
+ <formalReporter rdf:resource="spatial/14"/>
+ <formalReporter rdf:resource="spatial/15"/>
+ <formalReporter rdf:resource="spatial/16"/>
+ <formalReporter rdf:resource="spatial/17"/>
+ <formalReporter rdf:resource="spatial/18"/>
+ <formalReporter rdf:resource="spatial/102"/>
+</rdf:Description>
+<rdf:Description rdf:about="obligations/523">
+ <issue rdf:resource="issues/4"/>
+ <issue rdf:resource="issues/6"/>
+ <issue rdf:resource="issues/13"/>
+ <issue rdf:resource="issues/15"/>
+</rdf:Description>
+</rdf:RDF>

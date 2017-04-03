@@ -1,0 +1,399 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+                      xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+                      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                      xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+                      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                      xmlns:dbpedia="http://dbpedia.org/resource/"
+                      xmlns:freebase="http://rdf.freebase.com/ns/"
+                      xmlns:dc="http://purl.org/dc/elements/1.1/"
+                      xmlns:owl="http://www.w3.org/2002/07/owl#"
+                      xmlns:opencyc="http://sw.opencyc.org/concept/"
+                      xmlns:dcterms="http://purl.org/dc/terms/"
+                      xmlns:cyc="http://sw.cyc.com/concept/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:ctag="http://commontag.org/ns#"
+                    >
+<head>
+  <title>Bundesfinanzhof - PoolParty Linked Data Server - Taxonomies, Thesauri, Vocabularies</title>
+  <meta http-equiv="Cache-Control" content="no-store"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="taxonomy, thesaurus, controlled vocabulary, knowledge model, skos, semantic web, linked data, open data, rdf, download, trix, trig, poolparty"/>
+  <link rel="icon" href="/PoolParty/OpenConfigPathResourceProvider/frontendroot?fileName=default/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/PoolParty/OpenConfigPathResourceProvider/frontendroot?fileName=default/css/style.css" type="text/css" />
+  <script type="text/javascript" src="/PoolParty/OpenConfigPathResourceProvider/frontendroot?fileName=default/js/jquery-1.6.2.min.js"></script>
+  <script type="text/javascript" src="/PoolParty/OpenConfigPathResourceProvider/frontendroot?fileName=default/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="/PoolParty/OpenConfigPathResourceProvider/frontendroot?fileName=default/js/script.js"></script>
+  <script type="text/javascript">
+  <!--
+    var projectView = "/court";
+    var sparqlEndpointUrl = "http://vocabulary.wolterskluwer.de/PoolParty/sparql/court";
+    var viewMore = [];
+    var viewLess = [];
+    var phone = [];
+    var infoBoxText = [];
+    var languages = ["de"];
+    viewMore["de"]    = "mehr";
+    viewLess["de"]    = "reduzieren";
+    phone["de"]       = "Tel.";
+    infoBoxText["de"] = "Keinen Begriff gefunden";
+  //-->
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="/PoolParty/yui-2.9.0/build/autocomplete/assets/skins/sam/autocomplete.css" />
+  <script type="text/javascript" src="/PoolParty/yui-2.9.0/build/yahoo/yahoo-min.js"></script>
+  <script type="text/javascript" src="/PoolParty/yui-2.9.0/build/event/event-min.js"></script>
+  <script type="text/javascript" src="/PoolParty/yui-2.9.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+  <script type="text/javascript" src="/PoolParty/yui-2.9.0/build/connection/connection-min.js"></script>
+  <script type="text/javascript" src="/PoolParty/yui-2.9.0/build/datasource/datasource-min.js"></script>
+  <script type="text/javascript" src="/PoolParty/yui-2.9.0/build/autocomplete/autocomplete-min.js"></script>
+  <script type="text/javascript" src="/PoolParty/javascript/autocomplete/RdfAutoCompleteBuilder.js"></script>
+  <script type="text/javascript">
+  <!--
+    var autocompleteNoResultsInfoBox = "NoResultsInfoBox";
+  
+    var PPP = new Object();
+    PPP.infoBoxText = new Array();
+    PPP.infoBoxText = infoBoxText;
+    PPP.autocompleteLanguage = "de";
+    PPP.useLucene = "false";
+    PPP.AC = new PoolPartyAutoComplete({"useLucene":PPP.useLucene,"id":"PPPAutoCompleteBuilder", "servletPath":"/PoolParty/HTMLFrontEndAC"});
+    YAHOO.util.Event.onDOMReady(function() {
+      try {
+        PPP.AC.setDynamicDefaultAutoComplete("SearchAutoCompleteInput","SearchAutoCompleteOutput");
+        PPP.AC.oDynamicAutoComplete.maxResultsDisplayed = 10;
+        PPP.AC.oDynamicAutoComplete.useShadow = false;
+        PPP.AC.oDynamicAutoComplete.autoHighlight = true;
+        PPP.AC.oDynamicAutoComplete.typeAhead = true;
+        PPP.AC.oDynamicAutoComplete.itemSelectEvent.unsubscribeAll();
+        PPP.AC.oDynamicAutoComplete.itemSelectEvent.subscribe(function(sType, aArgs) {
+          document.location.href=(aArgs[2][0]);
+        });
+        initLang();
+
+        var replacements = new Object();
+        replacements.ö = "(Ö|ö)";
+        replacements.ä = "(Ä|ä)";
+        replacements.ü = "(Ü|ü)";
+        
+        var toLowerCase = function (sText) {
+          sText = (decodeURI(sText)).toLowerCase();
+          for(umlaut in replacements){
+            if(typeof replacements[umlaut] !== "function"){
+              var regex = new RegExp( umlaut, "g" )
+              sText = sText.replace( regex, replacements[umlaut] );
+            }
+          }
+          return sText;
+        };
+
+        PPP.AC.oDynamicAutoComplete.generateRequest = function(sQuery) {
+          var Q = toLowerCase(sQuery);
+          return "lang="+PPP.autocompleteLanguage+"&query=" + Q +"&useLucene="+PPP.AC.useLucene+"&RepositoryID=1DCE3503-109D-0001-A01C-33801D201D1F";
+        };
+        PPP.AC.oDynamicAutoComplete.handleResponse = function(sQuery, oResponse, oPayload) {
+          var aResults = oResponse.results;
+          var elInput = this.getInputEl();
+          var elInfoBox = document.getElementById(autocompleteNoResultsInfoBox);
+          
+          if (aResults.length > 0) {
+            elInput.style.backgroundColor = "";
+            elInfoBox.style.display = "none";
+            
+            var aListStart = new Array(),
+              aListMiddle = new Array(),
+              aListRest = new Array();
+            
+            var Q = toLowerCase(oPayload.query),
+              start = new RegExp("^" + Q, "i"),
+              middle = new RegExp(Q, "i");
+
+            for (var i = 0, len = aResults.length; i < len; i++) {
+              var oResult = aResults[i];
+              if (start.test(oResult.label[0])) {
+                aListStart.push(oResult);
+              } else if (middle.test(oResult.label[0])) {
+                aListMiddle.push(oResult);
+              } else {
+                aListRest.push(oResult);
+              }
+            }
+            oResponse.results = aListStart.concat(aListMiddle.concat(aListRest));
+          } else {
+            elInput.style.backgroundColor = "#FFCCCC";
+            if (PPP.infoBoxText[PPP.autocompleteLanguage].length > 0) {
+              elInfoBox.innerHTML = PPP.infoBoxText[PPP.autocompleteLanguage];
+              elInfoBox.style.display = "block";
+            }
+          }
+
+          this._populateList(sQuery, oResponse, oPayload);
+        };
+      }
+      catch(e) {
+        console.error(e);
+      }
+    });
+  //-->
+  </script>
+</head>
+<body class="resource">
+  <div id="container">
+    <div id="header">
+      <div id="logo"><a href="http://www.poolparty.biz/"><img border="0" src="/PoolParty/OpenConfigPathResourceProvider/frontendroot?fileName=default/images/pp_logo.jpg" alt="PoolParty Linked Data Server - Taxonomies, Thesauri, Vocabularies" /></a></div>
+      <div id="SearchContainer">
+        <div id="ACcont">
+            <input autocomplete="off" class="yui-ac-input" id="SearchAutoCompleteInput" type="text" title="Finden ..."/>
+            <div class="yui-ac-container" id="SearchAutoCompleteOutput"></div>
+        </div>
+        <div id="NoResultsInfoBox"></div>
+      </div>
+      <a class="sparqllink" href="http://vocabulary.wolterskluwer.de/PoolParty/sparql/court">SPARQL</a>
+    </div>
+
+    <div id="index-bar">
+        <ul>
+      <li><a>A</a></li>
+      <li><a>B</a></li>
+      <li><a>C</a></li>
+      <li><a>D</a></li>
+      <li><a>E</a></li>
+      <li><a>F</a></li>
+      <li><a>G</a></li>
+      <li><a>H</a></li>
+      <li><a>I</a></li>
+      <li><a>J</a></li>
+      <li><a>K</a></li>
+      <li><a>L</a></li>
+      <li><a>M</a></li>
+      <li><a>N</a></li>
+      <li><a>O</a></li>
+      <li><a>P</a></li>
+      <li><a>Q</a></li>
+      <li><a>R</a></li>
+      <li><a>S</a></li>
+      <li><a>T</a></li>
+      <li><a>U</a></li>
+      <li><a>V</a></li>
+      <li><a>W</a></li>
+      <li><a>X</a></li>
+      <li><a>Y</a></li>
+      <li><a>Z</a></li>
+    </ul>
+    </div>
+
+    <div id="breadcrumb">
+      <ul>
+        <li><a href="/">PoolParty Linked Data Server - Taxonomies, Thesauri, Vocabularies</a></li>
+        <li class="separator"></li>
+        <li><a href="/court">WKD - Gerichtsthesaurus</a></li>
+      </ul>
+    </div>
+      
+
+    <div class="content_wrapper">
+
+   
+    
+                             <div id="tabs">
+      <ul>
+              <li ><a href="http://vocabulary.wolterskluwer.de/court/10017">HTML</a></li>
+                    <li ><a href="http://vocabulary.wolterskluwer.de/court/10017.visual">Visual</a></li>
+                              </ul>
+    </div>
+
+    <div id="main_content">
+
+  <div id="resources">
+  <div id="de" about="http://vocabulary.wolterskluwer.de/court/10017"  class="resource de">
+                            <h1>Bundesfinanzhof</h1>
+            <a href="http://vocabulary.wolterskluwer.de/court/10017">http://vocabulary.wolterskluwer.de/court/10017</a>
+                  <div class="box addressbox">
+    	      	<h2>Adresse</h2>
+         Ismaninger Straße 109<br />      81675 München<br />         </div>
+    
+    <ul class="default">
+            <li class="box">
+        <h2><a href="http://www.w3.org/2004/02/skos/core#altLabel" target="_blank">Alternativbegriffe</a></h2>
+        <ul>
+                                <li>BFH</li>
+                          </ul>
+      </li>
+                                              <li class="box">
+        <h2><a href="http://www.w3.org/2004/02/skos/core#broader" target="_blank">Übergeordnete Begriffe</a></h2>
+        <ul>
+                                        <li><a href="http://vocabulary.wolterskluwer.de/court/10016">Bundesgerichte</a></li>
+                </ul>
+      </li>
+                            <li class="box">
+        <h2><a href="http://purl.org/dc/terms/modified" target="_blank">Geändert am</a></h2>
+        <ul>
+                          <li>      27 July 2015 11:59 CET
+</li>
+                    </ul>
+      </li>
+          </ul>
+
+    <a class="more" href="javascript:showMore()">mehr</a>
+    <ul class="default more" style="display:none">
+            <li class="box">
+        <h2><a href="http://purl.org/dc/terms/creator" target="_blank">Autor</a></h2>
+          <ul>
+                          <li>dirschlc</li>
+                      </ul>
+      </li>
+                            <li class="box">
+        <h2><a href="http://purl.org/dc/terms/created" target="_blank">Erstellt am</a></h2>
+          <ul>
+                          <li>      01 April 2012 00:00 CET
+</li>
+                      </ul>
+      </li>
+                <li class="box">
+        <h2><a href="http://purl.org/dc/terms/contributor" target="_blank">Beitragender</a></h2>
+          <ul>
+                          <li>simon.westhues</li>
+                      </ul>
+      </li>
+                                        <li class="box">
+        <h2><a href="http://schema.semantic-web.at/ppt/appliedType" target="_blank">Zugewiesene Klasse</a></h2>
+          <ul>
+                                            <li><a href="http://wolterskluwer.com/ceres/ltr-v1.0/Court">http://wolterskluwer.com/ceres/ltr-v1.0/Court</a></li>
+                  </ul>
+      </li>
+                <li class="box">
+        <h2><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_blank">RDF Typ</a></h2>
+          <ul>
+                                            <li><a href="http://wolterskluwer.com/ceres/ltr-v1.0/Court">http://wolterskluwer.com/ceres/ltr-v1.0/Court</a></li>
+                                    <li><a href="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></li>
+                  </ul>
+      </li>
+                </ul>
+      <div class="box downloads">
+        <h2>Downloads</h2>
+        <span class="rdfxml download_link"><a href="http://vocabulary.wolterskluwer.de/court/10017.rdf">RDF/XML</a></span>
+    </div>
+  
+                        <h1 class="other">Verlinkungen zu anderen Thesauri und Vokabularen</h1>
+    <ul>
+                          <li class="box ld" data-source="http://vocabulary.wolterskluwer.de/court/linkeddata/dbpedia/de">
+        <h2 class="heading"><a href="http://vocabulary.wolterskluwer.de/court/linkeddata/dbpedia/de">http://vocabulary.wolterskluwer.de/court/linkeddata/dbpedia/de</a></h2>
+                <div class="row">
+          <div class="label"><a href="http://xmlns.com/foaf/0.1/page" target="_blank">http://xmlns.com/foaf/0.1/page</a></div>
+          <div class="value">
+            <ul>
+                                <li><a href="http://de.wikipedia.org/wiki/Bundesfinanzhof">http://de.wikipedia.org/wiki/Bundesfinanzhof</a></li>
+                        </ul>
+          </div>
+        </div>
+                <div class="row">
+          <div class="label"><a href="http://www.w3.org/2004/02/skos/core#exactMatch" target="_blank">Konzepte mit exakter Übereinstimmung</a></div>
+          <div class="value">
+            <ul>
+                                                                    <li><a href="http://de.dbpedia.org/resource/Bundesfinanzhof">Bundesfinanzhof</a></li>
+                        </ul>
+          </div>
+        </div>
+                <div class="row">
+          <div class="label"><a href="http://dbpedia.org/ontology/thumbnail" target="_blank">Vorschaubild</a></div>
+          <div class="value">
+            <ul>
+                                <li><a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Bundesfinanzhof_Muenchen.jpg/200px-Bundesfinanzhof_Muenchen.jpg">http://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Bundesfinanzhof_Muenchen.jpg/200px-Bundesfinanzhof_Muenchen.jpg</a></li>
+                        </ul>
+          </div>
+        </div>
+                <div class="row">
+          <div class="label"><a href="http://www.w3.org/2003/01/geo/wgs84_pos#lat" target="_blank">http://www.w3.org/2003/01/geo/wgs84_pos#lat</a></div>
+          <div class="value">
+            <ul>
+                                  <li>48.14916610717773</li>
+                            </ul>
+          </div>
+        </div>
+                <div class="row">
+          <div class="label"><a href="http://dbpedia.org/ontology/abstract" target="_blank">Abstrakt</a></div>
+          <div class="value">
+            <ul>
+                                        <li>Der Bundesfinanzhof (BFH) mit Sitz in München ist das oberste Gericht für Steuer- und Zollsachen und als solches neben dem Bundesgerichtshof, dem Bundesverwaltungsgericht, dem Bundesarbeitsgericht und dem Bundessozialgericht einer der fünf obersten Gerichtshöfe des Bundes der Bundesrepublik Deutschland. Als Behörde untersteht der Bundesfinanzhof seit 1970 dem Bundesministerium der Justiz. Zuvor war er dem Bundesministerium der Finanzen unterstellt, was teilweise den Vorwurf einer „Hausgerichtsbarkeit“ hervorrief.</li>
+                                  </ul>
+          </div>
+        </div>
+                <div class="row">
+          <div class="label"><a href="http://purl.org/dc/terms/subject" target="_blank">Thema</a></div>
+          <div class="value">
+            <ul>
+                                                <li><a href="http://de.dbpedia.org/resource/Kategorie:Baudenkmal_in_München">Baudenkmal in München</a></li>
+                                                  <li><a href="http://de.dbpedia.org/resource/Kategorie:Bogenhausen">Bogenhausen</a></li>
+                                                  <li><a href="http://de.dbpedia.org/resource/Kategorie:Bundesgericht_(Deutschland)">Bundesgericht (Deutschland)</a></li>
+                                                  <li><a href="http://de.dbpedia.org/resource/Kategorie:Gericht_(München)">Gericht (München)</a></li>
+                                                  <li><a href="http://de.dbpedia.org/resource/Kategorie:Gericht_der_Finanzgerichtsbarkeit">Gericht der Finanzgerichtsbarkeit</a></li>
+                        </ul>
+          </div>
+        </div>
+                <div class="row">
+          <div class="label"><a href="http://www.w3.org/2000/01/rdf-schema#label" target="_blank">Name</a></div>
+          <div class="value">
+            <ul>
+                                        <li>Bundesfinanzhof</li>
+                                  </ul>
+          </div>
+        </div>
+                <div class="row">
+          <div class="label"><a href="http://www.w3.org/2003/01/geo/wgs84_pos#long" target="_blank">http://www.w3.org/2003/01/geo/wgs84_pos#long</a></div>
+          <div class="value">
+            <ul>
+                                  <li>11.60555458068848</li>
+                            </ul>
+          </div>
+        </div>
+              </li>
+              </ul>
+    </div>  </div> 
+    </div>  <!-- main_content -->
+    </div>  <!-- content_wrapper -->
+    <div id="footer">
+      <ul id="nav_bottom">
+        <li><a href="http://poolparty.biz/company" target="pp_contact">contact</a></li>
+        <li>|</li>
+        <li><a href="https://help.poolparty.biz/display/doc/Linked+Data+and+Schema+Publishing+with+PoolParty" target="pp_about">about</a></li>
+        <li>|</li>
+        <li><a href="http://www.w3.org/2004/02/skos/" target="pp_skos">skos</a></li>
+      </ul>
+	<!--p id="poolparty">Powered by <a href="http://poolparty.biz"><img class="pplogo" border="0" src="/PoolParty/OpenConfigPathResourceProvider/frontendroot?fileName=default/images/pp_logo.jpg" alt="PoolParty Thesaurus Manager (PPT)" /></a> &
+      	     <a href="http://lod2.eu"><img  class="lod2logo" border="0" src="/PoolParty/OpenConfigPathResourceProvider/frontendroot?fileName=default/images/lod2_logo.jpg" alt="LOD2"/></a>
+	</p-->
+    </div>
+  </div>    <!-- container -->
+</body>
+</html>

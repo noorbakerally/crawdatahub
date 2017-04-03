@@ -1,0 +1,980 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <gnoss:ResultSet rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/clase?rdf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ResultSet]]></rdfs:label>
+    <gnoss:Page rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gnoss:Page>
+    <gnoss:ItemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</gnoss:ItemsPerPage>
+    <gnoss:NumberOfResults rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</gnoss:NumberOfResults>
+    <gnoss:Results rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/clase-buenisima-de-enlace-quimico/b2661fc6-ad4d-4fb5-af4c-e92315adfb14" />
+    <gnoss:Results rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-matematicas/be886a44-22d4-400e-8e37-99c60b5c0225" />
+    <gnoss:Results rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-ciencias-natur/3d59d3d2-a076-4e7e-a8d7-013f01e157c0" />
+    <gnoss:Results rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-ingles/b3f50c90-da31-4709-a140-80e74d803473" />
+    <gnoss:Results rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-matematicas-/71f745b3-abae-4521-8618-df1c0fc3ace3" />
+    <gnoss:Results rdf:resource="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-ingles-program/8054048e-6a57-4277-b771-f0ecc8924ddf" />
+  </gnoss:ResultSet>
+  <sioc:Item rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/clase-buenisima-de-enlace-quimico/b2661fc6-ad4d-4fb5-af4c-e92315adfb14">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[CLASE BUENÍSIMA DE ENLACE QUÍMICO]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&nbsp;</p>
+<table bgcolor="#FFCC00" border="1" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+				<h3>
+					Enlace qu&iacute;mico</h3>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+<p>
+	En qu&iacute;mica, un dato experimental importante es que s&oacute;lo los&nbsp;<b>gases nobles</b>&nbsp;y los&nbsp;<b>metales en estado de vapor</b>&nbsp;se presentan en la naturaleza como&nbsp;<b>&aacute;tomos aislados</b>, en la mayor&iacute;a de los materiales que nos rodean los elementos est&aacute;n unidos por&nbsp;<b>enlaces qu&iacute;micos</b>.</p>
+<p>
+	Enlace significa uni&oacute;n, un&nbsp;<b>enlace qu&iacute;mico</b>&nbsp;es la uni&oacute;n de dos o m&aacute;s &aacute;tomos con un solo fin, alcanzar la estabilidad, tratar de parecerse al&nbsp;<b>gas noble</b>&nbsp;m&aacute;s cercano. Para la mayor&iacute;a de los elementos se trata de completar ocho electrones en su &uacute;ltimo nivel.</p>
+<table align="right" border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center">
+				<h6>
+					Mol&eacute;cula de H<sub>2</sub></h6>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<p>
+					<img alt="Enlacequimico002" border="0" height="124" src="http://www.profesorenlinea.cl/imagenQuimica/Enlace_quimico_image002.jpg" width="201" /></p>
+				<p align="center">
+					&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<b>1s<sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; 1s<sup>1</sup></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	Las fuerzas atractivas que mantienen juntos los elementos que conforman un compuesto, se explican por la interacci&oacute;n de los electrones que ocupan los orbitales m&aacute;s exteriores de ellos&nbsp;<b>(electrones de valencia)</b>.</p>
+<p>
+	Cuando dos &aacute;tomos se acercan se ejercen varias fuerzas entre ellos. Algunas de estas fuerzas tratan de mantenerlos unidos, otras tienden a separarlos.</p>
+<p>
+	En la mayor&iacute;a de los &aacute;tomos, con excepci&oacute;n de los gases nobles (muy estables, con su &uacute;ltima capa o nivel de energ&iacute;a completo con sus ocho electrones), las fuerzas atractivas son superiores a las repulsivas y los &aacute;tomos se acercan formando un&nbsp;<b>enlace</b>.</p>
+<p>
+	As&iacute;, podemos considerar al&nbsp;<b>enlace qu&iacute;mico como la fuerza que mantiene unidos a dos o m&aacute;s &aacute;tomos dentro de una mol&eacute;cula</b>.</p>
+<p>
+	Todos los enlaces qu&iacute;micos resultan de la atracci&oacute;n simult&aacute;nea de uno o m&aacute;s electrones por m&aacute;s de un n&uacute;cleo.</p>
+<p>
+	<b>Electrones de Valencia</b></p>
+<p>
+	Ya que arriba lo mencionamos, veamos este concepto.</p>
+<p>
+	En la mayor&iacute;a de los &aacute;tomos, muchos de los electrones son atra&iacute;dos con tal fuerza por sus propios n&uacute;cleos que no pueden interaccionar de forma apreciable con otros n&uacute;cleos. S&oacute;lo los electrones que ocupan los niveles de energ&iacute;a m&aacute;s alejados del n&uacute;cleo de un &aacute;tomo pueden interaccionar con dos o m&aacute;s n&uacute;cleos. A &eacute;stos se les llama&nbsp;<b>electrones de valencia</b>&nbsp;<b>(sobre los niveles de energ&iacute;a Ver:&nbsp;<a href="http://www.profesorenlinea.cl/Quimica/Configuracion_electronica.html" target="_blank">Configuraci&oacute;n electr&oacute;nica</a>)</b>.</p>
+<p>
+	La uni&oacute;n consiste en que uno o m&aacute;s electrones de valencia de algunos de los &aacute;tomos se introduce en la esfera electr&oacute;nica del otro.</p>
+<table align="left" border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0" width="17%">
+	<tbody>
+		<tr>
+			<td>
+				<img alt="Enlacequimico004" border="0" height="263" src="http://www.profesorenlinea.cl/imagenQuimica/Enlace_quimico_image004.jpg" width="101" /></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<b>La ilustraci&oacute;n describe cristales de Cloruro de sodio (enlace qu&iacute;mico i&oacute;nico).</b></td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	Aqu&iacute; debemos recordar que el&nbsp;<b>n&uacute;mero de electrones de valencia de un &aacute;tomo es igual al n&uacute;mero de su familia o grupo (que corresponden a las 18 divisiones verticales) en la tabla peri&oacute;dica</b>, usando s&oacute;lo la antigua numeraci&oacute;n romana.</p>
+<p>
+	As&iacute;, tenemos un electr&oacute;n de valencia para los elementos de los grupos IA (o grupo 1) y IB (o grupo 11); dos electrones de valencia para los elementos de los grupos IIA y IIB (o grupos 2 y 12), y cuatro para los elementos de los grupos IVB y IVA (o grupos 4 y 14).</p>
+<p>
+	<b>(Ver:&nbsp;<a href="http://www.profesorenlinea.cl/Quimica/TablaPeriodica.htm" target="_blank">Tabla Peri&oacute;dica de los Elementos</a>).</b></p>
+<p>
+	Todos los &aacute;tomos de los&nbsp;<b>gases nobles</b>&nbsp;(o sea: ne&oacute;n, arg&oacute;n, cript&oacute;n, xen&oacute;n y rad&oacute;n) tienen ocho electrones de valencia, excepto el helio, que tiene dos. Los elementos de las familias (grupos) cercanas a los gases nobles tienden a reaccionar para adquirir la configuraci&oacute;n de ocho electrones de valencia de los gases nobles.</p>
+<p>
+	Esta configuraci&oacute;n electr&oacute;nica de los gases nobles les comunica inactividad qu&iacute;mica y una gran estabilidad.</p>
+<p>
+	Esto se conoce como la&nbsp;<b>regla del octeto de Lewis</b>, que fue enunciada por el qu&iacute;mico estadounidense Gilbert N. Lewis.</p>
+<p>
+	&nbsp;</p>
+<h6>
+	Regla del octeto</h6>
+<p>
+	Los &aacute;tomos tienden a perder, ganar o compartir electrones en forma tal que queden con un total de 8 electrones en su nivel energ&eacute;tico m&aacute;s exterior, esta configuraci&oacute;n les proporciona gran estabilidad.</p>
+<p>
+	&nbsp;</p>
+<h6>
+	Estructura o Notaci&oacute;n de Lewis</h6>
+<table align="right" border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0" width="5%">
+	<tbody>
+		<tr>
+			<td>
+				<a href="http://1.bp.blogspot.com/_mAhhQxGiNGw/Sp23tDLFElI/AAAAAAAAABU/N50NNNnTCU8/s1600-h/lewis.jpg" target="_blank" wrc_done="true"><img alt="lewis_001" border="0" height="76" src="http://www.profesorenlinea.cl/imagenQuimica/Enlace_quimico_image001.jpg" width="81" /></a></td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	La notaci&oacute;n o estructura de Lewis es una representaci&oacute;n gr&aacute;fica que muestra la cantidad de electrones de valencia que hay en el &uacute;ltimo orbital.</p>
+<p>
+	La estructura de Lewis fue propuesta por Gilbert Lewis, la cantidad de electrones de valencia se representan con puntos alrededor del elemento qu&iacute;mico (s&iacute;mbolo), como vemos a la derecha en el ejemplo del Br.</p>
+<p>
+	<em>Ver en Youtube:</em></p>
+<p>
+	<a href="http://ampliacionfq3eso.blogspot.com/2009/02/enlace-covalente-notacion-de-lewis.html" target="_blank" wrc_done="true"><b>http://ampliacionfq3eso.blogspot.com/2009/02/enlace-covalente-notacion-de-lewis.html</b></a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<b>Valencia electroqu&iacute;mica</b></p>
+<p>
+	Se llama&nbsp;<b>valencia electroqu&iacute;mica</b>&nbsp;al n&uacute;mero de electrones que ha perdido o ganado un &aacute;tomo para transformarse en ion. Si dicho n&uacute;mero de electrones perdidos o ganados es 1, 2, 3, etc&eacute;tera, se dice que el ion (o i&oacute;n) es monovalente, bivalente, trivalente, etc&eacute;tera.</p>
+<p>
+	<b>Iones</b></p>
+<p>
+	Los &aacute;tomos est&aacute;n constituidos por el n&uacute;cleo y la corteza (capas o niveles de energ&iacute;a que ocupan los electrones). El n&uacute;mero de cargas positivas (cantidad de protones) del n&uacute;cleo es igual al n&uacute;mero de electrones que giran en la corteza; de ah&iacute; su<b>electronegatividad</b>&nbsp;(que&nbsp;<b>en estado neutro es cero</b>, y significa igual cantidad de protones a igual cantidad de electrones). Si la corteza electr&oacute;nica de un &aacute;tomo neutro pierde o gana electrones se forman los llamados iones.</p>
+<p>
+	Entonces, los iones son &aacute;tomos o grupos at&oacute;micos que tienen un n&uacute;mero mayor o menor de electrones que de protones.</p>
+<p>
+	En el primer caso (m&aacute;s electrones)&nbsp;<b>los iones tienen carga negativa y reciben el nombre de aniones</b>, y en el segundo (menos electrones)&nbsp;<b>est&aacute;n cargados positivamente y se llaman cationes</b>.</p>
+<p>
+	<b>Ver: PSU: Qu&iacute;mica;&nbsp;<a href="http://www.profesorenlinea.cl/PSU/Quimica/Preguntas/Pregunta06_2006.html" target="_blank">Pregunta 06_2006</a></b></p>
+<h6>
+	Elementos electropositivos y electronegativos</h6>
+<p>
+	Se llaman&nbsp;<b>elementos electropositivos</b>&nbsp;aquellos que tienen tendencia a perder electrones transform&aacute;ndose en&nbsp;<b>cationes</b>; a ese grupo pertenecen los&nbsp;<b>metales</b>.</p>
+<p>
+	En cambio,&nbsp;<b>elementos electronegativos</b>&nbsp;son los que toman con facilidad electrones transform&aacute;ndose en&nbsp;<b>aniones</b>; a este grupo pertenecen los&nbsp;<b>metaloides</b>.</p>
+<p>
+	Los elementos m&aacute;s electropositivos (tendencia a perder electrones) est&aacute;n situados en la parte izquierda del&nbsp;<b>sistema o tabla peri&oacute;dica</b>; son los llamados&nbsp;<b>elementos alcalinos</b>. A medida que se avanza en cada per&iacute;odo hacia la derecha va disminuyendo el car&aacute;cter electropositivo, lleg&aacute;ndose, finalmente, a los&nbsp;<b>al&oacute;genos</b>&nbsp;de fuerte car&aacute;cter&nbsp;<b>electronegativo</b>&nbsp;(elementos con tendencia a tomar electrones).</p>
+<p>
+	&nbsp;</p>
+<table border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td>
+				<h6>
+					A modo de resumen:</h6>
+				<p>
+					<b>Ion</b>: &aacute;tomo o conjunto de &aacute;tomos que poseen carga el&eacute;ctrica (han cedido o han captado electrones).</p>
+				<p>
+					<b>Cati&oacute;n:</b>&nbsp;ion con carga positiva (ha cedido electrones).&nbsp;<b>Ejemplo:</b>&nbsp;Ca+2 ion calcio, NH4+ ion amonio</p>
+				<p>
+					<b>Ani&oacute;n:</b>&nbsp;ion con carga negativa (ha captado electrones).&nbsp;<b>Ejemplo:</b>&nbsp;Br&ndash; ion bromuro, ClO2&ndash; ion clorito</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+<p>
+	<b>EJEMPLOS:&nbsp;</b><br />
+	El sodio tiene un potencial de ionizaci&oacute;n bajo y puede perder f&aacute;cilmente su electr&oacute;n ubicado en el&nbsp;<b>subnivel 3s</b></p>
+<div align="center">
+	<table border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0" width="55%">
+		<tbody>
+			<tr>
+				<td align="center" width="39%">
+					<b>Na<sup>0</sup></b></td>
+				<td width="7%">
+					<p align="center">
+						<b>&rarr;</b></p>
+				</td>
+				<td width="34%">
+					<p align="center">
+						<b>Na+</b></p>
+				</td>
+				<td width="7%">
+					<p align="center">
+						<b>+</b></p>
+				</td>
+				<td width="10%">
+					<p align="center">
+						<b>1e&ndash;</b></p>
+				</td>
+			</tr>
+			<tr>
+				<td width="39%">
+					<p align="center">
+						<b>1s<sup>2</sup>&nbsp;2s<sup>2</sup>&nbsp;2p<sup>6</sup>&nbsp;3s<sup>1</sup></b></p>
+				</td>
+				<td width="7%">
+					<p align="center">
+						<b>&rarr;</b></p>
+				</td>
+				<td width="34%">
+					<p align="center">
+						<b>1s<sup>2</sup>&nbsp;2s<sup>2</sup>&nbsp;2p<sup>6</sup></b></p>
+				</td>
+				<td width="7%">
+					<p align="center">
+						<b>+</b></p>
+				</td>
+				<td width="10%">
+					<p align="center">
+						<b>1e&ndash;</b></p>
+				</td>
+			</tr>
+			<tr>
+				<td width="39%">
+					<p align="center">
+						<b>&aacute;tomo de sodio</b></p>
+				</td>
+				<td width="7%">
+					<p>
+						&nbsp;</p>
+				</td>
+				<td width="34%">
+					<p align="center">
+						<b>ion de sodio</b></p>
+				</td>
+				<td width="7%">
+					<p>
+						&nbsp;</p>
+				</td>
+				<td width="10%">
+					<p>
+						&nbsp;</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	<br />
+	La estructura electr&oacute;nica del ion sodio resultante es exactamente igual a la del gas noble ne&oacute;n. Este ion es una especie muy estable.</p>
+<p>
+	Otros elementos ganan electrones para llenar la capa de valencia y alcanzar la configuraci&oacute;n estable de 8 electrones. El cloro es un ejemplo:&nbsp;</p>
+<div align="center">
+	<table border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0" width="67%">
+		<tbody>
+			<tr>
+				<td align="center" width="41%">
+					<b>Cl<sup>0</sup></b></td>
+				<td width="9%">
+					<p align="center">
+						<b>&rarr;</b></p>
+				</td>
+				<td width="6%">
+					<p align="center">
+						<b>1e&ndash;</b></p>
+				</td>
+				<td width="6%">
+					<p align="center">
+						<b>+</b></p>
+				</td>
+				<td width="36%">
+					<p align="center">
+						<b>Cl&ndash;</b></p>
+				</td>
+			</tr>
+			<tr>
+				<td width="41%">
+					<p align="center">
+						<b>1s<sup>2</sup>&nbsp;2s<sup>2</sup>&nbsp;2p<sup>6</sup>&nbsp;3s<sup>2</sup>&nbsp;3p<sup>5</sup></b></p>
+				</td>
+				<td width="9%">
+					<p align="center">
+						<b>&rarr;</b></p>
+				</td>
+				<td width="6%">
+					<p align="center">
+						&nbsp;</p>
+				</td>
+				<td width="6%">
+					<p align="center">
+						<b>+</b></p>
+				</td>
+				<td width="36%">
+					<p align="center">
+						<b>1s<sup>2</sup>&nbsp;2s<sup>2</sup>&nbsp;2p<sup>6</sup>&nbsp;3s<sup>2</sup>&nbsp;3p<sup>6</sup></b></p>
+				</td>
+			</tr>
+			<tr>
+				<td width="41%">
+					<p align="center">
+						<b>&aacute;tomo de cloro</b></p>
+				</td>
+				<td width="9%">
+					<p>
+						&nbsp;</p>
+				</td>
+				<td width="6%">
+					<p align="center">
+						&nbsp;</p>
+				</td>
+				<td width="6%">
+					<p>
+						&nbsp;</p>
+				</td>
+				<td width="36%">
+					<p align="center">
+						<b>ion cloruro</b></p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	&nbsp;</p>
+<h6>
+	Tipos de enlaces</h6>
+<p>
+	Como dijimos al principio, el hecho de que los &aacute;tomos se combinen&nbsp; o enlacen para formar nuevas sustancias se explica por la tendencia a conformar estructuras m&aacute;s estables. De ah&iacute; que dichos enlaces qu&iacute;micos sean considerados como un incremento de estabilidad.</p>
+<p>
+	Para lograr ese estado ideal estable, los &aacute;tomos pueden utilizar alg&uacute;n m&eacute;todo que les acomode, eligiendo entre: ceder o captar electrones, compartir electrones con otro &aacute;tomo o ponerlos en com&uacute;n junto con otros muchos.</p>
+<p>
+	De estas tres posibilidades nacen los tres tipos de enlace qu&iacute;mico:&nbsp;<b>i&oacute;nico</b>,&nbsp;<b>covalente</b>&nbsp;y&nbsp;<b>met&aacute;lico</b>.</p>
+<p>
+	Tomando como base la&nbsp;<b>diferencia de electronegatividad</b>&nbsp;entre los &aacute;tomos que forman un enlace se puede predecir el tipo de enlace que se formar&aacute;:</p>
+<table border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0" width="105%">
+	<tbody>
+		<tr>
+			<td width="48%">
+				Si la diferencia de electronegatividades es mayor que 2.</td>
+			<td width="3%">
+				<p>
+					=</p>
+			</td>
+			<td width="47%">
+				<p>
+					se formar&aacute; un&nbsp;<b>enlace i&oacute;nico</b></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48%">
+				<p>
+					Si la diferencia de electronegatividades es mayor que 0,5 y menor a 2,0.</p>
+			</td>
+			<td width="3%">
+				<p>
+					=</p>
+			</td>
+			<td width="47%">
+				<p>
+					el enlace formado ser&aacute;&nbsp;<b>covalente polar</b></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48%">
+				<p>
+					Si la diferencia de electronegatividades es menor a 0,5</p>
+			</td>
+			<td width="3%">
+				<p>
+					=</p>
+			</td>
+			<td width="47%">
+				<p>
+					el enlace ser&aacute;&nbsp;<b>covalente puro (o no polar).</b></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+<h6>
+	Enlace i&oacute;nico</h6>
+<p>
+	Cuando una mol&eacute;cula de una sustancia contiene&nbsp;<b>&aacute;tomos de metales y no metales</b>, los electrones son atra&iacute;dos con m&aacute;s fuerza por los no metales, que se transforman en iones con carga negativa; los metales, a su vez, se convierten en iones con carga positiva.</p>
+<p>
+	Entonces, los iones de diferente signo se atraen electrost&aacute;ticamente, formando enlaces i&oacute;nicos.</p>
+<p>
+	Este enlace se origina cuando se transfiere uno o varios electrones de un &aacute;tomo a otro. Debido al intercambio electr&oacute;nico, los &aacute;tomos se cargan positiva y negativamente, estableci&eacute;ndose as&iacute; una fuerza de atracci&oacute;n electrost&aacute;tica que los enlaza.&nbsp;<b>Se forma entre dos &aacute;tomos con una apreciable diferencia de electronegatividades</b>, los elementos de los grupos I y II A forman enlaces i&oacute;nicos con los elementos de los grupos VI y VII A.</p>
+<table align="center" border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center">
+				<h6>
+					Enlace i&oacute;nico: Mol&eacute;cula de NaCl</h6>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<p>
+					<img alt="Enlacequimico006" border="0" height="51" src="http://www.profesorenlinea.cl/imagenQuimica/Enlace_quimico_image006.jpg" width="333" /></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+<p>
+	En general, cuando el compuesto est&aacute; constituido por un metal y un no-metal y adem&aacute;s la diferencia en electronegatividades es grande, el compuesto es&nbsp;<b>i&oacute;nico</b>. Es el caso del bromuro de potasio (KBr).</p>
+<p>
+	<b>(Ver: PSU: Qu&iacute;mica,<a href="http://www.profesorenlinea.cl/PSU/Quimica/Preguntas/Pregunta04_2005Quimica.html" target="_blank">&nbsp;Pregunta 04_2005</a>).</b></p>
+<p>
+	<b>Propiedades de un enlace i&oacute;nico</b></p>
+<p>
+	Los productos resultantes de un enlace i&oacute;nico poseen caracter&iacute;sticas especiales:</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Son s&oacute;lidos de elevado punto de fusi&oacute;n y ebullici&oacute;n.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;La mayor&iacute;a son solubles en disolventes polares como el agua.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;La mayor&iacute;a son insolubles en disolventes apolares como el benceno o el hexano.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Las sustancias i&oacute;nicas conducen la electricidad cuando est&aacute;n en estado l&iacute;quido o en disoluciones acuosas por estar formados por part&iacute;culas cargadas (iones), &nbsp;pero no en estado cristalino, porque los iones individuales son demasiado grandes para moverse libremente a trav&eacute;s del cristal.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Al intentar deformarlos se rompe el cristal, son fr&aacute;giles.</p>
+<h6>
+	<a name="covalente01" target="_blank"></a>Enlace covalente</h6>
+<p>
+	Se presenta cuando se comparten uno o m&aacute;s pares de electrones entre dos &aacute;tomos cuya diferencia de electronegatividad es peque&ntilde;a.</p>
+<p>
+	<b>Ver: PSU: Qu&iacute;mica;&nbsp;<a href="http://www.profesorenlinea.cl/PSU/Quimica/Preguntas/Pregunta04_2005Quimica2.html" target="_blank">Pregunta 04_2005(Qu&iacute;mica2)</a></b></p>
+<h6>
+	Enlace covalente apolar (o no polar)</h6>
+<p>
+	Si los &aacute;tomos enlazados son no metales e id&eacute;nticos (como en N<sub>2</sub>&nbsp;o en O<sub>2</sub>), los electrones son compartidos por igual por los dos &aacute;tomos, y el enlace se llama&nbsp;<b>covalente apolar</b>.</p>
+<p>
+	Se establece entre &aacute;tomos con igual electronegatividad. &Aacute;tomos del mismo elemento presentan este tipo de enlace.</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<table align="center" border="1" bordercolor="#FF6600" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center">
+				<h6>
+					Enlace covalente apolar: Mol&eacute;cula de N<sub>2</sub></h6>
+				<p>
+					<b>(Usando la Notaci&oacute;n de Lewis)</b></p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<p>
+					<img alt="Enlacequimico008" border="0" height="36" src="http://www.profesorenlinea.cl/imagenQuimica/Enlace_quimico_image008.jpg" width="442" /></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+<p>
+	<b>Ver: PSU: Qu&iacute;mica;&nbsp;<a href="http://www.profesorenlinea.cl/PSU/Quimica/Preguntas/Pregunta09_2006.html" target="_blank">Pregunta 09_2006</a></b></p>
+<p>
+	En este enlace covalente no polar, la densidad electr&oacute;nica es sim&eacute;trica con respecto a un plano perpendicular a la l&iacute;nea entre los dos n&uacute;cleos. Esto es cierto para todas las mol&eacute;culas diat&oacute;micas homonucleares (formadas por dos &aacute;tomos del mismo elemento) , tales como H<sub>2</sub>, O<sub>2</sub>, N<sub>2</sub>, F<sub>2</sub>&nbsp;y Cl<sub>2</sub>, porque los dos &aacute;tomos id&eacute;nticos tienen electronegatividades id&eacute;nticas. Por lo que podemos decir:<b>los enlaces covalentes en todas las mol&eacute;culas diat&oacute;micas homonucleares deben ser no polares</b>. Por ejemplo, una mol&eacute;cula de di&oacute;xido de carbono (CO<sub>2</sub>) es lineal con el &aacute;tomo de carbono al centro y, por lo tanto, debido a su simetr&iacute;a es covalente apolar.</p>
+<p>
+	<b>(Ver: PSU: Qu&iacute;mica,&nbsp;<a href="http://www.profesorenlinea.cl/PSU/Quimica/Preguntas/Pregunta04_2005Quimica.html" target="_blank">Pregunta 04_2005</a>).</b></p>
+<h6>
+	Enlace covalente polar</h6>
+<p>
+	Si los &aacute;tomos son no metales pero distintos (como en el &oacute;xido n&iacute;trico, NO), los electrones son compartidos en forma desigual y el enlace se llama covalente polar (polar porque la mol&eacute;cula tiene un polo el&eacute;ctrico positivo y otro negativo, y covalente porque los &aacute;tomos comparten los electrones, aunque sea en forma desigual).</p>
+<p>
+	Se establece entre &aacute;tomos con electronegatividades pr&oacute;ximas pero no iguales.</p>
+<p>
+	Estas sustancias no conducen la electricidad ni tienen brillo, ductilidad o maleabilidad.</p>
+<p>
+	Veamos un ejemplo:</p>
+<p>
+	&iquest;Qu&eacute; tipo de enlace se formar&aacute; entre H y O?</p>
+<p>
+	Seg&uacute;n la&nbsp;<b>Tabla de Electronegatividades de Pauli</b>, el Hidr&oacute;geno tiene una&nbsp;<b>electronegatividad de 2,2</b>&nbsp;&nbsp;y el&nbsp;<b>Ox&iacute;geno 3,44</b>, por lo tanto la diferencia de electronegatividades ser&aacute;: 3,44 &ndash; 2,2 =&nbsp;<b>1,24.</b></p>
+<p>
+	El resultado de la operaci&oacute;n entrega 1,24 cifra que es menor que 2,0 y mayor que 0,5.</p>
+<p>
+	Por lo tanto, el enlace ser&aacute;&nbsp;<b>covalente polar</b>. Adem&aacute;s, si no se conociera la electronegatividad de los elementos bastar&iacute;a saber que son dos no metales distintos para definir su enlace como covalente polar.</p>
+<h6>
+	Enlace covalente coordinado</h6>
+<p>
+	Se establece por compartici&oacute;n de electrones entre dos &aacute;tomos, pero s&oacute;lo un &aacute;tomo aporta el par de electrones compartidos.</p>
+<p>
+	<b>Ver: PSU: Qu&iacute;mica,&nbsp;<a href="http://www.profesorenlinea.cl/PSU/Quimica/Preguntas/Pregunta08_2006.html" target="_blank">Pregunta 08_2006</a></b></p>
+<p>
+	&nbsp;</p>
+<h6>
+	Propiedades de los enlaces covalentes</h6>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Son gases, l&iacute;quidos o s&oacute;lidos de bajo punto de fusi&oacute;n.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;La mayor&iacute;a son insolubles en disolventes polares.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;La mayor&iacute;a son solubles en disolventes apolares.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Los l&iacute;quidos y s&oacute;lidos fundidos no conducen la electricidad.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Las disoluciones acuosas son malas conductoras de la electricidad porque no contienen part&iacute;culas cargadas.</p>
+<h6>
+	Enlace met&aacute;lico</h6>
+<p>
+	Si los &aacute;tomos enlazados son elementos met&aacute;licos, el enlace se llama&nbsp;<b>met&aacute;lico</b>. Los electrones son compartidos por los &aacute;tomos, pero pueden moverse a trav&eacute;s del s&oacute;lido proporcionando conductividad t&eacute;rmica y el&eacute;ctrica, brillo, maleabilidad y ductilidad.</p>
+<p>
+	Los electrones que participan en &eacute;l se mueven libremente, a causa de la poca fuerza de atracci&oacute;n del n&uacute;cleo sobre los electrones de su periferia.</p>
+<p>
+	Cuando los electrones son compartidos sim&eacute;tricamente, el enlace puede ser met&aacute;lico o covalente apolar; si son compartidos asim&eacute;tricamente, el enlace es covalente polar; la transferencia de electrones proporciona enlace i&oacute;nico. Generalmente, la tendencia a una distribuci&oacute;n desigual de los electrones entre un par de &aacute;tomos aumenta cuanto m&aacute;s separados est&aacute;n en la&nbsp;<a href="http://www.profesorenlinea.cl/Quimica/TablaPeriodica.htm" target="_blank"><b>tabla peri&oacute;dica</b></a>.</p>
+<h6>
+	C&oacute;mo se forman los enlaces covalentes no polares y polares</h6>
+<p>
+	Al contrario de los enlaces i&oacute;nicos, en los cuales ocurre una transferencia completa de electrones, el enlace covalente ocurre cuando dos (o m&aacute;s) elementos comparten electrones.</p>
+<p>
+	El enlace covalente ocurre porque los &aacute;tomos en el compuesto tienen una tendencia similar hacia los electrones (generalmente para ganar electrones). Esto ocurre com&uacute;nmente cuando dos no metales se enlazan. Ya que ninguno de los no metales que participan en el enlace querr&aacute; ganar electrones, estos elementos compartir&aacute;n electrones para poder llenar sus envolturas de valencia.</p>
+<p>
+	Un buen ejemplo de un enlace covalente es ese que ocurre entre dos &aacute;tomos de hidr&oacute;geno.</p>
+<p>
+	Los &aacute;tomos de hidr&oacute;geno (H) tienen un electr&oacute;n de valencia en su primera y &uacute;nica capa o envoltura. Puesto que la capacidad de esta envoltura es de dos electrones, cada &aacute;tomo hidr&oacute;geno tender&aacute; a captar un segundo electr&oacute;n.</p>
+<table align="center" border="1" bordercolor="#FF9900" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center">
+				<h6>
+					Enlace covalente apolar entre dos &aacute;tomos de hidr&oacute;geno (H)</h6>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<p align="center">
+					<img alt="Enlacequimico010" border="0" height="29" src="http://www.profesorenlinea.cl/imagenQuimica/Enlace_quimico_image010.jpg" width="343" /></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+<p>
+	En un esfuerzo por recoger un segundo electr&oacute;n, el &aacute;tomo de hidr&oacute;geno reaccionar&aacute; con &aacute;tomos H vecinos para formar el compuesto H<sub>2</sub>. Ya que el compuesto de hidr&oacute;geno es una combinaci&oacute;n de &aacute;tomos igualados, los &aacute;tomos compartir&aacute;n cada uno de sus electrones individuales, formando as&iacute; un enlace covalente. De esta manera, ambos &aacute;tomos comparten la estabilidad de una envoltura de valencia.</p>
+<p>
+	<b>Siempre que dos &aacute;tomos del mismo elemento se enlazan (formando mol&eacute;culas diat&oacute;micas homonucleares), tendremos un enlace no polar.</b></p>
+<p>
+	Otro ejemplo de enlace covalente apolar (no polar), pero con &aacute;tomos diferentes, es el metano (CH<sub>4</sub>).</p>
+<p>
+	La electronegatividad del carbono es 2,5 y la del hidr&oacute;geno es 2,1; la diferencia entre ellos es de 0,4 (menor de 0,5), por lo que el enlace se considera no polar. Adem&aacute;s, el metano es una mol&eacute;cula muy sim&eacute;trica, por lo que las peque&ntilde;as diferencias de electronegatividad en sus cuatro enlaces se anulan entre s&iacute;.</p>
+<p>
+	En cambio, se forma un enlace polar cuando los electrones son desigualmente compartidos (permanecen m&aacute;s tiempo cerca de un &aacute;tomo que del otro) entre dos &aacute;tomos. Los enlaces covalentes polares ocurren porque un &aacute;tomo tiene una mayor afinidad hacia los electrones que el otro (sin embargo, no tanta como para empujar completamente los electrones y formar un i&oacute;n).</p>
+<p>
+	Esto quiere decir que, en un enlace covalente polar los electrones que se enlazan pasar&aacute;n un mayor tiempo alrededor del &aacute;tomo que tiene la mayor afinidad hacia los electrones. Un buen ejemplo del enlace covalente polar es el enlace hidr&oacute;geno - ox&iacute;geno en la mol&eacute;cula de agua.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-11-08T07:33:20+01:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[CLASE BUENÍSIMA DE ENLACE QUÍMICO]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=urB33TtMEPs&amp;feature=related" />
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/profile/ANGEL-VÁZQUEZ-SÁNCHEZ/" />
+    <sioc:has_space rdf:resource="http://reduno-internacional.com/en/community/UNOi" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/materias/362e12b1-7736-4fc5-8f83-67efbe322172" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/el-ipad-en-el-salon-de-clases/cefa79cb-0ad4-40cf-ae90-a6ff8c3be7c8" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/buen%c3%adsima" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/enlace" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/quimico" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/configuraci%c3%b3n%20electr%c3%b3nica" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/tabla%20peri%c3%b3dica%20de%20los%20elementos" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/pregunta%2006_2006" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/pregunta%2004_2005" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/pregunta%2009_2006" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/pregunta%2008_2006" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ver%20en%20youtube" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/electrones%20de%20valencia" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/s%c3%b3lo" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/cloruro" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/aqu%c3%ad" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ia" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ib" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/iia" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/iib" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ivb" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/iva" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/gilbert%20n" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/regla" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/estructura" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/notaci%c3%b3n%20de%20lewis" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/gilbert%20lewis" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/br" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/iones" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/entonces" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/psu" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/qu%c3%admica" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ion" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/cati%c3%b3n" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ejemplo" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/nh4" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ani%c3%b3n" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/br%e2%80%93" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/clo2%e2%80%93" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ejemplos" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/cl%e2%80%93" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/tipos" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/tomando" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ii%20a" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/vi" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/vii%20a" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/kbr" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/propiedades" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/qu%c3%admica2" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/o2" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/%c3%a1tomos" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/usando" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/f2" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/cl2" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/co2" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/veamos" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/tabla%20de%20electronegatividades%20de%20pauli" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/hidr%c3%b3geno" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ox%c3%adgeno" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/generalmente" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/puesto" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/siempre" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ch4" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/clase" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/qu%c3%admico" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://reduno-internacional.com/en/community/UNOi/profile/ANGEL-VÁZQUEZ-SÁNCHEZ/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ANGEL VÁZQUEZ SÁNCHEZ]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[ANGEL]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[VÁZQUEZ SÁNCHEZ]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/materias/362e12b1-7736-4fc5-8f83-67efbe322172">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Materias]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Materias]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/el-ipad-en-el-salon-de-clases/cefa79cb-0ad4-40cf-ae90-a6ff8c3be7c8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[El iPad en el salón de clases]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[El iPad en el salón de clases]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/buen%c3%adsima">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[buenísima]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/enlace">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[enlace]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/quimico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[quimico]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/configuraci%c3%b3n%20electr%c3%b3nica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[configuración electrónica]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/tabla%20peri%c3%b3dica%20de%20los%20elementos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tabla periódica de los elementos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/pregunta%2006_2006">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pregunta 06_2006]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/pregunta%2004_2005">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pregunta 04_2005]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/pregunta%2009_2006">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pregunta 09_2006]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/pregunta%2008_2006">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pregunta 08_2006]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ver%20en%20youtube">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ver en youtube]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/electrones%20de%20valencia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[electrones de valencia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/s%c3%b3lo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sólo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/cloruro">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cloruro]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/aqu%c3%ad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[aquí]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ib">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ib]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/iia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iia]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/iib">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iib]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ivb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ivb]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/iva">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iva]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/gilbert%20n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gilbert n]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/regla">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[regla]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/estructura">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[estructura]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/notaci%c3%b3n%20de%20lewis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[notación de lewis]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/gilbert%20lewis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[gilbert lewis]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/br">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[br]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/iones">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[iones]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/entonces">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[entonces]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/psu">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[psu]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/qu%c3%admica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[química]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ion]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/cati%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[catión]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ejemplo">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ejemplo]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/nh4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[nh4]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ani%c3%b3n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[anión]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/br%e2%80%93">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[br–]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/clo2%e2%80%93">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[clo2–]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ejemplos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ejemplos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/cl%e2%80%93">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cl–]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/tipos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tipos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/tomando">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tomando]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ii%20a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ii a]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/vi">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vi]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/vii%20a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[vii a]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/kbr">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[kbr]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/propiedades">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[propiedades]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/qu%c3%admica2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[química2]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/o2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[o2]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/%c3%a1tomos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[átomos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/usando">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[usando]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/f2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[f2]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/cl2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cl2]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/co2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[co2]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/veamos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[veamos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/tabla%20de%20electronegatividades%20de%20pauli">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tabla de electronegatividades de pauli]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/hidr%c3%b3geno">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[hidrógeno]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ox%c3%adgeno">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[oxígeno]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/generalmente">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[generalmente]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/puesto">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[puesto]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/siempre">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[siempre]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ch4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ch4]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/clase">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[clase]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/qu%c3%admico">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[químico]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-matematicas/be886a44-22d4-400e-8e37-99c60b5c0225">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[¿Cómo hacer una clase interactiva de Matemáticas?]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&nbsp;</p>
+<p>
+	Comunidad de Sistema UNO:</p>
+<p>
+	Les comparto el siguiente video. Es una clase de Matem&aacute;ticas, donde la maestra complementa la clase con el uso del iPad.</p>
+<p>
+	Espero les sea &uacute;til y si tienen ideas pueden compartirlas con los usuarios de la comunidad de Sistema UNO.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-12T16:58:00+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[¿Cómo hacer una clase interactiva de Matemáticas?]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=i49AAXQ3PXI" />
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+    <sioc:has_space rdf:resource="http://reduno-internacional.com/en/community/UNOi" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/ejemplos-de-clases-con-el-ipad/167da497-6d10-4af1-88ba-93edcc164c94" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/matem%c3%a1ticas" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/interactiva" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/clase" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/hacer" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/espero" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/comunidad%20de%20sistema%20uno" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/clase%20interactiva" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Fernando  Aguilar · Sistema UNO]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernando ]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Aguilar]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Fernando  Aguilar]]></foaf:name>
+  </foaf:Person>
+  <foaf:Group rdf:about="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Sistema UNO]]></rdfs:label>
+    <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Sistema UNO]]></foaf:name>
+    <foaf:member rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+  </foaf:Group>
+  <skos:Concept rdf:about="http://reduno-internacional.com/en/community/UNOi/resources/category/ejemplos-de-clases-con-el-ipad/167da497-6d10-4af1-88ba-93edcc164c94">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Ejemplos de clases con el iPad]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Ejemplos de clases con el iPad]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/matem%c3%a1ticas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[matemáticas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/interactiva">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[interactiva]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/hacer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[hacer]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/espero">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[espero]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/comunidad%20de%20sistema%20uno">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[comunidad de sistema uno]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/clase%20interactiva">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[clase interactiva]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-ciencias-natur/3d59d3d2-a076-4e7e-a8d7-013f01e157c0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[¿Cómo hacer una clase interactiva de Ciencias Naturales?]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&nbsp;</p>
+<p>
+	Comunidad de Sistema UNO:</p>
+<p>
+	Les comparto el siguiente video. Es una clase de Ciencias Naturales, donde la maestra complementa la clase con el uso del iPad.</p>
+<p>
+	Espero les sea &uacute;til y si tienen ideas pueden compartirlas con los usuarios de la comunidad de Sistema UNO.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-12T16:55:37+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[¿Cómo hacer una clase interactiva de Ciencias Naturales?]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=7e0dJJJjF74" />
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+    <sioc:has_space rdf:resource="http://reduno-internacional.com/en/community/UNOi" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/ejemplos-de-clases-con-el-ipad/167da497-6d10-4af1-88ba-93edcc164c94" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ciencias%20naturales" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/interactiva" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/clase" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/hacer" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/comunidad%20de%20sistema%20uno" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ciencias%20naturales">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ciencias naturales]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-ingles/b3f50c90-da31-4709-a140-80e74d803473">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[¿Cómo hacer una clase interactiva de Inglés?]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&nbsp;</p>
+<p>
+	Comunidad de Sistema UNO:</p>
+<p>
+	Les comparto el siguiente video. Es una clase de Ingl&eacute;s, donde la maestra complementa la clase con el uso del iPad.</p>
+<p>
+	Espero les sea &uacute;til y si tienen ideas pueden compartirlas con los usuarios de la comunidad de Sistema UNO.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-12T16:54:14+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[¿Cómo hacer una clase interactiva de Inglés?]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=6O4TIRhkMGo" />
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+    <sioc:has_space rdf:resource="http://reduno-internacional.com/en/community/UNOi" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/ejemplos-de-clases-con-el-ipad/167da497-6d10-4af1-88ba-93edcc164c94" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ingl%c3%a9s" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/interactiva" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/clase" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/hacer" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/comunidad%20de%20sistema%20uno" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/ingl%c3%a9s">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[inglés]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc:Item rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-matematicas-/71f745b3-abae-4521-8618-df1c0fc3ace3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[¿Cómo hacer una clase interactiva de Matemáticas ?]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&nbsp;</p>
+<p>
+	Comunidad de Sistema UNO:</p>
+<p>
+	Les comparto el siguiente video. Es una clase de Matem&aacute;ticas, donde la maestra complementa la clase con el uso del iPad.</p>
+<p>
+	Espero les sea &uacute;til y si tienen ideas pueden compartirlas con los usuarios de la comunidad de Sistema UNO.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-12T16:52:34+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[¿Cómo hacer una clase interactiva de Matemáticas ?]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=Dp8EroWFo4U" />
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+    <sioc:has_space rdf:resource="http://reduno-internacional.com/en/community/UNOi" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/ejemplos-de-clases-con-el-ipad/167da497-6d10-4af1-88ba-93edcc164c94" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/matem%c3%a1ticas" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/interactiva" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/clase" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/hacer" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/comunidad%20de%20sistema%20uno" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc:Item rdf:about="http://reduno-internacional.com/en/community/UNOi/resource/como-hacer-una-clase-interactiva-de-ingles-program/8054048e-6a57-4277-b771-f0ecc8924ddf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[¿Cómo hacer una clase interactiva de Inglés, Programa BE?]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	&nbsp;</p>
+<p>
+	Comunidad de Sistema UNO:</p>
+<p>
+	Les comparto el siguiente video. Es una clase de Ingl&eacute;s(BE), donde la maestra complementa la clase con el uso del iPad.</p>
+<p>
+	Espero les sea &uacute;til y si tienen ideas pueden compartirlas con los usuarios de la comunidad de Sistema UNO.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-04-12T16:51:11+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[¿Cómo hacer una clase interactiva de Inglés, Programa BE?]]></dcterms:title>
+    <dcterms:source rdf:resource="http://www.youtube.com/watch?v=ERoOX4KjgvA" />
+    <sioc:has_creator rdf:resource="http://reduno-internacional.com/en/community/UNOi/organization/sistemauno/profile/Fernando--Aguilar/" />
+    <sioc:has_space rdf:resource="http://reduno-internacional.com/en/community/UNOi" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/resources/category/ejemplos-de-clases-con-el-ipad/167da497-6d10-4af1-88ba-93edcc164c94" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/ingl%c3%a9s" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/interactiva" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/clase" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/hacer" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/espero" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/programa%20be" />
+    <sioc:topic rdf:resource="http://reduno-internacional.com/en/community/UNOi/search/tag/comunidad%20de%20sistema%20uno" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
+  </sioc:Item>
+  <sioc_t:Tag rdf:about="http://reduno-internacional.com/en/community/UNOi/search/tag/programa%20be">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[programa be]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

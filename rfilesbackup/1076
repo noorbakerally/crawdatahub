@@ -1,0 +1,3510 @@
+<!DOCTYPE html><html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Search Results</title>
+<link rel="shortcut icon" href="/images/datagovuk_favicon.png" type="image/x-icon">
+<link rel="start" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0">
+<link rel="next" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=1">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.json" type="application/json">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.plainhtml" type="text/htmlx">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.rdf" type="application/rdf+xml">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.text" type="text/plain">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl" type="text/turtle">
+<link rel="alternate" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.xml" type="application/xml">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript" src="/scripts/jquery.min.js"></script><script type="text/javascript" src="/scripts/jquery-ui.min.js"></script><script type="text/javascript" src="/scripts/jquery.sparkline.js"></script><script type="text/javascript" src="/scripts/codemirror/codemirror_min.js"></script><script type="text/javascript">
+		$(function() {
+			$('.info img')
+				.toggle(function () {
+					$(this)
+						.attr('src', '/images/green/16x16/Cancel.png')
+						.next().show();
+				}, function () {
+					$(this)
+						.attr('src', '/images/green/16x16/Question.png')
+						.next().fadeOut('slow');
+				});
+			
+			$('input[type=date]').datepicker({
+				changeMonth: true,
+				changeYear: true,
+				dateFormat: 'yy-mm-dd',
+				autoSize: true
+			});
+			
+			$('#search').hide();
+			
+			$('#openSearch')
+				.toggle(function () {
+					$(this).text('Hide Search Form');
+					$('#search').slideDown('slow');
+				}, function () {
+					$(this).text('Show Search Form');
+					$('#search').slideUp('slow');
+				});
+			
+			$('.provenance textarea')
+				.each(function () {
+					var skipLines = parseFloat($(this).attr('data-skip-lines'), 10);
+					var lineHeight = parseFloat($(this).css('line-height'), 10);
+					$(this).scrollTop(skipLines * lineHeight);
+					var cm = CodeMirror.fromTextArea(this, {
+						basefiles: ["/scripts/codemirror/codemirror_base_sparql.js"],
+						stylesheet: "/css/sparql.css",
+						textWrapping: false
+					});
+					$(cm.frame).load(function () {
+						cm.jumpToLine(skipLines + 1);
+						$(cm.frame)
+							.css('border', 	'1px solid #D3D3D3')
+							.css('border-radius', '5px')
+							.css('-moz-border-radius', '5px');
+					});
+				});
+			
+			
+		});
+	</script>
+<link rel="stylesheet" href="/css/html5reset-1.6.1.css" type="text/css">
+<link rel="stylesheet" href="/css/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="/css/smoothness/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="/css/result.css" type="text/css">
+<!--[if lt IE 9]><link rel="stylesheet" href="/css/ie.css" type="text/css"></link><![endif]-->
+</head>
+<body>
+<div id="page">
+<nav class="site">
+<section class="formats">
+<ul>
+<li class="first">
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html" type="text/html" rel="alternate" title="view in html format">html</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.json" type="application/json" rel="alternate" title="view in json format">json</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.plainhtml" type="text/htmlx" rel="alternate" title="view in plainhtml format">plainhtml</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.rdf" type="application/rdf+xml" rel="alternate" title="view in rdf format">rdf</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.text" type="text/plain" rel="alternate" title="view in text format">text</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl" type="text/turtle" rel="alternate" title="view in ttl format">ttl</a>
+</li>
+<li class="last">
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.xml" type="application/xml" rel="alternate" title="view in xml format">xml</a>
+</li>
+</ul>
+</section>
+</nav>
+<header>
+<h1>
+<a href="/">Linked Data API</a>
+</h1>
+</header>
+<nav class="topnav">
+<script type="text/javascript">
+				function initMap() {
+					return null;
+				};
+			</script>
+<section class="summary">
+<h1>On This Page</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>Links to the items within this page, and to the previous and/or next pages of results.</p>
+</div>
+<ul>
+<li>
+<a href="#N65633" title="jump to item on this page">All observations for series 001019 in January of the year 1910</a>
+</li>
+<li>
+<a href="#N65640" title="jump to item on this page">All observations for series 001019 in February of the year 1910</a>
+</li>
+<li>
+<a href="#N65647" title="jump to item on this page">All observations for series 001019 in March of the year 1910</a>
+</li>
+<li>
+<a href="#N65654" title="jump to item on this page">All observations for series 001019 in April of the year 1910</a>
+</li>
+<li>
+<a href="#N65661" title="jump to item on this page">All observations for series 001019 in May of the year 1910</a>
+</li>
+<li>
+<a href="#N65668" title="jump to item on this page">All observations for series 001019 in June of the year 1910</a>
+</li>
+<li>
+<a href="#N65675" title="jump to item on this page">All observations for series 001019 in July of the year 1910</a>
+</li>
+<li>
+<a href="#N65682" title="jump to item on this page">All observations for series 001019 in August of the year 1910</a>
+</li>
+<li>
+<a href="#N65689" title="jump to item on this page">All observations for series 001019 in September of the year 1910</a>
+</li>
+<li>
+<a href="#N65696" title="jump to item on this page">All observations for series 001019 in October of the year 1910</a>
+</li>
+<li>
+<a href="#N65703" title="jump to item on this page">All observations for series 001019 in November of the year 1910</a>
+</li>
+<li>
+<a href="#N65710" title="jump to item on this page">All observations for series 001019 in December of the year 1910</a>
+</li>
+<li>
+<a href="#N65717" title="jump to item on this page">All observations for series 001019 in January of the year 1911</a>
+</li>
+<li>
+<a href="#N65724" title="jump to item on this page">All observations for series 001019 in February of the year 1911</a>
+</li>
+<li>
+<a href="#N65731" title="jump to item on this page">All observations for series 001019 in March of the year 1911</a>
+</li>
+<li>
+<a href="#N65738" title="jump to item on this page">All observations for series 001019 in April of the year 1911</a>
+</li>
+<li>
+<a href="#N65745" title="jump to item on this page">All observations for series 001019 in May of the year 1911</a>
+</li>
+<li>
+<a href="#N65752" title="jump to item on this page">All observations for series 001019 in June of the year 1911</a>
+</li>
+<li>
+<a href="#N65759" title="jump to item on this page">All observations for series 001019 in July of the year 1911</a>
+</li>
+<li>
+<a href="#N65766" title="jump to item on this page">All observations for series 001019 in August of the year 1911</a>
+</li>
+<li>
+<a href="#N65773" title="jump to item on this page">All observations for series 001019 in September of the year 1911</a>
+</li>
+<li>
+<a href="#N65780" title="jump to item on this page">All observations for series 001019 in October of the year 1911</a>
+</li>
+<li>
+<a href="#N65787" title="jump to item on this page">All observations for series 001019 in November of the year 1911</a>
+</li>
+<li>
+<a href="#N65794" title="jump to item on this page">All observations for series 001019 in December of the year 1911</a>
+</li>
+<li>
+<a href="#N65801" title="jump to item on this page">All observations for series 001019 in January of the year 1912</a>
+</li>
+<li>
+<a href="#N65808" title="jump to item on this page">All observations for series 001019 in February of the year 1912</a>
+</li>
+<li>
+<a href="#N65815" title="jump to item on this page">All observations for series 001019 in March of the year 1912</a>
+</li>
+<li>
+<a href="#N65822" title="jump to item on this page">All observations for series 001019 in April of the year 1912</a>
+</li>
+<li>
+<a href="#N65829" title="jump to item on this page">All observations for series 001019 in May of the year 1912</a>
+</li>
+<li>
+<a href="#N65836" title="jump to item on this page">All observations for series 001019 in June of the year 1912</a>
+</li>
+<li>
+<a href="#N65843" title="jump to item on this page">All observations for series 001019 in July of the year 1912</a>
+</li>
+<li>
+<a href="#N65850" title="jump to item on this page">All observations for series 001019 in August of the year 1912</a>
+</li>
+<li>
+<a href="#N65857" title="jump to item on this page">All observations for series 001019 in September of the year 1912</a>
+</li>
+<li>
+<a href="#N65864" title="jump to item on this page">All observations for series 001019 in October of the year 1912</a>
+</li>
+<li>
+<a href="#N65871" title="jump to item on this page">All observations for series 001019 in November of the year 1912</a>
+</li>
+<li>
+<a href="#N65878" title="jump to item on this page">All observations for series 001019 in December of the year 1912</a>
+</li>
+<li>
+<a href="#N65885" title="jump to item on this page">All observations for series 001019 in January of the year 1913</a>
+</li>
+<li>
+<a href="#N65892" title="jump to item on this page">All observations for series 001019 in February of the year 1913</a>
+</li>
+<li>
+<a href="#N65899" title="jump to item on this page">All observations for series 001019 in March of the year 1913</a>
+</li>
+<li>
+<a href="#N65906" title="jump to item on this page">All observations for series 001019 in April of the year 1913</a>
+</li>
+<li>
+<a href="#N65913" title="jump to item on this page">All observations for series 001019 in May of the year 1913</a>
+</li>
+<li>
+<a href="#N65920" title="jump to item on this page">All observations for series 001019 in June of the year 1913</a>
+</li>
+<li>
+<a href="#N65927" title="jump to item on this page">All observations for series 001019 in July of the year 1913</a>
+</li>
+<li>
+<a href="#N65934" title="jump to item on this page">All observations for series 001019 in August of the year 1913</a>
+</li>
+<li>
+<a href="#N65941" title="jump to item on this page">All observations for series 001019 in September of the year 1913</a>
+</li>
+<li>
+<a href="#N65948" title="jump to item on this page">All observations for series 001019 in October of the year 1913</a>
+</li>
+<li>
+<a href="#N65955" title="jump to item on this page">All observations for series 001019 in November of the year 1913</a>
+</li>
+<li>
+<a href="#N65962" title="jump to item on this page">All observations for series 001019 in December of the year 1913</a>
+</li>
+<li>
+<a href="#N65969" title="jump to item on this page">All observations for series 001019 in January of the year 1914</a>
+</li>
+<li>
+<a href="#N65976" title="jump to item on this page">All observations for series 001019 in February of the year 1914</a>
+</li>
+<li>
+<a href="#N65983" title="jump to item on this page">All observations for series 001019 in March of the year 1914</a>
+</li>
+<li>
+<a href="#N65990" title="jump to item on this page">All observations for series 001019 in April of the year 1914</a>
+</li>
+<li>
+<a href="#N65997" title="jump to item on this page">All observations for series 001019 in May of the year 1914</a>
+</li>
+<li>
+<a href="#N66004" title="jump to item on this page">All observations for series 001019 in June of the year 1914</a>
+</li>
+<li>
+<a href="#N66011" title="jump to item on this page">All observations for series 001019 in July of the year 1914</a>
+</li>
+<li>
+<a href="#N66018" title="jump to item on this page">All observations for series 001019 in August of the year 1914</a>
+</li>
+<li>
+<a href="#N66025" title="jump to item on this page">All observations for series 001019 in September of the year 1914</a>
+</li>
+<li>
+<a href="#N66032" title="jump to item on this page">All observations for series 001019 in October of the year 1914</a>
+</li>
+<li>
+<a href="#N66039" title="jump to item on this page">All observations for series 001019 in November of the year 1914</a>
+</li>
+<li>
+<a href="#N66046" title="jump to item on this page">All observations for series 001019 in December of the year 1914</a>
+</li>
+<li>
+<a href="#N66053" title="jump to item on this page">All observations for series 001019 in January of the year 1915</a>
+</li>
+<li>
+<a href="#N66060" title="jump to item on this page">All observations for series 001019 in February of the year 1915</a>
+</li>
+<li>
+<a href="#N66067" title="jump to item on this page">All observations for series 001019 in March of the year 1915</a>
+</li>
+<li>
+<a href="#N66074" title="jump to item on this page">All observations for series 001019 in April of the year 1915</a>
+</li>
+<li>
+<a href="#N66081" title="jump to item on this page">All observations for series 001019 in May of the year 1915</a>
+</li>
+<li>
+<a href="#N66088" title="jump to item on this page">All observations for series 001019 in June of the year 1915</a>
+</li>
+<li>
+<a href="#N66095" title="jump to item on this page">All observations for series 001019 in July of the year 1915</a>
+</li>
+<li>
+<a href="#N66102" title="jump to item on this page">All observations for series 001019 in August of the year 1915</a>
+</li>
+<li>
+<a href="#N66109" title="jump to item on this page">All observations for series 001019 in September of the year 1915</a>
+</li>
+<li>
+<a href="#N66116" title="jump to item on this page">All observations for series 001019 in October of the year 1915</a>
+</li>
+<li>
+<a href="#N66123" title="jump to item on this page">All observations for series 001019 in November of the year 1915</a>
+</li>
+<li>
+<a href="#N66130" title="jump to item on this page">All observations for series 001019 in December of the year 1915</a>
+</li>
+<li>
+<a href="#N66137" title="jump to item on this page">All observations for series 001019 in January of the year 1916</a>
+</li>
+<li>
+<a href="#N66144" title="jump to item on this page">All observations for series 001019 in February of the year 1916</a>
+</li>
+<li>
+<a href="#N66151" title="jump to item on this page">All observations for series 001019 in March of the year 1916</a>
+</li>
+<li>
+<a href="#N66158" title="jump to item on this page">All observations for series 001019 in April of the year 1916</a>
+</li>
+<li>
+<a href="#N66165" title="jump to item on this page">All observations for series 001019 in May of the year 1916</a>
+</li>
+<li>
+<a href="#N66172" title="jump to item on this page">All observations for series 001019 in June of the year 1916</a>
+</li>
+<li>
+<a href="#N66179" title="jump to item on this page">All observations for series 001019 in July of the year 1916</a>
+</li>
+<li>
+<a href="#N66186" title="jump to item on this page">All observations for series 001019 in August of the year 1916</a>
+</li>
+<li>
+<a href="#N66193" title="jump to item on this page">All observations for series 001019 in September of the year 1916</a>
+</li>
+<li>
+<a href="#N66200" title="jump to item on this page">All observations for series 001019 in October of the year 1916</a>
+</li>
+<li>
+<a href="#N66207" title="jump to item on this page">All observations for series 001019 in November of the year 1916</a>
+</li>
+<li>
+<a href="#N66214" title="jump to item on this page">All observations for series 001019 in December of the year 1916</a>
+</li>
+<li>
+<a href="#N66221" title="jump to item on this page">All observations for series 001019 in January of the year 1917</a>
+</li>
+<li>
+<a href="#N66228" title="jump to item on this page">All observations for series 001019 in February of the year 1917</a>
+</li>
+<li>
+<a href="#N66235" title="jump to item on this page">All observations for series 001019 in March of the year 1917</a>
+</li>
+<li>
+<a href="#N66242" title="jump to item on this page">All observations for series 001019 in April of the year 1917</a>
+</li>
+<li>
+<a href="#N66249" title="jump to item on this page">All observations for series 001019 in May of the year 1917</a>
+</li>
+<li>
+<a href="#N66256" title="jump to item on this page">All observations for series 001019 in June of the year 1917</a>
+</li>
+<li>
+<a href="#N66263" title="jump to item on this page">All observations for series 001019 in July of the year 1917</a>
+</li>
+<li>
+<a href="#N66270" title="jump to item on this page">All observations for series 001019 in August of the year 1917</a>
+</li>
+<li>
+<a href="#N66277" title="jump to item on this page">All observations for series 001019 in September of the year 1917</a>
+</li>
+<li>
+<a href="#N66284" title="jump to item on this page">All observations for series 001019 in October of the year 1917</a>
+</li>
+<li>
+<a href="#N66291" title="jump to item on this page">All observations for series 001019 in November of the year 1917</a>
+</li>
+<li>
+<a href="#N66298" title="jump to item on this page">All observations for series 001019 in December of the year 1917</a>
+</li>
+<li>
+<a href="#N66305" title="jump to item on this page">All observations for series 001019 in January of the year 1918</a>
+</li>
+<li>
+<a href="#N66312" title="jump to item on this page">All observations for series 001019 in February of the year 1918</a>
+</li>
+<li>
+<a href="#N66319" title="jump to item on this page">All observations for series 001019 in March of the year 1918</a>
+</li>
+<li>
+<a href="#N66326" title="jump to item on this page">All observations for series 001019 in April of the year 1918</a>
+</li>
+<li>
+<a href="#N66333" title="jump to item on this page">All observations for series 001019 in May of the year 1918</a>
+</li>
+<li>
+<a href="#N66340" title="jump to item on this page">All observations for series 001019 in June of the year 1918</a>
+</li>
+<li>
+<a href="#N66347" title="jump to item on this page">All observations for series 001019 in July of the year 1918</a>
+</li>
+<li>
+<a href="#N66354" title="jump to item on this page">All observations for series 001019 in August of the year 1918</a>
+</li>
+<li>
+<a href="#N66361" title="jump to item on this page">All observations for series 001019 in September of the year 1918</a>
+</li>
+<li>
+<a href="#N66368" title="jump to item on this page">All observations for series 001019 in October of the year 1918</a>
+</li>
+<li>
+<a href="#N66375" title="jump to item on this page">All observations for series 001019 in November of the year 1918</a>
+</li>
+<li>
+<a href="#N66382" title="jump to item on this page">All observations for series 001019 in December of the year 1918</a>
+</li>
+<li>
+<a href="#N66389" title="jump to item on this page">All observations for series 001019 in January of the year 1919</a>
+</li>
+<li>
+<a href="#N66396" title="jump to item on this page">All observations for series 001019 in February of the year 1919</a>
+</li>
+<li>
+<a href="#N66403" title="jump to item on this page">All observations for series 001019 in March of the year 1919</a>
+</li>
+<li>
+<a href="#N66410" title="jump to item on this page">All observations for series 001019 in April of the year 1919</a>
+</li>
+<li>
+<a href="#N66417" title="jump to item on this page">All observations for series 001019 in May of the year 1919</a>
+</li>
+<li>
+<a href="#N66424" title="jump to item on this page">All observations for series 001019 in June of the year 1919</a>
+</li>
+<li>
+<a href="#N66431" title="jump to item on this page">All observations for series 001019 in July of the year 1919</a>
+</li>
+<li>
+<a href="#N66438" title="jump to item on this page">All observations for series 001019 in August of the year 1919</a>
+</li>
+<li>
+<a href="#N66445" title="jump to item on this page">All observations for series 001019 in September of the year 1919</a>
+</li>
+<li>
+<a href="#N66452" title="jump to item on this page">All observations for series 001019 in October of the year 1919</a>
+</li>
+<li>
+<a href="#N66459" title="jump to item on this page">All observations for series 001019 in November of the year 1919</a>
+</li>
+<li>
+<a href="#N66466" title="jump to item on this page">All observations for series 001019 in December of the year 1919</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=1" title="go to next page">next &rsaquo;</a>
+</li>
+</ul>
+</section>
+<section class="sort">
+<h1>Sort by</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>This list shows the properties that you can sort by. Click on <img src="/images/grey/16x16/Arrow3%20Up.png" alt="sort in ascending order"> to sort in ascending order and <img src="/images/grey/16x16/Arrow3%20Down.png" alt="sort in descending order"> to sort in descending order. The properties that you're currently sorting by are shown at the top of the list. Click on <img src="/images/green/16x16/Cancel.png" alt="remove this sort"> to remove a sort and <img src="/images/green/16x16/Arrow3%20Up.png" alt="sort in descending order"> or <img src="/images/green/16x16/Arrow3%20Down.png" alt="sort in ascending order"> to reverse the current sort order. Click on the <img src="/images/green/16x16/Back.png" alt="remove all sorting"> icon to remove all the sorting. Note that sorting can significantly slow down the loading of the page.</p>
+</div>
+<ul>
+<li>
+<a rel="nofollow" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_sort=label" title="sort in ascending order"><img src="/images/grey/16x16/Arrow3%20Up.png" alt="sort in ascending order"></a><a rel="nofollow" title="sort in descending order" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_sort=-label"><img src="/images/grey/16x16/Arrow3%20Down.png" alt="sort in descending order"></a> <a rel="nofollow" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_sort=label" title="sort in ascending order">label</a>
+</li>
+<li>
+<a rel="nofollow" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_sort=class." title="sort in ascending order"><img src="/images/grey/16x16/Arrow3%20Up.png" alt="sort in ascending order"></a><a rel="nofollow" title="sort in descending order" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_sort=-class."><img src="/images/grey/16x16/Arrow3%20Down.png" alt="sort in descending order"></a> <a rel="nofollow" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_sort=class." title="sort in ascending order">class</a>
+</li>
+</ul>
+</section>
+<section class="view">
+<h1>View</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>Choose what information you want to view about each item. There are some pre-defined views, but starred properties are always present no matter what the view. You can star properties by clicking on the <img src="/images/grey/16x16/Star.png" alt="star this property"> icon. The currently starred icons have a <img src="/images/green/16x16/Star.png" alt="unstar this property"> icon; clicking on it will unstar the property.</p>
+</div>
+<ul>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_view=label&amp;_page=0" title="switch to label view">label</a>
+</li>
+</ul>
+<ul class="properties">
+<li>
+<a rel="nofollow" title="always include this property" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_properties=label"><img src="/images/grey/16x16/Star.png" alt="star this property"> label</a>
+</li>
+<li>
+<a rel="nofollow" title="always include this property" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_properties=class."><img src="/images/grey/16x16/Star.png" alt="star this property"> class</a>
+</li>
+</ul>
+</section>
+<section class="size">
+<h1>Items per page</h1>
+<div class="info">
+<img class="open" src="/images/green/16x16/Question.png" alt="help"><p>Choose how many items to view on each page. The more items you view, the longer the page will take to load.</p>
+</div>
+<ul>
+<li>
+<a rel="nofollow" title="view 10 items per page" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_pageSize=10">10</a>
+</li>
+<li>
+<a rel="nofollow" title="view 25 items per page" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_pageSize=25">25</a>
+</li>
+<li>
+<a rel="nofollow" title="view 50 items per page" href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0&amp;_pageSize=50">50</a>
+</li>
+</ul>
+</section>
+</nav>
+<div id="result">
+<div class="panel">
+<header>
+<p id="openSearch">Show Search Form</p>
+<h1>Search Results</h1>
+</header>
+<section id="search" style="display: none">
+<form action="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0">
+<input name="_page" value="0" type="hidden">
+<table>
+<colgroup>
+<col class="labelWidth">
+<col class="valueWidth">
+</colgroup>
+<tr>
+<th class="label"><label for="label">label</label></th><td class="input"><input name="label" id="label" size="25"></td>
+</tr>
+<tr>
+<th class="label"><label for="class.">class</label></th><td class="input"><input name="class." id="class." size="25"></td>
+</tr>
+</table>
+<p>
+<button type="submit">Search</button>
+</p>
+</form>
+</section>
+<section>
+<table id="N65633">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/01">All observations for series 001019 in January of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65640">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/02">All observations for series 001019 in February of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65647">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/03">All observations for series 001019 in March of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65654">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/04">All observations for series 001019 in April of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65661">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/05">All observations for series 001019 in May of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65668">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/06">All observations for series 001019 in June of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65675">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/07">All observations for series 001019 in July of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65682">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/08">All observations for series 001019 in August of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65689">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/09">All observations for series 001019 in September of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65696">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/10">All observations for series 001019 in October of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65703">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/11">All observations for series 001019 in November of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65710">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1910/month/12">All observations for series 001019 in December of the year 1910</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65717">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/01">All observations for series 001019 in January of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65724">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/02">All observations for series 001019 in February of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65731">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/03">All observations for series 001019 in March of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65738">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/04">All observations for series 001019 in April of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65745">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/05">All observations for series 001019 in May of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65752">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/06">All observations for series 001019 in June of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65759">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/07">All observations for series 001019 in July of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65766">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/08">All observations for series 001019 in August of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65773">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/09">All observations for series 001019 in September of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65780">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/10">All observations for series 001019 in October of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65787">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/11">All observations for series 001019 in November of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65794">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1911/month/12">All observations for series 001019 in December of the year 1911</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65801">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/01">All observations for series 001019 in January of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65808">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/02">All observations for series 001019 in February of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65815">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/03">All observations for series 001019 in March of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65822">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/04">All observations for series 001019 in April of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65829">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/05">All observations for series 001019 in May of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65836">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/06">All observations for series 001019 in June of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65843">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/07">All observations for series 001019 in July of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65850">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/08">All observations for series 001019 in August of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65857">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/09">All observations for series 001019 in September of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65864">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/10">All observations for series 001019 in October of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65871">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/11">All observations for series 001019 in November of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65878">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1912/month/12">All observations for series 001019 in December of the year 1912</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65885">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/01">All observations for series 001019 in January of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65892">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/02">All observations for series 001019 in February of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65899">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/03">All observations for series 001019 in March of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65906">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/04">All observations for series 001019 in April of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65913">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/05">All observations for series 001019 in May of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65920">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/06">All observations for series 001019 in June of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65927">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/07">All observations for series 001019 in July of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65934">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/08">All observations for series 001019 in August of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65941">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/09">All observations for series 001019 in September of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65948">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/10">All observations for series 001019 in October of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65955">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/11">All observations for series 001019 in November of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65962">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1913/month/12">All observations for series 001019 in December of the year 1913</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65969">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/01">All observations for series 001019 in January of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65976">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/02">All observations for series 001019 in February of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65983">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/03">All observations for series 001019 in March of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65990">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/04">All observations for series 001019 in April of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N65997">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/05">All observations for series 001019 in May of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66004">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/06">All observations for series 001019 in June of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66011">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/07">All observations for series 001019 in July of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66018">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/08">All observations for series 001019 in August of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66025">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/09">All observations for series 001019 in September of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66032">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/10">All observations for series 001019 in October of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66039">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/11">All observations for series 001019 in November of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66046">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1914/month/12">All observations for series 001019 in December of the year 1914</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66053">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/01">All observations for series 001019 in January of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66060">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/02">All observations for series 001019 in February of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66067">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/03">All observations for series 001019 in March of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66074">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/04">All observations for series 001019 in April of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66081">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/05">All observations for series 001019 in May of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66088">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/06">All observations for series 001019 in June of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66095">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/07">All observations for series 001019 in July of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66102">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/08">All observations for series 001019 in August of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66109">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/09">All observations for series 001019 in September of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66116">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/10">All observations for series 001019 in October of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66123">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/11">All observations for series 001019 in November of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66130">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1915/month/12">All observations for series 001019 in December of the year 1915</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66137">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/01">All observations for series 001019 in January of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66144">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/02">All observations for series 001019 in February of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66151">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/03">All observations for series 001019 in March of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66158">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/04">All observations for series 001019 in April of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66165">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/05">All observations for series 001019 in May of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66172">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/06">All observations for series 001019 in June of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66179">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/07">All observations for series 001019 in July of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66186">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/08">All observations for series 001019 in August of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66193">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/09">All observations for series 001019 in September of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66200">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/10">All observations for series 001019 in October of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66207">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/11">All observations for series 001019 in November of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66214">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1916/month/12">All observations for series 001019 in December of the year 1916</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66221">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/01">All observations for series 001019 in January of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66228">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/02">All observations for series 001019 in February of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66235">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/03">All observations for series 001019 in March of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66242">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/04">All observations for series 001019 in April of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66249">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/05">All observations for series 001019 in May of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66256">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/06">All observations for series 001019 in June of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66263">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/07">All observations for series 001019 in July of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66270">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/08">All observations for series 001019 in August of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66277">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/09">All observations for series 001019 in September of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66284">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/10">All observations for series 001019 in October of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66291">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/11">All observations for series 001019 in November of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66298">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1917/month/12">All observations for series 001019 in December of the year 1917</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66305">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/01">All observations for series 001019 in January of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66312">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/02">All observations for series 001019 in February of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66319">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/03">All observations for series 001019 in March of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66326">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/04">All observations for series 001019 in April of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66333">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/05">All observations for series 001019 in May of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66340">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/06">All observations for series 001019 in June of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66347">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/07">All observations for series 001019 in July of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66354">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/08">All observations for series 001019 in August of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66361">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/09">All observations for series 001019 in September of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66368">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/10">All observations for series 001019 in October of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66375">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/11">All observations for series 001019 in November of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66382">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1918/month/12">All observations for series 001019 in December of the year 1918</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66389">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/01">All observations for series 001019 in January of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66396">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/02">All observations for series 001019 in February of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66403">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/03">All observations for series 001019 in March of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66410">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/04">All observations for series 001019 in April of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66417">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/05">All observations for series 001019 in May of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66424">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/06">All observations for series 001019 in June of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66431">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/07">All observations for series 001019 in July of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66438">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/08">All observations for series 001019 in August of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66445">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/09">All observations for series 001019 in September of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66452">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/10">All observations for series 001019 in October of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66459">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/11">All observations for series 001019 in November of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+<section>
+<table id="N66466">
+<caption>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/001019/year/1919/month/12">All observations for series 001019 in December of the year 1919</a>
+</caption>
+<colgroup>
+<col class="labelWidth">
+<col class="autoWidth">
+<col class="filterWidth">
+</colgroup>
+<tr>
+<td></td><td></td><td></td>
+</tr>
+<tr class="class last">
+<th class="label"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">class</a></th><td class="value nested" colspan="2">
+<table>
+<tr>
+<td class="value"><a href="http://lab.environment.data.gov.au/def/acorn/time-series/TimeSeries">TimeSeries</a></td><td class="filter"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</section>
+</div>
+</div>
+<nav class="bottomnav">
+<section class="page">
+<ul>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=0" title="go to first page">&laquo; first</a>
+</li>
+<li>
+<a href="http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html?_page=1" title="go to next page">next &rsaquo;</a>
+</li>
+</ul>
+</section>
+</nav>
+<footer>
+<div class="provenance">
+<div class=" query col1">
+<h2>Selection</h2>
+<p>This is the SPARQL query that was generated to identify the items to be shown in the page. You can modify it here and re-run the query but you may find more options at the <a href="http://lab.environment.data.gov.au/sparql">endpoint's page</a>.</p>
+<form action="http://lab.environment.data.gov.au/sparql" method="post">
+<textarea name="query" wrap="soft" data-skip-lines="3">PREFIX cube: &lt;http://purl.org/linked-data/cube#&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX time-series: &lt;http://lab.environment.data.gov.au/def/acorn/time-series/&gt;
+SELECT ?item
+WHERE {
+?item cube:sliceStructure &lt;http://lab.environment.data.gov.au/data/acorn/climate/slicekey/station-year-month&gt; .
+?item rdf:type time-series:TimeSeries .
+}  OFFSET 0 LIMIT 120</textarea>
+<p>
+<button type="submit">Run Query</button>
+</p>
+</form>
+</div>
+<div class=" query col2">
+<h2>Viewer</h2>
+<p>This is the SPARQL query that was generated to pull together the data that is provided about each item. You can modify it here and re-run the query but you may find more options at the <a href="http://lab.environment.data.gov.au/sparql">endpoint's page</a>.</p>
+<form action="http://lab.environment.data.gov.au/sparql" method="post">
+<textarea name="query" wrap="soft" data-skip-lines="5">PREFIX cube: &lt;http://purl.org/linked-data/cube#&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX time-series: &lt;http://lab.environment.data.gov.au/def/acorn/time-series/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+CONSTRUCT {?item rdf:type ?___0 .
+?item rdfs:label ?___1 .
+
+} WHERE {
+  {SELECT ?item
+    WHERE {
+    ?item cube:sliceStructure &lt;http://lab.environment.data.gov.au/data/acorn/climate/slicekey/station-year-month&gt; .
+    ?item rdf:type time-series:TimeSeries .
+    }  OFFSET 0 LIMIT 120
+}{ ?item rdf:type ?___0 . } 
+UNION { ?item rdfs:label ?___1 . } 
+
+}</textarea>
+<p>
+<button type="submit">Run Query</button>
+</p>
+</form>
+</div>
+</div>
+<p>Powered by <a href="http://elda.googlecode.com">Elda 1.2.21</a>, an implementation of the <a href="http://code.google.com/p/linked-data-api">Linked Data API</a>
+<br>
+<a href="http://www.axialis.com/free/icons">Icons</a> by <a href="http://www.axialis.com">Axialis Team</a>
+</p>
+</footer>
+</div>
+</body>
+</html>

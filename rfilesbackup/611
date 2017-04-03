@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:skos='http://www.w3.org/2004/02/skos/core#'
+  xmlns:dc='http://purl.org/dc/terms/'
+  xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+>
+  <!-- top-level categories, code following 'resource-center/' MUST be preceded by 'category_' -->
+  <!--   second-level categories are included as children identified by 'narrower' element.    -->
+  <skos:ConceptScheme rdf:about="http://purl.oreilly.com/resource-center/">
+    <dc:publisher xml:lang="en">O'Reilly Media Inc.</dc:publisher>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-10</dc:modified>
+    <rdfs:label xml:lang="en">Resource Centers</rdfs:label>
+    <skos:prefLabel xml:lang="en">Resource Centers</skos:prefLabel>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_apple">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Apple</rdfs:label>
+    <skos:prefLabel xml:lang="en">Apple</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/apple-apps"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/apple-programming"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/ios-programming"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/ipad-iphone-ipod"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_appsAndSoftware">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Apps &amp; Software</rdfs:label>
+    <skos:prefLabel xml:lang="en">Apps &amp; Software</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/apple-apps"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/design-apps"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/office-and-sharepoint"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/photo-apps"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/web-and-mobile-apps"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_business">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Business</rdfs:label>
+    <skos:prefLabel xml:lang="en">Business</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/accounting-and-finance"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/agile"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/business-and-management"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/career-development"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/entrepreneurship"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/it-leadership"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/project-management"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/sales-and-marketing"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/society-and-culture"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_certification">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Certification</rdfs:label>
+    <skos:prefLabel xml:lang="en">Certification</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/cisco-certification"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/linux-certification"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/microsoft-certification"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/other-certification"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/pmp"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_data">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Data</rdfs:label>
+    <skos:prefLabel xml:lang="en">Data</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/data-analysis"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/data-topics"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/non-relational-databases"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/s-a-s"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/sqlserver"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_design">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Design</rdfs:label>
+    <skos:prefLabel xml:lang="en">Design</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/animation"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/design-apps"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/digital-publishing"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/game-design"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/information-architecture"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/mobile-design"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/product-design"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/user-experience"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/webdesign"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_digitalAudioAndVideo">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Audio &amp; Video</rdfs:label>
+    <skos:prefLabel xml:lang="en">Audio &amp; Video</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/audio"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/video"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_iot">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">IoT</rdfs:label>
+    <skos:prefLabel xml:lang="en">IoT</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/diy-projects"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/electronics"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/hardware-hacking"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/lego-and-robotics"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/make-and-craft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_engMathAndScience">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Engineering, Math, &amp; Science</rdfs:label>
+    <skos:prefLabel xml:lang="en">Engineering, Math, &amp; Science</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/bioinformatics"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/electrical-eng"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/hardware-engineering"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/math"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/science"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_healthAndWellness">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Health &amp; Wellness</rdfs:label>
+    <skos:prefLabel xml:lang="en">Health &amp; Wellness</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/cancer"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/disordersdiseases"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/health-it"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/mind-and-body"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_microsoft">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/business-solutions"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/microsoft-certification"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/microsoft-servers"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/office-and-sharepoint"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/software-development"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/web-design-and-dev"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/windows"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/windows-admin"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/windows-phone"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/windows-phone-prog"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_mobile">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Mobile &amp; Smart Devices</rdfs:label>
+    <skos:prefLabel xml:lang="en">Mobile &amp; Smart Devices</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/android"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_mobileAndEreaders">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Mobile &amp; Ereader Devices</rdfs:label>
+    <skos:prefLabel xml:lang="en">Mobile &amp; Ereader Devices</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/android"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/ipad-iphone-ipod"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/kindle"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/nook"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/other-devices"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/windows-phone"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_MSP-microsoft">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">MSP Microsoft</rdfs:label>
+    <skos:prefLabel xml:lang="en">MSP Microsoft</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-business-solutions"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-certification-and-training"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-dotnet"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-microsoft-servers"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-office-and-sharepoint"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-software-development"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-web-design-and-dev"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-windows"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-windows-admin"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-windows-phone"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/msp-windows-phone-prog"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_networking">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Networking</rdfs:label>
+    <skos:prefLabel xml:lang="en">Networking</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/cisco"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/cloud-and-network-security"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/homenetworking"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/network-administration"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/networking-topics"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_personalComputing">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Personal Computing</rdfs:label>
+    <skos:prefLabel xml:lang="en">Personal Computing</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/homenetworking"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/pc"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/windows"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_personalGrowth">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Personal Growth</rdfs:label>
+    <skos:prefLabel xml:lang="en">Personal Growth</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/business-and-management"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/career-development"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/finance"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/mind-and-body"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_photography">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Photography</rdfs:label>
+    <skos:prefLabel xml:lang="en">Photography</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/camera-guides"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/digiphoto"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/photo-apps"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_programming">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Programming</rdfs:label>
+    <skos:prefLabel xml:lang="en">Programming</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/agile"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/android-programming"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/apple-programming"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/csharp"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/designpatterns"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/game-design"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/graphics-programming"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/ios-programming"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/mobile-design"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/otherprogramming"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/php"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/python"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/r"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/ruby"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/secureprogramming"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/software-engineering"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/testing"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/windows-phone-prog"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_security">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Security &amp; Cryptography</rdfs:label>
+    <skos:prefLabel xml:lang="en">Security &amp; Cryptography</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/cloud-and-network-security"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/computer-security"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/cryptography"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/secureprogramming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_systemAdmin">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">System Administration</rdfs:label>
+    <skos:prefLabel xml:lang="en">System Administration</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/cloud-administration"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/email-administration"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/microsoft-servers"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/performance"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/system-admin-and-ops"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/windows-admin"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_techCulture">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Tech Culture</rdfs:label>
+    <skos:prefLabel xml:lang="en">Tech Culture</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/game-strategy"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/tech-culture"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/category_web">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Web Development</rdfs:label>
+    <skos:prefLabel xml:lang="en">Web Development</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/html-and-css"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/performance"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/php"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/ruby"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/sem-and-seo"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/web-content-management"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/webdesign"/>
+    <skos:narrower rdf:resource="http://purl.oreilly.com/resource-center/webdev"/>
+  </skos:Concept>
+
+  <!-- second-level categories, code following 'resource-center/' MUST match PDB resource_center  -->
+  <!--   top-level categories are included as children identified by 'broader' element.           -->
+
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/accounting-and-finance">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Accounting &amp; Finance</rdfs:label>
+    <skos:prefLabel xml:lang="en">Accounting &amp; Finance</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/agile">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Agile &amp; Lean</rdfs:label>
+    <skos:prefLabel xml:lang="en">Agile &amp; Lean</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/android">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Android</rdfs:label>
+    <skos:prefLabel xml:lang="en">Android</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_mobile"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_mobileAndEreaders"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/android-programming">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Android Programming</rdfs:label>
+    <skos:prefLabel xml:lang="en">Android Programming</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/animation">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Animation</rdfs:label>
+    <skos:prefLabel xml:lang="en">Animation</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/apple-apps">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Apple Apps</rdfs:label>
+    <skos:prefLabel xml:lang="en">Apple Apps</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_apple"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_appsAndSoftware"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/apple-programming">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Apple Programming</rdfs:label>
+    <skos:prefLabel xml:lang="en">Apple Programming</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_apple"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/audio">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Audio</rdfs:label>
+    <skos:prefLabel xml:lang="en">Audio</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_digitalAudioAndVideo"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/bioinformatics">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Bioinformatics</rdfs:label>
+    <skos:prefLabel xml:lang="en">Bioinformatics</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_engMathAndScience"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/business-and-management">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Business Management &amp; Leadership</rdfs:label>
+    <skos:prefLabel xml:lang="en">Business Management &amp; Leadership</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_personalGrowth"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/business-solutions">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Business Solutions</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Business Solutions</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/camera-guides">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Camera Guides</rdfs:label>
+    <skos:prefLabel xml:lang="en">Camera Guides</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_photography"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/cancer">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Cancer</rdfs:label>
+    <skos:prefLabel xml:lang="en">Cancer</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_healthAndWellness"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/career-development">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Career Development</rdfs:label>
+    <skos:prefLabel xml:lang="en">Career Development</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_personalGrowth"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/cisco">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Cisco</rdfs:label>
+    <skos:prefLabel xml:lang="en">Cisco</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_networking"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/cisco-certification">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Cisco Certification</rdfs:label>
+    <skos:prefLabel xml:lang="en">Cisco Certification</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_certification"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/cloud-administration">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Cloud Administration</rdfs:label>
+    <skos:prefLabel xml:lang="en">Cloud Administration</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_systemAdmin"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/cloud-and-network-security">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Cloud &amp; Network Security</rdfs:label>
+    <skos:prefLabel xml:lang="en">Cloud &amp; Network Security</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_networking"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_security"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/computer-security">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Computer Security</rdfs:label>
+    <skos:prefLabel xml:lang="en">Computer Security</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_security"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/cprog">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">C/C++</rdfs:label>
+    <skos:prefLabel xml:lang="en">C/C++</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/cryptography">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Cryptography</rdfs:label>
+    <skos:prefLabel xml:lang="en">Cryptography</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_security"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/csharp">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">C#</rdfs:label>
+    <skos:prefLabel xml:lang="en">C#</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/data-analysis">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Data Analysis &amp; Visualization</rdfs:label>
+    <skos:prefLabel xml:lang="en">Data Analysis &amp; Visualization</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_data"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/data-topics">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Data Topics</rdfs:label>
+    <skos:prefLabel xml:lang="en">Data Topics</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_data"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/design-apps">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Design Apps</rdfs:label>
+    <skos:prefLabel xml:lang="en">Design Apps</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_appsAndSoftware"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/designpatterns">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Design Patterns</rdfs:label>
+    <skos:prefLabel xml:lang="en">Design Patterns</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/digiphoto">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Digital Photography</rdfs:label>
+    <skos:prefLabel xml:lang="en">Digital Photography</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_photography"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/digital-publishing">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Digital Publishing</rdfs:label>
+    <skos:prefLabel xml:lang="en">Digital Publishing</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/disordersdiseases">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Disorders &amp; Diseases</rdfs:label>
+    <skos:prefLabel xml:lang="en">Disorders &amp; Diseases</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_healthAndWellness"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/diy-projects">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">DIY Projects</rdfs:label>
+    <skos:prefLabel xml:lang="en">DIY Projects</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_iot"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/dotnet">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">.NET &amp; Windows Programming</rdfs:label>
+    <skos:prefLabel xml:lang="en">.NET &amp; Windows Programming</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/electrical-eng">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Electrical Engineering</rdfs:label>
+    <skos:prefLabel xml:lang="en">Electrical Engineering</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_engMathAndScience"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/electronics">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Electronics</rdfs:label>
+    <skos:prefLabel xml:lang="en">Electronics</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_iot"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/email-administration">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Email Administration</rdfs:label>
+    <skos:prefLabel xml:lang="en">Email Administration</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_systemAdmin"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/entrepreneurship">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Entrepreneurship</rdfs:label>
+    <skos:prefLabel xml:lang="en">Entrepreneurship</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/finance">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Personal Finance</rdfs:label>
+    <skos:prefLabel xml:lang="en">Personal Finance</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_personalGrowth"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/game-design">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Game Design &amp; Development</rdfs:label>
+    <skos:prefLabel xml:lang="en">Game Design &amp; Development</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/game-strategy">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Game Strategy</rdfs:label>
+    <skos:prefLabel xml:lang="en">Game Strategy</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_techCulture"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/graphics-programming">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Graphics &amp; Multimedia Programming</rdfs:label>
+    <skos:prefLabel xml:lang="en">Graphics &amp; Multimedia Programming</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/hardware-engineering">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Hardware Engineering</rdfs:label>
+    <skos:prefLabel xml:lang="en">Hardware Engineering</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_engMathAndScience"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/hardware-hacking">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Hardware Hacking</rdfs:label>
+    <skos:prefLabel xml:lang="en">Hardware Hacking</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_iot"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/health-it">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Health IT</rdfs:label>
+    <skos:prefLabel xml:lang="en">Health IT</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_healthAndWellness"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/homenetworking">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Home Networking</rdfs:label>
+    <skos:prefLabel xml:lang="en">Home Networking</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_networking"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_personalComputing"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/html-and-css">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">HTML &amp; CSS</rdfs:label>
+    <skos:prefLabel xml:lang="en">HTML &amp; CSS</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/information-architecture">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Information Architecture</rdfs:label>
+    <skos:prefLabel xml:lang="en">Information Architecture</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/ios-programming">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">iOS Programming</rdfs:label>
+    <skos:prefLabel xml:lang="en">iOS Programming</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_apple"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/ipad-iphone-ipod">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">iPad, iPhone, &amp; iPod</rdfs:label>
+    <skos:prefLabel xml:lang="en">iPad, iPhone, &amp; iPod</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_apple"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_mobileAndEreaders"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/it-leadership">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">IT Leadership</rdfs:label>
+    <skos:prefLabel xml:lang="en">IT Leadership</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/java">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Java</rdfs:label>
+    <skos:prefLabel xml:lang="en">Java</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/javascript">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">JavaScript</rdfs:label>
+    <skos:prefLabel xml:lang="en">JavaScript</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/kindle">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Kindle</rdfs:label>
+    <skos:prefLabel xml:lang="en">Kindle</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_mobileAndEreaders"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/lego-and-robotics">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Lego &amp; Robotics</rdfs:label>
+    <skos:prefLabel xml:lang="en">Lego &amp; Robotics</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_iot"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/linux-and-unix">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Linux &amp; Unix</rdfs:label>
+    <skos:prefLabel xml:lang="en">Linux &amp; Unix</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_systemAdmin"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/linux-certification">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Linux Certification</rdfs:label>
+    <skos:prefLabel xml:lang="en">Linux Certification</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_certification"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/mac">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Mac</rdfs:label>
+    <skos:prefLabel xml:lang="en">Mac</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_apple"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_personalComputing"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/make-and-craft">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Make &amp; Craft</rdfs:label>
+    <skos:prefLabel xml:lang="en">Make &amp; Craft</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_iot"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/math">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Math</rdfs:label>
+    <skos:prefLabel xml:lang="en">Math</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_engMathAndScience"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/microsoft-certification">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Certification &amp; Training</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Certification &amp; Training</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_certification"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/microsoft-servers">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Servers</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Servers</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_systemAdmin"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/mind-and-body">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Mind &amp; Body</rdfs:label>
+    <skos:prefLabel xml:lang="en">Mind &amp; Body</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_healthAndWellness"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_personalGrowth"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/mobile-design">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Mobile Design &amp; Development</rdfs:label>
+    <skos:prefLabel xml:lang="en">Mobile Design &amp; Development</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-business-solutions">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Business Solutions (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Business Solutions (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-certification-and-training">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Certification &amp; Training (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Certification &amp; Training (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-dotnet">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">.NET &amp; Windows Programming (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">.NET &amp; Windows Programming (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-microsoft-servers">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Servers (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Servers (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-office-and-sharepoint">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Office &amp; Sharepoint (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Office &amp; Sharepoint (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-software-development">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Software Development (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Software Development (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-web-design-and-dev">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Web Design &amp; Development (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Web Design &amp; Development (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-windows">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Windows (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Windows (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-windows-admin">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Windows Administration (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Windows Administration (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-windows-phone">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Windows Phone (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Windows Phone (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/msp-windows-phone-prog">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Windows Phone Programming (MSP)</rdfs:label>
+    <skos:prefLabel xml:lang="en">Windows Phone Programming (MSP)</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_MSP-microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/network-administration">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Network Administration</rdfs:label>
+    <skos:prefLabel xml:lang="en">Network Administration</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_networking"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/networking-topics">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Networking Topics</rdfs:label>
+    <skos:prefLabel xml:lang="en">Networking Topics</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_networking"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/non-relational-databases">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Non-Relational Databases</rdfs:label>
+    <skos:prefLabel xml:lang="en">Non-Relational Databases</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_data"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/nook">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Nook</rdfs:label>
+    <skos:prefLabel xml:lang="en">Nook</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_mobileAndEreaders"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/office-and-sharepoint">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Office &amp; Sharepoint</rdfs:label>
+    <skos:prefLabel xml:lang="en">Office &amp; Sharepoint</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_appsAndSoftware"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/oracle">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Oracle</rdfs:label>
+    <skos:prefLabel xml:lang="en">Oracle</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_data"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/other-certification">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Other Certification</rdfs:label>
+    <skos:prefLabel xml:lang="en">Other Certification</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_certification"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/other-devices">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Other Devices</rdfs:label>
+    <skos:prefLabel xml:lang="en">Other Devices</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_mobileAndEreaders"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/otherprogramming">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Other Programming Languages</rdfs:label>
+    <skos:prefLabel xml:lang="en">Other Programming Languages</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/pc">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">PC</rdfs:label>
+    <skos:prefLabel xml:lang="en">PC</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_personalComputing"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/performance">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Performance</rdfs:label>
+    <skos:prefLabel xml:lang="en">Performance</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_systemAdmin"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/perl">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Perl</rdfs:label>
+    <skos:prefLabel xml:lang="en">Perl</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/photo-apps">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Photoshop &amp; Photo Apps</rdfs:label>
+    <skos:prefLabel xml:lang="en">Photoshop &amp; Photo Apps</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_appsAndSoftware"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_photography"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/php">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">PHP</rdfs:label>
+    <skos:prefLabel xml:lang="en">PHP</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/pmp">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">PMP</rdfs:label>
+    <skos:prefLabel xml:lang="en">PMP</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_certification"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/product-design">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Product Design</rdfs:label>
+    <skos:prefLabel xml:lang="en">Product Design</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/project-management">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Project Management</rdfs:label>
+    <skos:prefLabel xml:lang="en">Project Management</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/python">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Python</rdfs:label>
+    <skos:prefLabel xml:lang="en">Python</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/r">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">R</rdfs:label>
+    <skos:prefLabel xml:lang="en">R</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/relational-databases">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Relational Databases</rdfs:label>
+    <skos:prefLabel xml:lang="en">Relational Databases</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_data"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/ruby">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Ruby &amp; Rails</rdfs:label>
+    <skos:prefLabel xml:lang="en">Ruby &amp; Rails</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/sales-and-marketing">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Sales &amp; Marketing</rdfs:label>
+    <skos:prefLabel xml:lang="en">Sales &amp; Marketing</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/s-a-s">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">SAS</rdfs:label>
+    <skos:prefLabel xml:lang="en">SAS</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_data"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/science">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Science</rdfs:label>
+    <skos:prefLabel xml:lang="en">Science</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_engMathAndScience"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/secureprogramming">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Secure Programming</rdfs:label>
+    <skos:prefLabel xml:lang="en">Secure Programming</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_security"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/sem-and-seo">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">SEM &amp; SEO</rdfs:label>
+    <skos:prefLabel xml:lang="en">SEM &amp; SEO</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/software-development">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Software Development</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Software Development</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/society-and-culture">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Society &amp; Culture</rdfs:label>
+    <skos:prefLabel xml:lang="en">Society &amp; Culture</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_business"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/software-engineering">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Software Engineering</rdfs:label>
+    <skos:prefLabel xml:lang="en">Software Engineering</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/sqlserver">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">SQL Server</rdfs:label>
+    <skos:prefLabel xml:lang="en">SQL Server</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_data"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/system-admin-and-ops">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">System Admin &amp; Ops</rdfs:label>
+    <skos:prefLabel xml:lang="en">System Admin &amp; Ops</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_systemAdmin"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/tech-culture">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Tech Culture</rdfs:label>
+    <skos:prefLabel xml:lang="en">Tech Culture</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_techCulture"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/testing">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Testing</rdfs:label>
+    <skos:prefLabel xml:lang="en">Testing</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/user-experience">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">User Experience</rdfs:label>
+    <skos:prefLabel xml:lang="en">User Experience</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/video">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Video</rdfs:label>
+    <skos:prefLabel xml:lang="en">Video</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_digitalAudioAndVideo"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/web-and-mobile-apps">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Web &amp; Mobile Apps</rdfs:label>
+    <skos:prefLabel xml:lang="en">Web &amp; Mobile Apps</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_appsAndSoftware"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/web-content-management">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Web Content Management</rdfs:label>
+    <skos:prefLabel xml:lang="en">Web Content Management</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/web-design-and-dev">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Microsoft Web Design &amp; Development</rdfs:label>
+    <skos:prefLabel xml:lang="en">Microsoft Web Design &amp; Development</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/webdesign">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Web Design</rdfs:label>
+    <skos:prefLabel xml:lang="en">Web Design</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_design"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/webdev">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Web Development</rdfs:label>
+    <skos:prefLabel xml:lang="en">Web Development</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_web"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/windows">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Windows</rdfs:label>
+    <skos:prefLabel xml:lang="en">Windows</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_personalComputing"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/windows-admin">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Windows Administration</rdfs:label>
+    <skos:prefLabel xml:lang="en">Windows Administration</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_systemAdmin"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/windows-phone">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Windows Phone</rdfs:label>
+    <skos:prefLabel xml:lang="en">Windows Phone</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_mobileAndEreaders"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.oreilly.com/resource-center/windows-phone-prog">
+    <skos:inScheme rdf:resource="http://purl.oreilly.com/resource-center/"/>
+    <rdfs:label xml:lang="en">Windows Phone Programming</rdfs:label>
+    <skos:prefLabel xml:lang="en">Windows Phone Programming</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_microsoft"/>
+    <skos:broader rdf:resource="http://purl.oreilly.com/resource-center/category_programming"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,24 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://linked.opendata.cz/resource/court/cz/> .
+@prefix ns2:	<http://linked.opendata.cz/resource/court/cz/kinds#> .
+ns1:obvodni-soud-pro-prahu-4	rdf:type	ns2:District .
+@prefix lex:	<http://purl.org/lex#> .
+ns1:obvodni-soud-pro-prahu-4	rdf:type	lex:Court .
+@prefix gr:	<http://purl.org/goodrelations/v1#> .
+ns1:obvodni-soud-pro-prahu-4	rdf:type	gr:BusinessEntity .
+@prefix s:	<http://schema.org/> .
+ns1:obvodni-soud-pro-prahu-4	rdf:type	s:Organization .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns7:	<http://linked.opendata.cz/resource/business-entity/> .
+ns1:obvodni-soud-pro-prahu-4	owl:sameAs	ns7:CZ00024414 .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+ns1:obvodni-soud-pro-prahu-4	dcterms:title	"Obvodn\u00ED soud pro Prahu 4" ,
+		"Obvodn\u00ED soud pro Prahu 4"@cs .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns1:obvodni-soud-pro-prahu-4	s:email	"podatelna@osoud.pha4.justice.cz"^^xsd:string ;
+	s:address	<http://linked.opendata.cz/resource/court/cz/obvodni-soud-pro-prahu-4/postal-address/1> ;
+	s:faxNumber	"+420251441777"^^xsd:string ;
+	s:telephone	"+420251447704"^^xsd:string ;
+	s:url	<http://portal.justice.cz/justice2/soud/soud.aspx?o=170&j=180&k=1727> .
+@prefix adms:	<http://www.w3.org/ns/adms#> .
+ns1:obvodni-soud-pro-prahu-4	adms:identifier	<http://linked.opendata.cz/resource/court/cz/obvodni-soud-pro-prahu-4/identifier/1> .

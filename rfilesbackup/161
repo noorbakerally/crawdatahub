@@ -1,0 +1,35 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix traffic: <http://transport.data.gov.uk/def/traffic/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admingeo: <http://statistics.data.gov.uk/def/administrative-geography/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://statistics.data.gov.uk/id/local-authority-district/20>
+        admingeo:standardCode  "20"^^admingeo:StandardCode .
+
+<http://transport.data.gov.uk/def/road-category/motorway>
+        skos:prefLabel  "Motorway"@en .
+
+<http://transport.data.gov.uk/id/road/A1>
+        traffic:countPointCountry       <http://statistics.data.gov.uk/id/country?name=England> ;
+        traffic:countPointDistrict      <http://statistics.data.gov.uk/id/local-authority-district/20> ;
+        traffic:countPointRegion        <http://statistics.data.gov.uk/id/government-office-region/A> ;
+        traffic:countPointRoadCategory  <http://transport.data.gov.uk/def/road-category/trunk> , <http://transport.data.gov.uk/def/road-category/motorway> ;
+        traffic:roadNumber              "A1"^^traffic:RoadNumber .
+
+<http://statistics.data.gov.uk/id/government-office-region/A>
+        rdfs:label  "North East"@en .
+
+<http://statistics.data.gov.uk/id/country?name=England>
+        rdfs:label  "England"@en .
+
+<http://transport.data.gov.uk/def/road-category/trunk>
+        skos:prefLabel  "Trunk Road"@en .
+
+<http://transport.data.gov.uk/doc/road/A1.ttl>
+        a                            api:ItemEndpoint , api:Page ;
+        api:definition               <http://transport.data.gov.uk/meta/doc/road/_number.ttl> ;
+        api:extendedMetadataVersion  <http://transport.data.gov.uk/doc/road/A1.ttl?_metadata=all> ;
+        foaf:primaryTopic            <http://transport.data.gov.uk/id/road/A1> .

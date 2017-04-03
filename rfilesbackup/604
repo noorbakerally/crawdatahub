@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+  xmlns:spatial="http://gadm.geovocab.org/spatial#"
+  xmlns:ngeo="http://gadm.geovocab.org/geometry#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:ogc="http://www.opengis.net/rdf#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:gadm="http://gadm.geovocab.org/ontology#"
+  xmlns:dctype="http://purl.org/dc/dcmitype/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <rdf:Description rdf:about="">
+    <rdfs:comment>Source: GADM project (http://gadm.org/). Conversion: GADM-RDF project (http://gadm.geovocab.org)</rdfs:comment>
+  </rdf:Description>
+
+    <rdf:Description rdf:about="http://gadm.geovocab.org/id/0/10">
+          <rdf:type rdf:resource="http://geovocab.org/spatial#Feature" />
+            <rdf:type rdf:resource="http://gadm.geovocab.org/ontology#AdministrativeRegion" />
+            <rdf:type rdf:resource="http://gadm.geovocab.org/ontology#Country" />
+            <gadm:member_of rdf:resource="http://gadm.geovocab.org/igov#CSN" />
+            <spatial:PPi rdf:resource="http://gadm.geovocab.org/id/0/10/sub" />
+            <ngeo:geometry rdf:resource="http://gadm.geovocab.org/id/0/10/geometry" />
+            <ngeo:geometry rdf:resource="http://gadm.geovocab.org/id/0/10/geometry_100m" />
+            <ngeo:geometry rdf:resource="http://gadm.geovocab.org/id/0/10/geometry_1km" />
+            <ngeo:geometry rdf:resource="http://gadm.geovocab.org/id/0/10/geometry_10km" />
+            <ngeo:geometry rdf:resource="http://gadm.geovocab.org/id/0/10/geometry_100km" />
+            <gadm:gadm_id rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</gadm:gadm_id>
+                
+        <rdfs:label>Argentina</rdfs:label>
+                        <rdfs:label xml:lang="en">Argentina</rdfs:label>
+                    <rdfs:label xml:lang="es">Argentina</rdfs:label>
+                    <rdfs:label xml:lang="fr">Argentine</rdfs:label>
+                    
+        <gadm:name_iso>ARGENTINA</gadm:name_iso>
+                        
+        <gadm:name_fao>Argentina</gadm:name_fao>
+                        
+        <gadm:iso>ARG</gadm:iso>
+                        
+        <gadm:iso2>AR</gadm:iso2>
+                        
+        <gadm:fips>AR</gadm:fips>
+                    <gadm:ison rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32</gadm:ison>
+                
+        <gadm:sovereign>Argentina</gadm:sovereign>
+                        
+        <gadm:valid_from>Unknown</gadm:valid_from>
+                        
+        <gadm:valid_to>Present</gadm:valid_to>
+                        
+        <gadm:andyid>11</gadm:andyid>
+                    <gadm:pop2000 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37031814</gadm:pop2000>
+            <gadm:sqkm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2781013.00000</gadm:sqkm>
+            <gadm:popsqkm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.3159442261</gadm:popsqkm>
+                
+        <gadm:unregion1>South America</gadm:unregion1>
+                        
+        <gadm:unregion2>Americas</gadm:unregion2>
+                        
+        <gadm:wbregion>Latin America &amp; Caribbean</gadm:wbregion>
+                        
+        <gadm:wbincome>Upper middle income</gadm:wbincome>
+                        
+        <gadm:wbdebt>Severely indebted</gadm:wbdebt>
+                    <gadm:developing rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</gadm:developing>
+            <owl:sameAs rdf:resource="http://dbpedia.org/resource/Argentina" />
+      </rdf:Description>
+  
+</rdf:RDF>

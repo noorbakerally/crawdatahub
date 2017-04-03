@@ -1,0 +1,7 @@
+
+<http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-environment-rank-2010/E01009829> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2010 IMD environment rank, Dudley 019E" ;
+	<http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-environment-rank-2010> ;
+	<http://opendatacommunities.org/def/ontology/geography/refArea> <http://opendatacommunities.org/id/geography/administration/lsoa/E01009829> ;
+	<http://opendatacommunities.org/def/ontology/time/refPeriod> <http://reference.data.gov.uk/id/year/2010> ;
+	<http://opendatacommunities.org/def/ontology/societal-wellbeing/deprivation/imdEnvironmentRank> 22704.0 .

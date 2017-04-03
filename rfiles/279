@@ -1,0 +1,713 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cards="http://data.totl.net/cards/"
+  >
+
+  <rdf:Description rdf:about="">
+    <cc:attributionName>Temple ov thee Lemur Data Service</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://data.totl.net/" />
+    <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+    <dcterms:creator>Temple ov thee Lemur</dcterms:creator>
+    <dcterms:description>URIs and relationships for a classic deck of playing cards.</dcterms:description>
+    <foaf:primaryTopic rdf:resource="http://data.totl.net/playingcards/deck" />
+  </rdf:Description>
+
+<cards:Deck rdf:about='http://data.totl.net/playingcards/deck'>
+  <foaf:name>Classic Playing Cards</foaf:name>
+  <cards:hasColour>
+    <cards:Colour rdf:about='http://data.totl.net/playingcards/colour/Red'>
+      <foaf:name>Red</foaf:name>
+    </cards:Colour>
+    <cards:Colour rdf:about='http://data.totl.net/playingcards/colour/Black'>
+      <foaf:name>Black</foaf:name>
+    </cards:Colour>
+  </cards:hasColour>
+  <cards:hasSuit>
+    <cards:Suit rdf:about='http://data.totl.net/playingcards/suit/Spades'>
+      <foaf:name>Spades</foaf:name>
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>&#x2664;</cards:symbol>
+      <owl:sameAs rdf:resource='http://dbpedia.org/resource/Spades_%28suit%29' />
+    </cards:Suit>
+    <cards:Suit rdf:about='http://data.totl.net/playingcards/suit/Hearts'>
+      <foaf:name>Hearts</foaf:name>
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>&#x2661;</cards:symbol>
+      <owl:sameAs rdf:resource='http://dbpedia.org/resource/Hearts_%28suit%29' />
+    </cards:Suit>
+    <cards:Suit rdf:about='http://data.totl.net/playingcards/suit/Diamonds'>
+      <foaf:name>Diamonds</foaf:name>
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>&#x2662;</cards:symbol>
+      <owl:sameAs rdf:resource='http://dbpedia.org/resource/Diamonds_%28suit%29' />
+    </cards:Suit>
+    <cards:Suit rdf:about='http://data.totl.net/playingcards/suit/Clubs'>
+      <foaf:name>Clubs</foaf:name>
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>&#x2667;</cards:symbol>
+      <owl:sameAs rdf:resource='http://dbpedia.org/resource/Clubs_%28suit%29' />
+    </cards:Suit>
+  </cards:hasSuit>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Ace'>
+      <foaf:name>Ace</foaf:name>
+      <cards:numericValue>1</cards:numericValue>
+      <cards:numericValue>14</cards:numericValue>
+      <cards:symbol>A</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Two'>
+      <foaf:name>Two</foaf:name>
+      <cards:numericValue>2</cards:numericValue>
+      <cards:symbol>2</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Three'>
+      <foaf:name>Three</foaf:name>
+      <cards:numericValue>3</cards:numericValue>
+      <cards:symbol>3</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Four'>
+      <foaf:name>Four</foaf:name>
+      <cards:numericValue>4</cards:numericValue>
+      <cards:symbol>4</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Five'>
+      <foaf:name>Five</foaf:name>
+      <cards:numericValue>5</cards:numericValue>
+      <cards:symbol>5</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Six'>
+      <foaf:name>Six</foaf:name>
+      <cards:numericValue>6</cards:numericValue>
+      <cards:symbol>6</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Seven'>
+      <foaf:name>Seven</foaf:name>
+      <cards:numericValue>7</cards:numericValue>
+      <cards:symbol>7</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Eight'>
+      <foaf:name>Eight</foaf:name>
+      <cards:numericValue>8</cards:numericValue>
+      <cards:symbol>8</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Nine'>
+      <foaf:name>Nine</foaf:name>
+      <cards:numericValue>9</cards:numericValue>
+      <cards:symbol>9</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Ten'>
+      <foaf:name>Ten</foaf:name>
+      <cards:numericValue>10</cards:numericValue>
+      <cards:symbol>10</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Jack'>
+      <foaf:name>Jack</foaf:name>
+      <cards:numericValue>11</cards:numericValue>
+      <cards:symbol>J</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Queen'>
+      <foaf:name>Queen</foaf:name>
+      <cards:numericValue>12</cards:numericValue>
+      <cards:symbol>Q</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/King'>
+      <foaf:name>King</foaf:name>
+      <cards:numericValue>13</cards:numericValue>
+      <cards:symbol>K</cards:symbol>
+    </cards:Value>
+    <cards:Value rdf:about='http://data.totl.net/playingcards/value/Joker'>
+      <foaf:name>Joker</foaf:name>
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/AceOfSpades'>
+      <foaf:name>Ace of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <cards:numericValue>14</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Ace' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>A&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/TwoOfSpades'>
+      <foaf:name>Two of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Two' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>2&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/ThreeOfSpades'>
+      <foaf:name>Three of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Three' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>3&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/FourOfSpades'>
+      <foaf:name>Four of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Four' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>4&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/FiveOfSpades'>
+      <foaf:name>Five of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Five' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>5&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/SixOfSpades'>
+      <foaf:name>Six of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Six' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>6&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/SevenOfSpades'>
+      <foaf:name>Seven of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Seven' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>7&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/EightOfSpades'>
+      <foaf:name>Eight of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Eight' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>8&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/NineOfSpades'>
+      <foaf:name>Nine of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Nine' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>9&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/TenOfSpades'>
+      <foaf:name>Ten of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Ten' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>10&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/JackOfSpades'>
+      <foaf:name>Jack of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Jack' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>J&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/QueenOfSpades'>
+      <foaf:name>Queen of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Queen' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>Q&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/KingOfSpades'>
+      <foaf:name>King of Spades</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Spades' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/King' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>K&#x2664;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/AceOfHearts'>
+      <foaf:name>Ace of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <cards:numericValue>14</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Ace' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>A&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/TwoOfHearts'>
+      <foaf:name>Two of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Two' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>2&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/ThreeOfHearts'>
+      <foaf:name>Three of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Three' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>3&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/FourOfHearts'>
+      <foaf:name>Four of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Four' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>4&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/FiveOfHearts'>
+      <foaf:name>Five of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Five' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>5&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/SixOfHearts'>
+      <foaf:name>Six of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Six' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>6&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/SevenOfHearts'>
+      <foaf:name>Seven of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Seven' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>7&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/EightOfHearts'>
+      <foaf:name>Eight of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Eight' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>8&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/NineOfHearts'>
+      <foaf:name>Nine of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Nine' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>9&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/TenOfHearts'>
+      <foaf:name>Ten of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Ten' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>10&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/JackOfHearts'>
+      <foaf:name>Jack of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Jack' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>J&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/QueenOfHearts'>
+      <foaf:name>Queen of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Queen' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>Q&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/KingOfHearts'>
+      <foaf:name>King of Hearts</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Hearts' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/King' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>K&#x2661;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/AceOfDiamonds'>
+      <foaf:name>Ace of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <cards:numericValue>14</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Ace' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>A&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/TwoOfDiamonds'>
+      <foaf:name>Two of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Two' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>2&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/ThreeOfDiamonds'>
+      <foaf:name>Three of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Three' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>3&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/FourOfDiamonds'>
+      <foaf:name>Four of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Four' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>4&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/FiveOfDiamonds'>
+      <foaf:name>Five of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Five' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>5&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/SixOfDiamonds'>
+      <foaf:name>Six of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Six' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>6&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/SevenOfDiamonds'>
+      <foaf:name>Seven of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Seven' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>7&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/EightOfDiamonds'>
+      <foaf:name>Eight of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Eight' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>8&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/NineOfDiamonds'>
+      <foaf:name>Nine of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Nine' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>9&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/TenOfDiamonds'>
+      <foaf:name>Ten of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Ten' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>10&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/JackOfDiamonds'>
+      <foaf:name>Jack of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Jack' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>J&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/QueenOfDiamonds'>
+      <foaf:name>Queen of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Queen' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>Q&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/KingOfDiamonds'>
+      <foaf:name>King of Diamonds</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Diamonds' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/King' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Red' />
+      <cards:symbol>K&#x2662;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/AceOfClubs'>
+      <foaf:name>Ace of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <cards:numericValue>14</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Ace' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>A&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/TwoOfClubs'>
+      <foaf:name>Two of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Two' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>2&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/ThreeOfClubs'>
+      <foaf:name>Three of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Three' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>3&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/FourOfClubs'>
+      <foaf:name>Four of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Four' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>4&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/FiveOfClubs'>
+      <foaf:name>Five of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Five' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>5&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/SixOfClubs'>
+      <foaf:name>Six of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Six' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>6&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/SevenOfClubs'>
+      <foaf:name>Seven of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Seven' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>7&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/EightOfClubs'>
+      <foaf:name>Eight of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Eight' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>8&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/NineOfClubs'>
+      <foaf:name>Nine of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Nine' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>9&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/TenOfClubs'>
+      <foaf:name>Ten of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Ten' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>10&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/JackOfClubs'>
+      <foaf:name>Jack of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Jack' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>J&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/QueenOfClubs'>
+      <foaf:name>Queen of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Queen' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>Q&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/KingOfClubs'>
+      <foaf:name>King of Clubs</foaf:name>
+      <cards:suit rdf:resource='http://data.totl.net/playingcards/suit/Clubs' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/King' />
+      <cards:colour rdf:resource='http://data.totl.net/playingcards/colour/Black' />
+      <cards:symbol>K&#x2667;</cards:symbol>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/joker1'>
+      <rdf:type rdf:resource='http://data.totl.net/playingcards/ontology/Joker' />
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Joker' />
+      <foaf:name>Joker</foaf:name>
+    </cards:Card>
+    <cards:Card rdf:about='http://data.totl.net/playingcards/card/joker2'>
+      <rdf:type rdf:resource='http://data.totl.net/playingcards/ontology/Joker' />
+      <cards:value rdf:resource='http://data.totl.net/playingcards/value/Joker' />
+      <foaf:name>Joker</foaf:name>
+    </cards:Card>
+  </cards:hasCard>
+</cards:Deck>
+</rdf:RDF>

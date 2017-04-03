@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:freebase="http://rdf.freebase.com/ns/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:opencyc="http://sw.opencyc.org/concept/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:cyc="http://sw.cyc.com/concept/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ctag="http://commontag.org/ns#">
+
+<rdf:Description rdf:about="http://vocabulary.wolterskluwer.de/arbeitsrecht/10924">
+	<dcterms:contributor rdf:resource="http://vocabulary.wolterskluwer.de/user/dirschlc"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-10-14T08:28:20Z</dcterms:created>
+	<dcterms:creator rdf:resource="http://vocabulary.wolterskluwer.de/user/nagyhel"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-25T13:24:09Z</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/10212"/>
+	<skos:broader rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11088"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/10191"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/10212"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/10225"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/10586"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11088"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11182"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11662"/>
+	<skos:narrower rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/10533"/>
+	<skos:narrower rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11060"/>
+	<skos:narrower rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11266"/>
+	<skos:narrower rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11280"/>
+	<skos:narrowerTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/10533"/>
+	<skos:narrowerTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11060"/>
+	<skos:narrowerTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11266"/>
+	<skos:narrowerTransitive rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/11280"/>
+	<skos:prefLabel xml:lang="de">Indexlohn</skos:prefLabel>
+	<skos:related rdf:resource="http://vocabulary.wolterskluwer.de/arbeitsrecht/10856"/>
+</rdf:Description>
+
+</rdf:RDF>

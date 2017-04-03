@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/the-cloud-and-the-changing-shape-of-education--/4d80a051-3dd8-4e0c-b17d-97073a965746">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[The Cloud and the Changing Shape of Education - Eaas (Education as a Service)]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Paper incluido en la edici&oacute;n de marzo de 2012 del <a href="http://www.ijcaonline.org/" target="_blank">International Journal of Computer Applications</a> en el que <strong>N. Deepa</strong> y <strong>R. Sathiyaseelan</strong> (profesores de <strong>Arunai Engineering College de Tamilnadu</strong>, <strong>India</strong>) introducen el concepto de&nbsp;<strong>Eaas</strong> (<strong>Education as a Service</strong>).</p>
+<p>
+	Resumen:</p>
+<p>
+	Cloud computing in education gives better choice and flexibility. The software and platform in education can be on-premises, off-premises, or a combination of both, depending on the educational institution&rsquo;s needs. EaaS are used to deliver advanced software, computer lab resources as services to students, researchers, faculties at schools, colleges and universities This paper explains how EaaS can provide affordable and high end educational services which leads to the transformation from traditional education to cloud service. From a user&rsquo;s point of view, a cloud can provide services available in such a way that the user does not have to be concerned with where the services originate or even where the services are running. Eaas (Education as a service) delivers a virtualization education environment as a service. Rather than purchasing softwares, software licenses, education providers buy those resources as a fully outsourced service on demand and minimize cost by pay per usage. Generally EaaS can be obtained as public or private cloud or a combination of the two. Public clouds may offer low-cost services, but in return they may not provide needed assurances of security for those services. Private clouds, sometimes also referred to as community clouds, seek secure collaboration with external providers.<br />
+	&nbsp;</p>
+]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-06-27T16:21:14+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[The Cloud and the Changing Shape of Education - Eaas (Education as a Service)]]></dcterms:title>
+    <dcterms:source rdf:resource="http://red.gnoss.com/VisualizarDocumento.aspx?tipo=BaseRecursos&amp;doc=4d80a051-3dd8-4e0c-b17d-97073a965746&amp;nombre=eaas.pdf&amp;ext=.pdf&amp;personaID=a3a555cc-0c2f-4e15-a7eb-67124a7108e6&amp;dscr=true" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica" />
+    <sioc:has_space rdf:resource="http://red.didactalia.net/comunidad/innovacioneducativa" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/six-technologies-soon-to-affect-education/e8fe73cb-fe7e-4fa3-9e3e-f8dffbd77c8f" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/what-will-school-look-like-in-10-years-bits---nyt/d49230a2-5354-40ea-bf4f-7806c78b60de" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/investing-in-the-future-of-jobs-and-skills/bdff530f-0651-44fe-a98e-ef082b3b8cb3" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/la-integracion-de-internet-en-la-educacion/1dd10258-6cbd-4b90-a9f8-7db1f7ab15bd" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/horizon-report-2011new-media-consortium/fee3cd78-ca51-4cb3-8283-fb8f2e422876" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/the-university-of-2020-predicting-the-future-of/7bac483e-acc7-442f-9caa-f6907907b7b8" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/usa-cloud-adoption-trends-2012/fc33865f-35a1-4e4d-880e-f9956094ca03" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/tic-y-educacion-10-tendencias-y-10retos-por-david/ae7bab8d-5379-4097-9bd2-c94bad298559" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/la-universidad-del-futuro-luis-garicano-el-pais/3738aef6-7f22-408e-b473-663b5dd8973f" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/informe-horizon-2009/00facc90-0300-404b-a8d9-601a651c4403" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recursos/categoria/tecnologias-de-la-informacion-y-la-comunicacion/2f3475a9-fcbe-4606-8bd4-800eca2d0941" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/recursos/categoria/educacion/30434a0c-aa0d-452f-ba5a-2c92bd36e675" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/changing%20shape%20of%20educatioeaas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/service" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/education" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/rathegenerally%20eaas" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/public" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/private" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/keywords" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/international%20journal%20of%20computen%20applications" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/deepa" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/r" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/sathiyaseelan" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/arunai%20engineering%20college%20de%20tamilnadu" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/india" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/cloud" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/international%20journal%20of%20computer%20applications" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/resumen" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/paper" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/education%20as%20a%20service" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/n" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/arunai" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/tamilnadu" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+  </sioc:Item>
+  <sioc:Space rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Prospects and Trends]]></rdfs:label>
+  </sioc:Space>
+  <sioc:Space rdf:about="http://red.didactalia.net/comunidad/innovacioneducativa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[La otra escuela: innovación educativa]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/recursos/categoria/tecnologias-de-la-informacion-y-la-comunicacion/2f3475a9-fcbe-4606-8bd4-800eca2d0941">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Tecnologías de la información y la comunicación]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Tecnologías de la información y la comunicación]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/recursos/categoria/educacion/30434a0c-aa0d-452f-ba5a-2c92bd36e675">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Educación]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Educación]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/changing%20shape%20of%20educatioeaas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[changing shape of educatioeaas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/service">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[service]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/education">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[education]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/rathegenerally%20eaas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[rathegenerally eaas]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/public">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[public]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/private">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[private]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/keywords">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[keywords]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/international%20journal%20of%20computen%20applications">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[international journal of computen applications]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/deepa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[deepa]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/r">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[r]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/sathiyaseelan">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sathiyaseelan]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/arunai%20engineering%20college%20de%20tamilnadu">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[arunai engineering college de tamilnadu]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/india">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[india]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/cloud">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[cloud]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/international%20journal%20of%20computer%20applications">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[international journal of computer applications]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/resumen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[resumen]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/paper">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[paper]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/education%20as%20a%20service">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[education as a service]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/n">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[n]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/arunai">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[arunai]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/comunidad/prospectivatecnologica/busqueda/tag/tamilnadu">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[tamilnadu]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

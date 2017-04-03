@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/"
+	xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:freebase="http://rdf.freebase.com/ns/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:opencyc="http://sw.opencyc.org/concept/"
+	xmlns:cyc="http://sw.cyc.com/concept/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ctag="http://commontag.org/ns#">
+
+<rdf:Description rdf:about="http://vocabulary.semantic-web.at/AustrianSkiTeam/54">
+	<height xmlns="http://dbpedia.org/ontology/Person/" xml:lang="de">165.0</height>
+	<weight xmlns="http://dbpedia.org/ontology/Person/" xml:lang="de">64.0</weight>
+	<thumbnail xmlns="http://dbpedia.org/ontology/" rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Anna_Fenninger_Haus_2008.jpg/200px-Anna_Fenninger_Haus_2008.jpg"/>
+	<thumbnail xmlns="http://dbpedia.org/ontology/" rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Anna_Fenninger_Altenmarkt-Zauchensee_2011.jpg/200px-Anna_Fenninger_Altenmarkt-Zauchensee_2011.jpg"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-10-20T12:57:56Z</dcterms:created>
+	<isMemberOf xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/51"/>
+	<isSpecialisedIn xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/38"/>
+	<isSpecialisedIn xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/39"/>
+	<isSpecialisedIn xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/40"/>
+	<isSponsoredBy xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/101"/>
+	<isSponsoredBy xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/85"/>
+	<isSponsoredBy xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/93"/>
+	<originatesFrom xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/28"/>
+	<uses xmlns="http://vocabulary.semantic-web.at/AustrianSkiTeam/" rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/43"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="de">Fenninger Anna</rdfs:label>
+	<skos:broader rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/115"/>
+	<skos:broader rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/52"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/115"/>
+	<skos:broaderTransitive rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/52"/>
+	<skos:closeMatch rdf:resource="http://dbpedia.org/resource/Anna_Fenninger"/>
+	<skos:closeMatch rdf:resource="http://de.dbpedia.org/resource/Anna_Fenninger"/>
+	<skos:closeMatch rdf:resource="http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000dec04f6"/>
+	<skos:definition xml:lang="de">Anna Fenninger ist eine österreichische Skirennläuferin. Sie fährt in allen Disziplinen und ist im Weltcup vor allem im Super-G, in der Super-Kombination und in der Abfahrt erfolgreich. Fenninger gehört der Nationalmannschaft des ÖSV an und ist Mitglied des Skiclubs Hypo Hallein.</skos:definition>
+	<skos:exactMatch rdf:resource="http://dbpedia.org/resource/Anna_Fenninger"/>
+	<skos:exactMatch rdf:resource="http://de.dbpedia.org/resource/Anna_Fenninger"/>
+	<skos:exactMatch rdf:resource="http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000dec04f6"/>
+	<skos:mappingRelation rdf:resource="http://dbpedia.org/resource/Anna_Fenninger"/>
+	<skos:mappingRelation rdf:resource="http://de.dbpedia.org/resource/Anna_Fenninger"/>
+	<skos:mappingRelation rdf:resource="http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000dec04f6"/>
+	<skos:note xml:lang="de">Anna Fenninger ist eine österreichische Skirennläuferin. Sie fährt in allen Disziplinen und ist im Weltcup vor allem im Super-G, in der Super-Kombination und in der Abfahrt erfolgreich. Fenninger gehört der Nationalmannschaft des ÖSV an und ist Mitglied des Skiclubs Hypo Hallein.</skos:note>
+	<skos:prefLabel xml:lang="de">Fenninger Anna</skos:prefLabel>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/101"/>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/28"/>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/38"/>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/39"/>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/40"/>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/43"/>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/51"/>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/85"/>
+	<skos:related rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/93"/>
+	<skos:semanticRelation rdf:resource="http://dbpedia.org/resource/Anna_Fenninger"/>
+	<skos:semanticRelation rdf:resource="http://de.dbpedia.org/resource/Anna_Fenninger"/>
+	<skos:semanticRelation rdf:resource="http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000dec04f6"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/101"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/115"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/28"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/38"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/39"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/40"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/43"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/51"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/52"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/85"/>
+	<skos:semanticRelation rdf:resource="http://vocabulary.semantic-web.at/AustrianSkiTeam/93"/>
+	<skos:subject rdf:resource="http://dbpedia.org/resource/Category:1989_births"/>
+	<skos:subject rdf:resource="http://dbpedia.org/resource/Category:Alpine_skiers_at_the_2010_Winter_Olympics"/>
+	<skos:subject rdf:resource="http://dbpedia.org/resource/Category:Austrian_alpine_skiers"/>
+	<skos:subject rdf:resource="http://dbpedia.org/resource/Category:Living_people"/>
+	<skos:subject rdf:resource="http://dbpedia.org/resource/Category:Olympic_alpine_skiers_of_Austria"/>
+	<skos:subject rdf:resource="http://dbpedia.org/resource/Category:People_from_Salzburg"/>
+	<foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/5/51/Anna_Fenninger_Haus_2008.jpg"/>
+	<foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/a/aa/Anna_Fenninger_Altenmarkt-Zauchensee_2011.jpg"/>
+	<foaf:homepage rdf:resource="http://www.anna-fenninger.at"/>
+	<foaf:page rdf:resource="http://de.wikipedia.org/wiki/Anna_Fenninger"/>
+	<foaf:page rdf:resource="http://en.wikipedia.org/wiki/Anna_Fenninger"/>
+</rdf:Description>
+
+</rdf:RDF>

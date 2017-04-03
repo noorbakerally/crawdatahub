@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:24:47</dcterms:created>
+		<dc:source rdf:resource="http://dotac.rkbexplorer.com/id/oro.open.ac.uk/person-0d27a9455a26cc6a0aa8743d45f99af4-1bda34e510320ac2ee08e4c81bd58e6a"/>
+		<coref:coreferenceData rdf:resource="http://dotac.rkbexplorer.com/crs/oro.open.ac.uk/person-0d27a9455a26cc6a0aa8743d45f99af4-1bda34e510320ac2ee08e4c81bd58e6a" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://dotac.rkbexplorer.com/id/oro.open.ac.uk/person-0d27a9455a26cc6a0aa8743d45f99af4-1bda34e510320ac2ee08e4c81bd58e6a">
+	</rdf:Description>
+	<rdf:Description rdf:about="http://dotac.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://dotac.rkbexplorer.com/id/oro.open.ac.uk/person-0d27a9455a26cc6a0aa8743d45f99af4-1bda34e510320ac2ee08e4c81bd58e6a"/>
+	</rdf:Description>
+</rdf:RDF>

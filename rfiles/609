@@ -1,0 +1,11 @@
+
+<http://opendatacommunities.org/data/transparency/impact-indicators/planning-applications-granted/2012-Q3> a <http://opendatacommunities.org/def/ontology/transparency/ImpactIndicatorReport> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Percentage of planning applications granted, Q3 2012" ;
+	<http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/data/transparency/impact-indicators/planning-applications-granted> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> 83.9 ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <http://qudt.org/vocab/unit#Percent> ;
+	<http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+	<http://opendatacommunities.org/def/ontology/geography/refArea> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> ;
+	<http://opendatacommunities.org/def/ontology/time/refPeriod> <http://reference.data.gov.uk/id/quarter/2012-Q3> ;
+	<http://opendatacommunities.org/def/ontology/transparency/indicator> <http://opendatacommunities.org/def/concept/transparency/impact-indicator/planning-applications-granted> ;
+	<http://opendatacommunities.org/def/ontology/transparency/previousReport> <http://opendatacommunities.org/data/transparency/impact-indicators/planning-applications-granted/2011-Q3> .

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:16:06</dcterms:created>
+		<dc:source rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+		<coref:coreferenceData rdf:resource="http://budapest.rkbexplorer.com/crs/person-0eae26b92535edf8537257d195f5e5d3" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3">
+		<rdf:type rdf:resource="&akt;Generic-Agent"/>
+		<rdf:type rdf:resource="&akt;Affiliated-Person"/>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<akt:full-name>A Pataricza</akt:full-name>
+		<akt:has-postal-address rdf:resource="http://budapest.rkbexplorer.com/id/addresses-H-1117"/>
+		<akt:has-affiliation rdf:resource="http://budapest.rkbexplorer.com/id/group-inf-mit-bme"/>
+		<akt:has-affiliation-to-unit rdf:resource="http://budapest.rkbexplorer.com/id/group-inf-mit-bme"/>
+		<akt:has-telephone-number>+36-1-463-3598</akt:has-telephone-number>
+		<akt:has-web-address>http://www.mit.bme.hu/~pataric/indexm.html</akt:has-web-address>
+		<akt:has-email-address>pataric@mit.bme.hu</akt:has-email-address>
+		<akt:has-appellation rdf:resource="&akt;Prof."/>
+		<akt:family-name>Pataricza</akt:family-name>
+		<akt:given-name>András</akt:given-name>
+		<akt:full-name>András Pataricza</akt:full-name>
+		<rdf:type rdf:resource="&akt;Academic"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-6ec2fc7adb4554de36d8f87999d67e2f">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-8c46f2cbd9a717a1ed18b844e788c14b">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-0999cce8fb5a13f234f0f9506bf9ba65">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-5137e8b313d4ddefdc7c25d46ecfeb36">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/book-section-00402712ddb7f9b0ad8d605bea0ca61f">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid11.e3b2d1bc4b8cecd">
+		<akt:edited-by rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-b15e3b72f918106ae061064195ac0b19">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid8.e3b2d1bc4b8cecd">
+		<akt:edited-by rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-db123ff731b4cf69753ed23a8e1d77f0">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-5c701195514670c3c93ea10df38d6e55">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-3bae9e612683f3437e874f4278edfb1c">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-5bab478f0bce0e1d6ccd39996449d8fb">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-0c5b134d073db4062b46faec4dd0a982">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-8932b29e69818fb77a659d8ceeb83ade">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid4.e32fc8761390e61">
+		<akt:edited-by rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-08f5e552d50a4f67f4bfb4ec3998da63">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-12c0a71fef8ed96a526045555843f13d">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-ed5f73c9b7c4329a1f128aed9d521e8a">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-e612885e8cc27cee3e49320fb6ca597b">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid1.914a54c44febdad">
+		<akt:edited-by rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-ed7e4d3df126bb09f3ba792d3ee89ffa">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/book-section-8f9bbf64d4ca842fe18c3ef5a29263a9">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-07875df6b385ee15dfd5f423998a7aca">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-fe228edd7e5675d30c959b0227284f8b">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/book-section-386abed3772e3968d074097e56d429a6">
+		<akt:edited-by rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/book-e35f1ab5a069aae881d78ebbee335600">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-5b8a276ec86d7e1174d4c4c36efe73e5">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-6866e8197618ed4f8e6140f70bfe5b5c">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-3a8083586cdb5a164356ef8bded3bf29">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-c903c8db1611fbecf3de47e2f937e209">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-315bf295efbfe592f47ac116e7bc5ce1">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-c63f55e5ccf2b1bdf026c10c88eeb5ec">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-2e61d68cc0a596cf34d862857d0f436a">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-ec0c112678c951eee0c35c5c865e73a9">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-d02cfcf741c03fc11a0aa8fe565433b0">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-849eb5c4fdc0b9ae846803c215bff21d">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-f9261a94be875869a1c881e6b561013e">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-227ae8506df3c7ceb341805ff267c77b">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-3b9375f9187e7d4c0bcb35d4319cabfe">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/book-section-6953b003491ce119b4155611616e00ee">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-4a5f929462d0248ad9501d8fa9dbee03">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-9211897d61a7640cd06da4740ff9e503">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-795944034e92fae2136f4b00ac2c34a8">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-ba68227cd23a1e62214a620c64687fef">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/article-280888614b9f7af6b47fb2d3d1ee44dc">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-9a8fae4928aac796789c37263d05b9c7">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-9ccdc812b73386fd5400f3f6e4f61830">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-ab73a9e9a9de559829366880219228e2">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/book-section-9af4f971f456fdf2b23638fdedab1588">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-087529c423db62074560c3c9812ac394">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-ce43821181c22a7aabf7cbca8e3f5b99">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-cdacd5317569824ef1d1d61a036a1f68">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-de7527cb61d873646539388da0074435">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about=":genid4.86d3c99a9e02f0f">
+		<akt:edited-by rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://budapest.rkbexplorer.com/id/inproceedings-8d1b82003ffc470afc9a5fc50ae18d94">
+		<akt:has-author rdf:resource="http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"/>
+	</rdf:Description>
+</rdf:RDF>

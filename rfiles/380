@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns="http://xmlns.com/foaf/0.1/">
+ <PersonalProfileDocument rdf:about="">
+  <maker rdf:resource="http://microblog.ourcoffs.org.au/user/1600"></maker>
+  <primaryTopic rdf:resource="http://microblog.ourcoffs.org.au/user/1600"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://microblog.ourcoffs.org.au/user/1600">
+  <mbox_sha1sum>e3c58f8c5cfaf621a2ac8d5c30d2f3d6d9ef015c</mbox_sha1sum>
+  <name>Mark McPhee</name>
+  <weblog rdf:resource="http://microblog.ourcoffs.org.au/ender76"></weblog>
+  <account>
+   <OnlineAccount rdf:about="http://microblog.ourcoffs.org.au/user/1600#acct">
+    <accountServiceHomepage rdf:resource="http://microblog.ourcoffs.org.au/"></accountServiceHomepage>
+    <accountName>ender76</accountName>
+    <accountProfilePage rdf:resource="http://microblog.ourcoffs.org.au/ender76"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://microblog.ourcoffs.org.au/user/1600"></sioc:account_of>
+   </OnlineAccount>
+  </account>
+ </Agent>
+ <Agent rdf:about="http://microblog.ourcoffs.org.au/user/7">
+  <account>
+   <OnlineAccount rdf:about="http://microblog.ourcoffs.org.au/user/7#acct">
+    <accountServiceHomepage rdf:resource="http://microblog.ourcoffs.org.au/"></accountServiceHomepage>
+    <accountName>bushturkey</accountName>
+    <accountProfilePage rdf:resource="http://microblog.ourcoffs.org.au/bushturkey"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://microblog.ourcoffs.org.au/user/7"></sioc:account_of>
+    <sioc:follows rdf:resource="http://microblog.ourcoffs.org.au/user/1600#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://microblog.ourcoffs.org.au/bushturkey/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://microblog.ourcoffs.org.au/bushturkey/foaf">
+  <maker rdf:resource="http://microblog.ourcoffs.org.au/user/7"></maker>
+  <primaryTopic rdf:resource="http://microblog.ourcoffs.org.au/user/7"></primaryTopic>
+ </PersonalProfileDocument>
+ <Agent rdf:about="http://microblog.ourcoffs.org.au/user/1">
+  <account>
+   <OnlineAccount rdf:about="http://microblog.ourcoffs.org.au/user/1#acct">
+    <accountServiceHomepage rdf:resource="http://microblog.ourcoffs.org.au/"></accountServiceHomepage>
+    <accountName>mjd</accountName>
+    <accountProfilePage rdf:resource="http://microblog.ourcoffs.org.au/mjd"></accountProfilePage>
+    <sioc:account_of rdf:resource="http://microblog.ourcoffs.org.au/user/1"></sioc:account_of>
+    <sioc:follows rdf:resource="http://microblog.ourcoffs.org.au/user/1600#acct"></sioc:follows>
+   </OnlineAccount>
+  </account>
+  <rdfs:seeAlso rdf:resource="http://microblog.ourcoffs.org.au/mjd/foaf"></rdfs:seeAlso>
+ </Agent>
+ <PersonalProfileDocument rdf:about="http://microblog.ourcoffs.org.au/mjd/foaf">
+  <maker rdf:resource="http://microblog.ourcoffs.org.au/user/1"></maker>
+  <primaryTopic rdf:resource="http://microblog.ourcoffs.org.au/user/1"></primaryTopic>
+ </PersonalProfileDocument>
+</rdf:RDF>

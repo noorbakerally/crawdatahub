@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:openskos="http://openskos.org/xmlns#">
+
+  <rdf:Description rdf:about="http://data.beeldengeluid.nl/gtaa/173390">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="nl">volleyballer, trainer</skos:scopeNote>
+    <dcterms:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-24T19:02:01+00:00</dcterms:dateAccepted>
+    <skos:hiddenLabel xml:lang="nl">Ron Zwerver</skos:hiddenLabel>
+    <dc:creator>NAA</dc:creator>
+    <openskos:uuid>6521eecd-aa2a-18b7-17cf-761230a5a841</openskos:uuid>
+    <skos:inScheme rdf:resource="http://data.beeldengeluid.nl/gtaa/Persoonsnamen"/>
+    <skos:historyNote xml:lang="nl">Goedgekeurd door: NAA</skos:historyNote>
+    <dcterms:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-24T19:02:01+00:00</dcterms:dateSubmitted>
+    <skos:notation>173390</skos:notation>
+    <skos:prefLabel xml:lang="nl">Zwerver, Ron</skos:prefLabel>
+    <openskos:tenant>beng</openskos:tenant>
+    <openskos:set rdf:resource="http://data.beeldengeluid.nl/gtaa"/>
+    <openskos:status>approved</openskos:status>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-14T14:27:55+00:00</dcterms:modified>
+  </rdf:Description>
+
+</rdf:RDF>

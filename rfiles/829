@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:gnoss="http://gnoss.com/gnoss.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:skos08="http://www.w3.org/2008/05/skos#" xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:sioc_t="http://rdfs.org/sioc/types#" xmlns:rdfg="http://www.w3.org/2004/03/trix/rdfg-1/" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:ibis="http://purl.org/ibis#" xmlns:atom="http://atomowl.org/ontologies/atomrdf#" xmlns:exif="http://www.w3.org/2003/12/exif/ns/" xmlns:annotea="http://www.w3.org/2002/01/bookmark#" xmlns:resume="http://captsolo.net/semweb/resume/cv.rdfs#" xmlns:review="http://www.isi.edu/webscripter/communityreview/abstract-review-o#" xmlns:calendar="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:annotation="http://www.w3.org/2000/10/annotation-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:wikiont="http://sw.deri.org/2005/04/wikipedia/wikiont.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:cc="http://creativecommons.org/ns#">
+  <sioc:Item rdf:about="http://red.gnoss.com/en/community/OpenData/resource/publicando-datos-extraidos-de-un-pdf/deca5597-f39d-46cf-ae1c-8e5f9057f1ea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Publicando datos extraídos de un PDF]]></rdfs:label>
+    <sioc:content rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[<p>
+	Buenas,</p>
+<p>
+	Tras unos d&iacute;as de aprendizaje y&nbsp;trabajo, he podido convertir el <a href="http://www.sevilla.org/ayuntamiento/presupuestos-municipales/presupuesto-municipal/ano-2012/presupuestos-de-gastos" target="_blank">contenido del PDF</a> con el <a href="http://www.sevilla.org/ayuntamiento/presupuestos-municipales/presupuesto-municipal-2012" target="_blank">Presupuesto de Gastos 2012 del Ayuntamiento de Sevilla</a> a <a href="https://commondatastorage.googleapis.com/ckannet-storage/2012-07-18T211946/seville-budget-2012.csv" target="_blank">formato CSV</a> (valores separados por comas). Con esto se hace sencillo, desde <strong>tratar con los datos del Ayuntamiento desde programas de hoja de c&aacute;lculo</strong>, a emplear una serie de herramientas que facilita la visualizaci&oacute;n comprensiva y la reutilizaci&oacute;n, como es <a href="http://openspending.org/" target="_blank">OpenSpending</a>.</p>
+<p>
+	En el post que enlazo pretendo explicar las claves del proceso de trasformaci&oacute;n de los datos desde <a href="http://www.sevilla.org/ayuntamiento/presupuestos-municipales/presupuesto-municipal/ano-2012/presupuestos-de-gastos" target="_blank">el PDF</a> a <a href="https://commondatastorage.googleapis.com/ckannet-storage/2012-07-18T211946/seville-budget-2012.csv" target="_blank">formato CSV</a> (valores separados por comas) y su <a href="http://datahub.io/dataset/seville-budget/resource/accfda1e-e3ed-40fe-a683-69645ab51f5b" target="_blank">carga en The Data Hub</a> y <a href="http://openspending.org/seville-budget" target="_blank">OpenSpending</a>. Todos los ficheros y transformaciones intermedias que se describen en este post est&aacute;n disponibles para descarga desde el site del proyecto en Github:</p>
+<p>
+	<a href="https://github.com/fontanon/seville-spending" target="_blank">https://github.com/fontanon/seville-spending</a></p>
+<p>
+	Espero que la experiencia le pueda ser de utilidad a terceros.</p>]]></sioc:content>
+    <dcterms:created rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2012-07-30T23:37:36+02:00</dcterms:created>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Publicando datos extraídos de un PDF]]></dcterms:title>
+    <dcterms:source rdf:resource="http://fontanon.org/nosigasleyendo/2012/07/24/trabajando-con-datos-en-pdf-making-of-presupuesto-de-gastos-sevilla-opendata/" />
+    <sioc:has_creator rdf:resource="http://my.gnoss.com/en/profile/José-Félix-Ontañón-Carmona/" />
+    <sioc:has_space rdf:resource="http://red.gnoss.com/en/community/OpenData" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/presentacion-conclusiones-del-dia-w3c-en-euskadi/92852357-a2a6-4007-8b4e-897428439a34" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/decalogo-open-data/ccf8c53a-fc6c-4e55-b7d3-68a0f9b67ace" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/conclusiones-del-dia-open-data-en-euskadi/40dd0028-8b2b-423f-9498-e2ce14aaeccd" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/nuevo-sitio-y-url-de-la-comunidad-open-data-spain/6a0d80d8-5b19-496b-88e1-537bfc0b88dd" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/las-conclusiones-de-foro-de-la-gobernanza-de/3bf761d6-4e43-459a-903f-bb6bddaa89eb" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/las-7-aplicaciones-urbanas-mas-cool-del-open-data/d654e3b0-4c04-4fff-9531-adeab97a774b" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/open-data-decalogue/4e4352a8-e034-4750-a0b7-da1abf5d6968" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/iogds-international-open-government-dataset/34cc8744-b38f-44bb-9292-fe1cd54f4406" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/decalogo-para-impulsar-el-gobierno-abierto-y-la/69b13e6f-a54e-465d-84a7-d5099a8f5224" />
+    <sioc:related_to rdf:resource="http://red.gnoss.com/en/community/OpenData/resource/open-data-hack-day-de-la-universidad-de-deusto/9a8bc839-cdb4-4734-a235-fcd1ffbb55a8" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/resources/category/reutilizacion/909ec7c0-51e7-4ba7-bb15-d5c79e6399c4" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/resources/category/tecnologia/f595f126-72b5-498e-82ac-dd49afb0731f" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/datos" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/pdf" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/sevilla" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/ckan" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/thedatahub" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/okfn" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/openspending" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/formato%20csv" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/presupuesto%20de%20gastos" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/ayuntamiento%20de%20sevilla" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/contenido%20del%20pdf" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/el%20pdf" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/the%20data%20hub" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/github" />
+    <sioc:topic rdf:resource="http://red.gnoss.com/en/community/OpenData/search/tag/espero" />
+    <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <foaf:maker rdf:resource="http://my.gnoss.com/en/profile/José-Félix-Ontañón-Carmona/" />
+  </sioc:Item>
+  <foaf:Person rdf:about="http://my.gnoss.com/en/profile/José-Félix-Ontañón-Carmona/">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[José Félix Ontañón Carmona]]></rdfs:label>
+    <foaf:firstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[José Félix]]></foaf:firstName>
+    <foaf:familyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[Ontañón Carmona]]></foaf:familyName>
+    <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"><![CDATA[male]]></foaf:gender>
+  </foaf:Person>
+  <sioc:Space rdf:about="http://red.gnoss.com/en/community/OpenData">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Open Data ~ RISP]]></rdfs:label>
+  </sioc:Space>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/OpenData/resources/category/reutilizacion/909ec7c0-51e7-4ba7-bb15-d5c79e6399c4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Reutilización]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Reutilización]]></skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://red.gnoss.com/en/community/OpenData/resources/category/tecnologia/f595f126-72b5-498e-82ac-dd49afb0731f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[Tecnología]]></rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><![CDATA[Tecnología]]></skos:prefLabel>
+  </skos:Concept>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/datos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[datos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/pdf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[pdf]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/sevilla">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[sevilla]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/ckan">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ckan]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/thedatahub">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[thedatahub]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/okfn">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[okfn]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/openspending">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[openspending]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/formato%20csv">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[formato csv]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/presupuesto%20de%20gastos">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[presupuesto de gastos]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/ayuntamiento%20de%20sevilla">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[ayuntamiento de sevilla]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/contenido%20del%20pdf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[contenido del pdf]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/el%20pdf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[el pdf]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/the%20data%20hub">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[the data hub]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/github">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[github]]></rdfs:label>
+  </sioc_t:Tag>
+  <sioc_t:Tag rdf:about="http://red.gnoss.com/en/community/OpenData/search/tag/espero">
+    <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve"><![CDATA[espero]]></rdfs:label>
+  </sioc_t:Tag>
+</rdf:RDF>

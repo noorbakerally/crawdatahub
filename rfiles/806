@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:34:09</dcterms:created>
+		<dc:source rdf:resource="http://eurecom.rkbexplorer.com/id/people-dacier"/>
+		<coref:coreferenceData rdf:resource="http://eurecom.rkbexplorer.com/crs/people-dacier" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://eurecom.rkbexplorer.com/id/people-dacier">
+		<rdf:type rdf:resource="&akt;Generic-Agent"/>
+		<rdf:type rdf:resource="&akt;Affiliated-Person"/>
+		<rdf:type rdf:resource="&akt;Person"/>
+		<akt:full-name>Marc Dacier</akt:full-name>
+		<akt:has-affiliation rdf:resource="http://eurecom.rkbexplorer.com/id/eurecom"/>
+		<akt:has-telephone-number>+33-4-93-00-82-17</akt:has-telephone-number>
+		<akt:has-web-address>http://www.eurecom.fr/people/dacier</akt:has-web-address>
+		<akt:has-email-address>marc.dacier@eurecom.fr</akt:has-email-address>
+		<akt:has-surname>DACIER</akt:has-surname>
+		<akt:has-forename>Marc</akt:has-forename>
+		<akt:full-name>Marc DACIER</akt:full-name>
+		<rdf:type rdf:resource="&akt;Academic"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurecom.rkbexplorer.com/id/ginproceedings-EURECOM-1888">
+		<akt:has-author rdf:resource="http://eurecom.rkbexplorer.com/id/people-dacier"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurecom.rkbexplorer.com/id/ginproceedings-EURECOM-1937">
+		<akt:has-author rdf:resource="http://eurecom.rkbexplorer.com/id/people-dacier"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurecom.rkbexplorer.com/id/book-EURECOM-1987">
+		<akt:has-author rdf:resource="http://eurecom.rkbexplorer.com/id/people-dacier"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurecom.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://eurecom.rkbexplorer.com/id/people-dacier"/>
+	</rdf:Description>
+</rdf:RDF>

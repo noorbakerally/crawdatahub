@@ -1,0 +1,13 @@
+<rdf:RDF
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+    xmlns:wn20instances='http://www.w3.org/2006/03/wn/wn20/instances/'
+    xmlns:wn20schema='http://www.w3.org/2006/03/wn/wn20/schema/'>
+
+<rdf:Description rdf:about='http://www.w3.org/2006/03/wn/wn20/instances/wordsense-entity-noun-1'>
+  <wn20schema:word rdf:resource='http://www.w3.org/2006/03/wn/wn20/instances/word-entity'/>
+  <wn20schema:tagCount>11</wn20schema:tagCount>
+  <rdfs:label>entity</rdfs:label>
+  <rdf:type rdf:resource='http://www.w3.org/2006/03/wn/wn20/schema/NounWordSense'/>
+</rdf:Description>
+</rdf:RDF>

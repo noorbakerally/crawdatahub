@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY coref "http://www.rkbexplorer.com/ontologies/coref#">
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+	<!ENTITY dcterms "http://purl.org/dc/terms/">
+	<!ENTITY akt "http://www.aktors.org/ontology/portal#">
+	<!ENTITY akts "http://www.aktors.org/ontology/support#">
+	<!ENTITY ns0 "http://rdfs.org/ns/void#">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+<rdf:RDF
+	xmlns:coref="&coref;"
+	xmlns:dc="&dc;"
+	xmlns:dcterms="&dcterms;"
+	xmlns:akt="&akt;"
+	xmlns:akts="&akts;"
+	xmlns:ns0="&ns0;"
+	xmlns:owl="&owl;"
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:xsd="&xsd;"
+	>
+	<owl:Ontology rdf:about="">
+		<dc:creator>ReSIST Project</dc:creator>
+		<dcterms:created rdf:datatype="&xsd;dateTime">2017-04-02T00:20:03</dcterms:created>
+		<dc:source rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+		<coref:coreferenceData rdf:resource="http://unlocode.rkbexplorer.com/crs/GB-HAM" />
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GB-HAM">
+		<rdf:type rdf:resource="&akts;Thing"/>
+		<rdf:type rdf:resource="&akt;Municipal-Unit"/>
+		<akt:is-part-of rdf:resource="http://unlocode.rkbexplorer.com/id/GB"/>
+		<akts:has-pretty-name>Hampshire</akts:has-pretty-name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBALD">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBALN">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBAVR">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBQRA">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBTC">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBGK">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBLU">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBNL">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBPW">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBOY">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBSR">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBKT">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBUZ">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBBUE">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBCFO">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBCOS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBCDR">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBDBP">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBESW">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBEAT">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBEMS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBFHM">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBFBO">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBFAW">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBFET">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBFGB">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBGOS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBGTH">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHAM">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHAR">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHWI">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHAV">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHEO">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHGE">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHOR">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHUS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBHBN">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBKGS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBLES">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBLPH">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBISS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBLTC">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBLKH">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBLYM">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBLYH">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBMAW">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBMDS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBARL">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBNMN">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBNHA">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBNUR">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBODM">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBOVE">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBPGR">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBPTF">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBPRC">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBPME">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBRML">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBRIW">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBRMS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBSLR">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBSHG">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBSOU">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBSXN">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBSBD">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBSBT">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBSWM">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBSWK">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBTDY">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBTID">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBTLQ">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBUFY">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBWLC">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBWSS">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBWLV">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBWEN">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBWMN">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBWKM">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBWNE">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBWNF">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/GBYTE">
+		<akt:is-located-in rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://unlocode.rkbexplorer.com/id/void">
+		<ns0:exampleResource rdf:resource="http://unlocode.rkbexplorer.com/id/GB-HAM"/>
+	</rdf:Description>
+</rdf:RDF>

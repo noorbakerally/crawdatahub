@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:yago="http://localhost:8080/class/yago/"
+    xmlns:kohis="http://data.kdata.kr/korea_history/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prvTypes="http://purl.org/net/provenance/types#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:kcup="http://data.kdata.kr/cultural_property/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:kdataontology="http://data.kdata.kr/ontology/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:ho="http://data.kdata.kr/heritage/"
+    xmlns:prv="http://purl.org/net/provenance/ns#"
+    xmlns:kdata="http://data.kdata.kr/resource/"
+    xmlns:countries="http://data.kdata.kr/countries/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:units="http://data.kdata.kr/units/"
+    xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+    xmlns:kdp="http://data.kdata.kr/property/"
+    xmlns:kdc="http://data.kdata.kr/class/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:page="http://data.kdata.kr/page/"
+    xmlns:p="http://localhost:8080/property/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:bc="http://data.kdata.kr/biological_classification/"
+    xmlns:administrative_section="http://data.kdata.kr/administrative_section/"
+    xmlns:kodac="http://data.kdata.kr/korea_data_category/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <kdc:SportsPlayer rdf:about="http://data.kdata.kr/resource/Park_Chan-ho_baseball">
+    <dcterms:subject rdf:resource="http://data.kdata.kr/korea_data_category/Baseball_Player"/>
+    <kdp:graduatedFrom rdf:resource="http://data.kdata.kr/resource/Hanyang_University"/>
+    <kdp:throw_bat>우투우타</kdp:throw_bat>
+    <kdp:graduatedFrom rdf:resource="http://data.kdata.kr/resource/Gongju_High_School"/>
+    <kdp:playerNumber>61</kdp:playerNumber>
+    <kdp:graduatedFrom rdf:resource="http://data.kdata.kr/resource/Gongju_Elementary_School"/>
+    <kdp:team rdf:resource="http://data.kdata.kr/resource/Hanwha_Eagles"/>
+    <kdp:birthPlace rdf:resource="http://dbpedia.org/resource/Chungcheongnam-do"/>
+    <kdp:playerRecord rdf:resource="http://data.kdata.kr/resource/Park_Chan-ho_baseball_rec2012"/>
+    <kdp:birthPlace rdf:resource="http://lod.nature.go.kr/resource/Chungcheongnamdo"/>
+    <kdp:birthPlace rdf:resource="http://dbpedia.org/resource/Gongju"/>
+    <kdp:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >1973-06-30</kdp:birthDate>
+    <kdp:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >93</kdp:weight>
+    <rdfs:label xml:lang="ko">박찬호</rdfs:label>
+    <kdp:birthPlace rdf:resource="http://data.kdata.kr/administrative_section/Chungcheongnam-do"/>
+    <dcterms:subject rdf:resource="http://data.kdata.kr/korea_data_category/Sports_Player"/>
+    <kdp:position>투수</kdp:position>
+    <kdp:graduatedFrom rdf:resource="http://data.kdata.kr/resource/Gongju_Middle_School"/>
+    <kdp:graduatedFrom rdf:resource="http://data.riss.kr/resource/University/211062"/>
+    <foaf:name xml:lang="en">Park Chan-ho</foaf:name>
+    <kdp:birthPlace rdf:resource="http://lod.fms.or.kr/resource/Gongju-si"/>
+    <kdp:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >185</kdp:height>
+    <kdp:graduatedFrom rdf:resource="http://dbpedia.org/resource/Hanyang_University"/>
+    <foaf:depiction rdf:resource="http://www.koreabaseball.com/file/person/middle/62761.jpg"/>
+    <kdp:birthPlace rdf:resource="http://data.kdata.kr/administrative_section/Gongju-si"/>
+    <dcterms:subject rdf:resource="http://data.kdata.kr/korea_data_category/Pitcher"/>
+    <foaf:name xml:lang="ko">박찬호</foaf:name>
+  </kdc:SportsPlayer>
+</rdf:RDF>

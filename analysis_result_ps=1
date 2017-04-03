@@ -1,0 +1,156 @@
++-----+----+-------+-------+---------+
+| Rep | ST |  OT   | Cases | % Cases |
++=====+====+=======+=======+=========+
+| OT  | =0 | >0    | 5     | 1.037   |
++-----+----+-------+-------+---------+
+| GT  | =0 | =0    | 263   | 54.564  |
++-----+----+-------+-------+---------+
+| SOT | >0 | >0    | 109   | 22.614  |
++-----+----+-------+-------+---------+
+| ST  | >0 | =0    | 105   | 21.784  |
++-----+----+-------+-------+---------+
+|     |    | Total | 482   |         |
++-----+----+-------+-------+---------+
++------------+-------+---------+-------------+--------------+
+| % STriples | Cases | % Cases | SLink Cases | PSLink Cases |
++============+=======+=========+=============+==============+
+| 0          | 312   | 64.730  | 49          | 35           |
++------------+-------+---------+-------------+--------------+
+| >0 & <=10  | 26    | 5.394   | 26          | 20           |
++------------+-------+---------+-------------+--------------+
+| >10 & <=20 | 16    | 3.320   | 16          | 9            |
++------------+-------+---------+-------------+--------------+
+| >20 & <=30 | 12    | 2.490   | 12          | 2            |
++------------+-------+---------+-------------+--------------+
+| >30 & <=40 | 9     | 1.867   | 9           | 2            |
++------------+-------+---------+-------------+--------------+
+| >40 & <=50 | 14    | 2.905   | 14          | 0            |
++------------+-------+---------+-------------+--------------+
+| >50 & <=60 | 17    | 3.527   | 17          | 1            |
++------------+-------+---------+-------------+--------------+
+| >60 & <=70 | 5     | 1.037   | 5           | 0            |
++------------+-------+---------+-------------+--------------+
+| >70 & <=80 | 10    | 2.075   | 10          | 2            |
++------------+-------+---------+-------------+--------------+
+| >80 & <=90 | 6     | 1.245   | 6           | 2            |
++------------+-------+---------+-------------+--------------+
+| >= 90      | 55    | 11.411  | 55          | 1            |
++------------+-------+---------+-------------+--------------+
+
+Popular Predicates:
+http://www.w3.org/2004/02/skos/core#member
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://creativecommons.org/ns#attributionURL
+http://purl.org/dc/elements/1.1/source
+http://web.resource.org/cc/attributionURL
+http://xmlns.com/foaf/0.1/primaryTopic
+http://purl.org/dc/elements/1.1/source
+http://purl.org/dc/terms/hasPart
+http://purl.org/dc/terms/isPartOf
+http://xmlns.com/foaf/0.1/primaryTopic
+http://education.data.gov.uk/def/school/address
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+http://www.w3.org/2006/time#hasEnd
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/elements/1.1/source
+http://xmlns.com/foaf/0.1/primaryTopic
+http://purl.org/dc/terms/hasPart
+http://purl.org/dc/terms/isPartOf
+http://xmlns.com/foaf/0.1/primaryTopic
+http://purl.org/dc/elements/1.1/source
+http://www.w3.org/2002/07/owl#sameAs
+http://xmlns.com/foaf/0.1/primaryTopic
+http://creativecommons.org/ns#attributionURL
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://rdfs.org/sioc/ns#has_owner
+http://rdf.myexperiment.org/ontologies/base/last-edited-by
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://www.w3.org/2007/05/powder-s#describedby
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://www.w3.org/2002/07/owl#sameAs
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://purl.org/dc/terms/hasPart
+http://purl.org/dc/terms/isPartOf
+http://xmlns.com/foaf/0.1/topic
+http://www.w3.org/2007/05/powder-s#describedby
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+http://www.w3.org/2002/07/owl#sameAs
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://www.w3.org/2000/01/rdf-schema#subClassOf
+http://xmlns.com/foaf/0.1/primaryTopic
+http://creativecommons.org/ns#attributionURL
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://purl.org/dc/elements/1.1/source
+http://xmlns.com/foaf/0.1/primaryTopic
+http://creativecommons.org/ns#attributionURL
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+http://xmlns.com/foaf/0.1/primaryTopic
+http://creativecommons.org/ns#attributionURL
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/primaryTopic
+http://www.w3.org/2002/07/owl#sameAs
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://purl.org/dc/elements/1.1/source
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/focus
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://purl.org/dc/elements/1.1/source
+http://purl.org/dc/elements/1.1/source
+http://www.metalex.eu/metalex/2008-05-02#embodies
+http://purl.org/dc/terms/isFormatOf
+http://purl.org/vocab/frbr/core#embodimentOf
+http://purl.org/vocab/frbr/core#embodiment
+http://purl.org/dc/terms/hasFormat
+http://www.metalex.eu/metalex/2008-05-02#embodiedBy
+http://purl.org/dc/elements/1.1/source
+http://xmlns.com/foaf/0.1/topic
+http://www.w3.org/2007/05/powder-s#describedby
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/primaryTopic
+http://km.aifb.kit.edu/projects/numbers/number#primefactor
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/elements/1.1/source
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://purl.org/dc/terms/isFormatOf
+http://purl.org/dc/terms/hasFormat
+http://purl.org/dc/terms/isPartOf
+http://purl.org/dc/terms/hasPart
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic

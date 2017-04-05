@@ -68,7 +68,11 @@ try to load graphs
 
 generateResult.py
 ==================
-
+- generate the rRepStats.json file which contains:
+	- ATriples
+	- STriples
+	- OTriples
+	- GTriples
 
 generateTTLFile.py
 ==================

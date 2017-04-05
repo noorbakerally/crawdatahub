@@ -25,6 +25,18 @@ def getAllTriples(g):
         for row in result:
                 return row.numA
 
+def getNumSameTriple(g,resource):
+        query = ''' SELECT (count(*) as ?numSame) WHERE 
+		{ 
+		  { <'''+resource+ '''> ?p <'''+resource+'''> .}
+	} '''
+        result = g.query(query)
+        if (result==None):
+                return 0
+        for row in result:
+                return row.numSame
+
+
 with open("cleanlinks.json","r") as cleanLinksFile:
 	cleanLinks = json.load(cleanLinksFile)
 
@@ -47,20 +59,22 @@ for rlink in cleanLinks["links"].keys():
 	try:
 		g = g.parse(rfiles+str(i),format=rformat)
 		rlink = rlink.replace("\n","")
-		aTriples = getAllTriples(g)
-		STriples = getSNumTriples(g,rlink)
-		OTriples = getONumTriples(g,rlink)
+		aTriples = int(getAllTriples(g))
+		STriples = int(getSNumTriples(g,rlink))
+		OTriples = int(getONumTriples(g,rlink))
+		sameTriples = int(getNumSameTriple(g,rlink))
 		rRep[rlink] = {}
 		rRep[rlink]["ATriples"] = aTriples
 		rRep[rlink]["STriples"] = STriples
 		rRep[rlink]["OTriples"] = OTriples
+		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples - sameTriples*2
 		
 		print "success:"
 		
 	except:
 		print "error:"
 		errors[rlink]=rformat
-
+	#break
 with open('errorloading.json', 'w') as outfile:
     json.dump(errors, outfile)
 

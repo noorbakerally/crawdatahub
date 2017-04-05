@@ -15,7 +15,7 @@ for rlink in data:
 	aTriples = data[rlink]["ATriples"]
 	sTriples = data[rlink]["STriples"]
 	oTriples = data[rlink]["OTriples"]
-	oTriples = data[rlink]["GTriples"]
+	gTriples = data[rlink]["GTriples"]
 	linkNode = URIRef(rlink)	
 	aTripleNode = URIRef(on+"nbATriples")
 	sTripleNode = URIRef(on+"nbSTriples")

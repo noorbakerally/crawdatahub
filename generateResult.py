@@ -49,7 +49,9 @@ errors = {}
 
 rRep = {}
 
+counter = 0
 for rlink in cleanLinks["links"].keys():
+	counter = counter + 1
 	i = cleanLinks["links"][rlink]	
 	
 	if rlink not in rlinkstatus.keys():
@@ -67,9 +69,9 @@ for rlink in cleanLinks["links"].keys():
 		rRep[rlink]["ATriples"] = aTriples
 		rRep[rlink]["STriples"] = STriples
 		rRep[rlink]["OTriples"] = OTriples
-		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples - sameTriples*2
+		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples + sameTriples
 		
-		print "success:"
+		print "success:" + str(counter)
 		
 	except:
 		print "error:"

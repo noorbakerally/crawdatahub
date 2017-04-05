@@ -1,0 +1,102 @@
++-----+----+-------+-------+---------+
+| Rep | ST |  OT   | Cases | % Cases |
++=====+====+=======+=======+=========+
+| OT  | =0 | >0    | 5     | 1.037   |
++-----+----+-------+-------+---------+
+| GT  | =0 | =0    | 263   | 54.564  |
++-----+----+-------+-------+---------+
+| SOT | >0 | >0    | 109   | 22.614  |
++-----+----+-------+-------+---------+
+| ST  | >0 | =0    | 105   | 21.784  |
++-----+----+-------+-------+---------+
+|     |    | Total | 482   |         |
++-----+----+-------+-------+---------+
++------------+-------+---------+-------------+--------------+
+| % STriples | Cases | % Cases | SLink Cases | PSLink Cases |
++============+=======+=========+=============+==============+
+| 0          | 312   | 64.730  | 49          | 43           |
++------------+-------+---------+-------------+--------------+
+| >0 & <=10  | 26    | 5.394   | 26          | 25           |
++------------+-------+---------+-------------+--------------+
+| >10 & <=20 | 16    | 3.320   | 16          | 16           |
++------------+-------+---------+-------------+--------------+
+| >20 & <=30 | 12    | 2.490   | 12          | 10           |
++------------+-------+---------+-------------+--------------+
+| >30 & <=40 | 9     | 1.867   | 9           | 8            |
++------------+-------+---------+-------------+--------------+
+| >40 & <=50 | 14    | 2.905   | 14          | 12           |
++------------+-------+---------+-------------+--------------+
+| >50 & <=60 | 17    | 3.527   | 17          | 16           |
++------------+-------+---------+-------------+--------------+
+| >60 & <=70 | 5     | 1.037   | 5           | 5            |
++------------+-------+---------+-------------+--------------+
+| >70 & <=80 | 10    | 2.075   | 10          | 10           |
++------------+-------+---------+-------------+--------------+
+| >80 & <=90 | 6     | 1.245   | 6           | 5            |
++------------+-------+---------+-------------+--------------+
+| >= 90      | 55    | 11.411  | 55          | 1            |
++------------+-------+---------+-------------+--------------+
+
+Popular Predicates:
+http://www.w3.org/2004/02/skos/core#member
+http://purl.org/dc/terms/publisher
+http://www.w3.org/2000/10/swap/pim/contact#preferredURI
+http://xmlns.com/foaf/0.1/primaryTopic
+http://xmlns.com/foaf/0.1/topic
+http://www.w3.org/2008/05/skos-xl#prefLabel
+http://purl.org/dc/elements/1.1/source
+http://creativecommons.org/ns#attributionURL
+http://rdfs.org/ns/void#exampleResource
+http://web.resource.org/cc/attributionURL
+http://purl.org/dc/terms/hasPart
+http://purl.org/dc/terms/isPartOf
+http://xmlns.com/foaf/0.1/member
+http://swrc.ontoware.org/ontology#affiliation
+http://data.semanticweb.org/ns/swc/ontology#affiliation
+http://education.data.gov.uk/def/school/address
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+http://www.w3.org/2006/time#hasEnd
+http://www.w3.org/2006/time#hasBeginning
+http://www.w3.org/2002/07/owl#sameAs
+http://vocab.getty.edu/ontology#prefLabelGVP
+http://www.w3.org/2000/01/rdf-schema#seeAlso
+http://www.w3.org/2008/05/skos-xl#altLabel
+http://rdf.myexperiment.org/ontologies/base/last-edited-by
+http://rdfs.org/sioc/ns#has_owner
+http://www.w3.org/2007/05/powder-s#describedby
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://dbpedia.org/property/company
+http://dbpedia.org/ontology/publisher
+http://www.w3.org/2004/02/skos/core#inScheme
+http://rdf.myexperiment.org/ontologies/base/has-accepter
+http://purl.org/dc/elements/1.1/publisher
+http://www.w3.org/2000/01/rdf-schema#subClassOf
+http://www.geonames.org/ontology#childrenFeatures
+http://www.geonames.org/ontology#parentFeature
+http://vivoweb.org/ontology/core#relatedBy
+http://vivoweb.org/ontology/core#relates
+http://www.w3.org/2004/02/skos/core#semanticRelation
+http://www.w3.org/2004/02/skos/core#related
+http://dbpedia.org/property/subject
+http://dbpedia.org/ontology/nonFictionSubject
+http://pt.dbpedia.org/property/residencia
+http://pt.dbpedia.org/ontology/residence
+http://pt.dbpedia.org/ontology/birthPlace
+http://pt.dbpedia.org/ontology/country
+http://purl.org/linked-data/cube#dataSet
+http://xmlns.com/foaf/0.1/focus
+http://www.w3.org/2004/02/skos/core#exactMatch
+http://www.w3.org/2004/02/skos/core#mappingRelation
+http://www.w3.org/2004/02/skos/core#closeMatch
+http://www.aktors.org/ontology/portal#has-publication-reference
+http://www.metalex.eu/metalex/2008-05-02#embodies
+http://purl.org/vocab/frbr/core#embodimentOf
+http://purl.org/dc/terms/isFormatOf
+http://purl.org/dc/terms/hasFormat
+http://www.metalex.eu/metalex/2008-05-02#embodiedBy
+http://purl.org/collections/nl/dss/mdb/has_aanmonstering
+http://www.geonames.org/ontology#parentADM2
+http://vocab.lenka.no/geo-deling#senter
+http://km.aifb.kit.edu/projects/numbers/number#primefactor
+http://purl.org/dc/terms/creator
+http://purl.org/dc/elements/1.1/subject

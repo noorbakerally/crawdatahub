@@ -14,7 +14,7 @@ g.bind("on",ON)
 g.bind("da",DA)
 
 for rlink in data:
-#for rlink in ["http://acm.rkbexplorer.com/id/998550"]:
+#for rlink in ["http://aemet.linkeddata.es/resource/WeatherStation/id08001?output=ttl"]:
 	#print rlink
 	rlink = rlink.replace("\n","")
 	#print data[rlink]

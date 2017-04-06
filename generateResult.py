@@ -65,8 +65,9 @@ errors = {}
 rRep = {}
 
 counter = 0
-#for rlink in cleanLinks["links"].keys():
-for rlink in ["http://aims.fao.org/aos/data/c_2724?output=xml"]:
+for rlink in cleanLinks["links"].keys():
+#for rlink in ["http://aims.fao.org/aos/data/c_2724?output=xml"]:
+#for rlink in ["http://aemet.linkeddata.es/resource/WeatherStation/id08001?output=ttl"]:
 	counter = counter + 1
 	i = cleanLinks["links"][rlink]	
 	

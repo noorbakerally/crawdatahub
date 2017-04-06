@@ -162,6 +162,12 @@ for result in results.keys():
 	
 	#performing a classification based on categorisation	
 	pS = (float(sTriples)/float(aTriples)) * 100
+	
+	#pS=0 always
+	if cresult["STriples"] == "0":
+		subOc["0"]["Cases"] = subOc["0"]["Cases"] + 1
+		continue
+	
 	pS = int(math.ceil(pS))
 	sPs = str(pS)
 	pS = int(math.ceil(int(sPs) / 10))
@@ -177,8 +183,8 @@ for result in results.keys():
 		subOc[str(pS)]["SLink Case"] = subOc[str(pS)]["SLink Case"] + 1
 
 	#get most n popular subject
-	n = 3
-	p = getNPopularSubject(g,n)
+	n = 1
+	p = getNPopularSubject(g,1)
 	#check if rlink is related to the n popular subject
 	pred = hasLinktoPSubject(g,p,result)
 	if (len(pred) > 0):

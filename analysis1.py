@@ -1,8 +1,8 @@
+from __future__ import division
 import json
 from rdflib import Graph
 from texttable import Texttable
 import math
-
 import sys  
 reload(sys)  
 sys.setdefaultencoding('utf8')
@@ -136,7 +136,7 @@ for result in results.keys():
 		#continue
 
 	cresult = results[result]
-	if cresult["ATriples"] == "0":
+	if cresult["ATriples"] == 0:
 		continue
 
 
@@ -144,33 +144,38 @@ for result in results.keys():
 	index = links["links"][result]		
 	rformat = rlinkstatus[result]
 
-	if cresult["STriples"] == "0" and cresult["OTriples"] == "0":
+	if cresult["STriples"] == 0 and cresult["OTriples"] == 0:
 		sCases["GT"]["NumCase"] = sCases["GT"]["NumCase"] + 1			
 
-	elif cresult["STriples"] != "0" and cresult["OTriples"] == "0":
+	elif cresult["STriples"] != 0 and cresult["OTriples"] == 0:
 		sCases["ST"]["NumCase"] = sCases["ST"]["NumCase"] + 1			
 	
-	elif cresult["STriples"] != "0" and cresult["OTriples"] != "0":
+	elif cresult["STriples"] != 0 and cresult["OTriples"] != 0:
 		sCases["SOT"]["NumCase"] = sCases["SOT"]["NumCase"] + 1			
 	
-	elif cresult["STriples"] == "0" and cresult["OTriples"] != "0":
+	elif cresult["STriples"] == 0 and cresult["OTriples"] != 0:
 		sCases["OT"]["NumCase"] = sCases["OT"]["NumCase"] + 1			
 
 	aTriples = int(cresult["ATriples"])
 	sTriples = int(cresult["STriples"])
 	oTriples = int(cresult["OTriples"])
 	
-	#performing a classification based on categorisation	
-	pS = (float(sTriples)/float(aTriples)) * 100
 	
 	#pS=0 always
-	if cresult["STriples"] == "0":
+	if cresult["STriples"] == 0:
 		subOc["0"]["Cases"] = subOc["0"]["Cases"] + 1
 		continue
 	
+	#performing a classification based on categorisation	
+	pS = (sTriples/aTriples) * 100
+	if (pS >= 0 and pS < 1 or pS==0):
+		pS = 1
 	pS = int(math.ceil(pS))
 	sPs = str(pS)
 	pS = int(math.ceil(int(sPs) / 10))
+	if pS == 0:
+		
+		print cresult
 	subOc[str(pS)]["Cases"] = subOc[str(pS)]["Cases"] + 1
 
 	#load graph

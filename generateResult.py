@@ -36,6 +36,18 @@ def getNumSameTriple(g,resource):
         for row in result:
                 return row.numSame
 
+def getNPopularSubject(g,n):
+        query = '''select distinct ?s (COUNT(?s) as ?numS ) WHERE {
+                   ?s ?p ?o 
+                } 
+                GROUP BY ?s 
+                ORDER BY DESC (?numS)
+                LIMIT ''' + str(n)
+        subs = []
+        result = g.query(query)
+        for subject in result:
+                subs.append(str(subject.s))
+        return subs
 
 with open("cleanlinks.json","r") as cleanLinksFile:
 	cleanLinks = json.load(cleanLinksFile)
@@ -70,7 +82,7 @@ for rlink in cleanLinks["links"].keys():
 		rRep[rlink]["STriples"] = STriples
 		rRep[rlink]["OTriples"] = OTriples
 		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples + sameTriples
-		
+		rRep[rlink]["PSubject"] = getNPopularSubject(g,1)[0]
 		print "success:" + str(counter)
 		
 	except:

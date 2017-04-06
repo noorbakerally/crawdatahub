@@ -14,13 +14,17 @@ g.bind("on",ON)
 g.bind("da",DA)
 
 for rlink in data:
-	#print rlink
+	print rlink
 	rlink = rlink.replace("\n","")
+	print data[rlink]
+	linkNode = URIRef(rlink)	
 	aTriples = data[rlink]["ATriples"]
 	sTriples = data[rlink]["STriples"]
 	oTriples = data[rlink]["OTriples"]
 	gTriples = data[rlink]["GTriples"]
-	linkNode = URIRef(rlink)	
+	if "PSubject" in data[rlink]:
+		pSubject = data[rlink]["PSubject"]
+		g.add( (linkNode, ON.pSubject, Literal(pSubject) ))
 	aTripleNode = URIRef(on+"nbATriples")
 	sTripleNode = URIRef(on+"nbSTriples")
 	oTripleNode = URIRef(on+"nbOTriples")
@@ -32,4 +36,5 @@ for rlink in data:
 	g.add( (linkNode, oTripleNode, Literal(int(oTriples))) )
 	g.add( (linkNode, gTripleNode, Literal(int(gTriples))) )
 	#break
+
 print g.serialize(format="turtle")

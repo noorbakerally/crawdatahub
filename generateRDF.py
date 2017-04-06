@@ -14,9 +14,9 @@ g.bind("on",ON)
 g.bind("da",DA)
 
 for rlink in data:
-	print rlink
+	#print rlink
 	rlink = rlink.replace("\n","")
-	print data[rlink]
+	#print data[rlink]
 	linkNode = URIRef(rlink)	
 	aTriples = data[rlink]["ATriples"]
 	sTriples = data[rlink]["STriples"]

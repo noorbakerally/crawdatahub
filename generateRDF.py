@@ -26,6 +26,7 @@ for rlink in data:
 	oTripleNode = URIRef(on+"nbOTriples")
 	gTripleNode = URIRef(on+"nbGTriples")
 	
+	g.add( (linkNode, RDF.type, ON.WebRDFResource ) )
 	g.add( (linkNode, aTripleNode, Literal(int(aTriples))) )
 	g.add( (linkNode, sTripleNode, Literal(int(sTriples))) )
 	g.add( (linkNode, oTripleNode, Literal(int(oTriples))) )

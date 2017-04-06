@@ -1,4 +1,5 @@
 import json
+import traceback
 from rdflib import Graph
 
 def getSNumTriples(g,resource):
@@ -64,8 +65,8 @@ errors = {}
 rRep = {}
 
 counter = 0
-for rlink in cleanLinks["links"].keys():
-#for rlink in ["http://acm.rkbexplorer.com/id/998550"]:
+#for rlink in cleanLinks["links"].keys():
+for rlink in ["http://aims.fao.org/aos/data/c_2724?output=xml"]:
 	counter = counter + 1
 	i = cleanLinks["links"][rlink]	
 	
@@ -88,11 +89,22 @@ for rlink in cleanLinks["links"].keys():
 		pSubject = getNPopularSubject(g,1)[0]
 		if "crawdatahub/rfiles" in pSubject:
 			rRep[rlink]["PSubject"] = rlink
-
+		else:
+			#PSubject is a different subject than resource denoted by rlink
+			rRep[rlink]["PSubject"] = pSubject
+			rRep[rlink]["PSubjectDetails"] = {}
+			STriples = int(getSNumTriples(g,pSubject))
+			OTriples = int(getONumTriples(g,pSubject))	
+			sameTriples = int(getNumSameTriple(g,pSubject))
+			GTriples = aTriples - STriples - OTriples + sameTriples
+			rRep[rlink]["PSubjectDetails"]["STriples"] = STriples
+			rRep[rlink]["PSubjectDetails"]["OTriples"] = OTriples
+			rRep[rlink]["PSubjectDetails"]["GTriples"] = GTriples
 		print "success:" + str(counter)
 		
 	except:
 		print "error:"
+		traceback.print_exc()
 		errors[rlink]=rformat
 	#break
 with open('errorloading.json', 'w') as outfile:

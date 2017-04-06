@@ -86,8 +86,8 @@ for rlink in cleanLinks["links"].keys():
 		rRep[rlink]["OTriples"] = OTriples
 		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples + sameTriples
 		pSubject = getNPopularSubject(g,1)[0]
-		if "crawdatahub/rfiles" not in pSubject:
-			rRep[rlink]["PSubject"] = pSubject
+		if "crawdatahub/rfiles" in pSubject:
+			rRep[rlink]["PSubject"] = rlink
 
 		print "success:" + str(counter)
 		

@@ -9,15 +9,13 @@
     on:nbATriples 11 ;
     on:nbGTriples 4 ;
     on:nbOTriples 4 ;
-    on:nbSTriples 4 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/134" .
+    on:nbSTriples 4 .
 
 <http://acm.rkbexplorer.com/ontologies/acm#B.1.3.1> a on:WebRDFResource ;
     on:nbATriples 4674 ;
     on:nbGTriples 4670 ;
     on:nbOTriples 0 ;
-    on:nbSTriples 4 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/364" .
+    on:nbSTriples 4 .
 
 <http://aemet.linkeddata.es/resource/WeatherStation/id08001> a on:WebRDFResource ;
     on:nbATriples 48 ;
@@ -253,8 +251,7 @@
     on:nbATriples 5 ;
     on:nbGTriples 3 ;
     on:nbOTriples 2 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/19" .
+    on:nbSTriples 0 .
 
 <http://cleavey.timttmy.co.uk/foaf> a on:WebRDFResource ;
     on:nbATriples 315 ;
@@ -295,8 +292,7 @@
     on:nbATriples 18 ;
     on:nbGTriples 3 ;
     on:nbOTriples 11 ;
-    on:nbSTriples 4 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/136" .
+    on:nbSTriples 4 .
 
 <http://crm.rkbexplorer.com/id/E5.Event> a on:WebRDFResource ;
     on:nbATriples 51 ;
@@ -629,8 +625,7 @@
     on:nbATriples 22 ;
     on:nbGTriples 22 ;
     on:nbOTriples 0 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/295#" .
+    on:nbSTriples 0 .
 
 <http://doc.esd-toolkit.eu/service/644.rdf> a on:WebRDFResource ;
     on:nbATriples 41 ;
@@ -643,8 +638,7 @@
     on:nbATriples 6 ;
     on:nbGTriples 4 ;
     on:nbOTriples 2 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/292" .
+    on:nbSTriples 0 .
 
 <http://dx.doi.org/10.1038/171737a0> a on:WebRDFResource ;
     on:nbATriples 30 ;
@@ -671,22 +665,19 @@
     on:nbATriples 12 ;
     on:nbGTriples 12 ;
     on:nbOTriples 0 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/1014931#id" .
+    on:nbSTriples 0 .
 
 <http://edgarwrap.ontologycentral.com/cik/links.rdf> a on:WebRDFResource ;
     on:nbATriples 6599 ;
     on:nbGTriples 6599 ;
     on:nbOTriples 0 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/1119664#id" .
+    on:nbSTriples 0 .
 
 <http://edgarwrap.ontologycentral.com/sic/> a on:WebRDFResource ;
     on:nbATriples 9147 ;
     on:nbGTriples 9147 ;
     on:nbOTriples 0 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/7359#id" .
+    on:nbSTriples 0 .
 
 <http://education.data.gov.uk/doc/school/110158.rdf> a on:WebRDFResource ;
     on:nbATriples 21 ;
@@ -748,8 +739,7 @@
     on:nbATriples 5 ;
     on:nbGTriples 3 ;
     on:nbOTriples 2 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/33" .
+    on:nbSTriples 0 .
 
 <http://epsrc.rkbexplorer.com/id/resource-person-7150> a on:WebRDFResource ;
     on:nbATriples 25 ;
@@ -769,8 +759,7 @@
     on:nbATriples 15152 ;
     on:nbGTriples 15152 ;
     on:nbOTriples 0 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/188#BE" .
+    on:nbSTriples 0 .
 
 <http://eu.dbpedia.org/data/Euskal_Herria.rdf> a on:WebRDFResource ;
     on:nbATriples 1034 ;
@@ -812,7 +801,7 @@
     on:nbGTriples 41 ;
     on:nbOTriples 0 ;
     on:nbSTriples 0 ;
-    on:pSubject "N8241577f0486423fa6f4431e640a1833" .
+    on:pSubject "N409e0778e01e486da83b36430a2198b4" .
 
 <http://ft.rkbexplorer.com/id/person-0001> a on:WebRDFResource ;
     on:nbATriples 21 ;
@@ -909,8 +898,7 @@
     on:nbATriples 103 ;
     on:nbGTriples 4 ;
     on:nbOTriples 96 ;
-    on:nbSTriples 3 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/96" .
+    on:nbSTriples 3 .
 
 <http://id.esd.org.uk/service/13.rdf> a on:WebRDFResource ;
     on:nbATriples 10 ;
@@ -992,8 +980,7 @@
     on:nbATriples 4043 ;
     on:nbGTriples 4043 ;
     on:nbOTriples 0 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/530#id" .
+    on:nbSTriples 0 .
 
 <http://ineverycrea.net/comunidad/ineverycrea/recurso/Tecnicas-de-desarrollo-de-la-Creatividad-Mapas-Me/4a196d2c-a32a-4cef-9d07-dced34ef05e6?rdf> a on:WebRDFResource ;
     on:nbATriples 138 ;
@@ -1020,8 +1007,7 @@
     on:nbATriples 101 ;
     on:nbGTriples 4 ;
     on:nbOTriples 94 ;
-    on:nbSTriples 3 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/802" .
+    on:nbSTriples 3 .
 
 <http://italy.rkbexplorer.com/id/person-dsi-791ee4e9a5072fc1718f93265f87d072> a on:WebRDFResource ;
     on:nbATriples 19 ;
@@ -1076,8 +1062,7 @@
     on:nbATriples 10 ;
     on:nbGTriples 4 ;
     on:nbOTriples 4 ;
-    on:nbSTriples 2 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/189" .
+    on:nbSTriples 2 .
 
 <http://km.aifb.kit.edu/projects/numbers/n7> a on:WebRDFResource ;
     on:nbATriples 24 ;
@@ -1689,8 +1674,7 @@
     on:nbATriples 50 ;
     on:nbGTriples 50 ;
     on:nbOTriples 0 ;
-    on:nbSTriples 0 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/500#obj" .
+    on:nbSTriples 0 .
 
 <http://lucene.apache.org/core/doap.rdf> a on:WebRDFResource ;
     on:nbATriples 513 ;
@@ -1844,7 +1828,7 @@
     on:nbGTriples 77 ;
     on:nbOTriples 0 ;
     on:nbSTriples 0 ;
-    on:pSubject "N5612c0f47b6c471f80b7affe3d800583" .
+    on:pSubject "N2013349d029d4e448ffe47bb86f9bcb7" .
 
 <http://nsf.rkbexplorer.com/id/person-6092a2a72319fc9437583fb2d04733ea> a on:WebRDFResource ;
     on:nbATriples 2 ;
@@ -1928,7 +1912,7 @@
     on:nbGTriples 6 ;
     on:nbOTriples 0 ;
     on:nbSTriples 0 ;
-    on:pSubject "N92754ad675b046559b19696c18e4b501" .
+    on:pSubject "N43ce281d012349d18ae80b12b482e30b" .
 
 <http://opendata.aragon.es/recurso/territorio/Municipio/Ababuj.rdf?api_key=e103dc13eb276ad734e680f5855f20c6> a on:WebRDFResource ;
     on:nbATriples 11 ;
@@ -2207,15 +2191,14 @@
     on:nbATriples 43 ;
     on:nbGTriples 4 ;
     on:nbOTriples 36 ;
-    on:nbSTriples 3 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/798" .
+    on:nbSTriples 3 .
 
 <http://prefix.cc/foaf.file.vann> a on:WebRDFResource ;
     on:nbATriples 5 ;
     on:nbGTriples 5 ;
     on:nbOTriples 0 ;
     on:nbSTriples 0 ;
-    on:pSubject "Ndfb6e47e1e9f4b72922bbd23eeb887bc" .
+    on:pSubject "N12bd6efc2f0e4a97aa76bdc04ae2db84" .
 
 <http://premon.fbk.eu/resource/fn15-seeking> a on:WebRDFResource ;
     on:nbATriples 46 ;
@@ -2864,8 +2847,7 @@
     on:nbATriples 91 ;
     on:nbGTriples 4 ;
     on:nbOTriples 83 ;
-    on:nbSTriples 4 ;
-    on:pSubject "file:///home/bakerally/Documents/repositories/emse_gitlab/crawdatahub/rfiles/44" .
+    on:nbSTriples 4 .
 
 <http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000> a on:WebRDFResource ;
     on:nbATriples 75 ;
@@ -3019,7 +3001,7 @@
     on:nbGTriples 259 ;
     on:nbOTriples 0 ;
     on:nbSTriples 2 ;
-    on:pSubject "N78210cc3b0d74aceb1851b874666718a" .
+    on:pSubject "Ncfef17108b434cd386538c441d85de83" .
 
 <http://wifo5-04.informatik.uni-mannheim.de/dws-group/data/events/WWW2005_-_14th_International_World_Wide_Web_Conference_2005> a on:WebRDFResource ;
     on:nbATriples 17 ;

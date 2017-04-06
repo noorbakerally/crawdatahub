@@ -43,9 +43,11 @@ def getNPopularSubject(g,n):
                 GROUP BY ?s 
                 ORDER BY DESC (?numS)
                 LIMIT ''' + str(n)
+	#print query
         subs = []
         result = g.query(query)
         for subject in result:
+		#print subject
                 subs.append(str(subject.s))
         return subs
 
@@ -63,6 +65,7 @@ rRep = {}
 
 counter = 0
 for rlink in cleanLinks["links"].keys():
+#for rlink in ["http://acm.rkbexplorer.com/id/998550"]:
 	counter = counter + 1
 	i = cleanLinks["links"][rlink]	
 	
@@ -82,7 +85,10 @@ for rlink in cleanLinks["links"].keys():
 		rRep[rlink]["STriples"] = STriples
 		rRep[rlink]["OTriples"] = OTriples
 		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples + sameTriples
-		rRep[rlink]["PSubject"] = getNPopularSubject(g,1)[0]
+		pSubject = getNPopularSubject(g,1)[0]
+		if "crawdatahub/rfiles" not in pSubject:
+			rRep[rlink]["PSubject"] = pSubject
+
 		print "success:" + str(counter)
 		
 	except:

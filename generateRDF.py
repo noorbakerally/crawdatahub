@@ -14,6 +14,7 @@ g.bind("on",ON)
 g.bind("da",DA)
 
 for rlink in data:
+#for rlink in ["http://acm.rkbexplorer.com/id/998550"]:
 	#print rlink
 	rlink = rlink.replace("\n","")
 	#print data[rlink]
@@ -22,6 +23,7 @@ for rlink in data:
 	sTriples = data[rlink]["STriples"]
 	oTriples = data[rlink]["OTriples"]
 	gTriples = data[rlink]["GTriples"]
+	#print data[rlink]
 	if "PSubject" in data[rlink]:
 		pSubject = data[rlink]["PSubject"]
 		g.add( (linkNode, ON.pSubject, Literal(pSubject) ))

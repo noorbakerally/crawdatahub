@@ -100,23 +100,23 @@ for rlink in cleanLinks["links"].keys():
 		rRep[rlink]["OTriples"] = OTriples
 		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples + sameTriples
 		pResources = getNPopularResource(g,1)
-		if "crawdatahub/rfiles" in pResource:
-			rRep[rlink]["PResource"] = rlink
-		else:
-			#PSubject is a different subject than resource denoted by rlink
-			if (len(pResources) > 1):
-				pResource = getNPopularResource(g,1)[0]
-				rRep[rlink]["PResource"] = pResource
-				rRep[rlink]["PResourceDetails"] = {}
-				STriples = int(getSNumTriples(g,pResource))
-				OTriples = int(getONumTriples(g,pResource))	
-				sameTriples = int(getNumSameTriple(g,pResource))
-				GTriples = aTriples - STriples - OTriples + sameTriples
-				rRep[rlink]["PResourceDetails"]["STriples"] = STriples
-				rRep[rlink]["PResourceDetails"]["OTriples"] = OTriples
-				rRep[rlink]["PResourceDetails"]["GTriples"] = GTriples
-				rRep[rlink]["PResourceDetails"]["Relations"] = getRelationWithResource(g,pResource,rlink)
-		print "success:" + str(counter)
+		if (len(pResources) > 1):
+			pResource = getNPopularResource(g,1)[0]
+			if "crawdatahub/rfiles" in pResource:
+				rRep[rlink]["PResource"] = rlink
+			else:
+				#PSubject is a different subject than resource denoted by rlink
+					rRep[rlink]["PResource"] = pResource
+					rRep[rlink]["PResourceDetails"] = {}
+					STriples = int(getSNumTriples(g,pResource))
+					OTriples = int(getONumTriples(g,pResource))	
+					sameTriples = int(getNumSameTriple(g,pResource))
+					GTriples = aTriples - STriples - OTriples + sameTriples
+					rRep[rlink]["PResourceDetails"]["STriples"] = STriples
+					rRep[rlink]["PResourceDetails"]["OTriples"] = OTriples
+					rRep[rlink]["PResourceDetails"]["GTriples"] = GTriples
+					rRep[rlink]["PResourceDetails"]["Relations"] = getRelationWithResource(g,pResource,rlink)
+			print "success:" + str(counter)
 		
 	except:
 		print "error:"

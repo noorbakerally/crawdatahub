@@ -77,8 +77,8 @@ errors = {}
 rRep = {}
 
 counter = 0
-for rlink in cleanLinks["links"].keys():
-#for rlink in ["http://aims.fao.org/aos/data/c_2724?output=xml","http://aemet.linkeddata.es/resource/WeatherStation/id08001?output=ttl"]:
+#for rlink in cleanLinks["links"].keys():
+for rlink in ["http://aims.fao.org/aos/data/c_2724?output=xml","http://aemet.linkeddata.es/resource/WeatherStation/id08001?output=ttl"]:
 	#print rlink
 	counter = counter + 1
 	i = cleanLinks["links"][rlink]	
@@ -100,7 +100,7 @@ for rlink in cleanLinks["links"].keys():
 		rRep[rlink]["OTriples"] = OTriples
 		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples + sameTriples
 		pResources = getNPopularResource(g,1)
-		if (len(pResources) > 1):
+		if (len(pResources) > 0):
 			pResource = getNPopularResource(g,1)[0]
 			if "crawdatahub/rfiles" in pResource:
 				rRep[rlink]["PResource"] = rlink

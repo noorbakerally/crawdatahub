@@ -31,15 +31,16 @@ for rlink in data:
 		pResourceDescNode = BNode()
 		g.add( (linkNode, ON.pResourceDesc, pResourceDescNode ))
 		g.add( (pResourceDescNode, ON.pResource, pResource ))
+		g.add( (pResourceDescNode, RDF.type, ON.PResourceDesc ))
 		if "PResourceDetails" in data[rlink]:
 			sTriples = data[rlink]["PResourceDetails"]["STriples"]
 			oTriples = data[rlink]["PResourceDetails"]["OTriples"]
 			gTriples = data[rlink]["PResourceDetails"]["GTriples"]
-			g.add( ( pResource, sTripleNode, Literal(int(sTriples))) )
-        		g.add( ( pResource, oTripleNode, Literal(int(oTriples))) )
-        		g.add( ( pResource, gTripleNode, Literal(int(gTriples))) )
-			g.add( ( pResource, RDF.type, ON.WebRDFResource ) )
-			g.add( ( pResource, RDF.type, ON.PResource ) )
+			g.add( ( pResourceDescNode, sTripleNode, Literal(int(sTriples))) )
+        		g.add( ( pResourceDescNode, oTripleNode, Literal(int(oTriples))) )
+        		g.add( ( pResourceDescNode, gTripleNode, Literal(int(gTriples))) )
+			#g.add( ( pResource, RDF.type, ON.WebRDFResource ) )
+			#g.add( ( pResource, RDF.type, ON.PResource ) )
 			for pred in data[rlink]["PResourceDetails"]["Relations"]:
 				g.add( (pResourceDescNode, ON.pResourcePredicate, URIRef(pred) ) )
 	

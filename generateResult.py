@@ -37,9 +37,10 @@ def getNumSameTriple(g,resource):
         for row in result:
                 return row.numSame
 
-def getNPopularSubject(g,n):
+def getNPopularResource(g,n):
         query = '''select distinct ?s (COUNT(?s) as ?numS ) WHERE {
-                   ?s ?p ?o 
+                   { ?s ?p ?o } UNION { ?o ?p ?s }
+		   FILTER (isIRI(?s))
                 } 
                 GROUP BY ?s 
                 ORDER BY DESC (?numS)
@@ -51,6 +52,17 @@ def getNPopularSubject(g,n):
 		#print subject
                 subs.append(str(subject.s))
         return subs
+
+def getRelationWithResource(g,r,rlink):
+        query = "SELECT DISTINCT ?p WHERE { { <"+rlink+"> ?p <"+r+">} UNION { <"+r+"> ?p <"+rlink+"> } }" 
+        #print query
+        preds = []
+        result = g.query(query)
+        for p in result:
+                #print subject
+                preds.append(str(p.p))
+        return preds
+
 
 with open("cleanlinks.json","r") as cleanLinksFile:
 	cleanLinks = json.load(cleanLinksFile)
@@ -66,8 +78,8 @@ rRep = {}
 
 counter = 0
 for rlink in cleanLinks["links"].keys():
-#for rlink in ["http://aims.fao.org/aos/data/c_2724?output=xml"]:
-#for rlink in ["http://aemet.linkeddata.es/resource/WeatherStation/id08001?output=ttl"]:
+#for rlink in ["http://aims.fao.org/aos/data/c_2724?output=xml","http://aemet.linkeddata.es/resource/WeatherStation/id08001?output=ttl"]:
+	#print rlink
 	counter = counter + 1
 	i = cleanLinks["links"][rlink]	
 	
@@ -87,20 +99,21 @@ for rlink in cleanLinks["links"].keys():
 		rRep[rlink]["STriples"] = STriples
 		rRep[rlink]["OTriples"] = OTriples
 		rRep[rlink]["GTriples"] = aTriples - STriples - OTriples + sameTriples
-		pSubject = getNPopularSubject(g,1)[0]
-		if "crawdatahub/rfiles" in pSubject:
-			rRep[rlink]["PSubject"] = rlink
+		pResource = getNPopularResource(g,1)[0]
+		if "crawdatahub/rfiles" in pResource:
+			rRep[rlink]["PResource"] = rlink
 		else:
 			#PSubject is a different subject than resource denoted by rlink
-			rRep[rlink]["PSubject"] = pSubject
-			rRep[rlink]["PSubjectDetails"] = {}
-			STriples = int(getSNumTriples(g,pSubject))
-			OTriples = int(getONumTriples(g,pSubject))	
-			sameTriples = int(getNumSameTriple(g,pSubject))
+			rRep[rlink]["PResource"] = pResource
+			rRep[rlink]["PResourceDetails"] = {}
+			STriples = int(getSNumTriples(g,pResource))
+			OTriples = int(getONumTriples(g,pResource))	
+			sameTriples = int(getNumSameTriple(g,pResource))
 			GTriples = aTriples - STriples - OTriples + sameTriples
-			rRep[rlink]["PSubjectDetails"]["STriples"] = STriples
-			rRep[rlink]["PSubjectDetails"]["OTriples"] = OTriples
-			rRep[rlink]["PSubjectDetails"]["GTriples"] = GTriples
+			rRep[rlink]["PResourceDetails"]["STriples"] = STriples
+			rRep[rlink]["PResourceDetails"]["OTriples"] = OTriples
+			rRep[rlink]["PResourceDetails"]["GTriples"] = GTriples
+			rRep[rlink]["PResourceDetails"]["Relations"] = getRelationWithResource(g,pResource,rlink)
 		print "success:" + str(counter)
 		
 	except:

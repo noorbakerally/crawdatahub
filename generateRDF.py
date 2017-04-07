@@ -26,23 +26,26 @@ for rlink in data:
 	oTripleNode = URIRef(on+"nbOTriples")
 	gTripleNode = URIRef(on+"nbGTriples")
 	#print data[rlink]
-	if "PSubject" in data[rlink]:
-		pSubject = data[rlink]["PSubject"]
-		g.add( (linkNode, ON.pSubject, URIRef(pSubject) ))
-		if "PSubjectDetails" in data[rlink]:
-			sTriples = data[rlink]["PSubjectDetails"]["STriples"]
-			oTriples = data[rlink]["PSubjectDetails"]["OTriples"]
-			gTriples = data[rlink]["PSubjectDetails"]["GTriples"]
-			g.add( (URIRef(pSubject), sTripleNode, Literal(int(sTriples))) )
-        		g.add( (URIRef(pSubject), oTripleNode, Literal(int(oTriples))) )
-        		g.add( (URIRef(pSubject), gTripleNode, Literal(int(gTriples))) )
-
+	if "PResource" in data[rlink]:
+		pResource = data[rlink]["PResource"]
+		g.add( (linkNode, ON.pResource, URIRef(pResource) ))
+		if "PResourceDetails" in data[rlink]:
+			sTriples = data[rlink]["PResourceDetails"]["STriples"]
+			oTriples = data[rlink]["PResourceDetails"]["OTriples"]
+			gTriples = data[rlink]["PResourceDetails"]["GTriples"]
+			g.add( (URIRef(pResource), sTripleNode, Literal(int(sTriples))) )
+        		g.add( (URIRef(pResource), oTripleNode, Literal(int(oTriples))) )
+        		g.add( (URIRef(pResource), gTripleNode, Literal(int(gTriples))) )
+			g.add( (URIRef(pResource), RDF.type, ON.WebRDFResource ) )
+			g.add( (URIRef(pResource), RDF.type, ON.PResource ) )
+			for pred in data[rlink]["PResourceDetails"]["Relations"]:
+				g.add( (linkNode, ON.pResourcePredicate, URIRef(pred) ) )
 	
 	aTriples = data[rlink]["ATriples"]
 	sTriples = data[rlink]["STriples"]
 	oTriples = data[rlink]["OTriples"]
 	gTriples = data[rlink]["GTriples"]
-	g.add( (linkNode, RDF.type, ON.WebRDFResource ) )
+	g.add( (linkNode, RDF.type, ON.WebRDFSource ) )
 	g.add( (linkNode, aTripleNode, Literal(int(aTriples))) )
 	g.add( (linkNode, sTripleNode, Literal(int(sTriples))) )
 	g.add( (linkNode, oTripleNode, Literal(int(oTriples))) )
